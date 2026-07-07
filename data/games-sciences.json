@@ -1,0 +1,329 @@
+{
+  "geografie": [
+    {
+      "title": "Cidades: Vlaanderen ou Wallonie?",
+      "instruction": "Arraste cada cidade para a região certa da Bélgica",
+      "buckets": [
+        {"id": "b1", "label": "Vlaanderen", "emoji": "🦁"},
+        {"id": "b2", "label": "Wallonie", "emoji": "🐓"},
+        {"id": "b3", "label": "Brussel", "emoji": "⭐"}
+      ],
+      "items": [
+        {"nl": "Antwerpen", "pt": "Antuérpia, maior cidade flamenga", "emoji": "🏙️", "bucket": "b1"},
+        {"nl": "Gent", "pt": "Gante, cidade universitária flamenga", "emoji": "🏰", "bucket": "b1"},
+        {"nl": "Brugge", "pt": "Bruges, cidade medieval dos canais", "emoji": "🚤", "bucket": "b1"},
+        {"nl": "Leuven", "pt": "Lovaina, cidade universitária famosa", "emoji": "🎓", "bucket": "b1"},
+        {"nl": "Luik", "pt": "Liège, grande cidade valã", "emoji": "🏭", "bucket": "b2"},
+        {"nl": "Namen", "pt": "Namur, capital da Valônia", "emoji": "🏛️", "bucket": "b2"},
+        {"nl": "Charleroi", "pt": "Charleroi, ex-cidade industrial valã", "emoji": "⚙️", "bucket": "b2"},
+        {"nl": "Bergen", "pt": "Mons, cidade valã histórica", "emoji": "🕰️", "bucket": "b2"},
+        {"nl": "Brussel", "pt": "Bruxelas, capital federal e bilíngue", "emoji": "⭐", "bucket": "b3"},
+        {"nl": "Elsene", "pt": "Ixelles, comuna dentro de Bruxelas", "emoji": "🏘️", "bucket": "b3"}
+      ]
+    },
+    {
+      "title": "Geografia belga: rio, província ou costa?",
+      "instruction": "Classifique cada termo geográfico belga na categoria certa",
+      "buckets": [
+        {"id": "b1", "label": "Rivier", "emoji": "🌊"},
+        {"id": "b2", "label": "Provincie", "emoji": "🗺️"},
+        {"id": "b3", "label": "Kust", "emoji": "🏖️"}
+      ],
+      "items": [
+        {"nl": "de Schelde", "pt": "rio Escalda, atravessa Antuérpia", "emoji": "🌊", "bucket": "b1"},
+        {"nl": "de Maas", "pt": "rio Mosa, atravessa a Valônia", "emoji": "🌊", "bucket": "b1"},
+        {"nl": "de Leie", "pt": "rio Lys, passa por Gent", "emoji": "🌊", "bucket": "b1"},
+        {"nl": "Oost-Vlaanderen", "pt": "província de Flandres Oriental", "emoji": "🗺️", "bucket": "b2"},
+        {"nl": "West-Vlaanderen", "pt": "província de Flandres Ocidental", "emoji": "🗺️", "bucket": "b2"},
+        {"nl": "Limburg", "pt": "província do Limburgo belga", "emoji": "🗺️", "bucket": "b2"},
+        {"nl": "Antwerpen (provincie)", "pt": "província de Antuérpia", "emoji": "🗺️", "bucket": "b2"},
+        {"nl": "Oostende", "pt": "Ostende, balneário na costa belga", "emoji": "🏖️", "bucket": "b3"},
+        {"nl": "de Noordzee", "pt": "Mar do Norte, banha a Bélgica", "emoji": "🌊", "bucket": "b3"},
+        {"nl": "het strand", "pt": "a praia", "emoji": "🏖️", "bucket": "b3"}
+      ]
+    },
+    {
+      "title": "Bélgica ou Holanda?",
+      "instruction": "Separe os termos típicos da Bélgica dos típicos da Holanda",
+      "buckets": [
+        {"id": "b1", "label": "België", "emoji": "🇧🇪"},
+        {"id": "b2", "label": "Nederland", "emoji": "🇳🇱"}
+      ],
+      "items": [
+        {"nl": "Brussel", "pt": "Bruxelas, capital da Bélgica", "emoji": "🇧🇪", "bucket": "b1"},
+        {"nl": "Amsterdam", "pt": "Amsterdã, capital da Holanda", "emoji": "🇳🇱", "bucket": "b2"},
+        {"nl": "de frietjes", "pt": "batata frita, orgulho belga", "emoji": "🍟", "bucket": "b1"},
+        {"nl": "de fiets in Amsterdam", "pt": "as bicicletas típicas de Amsterdã", "emoji": "🚲", "bucket": "b2"},
+        {"nl": "Manneken Pis", "pt": "estátua símbolo de Bruxelas", "emoji": "🗿", "bucket": "b1"},
+        {"nl": "de molens van Kinderdijk", "pt": "os moinhos de vento de Kinderdijk", "emoji": "🌬️", "bucket": "b2"},
+        {"nl": "het Atomium", "pt": "monumento futurista de Bruxelas", "emoji": "⚛️", "bucket": "b1"},
+        {"nl": "Rotterdam", "pt": "maior porto da Holanda", "emoji": "🇳🇱", "bucket": "b2"},
+        {"nl": "de Grote Markt", "pt": "praça central de várias cidades belgas", "emoji": "🏛️", "bucket": "b1"},
+        {"nl": "de tulp", "pt": "tulipa, símbolo holandês", "emoji": "🌷", "bucket": "b2"}
+      ]
+    }
+  ],
+  "sport": [
+    {
+      "title": "Voetbal, wielrennen of tennis?",
+      "instruction": "Classifique cada nome ou termo no esporte belga certo",
+      "buckets": [
+        {"id": "b1", "label": "Voetbal", "emoji": "⚽"},
+        {"id": "b2", "label": "Wielrennen", "emoji": "🚴"},
+        {"id": "b3", "label": "Tennis", "emoji": "🎾"}
+      ],
+      "items": [
+        {"nl": "de Rode Duivels", "pt": "seleção belga de futebol masculino", "emoji": "😈", "bucket": "b1"},
+        {"nl": "Kevin De Bruyne", "pt": "meio-campista estrela belga", "emoji": "⚽", "bucket": "b1"},
+        {"nl": "het doelpunt", "pt": "o gol", "emoji": "🥅", "bucket": "b1"},
+        {"nl": "Eddy Merckx", "pt": "maior ciclista belga da história", "emoji": "🚴", "bucket": "b2"},
+        {"nl": "de Ronde van Vlaanderen", "pt": "clássica de ciclismo Volta da Flandres", "emoji": "🚴", "bucket": "b2"},
+        {"nl": "Remco Evenepoel", "pt": "ciclista belga campeão olímpico", "emoji": "🚴", "bucket": "b2"},
+        {"nl": "Kim Clijsters", "pt": "ex-número 1 mundial belga de tênis", "emoji": "🎾", "bucket": "b3"},
+        {"nl": "Justine Henin", "pt": "ex-campeã de Roland Garros belga", "emoji": "🎾", "bucket": "b3"},
+        {"nl": "de racket", "pt": "a raquete", "emoji": "🎾", "bucket": "b3"},
+        {"nl": "het veld", "pt": "o campo de futebol", "emoji": "🏟️", "bucket": "b1"}
+      ]
+    },
+    {
+      "title": "Individuele sport of teamsport?",
+      "instruction": "Separe os esportes individuais dos esportes em equipe",
+      "buckets": [
+        {"id": "b1", "label": "Individuele sport", "emoji": "🏃"},
+        {"id": "b2", "label": "Teamsport", "emoji": "🤝"}
+      ],
+      "items": [
+        {"nl": "wielrennen", "pt": "ciclismo", "emoji": "🚴", "bucket": "b1"},
+        {"nl": "tennis", "pt": "tênis", "emoji": "🎾", "bucket": "b1"},
+        {"nl": "zwemmen", "pt": "natação", "emoji": "🏊", "bucket": "b1"},
+        {"nl": "atletiek", "pt": "atletismo", "emoji": "🏃", "bucket": "b1"},
+        {"nl": "judo", "pt": "judô", "emoji": "🥋", "bucket": "b1"},
+        {"nl": "voetbal", "pt": "futebol", "emoji": "⚽", "bucket": "b2"},
+        {"nl": "basketbal", "pt": "basquete", "emoji": "🏀", "bucket": "b2"},
+        {"nl": "volleybal", "pt": "vôlei", "emoji": "🏐", "bucket": "b2"},
+        {"nl": "hockey", "pt": "hóquei em campo, forte na Bélgica", "emoji": "🏑", "bucket": "b2"},
+        {"nl": "korfbal", "pt": "korfbal, esporte típico belgo-holandês", "emoji": "🤾", "bucket": "b2"}
+      ]
+    },
+    {
+      "title": "Sportwoorden: actie of materiaal?",
+      "instruction": "Separe as palavras de ação esportiva dos equipamentos usados",
+      "buckets": [
+        {"id": "b1", "label": "Actie", "emoji": "🏃‍♂️"},
+        {"id": "b2", "label": "Materiaal", "emoji": "🎽"}
+      ],
+      "items": [
+        {"nl": "winnen", "pt": "ganhar, vencer", "emoji": "🏆", "bucket": "b1"},
+        {"nl": "verliezen", "pt": "perder", "emoji": "😞", "bucket": "b1"},
+        {"nl": "trainen", "pt": "treinar", "emoji": "💪", "bucket": "b1"},
+        {"nl": "scoren", "pt": "marcar (gol/ponto)", "emoji": "🎯", "bucket": "b1"},
+        {"nl": "de bal", "pt": "a bola", "emoji": "⚽", "bucket": "b2"},
+        {"nl": "het shirt", "pt": "a camisa do time", "emoji": "👕", "bucket": "b2"},
+        {"nl": "de fiets", "pt": "a bicicleta", "emoji": "🚲", "bucket": "b2"},
+        {"nl": "de schoenen", "pt": "os tênis, sapatos esportivos", "emoji": "👟", "bucket": "b2"},
+        {"nl": "de medaille", "pt": "a medalha", "emoji": "🥇", "bucket": "b2"},
+        {"nl": "rennen", "pt": "correr", "emoji": "🏃", "bucket": "b1"}
+      ]
+    }
+  ],
+  "biologie": [
+    {
+      "title": "Dier, plant of lichaamsdeel?",
+      "instruction": "Classifique cada palavra em animal, planta ou parte do corpo",
+      "buckets": [
+        {"id": "b1", "label": "Dier", "emoji": "🐾"},
+        {"id": "b2", "label": "Plant", "emoji": "🌱"},
+        {"id": "b3", "label": "Lichaamsdeel", "emoji": "🫀"}
+      ],
+      "items": [
+        {"nl": "de hond", "pt": "o cachorro", "emoji": "🐕", "bucket": "b1"},
+        {"nl": "de kat", "pt": "o gato", "emoji": "🐈", "bucket": "b1"},
+        {"nl": "de vogel", "pt": "o pássaro", "emoji": "🐦", "bucket": "b1"},
+        {"nl": "de boom", "pt": "a árvore", "emoji": "🌳", "bucket": "b2"},
+        {"nl": "de bloem", "pt": "a flor", "emoji": "🌸", "bucket": "b2"},
+        {"nl": "het blad", "pt": "a folha", "emoji": "🍃", "bucket": "b2"},
+        {"nl": "het hart", "pt": "o coração", "emoji": "❤️", "bucket": "b3"},
+        {"nl": "de long", "pt": "o pulmão", "emoji": "🫁", "bucket": "b3"},
+        {"nl": "de hersenen", "pt": "o cérebro", "emoji": "🧠", "bucket": "b3"},
+        {"nl": "het konijn", "pt": "o coelho", "emoji": "🐰", "bucket": "b1"}
+      ]
+    },
+    {
+      "title": "Zoogdier, vogel of vis?",
+      "instruction": "Classifique cada animal como mamífero, ave ou peixe",
+      "buckets": [
+        {"id": "b1", "label": "Zoogdier", "emoji": "🐄"},
+        {"id": "b2", "label": "Vogel", "emoji": "🐦"},
+        {"id": "b3", "label": "Vis", "emoji": "🐟"}
+      ],
+      "items": [
+        {"nl": "de koe", "pt": "a vaca", "emoji": "🐄", "bucket": "b1"},
+        {"nl": "het varken", "pt": "o porco", "emoji": "🐖", "bucket": "b1"},
+        {"nl": "het paard", "pt": "o cavalo", "emoji": "🐴", "bucket": "b1"},
+        {"nl": "de walvis", "pt": "a baleia", "emoji": "🐋", "bucket": "b1"},
+        {"nl": "de eend", "pt": "o pato", "emoji": "🦆", "bucket": "b2"},
+        {"nl": "de kip", "pt": "a galinha", "emoji": "🐔", "bucket": "b2"},
+        {"nl": "de meeuw", "pt": "a gaivota", "emoji": "🕊️", "bucket": "b2"},
+        {"nl": "de zalm", "pt": "o salmão", "emoji": "🐟", "bucket": "b3"},
+        {"nl": "de haring", "pt": "o arenque, peixe típico neerlandês", "emoji": "🐟", "bucket": "b3"},
+        {"nl": "de haai", "pt": "o tubarão", "emoji": "🦈", "bucket": "b3"}
+      ]
+    },
+    {
+      "title": "Het menselijk lichaam",
+      "instruction": "Classifique as partes do corpo por sistema",
+      "buckets": [
+        {"id": "b1", "label": "Ledematen", "emoji": "🦵"},
+        {"id": "b2", "label": "Hoofd", "emoji": "👤"},
+        {"id": "b3", "label": "Inwendige organen", "emoji": "🫀"}
+      ],
+      "items": [
+        {"nl": "de arm", "pt": "o braço", "emoji": "💪", "bucket": "b1"},
+        {"nl": "het been", "pt": "a perna", "emoji": "🦵", "bucket": "b1"},
+        {"nl": "de hand", "pt": "a mão", "emoji": "✋", "bucket": "b1"},
+        {"nl": "de voet", "pt": "o pé", "emoji": "🦶", "bucket": "b1"},
+        {"nl": "het oog", "pt": "o olho", "emoji": "👁️", "bucket": "b2"},
+        {"nl": "het oor", "pt": "a orelha", "emoji": "👂", "bucket": "b2"},
+        {"nl": "de neus", "pt": "o nariz", "emoji": "👃", "bucket": "b2"},
+        {"nl": "de maag", "pt": "o estômago", "emoji": "🫄", "bucket": "b3"},
+        {"nl": "de lever", "pt": "o fígado", "emoji": "🫀", "bucket": "b3"},
+        {"nl": "de nier", "pt": "o rim", "emoji": "🫘", "bucket": "b3"}
+      ]
+    }
+  ],
+  "esthetiek": [
+    {
+      "title": "Kleur, textuur of vorm?",
+      "instruction": "Classifique cada palavra de estética em cor, textura ou forma",
+      "buckets": [
+        {"id": "b1", "label": "Kleur", "emoji": "🎨"},
+        {"id": "b2", "label": "Textuur", "emoji": "🧵"},
+        {"id": "b3", "label": "Vorm", "emoji": "🔷"}
+      ],
+      "items": [
+        {"nl": "rood", "pt": "vermelho", "emoji": "🔴", "bucket": "b1"},
+        {"nl": "blauw", "pt": "azul", "emoji": "🔵", "bucket": "b1"},
+        {"nl": "geel", "pt": "amarelo", "emoji": "🟡", "bucket": "b1"},
+        {"nl": "zacht", "pt": "macio", "emoji": "🧸", "bucket": "b2"},
+        {"nl": "ruw", "pt": "áspero", "emoji": "🪨", "bucket": "b2"},
+        {"nl": "glad", "pt": "liso", "emoji": "🪞", "bucket": "b2"},
+        {"nl": "de cirkel", "pt": "o círculo", "emoji": "⭕", "bucket": "b3"},
+        {"nl": "de driehoek", "pt": "o triângulo", "emoji": "🔺", "bucket": "b3"},
+        {"nl": "het vierkant", "pt": "o quadrado", "emoji": "🔲", "bucket": "b3"},
+        {"nl": "groen", "pt": "verde", "emoji": "🟢", "bucket": "b1"}
+      ]
+    },
+    {
+      "title": "Stijl en ontwerp",
+      "instruction": "Classifique os termos de design entre estilo minimalista e estilo decorativo",
+      "buckets": [
+        {"id": "b1", "label": "Minimalistisch", "emoji": "⬜"},
+        {"id": "b2", "label": "Decoratief", "emoji": "✨"}
+      ],
+      "items": [
+        {"nl": "eenvoudig", "pt": "simples", "emoji": "⬜", "bucket": "b1"},
+        {"nl": "strak", "pt": "clean, retilíneo", "emoji": "📐", "bucket": "b1"},
+        {"nl": "leeg", "pt": "vazio, com bastante espaço", "emoji": "⬜", "bucket": "b1"},
+        {"nl": "sober", "pt": "sóbrio, discreto", "emoji": "🎨", "bucket": "b1"},
+        {"nl": "druk", "pt": "carregado, cheio de detalhes", "emoji": "🎭", "bucket": "b2"},
+        {"nl": "kleurrijk", "pt": "colorido", "emoji": "🌈", "bucket": "b2"},
+        {"nl": "sierlijk", "pt": "ornamentado, gracioso", "emoji": "🕌", "bucket": "b2"},
+        {"nl": "glanzend", "pt": "brilhante, reluzente", "emoji": "✨", "bucket": "b2"},
+        {"nl": "modern", "pt": "moderno", "emoji": "🏙️", "bucket": "b1"},
+        {"nl": "bloemrijk patroon", "pt": "padrão floral chamativo", "emoji": "🌺", "bucket": "b2"}
+      ]
+    }
+  ],
+  "zinnen": [
+    {
+      "title": "Eu moro em Antuérpia.",
+      "pt": "Eu moro em Antuérpia.",
+      "tokens": ["Ik", "woon", "in", "Antwerpen"],
+      "explain": "Ordem básica V2: sujeito (Ik) na 1ª posição, verbo conjugado (woon) na 2ª."
+    },
+    {
+      "title": "Eu compro pão amanhã.",
+      "pt": "Eu compro pão amanhã.",
+      "tokens": ["Ik", "koop", "morgen", "brood"],
+      "explain": "Sujeito + verbo na posição 2. Em neerlandês o tempo (morgen) vem antes do objeto (brood)."
+    },
+    {
+      "title": "Amanhã eu compro pão.",
+      "pt": "Amanhã eu compro pão.",
+      "tokens": ["Morgen", "koop", "ik", "brood"],
+      "explain": "Regra V2: como 'morgen' ocupa a 1ª posição, o verbo continua em 2º lugar e o sujeito 'ik' pula para depois dele."
+    },
+    {
+      "title": "Você fala português?",
+      "pt": "Você fala português?",
+      "tokens": ["Spreek", "jij", "Portugees"],
+      "explain": "Pergunta de sim/não: o verbo vai para a 1ª posição, sem 'será que'."
+    },
+    {
+      "title": "Onde você mora?",
+      "pt": "Onde você mora?",
+      "tokens": ["Waar", "woon", "jij"],
+      "explain": "Palavra interrogativa (1ª posição) + verbo (2ª posição) + sujeito (3ª posição)."
+    },
+    {
+      "title": "Eu trabalhei ontem.",
+      "pt": "Eu trabalhei ontem.",
+      "tokens": ["Ik", "heb", "gisteren", "gewerkt"],
+      "explain": "Perfectum: heb (posição 2) + particípio gewerkt no fim, formando a pinça (tangconstructie)."
+    },
+    {
+      "title": "Eu comprei um pão ontem.",
+      "pt": "Eu comprei um pão ontem.",
+      "tokens": ["Ik", "heb", "gisteren", "een", "brood", "gekocht"],
+      "explain": "O objeto (een brood) e o tempo (gisteren) ficam DENTRO da pinça heb...gekocht, nunca depois do particípio."
+    },
+    {
+      "title": "Nós fomos a Gent.",
+      "pt": "Nós fomos a Gent.",
+      "tokens": ["Wij", "zijn", "naar", "Gent", "gegaan"],
+      "explain": "gaan é verbo de movimento, então o auxiliar do perfectum é zijn, não hebben."
+    },
+    {
+      "title": "Eu te ligo amanhã.",
+      "pt": "Eu te ligo amanhã.",
+      "tokens": ["Ik", "bel", "je", "morgen", "op"],
+      "explain": "Verbo separável opbellen: o prefixo 'op' se solta do verbo conjugado 'bel' e voa para o fim da frase."
+    },
+    {
+      "title": "Eu já te liguei ontem.",
+      "pt": "Eu já te liguei ontem.",
+      "tokens": ["Ik", "heb", "je", "gisteren", "al", "opgebeld"],
+      "explain": "No perfectum do verbo separável, o ge- se espreme entre o prefixo e o radical: op + ge + beld = opgebeld."
+    },
+    {
+      "title": "Eu fico em casa porque minha filha tem febre.",
+      "pt": "Eu fico em casa porque minha filha tem febre.",
+      "tokens": ["Ik", "blijf", "thuis", "omdat", "mijn", "dochter", "koorts", "heeft"],
+      "explain": "Depois de 'omdat' (subordinada), o verbo conjugado (heeft) vai para o FIM da oração."
+    },
+    {
+      "title": "Se chove, ficamos em casa.",
+      "pt": "Se chove, ficamos em casa.",
+      "tokens": ["Als", "het", "regent", "blijven", "we", "thuis"],
+      "explain": "Subordinada primeiro: a oração principal inverte, e os dois verbos (regent, blijven) se encontram na vírgula."
+    },
+    {
+      "title": "Ele diz que vem amanhã.",
+      "pt": "Ele diz que vem amanhã.",
+      "tokens": ["Hij", "zegt", "dat", "hij", "morgen", "komt"],
+      "explain": "Discurso indireto com 'dat': o verbo conjugado (komt) vai para o fim da subordinada."
+    },
+    {
+      "title": "Eu acho que o neerlandês não é tão difícil.",
+      "pt": "Eu acho que o neerlandês não é tão difícil.",
+      "tokens": ["Ik", "denk", "dat", "Nederlands", "niet", "zo", "moeilijk", "is"],
+      "explain": "'Ik denk dat...' abre opinião no B1; depois de 'dat' o verbo 'is' fecha a frase."
+    },
+    {
+      "title": "Eu aprendo neerlandês porque quero trabalhar aqui.",
+      "pt": "Eu aprendo neerlandês porque quero trabalhar aqui.",
+      "tokens": ["Ik", "leer", "Nederlands", "omdat", "ik", "hier", "wil", "werken"],
+      "explain": "Nível avançado: modal + infinitivo na subordinada formam um bloco de dois verbos no fim: wil werken."
+    }
+  ]
+}

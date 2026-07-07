@@ -185,6 +185,9 @@ async function route() {
     if (h === 'belgie') return renderBelgie(app);
     if (h === 'decks') return renderDecks(app);
     if (h === 'dificuldades') return renderMistakes(app);
+    if (h === 'spelletjes') return renderGamesHub(app);
+    const mg = h.match(/^spelletjes\/([\w-]+)$/);
+    if (mg) return renderGameDomain(app, mg[1]);
     const mn = h.match(/^nivel\/([A-C][12])$/i);
     if (mn) return renderLevel(app, mn[1].toUpperCase());
     const m = h.match(/^les\/([\w-]+)(\/praticar)?$/);
@@ -215,6 +218,7 @@ async function renderHome(app) {
       `<a class="level-btn" href="#/nivel/${u}" style="background:${UNIT_COLORS[u]}">${u}<small>${UNIT_INFO[u].emoji} ${UNIT_INFO[u].name}</small></a>`).join('')}</div>
   </div>
   <div class="home-tiles">
+    <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
     <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
     <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
@@ -791,6 +795,237 @@ function renderMistakes(app) {
     app.innerHTML = `<div class="crumb"><a href="#/dificuldades">← dificuldades</a></div><h1>🃏 Treino de dificuldades</h1><div id="mfc"></div>`;
     runFlashcards($('#mfc'), null, list.map(m => ({ nl: m.nl || m.answer, pt: m.pt || m.q, split: '', art: null, emoji: '🎯', key: 'mist|' + m.key })));
   });
+}
+
+/* ============================================================
+   🧩 SPELLETJES: drag-and-drop games (native pointer events,
+   works identically with mouse and touch, mobile + desktop)
+   ============================================================ */
+const GAME_DOMAINS = [
+  { id:'taal',        emoji:'🔤', label:'Palavras',    color:'#1D4E89', type:'sort-vocab' },
+  { id:'zinnen',       emoji:'🧱', label:'Frases',      color:'#C8401F', type:'build', file:'games-sciences.json', key:'zinnen' },
+  { id:'geografie',    emoji:'🗺️', label:'Geografia',   color:'#17756B', type:'sort',  file:'games-sciences.json',   key:'geografie' },
+  { id:'politiek',     emoji:'🏛️', label:'Política',    color:'#6A1B9A', type:'sort',  file:'games-humanities.json', key:'politiek' },
+  { id:'nieuws',       emoji:'📰', label:'Notícias',    color:'#455A64', type:'sort',  file:'games-humanities.json', key:'nieuws' },
+  { id:'sport',        emoji:'⚽', label:'Esporte',     color:'#2E7D32', type:'sort',  file:'games-sciences.json',   key:'sport' },
+  { id:'kunst',        emoji:'🎨', label:'Arte',        color:'#EF6C00', type:'match', file:'games-humanities.json', key:'kunst' },
+  { id:'geschiedenis', emoji:'📜', label:'História',    color:'#8D6E63', type:'timeline', file:'games-humanities.json', key:'geschiedenis' },
+  { id:'biologie',     emoji:'🧬', label:'Biologia',    color:'#00838F', type:'sort',  file:'games-sciences.json',   key:'biologie' },
+  { id:'esthetiek',    emoji:'✨', label:'Estética',    color:'#AD1457', type:'sort',  file:'games-sciences.json',   key:'esthetiek' },
+];
+const GAME_FILE_CACHE = {};
+async function gameFile(name) {
+  if (!GAME_FILE_CACHE[name]) { try { GAME_FILE_CACHE[name] = await (await fetch('data/' + name)).json(); } catch { GAME_FILE_CACHE[name] = {}; } }
+  return GAME_FILE_CACHE[name];
+}
+async function gamesForDomain(dom) {
+  if (dom.type === 'sort-vocab') { // built live from the course vocabulary (de vs het)
+    const vocab = (await allVocab()).filter(v => v.art);
+    const rounds = [];
+    for (let i = 0; i < vocab.length; i += 8) {
+      const slice = shuffle(vocab).slice(0, 8); // fresh random 8 each round
+      rounds.push({ title: 'DE ou HET?', instruction: 'Arraste cada palavra para o artigo certo',
+        buckets: [{ id:'de', label:'DE', emoji:'🟧' }, { id:'het', label:'HET', emoji:'🟩' }],
+        items: slice.map(v => ({ nl: v.nl.replace(/^(de|het)\s+/, ''), pt: v.pt, emoji: v.emoji || '🔤', bucket: v.art })) });
+      if (rounds.length >= 6) break;
+    }
+    return rounds;
+  }
+  const data = await gameFile(dom.file);
+  return data[dom.key] || [];
+}
+
+async function renderGamesHub(app) {
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🧩 Spelletjes <span class="muted" style="font-size:1rem">arraste e solte para aprender</span></h1>
+    <p class="muted">Jogos de arrastar-e-soltar em 10 áreas: palavras, frases, política, notícias, esporte,
+    geografia, arte, história, biologia e estética. Funciona igual no celular (toque) e no computador (mouse). 👆🖱️</p>
+    <div class="game-grid">${GAME_DOMAINS.map(d => `<a class="game-tile" href="#/spelletjes/${d.id}" style="border-color:${d.color}">
+      <span class="game-em" style="background:${d.color}22">${d.emoji}</span><b>${d.label}</b></a>`).join('')}</div>`;
+}
+
+async function renderGameDomain(app, domId) {
+  const dom = GAME_DOMAINS.find(d => d.id === domId);
+  if (!dom) return renderGamesHub(app);
+  app.innerHTML = `<div class="crumb"><a href="#/spelletjes">🧩 Spelletjes</a></div><h1>${dom.emoji} ${dom.label}</h1><div class="loading">⏳...</div>`;
+  const rounds = await gamesForDomain(dom);
+  if (!rounds.length) { app.innerHTML = `<div class="crumb"><a href="#/spelletjes">🧩 Spelletjes</a></div><div class="card">Em breve 🔜</div>`; return; }
+  let idx = 0, wonRounds = 0;
+  const wrap = document.createElement('div');
+  app.innerHTML = `<div class="crumb"><a href="#/spelletjes">🧩 Spelletjes</a></div>
+    <div class="game-progress"><h1 style="margin:0">${dom.emoji} ${esc(dom.label)}</h1>
+    <div class="progressbar" style="flex:1;margin:0 12px"><div style="width:${Math.round(100*idx/rounds.length)}%"></div></div>
+    <b>${idx+1}/${rounds.length}</b></div>`;
+  app.appendChild(wrap);
+  function playRound() {
+    const bar = app.querySelector('.progressbar > div'); if (bar) bar.style.width = Math.round(100*idx/rounds.length) + '%';
+    const cnt = app.querySelector('.game-progress b'); if (cnt) cnt.textContent = `${idx+1}/${rounds.length}`;
+    const r = rounds[idx];
+    if (dom.type === 'sort' || dom.type === 'sort-vocab') playSort(wrap, r, onWin);
+    else if (dom.type === 'timeline') playTimeline(wrap, r, onWin);
+    else if (dom.type === 'match') playMatch(wrap, r, onWin);
+    else if (dom.type === 'build') playBuild(wrap, r, onWin);
+  }
+  function onWin() {
+    wonRounds++; addXP(15); recordMistake.lastWin = true;
+    idx++;
+    if (idx < rounds.length) setTimeout(playRound, 900);
+    else setTimeout(() => {
+      wrap.innerHTML = `<div class="card endscreen"><div class="big">🏆</div><h2>${dom.label} completo!</h2>
+        <p class="muted">${wonRounds} rodada(s) · ⚡ ${S.xp} XP total</p>
+        <p><button class="btn" id="again">🔁 Jogar de novo</button><a class="btn primary" href="#/spelletjes">🧩 Outros jogos</a></p></div>`;
+      $('#again').addEventListener('click', () => { idx = 0; wonRounds = 0; playRound(); });
+    }, 900);
+  }
+  playRound();
+}
+
+/* ---------- universal pointer-based drag helper ---------- */
+function makeDraggable(el, onDrop) {
+  el.style.touchAction = 'none';
+  el.addEventListener('pointerdown', ev => {
+    if (el.classList.contains('placed')) return;
+    ev.preventDefault();
+    const startRect = el.getBoundingClientRect();
+    const offX = ev.clientX - startRect.left, offY = ev.clientY - startRect.top;
+    const parent = el.parentElement, placeholder = document.createElement('span');
+    placeholder.className = 'drag-ghost-slot'; placeholder.style.width = startRect.width + 'px'; placeholder.style.height = startRect.height + 'px';
+    parent.insertBefore(placeholder, el);
+    document.body.appendChild(el);
+    el.classList.add('dragging');
+    el.style.width = startRect.width + 'px';
+    const move = e => { el.style.left = (e.clientX - offX) + 'px'; el.style.top = (e.clientY - offY) + 'px'; };
+    move(ev);
+    const up = e => {
+      window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up);
+      el.classList.remove('dragging');
+      el.style.position = ''; el.style.left = ''; el.style.top = ''; el.style.width = '';
+      const under = document.elementFromPoint(e.clientX, e.clientY);
+      const dropZone = under && under.closest ? under.closest('[data-dropzone]') : null;
+      if (dropZone && onDrop(el, dropZone)) { placeholder.remove(); }
+      else { parent.insertBefore(el, placeholder); placeholder.remove(); }
+    };
+    window.addEventListener('pointermove', move); window.addEventListener('pointerup', up);
+  });
+}
+
+/* ---------- game type: SORT (drag chips into labeled buckets) ---------- */
+function playSort(wrap, r, onWin) {
+  let remaining = r.items.length, wrong = 0;
+  wrap.innerHTML = `<div class="card">
+    <h3>${esc(r.title)}</h3><p class="muted">${esc(r.instruction || 'Arraste cada item para o grupo certo')}</p>
+    <div class="drop-buckets">${r.buckets.map(b => `<div class="bucket" data-dropzone data-bucket="${esc(b.id)}">
+      <div class="bucket-head">${b.emoji || '📦'} ${esc(b.label)}</div><div class="bucket-body"></div></div>`).join('')}</div>
+    <div class="drag-pool">${shuffle(r.items).map((it, i) => `<span class="drag-chip" data-answer="${esc(it.bucket)}" data-i="${i}">
+      ${it.emoji || ''} <b>${esc(it.nl)}</b><small>${esc(it.pt)}</small></span>`).join('')}</div>
+    <p class="game-feedback" id="gfb"></p></div>`;
+  wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, zone) => {
+    const ok = zone.dataset.bucket === el.dataset.answer;
+    if (ok) {
+      zone.querySelector('.bucket-body').appendChild(el);
+      el.classList.add('placed', 'correct-drop');
+      remaining--;
+      $('#gfb').innerHTML = '✅ Isso!';
+      if (remaining === 0) { $('#gfb').innerHTML = wrong === 0 ? '🌟 Perfeito, sem erros!' : '🎉 Rodada concluída!'; onWin(); }
+      return true;
+    }
+    wrong++; recordMistake({ lesson: 'jogo:' + (r.title || ''), lessonTitle: r.title, lessonEmoji: '🧩', unit: '', q: el.textContent, nl: el.querySelector('b').textContent, pt: el.querySelector('small').textContent, answer: el.querySelector('b').textContent });
+    $('#gfb').innerHTML = `❌ Tente de novo: <b>${esc(el.querySelector('b').textContent)}</b> não é desse grupo.`;
+    el.classList.add('shake'); setTimeout(() => el.classList.remove('shake'), 400);
+    return false;
+  }));
+}
+
+/* ---------- game type: TIMELINE (drag events into chronological order) ---------- */
+function playTimeline(wrap, r, onWin) {
+  const order = r.events.map(e => e.year);
+  let placedYears = [];
+  wrap.innerHTML = `<div class="card">
+    <h3>${esc(r.title)}</h3><p class="muted">${esc(r.instruction || 'Arraste os eventos para a ordem certa')}</p>
+    <div class="timeline-track" data-dropzone></div>
+    <div class="drag-pool">${shuffle(r.events).map((e, i) => `<span class="drag-chip wide" data-year="${e.year}" data-i="${i}">
+      ${e.emoji || '📅'} <b>${esc(e.nl)}</b><small>${esc(e.pt)}</small></span>`).join('')}</div>
+    <p class="game-feedback" id="gfb"></p></div>`;
+  const track = wrap.querySelector('.timeline-track');
+  wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, zone) => {
+    if (zone !== track) return false;
+    const y = +el.dataset.year;
+    // insert at correct visual position based on year (helps confirm ordering visually)
+    let inserted = false;
+    for (const child of [...track.children]) {
+      if (+child.dataset.year > y) { track.insertBefore(el, child); inserted = true; break; }
+    }
+    if (!inserted) track.appendChild(el);
+    el.classList.add('placed');
+    placedYears.push(y);
+    const isSorted = [...track.children].every((c, i, arr) => i === 0 || +arr[i-1].dataset.year <= +c.dataset.year);
+    if (!isSorted) { recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'📜', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt:'ordem cronológica', answer:el.querySelector('b').textContent }); }
+    $('#gfb').innerHTML = isSorted ? '✅ Ordem certa até agora!' : '🤔 Reveja a ordem: um evento está fora de lugar.';
+    if (placedYears.length === order.length) {
+      const finalOK = [...track.children].every((c, i, arr) => i === 0 || +arr[i-1].dataset.year <= +c.dataset.year);
+      $('#gfb').innerHTML = finalOK ? '🌟 Linha do tempo completa e correta!' : '🎉 Completo! (reveja a ordem quando puder)';
+      onWin();
+    }
+    return true;
+  }));
+}
+
+/* ---------- game type: MATCH (drag a term card onto its description) ---------- */
+function playMatch(wrap, r, onWin) {
+  let remaining = r.pairs.length;
+  wrap.innerHTML = `<div class="card">
+    <h3>${esc(r.title)}</h3><p class="muted">${esc(r.instruction || 'Arraste cada termo para a descrição certa')}</p>
+    <div class="match-columns">
+      <div class="drag-pool vertical">${shuffle(r.pairs.map((p, i) => ({ p, i }))).map(o => `<span class="drag-chip wide" data-i="${o.i}">${o.p.emoji || '🎯'} <b>${esc(o.p.nl)}</b></span>`).join('')}</div>
+      <div class="drop-targets">${shuffle(r.pairs.map((p, i) => ({ p, i }))).map(o => `<div class="target-desc" data-dropzone data-i="${o.i}">${esc(o.p.pt)}</div>`).join('')}</div>
+    </div>
+    <p class="game-feedback" id="gfb"></p></div>`;
+  wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, zone) => {
+    const ok = zone.dataset.i === el.dataset.i;
+    if (ok) {
+      zone.innerHTML = `${el.innerHTML}<div class="target-answer">${zone.textContent}</div>`;
+      zone.classList.add('correct-drop'); el.remove(); remaining--;
+      $('#gfb').innerHTML = '✅ Combinou!';
+      if (remaining === 0) { $('#gfb').innerHTML = '🌟 Todos os pares corretos!'; onWin(); }
+      return true;
+    }
+    recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🎨', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt: zone.textContent, answer: el.querySelector('b').textContent });
+    $('#gfb').innerHTML = '❌ Não é esse par, tente outra descrição.';
+    el.classList.add('shake'); setTimeout(() => el.classList.remove('shake'), 400);
+    return false;
+  }));
+}
+
+/* ---------- game type: BUILD (drag word tokens in order to build a sentence) ---------- */
+function playBuild(wrap, r, onWin) {
+  const target = r.tokens.join(' ');
+  let placed = [];
+  wrap.innerHTML = `<div class="card">
+    <h3>🧱 ${esc(r.title)}</h3><p class="muted">tradução: <i>${esc(r.pt)}</i></p>
+    <div class="built-sentence" data-dropzone></div>
+    <div class="drag-pool">${shuffle(r.tokens.map((t, i) => ({ t, i }))).map(o => `<span class="drag-chip" data-i="${o.i}">${esc(o.t)}</span>`).join('')}</div>
+    <div style="display:flex;gap:8px"><button class="btn small" id="resetB">↩️ desfazer tudo</button></div>
+    <p class="game-feedback" id="gfb"></p></div>`;
+  const zone = wrap.querySelector('.built-sentence');
+  function checkDone() {
+    if (placed.length !== r.tokens.length) return;
+    const made = [...zone.children].map(c => c.textContent).join(' ');
+    if (norm(made) === norm(target)) {
+      $('#gfb').innerHTML = `🌟 Perfeito! "${esc(target)}"${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
+      onWin();
+    } else {
+      recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🧱', unit:'', q:r.pt, nl:target, pt:r.pt, answer:target });
+      $('#gfb').innerHTML = `❌ Quase! A ordem certa é: <b>${esc(target)}</b>${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
+    }
+  }
+  wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, dz) => {
+    if (dz !== zone) return false;
+    zone.appendChild(el); el.classList.add('placed'); placed.push(el.dataset.i);
+    checkDone();
+    return true;
+  }));
+  $('#resetB').addEventListener('click', () => { const b = wrap.querySelector('.drag-pool'); [...zone.children].forEach(c => { c.classList.remove('placed'); b.appendChild(c); }); placed = []; $('#gfb').innerHTML = ''; });
 }
 
 /* ---------- legend ---------- */

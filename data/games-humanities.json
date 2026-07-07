@@ -1,0 +1,199 @@
+{
+  "politiek": [
+    {
+      "title": "Niveaus van bestuur",
+      "instruction": "Sleep elk woord naar het juiste bestuursniveau",
+      "buckets": [
+        { "id": "b1", "label": "Federaal niveau", "emoji": "🏛️" },
+        { "id": "b2", "label": "Vlaams niveau", "emoji": "🦁" },
+        { "id": "b3", "label": "Gemeente niveau", "emoji": "🏘️" }
+      ],
+      "items": [
+        { "nl": "de federale regering", "pt": "o governo federal (Belgica)", "emoji": "🏛️", "bucket": "b1" },
+        { "nl": "de Kamer van volksvertegenwoordigers", "pt": "a Camara dos Deputados", "emoji": "🏢", "bucket": "b1" },
+        { "nl": "de Senaat", "pt": "o Senado", "emoji": "🎩", "bucket": "b1" },
+        { "nl": "de koning", "pt": "o rei", "emoji": "👑", "bucket": "b1" },
+        { "nl": "het Vlaams Parlement", "pt": "o Parlamento Flamengo", "emoji": "🦁", "bucket": "b2" },
+        { "nl": "de Vlaamse regering", "pt": "o governo flamengo", "emoji": "🦁", "bucket": "b2" },
+        { "nl": "de minister-president", "pt": "o ministro-presidente (chefe do governo regional)", "emoji": "💼", "bucket": "b2" },
+        { "nl": "de burgemeester", "pt": "o prefeito (burgomestre)", "emoji": "🎖️", "bucket": "b3" },
+        { "nl": "de gemeenteraad", "pt": "a camara municipal", "emoji": "🗳️", "bucket": "b3" },
+        { "nl": "het schepencollege", "pt": "o colegiado de vereadores executivos", "emoji": "🖋️", "bucket": "b3" }
+      ]
+    },
+    {
+      "title": "Partij, instelling of functie?",
+      "instruction": "Sleep elk begrip naar de juiste categorie",
+      "buckets": [
+        { "id": "b1", "label": "Politieke partij", "emoji": "🎗️" },
+        { "id": "b2", "label": "Instelling", "emoji": "🏢" },
+        { "id": "b3", "label": "Functie", "emoji": "👤" }
+      ],
+      "items": [
+        { "nl": "N-VA", "pt": "partido flamengo-nacionalista (Nieuw-Vlaamse Alliantie)", "emoji": "🦁", "bucket": "b1" },
+        { "nl": "Vooruit", "pt": "partido socialista flamengo", "emoji": "🌹", "bucket": "b1" },
+        { "nl": "Open Vld", "pt": "partido liberal flamengo", "emoji": "🔵", "bucket": "b1" },
+        { "nl": "het Grondwettelijk Hof", "pt": "o Tribunal Constitucional", "emoji": "⚖️", "bucket": "b2" },
+        { "nl": "het parlement", "pt": "o parlamento", "emoji": "🏛️", "bucket": "b2" },
+        { "nl": "de rechtbank", "pt": "o tribunal", "emoji": "🔨", "bucket": "b2" },
+        { "nl": "de minister", "pt": "o ministro", "emoji": "💼", "bucket": "b3" },
+        { "nl": "de premier", "pt": "o primeiro-ministro", "emoji": "🎩", "bucket": "b3" },
+        { "nl": "de staatssecretaris", "pt": "o secretario de Estado", "emoji": "📋", "bucket": "b3" },
+        { "nl": "de fractieleider", "pt": "o lider da bancada parlamentar", "emoji": "🗣️", "bucket": "b3" }
+      ]
+    },
+    {
+      "title": "Verkiezingen en wetten",
+      "instruction": "Sleep elk woord naar de juiste categorie",
+      "buckets": [
+        { "id": "b1", "label": "Verkiezingen", "emoji": "🗳️" },
+        { "id": "b2", "label": "Wetgeving", "emoji": "📜" }
+      ],
+      "items": [
+        { "nl": "stemplicht", "pt": "obrigatoriedade de votar", "emoji": "✅", "bucket": "b1" },
+        { "nl": "stembiljet", "pt": "cedula/boletim de voto", "emoji": "🗳️", "bucket": "b1" },
+        { "nl": "kiesdrempel", "pt": "clausula de barreira eleitoral (percentual minimo)", "emoji": "📊", "bucket": "b1" },
+        { "nl": "opkomst", "pt": "comparecimento as urnas", "emoji": "👥", "bucket": "b1" },
+        { "nl": "coalitie", "pt": "coalizao de governo", "emoji": "🤝", "bucket": "b1" },
+        { "nl": "de grondwet", "pt": "a Constituicao", "emoji": "📜", "bucket": "b2" },
+        { "nl": "het wetsvoorstel", "pt": "o projeto de lei", "emoji": "📝", "bucket": "b2" },
+        { "nl": "het decreet", "pt": "o decreto (lei regional flamenga)", "emoji": "🖋️", "bucket": "b2" },
+        { "nl": "de stemming", "pt": "a votacao (no parlamento)", "emoji": "✋", "bucket": "b2" },
+        { "nl": "het amendement", "pt": "a emenda", "emoji": "✏️", "bucket": "b2" }
+      ]
+    }
+  ],
+  "nieuws": [
+    {
+      "title": "Sorteer het nieuws op rubriek",
+      "instruction": "Sleep elk woord naar de juiste rubriek",
+      "buckets": [
+        { "id": "b1", "label": "Binnenland", "emoji": "🇧🇪" },
+        { "id": "b2", "label": "Buitenland", "emoji": "🌍" },
+        { "id": "b3", "label": "Sport", "emoji": "⚽" },
+        { "id": "b4", "label": "Economie", "emoji": "💶" }
+      ],
+      "items": [
+        { "nl": "de regering-De Wever", "pt": "o governo De Wever (governo belga atual)", "emoji": "🏛️", "bucket": "b1" },
+        { "nl": "de staking", "pt": "a greve", "emoji": "✊", "bucket": "b1" },
+        { "nl": "het treinverkeer", "pt": "o trafego ferroviario", "emoji": "🚆", "bucket": "b1" },
+        { "nl": "de oorlog", "pt": "a guerra", "emoji": "💥", "bucket": "b2" },
+        { "nl": "de top", "pt": "a cimeira/cupula (encontro de lideres)", "emoji": "🤝", "bucket": "b2" },
+        { "nl": "de ambassade", "pt": "a embaixada", "emoji": "🏳️", "bucket": "b2" },
+        { "nl": "de wedstrijd", "pt": "a partida/o jogo", "emoji": "⚽", "bucket": "b3" },
+        { "nl": "de scheidsrechter", "pt": "o arbitro", "emoji": "🟨", "bucket": "b3" },
+        { "nl": "het kampioenschap", "pt": "o campeonato", "emoji": "🏆", "bucket": "b3" },
+        { "nl": "de beurs", "pt": "a bolsa de valores", "emoji": "📈", "bucket": "b4" },
+        { "nl": "de inflatie", "pt": "a inflacao", "emoji": "💸", "bucket": "b4" },
+        { "nl": "het faillissement", "pt": "a falencia", "emoji": "📉", "bucket": "b4" }
+      ]
+    },
+    {
+      "title": "Nieuws en cultuur",
+      "instruction": "Sleep elk woord naar de juiste rubriek",
+      "buckets": [
+        { "id": "b1", "label": "Binnenland", "emoji": "🇧🇪" },
+        { "id": "b2", "label": "Cultuur", "emoji": "🎭" },
+        { "id": "b3", "label": "Economie", "emoji": "💶" }
+      ],
+      "items": [
+        { "nl": "de asielzoeker", "pt": "o requerente de asilo", "emoji": "🧳", "bucket": "b1" },
+        { "nl": "de gemeenteraadsverkiezingen", "pt": "as eleicoes municipais", "emoji": "🗳️", "bucket": "b1" },
+        { "nl": "de overstroming", "pt": "a enchente", "emoji": "🌊", "bucket": "b1" },
+        { "nl": "de tentoonstelling", "pt": "a exposicao (de arte)", "emoji": "🖼️", "bucket": "b2" },
+        { "nl": "de filmpremiere", "pt": "a estreia de filme", "emoji": "🎬", "bucket": "b2" },
+        { "nl": "het festival", "pt": "o festival", "emoji": "🎪", "bucket": "b2" },
+        { "nl": "de recensie", "pt": "a critica/resenha", "emoji": "✍️", "bucket": "b2" },
+        { "nl": "de begroting", "pt": "o orcamento", "emoji": "📊", "bucket": "b3" },
+        { "nl": "de loonsverhoging", "pt": "o aumento salarial", "emoji": "💰", "bucket": "b3" },
+        { "nl": "de energieprijzen", "pt": "os precos da energia", "emoji": "⚡", "bucket": "b3" }
+      ]
+    },
+    {
+      "title": "Krantenkoppen ontcijferen",
+      "instruction": "Sleep elk woord naar de juiste rubriek",
+      "buckets": [
+        { "id": "b1", "label": "Buitenland", "emoji": "🌍" },
+        { "id": "b2", "label": "Sport", "emoji": "⚽" },
+        { "id": "b3", "label": "Economie", "emoji": "💶" }
+      ],
+      "items": [
+        { "nl": "de vluchtelingencrisis", "pt": "a crise de refugiados", "emoji": "🚸", "bucket": "b1" },
+        { "nl": "het staatsbezoek", "pt": "a visita de Estado", "emoji": "🤵", "bucket": "b1" },
+        { "nl": "de sancties", "pt": "as sancoes", "emoji": "🚫", "bucket": "b1" },
+        { "nl": "de bondscoach", "pt": "o tecnico da selecao nacional", "emoji": "🧢", "bucket": "b2" },
+        { "nl": "de transfer", "pt": "a transferencia (de jogador)", "emoji": "🔄", "bucket": "b2" },
+        { "nl": "de blessure", "pt": "a lesao (esportiva)", "emoji": "🤕", "bucket": "b2" },
+        { "nl": "de degradatie", "pt": "o rebaixamento", "emoji": "⬇️", "bucket": "b2" },
+        { "nl": "de rentevoet", "pt": "a taxa de juros", "emoji": "🏦", "bucket": "b3" },
+        { "nl": "de aandelenmarkt", "pt": "o mercado de acoes", "emoji": "📈", "bucket": "b3" },
+        { "nl": "de koopkracht", "pt": "o poder de compra", "emoji": "🛒", "bucket": "b3" }
+      ]
+    }
+  ],
+  "geschiedenis": [
+    {
+      "title": "De geschiedenis van Belgie",
+      "instruction": "Sleep de gebeurtenissen naar de juiste chronologische volgorde",
+      "events": [
+        { "year": 1830, "nl": "Belgische onafhankelijkheid", "pt": "Independencia da Belgica", "emoji": "🇧🇪" },
+        { "year": 1914, "nl": "Begin van de Eerste Wereldoorlog (Ieper, Westhoek)", "pt": "Inicio da Primeira Guerra Mundial (frente de Flandres)", "emoji": "⚔️" },
+        { "year": 1940, "nl": "Duitse invasie van Belgie", "pt": "Invasao alema da Belgica", "emoji": "🪖" },
+        { "year": 1958, "nl": "Oprichting van de Europese Economische Gemeenschap", "pt": "Fundacao da Comunidade Economica Europeia", "emoji": "🇪🇺" },
+        { "year": 1970, "nl": "Eerste staatshervorming: erkenning van de gemeenschappen", "pt": "Primeira reforma do Estado: reconhecimento das comunidades linguisticas", "emoji": "🏛️" },
+        { "year": 1980, "nl": "Tweede staatshervorming: Vlaams en Waals Gewest krijgen parlement", "pt": "Segunda reforma do Estado: Regioes Flamenga e Vala ganham parlamento", "emoji": "🦁" },
+        { "year": 1993, "nl": "Vierde staatshervorming: Belgie wordt een federale staat", "pt": "Quarta reforma do Estado: Belgica torna-se um Estado federal", "emoji": "📜" }
+      ]
+    },
+    {
+      "title": "Europa en de wereld",
+      "instruction": "Sleep de gebeurtenissen naar de juiste chronologische volgorde",
+      "events": [
+        { "year": 1789, "nl": "Franse Revolutie", "pt": "Revolucao Francesa", "emoji": "🗼" },
+        { "year": 1815, "nl": "Slag bij Waterloo", "pt": "Batalha de Waterloo", "emoji": "🐎" },
+        { "year": 1918, "nl": "Einde van de Eerste Wereldoorlog (wapenstilstand)", "pt": "Fim da Primeira Guerra Mundial (armisticio)", "emoji": "🕊️" },
+        { "year": 1945, "nl": "Einde van de Tweede Wereldoorlog", "pt": "Fim da Segunda Guerra Mundial", "emoji": "🏳️" },
+        { "year": 1957, "nl": "Verdrag van Rome, start Europese samenwerking", "pt": "Tratado de Roma, inicio da cooperacao europeia", "emoji": "📄" },
+        { "year": 1989, "nl": "Val van de Berlijnse Muur", "pt": "Queda do Muro de Berlim", "emoji": "🧱" },
+        { "year": 2002, "nl": "Invoering van de euro als munt", "pt": "Introducao do euro como moeda", "emoji": "💶" }
+      ]
+    }
+  ],
+  "kunst": [
+    {
+      "title": "Vlaamse meesters",
+      "instruction": "Sleep elke naam naar de juiste beschrijving",
+      "pairs": [
+        { "nl": "Jan van Eyck", "pt": "pioneer da pintura a oleo, famoso pelo detalhismo (o Retabulo de Gante)", "emoji": "🕯️" },
+        { "nl": "Pieter Bruegel de Oude", "pt": "pintor famoso por cenas camponesas e paisagens do inverno flamengo", "emoji": "❄️" },
+        { "nl": "Peter Paul Rubens", "pt": "pintor barroco de Antuerpia, famoso por suas cores vivas e figuras dinamicas", "emoji": "🎨" },
+        { "nl": "Anthony van Dyck", "pt": "discipulo de Rubens, mestre dos retratos elegantes de nobres", "emoji": "🖼️" },
+        { "nl": "James Ensor", "pt": "pintor de Oostende, conhecido por mascaras e cenas macabras", "emoji": "🎭" },
+        { "nl": "Rene Magritte", "pt": "pintor surrealista belga, famoso pelo quadro do homem com chapeu-coco e cachimbo", "emoji": "🎩" }
+      ]
+    },
+    {
+      "title": "Nederlandse meesters",
+      "instruction": "Sleep elke naam naar de juiste beschrijving",
+      "pairs": [
+        { "nl": "Rembrandt van Rijn", "pt": "mestre holandes da luz e sombra, pintou 'A Ronda Noturna'", "emoji": "🕯️" },
+        { "nl": "Johannes Vermeer", "pt": "pintor de Delft, famoso pela obra 'A Moca com Brinco de Perola'", "emoji": "💧" },
+        { "nl": "Vincent van Gogh", "pt": "pintor pos-impressionista, criador de 'A Noite Estrelada', pintou girassois", "emoji": "🌻" },
+        { "nl": "Frans Hals", "pt": "retratista holandes conhecido por pinceladas soltas e expressivas", "emoji": "🖌️" },
+        { "nl": "Piet Mondriaan", "pt": "pintor abstrato holandes de linhas e blocos de cores primarias", "emoji": "🔲" },
+        { "nl": "Hieronymus Bosch", "pt": "pintor medieval de cenas fantasticas, criador de 'O Jardim das Delicias Terrenas'", "emoji": "👹" }
+      ]
+    },
+    {
+      "title": "Kunststromingen",
+      "instruction": "Sleep elke stroming naar de juiste beschrijving",
+      "pairs": [
+        { "nl": "de renaissance", "pt": "movimento de retorno as formas classicas, foco em perspectiva e realismo (15e-16e eeuw)", "emoji": "🏛️" },
+        { "nl": "de barok", "pt": "estilo dramatico e emocional com cores fortes e movimento (17e eeuw)", "emoji": "🎨" },
+        { "nl": "het impressionisme", "pt": "movimento que captura luz e momentos fugazes com pinceladas soltas (19e eeuw)", "emoji": "🌅" },
+        { "nl": "het surrealisme", "pt": "movimento que explora o subconsciente e imagens oniricas e ilogicas (20e eeuw)", "emoji": "🌀" },
+        { "nl": "het expressionisme", "pt": "movimento que exagera formas e cores para expressar emocoes intensas", "emoji": "😱" }
+      ]
+    }
+  ]
+}
