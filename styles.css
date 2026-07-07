@@ -183,6 +183,59 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
 .signature{border-top:1px dashed var(--line);padding-top:8px;margin-top:8px !important}
 .signature a{font-weight:700}
 
+/* ===== level picker (home) ===== */
+.level-picker{display:grid;grid-template-columns:repeat(6,1fr);gap:8px;margin-top:8px}
+.level-btn{color:#fff;text-decoration:none;border-radius:12px;padding:12px 6px;text-align:center;font-weight:900;
+  font-family:Georgia,serif;font-size:1.4rem;border:2px solid rgba(0,0,0,.25);box-shadow:3px 3px 0 rgba(35,32,27,.18);
+  display:flex;flex-direction:column;align-items:center;gap:2px;transition:transform .08s}
+.level-btn small{font-weight:600;font-size:.6rem;font-family:"Segoe UI",sans-serif;opacity:.95}
+.level-btn:hover{transform:translateY(-2px)}
+@media(max-width:640px){.level-picker{grid-template-columns:repeat(3,1fr)}}
+
+/* ===== home tiles ===== */
+.home-tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin:16px 0 6px}
+.home-tile{background:#fff;border:2px solid var(--ink);border-radius:14px;padding:12px;text-decoration:none;color:var(--ink);
+  display:flex;flex-direction:column;gap:2px;font-size:1.5rem;box-shadow:3px 3px 0 rgba(35,32,27,.10);transition:transform .08s}
+.home-tile:hover{transform:translateY(-2px)}
+.home-tile b{font-size:1rem}.home-tile small{color:var(--soft);font-size:.78rem}
+
+/* ===== level view ===== */
+.level-hero{display:flex;align-items:center;gap:14px;background:#fff;border:3px solid;border-radius:16px;padding:16px 18px;
+  margin:8px 0 4px;box-shadow:4px 4px 0 rgba(35,32,27,.10)}
+.level-chip{color:#fff;font-family:Georgia,serif;font-weight:900;font-size:2rem;padding:6px 18px;border-radius:12px}
+
+/* ===== klanken (sound trainer) ===== */
+.klank-pair{padding:14px 16px}
+.klank-vs{display:flex;align-items:center;gap:10px;justify-content:center;flex-wrap:wrap}
+.klank-vs .vs{font-size:1.4rem}
+.klank-word{display:flex;align-items:center;gap:10px;border:2px solid var(--nl);background:var(--nl-bg);border-radius:14px;
+  padding:10px 16px;cursor:pointer;min-width:150px}
+.klank-word.big{width:100%}
+.klank-word.said{background:#FFF2B8;border-color:var(--gold)}
+.klank-letter{font-family:Georgia,serif;font-size:2rem;font-weight:800;color:var(--nl)}
+.klank-ex{display:flex;flex-direction:column;text-align:left;font-weight:700;font-size:1.1rem}
+.klank-ex small{font-weight:400;color:var(--soft);font-size:.8rem}
+.klank-play{margin-left:auto;font-size:1.3rem}
+.klank-tip{font-size:.9rem;color:var(--pt);margin:10px 0 0}
+.klank-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.klank-single{margin:0}
+
+/* ===== belgië ===== */
+.fact-list{display:grid;gap:10px;margin-top:6px}
+.fact{display:flex;gap:10px;align-items:flex-start;border-bottom:1px dotted var(--line);padding-bottom:8px}
+.fact-emoji{font-size:1.5rem;flex:0 0 30px}
+#belnav .chip.sel{background:var(--c2);color:#fff;border-color:var(--c2)}
+
+/* ===== mistakes ===== */
+.mistake-list{display:grid;gap:10px}
+.mistake{padding:12px 14px;margin:0}
+.mistake-top{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:.85rem}
+.mistake-top .rep{color:var(--bad);font-weight:700}
+.del-mistake{margin-left:auto;border:1.5px solid var(--ok);color:var(--ok);background:#fff;border-radius:999px;
+  padding:2px 10px;font-size:.78rem;font-weight:700;cursor:pointer}
+.del-mistake:hover{background:var(--ok-bg)}
+.mistake-body{margin-top:6px;font-size:1.05rem}
+
 /* ===== toast ===== */
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;
   border-radius:12px;padding:10px 20px;font-weight:700;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,.3)}

@@ -1,0 +1,296 @@
+{
+  "meta": {
+    "title": "Descobrir a Bélgica & os Países Baixos",
+    "subtitle": "Ontdek België & Nederland",
+    "description_pt": "Um conjunto de conhecimentos sobre a Bélgica (e um contraste com os Países Baixos) para brasileiros que aprendem neerlandês. Cada facto traz o nome em neerlandês para juntar integração e vocabulário.",
+    "source": "Wikipedia (en.wikipedia.org / nl.wikipedia.org), CC BY-SA 4.0",
+    "language": "pt-BR + nl",
+    "updated": "2026-07-07"
+  },
+  "sections": [
+    {
+      "id": "geografie",
+      "emoji": "🗺️",
+      "title": "Geografia · Geografie",
+      "intro": "A Bélgica é um país pequeno e plano no noroeste da Europa, cortado por grandes rios e com uma faixa curta de costa no Mar do Norte. Só as colinas das Ardenas, no sudeste, quebram o terreno baixo.",
+      "facts": [
+        { "emoji": "🌊", "nl": "de Schelde", "pt": "o Escalda (rio)", "fact": "Rio que atravessa Antuérpia; graças a ele, o porto de Antuérpia é um dos maiores da Europa." },
+        { "emoji": "🏞️", "nl": "de Maas", "pt": "o Mosa (rio)", "fact": "Grande rio que passa por Liège (Luik) antes de seguir para os Países Baixos." },
+        { "emoji": "🚣", "nl": "de Leie", "pt": "o Lys (rio)", "fact": "Rio que atravessa Gante (Gent) e nasce na França; famoso pelas antigas fábricas de linho." },
+        { "emoji": "🕊️", "nl": "de IJzer", "pt": "o Yser (rio)", "fact": "Rio curto de Flandres Ocidental que ficou famoso na Primeira Guerra Mundial pela batalha do Yser." },
+        { "emoji": "🏖️", "nl": "de Noordzee", "pt": "o Mar do Norte", "fact": "A Bélgica tem só cerca de 67 km de litoral, todo virado para o Mar do Norte." },
+        { "emoji": "⚓", "nl": "Oostende", "pt": "Ostende (cidade costeira)", "fact": "Principal cidade balnear da costa belga, antigamente porto de travessia para a Inglaterra." },
+        { "emoji": "🏰", "nl": "Knokke", "pt": "Knokke (balneário chique)", "fact": "Balneário elegante no extremo nordeste da costa, perto da fronteira com os Países Baixos." },
+        { "emoji": "⛰️", "nl": "de Ardennen", "pt": "as Ardenas", "fact": "Região de florestas e colinas no sul da Valônia, popular para caminhadas e para o Signal de Botrange." },
+        { "emoji": "🗻", "nl": "het Signal de Botrange", "pt": "o Signal de Botrange", "fact": "Ponto mais alto da Bélgica, com apenas 694 metros de altitude, nas Ardenas." },
+        { "emoji": "🧭", "nl": "de buurlanden", "pt": "os países vizinhos", "fact": "A Bélgica faz fronteira com os Países Baixos, a Alemanha, o Luxemburgo e a França." }
+      ],
+      "vocab": [
+        { "nl": "de rivier", "art": "de", "pt": "o rio", "emoji": "🏞️" },
+        { "nl": "de zee", "art": "de", "pt": "o mar", "emoji": "🌊" },
+        { "nl": "de kust", "art": "de", "pt": "a costa / o litoral", "emoji": "🏖️" },
+        { "nl": "de provincie", "art": "de", "pt": "a província", "emoji": "🗺️" },
+        { "nl": "het bos", "art": "het", "pt": "a floresta / o bosque", "emoji": "🌲" },
+        { "nl": "de heuvel", "art": "de", "pt": "a colina", "emoji": "⛰️" },
+        { "nl": "de grens", "art": "de", "pt": "a fronteira", "emoji": "🧭" },
+        { "nl": "vlak", "art": "", "pt": "plano / plana", "emoji": "🛣️" }
+      ]
+    },
+    {
+      "id": "steden",
+      "emoji": "🏙️",
+      "title": "Cidades · Steden",
+      "intro": "A Bélgica tem cidades históricas cheias de personalidade: umas famosas por diamantes, outras por canais, cerveja ou pelas instituições europeias. No norte fala-se neerlandês; no sul, francês.",
+      "facts": [
+        { "emoji": "💎", "nl": "Antwerpen", "pt": "Antuérpia", "fact": "Maior cidade de Flandres e capital mundial do diamante: a maioria dos diamantes brutos do mundo passa por lá." },
+        { "emoji": "🇪🇺", "nl": "Brussel", "pt": "Bruxelas", "fact": "Capital da Bélgica e sede da Comissão Europeia, do Conselho da UE e da OTAN." },
+        { "emoji": "🏰", "nl": "Gent", "pt": "Gante", "fact": "Cidade universitária medieval com um belo centro histórico e o famoso retábulo dos irmãos Van Eyck." },
+        { "emoji": "🛶", "nl": "Brugge", "pt": "Bruges", "fact": "Chamada a 'Veneza do Norte' pelos seus canais; o centro histórico é Patrimônio Mundial da UNESCO." },
+        { "emoji": "🎓", "nl": "Leuven", "pt": "Lovaina", "fact": "Sede da universidade KU Leuven (1425), uma das mais antigas da Europa, e da cervejaria Stella Artois." },
+        { "emoji": "🔔", "nl": "Mechelen", "pt": "Malines", "fact": "Cidade entre Bruxelas e Antuérpia, conhecida pela torre da catedral e pelo centro de treino de carrilhões." },
+        { "emoji": "🍸", "nl": "Hasselt", "pt": "Hasselt", "fact": "Capital da província de Limburgo, famosa pela genever (jenever), a genebra belga." },
+        { "emoji": "🔥", "nl": "Luik", "pt": "Liège (Luik)", "fact": "Grande cidade valã às margens do Mosa, antigo polo industrial e do aço." },
+        { "emoji": "🏛️", "nl": "Namen", "pt": "Namur", "fact": "Capital da Valônia, com uma imponente cidadela sobre a junção do Mosa com o Sambre." },
+        { "emoji": "🏭", "nl": "Charleroi", "pt": "Charleroi", "fact": "Antiga cidade do carvão e do aço na Valônia, hoje conhecida também pelo seu aeroporto de baixo custo." }
+      ],
+      "vocab": [
+        { "nl": "de stad", "art": "de", "pt": "a cidade", "emoji": "🏙️" },
+        { "nl": "de hoofdstad", "art": "de", "pt": "a capital", "emoji": "🏛️" },
+        { "nl": "het plein", "art": "het", "pt": "a praça", "emoji": "🟫" },
+        { "nl": "de gracht", "art": "de", "pt": "o canal (urbano)", "emoji": "🛶" },
+        { "nl": "de kathedraal", "art": "de", "pt": "a catedral", "emoji": "⛪" },
+        { "nl": "het stadhuis", "art": "het", "pt": "a prefeitura / câmara municipal", "emoji": "🏢" },
+        { "nl": "de haven", "art": "de", "pt": "o porto", "emoji": "⚓" },
+        { "nl": "de markt", "art": "de", "pt": "o mercado / a praça central", "emoji": "🧺" }
+      ]
+    },
+    {
+      "id": "bevolking",
+      "emoji": "🧑‍🤝‍🧑",
+      "title": "População · Bevolking",
+      "intro": "A Bélgica tem cerca de 11,8 milhões de habitantes e três línguas oficiais. O país é dividido por comunidades linguísticas, e é isso que torna a Bélgica tão especial (e complicada).",
+      "facts": [
+        { "emoji": "👥", "nl": "de bevolking", "pt": "a população", "fact": "A Bélgica tem cerca de 11,8 milhões de habitantes (estimativa de 2026)." },
+        { "emoji": "🗣️", "nl": "de landstalen", "pt": "as línguas nacionais", "fact": "Há três línguas oficiais: neerlandês, francês e alemão." },
+        { "emoji": "🟡", "nl": "het Nederlands", "pt": "o neerlandês", "fact": "É a língua da Comunidade Flamenga, no norte, que representa cerca de 60% da população." },
+        { "emoji": "🔴", "nl": "het Frans", "pt": "o francês", "fact": "É a língua da Comunidade Francesa, no sul (Valônia), cerca de 40% da população." },
+        { "emoji": "⚫", "nl": "het Duits", "pt": "o alemão", "fact": "Falado por uma pequena minoria no leste, perto da fronteira alemã (menos de 1%)." },
+        { "emoji": "🏳️", "nl": "de drie gewesten", "pt": "as três Regiões", "fact": "O país divide-se em três Regiões: Flandres (Vlaanderen), Valônia (Wallonië) e Bruxelas-Capital." },
+        { "emoji": "🤝", "nl": "de drie gemeenschappen", "pt": "as três Comunidades", "fact": "Há também três Comunidades linguísticas: flamenga, francesa e germanófona." },
+        { "emoji": "🔀", "nl": "tweetalig Brussel", "pt": "Bruxelas bilíngue", "fact": "Bruxelas é oficialmente bilíngue: neerlandês e francês, embora o francês predomine no dia a dia." },
+        { "emoji": "🌍", "nl": "de migranten", "pt": "os imigrantes", "fact": "Os maiores grupos de origem estrangeira vêm de Itália, França, Marrocos, Países Baixos e Turquia." },
+        { "emoji": "🎂", "nl": "de levensverwachting", "pt": "a expectativa de vida", "fact": "A expectativa de vida ronda os 82 anos, uma das mais altas da Europa." }
+      ],
+      "vocab": [
+        { "nl": "de inwoner", "art": "de", "pt": "o habitante", "emoji": "🧑" },
+        { "nl": "de taal", "art": "de", "pt": "a língua", "emoji": "🗣️" },
+        { "nl": "de gemeenschap", "art": "de", "pt": "a comunidade", "emoji": "🤝" },
+        { "nl": "het gewest", "art": "het", "pt": "a região (administrativa)", "emoji": "🏳️" },
+        { "nl": "tweetalig", "art": "", "pt": "bilíngue", "emoji": "🔀" },
+        { "nl": "de migrant", "art": "de", "pt": "o imigrante", "emoji": "🌍" },
+        { "nl": "het Vlaams", "art": "het", "pt": "o flamengo (neerlandês da Bélgica)", "emoji": "🦁" },
+        { "nl": "de meerderheid", "art": "de", "pt": "a maioria", "emoji": "👥" }
+      ]
+    },
+    {
+      "id": "politiek",
+      "emoji": "🏛️",
+      "title": "Política · Politiek",
+      "intro": "A Bélgica é uma monarquia federal com uma estrutura de governo famosa pela sua complexidade. É um dos berços da União Europeia e da OTAN.",
+      "facts": [
+        { "emoji": "👑", "nl": "koning Filip", "pt": "o rei Filipe", "fact": "O chefe de Estado é o rei Filipe (Filip), no trono desde 21 de julho de 2013." },
+        { "emoji": "🏛️", "nl": "de federale monarchie", "pt": "a monarquia federal", "fact": "A Bélgica é uma monarquia constitucional parlamentar e federal." },
+        { "emoji": "🧑‍💼", "nl": "de premier", "pt": "o primeiro-ministro", "fact": "O governo é liderado por um primeiro-ministro (de eerste minister), chefe do poder executivo." },
+        { "emoji": "🧩", "nl": "de staatsstructuur", "pt": "a estrutura do Estado", "fact": "O poder é repartido entre o Estado federal, três Regiões e três Comunidades linguísticas." },
+        { "emoji": "⏳", "nl": "zonder regering", "pt": "sem governo", "fact": "Após as eleições de 2010, a Bélgica passou 589 dias sem governo formado, um recorde mundial na época." },
+        { "emoji": "🗳️", "nl": "de opkomstplicht", "pt": "o voto obrigatório", "fact": "Votar é obrigatório na Bélgica, o que lhe garante uma das maiores taxas de participação do mundo." },
+        { "emoji": "🇪🇺", "nl": "de Europese Unie", "pt": "a União Europeia", "fact": "A Bélgica foi um dos seis membros fundadores da UE e Bruxelas é a sua capital de facto." },
+        { "emoji": "🛡️", "nl": "de NAVO", "pt": "a OTAN", "fact": "A sede da OTAN também fica em Bruxelas, o que faz da cidade um centro diplomático mundial." },
+        { "emoji": "🏢", "nl": "de Europese Commissie", "pt": "a Comissão Europeia", "fact": "A Comissão Europeia e o Conselho da UE têm as suas sedes oficiais em Bruxelas." },
+        { "emoji": "📜", "nl": "de grondwet", "pt": "a constituição", "fact": "A constituição belga foi reformada várias vezes para transformar o país num Estado federal." }
+      ],
+      "vocab": [
+        { "nl": "de koning", "art": "de", "pt": "o rei", "emoji": "👑" },
+        { "nl": "de regering", "art": "de", "pt": "o governo", "emoji": "🏛️" },
+        { "nl": "de premier", "art": "de", "pt": "o primeiro-ministro", "emoji": "🧑‍💼" },
+        { "nl": "de verkiezingen", "art": "de", "pt": "as eleições", "emoji": "🗳️" },
+        { "nl": "stemmen", "art": "", "pt": "votar", "emoji": "✅" },
+        { "nl": "de wet", "art": "de", "pt": "a lei", "emoji": "📜" },
+        { "nl": "het parlement", "art": "het", "pt": "o parlamento", "emoji": "🏢" },
+        { "nl": "de macht", "art": "de", "pt": "o poder", "emoji": "⚖️" }
+      ]
+    },
+    {
+      "id": "sport",
+      "emoji": "⚽",
+      "title": "Esporte · Sport",
+      "intro": "A Bélgica é um país pequeno com grandes campeões: futebol de seleção de elite e uma tradição de ciclismo que produziu alguns dos maiores nomes da história.",
+      "facts": [
+        { "emoji": "😈", "nl": "de Rode Duivels", "pt": "os Diabos Vermelhos", "fact": "A seleção nacional de futebol, os Rode Duivels, já foi número 1 do ranking da FIFA por vários anos." },
+        { "emoji": "🚴", "nl": "Eddy Merckx", "pt": "Eddy Merckx", "fact": "Considerado o maior ciclista de todos os tempos, venceu cinco vezes o Tour de France." },
+        { "emoji": "🏆", "nl": "Remco Evenepoel", "pt": "Remco Evenepoel", "fact": "Jovem estrela do ciclismo, campeão mundial e olímpico de contrarrelógio em Paris 2024." },
+        { "emoji": "💨", "nl": "Wout van Aert", "pt": "Wout van Aert", "fact": "Um dos ciclistas mais completos da atualidade, forte no ciclocross, nas clássicas e nos sprints." },
+        { "emoji": "🌷", "nl": "de Ronde van Vlaanderen", "pt": "a Volta de Flandres", "fact": "Clássica de ciclismo pelas ruas de paralelepípedos e ladeiras íngremes de Flandres, disputada em abril." },
+        { "emoji": "🎾", "nl": "Kim Clijsters", "pt": "Kim Clijsters", "fact": "Ex-número 1 do tênis mundial, ganhou quatro títulos de Grand Slam em simples." },
+        { "emoji": "🎾", "nl": "Justine Henin", "pt": "Justine Henin", "fact": "Também ex-número 1, conquistou sete títulos de Grand Slam, incluindo quatro em Roland Garros." },
+        { "emoji": "⚽", "nl": "de Jupiler Pro League", "pt": "a Jupiler Pro League", "fact": "O principal campeonato de futebol da Bélgica, com clubes como Anderlecht, Club Brugge e Genk." },
+        { "emoji": "🏟️", "nl": "het voetbal", "pt": "o futebol", "fact": "O futebol é o esporte mais popular do país, com craques como Kevin De Bruyne e Romelu Lukaku." }
+      ],
+      "vocab": [
+        { "nl": "het voetbal", "art": "het", "pt": "o futebol", "emoji": "⚽" },
+        { "nl": "de wielrenner", "art": "de", "pt": "o ciclista", "emoji": "🚴" },
+        { "nl": "de wedstrijd", "art": "de", "pt": "a partida / a corrida", "emoji": "🏁" },
+        { "nl": "de ploeg", "art": "de", "pt": "a equipe / o time", "emoji": "👥" },
+        { "nl": "winnen", "art": "", "pt": "vencer / ganhar", "emoji": "🏆" },
+        { "nl": "het kampioenschap", "art": "het", "pt": "o campeonato", "emoji": "🥇" },
+        { "nl": "de fiets", "art": "de", "pt": "a bicicleta", "emoji": "🚲" },
+        { "nl": "de speler", "art": "de", "pt": "o jogador", "emoji": "🧍" }
+      ]
+    },
+    {
+      "id": "cultuur",
+      "emoji": "🎨",
+      "title": "Cultura · Cultuur",
+      "intro": "A Bélgica é famosa pela cerveja, pelo chocolate, pelas batatas fritas e pelos quadrinhos. Também deu ao mundo alguns dos maiores pintores da história e festivais que atraem gente do planeta inteiro.",
+      "facts": [
+        { "emoji": "🍺", "nl": "het Belgische bier", "pt": "a cerveja belga", "fact": "Existem mais de 1.600 cervejas belgas diferentes; a cultura da cerveja é Patrimônio Imaterial da UNESCO desde 2016." },
+        { "emoji": "⛪", "nl": "het trappistenbier", "pt": "a cerveja trapista", "fact": "Cinco mosteiros belgas produzem cerveja trapista autêntica: Chimay, Orval, Rochefort, Westmalle e Westvleteren." },
+        { "emoji": "🍫", "nl": "de praline", "pt": "o bombom (praliné)", "fact": "A Bélgica é famosa pelos seus chocolates finos; o praliné de recheio foi inventado em Bruxelas em 1912." },
+        { "emoji": "🍟", "nl": "de frieten", "pt": "as batatas fritas", "fact": "As 'frieten' são um símbolo nacional, servidas em cartuchos de papel com maionese e outros molhos." },
+        { "emoji": "📕", "nl": "Kuifje", "pt": "Tintim", "fact": "O repórter Tintim (Kuifje), criado por Hergé, é o quadrinho belga mais famoso do mundo." },
+        { "emoji": "🔵", "nl": "de Smurfen", "pt": "os Smurfs", "fact": "Os Smurfs (Schtroumpfs) e Suske en Wiske mostram como a Bélgica é uma potência dos quadrinhos." },
+        { "emoji": "🖼️", "nl": "Pieter Paul Rubens", "pt": "Peter Paul Rubens", "fact": "Mestre barroco de Antuérpia, um dos pintores mais influentes do século XVII." },
+        { "emoji": "🎨", "nl": "Jan van Eyck", "pt": "Jan van Eyck", "fact": "Pioneiro flamengo da pintura a óleo; a sua obra-prima, o Cordeiro Místico, está em Gante." },
+        { "emoji": "🎩", "nl": "René Magritte", "pt": "René Magritte", "fact": "Pintor surrealista belga, famoso pelo quadro do homem de chapéu-coco e a frase 'Isto não é um cachimbo'." },
+        { "emoji": "🎶", "nl": "Tomorrowland", "pt": "Tomorrowland", "fact": "Um dos maiores festivais de música eletrônica do mundo, realizado todo ano em Boom, perto de Antuérpia." },
+        { "emoji": "🎉", "nl": "de Gentse Feesten", "pt": "as Festas de Gante", "fact": "Enorme festival de rua de dez dias em Gante, com música, teatro e multidões." },
+        { "emoji": "🎭", "nl": "het Carnaval van Aalst", "pt": "o Carnaval de Aalst", "fact": "Carnaval tradicional de Aalst, famoso pelo humor satírico e pelos desfiles." }
+      ],
+      "vocab": [
+        { "nl": "het bier", "art": "het", "pt": "a cerveja", "emoji": "🍺" },
+        { "nl": "de chocolade", "art": "de", "pt": "o chocolate", "emoji": "🍫" },
+        { "nl": "de frieten", "art": "de", "pt": "as batatas fritas", "emoji": "🍟" },
+        { "nl": "het stripverhaal", "art": "het", "pt": "a história em quadrinhos", "emoji": "📕" },
+        { "nl": "de schilder", "art": "de", "pt": "o pintor", "emoji": "🖼️" },
+        { "nl": "het schilderij", "art": "het", "pt": "o quadro / a pintura", "emoji": "🎨" },
+        { "nl": "het feest", "art": "het", "pt": "a festa", "emoji": "🎉" },
+        { "nl": "de muziek", "art": "de", "pt": "a música", "emoji": "🎶" }
+      ]
+    },
+    {
+      "id": "geschiedenis",
+      "emoji": "📜",
+      "title": "História · Geschiedenis",
+      "intro": "A Bélgica tornou-se independente em 1830 e foi palco de algumas das batalhas mais duras das duas Guerras Mundiais. Sua história também inclui um passado colonial doloroso no Congo.",
+      "facts": [
+        { "emoji": "🎆", "nl": "de onafhankelijkheid", "pt": "a independência", "fact": "A Bélgica separou-se dos Países Baixos e tornou-se independente em 1830, após a Revolução Belga." },
+        { "emoji": "⚔️", "nl": "de Slag bij Waterloo", "pt": "a Batalha de Waterloo", "fact": "Em 1815, perto de Bruxelas, Napoleão foi definitivamente derrotado na Batalha de Waterloo." },
+        { "emoji": "🌺", "nl": "Ieper en de klaprozen", "pt": "Ypres e as papoulas", "fact": "Na Primeira Guerra Mundial, Flandres (Ieper) foi um campo de batalha terrível; a papoula virou símbolo dos mortos." },
+        { "emoji": "🪖", "nl": "de Eerste Wereldoorlog", "pt": "a Primeira Guerra Mundial", "fact": "A invasão alemã da Bélgica neutra em 1914 ajudou a arrastar o mundo para a guerra." },
+        { "emoji": "🏰", "nl": "de Tweede Wereldoorlog", "pt": "a Segunda Guerra Mundial", "fact": "Na Segunda Guerra, a Bélgica foi ocupada pela Alemanha; a Batalha das Ardenas (1944-45) foi decisiva no fim." },
+        { "emoji": "⛓️", "nl": "Leopold II en Congo", "pt": "Leopoldo II e o Congo", "fact": "O rei Leopoldo II governou o Estado Livre do Congo como propriedade pessoal (1885-1908), com trabalhos forçados e milhões de mortes." },
+        { "emoji": "🇨🇩", "nl": "Belgisch-Congo", "pt": "o Congo Belga", "fact": "Depois, o Congo passou a ser colônia do Estado belga até se tornar independente em 1960." },
+        { "emoji": "🇪🇺", "nl": "de oprichting van de EU", "pt": "a fundação da UE", "fact": "A Bélgica foi um dos seis membros fundadores da Comunidade Europeia, origem da atual União Europeia." },
+        { "emoji": "🏭", "nl": "de industriële revolutie", "pt": "a Revolução Industrial", "fact": "A Valônia foi uma das primeiras regiões do continente a se industrializar, graças ao carvão e ao aço." }
+      ],
+      "vocab": [
+        { "nl": "de geschiedenis", "art": "de", "pt": "a história", "emoji": "📜" },
+        { "nl": "de oorlog", "art": "de", "pt": "a guerra", "emoji": "⚔️" },
+        { "nl": "de vrede", "art": "de", "pt": "a paz", "emoji": "🕊️" },
+        { "nl": "de onafhankelijkheid", "art": "de", "pt": "a independência", "emoji": "🎆" },
+        { "nl": "de kolonie", "art": "de", "pt": "a colônia", "emoji": "🌍" },
+        { "nl": "de eeuw", "art": "de", "pt": "o século", "emoji": "🕰️" },
+        { "nl": "het leger", "art": "het", "pt": "o exército", "emoji": "🪖" },
+        { "nl": "de slag", "art": "de", "pt": "a batalha", "emoji": "🛡️" }
+      ]
+    },
+    {
+      "id": "nederland-contrast",
+      "emoji": "🇳🇱",
+      "title": "Contraste: Países Baixos · Nederland",
+      "intro": "Bélgica e Países Baixos partilham a língua neerlandesa, mas são bem diferentes. Entender esse contraste ajuda muito quem aprende neerlandês na Bélgica.",
+      "facts": [
+        { "emoji": "👥", "nl": "de bevolking", "pt": "a população", "fact": "Os Países Baixos têm cerca de 18 milhões de habitantes, bem mais que a Bélgica." },
+        { "emoji": "🏙️", "nl": "Amsterdam", "pt": "Amsterdã", "fact": "A capital oficial é Amsterdã, mas o governo e o parlamento ficam em Haia (Den Haag)." },
+        { "emoji": "🏛️", "nl": "Den Haag", "pt": "Haia", "fact": "Haia é a sede do governo e de tribunais internacionais, embora não seja a capital." },
+        { "emoji": "🌊", "nl": "onder de zeespiegel", "pt": "abaixo do nível do mar", "fact": "Cerca de 26% do território neerlandês fica abaixo do nível do mar, protegido por diques." },
+        { "emoji": "🛡️", "nl": "de dijken", "pt": "os diques", "fact": "Os famosos diques (dijken) e pôlderes protegem o país das águas e ganharam terra ao mar." },
+        { "emoji": "🚲", "nl": "de fiets", "pt": "a bicicleta", "fact": "Os Países Baixos são o país das bicicletas: há mais bicicletas do que habitantes." },
+        { "emoji": "🗣️", "nl": "de harde G", "pt": "o 'G' áspero", "fact": "Um flamengo nota logo o 'G' mais áspero e gutural dos neerlandeses do norte." },
+        { "emoji": "🔤", "nl": "andere woorden", "pt": "palavras diferentes", "fact": "Há palavras diferentes: na Bélgica diz-se 'gsm' (celular) e 'croque', nos Países Baixos 'mobieltje' e 'tosti'." },
+        { "emoji": "🧀", "nl": "de kaas", "pt": "o queijo", "fact": "Os Países Baixos são famosos pelos queijos como Gouda e Edam, exportados para o mundo inteiro." },
+        { "emoji": "🌷", "nl": "de tulpen", "pt": "as tulipas", "fact": "As tulipas e os moinhos de vento são símbolos clássicos da paisagem neerlandesa." }
+      ],
+      "vocab": [
+        { "nl": "de dijk", "art": "de", "pt": "o dique", "emoji": "🛡️" },
+        { "nl": "de molen", "art": "de", "pt": "o moinho", "emoji": "🌬️" },
+        { "nl": "de fiets", "art": "de", "pt": "a bicicleta", "emoji": "🚲" },
+        { "nl": "de kaas", "art": "de", "pt": "o queijo", "emoji": "🧀" },
+        { "nl": "de tulp", "art": "de", "pt": "a tulipa", "emoji": "🌷" },
+        { "nl": "het verschil", "art": "het", "pt": "a diferença", "emoji": "🔀" },
+        { "nl": "de zeespiegel", "art": "de", "pt": "o nível do mar", "emoji": "🌊" },
+        { "nl": "het accent", "art": "het", "pt": "o sotaque", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "id": "funfacts",
+      "emoji": "🤯",
+      "title": "Curiosidades · Weetjes",
+      "intro": "Fatos surpreendentes sobre a Bélgica que rendem boas conversas e ajudam a fixar palavras em neerlandês.",
+      "facts": [
+        { "emoji": "🎷", "pt": "O saxofone foi inventado por um belga, Adolphe Sax, nascido em Dinant, que o patenteou em 1846.", "nl": "De saxofoon werd uitgevonden door de Belg Adolphe Sax uit Dinant." },
+        { "emoji": "🍟", "pt": "As batatas fritas são consideradas uma invenção belga, apesar do nome 'french fries' em inglês.", "nl": "Frieten zijn eigenlijk een Belgische uitvinding, niet Franse." },
+        { "emoji": "🚋", "pt": "O Kusttram, na costa belga, tem 67 km e é a linha de bonde de bitola métrica mais longa do mundo.", "nl": "De Kusttram is met 67 km de langste tramlijn op metersporen ter wereld." },
+        { "emoji": "💎", "pt": "Antuérpia é a capital mundial do diamante: a maior parte dos diamantes brutos do planeta passa por lá.", "nl": "Antwerpen is de diamanthoofdstad van de wereld." },
+        { "emoji": "⚛️", "pt": "O Atomium, em Bruxelas, é um átomo de ferro gigante ampliado 165 bilhões de vezes, feito para a Expo 58.", "nl": "Het Atomium in Brussel is een reusachtig ijzeratoom uit 1958." },
+        { "emoji": "🏰", "pt": "A Bélgica tem cerca de 3.000 castelos, uma das maiores densidades de castelos por km² do mundo.", "nl": "België heeft de meeste kastelen per vierkante kilometer ter wereld." },
+        { "emoji": "🎬", "pt": "A atriz Audrey Hepburn nasceu em Bruxelas, em 1929, no bairro de Ixelles.", "nl": "Actrice Audrey Hepburn werd in 1929 in Brussel geboren." },
+        { "emoji": "🍺", "pt": "Com mais de 1.600 cervejas diferentes, a Bélgica é um dos países com maior variedade de cerveja do mundo.", "nl": "Met meer dan 1.600 bieren is België een echt bierland." },
+        { "emoji": "🗳️", "pt": "Na Bélgica é obrigatório votar, e por isso a participação nas eleições está entre as maiores do mundo.", "nl": "In België is stemmen verplicht." },
+        { "emoji": "🕰️", "pt": "Em 2010-2011 a Bélgica ficou 589 dias sem governo, na época um recorde mundial.", "nl": "In 2010-2011 zat België 589 dagen zonder regering." },
+        { "emoji": "🇪🇺", "pt": "Bruxelas é considerada a capital não oficial da Europa por abrigar as principais instituições da UE.", "nl": "Brussel wordt de onofficiële hoofdstad van Europa genoemd." },
+        { "emoji": "🐴", "pt": "Perto de Bruxelas foi travada a Batalha de Waterloo (1815), onde Napoleão foi derrotado pela última vez.", "nl": "Bij Waterloo werd Napoleon in 1815 verslagen." }
+      ],
+      "vocab": [
+        { "nl": "het weetje", "art": "het", "pt": "a curiosidade", "emoji": "🤯" },
+        { "nl": "de uitvinding", "art": "de", "pt": "a invenção", "emoji": "💡" },
+        { "nl": "het kasteel", "art": "het", "pt": "o castelo", "emoji": "🏰" },
+        { "nl": "de tram", "art": "de", "pt": "o bonde / o eléctrico", "emoji": "🚋" },
+        { "nl": "de diamant", "art": "de", "pt": "o diamante", "emoji": "💎" },
+        { "nl": "verplicht", "art": "", "pt": "obrigatório", "emoji": "🗳️" },
+        { "nl": "beroemd", "art": "", "pt": "famoso / célebre", "emoji": "⭐" },
+        { "nl": "de wereld", "art": "de", "pt": "o mundo", "emoji": "🌍" }
+      ]
+    },
+    {
+      "id": "mensen",
+      "emoji": "👤",
+      "title": "Pessoas famosas · Beroemde mensen",
+      "intro": "Belgas e neerlandeses que marcaram a arte, a música e o esporte mundial. Bom para associar nomes a histórias e treinar frases em neerlandês.",
+      "people": [
+        { "emoji": "🚴", "name": "Eddy Merckx", "pt": "Ciclista belga considerado o maior de todos os tempos, cinco vezes vencedor do Tour de France.", "nl": "Belgische wielrenner, vaak de beste ooit genoemd." },
+        { "emoji": "🎤", "name": "Jacques Brel", "pt": "Cantor e compositor belga, um dos maiores nomes da canção francófona do século XX.", "nl": "Belgische zanger en dichter van het Franse chanson." },
+        { "emoji": "🎷", "name": "Adolphe Sax", "pt": "Inventor belga do saxofone, nascido em Dinant em 1814.", "nl": "Belgische uitvinder van de saxofoon, geboren in Dinant." },
+        { "emoji": "🎬", "name": "Audrey Hepburn", "pt": "Atriz e ícone de estilo nascida em Bruxelas, estrela de 'Bonequinha de Luxo'.", "nl": "Actrice, geboren in Brussel, ster van 'Breakfast at Tiffany's'." },
+        { "emoji": "🎩", "name": "René Magritte", "pt": "Pintor surrealista belga, mestre das imagens que enganam o olhar.", "nl": "Belgische surrealistische schilder." },
+        { "emoji": "🎶", "name": "Stromae", "pt": "Cantor belga de música pop e eletrônica, sucesso mundial com 'Alors on danse' e 'Papaoutai'.", "nl": "Belgische zanger, wereldhit met 'Papaoutai'." },
+        { "emoji": "🎾", "name": "Kim Clijsters", "pt": "Tenista belga, ex-número 1 do mundo e quatro vezes campeã de Grand Slam.", "nl": "Belgische tennisster, ex-nummer één van de wereld." },
+        { "emoji": "🖼️", "name": "Peter Paul Rubens", "pt": "Grande pintor barroco de Antuérpia, do século XVII.", "nl": "Grote barokschilder uit Antwerpen." },
+        { "emoji": "🌻", "name": "Vincent van Gogh", "pt": "Pintor neerlandês pós-impressionista, autor de 'Os Girassóis' e 'A Noite Estrelada'.", "nl": "Nederlandse schilder van 'De Zonnebloemen'." },
+        { "emoji": "🎨", "name": "Rembrandt", "pt": "Mestre neerlandês do século de ouro, famoso pela 'Ronda Noturna'.", "nl": "Nederlandse meester van 'De Nachtwacht'." },
+        { "emoji": "⚽", "name": "Johan Cruijff", "pt": "Lenda neerlandesa do futebol, inventor do 'futebol total' e do drible que leva seu nome.", "nl": "Nederlandse voetballegende van het 'totaalvoetbal'." },
+        { "emoji": "📔", "name": "Anne Frank", "pt": "Jovem judia alemã que escreveu seu famoso diário escondida em Amsterdã durante a Segunda Guerra.", "nl": "Schreef haar beroemde dagboek in Amsterdam tijdens de oorlog." }
+      ],
+      "vocab": [
+        { "nl": "de mens", "art": "de", "pt": "a pessoa / o ser humano", "emoji": "👤" },
+        { "nl": "de kunstenaar", "art": "de", "pt": "o artista", "emoji": "🎨" },
+        { "nl": "de zanger", "art": "de", "pt": "o cantor", "emoji": "🎤" },
+        { "nl": "beroemd", "art": "", "pt": "famoso", "emoji": "⭐" },
+        { "nl": "geboren", "art": "", "pt": "nascido", "emoji": "🎂" },
+        { "nl": "de uitvinder", "art": "de", "pt": "o inventor", "emoji": "💡" },
+        { "nl": "de schrijver", "art": "de", "pt": "o escritor", "emoji": "✍️" },
+        { "nl": "de wereldster", "art": "de", "pt": "a estrela mundial", "emoji": "🌟" }
+      ]
+    }
+  ]
+}

@@ -23,15 +23,53 @@ const ROLES = {
 };
 
 const UNIT_COLORS = { A1:'#2E7D32', A2:'#558B2F', B1:'#F9A825', B2:'#EF6C00', C1:'#C62828', C2:'#6A1B9A' };
+const UNIT_INFO = {
+  A1:{ name:'Sobrevivência', emoji:'🌱' }, A2:{ name:'Autonomia', emoji:'⭐' },
+  B1:{ name:'Independência', emoji:'🌳' }, B2:{ name:'Fluência', emoji:'🚀' },
+  C1:{ name:'Proficiência', emoji:'🎓' }, C2:{ name:'Maestria', emoji:'👑' },
+};
 const SRS_DAYS = [0, 0, 1, 3, 7, 21]; // index = box (1..5)
 const STORE_KEY = 'nlcurso.v1';
+
+/* ---------- clock emojis: visualize the hour (our edge over Babbel/Duolingo) ---------- */
+const HOUR_EMOJI = { // 1..12 o'clock + half hours
+  '1':'🕐','2':'🕑','3':'🕒','4':'🕓','5':'🕔','6':'🕕','7':'🕖','8':'🕗','9':'🕘','10':'🕙','11':'🕚','12':'🕛','0':'🕛',
+  '1.5':'🕜','2.5':'🕝','3.5':'🕞','4.5':'🕟','5.5':'🕠','6.5':'🕡','7.5':'🕢','8.5':'🕣','9.5':'🕤','10.5':'🕥','11.5':'🕦','12.5':'🕧',
+};
+function hourEmoji(h, half) { return HOUR_EMOJI[half ? (((h % 12) || 12) + '.5') : String(((h % 12) || 12))] || '🕐'; }
+// decorate any "HH:MM" or "half X" mention in text with the matching clock emoji
+function clockify(text) {
+  return String(text || '')
+    .replace(/\b([01]?\d|2[0-3]):([0-5]\d)\b/g, (m, h, mi) => {
+      const hh = +h, half = mi === '30';
+      return `${m} ${hourEmoji(half ? hh : hh, half)}`;
+    })
+    .replace(/\bhalf\s+(een|twee|drie|vier|vijf|zes|zeven|acht|negen|tien|elf|twaalf)\b/gi, (m, w) => {
+      const map = { een:1,twee:2,drie:3,vier:4,vijf:5,zes:6,zeven:7,acht:8,negen:9,tien:10,elf:11,twaalf:12 };
+      const target = map[w.toLowerCase()]; // "half drie" = 2:30 -> clock at 2.5
+      return `${m} ${hourEmoji(target - 1, true)}`;
+    });
+}
 
 /* ---------- state ---------- */
 let S = load();
 function load() {
-  try { return Object.assign({ xp:0, streak:{last:'',count:0}, lessons:{}, srs:{} },
+  try { return Object.assign({ xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{} },
     JSON.parse(localStorage.getItem(STORE_KEY) || '{}')); }
-  catch { return { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{} }; }
+  catch { return { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{} }; }
+}
+/* ---------- mistakes quicklist: every wrong answer gets extra attention ---------- */
+function recordMistake(m) {
+  const key = m.lesson + '|' + norm(m.q || m.answer || Math.random());
+  const prev = S.mistakes[key];
+  S.mistakes[key] = { ...m, key, count: (prev ? prev.count : 0) + 1, ts: Date.now() };
+  save(); updateMistakeBadge();
+}
+function clearMistake(key) { delete S.mistakes[key]; save(); updateMistakeBadge(); }
+function mistakeList() { return Object.values(S.mistakes).sort((a, b) => b.count - a.count || b.ts - a.ts); }
+function updateMistakeBadge() {
+  const n = mistakeList().length, b = document.getElementById('mistakeBadge');
+  if (b) { b.hidden = n === 0; b.textContent = n; }
 }
 function save() { localStorage.setItem(STORE_KEY, JSON.stringify(S)); paintStats(); }
 function today() { return new Date().toISOString().slice(0,10); }
@@ -108,8 +146,8 @@ function phraseHTML(ph, idx) {
     <div class="row"><span class="flag">🇧🇪</span><span>${tokHTML(ph.nl, idx, 'nl')}</span>
       ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(nl)}" title="Ouvir">🔊</button>` : ''}</div>
     <div class="row"><span class="flag">🇧🇷</span><span>${tokHTML(ph.pt, idx, 'pt')}</span></div>
-    ${ph.lit ? `<div class="lit">🔍 literal: ${esc(ph.lit)}</div>` : ''}
-    ${ph.note ? `<div class="note">💡 ${esc(ph.note)}</div>` : ''}
+    ${ph.lit ? `<div class="lit">🔍 literal: ${esc(clockify(ph.lit))}</div>` : ''}
+    ${ph.note ? `<div class="note">💡 ${esc(clockify(ph.note))}</div>` : ''}
   </div>`;
 }
 function bindPhraseEvents(root) {
@@ -133,7 +171,7 @@ function legendStrip(phrases) {
 
 /* ---------- router ---------- */
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); });
+window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); });
 
 async function route() {
   const app = $('#app');
@@ -143,6 +181,12 @@ async function route() {
     if (h === 'legenda') return renderLegend(app);
     if (h === 'revisao') return renderReview(app);
     if (h === 'woordenboek') return renderWoordenboek(app);
+    if (h === 'klanken') return renderKlanken(app);
+    if (h === 'belgie') return renderBelgie(app);
+    if (h === 'decks') return renderDecks(app);
+    if (h === 'dificuldades') return renderMistakes(app);
+    const mn = h.match(/^nivel\/([A-C][12])$/i);
+    if (mn) return renderLevel(app, mn[1].toUpperCase());
     const m = h.match(/^les\/([\w-]+)(\/praticar)?$/);
     if (m) return renderLesson(app, m[1], !!m[2]);
     renderHome(app);
@@ -166,6 +210,17 @@ async function renderHome(app) {
     <a href="livro.html">Livro Infográfico 📖</a>.</p>
     ${next ? `<a class="btn primary" href="#/les/${next.id}">▶️ Continuar: ${next.emoji} ${esc(next.title)}</a>` : '<p>🏆 Curso completo!</p>'}
     <img src="assets/infographics/cefr-ladder.svg" alt="A escada de níveis A1 a C2" loading="lazy">
+    <p class="muted" style="margin:.6em 0 .2em"><b>👉 Escolha um nível</b> para ver TUDO dele (lições, frases e vocabulário):</p>
+    <div class="level-picker">${['A1','A2','B1','B2','C1','C2'].map(u =>
+      `<a class="level-btn" href="#/nivel/${u}" style="background:${UNIT_COLORS[u]}">${u}<small>${UNIT_INFO[u].emoji} ${UNIT_INFO[u].name}</small></a>`).join('')}</div>
+  </div>
+  <div class="home-tiles">
+    <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
+    <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
+    <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
+    <a class="home-tile" href="#/woordenboek">🔎<b>Woordenboek</b><small>dicionário + emojis</small></a>
+    <a class="home-tile" href="#/dificuldades">🎯<b>Dificuldades</b><small>seus erros, juntos</small></a>
+    <a class="home-tile" href="#/revisao">🧠<b>Revisão</b><small>repetição espaçada</small></a>
   </div>
   ${Object.entries(units).map(([u, ls]) => `
     <div class="unit-head"><span class="unit-badge" style="background:${UNIT_COLORS[u] || '#555'}">${u}</span>
@@ -236,6 +291,17 @@ function showTab(t, L) {
   if (t === 'fc') runFlashcards(body, L, L.vocab.map(v => ({ ...v, key: L.id + '|' + v.nl })));
 }
 
+/* ---------- turn any exercise into a reviewable mistake card ---------- */
+function mistakeFromEx(ex, L) {
+  const base = { lesson: L.id, lessonTitle: L.title, lessonEmoji: L.emoji, unit: L.unit, type: ex.type };
+  if (ex.type === 'mc')     return { ...base, q: ex.q, nl: ex.options[ex.answer], pt: ex.q, answer: ex.options[ex.answer] };
+  if (ex.type === 'listen') return { ...base, q: 'Ouça: ' + ex.nl, nl: ex.nl, pt: ex.options[ex.answer], answer: ex.nl };
+  if (ex.type === 'fill')   return { ...base, q: `${ex.before} ___ ${ex.after || ''}`, nl: ex.answer, pt: ex.hint || '', answer: ex.answer };
+  if (ex.type === 'order')  return { ...base, q: ex.pt, nl: ex.answer, pt: ex.pt, answer: ex.answer };
+  if (ex.type === 'match')  return { ...base, q: 'Pares: ' + ex.pairs.map(p => p[0]).join(', '), nl: ex.pairs.map(p => p[0]).join(' · '), pt: ex.pairs.map(p => p[1]).join(' · '), answer: ex.pairs.map(p => p[0] + '=' + p[1]).join(', ') };
+  return { ...base, q: '(exercício)', nl: '', pt: '', answer: '' };
+}
+
 /* ---------- exercise runner ---------- */
 function runExercises(body, L) {
   const exs = L.exercises;
@@ -248,6 +314,7 @@ function runExercises(body, L) {
       <b>${i + 1}/${exs.length}</b></div>`;
   }
   function next() {
+    if (!firstTry) recordMistake(mistakeFromEx(exs[i], L)); // stumbled -> quicklist
     i++; st.seen = Math.max(st.seen || 0, i); save();
     firstTry = true;
     i < exs.length ? show() : end();
@@ -551,6 +618,178 @@ async function renderWoordenboek(app) {
       navigator.clipboard && navigator.clipboard.writeText(b.dataset.e);
       toast(`${b.dataset.e} copiado!`);
     }));
+  });
+}
+
+/* ---------- reusable vocab table ---------- */
+function vocabRow(v) {
+  return `<tr>
+    <td>${v.art ? `<span class="pill art-${v.art}">${v.art}</span>` : ''}</td>
+    <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn vspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
+    <td class="v-split">${esc(v.split || '')}</td>
+    <td>${v.emoji ? v.emoji + ' ' : ''}${esc(clockify(v.pt))}</td></tr>`;
+}
+function vocabTableHTML(list) {
+  return `<table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th></tr>
+    ${list.map(vocabRow).join('')}</table>`;
+}
+function bindVspeak(root) { root.querySelectorAll('.vspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say))); }
+
+/* ---------- LEVEL selector: click A1 -> all A1 content ---------- */
+async function renderLevel(app, unit) {
+  app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div><h1>${UNIT_INFO[unit].emoji} Nível ${unit} <span class="muted" style="font-size:1rem">${UNIT_INFO[unit].name}</span></h1><div class="loading">⏳ Reunindo tudo do ${unit}...</div>`;
+  const man = await manifest();
+  const ls = man.lessons.filter(l => l.unit === unit);
+  const packs = await Promise.all(ls.map(l => lesson(l.id)));
+  const allPhrases = packs.flatMap(L => L.phrases.map(p => ({ ...p, _from: L.emoji })));
+  const allVocab = []; const seen = new Set();
+  packs.forEach(L => L.vocab.forEach(v => { const k = norm(v.nl); if (!seen.has(k)) { seen.add(k); allVocab.push(v); } }));
+  const c = UNIT_COLORS[unit];
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <div class="level-hero" style="border-color:${c}">
+      <span class="level-chip" style="background:${c}">${unit}</span>
+      <div><h1 style="margin:0">${UNIT_INFO[unit].emoji} ${UNIT_INFO[unit].name}</h1>
+      <span class="muted">${ls.length} lições · ${allPhrases.length} frases · ${allVocab.length} palavras · ${packs.reduce((s, L) => s + L.exercises.length, 0)} exercícios</span></div>
+    </div>
+    <div class="tabs" id="lvltabs">
+      <button class="tab active" data-t="les">📚 Lições</button>
+      <button class="tab" data-t="phr">🎨 Frases</button>
+      <button class="tab" data-t="voc">🧩 Vocabulário</button>
+    </div>
+    <div id="lvlbody"></div>`;
+  const body = $('#lvlbody');
+  const tabs = {
+    les: () => {
+      body.innerHTML = `<div class="lesson-grid">${ls.map(l => {
+        const pct = lessonProgress(l.id, l.exercises || 10);
+        return `<a class="lesson-card" href="#/les/${l.id}"><span class="em">${l.emoji}</span>
+          <h3>${esc(l.title)}</h3><span class="pct">${l.phrases} frases · ${l.exercises} exercícios ${pct === 100 ? '· ✅' : ''}</span>
+          <div class="progressbar"><div style="width:${pct}%"></div></div></a>`; }).join('')}</div>
+        <p class="center" style="margin-top:16px"><button class="btn primary" id="fcAll">🃏 Flashcards de TODO o ${unit} (${allVocab.length})</button></p>`;
+      $('#fcAll').addEventListener('click', () => {
+        app.innerHTML = `<div class="crumb"><a href="#/nivel/${unit}">← ${unit}</a></div><h1>🃏 ${unit} completo</h1><div id="fcx"></div>`;
+        runFlashcards($('#fcx'), null, allVocab.map(v => ({ ...v, key: 'lvl-' + unit + '|' + v.nl })));
+      });
+    },
+    phr: () => {
+      body.innerHTML = legendStrip(allPhrases) + allPhrases.map((p, i) => phraseHTML(p, i)).join('');
+      bindPhraseEvents(body);
+      body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say); }));
+    },
+    voc: () => { body.innerHTML = vocabTableHTML(allVocab); bindVspeak(body); },
+  };
+  app.querySelectorAll('#lvltabs .tab').forEach(b => b.addEventListener('click', () => {
+    app.querySelectorAll('#lvltabs .tab').forEach(x => x.classList.remove('active'));
+    b.classList.add('active'); tabs[b.dataset.t]();
+  }));
+  tabs.les();
+}
+
+/* ---------- KLANKEN: native sound trainer (long vs short, digraphs) ---------- */
+async function renderKlanken(app) {
+  app.innerHTML = `<h1>🔊 Klanken <span class="muted" style="font-size:1rem">o treino de sons</span></h1><div class="loading">⏳...</div>`;
+  let K; try { K = await (await fetch('data/klanken.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
+  const sc = (o) => `<button class="klank-word" data-say="${esc(o.word)}">
+      <span class="klank-letter">${esc(o.letter)}</span>
+      <span class="klank-ex">${o.emoji || ''} ${esc(o.word)}<small>${esc(o.pt)}</small></span>
+      ${hasTTS ? '<span class="klank-play">🔊</span>' : ''}</button>`;
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🔊 Klanken: ouça e sinta a diferença</h1>
+    <p class="muted">${esc(K.intro || '')} ${hasTTS ? '' : '⚠️ Seu navegador não tem voz neerlandesa; instale uma para ouvir.'}</p>
+    <h2>⚖️ Vogal curta vs longa <small class="muted" style="font-size:.8rem">(muda o significado!)</small></h2>
+    ${K.minimalPairs.map(p => `<div class="card klank-pair">
+      <div class="klank-vs">${sc(p.short)}<span class="vs">⚔️</span>${sc(p.long)}</div>
+      <p class="klank-tip">💡 ${esc(p.tipPt || '')}</p></div>`).join('')}
+    <h2 style="margin-top:22px">🔤 Dígrafos e sons especiais</h2>
+    <div class="klank-grid">${K.digraphs.map(d => `<div class="card klank-single">
+      <button class="klank-word big" data-say="${esc(d.word)}">
+        <span class="klank-letter">${esc(d.letter)}</span>
+        <span class="klank-ex">${d.emoji || ''} ${esc(d.word)}<small>${esc(d.pt)}</small></span>
+        ${hasTTS ? '<span class="klank-play">🔊</span>' : ''}</button>
+      <p class="klank-tip">🗣️ ${esc(d.ptSound || '')}${d.tipPt ? ' · ' + esc(d.tipPt) : ''}</p></div>`).join('')}</div>`;
+  app.querySelectorAll('.klank-word').forEach(b => b.addEventListener('click', () => { speak(b.dataset.say); b.classList.add('said'); setTimeout(() => b.classList.remove('said'), 400); }));
+}
+
+/* ---------- BELGIË: geography, cities, politics, sport, culture, history, fun facts ---------- */
+async function renderBelgie(app) {
+  app.innerHTML = `<h1>🇧🇪 Ontdek België</h1><div class="loading">⏳...</div>`;
+  let B; try { B = await (await fetch('data/belgie.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🇧🇪 Ontdek België <span class="muted" style="font-size:1rem">Descubra a Bélgica (e a Holanda)</span></h1>
+    <p class="muted">Conhecer o país é parte da integração (inburgering). Fatos verificados na Wikipédia, com o vocabulário em neerlandês. 🧠</p>
+    <div class="chips" id="belnav">${B.sections.map((s, i) => `<button class="chip" data-i="${i}">${s.emoji} ${esc(s.title.split(' · ')[0])}</button>`).join('')}</div>
+    <div id="belbody"></div>`;
+  const body = $('#belbody');
+  function showSec(i) {
+    const s = B.sections[i];
+    app.querySelectorAll('#belnav .chip').forEach((c, k) => c.classList.toggle('sel', k === i));
+    body.innerHTML = `<div class="card"><h2>${s.emoji} ${esc(s.title)}</h2>
+      ${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}
+      <div class="fact-list">${(s.facts || []).map(f => `<div class="fact">
+        <span class="fact-emoji">${f.emoji || '•'}</span>
+        <div>${f.nl ? `<b class="v-nl">${esc(f.nl)}</b> ${hasTTS && f.nl ? `<button class="speak-btn bspeak" data-say="${esc(f.nl)}">🔊</button>` : ''}${f.name ? `<b>${esc(f.name)}</b>` : ''}<br>` : ''}
+        <span>${esc(f.pt || f.fact || '')}</span></div></div>`).join('')}</div>
+      ${(s.vocab && s.vocab.length) ? `<h3 style="margin-top:16px">🧩 Vocabulário</h3>${vocabTableHTML(s.vocab)}` : ''}
+    </div>`;
+    body.querySelectorAll('.bspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    bindVspeak(body);
+    body.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+  app.querySelectorAll('#belnav .chip').forEach(c => c.addEventListener('click', () => showSec(+c.dataset.i)));
+  showSec(0);
+}
+
+/* ---------- DECKS: open-source style flashcard decks ---------- */
+async function renderDecks(app) {
+  app.innerHTML = `<h1>🃏 Baralhos</h1><div class="loading">⏳...</div>`;
+  let D; try { D = await (await fetch('data/decks.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🃏 Baralhos de flashcards <span class="muted" style="font-size:1rem">estilo Quizlet, mas aberto</span></h1>
+    <p class="muted">Temas prontos para memorizar. Cada baralho usa repetição espaçada 🧠. <small>${esc(D.attribution || '')}</small></p>
+    <div class="lesson-grid">${D.decks.map(dk => `<button class="lesson-card" data-deck="${esc(dk.id)}">
+      <span class="em">${dk.emoji}</span><h3>${esc(dk.title)}</h3>
+      <span class="pct">${dk.cards.length} cartas · ${esc(dk.desc || '')}</span></button>`).join('')}</div>`;
+  app.querySelectorAll('[data-deck]').forEach(b => b.addEventListener('click', () => {
+    const dk = D.decks.find(x => x.id === b.dataset.deck);
+    app.innerHTML = `<div class="crumb"><a href="#/decks">← Baralhos</a></div><h1>${dk.emoji} ${esc(dk.title)}</h1><div id="deckfc"></div>`;
+    runFlashcards($('#deckfc'), null, dk.cards.map(v => ({ ...v, key: 'deck-' + dk.id + '|' + v.nl })));
+  }));
+}
+
+/* ---------- MISTAKES quicklist: extra attention where it is needed ---------- */
+function renderMistakes(app) {
+  const list = mistakeList();
+  if (!list.length) {
+    app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div><h1>🎯 Minhas dificuldades</h1>
+      <div class="card center"><p style="font-size:2.5rem">🌟</p><p><b>Nenhum erro registrado. Mandou bem!</b></p>
+      <p class="muted">Quando você errar um exercício, a palavra ou frase aparece aqui automaticamente, para você dar atenção extra.</p>
+      <a class="btn primary" href="#/">📚 Ir às lições</a></div>`;
+    return;
+  }
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🎯 Minhas dificuldades <span class="muted" style="font-size:1rem">${list.length} item(s)</span></h1>
+    <p class="muted">Tudo que você errou, junto, para revisar com foco. Erros repetidos aparecem no topo 🔺.</p>
+    <p><button class="btn primary" id="drill">🃏 Treinar todas como flashcards</button>
+    <button class="btn" id="clearAll">🧹 Limpar tudo</button></p>
+    <div class="mistake-list">${list.map(m => `<div class="card mistake" data-key="${esc(m.key)}">
+      <div class="mistake-top"><span class="pill" style="background:${UNIT_COLORS[m.unit] || '#888'};color:#fff">${esc(m.unit || '')}</span>
+        <span class="muted">${m.lessonEmoji || ''} ${esc(m.lessonTitle || '')}</span>
+        ${m.count > 1 ? `<span class="rep">🔺 ${m.count}x</span>` : ''}
+        <button class="del-mistake" title="Já aprendi" data-key="${esc(m.key)}">✓ aprendi</button></div>
+      <div class="mistake-body"><b class="v-nl">${esc(m.nl || m.answer || '')}</b>
+        ${hasTTS && (m.nl || m.answer) ? `<button class="speak-btn mspeak" data-say="${esc(m.nl || m.answer)}">🔊</button>` : ''}
+        <span class="muted"> — ${esc(clockify(m.pt || m.q || ''))}</span></div></div>`).join('')}</div>`;
+  app.querySelectorAll('.mspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+  app.querySelectorAll('.del-mistake').forEach(b => b.addEventListener('click', () => { clearMistake(b.dataset.key); renderMistakes(app); }));
+  $('#clearAll').addEventListener('click', () => { if (confirm('Limpar toda a lista de dificuldades?')) { S.mistakes = {}; save(); updateMistakeBadge(); renderMistakes(app); } });
+  $('#drill').addEventListener('click', () => {
+    app.innerHTML = `<div class="crumb"><a href="#/dificuldades">← dificuldades</a></div><h1>🃏 Treino de dificuldades</h1><div id="mfc"></div>`;
+    runFlashcards($('#mfc'), null, list.map(m => ({ nl: m.nl || m.answer, pt: m.pt || m.q, split: '', art: null, emoji: '🎯', key: 'mist|' + m.key })));
   });
 }
 

@@ -23,6 +23,12 @@ A palavra interrogativa é sempre roxa e itálica, o verbo sempre coral e negrit
 | 📊 **Infográficos** | mapa de sons, árvore DE/HET, relógio "half drie", regra V2, a pinça, escada CEFR |
 | 🔊 **Áudio** | voz neerlandesa nativa do navegador (Web Speech API) |
 | ⚡🔥 **Gamificação** | XP, sequência de dias, progresso por lição |
+| 🎚️ **Seletor de nível** | clique em A1...C2 e veja TODO o conteúdo daquele nível junto (lições, frases, vocabulário, flashcards) |
+| 🔊 **Klanken (sons)** | treino nativo de vogais curtas vs longas (man 👨 vs maan 🌙) e dígrafos, com áudio |
+| 🎯 **Minhas dificuldades** | todo exercício errado entra numa quicklist automática para revisão focada |
+| 🕐 **Emojis de relógio** | "half drie" e "14:30" aparecem com o relógio certo 🕝 (visualizar é a chave) |
+| 🇧🇪 **Ontdek België** | geografia, cidades, política, esporte, cultura, história e fun facts (fontes: Wikipédia) |
+| 🃏 **Baralhos** | 10 decks temáticos (417 cartas) de fontes abertas (FrequencyWords, Wiktionary) |
 | 📕 **O Livro** | o Livro Infográfico completo (33 capítulos) em [livro.html](livro.html) |
 
 ## 🛠️ Stack

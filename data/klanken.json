@@ -1,0 +1,53 @@
+{
+  "intro": "No holandês, a duração da vogal muda o significado da palavra. Uma vogal curta e uma vogal longa (escrita dobrada) são sons diferentes: 'man' (homem) e 'maan' (lua) não são a mesma palavra. Treine o ouvido e a boca para separar os dois.",
+  "minimalPairs": [
+    {
+      "short": { "letter": "a", "ipa": "ɑ", "word": "man", "pt": "homem", "emoji": "👨" },
+      "long":  { "letter": "aa", "ipa": "aː", "word": "maan", "pt": "lua", "emoji": "🌙" },
+      "tipPt": "Dica PT-BR: o 'a' curto (ɑ) é feito atrás na boca, meio abafado, como um 'a' rápido e fechado. O 'aa' longo (aː) é o 'a' aberto de 'casa', mas bem esticado, com a boca mais aberta e a língua baixa. Segure o som: maaan.",
+      "contrastWord": { "nl": "man / maan", "pt": "homem / lua" }
+    },
+    {
+      "short": { "letter": "e", "ipa": "ɛ", "word": "bed", "pt": "cama", "emoji": "🛏️" },
+      "long":  { "letter": "ee", "ipa": "eː", "word": "beet", "pt": "mordida", "emoji": "🦷" },
+      "tipPt": "Dica PT-BR: o 'e' curto (ɛ) é o 'é' aberto de 'café'. O 'ee' longo (eː) é o 'ê' fechado de 'você', esticado, com um leve deslize para 'i' no fim (êi). Sorria um pouco mais para o som longo.",
+      "contrastWord": { "nl": "bed / beet", "pt": "cama / mordida" }
+    },
+    {
+      "short": { "letter": "o", "ipa": "ɔ", "word": "bos", "pt": "floresta", "emoji": "🌲" },
+      "long":  { "letter": "oo", "ipa": "oː", "word": "boos", "pt": "bravo/zangado", "emoji": "😠" },
+      "tipPt": "Dica PT-BR: o 'o' curto (ɔ) é o 'ó' aberto de 'porta'. O 'oo' longo (oː) é o 'ô' fechado de 'avô', esticado, com os lábios mais arredondados e um leve deslize para 'u' no fim.",
+      "contrastWord": { "nl": "bos / boos", "pt": "floresta / bravo" }
+    },
+    {
+      "short": { "letter": "u", "ipa": "ʏ", "word": "vul", "pt": "encho (do verbo encher)", "emoji": "🫗" },
+      "long":  { "letter": "uu", "ipa": "yː", "word": "vuur", "pt": "fogo", "emoji": "🔥" },
+      "tipPt": "Dica PT-BR: esse som não existe no português. Diga o 'i' de 'vida', mas arredonde bem os lábios como se fosse assobiar. O 'u' curto (ʏ) é rápido; o 'uu' longo (yː) é o mesmo som esticado. Boca em 'u', língua em 'i'.",
+      "contrastWord": { "nl": "vul / vuur", "pt": "encho / fogo" }
+    },
+    {
+      "short": { "letter": "i", "ipa": "ɪ", "word": "vis", "pt": "peixe", "emoji": "🐟" },
+      "long":  { "letter": "ie", "ipa": "i", "word": "vies", "pt": "sujo/nojento", "emoji": "🤢" },
+      "tipPt": "Dica PT-BR: o 'i' curto (ɪ) é um som entre 'i' e 'ê', relaxado e rápido, quase um 'i' preguiçoso. O 'ie' longo (i) é o 'i' claro e esticado de 'vida'. Cuidado: 'i' sozinho é curto, 'ie' é longo.",
+      "contrastWord": { "nl": "vis / vies", "pt": "peixe / sujo" }
+    }
+  ],
+  "digraphs": [
+    { "letter": "ie", "ipa": "i", "ptSound": "como o 'i' de 'vida', esticado", "word": "vier", "pt": "quatro", "emoji": "4️⃣", "tipPt": "Dica PT-BR: 'ie' é sempre o 'i' longo e claro. Nunca leia como duas letras separadas. 'vier' soa 'vir' com i esticado." },
+    { "letter": "oe", "ipa": "u", "ptSound": "como o 'u' de 'tudo' (mas escreve-se OE!)", "word": "boek", "pt": "livro", "emoji": "📖", "tipPt": "Dica PT-BR: aqui está a pegadinha: 'oe' NÃO é 'oê', é o som 'u' do português. 'boek' soa 'buk'. Sempre que ver OE, pense no 'u' de 'tudo'." },
+    { "letter": "eu", "ipa": "ø", "ptSound": "não existe em PT; é o 'ê' com lábios arredondados (como o 'eu' francês de 'peur')", "word": "deur", "pt": "porta", "emoji": "🚪", "tipPt": "Dica PT-BR: diga o 'ê' de 'você', mas arredonde os lábios como para dizer 'ô'. A língua fica em 'ê', a boca em 'ô'. 'deur' soa mais ou menos 'dör'." },
+    { "letter": "ui", "ipa": "œy", "ptSound": "o som mais difícil; um deslize de 'â' arredondado para 'ü'", "word": "huis", "pt": "casa", "emoji": "🏠", "tipPt": "Dica PT-BR: este é o mais duro. Comece num 'ö' aberto (quase um 'â' com lábios arredondados) e deslize para o 'ü' holandês. É um glide: â-ü feito de uma vez, com os lábios fechando. Ouça 'huis' várias vezes e imite. Não é 'ui' do português." },
+    { "letter": "ij / ei", "ipa": "ɛi", "ptSound": "como 'êi', um deslize de 'é' para 'i'", "word": "trein", "pt": "trem", "emoji": "🚂", "tipPt": "Dica PT-BR: 'ij' e 'ei' têm exatamente o MESMO som: 'êi', parecido com 'êi' de 'lei'. A escrita muda, o som não. 'trein' soa 'trêin', 'ijs' (sorvete) soa 'êis'." },
+    { "letter": "ei", "ipa": "ɛi", "ptSound": "idêntico a 'ij', o deslize 'êi'", "word": "ijs", "pt": "sorvete / gelo", "emoji": "🍦", "tipPt": "Dica PT-BR: mesmo som de 'ij'. 'ijs' começa com esse deslize 'êi' e soa 'êis'. Bom exemplo para fixar o som antes de misturar com outras palavras." },
+    { "letter": "ou / au", "ipa": "ʌu", "ptSound": "como 'áu' de 'pau', um deslize de 'a' para 'u'", "word": "koud", "pt": "frio", "emoji": "🥶", "tipPt": "Dica PT-BR: 'ou' e 'au' soam iguais: um 'áu' parecido com 'pau'. A escrita muda, o som não. 'koud' soa 'kaut'." },
+    { "letter": "au", "ipa": "ʌu", "ptSound": "idêntico a 'ou', o deslize 'áu'", "word": "blauw", "pt": "azul", "emoji": "🟦", "tipPt": "Dica PT-BR: mesmo som de 'ou'. 'blauw' soa 'blau', com o 'w' final quase mudo. Junte 'a' + 'u' num deslize só." },
+    { "letter": "oo", "ipa": "oː", "ptSound": "o 'ô' fechado de 'avô', esticado", "word": "boom", "pt": "árvore", "emoji": "🌳", "tipPt": "Dica PT-BR: 'oo' é o 'ô' longo, lábios arredondados, com leve deslize para 'u'. 'boom' soa 'bôum'. Vogal dobrada = som mais longo." },
+    { "letter": "aa", "ipa": "aː", "ptSound": "o 'a' aberto de 'casa', bem esticado", "word": "maan", "pt": "lua", "emoji": "🌙", "tipPt": "Dica PT-BR: 'aa' é o 'a' aberto e longo, boca bem aberta, língua baixa. 'maan' soa 'maan' esticado. Segure a vogal." },
+    { "letter": "ee", "ipa": "eː", "ptSound": "o 'ê' fechado de 'você', esticado", "word": "zee", "pt": "mar", "emoji": "🌊", "tipPt": "Dica PT-BR: 'ee' é o 'ê' longo, com leve deslize para 'i' no fim (êi). 'zee' soa 'zêi'. Sorria um pouco." },
+    { "letter": "uu", "ipa": "yː", "ptSound": "'i' com lábios arredondados; não existe em PT", "word": "vuur", "pt": "fogo", "emoji": "🔥", "tipPt": "Dica PT-BR: diga 'i' de 'vida' e arredonde bem os lábios como para assobiar. Boca em 'u', língua em 'i'. 'vuur' soa 'vür' esticado." },
+    { "letter": "g / ch", "ipa": "x / ɣ", "ptSound": "como o 'rr' carioca de 'carro', bem raspado na garganta", "word": "goed", "pt": "bom / bem", "emoji": "👍", "tipPt": "Dica PT-BR: o 'g' e 'ch' holandeses soam como o 'rr' carioca (o 'r' raspado de 'carro', 'porta'). É um som na garganta, não o 'g' de 'gato'. Na Flandres (Bélgica) esse som é mais suave e macio; na Holanda é bem áspero. 'goed' soa 'rrut' (com o rr carioca)." },
+    { "letter": "sch", "ipa": "sx", "ptSound": "um 's' seguido do 'rr' carioca ('s' + garganta)", "word": "school", "pt": "escola", "emoji": "🏫", "tipPt": "Dica PT-BR: 'sch' é dois sons juntos: primeiro o 's' normal, depois o 'ch' raspado (o 'rr' carioca). Diga 's' e emende a garganta: s-rrôl. No fim de palavra ('-isch') soa só 's'." },
+    { "letter": "r", "ipa": "r / ʀ", "ptSound": "'r' de língua (como 'caro') ou 'r' de garganta, dependendo da região", "word": "rood", "pt": "vermelho", "emoji": "🔴", "tipPt": "Dica PT-BR: o holandês aceita dois 'r': o 'r' vibrado com a ponta da língua (como 'caro', 'prato') ou o 'r' de garganta. Os dois são corretos. Na Flandres o 'r' de língua é mais comum. 'rood' soa 'rôut'." },
+    { "letter": "w", "ipa": "ʋ", "ptSound": "entre o 'v' e o 'u'; um 'v' suave feito com os lábios", "word": "water", "pt": "água", "emoji": "💧", "tipPt": "Dica PT-BR: o 'w' holandês não é o 'w' inglês nem o 'v' forte. É um som no meio: lábios quase juntos, com um leve toque, tipo um 'v' fraquinho. 'water' soa 'váter' com v suave. Na Flandres soa ainda mais perto de um 'w' brando." }
+  ]
+}
