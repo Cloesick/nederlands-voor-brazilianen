@@ -205,7 +205,8 @@
       "pt": "Ela diz que leva os documentos amanhã.",
       "tokens": ["Ze", "zegt", "dat", "ze", "de", "documenten", "morgen", "meeneemt"],
       "answer": "Ze zegt dat ze de documenten morgen meeneemt",
-      "explain": "Na subordinada com dat, o verbo vai pro fim e o prefixo gruda: meeneemt, numa palavra só."
+      "altAnswers": ["Ze zegt dat ze morgen de documenten meeneemt"],
+      "explain": "Na subordinada com dat, o verbo vai pro fim e o prefixo gruda: meeneemt, numa palavra só. O advérbio (morgen) e o objeto (de documenten) podem trocar de posição entre si."
     },
     {
       "type": "mc",
