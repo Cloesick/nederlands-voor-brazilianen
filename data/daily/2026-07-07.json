@@ -1,10 +1,10 @@
 {
   "date": "2026-07-07",
-  "word": { "nl": "de vakantie", "art": "de", "split": "", "pt": "as férias", "emoji": "🏖️" },
+  "word": { "nl": "de file", "art": "de", "split": "", "pt": "o engarrafamento", "emoji": "🚦" },
   "phrase": {
-    "nl": [{"t":"Ik","r":"pron"},{"t":"ga","r":"verb"},{"t":"deze","r":"pron"},{"t":"zomer","r":"noun"},{"t":"naar","r":"prep"},{"t":"Portugal","r":"x"},{"t":"op","r":"prep"},{"t":"vakantie","r":"noun"},{"t":".","r":"punc"}],
-    "pt": [{"t":"Eu","r":"pron"},{"t":"vou","r":"verb"},{"t":"neste","r":"pron"},{"t":"verão","r":"noun"},{"t":"para","r":"prep"},{"t":"Portugal","r":"x"},{"t":"de","r":"prep"},{"t":"férias","r":"noun"},{"t":".","r":"punc"}],
-    "lit": "eu vou este verão para Portugal de férias",
-    "note": "\"op vakantie gaan\" é uma expressão fixa: \"ir de férias\", sempre com a preposição op."
+    "nl": [{"t":"Mijn","r":"pron"},{"t":"baas","r":"noun"},{"t":"is","r":"verb"},{"t":"vandaag","r":"adv"},{"t":"niet","r":"neg"},{"t":"op","r":"prep"},{"t":"kantoor","r":"noun"},{"t":".","r":"punc"}],
+    "pt": [{"t":"Meu","r":"pron"},{"t":"chefe","r":"noun"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"no","r":"prep"},{"t":"escritório","r":"noun"},{"t":"hoje","r":"adv"},{"t":".","r":"punc"}],
+    "lit": "meu chefe está hoje não no escritório",
+    "note": "Em neerlandês, \"niet\" geralmente fica logo antes da parte da frase que está sendo negada (aqui, \"op kantoor\"), não logo depois do sujeito como em português."
   }
 }
