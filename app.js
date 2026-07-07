@@ -438,7 +438,7 @@ function runExercises(body, L) {
         $('#built').innerHTML = picked.map(p => `<span class="chip">${p.textContent}</span>`).join('');
         if (picked.length === ex.tokens.length) {
           const made = picked.map(p => p.textContent).join(' ');
-          const ok = norm(made) === norm(ex.answer);
+          const ok = [ex.answer, ...(ex.altAnswers || [])].some(a => norm(made) === norm(a));
           lock();
           ok ? feedback(true, ex.explain) : feedback(false, ex.explain, ex.answer);
         }
