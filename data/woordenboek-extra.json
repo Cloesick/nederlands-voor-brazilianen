@@ -1,0 +1,2004 @@
+[
+ {
+  "nl": "zijn",
+  "art": null,
+  "split": "perfectum: is geweest",
+  "pt": "ser, estar",
+  "emoji": "🧍"
+ },
+ {
+  "nl": "hebben",
+  "art": null,
+  "split": "perfectum: heeft gehad",
+  "pt": "ter",
+  "emoji": "🤲"
+ },
+ {
+  "nl": "doen",
+  "art": null,
+  "split": "perfectum: heeft gedaan",
+  "pt": "fazer",
+  "emoji": "⚙️"
+ },
+ {
+  "nl": "gaan",
+  "art": null,
+  "split": "perfectum: is gegaan",
+  "pt": "ir",
+  "emoji": "🚶"
+ },
+ {
+  "nl": "komen",
+  "art": null,
+  "split": "perfectum: is gekomen",
+  "pt": "vir",
+  "emoji": "👋"
+ },
+ {
+  "nl": "kunnen",
+  "art": null,
+  "split": "perfectum: heeft gekund",
+  "pt": "poder, conseguir",
+  "emoji": "💪"
+ },
+ {
+  "nl": "moeten",
+  "art": null,
+  "split": "perfectum: heeft gemoeten",
+  "pt": "ter que, dever",
+  "emoji": "❗"
+ },
+ {
+  "nl": "willen",
+  "art": null,
+  "split": "perfectum: heeft gewild",
+  "pt": "querer",
+  "emoji": "🙋"
+ },
+ {
+  "nl": "mogen",
+  "art": null,
+  "split": "perfectum: heeft gemogen",
+  "pt": "poder (ter permissão)",
+  "emoji": "✅"
+ },
+ {
+  "nl": "weten",
+  "art": null,
+  "split": "perfectum: heeft geweten",
+  "pt": "saber",
+  "emoji": "🧠"
+ },
+ {
+  "nl": "eten",
+  "art": null,
+  "split": "perfectum: heeft gegeten",
+  "pt": "comer",
+  "emoji": "🍽️"
+ },
+ {
+  "nl": "drinken",
+  "art": null,
+  "split": "perfectum: heeft gedronken",
+  "pt": "beber",
+  "emoji": "🥤"
+ },
+ {
+  "nl": "zien",
+  "art": null,
+  "split": "perfectum: heeft gezien",
+  "pt": "ver",
+  "emoji": "👀"
+ },
+ {
+  "nl": "geven",
+  "art": null,
+  "split": "perfectum: heeft gegeven",
+  "pt": "dar",
+  "emoji": "🎁"
+ },
+ {
+  "nl": "nemen",
+  "art": null,
+  "split": "perfectum: heeft genomen",
+  "pt": "pegar, tomar",
+  "emoji": "✊"
+ },
+ {
+  "nl": "spreken",
+  "art": null,
+  "split": "perfectum: heeft gesproken",
+  "pt": "falar",
+  "emoji": "🗣️"
+ },
+ {
+  "nl": "lezen",
+  "art": null,
+  "split": "perfectum: heeft gelezen",
+  "pt": "ler",
+  "emoji": "📖"
+ },
+ {
+  "nl": "schrijven",
+  "art": null,
+  "split": "perfectum: heeft geschreven",
+  "pt": "escrever",
+  "emoji": "✍️"
+ },
+ {
+  "nl": "slapen",
+  "art": null,
+  "split": "perfectum: heeft geslapen",
+  "pt": "dormir",
+  "emoji": "😴"
+ },
+ {
+  "nl": "kopen",
+  "art": null,
+  "split": "perfectum: heeft gekocht",
+  "pt": "comprar",
+  "emoji": "🛒"
+ },
+ {
+  "nl": "denken",
+  "art": null,
+  "split": "perfectum: heeft gedacht",
+  "pt": "pensar",
+  "emoji": "💭"
+ },
+ {
+  "nl": "vinden",
+  "art": null,
+  "split": "perfectum: heeft gevonden",
+  "pt": "achar, encontrar",
+  "emoji": "🔍"
+ },
+ {
+  "nl": "krijgen",
+  "art": null,
+  "split": "perfectum: heeft gekregen",
+  "pt": "receber, ganhar",
+  "emoji": "📥"
+ },
+ {
+  "nl": "blijven",
+  "art": null,
+  "split": "perfectum: is gebleven",
+  "pt": "ficar, permanecer",
+  "emoji": "🏠"
+ },
+ {
+  "nl": "beginnen",
+  "art": null,
+  "split": "perfectum: is begonnen",
+  "pt": "começar",
+  "emoji": "▶️"
+ },
+ {
+  "nl": "begrijpen",
+  "art": null,
+  "split": "be + grijpen (agarrar); perfectum: heeft begrepen",
+  "pt": "entender",
+  "emoji": "💡"
+ },
+ {
+  "nl": "verstaan",
+  "art": null,
+  "split": "ver + staan (estar de pé); perfectum: heeft verstaan",
+  "pt": "compreender (o que se ouve)",
+  "emoji": "👂"
+ },
+ {
+  "nl": "staan",
+  "art": null,
+  "split": "perfectum: heeft gestaan",
+  "pt": "estar de pé",
+  "emoji": "🧍‍♂️"
+ },
+ {
+  "nl": "zitten",
+  "art": null,
+  "split": "perfectum: heeft gezeten",
+  "pt": "estar sentado",
+  "emoji": "🪑"
+ },
+ {
+  "nl": "liggen",
+  "art": null,
+  "split": "perfectum: heeft gelegen",
+  "pt": "estar deitado",
+  "emoji": "🛏️"
+ },
+ {
+  "nl": "lopen",
+  "art": null,
+  "split": "perfectum: heeft gelopen",
+  "pt": "andar, caminhar (na Flandres também: correr)",
+  "emoji": "🏃"
+ },
+ {
+  "nl": "rijden",
+  "art": null,
+  "split": "perfectum: heeft gereden",
+  "pt": "dirigir, andar de (carro, bicicleta)",
+  "emoji": "🚗"
+ },
+ {
+  "nl": "brengen",
+  "art": null,
+  "split": "perfectum: heeft gebracht",
+  "pt": "trazer, levar",
+  "emoji": "📦"
+ },
+ {
+  "nl": "houden",
+  "art": null,
+  "split": "perfectum: heeft gehouden",
+  "pt": "segurar; gostar de (houden van)",
+  "emoji": "❤️"
+ },
+ {
+  "nl": "laten",
+  "art": null,
+  "split": "perfectum: heeft gelaten",
+  "pt": "deixar",
+  "emoji": "🖐️"
+ },
+ {
+  "nl": "kijken",
+  "art": null,
+  "split": "perfectum: heeft gekeken",
+  "pt": "olhar, assistir",
+  "emoji": "📺"
+ },
+ {
+  "nl": "vergeten",
+  "art": null,
+  "split": "perfectum: is vergeten",
+  "pt": "esquecer",
+  "emoji": "🤷"
+ },
+ {
+  "nl": "helpen",
+  "art": null,
+  "split": "perfectum: heeft geholpen",
+  "pt": "ajudar",
+  "emoji": "🤝"
+ },
+ {
+  "nl": "sluiten",
+  "art": null,
+  "split": "perfectum: heeft gesloten",
+  "pt": "fechar",
+  "emoji": "🔒"
+ },
+ {
+  "nl": "kiezen",
+  "art": null,
+  "split": "perfectum: heeft gekozen",
+  "pt": "escolher",
+  "emoji": "☑️"
+ },
+ {
+  "nl": "vragen",
+  "art": null,
+  "split": "perfectum: heeft gevraagd",
+  "pt": "perguntar, pedir",
+  "emoji": "❓"
+ },
+ {
+  "nl": "zoeken",
+  "art": null,
+  "split": "perfectum: heeft gezocht",
+  "pt": "procurar",
+  "emoji": "🔎"
+ },
+ {
+  "nl": "verkopen",
+  "art": null,
+  "split": "ver + kopen (comprar); perfectum: heeft verkocht",
+  "pt": "vender",
+  "emoji": "💶"
+ },
+ {
+  "nl": "ontvangen",
+  "art": null,
+  "split": "ont + vangen (capturar); perfectum: heeft ontvangen",
+  "pt": "receber",
+  "emoji": "📬"
+ },
+ {
+  "nl": "vertrekken",
+  "art": null,
+  "split": "ver + trekken (puxar); perfectum: is vertrokken",
+  "pt": "partir, ir embora",
+  "emoji": "🛫"
+ },
+ {
+  "nl": "opstaan",
+  "art": null,
+  "split": "op (para cima) + staan (estar de pé); perfectum: is opgestaan",
+  "pt": "levantar-se",
+  "emoji": "⏰"
+ },
+ {
+  "nl": "aankomen",
+  "art": null,
+  "split": "aan (junto a) + komen (vir); perfectum: is aangekomen",
+  "pt": "chegar",
+  "emoji": "🛬"
+ },
+ {
+  "nl": "binnenkomen",
+  "art": null,
+  "split": "binnen (dentro) + komen (vir); perfectum: is binnengekomen",
+  "pt": "entrar",
+  "emoji": "🚪"
+ },
+ {
+  "nl": "meenemen",
+  "art": null,
+  "split": "mee (junto) + nemen (pegar); perfectum: heeft meegenomen",
+  "pt": "levar consigo",
+  "emoji": "🎒"
+ },
+ {
+  "nl": "afspreken",
+  "art": null,
+  "split": "af (concluído) + spreken (falar); perfectum: heeft afgesproken",
+  "pt": "combinar, marcar um encontro",
+  "emoji": "📅"
+ },
+ {
+  "nl": "uitleggen",
+  "art": null,
+  "split": "uit (para fora) + leggen (pôr)",
+  "pt": "explicar",
+  "emoji": "👨‍🏫"
+ },
+ {
+  "nl": "uitgaan",
+  "art": null,
+  "split": "uit (para fora) + gaan (ir); perfectum: is uitgegaan",
+  "pt": "sair (para se divertir)",
+  "emoji": "🎉"
+ },
+ {
+  "nl": "terugkomen",
+  "art": null,
+  "split": "terug (de volta) + komen (vir); perfectum: is teruggekomen",
+  "pt": "voltar",
+  "emoji": "🔙"
+ },
+ {
+  "nl": "werken",
+  "art": null,
+  "split": "",
+  "pt": "trabalhar",
+  "emoji": "💼"
+ },
+ {
+  "nl": "wonen",
+  "art": null,
+  "split": "",
+  "pt": "morar",
+  "emoji": "🏡"
+ },
+ {
+  "nl": "maken",
+  "art": null,
+  "split": "",
+  "pt": "fazer, fabricar",
+  "emoji": "🔨"
+ },
+ {
+  "nl": "betalen",
+  "art": null,
+  "split": "",
+  "pt": "pagar",
+  "emoji": "💳"
+ },
+ {
+  "nl": "leren",
+  "art": null,
+  "split": "",
+  "pt": "aprender; ensinar",
+  "emoji": "🎓"
+ },
+ {
+  "nl": "spelen",
+  "art": null,
+  "split": "",
+  "pt": "jogar, brincar",
+  "emoji": "🎮"
+ },
+ {
+  "nl": "luisteren",
+  "art": null,
+  "split": "",
+  "pt": "escutar",
+  "emoji": "🎧"
+ },
+ {
+  "nl": "praten",
+  "art": null,
+  "split": "",
+  "pt": "conversar, falar",
+  "emoji": "💬"
+ },
+ {
+  "nl": "babbelen",
+  "art": null,
+  "split": "",
+  "pt": "bater papo (muito usado na Flandres)",
+  "emoji": "🗨️"
+ },
+ {
+  "nl": "antwoorden",
+  "art": null,
+  "split": "antwoord (resposta) + en",
+  "pt": "responder",
+  "emoji": "↩️"
+ },
+ {
+  "nl": "wachten",
+  "art": null,
+  "split": "",
+  "pt": "esperar",
+  "emoji": "⏳"
+ },
+ {
+  "nl": "proberen",
+  "art": null,
+  "split": "",
+  "pt": "tentar, experimentar",
+  "emoji": "🎯"
+ },
+ {
+  "nl": "gebruiken",
+  "art": null,
+  "split": "",
+  "pt": "usar, utilizar",
+  "emoji": "🧰"
+ },
+ {
+  "nl": "bellen",
+  "art": null,
+  "split": "",
+  "pt": "ligar, telefonar (na Flandres o celular se chama gsm)",
+  "emoji": "📞"
+ },
+ {
+  "nl": "sturen",
+  "art": null,
+  "split": "",
+  "pt": "enviar, mandar",
+  "emoji": "📤"
+ },
+ {
+  "nl": "vertellen",
+  "art": null,
+  "split": "ver + tellen (contar)",
+  "pt": "contar, narrar",
+  "emoji": "📚"
+ },
+ {
+  "nl": "voelen",
+  "art": null,
+  "split": "",
+  "pt": "sentir",
+  "emoji": "🫶"
+ },
+ {
+  "nl": "horen",
+  "art": null,
+  "split": "",
+  "pt": "ouvir",
+  "emoji": "🔊"
+ },
+ {
+  "nl": "koken",
+  "art": null,
+  "split": "",
+  "pt": "cozinhar",
+  "emoji": "🍳"
+ },
+ {
+  "nl": "kuisen",
+  "art": null,
+  "split": "",
+  "pt": "limpar, fazer a limpeza (flamengo; na Holanda: schoonmaken)",
+  "emoji": "🧽"
+ },
+ {
+  "nl": "fietsen",
+  "art": null,
+  "split": "fiets (bicicleta) + en",
+  "pt": "andar de bicicleta",
+  "emoji": "🚲"
+ },
+ {
+  "nl": "reizen",
+  "art": null,
+  "split": "reis (viagem) + en",
+  "pt": "viajar",
+  "emoji": "✈️"
+ },
+ {
+  "nl": "groot",
+  "art": null,
+  "split": "",
+  "pt": "grande",
+  "emoji": "🐘"
+ },
+ {
+  "nl": "klein",
+  "art": null,
+  "split": "",
+  "pt": "pequeno",
+  "emoji": "🐜"
+ },
+ {
+  "nl": "snel",
+  "art": null,
+  "split": "",
+  "pt": "rápido",
+  "emoji": "🚀"
+ },
+ {
+  "nl": "traag",
+  "art": null,
+  "split": "",
+  "pt": "lento, devagar (o belga prefere traag; NL: langzaam)",
+  "emoji": "🐢"
+ },
+ {
+  "nl": "duur",
+  "art": null,
+  "split": "",
+  "pt": "caro",
+  "emoji": "💸"
+ },
+ {
+  "nl": "goedkoop",
+  "art": null,
+  "split": "goed (bom) + koop (compra)",
+  "pt": "barato",
+  "emoji": "🏷️"
+ },
+ {
+  "nl": "goed",
+  "art": null,
+  "split": "",
+  "pt": "bom, bem",
+  "emoji": "👍"
+ },
+ {
+  "nl": "slecht",
+  "art": null,
+  "split": "",
+  "pt": "ruim, mau",
+  "emoji": "👎"
+ },
+ {
+  "nl": "mooi",
+  "art": null,
+  "split": "",
+  "pt": "bonito (na Bélgica também se diz schoon)",
+  "emoji": "🌸"
+ },
+ {
+  "nl": "lelijk",
+  "art": null,
+  "split": "",
+  "pt": "feio",
+  "emoji": "🙈"
+ },
+ {
+  "nl": "nieuw",
+  "art": null,
+  "split": "",
+  "pt": "novo",
+  "emoji": "✨"
+ },
+ {
+  "nl": "oud",
+  "art": null,
+  "split": "",
+  "pt": "velho, antigo",
+  "emoji": "👴"
+ },
+ {
+  "nl": "jong",
+  "art": null,
+  "split": "",
+  "pt": "jovem",
+  "emoji": "🧒"
+ },
+ {
+  "nl": "lang",
+  "art": null,
+  "split": "",
+  "pt": "longo, comprido; (tempo) muito tempo",
+  "emoji": "📏"
+ },
+ {
+  "nl": "kort",
+  "art": null,
+  "split": "",
+  "pt": "curto, breve",
+  "emoji": "✂️"
+ },
+ {
+  "nl": "hoog",
+  "art": null,
+  "split": "",
+  "pt": "alto",
+  "emoji": "🏔️"
+ },
+ {
+  "nl": "laag",
+  "art": null,
+  "split": "",
+  "pt": "baixo",
+  "emoji": "⬇️"
+ },
+ {
+  "nl": "zwaar",
+  "art": null,
+  "split": "",
+  "pt": "pesado",
+  "emoji": "🏋️"
+ },
+ {
+  "nl": "licht",
+  "art": null,
+  "split": "",
+  "pt": "leve; claro (cor, luz)",
+  "emoji": "🪶"
+ },
+ {
+  "nl": "warm",
+  "art": null,
+  "split": "",
+  "pt": "quente",
+  "emoji": "🔥"
+ },
+ {
+  "nl": "koud",
+  "art": null,
+  "split": "",
+  "pt": "frio",
+  "emoji": "❄️"
+ },
+ {
+  "nl": "vol",
+  "art": null,
+  "split": "",
+  "pt": "cheio",
+  "emoji": "🥛"
+ },
+ {
+  "nl": "leeg",
+  "art": null,
+  "split": "",
+  "pt": "vazio",
+  "emoji": "🕳️"
+ },
+ {
+  "nl": "open",
+  "art": null,
+  "split": "",
+  "pt": "aberto",
+  "emoji": "🔓"
+ },
+ {
+  "nl": "dicht",
+  "art": null,
+  "split": "",
+  "pt": "fechado (na Bélgica também: toe)",
+  "emoji": "🔒"
+ },
+ {
+  "nl": "moeilijk",
+  "art": null,
+  "split": "moeite (esforço) + lijk (sufixo -vel)",
+  "pt": "difícil",
+  "emoji": "🧗"
+ },
+ {
+  "nl": "gemakkelijk",
+  "art": null,
+  "split": "gemak (facilidade, conforto) + lijk (sufixo -vel)",
+  "pt": "fácil",
+  "emoji": "🍰"
+ },
+ {
+  "nl": "belangrijk",
+  "art": null,
+  "split": "belang (interesse) + rijk (rico)",
+  "pt": "importante",
+  "emoji": "⭐"
+ },
+ {
+  "nl": "gelukkig",
+  "art": null,
+  "split": "geluk (felicidade, sorte) + ig (sufixo -oso)",
+  "pt": "feliz; felizmente",
+  "emoji": "😊"
+ },
+ {
+  "nl": "moe",
+  "art": null,
+  "split": "",
+  "pt": "cansado",
+  "emoji": "😴"
+ },
+ {
+  "nl": "ziek",
+  "art": null,
+  "split": "",
+  "pt": "doente",
+  "emoji": "🤒"
+ },
+ {
+  "nl": "gezond",
+  "art": null,
+  "split": "",
+  "pt": "saudável",
+  "emoji": "🥦"
+ },
+ {
+  "nl": "lekker",
+  "art": null,
+  "split": "",
+  "pt": "gostoso, delicioso",
+  "emoji": "😋"
+ },
+ {
+  "nl": "proper",
+  "art": null,
+  "split": "",
+  "pt": "limpo (típico belga; NL: schoon)",
+  "emoji": "🧼"
+ },
+ {
+  "nl": "vuil",
+  "art": null,
+  "split": "",
+  "pt": "sujo",
+  "emoji": "🗑️"
+ },
+ {
+  "nl": "plezant",
+  "art": null,
+  "split": "plezier (prazer) + ant (sufixo)",
+  "pt": "divertido, legal (típico belga; NL: leuk)",
+  "emoji": "🎉"
+ },
+ {
+  "nl": "vriendelijk",
+  "art": null,
+  "split": "vriend (amigo) + elijk (sufixo -ável)",
+  "pt": "gentil, simpático",
+  "emoji": "🤗"
+ },
+ {
+  "nl": "gevaarlijk",
+  "art": null,
+  "split": "gevaar (perigo) + lijk (sufixo -oso)",
+  "pt": "perigoso",
+  "emoji": "⚠️"
+ },
+ {
+  "nl": "sterk",
+  "art": null,
+  "split": "",
+  "pt": "forte",
+  "emoji": "💪"
+ },
+ {
+  "nl": "zwak",
+  "art": null,
+  "split": "",
+  "pt": "fraco",
+  "emoji": "🍂"
+ },
+ {
+  "nl": "altijd",
+  "art": null,
+  "split": "al (todo) + tijd (tempo)",
+  "pt": "sempre",
+  "emoji": "♾️"
+ },
+ {
+  "nl": "nooit",
+  "art": null,
+  "split": "n (negação) + ooit (alguma vez)",
+  "pt": "nunca",
+  "emoji": "🚫"
+ },
+ {
+  "nl": "vaak",
+  "art": null,
+  "split": "",
+  "pt": "frequentemente, muitas vezes",
+  "emoji": "🔁"
+ },
+ {
+  "nl": "dikwijls",
+  "art": null,
+  "split": "dik (denso, frequente) + wijls (momentos)",
+  "pt": "muitas vezes (comum na Bélgica; NL prefere vaak)",
+  "emoji": "🔂"
+ },
+ {
+  "nl": "soms",
+  "art": null,
+  "split": "",
+  "pt": "às vezes",
+  "emoji": "🎲"
+ },
+ {
+  "nl": "zelden",
+  "art": null,
+  "split": "",
+  "pt": "raramente",
+  "emoji": "🌒"
+ },
+ {
+  "nl": "misschien",
+  "art": null,
+  "split": "mag (pode) + schien (acontecer, de geschieden)",
+  "pt": "talvez",
+  "emoji": "🤔"
+ },
+ {
+  "nl": "nu",
+  "art": null,
+  "split": "",
+  "pt": "agora",
+  "emoji": "⏰"
+ },
+ {
+  "nl": "straks",
+  "art": null,
+  "split": "",
+  "pt": "daqui a pouco, mais tarde",
+  "emoji": "⏳"
+ },
+ {
+  "nl": "seffens",
+  "art": null,
+  "split": "",
+  "pt": "daqui a pouco (típico belga; NL: straks)",
+  "emoji": "⌛"
+ },
+ {
+  "nl": "vroeg",
+  "art": null,
+  "split": "",
+  "pt": "cedo",
+  "emoji": "🌅"
+ },
+ {
+  "nl": "laat",
+  "art": null,
+  "split": "",
+  "pt": "tarde",
+  "emoji": "🌙"
+ },
+ {
+  "nl": "hier",
+  "art": null,
+  "split": "",
+  "pt": "aqui",
+  "emoji": "📍"
+ },
+ {
+  "nl": "daar",
+  "art": null,
+  "split": "",
+  "pt": "lá, ali",
+  "emoji": "🗺️"
+ },
+ {
+  "nl": "samen",
+  "art": null,
+  "split": "",
+  "pt": "juntos",
+  "emoji": "👫"
+ },
+ {
+  "nl": "alleen",
+  "art": null,
+  "split": "al (todo) + een (um)",
+  "pt": "sozinho; somente",
+  "emoji": "🧍"
+ },
+ {
+  "nl": "ook",
+  "art": null,
+  "split": "",
+  "pt": "também",
+  "emoji": "➕"
+ },
+ {
+  "nl": "nog",
+  "art": null,
+  "split": "",
+  "pt": "ainda",
+  "emoji": "🔄"
+ },
+ {
+  "nl": "graag",
+  "art": null,
+  "split": "",
+  "pt": "com prazer (ik drink graag koffie = gosto de tomar café)",
+  "emoji": "💖"
+ },
+ {
+  "nl": "bijna",
+  "art": null,
+  "split": "bij (perto) + na (próximo)",
+  "pt": "quase",
+  "emoji": "🤏"
+ },
+ {
+  "nl": "en",
+  "art": null,
+  "split": "",
+  "pt": "e",
+  "emoji": "🔗"
+ },
+ {
+  "nl": "of",
+  "art": null,
+  "split": "",
+  "pt": "ou; se (em pergunta indireta)",
+  "emoji": "⚖️"
+ },
+ {
+  "nl": "maar",
+  "art": null,
+  "split": "",
+  "pt": "mas",
+  "emoji": "↩️"
+ },
+ {
+  "nl": "want",
+  "art": null,
+  "split": "",
+  "pt": "porque, pois (não muda a ordem: verbo continua em 2º lugar)",
+  "emoji": "💬"
+ },
+ {
+  "nl": "omdat",
+  "art": null,
+  "split": "om (por) + dat (que)",
+  "pt": "porque (subordinativa: o verbo vai para o fim da frase)",
+  "emoji": "🧩"
+ },
+ {
+  "nl": "dus",
+  "art": null,
+  "split": "",
+  "pt": "então, portanto",
+  "emoji": "🎯"
+ },
+ {
+  "nl": "als",
+  "art": null,
+  "split": "",
+  "pt": "se; quando (condição ou hábito)",
+  "emoji": "🔀"
+ },
+ {
+  "nl": "hoewel",
+  "art": null,
+  "split": "hoe (como) + wel (bem)",
+  "pt": "embora, apesar de que",
+  "emoji": "🤷"
+ },
+ {
+  "nl": "terwijl",
+  "art": null,
+  "split": "ter (no) + wijl (momento)",
+  "pt": "enquanto",
+  "emoji": "⏲️"
+ },
+ {
+  "nl": "daarom",
+  "art": null,
+  "split": "daar (isso) + om (por)",
+  "pt": "por isso",
+  "emoji": "👉"
+ },
+ {
+  "nl": "het brood",
+  "art": "het",
+  "split": "",
+  "pt": "pão",
+  "emoji": "🍞"
+ },
+ {
+  "nl": "de boterham",
+  "art": "de",
+  "split": "boter (manteiga) + ham (pedaço, palavra antiga; não é presunto)",
+  "pt": "fatia de pão, sanduíche",
+  "emoji": "🥪"
+ },
+ {
+  "nl": "de kaas",
+  "art": "de",
+  "split": "",
+  "pt": "queijo",
+  "emoji": "🧀"
+ },
+ {
+  "nl": "het vlees",
+  "art": "het",
+  "split": "",
+  "pt": "carne",
+  "emoji": "🥩"
+ },
+ {
+  "nl": "de kip",
+  "art": "de",
+  "split": "",
+  "pt": "frango",
+  "emoji": "🍗"
+ },
+ {
+  "nl": "de vis",
+  "art": "de",
+  "split": "",
+  "pt": "peixe",
+  "emoji": "🐟"
+ },
+ {
+  "nl": "het ei",
+  "art": "het",
+  "split": "",
+  "pt": "ovo",
+  "emoji": "🥚"
+ },
+ {
+  "nl": "de groente",
+  "art": "de",
+  "split": "groen (verde) + -te (sufixo: aquilo que é verde)",
+  "pt": "legume, verdura",
+  "emoji": "🥦"
+ },
+ {
+  "nl": "het fruit",
+  "art": "het",
+  "split": "",
+  "pt": "fruta",
+  "emoji": "🍎"
+ },
+ {
+  "nl": "de appel",
+  "art": "de",
+  "split": "",
+  "pt": "maçã",
+  "emoji": "🍏"
+ },
+ {
+  "nl": "de aardappel",
+  "art": "de",
+  "split": "aard (terra) + appel (maçã)",
+  "pt": "batata",
+  "emoji": "🥔"
+ },
+ {
+  "nl": "de melk",
+  "art": "de",
+  "split": "",
+  "pt": "leite",
+  "emoji": "🥛"
+ },
+ {
+  "nl": "het water",
+  "art": "het",
+  "split": "",
+  "pt": "água",
+  "emoji": "💧"
+ },
+ {
+  "nl": "de koffie",
+  "art": "de",
+  "split": "",
+  "pt": "café",
+  "emoji": "☕"
+ },
+ {
+  "nl": "de thee",
+  "art": "de",
+  "split": "",
+  "pt": "chá",
+  "emoji": "🍵"
+ },
+ {
+  "nl": "het bier",
+  "art": "het",
+  "split": "",
+  "pt": "cerveja",
+  "emoji": "🍺"
+ },
+ {
+  "nl": "de wijn",
+  "art": "de",
+  "split": "",
+  "pt": "vinho",
+  "emoji": "🍷"
+ },
+ {
+  "nl": "het fruitsap",
+  "art": "het",
+  "split": "fruit (fruta) + sap (suco)",
+  "pt": "suco de fruta (belga; NL: vruchtensap)",
+  "emoji": "🧃"
+ },
+ {
+  "nl": "de tas",
+  "art": "de",
+  "split": "",
+  "pt": "xícara (belga; NL: kopje; também significa bolsa)",
+  "emoji": "☕"
+ },
+ {
+  "nl": "de confituur",
+  "art": "de",
+  "split": "",
+  "pt": "geleia (belga; NL: jam)",
+  "emoji": "🍓"
+ },
+ {
+  "nl": "de hesp",
+  "art": "de",
+  "split": "",
+  "pt": "presunto (belga; NL: ham)",
+  "emoji": "🍖"
+ },
+ {
+  "nl": "de praline",
+  "art": "de",
+  "split": "",
+  "pt": "bombom belga de chocolate",
+  "emoji": "🍫"
+ },
+ {
+  "nl": "het ontbijt",
+  "art": "het",
+  "split": "ont- (começar) + bijt (mordida): a primeira mordida do dia",
+  "pt": "café da manhã",
+  "emoji": "🥐"
+ },
+ {
+  "nl": "het huis",
+  "art": "het",
+  "split": "",
+  "pt": "casa",
+  "emoji": "🏠"
+ },
+ {
+  "nl": "de kamer",
+  "art": "de",
+  "split": "",
+  "pt": "quarto, cômodo",
+  "emoji": "🚪"
+ },
+ {
+  "nl": "de keuken",
+  "art": "de",
+  "split": "",
+  "pt": "cozinha",
+  "emoji": "🍳"
+ },
+ {
+  "nl": "de badkamer",
+  "art": "de",
+  "split": "bad (banho) + kamer (quarto)",
+  "pt": "banheiro",
+  "emoji": "🛁"
+ },
+ {
+  "nl": "de slaapkamer",
+  "art": "de",
+  "split": "slaap (sono) + kamer (quarto)",
+  "pt": "quarto de dormir",
+  "emoji": "🛌"
+ },
+ {
+  "nl": "de woonkamer",
+  "art": "de",
+  "split": "woon (morar) + kamer (quarto)",
+  "pt": "sala de estar",
+  "emoji": "🛋️"
+ },
+ {
+  "nl": "de tafel",
+  "art": "de",
+  "split": "",
+  "pt": "mesa",
+  "emoji": "🍽️"
+ },
+ {
+  "nl": "de stoel",
+  "art": "de",
+  "split": "",
+  "pt": "cadeira",
+  "emoji": "🪑"
+ },
+ {
+  "nl": "de zetel",
+  "art": "de",
+  "split": "",
+  "pt": "sofá, poltrona (belga; NL: bank)",
+  "emoji": "🛋️"
+ },
+ {
+  "nl": "het bed",
+  "art": "het",
+  "split": "",
+  "pt": "cama",
+  "emoji": "🛏️"
+ },
+ {
+  "nl": "de kast",
+  "art": "de",
+  "split": "",
+  "pt": "armário",
+  "emoji": "🗄️"
+ },
+ {
+  "nl": "de deur",
+  "art": "de",
+  "split": "",
+  "pt": "porta",
+  "emoji": "🚪"
+ },
+ {
+  "nl": "het raam",
+  "art": "het",
+  "split": "",
+  "pt": "janela",
+  "emoji": "🪟"
+ },
+ {
+  "nl": "de trap",
+  "art": "de",
+  "split": "",
+  "pt": "escada",
+  "emoji": "🪜"
+ },
+ {
+  "nl": "de muur",
+  "art": "de",
+  "split": "",
+  "pt": "parede, muro",
+  "emoji": "🧱"
+ },
+ {
+  "nl": "de lamp",
+  "art": "de",
+  "split": "",
+  "pt": "luminária, lâmpada",
+  "emoji": "💡"
+ },
+ {
+  "nl": "de frigo",
+  "art": "de",
+  "split": "",
+  "pt": "geladeira (belga; NL: koelkast)",
+  "emoji": "🧊"
+ },
+ {
+  "nl": "de wasmachine",
+  "art": "de",
+  "split": "was (lavagem) + machine (máquina)",
+  "pt": "máquina de lavar roupa",
+  "emoji": "🧺"
+ },
+ {
+  "nl": "de stad",
+  "art": "de",
+  "split": "",
+  "pt": "cidade",
+  "emoji": "🏙️"
+ },
+ {
+  "nl": "de straat",
+  "art": "de",
+  "split": "",
+  "pt": "rua",
+  "emoji": "🛣️"
+ },
+ {
+  "nl": "het plein",
+  "art": "het",
+  "split": "",
+  "pt": "praça",
+  "emoji": "⛲"
+ },
+ {
+  "nl": "de winkel",
+  "art": "de",
+  "split": "",
+  "pt": "loja",
+  "emoji": "🛍️"
+ },
+ {
+  "nl": "de bakkerij",
+  "art": "de",
+  "split": "bakker (padeiro) + -ij (lugar de)",
+  "pt": "padaria",
+  "emoji": "🥖"
+ },
+ {
+  "nl": "het ziekenhuis",
+  "art": "het",
+  "split": "zieken (doentes) + huis (casa)",
+  "pt": "hospital",
+  "emoji": "🏥"
+ },
+ {
+  "nl": "het station",
+  "art": "het",
+  "split": "",
+  "pt": "estação (de trem)",
+  "emoji": "🚉"
+ },
+ {
+  "nl": "de trein",
+  "art": "de",
+  "split": "",
+  "pt": "trem",
+  "emoji": "🚆"
+ },
+ {
+  "nl": "de tram",
+  "art": "de",
+  "split": "",
+  "pt": "bonde",
+  "emoji": "🚋"
+ },
+ {
+  "nl": "de fiets",
+  "art": "de",
+  "split": "",
+  "pt": "bicicleta",
+  "emoji": "🚲"
+ },
+ {
+  "nl": "de auto",
+  "art": "de",
+  "split": "",
+  "pt": "carro",
+  "emoji": "🚗"
+ },
+ {
+  "nl": "de kerk",
+  "art": "de",
+  "split": "",
+  "pt": "igreja",
+  "emoji": "⛪"
+ },
+ {
+  "nl": "het gemeentehuis",
+  "art": "het",
+  "split": "gemeente (município) + huis (casa)",
+  "pt": "prefeitura",
+  "emoji": "🏛️"
+ },
+ {
+  "nl": "het park",
+  "art": "het",
+  "split": "",
+  "pt": "parque",
+  "emoji": "🌳"
+ },
+ {
+  "nl": "het bos",
+  "art": "het",
+  "split": "",
+  "pt": "floresta, bosque",
+  "emoji": "🌲"
+ },
+ {
+  "nl": "de boom",
+  "art": "de",
+  "split": "",
+  "pt": "árvore",
+  "emoji": "🌳"
+ },
+ {
+  "nl": "de bloem",
+  "art": "de",
+  "split": "",
+  "pt": "flor",
+  "emoji": "🌸"
+ },
+ {
+  "nl": "de zee",
+  "art": "de",
+  "split": "",
+  "pt": "mar",
+  "emoji": "🌊"
+ },
+ {
+  "nl": "het strand",
+  "art": "het",
+  "split": "",
+  "pt": "praia",
+  "emoji": "🏖️"
+ },
+ {
+  "nl": "de broek",
+  "art": "de",
+  "split": "",
+  "pt": "calça",
+  "emoji": "👖"
+ },
+ {
+  "nl": "het hemd",
+  "art": "het",
+  "split": "",
+  "pt": "camisa (belga; NL: overhemd)",
+  "emoji": "👔"
+ },
+ {
+  "nl": "de trui",
+  "art": "de",
+  "split": "",
+  "pt": "suéter, blusa de frio",
+  "emoji": "🧶"
+ },
+ {
+  "nl": "de jas",
+  "art": "de",
+  "split": "",
+  "pt": "casaco",
+  "emoji": "🧥"
+ },
+ {
+  "nl": "de jurk",
+  "art": "de",
+  "split": "",
+  "pt": "vestido",
+  "emoji": "👗"
+ },
+ {
+  "nl": "de rok",
+  "art": "de",
+  "split": "",
+  "pt": "saia",
+  "emoji": "👗"
+ },
+ {
+  "nl": "de schoen",
+  "art": "de",
+  "split": "",
+  "pt": "sapato",
+  "emoji": "👟"
+ },
+ {
+  "nl": "de sok",
+  "art": "de",
+  "split": "",
+  "pt": "meia",
+  "emoji": "🧦"
+ },
+ {
+  "nl": "de sjaal",
+  "art": "de",
+  "split": "",
+  "pt": "cachecol",
+  "emoji": "🧣"
+ },
+ {
+  "nl": "de handschoen",
+  "art": "de",
+  "split": "hand (mão) + schoen (sapato): sapato de mão",
+  "pt": "luva",
+  "emoji": "🧤"
+ },
+ {
+  "nl": "de regenjas",
+  "art": "de",
+  "split": "regen (chuva) + jas (casaco)",
+  "pt": "capa de chuva",
+  "emoji": "🌧️"
+ },
+ {
+  "nl": "de zwembroek",
+  "art": "de",
+  "split": "zwem (nadar) + broek (calça)",
+  "pt": "sunga, bermuda de banho",
+  "emoji": "🩳"
+ },
+ {
+  "nl": "het lichaam",
+  "art": "het",
+  "split": "",
+  "pt": "corpo",
+  "emoji": "🧍"
+ },
+ {
+  "nl": "het hoofd",
+  "art": "het",
+  "split": "",
+  "pt": "cabeça",
+  "emoji": "👤"
+ },
+ {
+  "nl": "het hart",
+  "art": "het",
+  "split": "",
+  "pt": "coração",
+  "emoji": "❤️"
+ },
+ {
+  "nl": "het bloed",
+  "art": "het",
+  "split": "",
+  "pt": "sangue",
+  "emoji": "🩸"
+ },
+ {
+  "nl": "de ziekte",
+  "art": "de",
+  "split": "ziek (doente) + te (sufixo de substantivo)",
+  "pt": "doença",
+  "emoji": "🦠"
+ },
+ {
+  "nl": "de dokter",
+  "art": "de",
+  "split": "",
+  "pt": "médico",
+  "emoji": "👨‍⚕️"
+ },
+ {
+  "nl": "de huisarts",
+  "art": "de",
+  "split": "huis (casa) + arts (médico)",
+  "pt": "clínico geral, médico de família",
+  "emoji": "🩺"
+ },
+ {
+  "nl": "de apotheek",
+  "art": "de",
+  "split": "",
+  "pt": "farmácia",
+  "emoji": "💊"
+ },
+ {
+  "nl": "het geneesmiddel",
+  "art": "het",
+  "split": "genees (de genezen, curar) + middel (meio, recurso)",
+  "pt": "medicamento",
+  "emoji": "💉"
+ },
+ {
+  "nl": "de pijn",
+  "art": "de",
+  "split": "",
+  "pt": "dor",
+  "emoji": "😖"
+ },
+ {
+  "nl": "de hoofdpijn",
+  "art": "de",
+  "split": "hoofd (cabeça) + pijn (dor)",
+  "pt": "dor de cabeça",
+  "emoji": "🤕"
+ },
+ {
+  "nl": "de gezondheid",
+  "art": "de",
+  "split": "gezond (saudável) + heid (sufixo, como -dade)",
+  "pt": "saúde",
+  "emoji": "💚"
+ },
+ {
+  "nl": "de koorts",
+  "art": "de",
+  "split": "",
+  "pt": "febre",
+  "emoji": "🤒"
+ },
+ {
+  "nl": "de griep",
+  "art": "de",
+  "split": "",
+  "pt": "gripe",
+  "emoji": "🤧"
+ },
+ {
+  "nl": "de tandarts",
+  "art": "de",
+  "split": "tand (dente) + arts (médico)",
+  "pt": "dentista",
+  "emoji": "🦷"
+ },
+ {
+  "nl": "de mutualiteit",
+  "art": "de",
+  "split": "mutuali (mútuo) + teit (sufixo, como -dade)",
+  "pt": "mutualidade, plano de saúde belga (belgicismo)",
+  "emoji": "📋"
+ },
+ {
+  "nl": "het gevoel",
+  "art": "het",
+  "split": "ge (prefixo) + voel (de voelen, sentir)",
+  "pt": "sentimento",
+  "emoji": "💭"
+ },
+ {
+  "nl": "de liefde",
+  "art": "de",
+  "split": "lief (querido) + de (sufixo de substantivo)",
+  "pt": "amor",
+  "emoji": "💕"
+ },
+ {
+  "nl": "de vriendschap",
+  "art": "de",
+  "split": "vriend (amigo) + schap (sufixo, como -dade)",
+  "pt": "amizade",
+  "emoji": "🤝"
+ },
+ {
+  "nl": "de vriend",
+  "art": "de",
+  "split": "",
+  "pt": "amigo, namorado",
+  "emoji": "👬"
+ },
+ {
+  "nl": "de vriendin",
+  "art": "de",
+  "split": "vriend (amigo) + in (sufixo feminino)",
+  "pt": "amiga, namorada",
+  "emoji": "👭"
+ },
+ {
+  "nl": "het geluk",
+  "art": "het",
+  "split": "ge (prefixo) + luk (de lukken, dar certo)",
+  "pt": "felicidade, sorte",
+  "emoji": "😊"
+ },
+ {
+  "nl": "het verdriet",
+  "art": "het",
+  "split": "",
+  "pt": "tristeza",
+  "emoji": "😢"
+ },
+ {
+  "nl": "de angst",
+  "art": "de",
+  "split": "",
+  "pt": "medo, ansiedade",
+  "emoji": "😨"
+ },
+ {
+  "nl": "de boosheid",
+  "art": "de",
+  "split": "boos (bravo) + heid (sufixo, como -dade)",
+  "pt": "raiva",
+  "emoji": "😠"
+ },
+ {
+  "nl": "de schaamte",
+  "art": "de",
+  "split": "schaam (de zich schamen, envergonhar-se) + te (sufixo de substantivo)",
+  "pt": "vergonha",
+  "emoji": "😳"
+ },
+ {
+  "nl": "de relatie",
+  "art": "de",
+  "split": "",
+  "pt": "relacionamento",
+  "emoji": "💑"
+ },
+ {
+  "nl": "het huwelijk",
+  "art": "het",
+  "split": "huw (de huwen, casar) + elijk (sufixo)",
+  "pt": "casamento",
+  "emoji": "💍"
+ },
+ {
+  "nl": "de scheiding",
+  "art": "de",
+  "split": "scheid (de scheiden, separar) + ing (sufixo, como -ção)",
+  "pt": "separação, divórcio",
+  "emoji": "💔"
+ },
+ {
+  "nl": "het gezin",
+  "art": "het",
+  "split": "",
+  "pt": "família (pais e filhos)",
+  "emoji": "👨‍👩‍👧"
+ },
+ {
+  "nl": "de knuffel",
+  "art": "de",
+  "split": "",
+  "pt": "abraço, bicho de pelúcia",
+  "emoji": "🤗"
+ },
+ {
+  "nl": "de ruzie",
+  "art": "de",
+  "split": "",
+  "pt": "briga, discussão",
+  "emoji": "🗯️"
+ },
+ {
+  "nl": "het vertrouwen",
+  "art": "het",
+  "split": "ver (prefixo) + trouwen (de trouw, lealdade)",
+  "pt": "confiança",
+  "emoji": "🙏"
+ },
+ {
+  "nl": "de eenzaamheid",
+  "art": "de",
+  "split": "eenzaam (solitário) + heid (sufixo, como -dade)",
+  "pt": "solidão",
+  "emoji": "😔"
+ },
+ {
+  "nl": "het werk",
+  "art": "het",
+  "split": "",
+  "pt": "trabalho",
+  "emoji": "💼"
+ },
+ {
+  "nl": "de job",
+  "art": "de",
+  "split": "",
+  "pt": "emprego (belgicismo, NL: de baan)",
+  "emoji": "🧑‍💼"
+ },
+ {
+  "nl": "de collega",
+  "art": "de",
+  "split": "",
+  "pt": "colega de trabalho",
+  "emoji": "👥"
+ },
+ {
+  "nl": "de vergadering",
+  "art": "de",
+  "split": "vergader (de vergaderen, reunir-se) + ing (sufixo, como -ção)",
+  "pt": "reunião",
+  "emoji": "👔"
+ },
+ {
+  "nl": "het loon",
+  "art": "het",
+  "split": "",
+  "pt": "salário",
+  "emoji": "💶"
+ },
+ {
+  "nl": "de werkgever",
+  "art": "de",
+  "split": "werk (trabalho) + gever (quem dá)",
+  "pt": "empregador",
+  "emoji": "🏢"
+ },
+ {
+  "nl": "de werknemer",
+  "art": "de",
+  "split": "werk (trabalho) + nemer (quem pega)",
+  "pt": "empregado, funcionário",
+  "emoji": "👷"
+ },
+ {
+  "nl": "het contract",
+  "art": "het",
+  "split": "",
+  "pt": "contrato",
+  "emoji": "📝"
+ },
+ {
+  "nl": "de opleiding",
+  "art": "de",
+  "split": "op (para cima) + leiding (condução, de leiden, guiar)",
+  "pt": "formação, curso",
+  "emoji": "🎓"
+ },
+ {
+  "nl": "het bedrijf",
+  "art": "het",
+  "split": "be (prefixo) + drijf (de drijven, conduzir)",
+  "pt": "empresa",
+  "emoji": "🏭"
+ },
+ {
+  "nl": "de vakbond",
+  "art": "de",
+  "split": "vak (ofício) + bond (liga, união)",
+  "pt": "sindicato",
+  "emoji": "✊"
+ },
+ {
+  "nl": "het verlof",
+  "art": "het",
+  "split": "",
+  "pt": "férias, licença (belgicismo, NL: de vakantie)",
+  "emoji": "🌴"
+ },
+ {
+  "nl": "de computer",
+  "art": "de",
+  "split": "",
+  "pt": "computador",
+  "emoji": "💻"
+ },
+ {
+  "nl": "de gsm",
+  "art": "de",
+  "split": "",
+  "pt": "celular (belgicismo, NL: het mobieltje)",
+  "emoji": "📱"
+ },
+ {
+  "nl": "het scherm",
+  "art": "het",
+  "split": "",
+  "pt": "tela",
+  "emoji": "🖥️"
+ },
+ {
+  "nl": "het toetsenbord",
+  "art": "het",
+  "split": "toetsen (teclas) + bord (quadro, placa)",
+  "pt": "teclado",
+  "emoji": "⌨️"
+ },
+ {
+  "nl": "het wachtwoord",
+  "art": "het",
+  "split": "wacht (guarda) + woord (palavra)",
+  "pt": "senha",
+  "emoji": "🔐"
+ },
+ {
+  "nl": "de e-mail",
+  "art": "de",
+  "split": "",
+  "pt": "e-mail",
+  "emoji": "📧"
+ },
+ {
+  "nl": "de bijlage",
+  "art": "de",
+  "split": "bij (junto) + lage (de leggen, pôr)",
+  "pt": "anexo",
+  "emoji": "📎"
+ },
+ {
+  "nl": "de afspraak",
+  "art": "de",
+  "split": "af (fechado) + spraak (fala)",
+  "pt": "compromisso marcado",
+  "emoji": "📅"
+ },
+ {
+  "nl": "de tijd",
+  "art": "de",
+  "split": "",
+  "pt": "tempo (cronológico)",
+  "emoji": "⏰"
+ },
+ {
+  "nl": "het weer",
+  "art": "het",
+  "split": "",
+  "pt": "tempo (clima)",
+  "emoji": "🌤️"
+ },
+ {
+  "nl": "de zon",
+  "art": "de",
+  "split": "",
+  "pt": "sol",
+  "emoji": "☀️"
+ },
+ {
+  "nl": "de regen",
+  "art": "de",
+  "split": "",
+  "pt": "chuva",
+  "emoji": "🌧️"
+ },
+ {
+  "nl": "de wind",
+  "art": "de",
+  "split": "",
+  "pt": "vento",
+  "emoji": "💨"
+ },
+ {
+  "nl": "de sneeuw",
+  "art": "de",
+  "split": "",
+  "pt": "neve",
+  "emoji": "❄️"
+ },
+ {
+  "nl": "de wolk",
+  "art": "de",
+  "split": "",
+  "pt": "nuvem",
+  "emoji": "☁️"
+ },
+ {
+  "nl": "het onweer",
+  "art": "het",
+  "split": "on (prefixo negativo) + weer (tempo, clima)",
+  "pt": "tempestade, trovoada",
+  "emoji": "⛈️"
+ },
+ {
+  "nl": "de temperatuur",
+  "art": "de",
+  "split": "",
+  "pt": "temperatura",
+  "emoji": "🌡️"
+ },
+ {
+  "nl": "de lente",
+  "art": "de",
+  "split": "",
+  "pt": "primavera",
+  "emoji": "🌷"
+ },
+ {
+  "nl": "de zomer",
+  "art": "de",
+  "split": "",
+  "pt": "verão",
+  "emoji": "🏖️"
+ },
+ {
+  "nl": "de herfst",
+  "art": "de",
+  "split": "",
+  "pt": "outono",
+  "emoji": "🍂"
+ },
+ {
+  "nl": "de winter",
+  "art": "de",
+  "split": "",
+  "pt": "inverno",
+  "emoji": "⛄"
+ },
+ {
+  "nl": "de regenboog",
+  "art": "de",
+  "split": "regen (chuva) + boog (arco)",
+  "pt": "arco-íris",
+  "emoji": "🌈"
+ },
+ {
+  "nl": "de toekomst",
+  "art": "de",
+  "split": "toe (em direção a) + komst (vinda)",
+  "pt": "futuro",
+  "emoji": "🔮"
+ }
+]
