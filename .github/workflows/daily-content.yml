@@ -1,0 +1,60 @@
+name: Daily word & phrase
+
+# Publishes a fresh "woord van de dag" + "zin van de dag" every morning.
+# Commits data directly to main (small, low-risk data files) so the app
+# always has today's content with zero manual steps.
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # 08:00 CEST daily
+  workflow_dispatch:
+
+jobs:
+  publish-daily:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Generate today's word and phrase
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            You publish today's Dutch learning content for a course app ("Nederlands!") for
+            Brazilian Portuguese speakers living in Flanders (Belgian Dutch).
+
+            1. Read data/daily/latest.json and the last 14 files in data/daily/ (named
+               YYYY-MM-DD.json) to see recently used words/phrases. DO NOT repeat any of them.
+            2. Pick ONE new useful Belgian-Dutch word and ONE new useful phrase (different topics
+               from each other and from recent days: rotate through daily life, food, transport,
+               work, weather, culture, grammar-focused phrases, etc.)
+            3. Write today's file to data/daily/<YYYY-MM-DD>.json (use the actual current UTC
+               date) with this exact shape:
+               {
+                 "date": "YYYY-MM-DD",
+                 "word": { "nl": "de afspraak", "art": "de", "split": "af (fechado) + spraak (fala)",
+                            "pt": "compromisso marcado", "emoji": "📅" },
+                 "phrase": { "nl": [{"t":"Wat","r":"qw"},{"t":"is","r":"verb"},...],
+                             "pt": [{"t":"Qual","r":"qw"},{"t":"é","r":"verb"},...],
+                             "lit": "optional literal gloss", "note": "optional PT-BR insight" }
+               }
+               Word-role codes (must match on both sides, same rules as the rest of the app):
+               qw, verb, noun, art, pron, prep, adj, adv, neg, num, conj, part, punc, x.
+               See data/SCHEMA.md and any file in data/lessons/ for the exact pattern to copy.
+            4. Copy that same object into data/daily/latest.json (overwrite it).
+            5. Validate both files parse: python -c "import json,io;json.load(io.open('data/daily/latest.json',encoding='utf-8'))"
+            6. PT-BR must be natural Brazilian Portuguese (no European Portuguese/Spanish). No
+               em-dashes anywhere. Every word/phrase item needs a fitting emoji. Dutch must be
+               grammatically correct Flemish standard.
+            7. Commit directly to main with message "Daily word & phrase: <date>" and push.
+               Only touch files under data/daily/ — do not modify anything else.
+          claude_args: |
+            --max-turns 40
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep"

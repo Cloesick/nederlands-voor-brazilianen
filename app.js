@@ -54,9 +54,29 @@ function clockify(text) {
 /* ---------- state ---------- */
 let S = load();
 function load() {
-  try { return Object.assign({ xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{} },
+  try { return Object.assign({ xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'' },
     JSON.parse(localStorage.getItem(STORE_KEY) || '{}')); }
-  catch { return { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{} }; }
+  catch { return { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'' }; }
+}
+
+/* ---------- premium: device id + entitlement check (see api/premium-status.js) ---------- */
+function deviceId() {
+  if (!S.deviceId) { S.deviceId = 'd_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10); save(); }
+  return S.deviceId;
+}
+async function checkPremiumStatus() {
+  if (!window.NL_CONFIG || !window.NL_CONFIG.PREMIUM_ENABLED) return;
+  try {
+    const r = await fetch('/api/premium-status?device=' + encodeURIComponent(deviceId()));
+    const d = await r.json();
+    if (S.premium !== !!d.premium) { S.premium = !!d.premium; save(); }
+  } catch { /* offline or api not ready: keep last known state */ }
+}
+function isPremium() { return !!S.premium; }
+function adSlotHTML(id) {
+  if (isPremium() || !window.NL_CONFIG || !window.NL_CONFIG.ADSENSE_CLIENT) return '';
+  return `<div class="ad-slot" id="${id}"><small class="muted">📢 espaço reservado ·
+    <a href="#/premium">remova anúncios com o Premium ⭐</a></small></div>`;
 }
 /* ---------- mistakes quicklist: every wrong answer gets extra attention ---------- */
 function recordMistake(m) {
@@ -125,6 +145,8 @@ function toast(msg) {
 function paintStats() {
   $('#xpStat').textContent = S.xp;
   $('#streakStat').textContent = S.streak.count;
+  const pn = document.getElementById('premiumNav');
+  if (pn) { pn.textContent = isPremium() ? '🏆' : '⭐'; pn.title = isPremium() ? 'Você é Premium!' : 'Nederlands! Premium'; }
 }
 function lessonProgress(id, exCount) {
   const st = S.lessons[id];
@@ -171,11 +193,13 @@ function legendStrip(phrases) {
 
 /* ---------- router ---------- */
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); });
+window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); });
 
 async function route() {
   const app = $('#app');
-  const h = location.hash.replace(/^#\/?/, '');
+  const hFull = location.hash.replace(/^#\/?/, '');
+  const h = hFull.split('?')[0];
+  const qs = new URLSearchParams(hFull.split('?')[1] || '');
   try {
     if (h === '' || h === '/') return renderHome(app);
     if (h === 'legenda') return renderLegend(app);
@@ -186,6 +210,10 @@ async function route() {
     if (h === 'decks') return renderDecks(app);
     if (h === 'dificuldades') return renderMistakes(app);
     if (h === 'spelletjes') return renderGamesHub(app);
+    if (h === 'premium') return renderPremium(app, qs);
+    if (h === 'maandelijst') return renderMaandOverzicht(app);
+    const mm = h.match(/^maandelijst\/([\w-]+)$/);
+    if (mm) return renderMaandDetail(app, mm[1]);
     const mg = h.match(/^spelletjes\/([\w-]+)$/);
     if (mg) return renderGameDomain(app, mg[1]);
     const mn = h.match(/^nivel\/([A-C][12])$/i);
@@ -205,6 +233,7 @@ async function renderHome(app) {
   const units = {};
   man.lessons.forEach(l => (units[l.unit] = units[l.unit] || []).push(l));
   const next = man.lessons.find(l => !(S.lessons[l.id] && S.lessons[l.id].done));
+  const dailyHTML = await dailyWidgetHTML();
   app.innerHTML = `
   <div class="hero">
     <h1>🧇 Nederlands! O curso de neerlandês para brasileiros 🇧🇷→🇧🇪</h1>
@@ -213,10 +242,13 @@ async function renderHome(app) {
     <a href="livro.html">Livro Infográfico 📖</a>.</p>
     ${next ? `<a class="btn primary" href="#/les/${next.id}">▶️ Continuar: ${next.emoji} ${esc(next.title)}</a>` : '<p>🏆 Curso completo!</p>'}
     <img src="assets/infographics/cefr-ladder.svg" alt="A escada de níveis A1 a C2" loading="lazy">
+    ${dailyHTML}
+    <p><a class="btn small" href="#/maandelijst">🗓️ Woordenlijst do mês</a></p>
     <p class="muted" style="margin:.6em 0 .2em"><b>👉 Escolha um nível</b> para ver TUDO dele (lições, frases e vocabulário):</p>
     <div class="level-picker">${['A1','A2','B1','B2','C1','C2'].map(u =>
       `<a class="level-btn" href="#/nivel/${u}" style="background:${UNIT_COLORS[u]}">${u}<small>${UNIT_INFO[u].emoji} ${UNIT_INFO[u].name}</small></a>`).join('')}</div>
   </div>
+  ${adSlotHTML('adHome')}
   <div class="home-tiles">
     <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
@@ -236,6 +268,11 @@ async function renderHome(app) {
         <span class="pct">${l.phrases || 0} frases · ${l.exercises || 0} exercícios ${pct === 100 ? '· ✅' : ''}</span>
         <div class="progressbar"><div style="width:${pct}%"></div></div></a>`;
     }).join('')}</div>`).join('')}`;
+  const daily = app.querySelector('.daily-card');
+  if (daily) {
+    bindPhraseEvents(daily);
+    daily.querySelectorAll('.speak,.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+  }
 }
 function unitTitle(u) {
   return { A1:'Sobrevivência 🌱', A2:'Autonomia básica ⭐ (inburgering)', B1:'Independência 🌳',
@@ -283,6 +320,7 @@ function showTab(t, L) {
         <td class="v-split">${esc(v.split || '')}</td>
         <td>${v.emoji || ''} ${esc(v.pt)}</td></tr>`).join('')}</table>
       <div id="socialCard"></div>
+      ${adSlotHTML('adLesson')}
       <p class="center"><button class="btn primary" id="goPractice">🏋️ Praticar agora →</button></p>`;
     bindPhraseEvents(body);
     body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
@@ -1026,6 +1064,77 @@ function playBuild(wrap, r, onWin) {
     return true;
   }));
   $('#resetB').addEventListener('click', () => { const b = wrap.querySelector('.drag-pool'); [...zone.children].forEach(c => { c.classList.remove('placed'); b.appendChild(c); }); placed = []; $('#gfb').innerHTML = ''; });
+}
+
+/* ---------- daily word/phrase widget (home) + monthly wordlists ---------- */
+async function dailyWidgetHTML() {
+  let d; try { d = await (await fetch('data/daily/latest.json')).json(); } catch { return ''; }
+  if (!d || !d.word) return '';
+  return `<div class="card daily-card">
+    <div class="daily-head">📅 <b>Hoje · Hoje (${esc(d.date || '')})</b></div>
+    <div class="daily-word">
+      <span class="daily-em">${d.word.emoji || '🔤'}</span>
+      <div><b class="v-nl">${d.word.art ? `<span class="pill art-${d.word.art}">${d.word.art}</span> ` : ''}${esc(d.word.nl)}</b>
+        ${hasTTS ? `<button class="speak-btn dspeak" data-say="${esc(d.word.nl)}">🔊</button>` : ''}
+        <br><small class="muted">${esc(d.word.pt)}${d.word.split ? ' · 🧩 ' + esc(d.word.split) : ''}</small></div>
+    </div>
+    ${d.phrase ? `<div class="daily-phrase">${phraseHTML(d.phrase, 'daily')}</div>` : ''}
+  </div>`;
+}
+async function renderMaandOverzicht(app) {
+  app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div><h1>🗓️ Woordenlijsten do mês</h1><div class="loading">⏳...</div>`;
+  let idx; try { idx = await (await fetch('data/maandelijst/index.json')).json(); } catch { idx = []; }
+  if (!idx.length) { app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div><div class="card">Em breve 🔜</div>`; return; }
+  app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🗓️ Woordenlijsten do mês <span class="muted" style="font-size:1rem">um baralho temático novo todo mês</span></h1>
+    <div class="lesson-grid">${idx.map(m => `<a class="lesson-card" href="#/maandelijst/${m.month}">
+      <span class="em">${m.emoji}</span><h3>${esc(m.theme)}</h3><span class="pct">${esc(m.month)}</span></a>`).join('')}</div>`;
+}
+async function renderMaandDetail(app, month) {
+  app.innerHTML = `<div class="crumb"><a href="#/maandelijst">← meses</a></div><div class="loading">⏳...</div>`;
+  let d; try { d = await (await fetch(`data/maandelijst/${month}.json`)).json(); } catch { app.innerHTML = '<div class="card">Não encontrado 🤷</div>'; return; }
+  app.innerHTML = `<div class="crumb"><a href="#/maandelijst">← meses</a></div>
+    <h1>${d.emoji} ${esc(d.theme)}</h1><p class="muted">${esc(d.intro || '')}</p>
+    <p><button class="btn primary" id="playFc">🃏 Estudar como flashcards (${d.cards.length})</button></p>
+    ${vocabTableHTML(d.cards)}`;
+  bindVspeak(app);
+  $('#playFc').addEventListener('click', () => {
+    app.innerHTML = `<div class="crumb"><a href="#/maandelijst/${month}">← ${esc(d.theme)}</a></div><h1>${d.emoji} ${esc(d.theme)}</h1><div id="mfc2"></div>`;
+    runFlashcards($('#mfc2'), null, d.cards.map(v => ({ ...v, key: 'maand-' + month + '|' + v.nl })));
+  });
+}
+
+/* ---------- premium: paywall + upsell screen ---------- */
+async function renderPremium(app, qs) {
+  if (qs && qs.get('success') === '1') { toast('🎉 Pagamento recebido! Ativando...'); setTimeout(checkPremiumStatus, 1200); setTimeout(checkPremiumStatus, 4000); }
+  const enabled = window.NL_CONFIG && window.NL_CONFIG.PREMIUM_ENABLED;
+  app.innerHTML = `<div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>⭐ Nederlands! Premium</h1>
+    ${isPremium() ? `<div class="card center"><p style="font-size:2.5rem">🏆</p>
+      <p><b>Você já é Premium! Dank je wel! 💛</b></p><a class="btn primary" href="#/">📚 Voltar às lições</a></div>` : `
+    <div class="card">
+      <p class="muted">O curso inteiro continua <b>100% gratuito</b>, para sempre. O Premium é para quem quer apoiar o
+      projeto e ganhar mimos extras. ✨</p>
+      <ul class="checklist">
+        <li>🚫 Sem anúncios em lugar nenhum</li>
+        <li>📄 Exportar qualquer lição em PDF para imprimir</li>
+        <li>🏅 Certificado de conclusão por nível (A1...C1)</li>
+        <li>🃏 Baralhos e jogos exclusivos, liberados na hora</li>
+        <li>💛 Você ajuda a manter o projeto vivo e gratuito para outros brasileiros</li>
+      </ul>
+      ${enabled ? `<p><button class="btn primary" id="buyBtn">⭐ Tornar-se Premium</button></p><p id="buyMsg" class="muted"></p>`
+        : `<p class="muted">💤 A compra ainda não foi ativada pelo administrador do site. Volte em breve!</p>`}
+    </div>`}`;
+  const buy = document.getElementById('buyBtn');
+  if (buy) buy.addEventListener('click', async () => {
+    buy.disabled = true; document.getElementById('buyMsg').textContent = '⏳ Abrindo pagamento seguro...';
+    try {
+      const r = await fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ deviceId: deviceId() }) });
+      const d = await r.json();
+      if (d.url) window.location.href = d.url;
+      else { document.getElementById('buyMsg').textContent = '⚠️ ' + (d.message || 'Indisponível agora.'); buy.disabled = false; }
+    } catch { document.getElementById('buyMsg').textContent = '⚠️ Erro de conexão.'; buy.disabled = false; }
+  });
 }
 
 /* ---------- legend ---------- */

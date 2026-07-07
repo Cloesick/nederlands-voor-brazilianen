@@ -1,0 +1,32 @@
+{
+  "month": "2026-07",
+  "theme": "Zomer en vakantie · Verão e férias",
+  "emoji": "🏖️",
+  "intro": "Julho é mês de Gentse Feesten, praia em Oostende e o primeiro sol de verdade na Bélgica. Vocabulário de verão e viagem.",
+  "cards": [
+    { "nl": "de zomer", "art": "de", "split": "", "pt": "o verão", "emoji": "☀️" },
+    { "nl": "de vakantie", "art": "de", "split": "", "pt": "as férias", "emoji": "🏖️" },
+    { "nl": "het strand", "art": "het", "split": "", "pt": "a praia", "emoji": "🏖️" },
+    { "nl": "de zee", "art": "de", "split": "", "pt": "o mar", "emoji": "🌊" },
+    { "nl": "de zon", "art": "de", "split": "", "pt": "o sol", "emoji": "☀️" },
+    { "nl": "de zonnebril", "art": "de", "split": "zonne (sol) + bril (óculos)", "pt": "os óculos de sol", "emoji": "🕶️" },
+    { "nl": "de zonnecrème", "art": "de", "split": "zonne (sol) + crème (creme, francês)", "pt": "o protetor solar", "emoji": "🧴" },
+    { "nl": "het zwembad", "art": "het", "split": "zwem (nadar) + bad (banho)", "pt": "a piscina", "emoji": "🏊" },
+    { "nl": "zwemmen", "art": null, "split": "", "pt": "nadar", "emoji": "🏊" },
+    { "nl": "het ijsje", "art": "het", "split": "ijs (sorvete) + -je (-inho)", "pt": "o sorvetinho", "emoji": "🍦" },
+    { "nl": "de koffer", "art": "de", "split": "", "pt": "a mala de viagem", "emoji": "🧳" },
+    { "nl": "het vliegtuig", "art": "het", "split": "vlieg (voar) + tuig (equipamento)", "pt": "o avião, \"equipamento voador\"", "emoji": "✈️" },
+    { "nl": "de luchthaven", "art": "de", "split": "lucht (ar) + haven (porto)", "pt": "o aeroporto, \"porto do ar\"", "emoji": "🛫" },
+    { "nl": "het paspoort", "art": "het", "split": "pas (documento) + poort (portão, francês)", "pt": "o passaporte", "emoji": "🛂" },
+    { "nl": "de camping", "art": "de", "split": "", "pt": "o camping", "emoji": "⛺" },
+    { "nl": "de Gentse Feesten", "art": "de", "split": "Gent (cidade) + se + feesten (festas)", "pt": "o festival de Ghent (10 dias em julho)", "emoji": "🎉" },
+    { "nl": "de terrasjes", "art": "de", "split": "terras (varanda) + -jes (-inhos, plural)", "pt": "as mesinhas ao ar livre", "emoji": "🍹" },
+    { "nl": "warm", "art": null, "split": "", "pt": "quente (clima)", "emoji": "🥵" },
+    { "nl": "de hittegolf", "art": "de", "split": "hitte (calor) + golf (onda)", "pt": "a onda de calor", "emoji": "🌡️" },
+    { "nl": "het onweer", "art": "het", "split": "on- (negativo) + weer (tempo)", "pt": "a tempestade, \"o não-tempo\"", "emoji": "⛈️" },
+    { "nl": "uitrusten", "art": null, "split": "uit (fora) + rusten (descansar)", "pt": "descansar, relaxar", "emoji": "😌" },
+    { "nl": "de fietsvakantie", "art": "de", "split": "fiets (bicicleta) + vakantie (férias)", "pt": "a viagem de bicicleta", "emoji": "🚴" },
+    { "nl": "het weekje weg", "art": "het", "split": "week (semana) + -je (-inho) + weg (fora)", "pt": "a semaninha fora, escapadinha", "emoji": "🗺️" },
+    { "nl": "genieten", "art": null, "split": "", "pt": "aproveitar, curtir", "emoji": "😎" }
+  ]
+}

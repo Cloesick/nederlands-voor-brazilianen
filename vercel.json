@@ -1,0 +1,8 @@
+{
+  "buildCommand": "echo 'static site, no build needed'",
+  "outputDirectory": ".",
+  "headers": [
+    { "source": "/data/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=300, must-revalidate" }] },
+    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] }
+  ]
+}

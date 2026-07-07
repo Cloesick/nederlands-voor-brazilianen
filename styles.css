@@ -279,6 +279,16 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
   padding:12px;background:var(--nl-bg);margin:10px 0}
 .game-feedback{font-weight:700;min-height:1.4em;margin-top:8px}
 
+/* ===== daily word/phrase widget ===== */
+.daily-card{background:linear-gradient(135deg,#fff,#FFF9EC);border-color:var(--gold);margin-top:14px}
+.daily-head{font-weight:800;color:var(--gold);margin-bottom:8px}
+.daily-word{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+.daily-em{font-size:2rem}
+.daily-phrase .phrase{box-shadow:none;margin:0;border-color:var(--gold)}
+
+/* ===== ad slot (only rendered if NL_CONFIG.ADSENSE_CLIENT is set and user is not premium) ===== */
+.ad-slot{border:1.5px dashed var(--line);border-radius:10px;padding:8px 12px;text-align:center;margin:14px 0;background:#FAF7F0}
+
 /* ===== toast ===== */
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;
   border-radius:12px;padding:10px 20px;font-weight:700;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,.3)}

@@ -6,19 +6,26 @@
 <title>Nederlands! 🇧🇷→🇧🇪 Curso para brasileiros</title>
 <meta name="description" content="Curso completo de neerlandês (flamengo) para brasileiros: lições A1-C1, exercícios estilo Babbel, frases com alinhamento colorido de palavras, flashcards e áudio.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/icons/icon-180.png">
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#FBF7F0">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Nederlands!">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="topbar">
   <a href="#/" class="brand">🧇 <strong>Nederlands!</strong> <span class="brand-sub">🇧🇷→🇧🇪</span></a>
   <nav class="topnav">
+    <a href="#/spelletjes" title="Jogos de arrastar e soltar">🧩</a>
     <a href="#/klanken" title="Treino de sons">🔊</a>
     <a href="#/belgie" title="Descubra a Bélgica">🇧🇪</a>
     <a href="#/woordenboek" title="Dicionário e busca rápida">🔎</a>
     <a href="#/dificuldades" title="Suas dificuldades">🎯 <span class="due-badge" id="mistakeBadge" hidden>0</span></a>
     <a href="#/revisao" title="Flashcards para revisar">🃏 <span class="due-badge" id="dueBadge" hidden>0</span></a>
+    <a href="#/premium" id="premiumNav" title="Nederlands! Premium">⭐</a>
     <span class="stat" title="Pontos de experiência">⚡ <b id="xpStat">0</b></span>
     <span class="stat" title="Dias seguidos estudando">🔥 <b id="streakStat">0</b></span>
   </nav>
@@ -38,6 +45,12 @@
 </footer>
 
 <div id="toast" class="toast" hidden></div>
+<script src="config.js"></script>
 <script src="app.js"></script>
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+</script>
 </body>
 </html>

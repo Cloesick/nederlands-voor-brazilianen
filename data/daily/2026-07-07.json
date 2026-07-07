@@ -1,0 +1,10 @@
+{
+  "date": "2026-07-07",
+  "word": { "nl": "de vakantie", "art": "de", "split": "", "pt": "as férias", "emoji": "🏖️" },
+  "phrase": {
+    "nl": [{"t":"Ik","r":"pron"},{"t":"ga","r":"verb"},{"t":"deze","r":"pron"},{"t":"zomer","r":"noun"},{"t":"naar","r":"prep"},{"t":"Portugal","r":"x"},{"t":"op","r":"prep"},{"t":"vakantie","r":"noun"},{"t":".","r":"punc"}],
+    "pt": [{"t":"Eu","r":"pron"},{"t":"vou","r":"verb"},{"t":"neste","r":"pron"},{"t":"verão","r":"noun"},{"t":"para","r":"prep"},{"t":"Portugal","r":"x"},{"t":"de","r":"prep"},{"t":"férias","r":"noun"},{"t":".","r":"punc"}],
+    "lit": "eu vou este verão para Portugal de férias",
+    "note": "\"op vakantie gaan\" é uma expressão fixa: \"ir de férias\", sempre com a preposição op."
+  }
+}

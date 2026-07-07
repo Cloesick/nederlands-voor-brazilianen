@@ -1,0 +1,57 @@
+name: Monthly wordlist
+
+# Publishes a themed 20-30 word list on the 1st of every month
+# ("woordenlijst van de maand"), rotating through seasons, holidays,
+# and topics not yet covered by the fixed lesson decks.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 1st of the month, 08:00 CEST
+  workflow_dispatch:
+
+jobs:
+  publish-monthly:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 5
+
+      - name: Generate this month's themed wordlist
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            You publish the monthly themed Dutch wordlist for "Nederlands!", a course app for
+            Brazilian Portuguese speakers living in Flanders (Belgian Dutch).
+
+            1. List existing files in data/maandelijst/ to see which themes were already used
+               (filenames are YYYY-MM.json). DO NOT repeat a theme from the last 12 months.
+            2. Pick a theme fitting the CURRENT month (season, Belgian/Dutch holiday or cultural
+               moment if one falls in this month, otherwise a useful everyday topic not yet
+               covered: e.g. emotions, the house, hobbies, the body, technology, nature, cooking
+               verbs, small talk, at the doctor, at work, etc.)
+            3. Write 20-30 words to data/maandelijst/<YYYY-MM>.json (current UTC year-month) shaped:
+               {
+                 "month": "YYYY-MM", "theme": "PT-BR theme title", "emoji": "🍂",
+                 "intro": "1-sentence PT-BR intro tying the theme to the month",
+                 "cards": [ { "nl": "de/het xxx or infinitive verb", "art": "de|het|null",
+                               "split": "morpheme split with PT gloss, or ''", "pt": "PT-BR meaning",
+                               "emoji": "🍁" } ]
+               }
+               Correct Belgian-Dutch articles and spelling. Natural PT-BR (not European/Spanish).
+               Every card has a fitting emoji. No em-dashes.
+            4. Update data/maandelijst/index.json: an array of {month, theme, emoji} objects for
+               ALL files present (create the index if missing, keep it sorted newest first).
+            5. Validate: python -c "import json,io;json.load(io.open('data/maandelijst/<file>.json',encoding='utf-8'))"
+               for both the new file and index.json.
+            6. Commit directly to main with message "Monthly wordlist: <YYYY-MM> <theme>" and push.
+               Only touch files under data/maandelijst/.
+          claude_args: |
+            --max-turns 40
+            --allowedTools "Bash,Read,Write,Edit,Glob,Grep"
