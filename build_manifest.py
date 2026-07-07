@@ -7,6 +7,7 @@ ORDER = [
     "b1-01-bijzinnen", "b1-02-scheidbaar", "b1-03-school-creche", "b1-04-gemeente-wonen",
     "b2-01-solliciteren", "b2-02-bank-wero", "b2-03-klachten",
     "c1-01-tussentaal",
+    "c2-01-idiomatiek", "c2-02-schrijfstijl", "c2-03-dialect-humor",
 ]
 
 here = os.path.dirname(os.path.abspath(__file__))

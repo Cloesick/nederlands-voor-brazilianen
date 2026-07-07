@@ -161,6 +161,33 @@
    "phrases": 10,
    "exercises": 13,
    "vocab": 16
+  },
+  {
+   "id": "c2-01-idiomatiek",
+   "unit": "C2",
+   "title": "Idiomatismos e o tempero da fala nativa · Idiomatiek",
+   "emoji": "🗝️",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 18
+  },
+  {
+   "id": "c2-02-schrijfstijl",
+   "unit": "C2",
+   "title": "O neerlandês escrito e retórico · Schrijfstijl",
+   "emoji": "🖋️",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 18
+  },
+  {
+   "id": "c2-03-dialect-humor",
+   "unit": "C2",
+   "title": "Dialetos, ironia e humor flamengo · Dialect en humor",
+   "emoji": "🎭",
+   "phrases": 11,
+   "exercises": 13,
+   "vocab": 18
   }
  ]
 }

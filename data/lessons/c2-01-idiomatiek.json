@@ -1,0 +1,223 @@
+{
+  "id": "c2-01-idiomatiek",
+  "unit": "C2",
+  "title": "Idiomatismos e o tempero da fala nativa · Idiomatiek",
+  "emoji": "🗝️",
+  "teaching": [
+    {
+      "emoji": "🧂",
+      "title": "🧂 Partículas modais: o tempero que não se traduz",
+      "html": "<p>O neerlandês nativo é temperado com pequenas palavras (<b>wel, toch, maar, even, eens, nou, hoor</b>) que não mudam o SENTIDO da frase, mas mudam o TOM: irritação, simpatia, insistência, surpresa. Não existe tradução literal: você sente o efeito ou não sente nada. É a diferença entre um neerlandês de livro e um neerlandês que soa humano. 🎭</p><table class=\"vocab\"><tr><th>frase neutra</th><th>com partícula</th><th>efeito</th></tr><tr><td>Doe dat niet.</td><td>Doe dat <b>toch</b> niet.</td><td>apelo, quase súplica</td></tr><tr><td>Kom binnen.</td><td>Kom <b>maar</b> binnen.</td><td>convite tranquilizador, \"pode entrar sem cerimônia\"</td></tr><tr><td>Help me.</td><td>Help me <b>even</b>.</td><td>pedido leve, \"rapidinho\", sem peso</td></tr><tr><td>Kijk.</td><td>Kijk <b>eens</b>.</td><td>chamando atenção com leveza, \"olha só\"</td></tr><tr><td>Dat is duur.</td><td>Dat is <b>wel</b> duur.</td><td>concessão suave, \"reconheço que é caro\"</td></tr></table>"
+    },
+    {
+      "emoji": "😤",
+      "title": "😤 Toch, hoor e nou: as emoções escondidas",
+      "html": "<p><b>Toch</b> carrega surpresa, contradição ou insistência: <i>\"Je bent toch niet boos?\"</i> (você não está bravo, está?, soa quase incrédulo). <b>Hoor</b> tranquiliza ou reforça no fim da frase: <i>\"Het is niet erg, hoor.\"</i> (não tem problema, viu). <b>Nou</b> no início marca hesitação, concessão ou impaciência: <i>\"Nou, dat weet ik niet.\"</i> (bom... não sei não).</p><ul><li><b>Toch</b> = mesmo assim / não é? (contradição/confirmação)</li><li><b>Hoor</b> = viu, tá (tranquiliza o ouvinte)</li><li><b>Nou</b> = bom..., pois é (hesitação/ênfase)</li><li><b>Maar</b> (partícula, não conjunção!) = à vontade, sem medo</li></ul><p><small>💡 Regra prática C2: se você tirar a partícula e a frase continua gramaticalmente correta, ela é modal: só existe para dar cor emocional.</small></p>"
+    },
+    {
+      "emoji": "🐈",
+      "title": "🐈 Idiomatismos flamengos essenciais (parte 1)",
+      "html": "<p>Expressões fixas cujo sentido não sai da soma das palavras. Decore o pacote inteiro, nunca traduza palavra por palavra. 🚫</p><ul><li><b>de kat uit de boom kijken</b> = esperar para ver como as coisas se desenrolam antes de agir (lit. \"olhar o gato saindo da árvore\")</li><li><b>door de bomen het bos niet meer zien</b> = perder a visão do todo em meio a muitos detalhes (\"não ver a floresta pelas árvores\")</li><li><b>met de deur in huis vallen</b> = ir direto ao ponto, sem rodeios (\"cair com a porta dentro de casa\")</li><li><b>boter bij de vis</b> = pagamento imediato, sem fiado (\"manteiga junto com o peixe\")</li><li><b>iets in de wind slaan</b> = ignorar um conselho ou aviso (\"jogar algo ao vento\")</li></ul>"
+    },
+    {
+      "emoji": "🎭",
+      "title": "🎭 Idiomatismos flamengos essenciais (parte 2)",
+      "html": "<p>Mais expressões de alto registro, comuns em jornal, debate e conversa culta. 📰</p><ul><li><b>tussen droom en daad staan wetten in de weg</b> = entre o sonho e a realização, a burocracia (as leis) atrapalha (verso famoso de Willem Elsschot)</li><li><b>iemand een rad voor de ogen draaien</b> = enganar alguém, passar a perna (\"girar uma roda diante dos olhos de alguém\")</li><li><b>de druppel die de emmer doet overlopen</b> = a gota d'água (\"a gota que faz o balde transbordar\")</li><li><b>iets met een korreltje zout nemen</b> = não levar algo ao pé da letra (\"pegar com um grão de sal\")</li><li><b>de handdoek in de ring gooien</b> = desistir, jogar a toalha</li><li><b>een appeltje voor de dorst bewaren</b> = guardar uma reserva para tempos difíceis (\"guardar uma maçãzinha para a sede\")</li></ul><p><small>🎓 No C2, o objetivo não é decorar 50 idiomatismos, mas reconhecer o PADRÃO: imagem concreta → sentido abstrato fixo.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Laten","r":"verb"},{"t":"we","r":"pron"},{"t":"nog","r":"adv"},{"t":"even","r":"part"},{"t":"de","r":"art"},{"t":"kat","r":"noun"},{"t":"uit","r":"prep"},{"t":"de","r":"art"},{"t":"boom","r":"noun"},{"t":"kijken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Vamos","r":"verb"},{"t":"ainda","r":"adv"},{"t":"esperar","r":"verb"},{"t":"um","r":"art"},{"t":"pouco","r":"adv"},{"t":"para","r":"prep"},{"t":"ver","r":"verb"},{"t":"como","r":"conj"},{"t":"as","r":"art"},{"t":"coisas","r":"noun"},{"t":"vão","r":"verb"},{"t":"se","r":"pron"},{"t":"desenrolar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "vamos nós ainda rapidinho o gato de fora a árvore olhar",
+      "note": "Idiomatismo fixo: de kat uit de boom kijken = esperar prudentemente antes de agir. Even aqui é partícula modal, suaviza o pedido."
+    },
+    {
+      "nl": [{"t":"Sorry","r":"x"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"door","r":"prep"},{"t":"al","r":"pron"},{"t":"die","r":"pron"},{"t":"regels","r":"noun"},{"t":"zie","r":"verb"},{"t":"ik","r":"pron"},{"t":"door","r":"prep"},{"t":"de","r":"art"},{"t":"bomen","r":"noun"},{"t":"het","r":"art"},{"t":"bos","r":"noun"},{"t":"niet","r":"neg"},{"t":"meer","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Desculpa","r":"x"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"com","r":"prep"},{"t":"todas","r":"pron"},{"t":"essas","r":"pron"},{"t":"regras","r":"noun"},{"t":"eu","r":"pron"},{"t":"não","r":"neg"},{"t":"vejo","r":"verb"},{"t":"mais","r":"adv"},{"t":"a","r":"art"},{"t":"floresta","r":"noun"},{"t":"pelas","r":"prep"},{"t":"árvores","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Door de bomen het bos niet meer zien = perder a visão do todo em meio a detalhes. Idêntico em português: 'não ver a floresta pelas árvores'. Atenção à ordem: em neerlandês, 'bomen' (detalhes) vem antes de 'bos' (o todo)."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"val","r":"verb"},{"t":"meteen","r":"adv"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"deur","r":"noun"},{"t":"in","r":"prep"},{"t":"huis","r":"noun"},{"t":":","r":"punc"},{"t":"we","r":"pron"},{"t":"moeten","r":"verb"},{"t":"besparen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Vou","r":"verb"},{"t":"direto","r":"adv"},{"t":"ao","r":"prep"},{"t":"ponto","r":"noun"},{"t":":","r":"punc"},{"t":"precisamos","r":"verb"},{"t":"economizar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "eu caio logo com a porta em casa: nós devemos economizar",
+      "note": "Met de deur in huis vallen = ir direto ao assunto, sem rodeios. Muito usado para abrir reuniões difíceis."
+    },
+    {
+      "nl": [{"t":"Prima","r":"adj"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"dan","r":"adv"},{"t":"wil","r":"verb"},{"t":"ik","r":"pron"},{"t":"wel","r":"part"},{"t":"boter","r":"noun"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"vis","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ótimo","r":"adj"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"aí","r":"adv"},{"t":"eu","r":"pron"},{"t":"quero","r":"verb"},{"t":"o","r":"art"},{"t":"pagamento","r":"noun"},{"t":"na","r":"prep"},{"t":"hora","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ótimo, mas então quero eu de fato manteiga junto o peixe",
+      "note": "Boter bij de vis = pagar na hora, sem fiado. Wel aqui é partícula modal de reforço, não o advérbio 'bem'."
+    },
+    {
+      "nl": [{"t":"Hij","r":"pron"},{"t":"heeft","r":"verb"},{"t":"al","r":"adv"},{"t":"onze","r":"pron"},{"t":"waarschuwingen","r":"noun"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"wind","r":"noun"},{"t":"geslagen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ele","r":"pron"},{"t":"ignorou","r":"verb"},{"t":"todos","r":"pron"},{"t":"os","r":"art"},{"t":"nossos","r":"pron"},{"t":"avisos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ele tem já nossos avisos no vento golpeado",
+      "note": "Iets in de wind slaan = ignorar um conselho ou aviso. Particípio geslagen fecha a oração (pinça verbal)."
+    },
+    {
+      "nl": [{"t":"Tussen","r":"prep"},{"t":"droom","r":"noun"},{"t":"en","r":"conj"},{"t":"daad","r":"noun"},{"t":"staan","r":"verb"},{"t":"wetten","r":"noun"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"weg","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Entre","r":"prep"},{"t":"o","r":"art"},{"t":"sonho","r":"noun"},{"t":"e","r":"conj"},{"t":"a","r":"art"},{"t":"realização","r":"noun"},{"t":"a","r":"art"},{"t":"burocracia","r":"noun"},{"t":"atrapalha","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "entre sonho e feito ficam leis no caminho",
+      "note": "Verso célebre de Willem Elsschot, virou expressão fixa: a lei/burocracia entre a intenção e a ação. Nível C2 de referência cultural."
+    },
+    {
+      "nl": [{"t":"Pas","r":"adv"},{"t":"op","r":"part"},{"t":",","r":"punc"},{"t":"hij","r":"pron"},{"t":"probeert","r":"verb"},{"t":"je","r":"pron"},{"t":"een","r":"art"},{"t":"rad","r":"noun"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"ogen","r":"noun"},{"t":"te","r":"x"},{"t":"draaien","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Cuidado","r":"adv"},{"t":",","r":"punc"},{"t":"ele","r":"pron"},{"t":"está","r":"verb"},{"t":"tentando","r":"verb"},{"t":"te","r":"pron"},{"t":"enganar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "cuidado, ele tenta a ti uma roda diante dos olhos girar",
+      "note": "Iemand een rad voor de ogen draaien = enganar, passar a perna. Construção com te + infinitivo (probeert te draaien)."
+    },
+    {
+      "nl": [{"t":"Die","r":"pron"},{"t":"opmerking","r":"noun"},{"t":"was","r":"verb"},{"t":"echt","r":"adv"},{"t":"de","r":"art"},{"t":"druppel","r":"noun"},{"t":"die","r":"pron"},{"t":"de","r":"art"},{"t":"emmer","r":"noun"},{"t":"deed","r":"verb"},{"t":"overlopen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Aquele","r":"pron"},{"t":"comentário","r":"noun"},{"t":"foi","r":"verb"},{"t":"realmente","r":"adv"},{"t":"a","r":"art"},{"t":"gota","r":"noun"},{"t":"que","r":"pron"},{"t":"fez","r":"verb"},{"t":"o","r":"art"},{"t":"balde","r":"noun"},{"t":"transbordar","r":"verb"},{"t":".","r":"punc"}],
+      "note": "De druppel die de emmer doet overlopen = a gota d'água. Imagem idêntica em português: o mesmo conceito, a mesma metáfora."
+    },
+    {
+      "nl": [{"t":"Neem","r":"verb"},{"t":"dat","r":"pron"},{"t":"nieuwsbericht","r":"noun"},{"t":"maar","r":"part"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"korreltje","r":"noun"},{"t":"zout","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"leve","r":"verb"},{"t":"aquela","r":"pron"},{"t":"notícia","r":"noun"},{"t":"tão","r":"adv"},{"t":"ao","r":"prep"},{"t":"pé","r":"noun"},{"t":"da","r":"prep"},{"t":"letra","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "toma essa notícia à vontade com um granito de sal",
+      "note": "Iets met een korreltje zout nemen = não levar ao pé da letra. Maar aqui é partícula modal (à vontade), não a conjunção 'mas'."
+    },
+    {
+      "nl": [{"t":"Na","r":"prep"},{"t":"drie","r":"num"},{"t":"nederlagen","r":"noun"},{"t":"heeft","r":"verb"},{"t":"de","r":"art"},{"t":"trainer","r":"noun"},{"t":"de","r":"art"},{"t":"handdoek","r":"noun"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"ring","r":"noun"},{"t":"gegooid","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Depois","r":"prep"},{"t":"de","r":"prep"},{"t":"três","r":"num"},{"t":"derrotas","r":"noun"},{"t":"o","r":"art"},{"t":"treinador","r":"noun"},{"t":"jogou","r":"verb"},{"t":"a","r":"art"},{"t":"toalha","r":"noun"},{"t":".","r":"punc"}],
+      "note": "De handdoek in de ring gooien = desistir. Metáfora do boxe, presente também em português."
+    },
+    {
+      "nl": [{"t":"Bewaar","r":"verb"},{"t":"altijd","r":"adv"},{"t":"een","r":"art"},{"t":"appeltje","r":"noun"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"dorst","r":"noun"},{"t":",","r":"punc"},{"t":"hoor","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sempre","r":"adv"},{"t":"guarde","r":"verb"},{"t":"uma","r":"art"},{"t":"reserva","r":"noun"},{"t":"para","r":"prep"},{"t":"tempos","r":"noun"},{"t":"difíceis","r":"adj"},{"t":",","r":"punc"},{"t":"viu","r":"part"},{"t":".","r":"punc"}],
+      "lit": "guarda sempre uma maçãzinha para a sede, viu",
+      "note": "Een appeltje voor de dorst bewaren = poupar para tempos difíceis. Hoor no fim tranquiliza/reforça o conselho, sem mudar o sentido literal."
+    },
+    {
+      "nl": [{"t":"Je","r":"pron"},{"t":"bent","r":"verb"},{"t":"toch","r":"part"},{"t":"niet","r":"neg"},{"t":"boos","r":"adj"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"bravo","r":"adj"},{"t":",","r":"punc"},{"t":"está","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "tu és contudo não bravo?",
+      "note": "Toch marca incredulidade/confirmação esperada. Sem ele a pergunta seria neutra; com ele soa quase de surpresa."
+    }
+  ],
+  "vocab": [
+    { "nl": "wel", "art": null, "pt": "partícula modal: reforça/concede (traduz-se pelo tom, não por palavra fixa)", "emoji": "✅" },
+    { "nl": "toch", "art": null, "pt": "partícula modal: contradição, insistência, confirmação esperada", "emoji": "🤨" },
+    { "nl": "maar", "art": null, "pt": "partícula modal: à vontade, sem medo (não confundir com a conjunção 'mas')", "emoji": "🙌" },
+    { "nl": "even", "art": null, "pt": "partícula modal: suaviza o pedido, 'rapidinho'", "emoji": "⏱️" },
+    { "nl": "eens", "art": null, "pt": "partícula modal: chama atenção com leveza, 'olha só'", "emoji": "👀" },
+    { "nl": "nou", "art": null, "pt": "partícula modal: hesitação ou ênfase no início da frase", "emoji": "🤔" },
+    { "nl": "hoor", "art": null, "pt": "partícula modal: tranquiliza ou reforça no fim da frase", "emoji": "😌" },
+    { "nl": "de kat uit de boom kijken", "art": "de", "split": "kat (gato) + boom (árvore) + kijken (olhar)", "pt": "esperar prudentemente antes de agir", "emoji": "🐈" },
+    { "nl": "door de bomen het bos niet meer zien", "art": "het", "split": "bomen (árvores) + bos (floresta) + zien (ver)", "pt": "perder a visão do todo em meio a detalhes", "emoji": "🌳" },
+    { "nl": "met de deur in huis vallen", "art": null, "split": "deur (porta) + huis (casa) + vallen (cair)", "pt": "ir direto ao ponto, sem rodeios", "emoji": "🚪" },
+    { "nl": "boter bij de vis", "art": null, "split": "boter (manteiga) + vis (peixe)", "pt": "pagamento imediato, sem fiado", "emoji": "🧈" },
+    { "nl": "iets in de wind slaan", "art": null, "split": "wind (vento) + slaan (bater, jogar)", "pt": "ignorar um conselho ou aviso", "emoji": "💨" },
+    { "nl": "tussen droom en daad staan wetten in de weg", "art": null, "split": "droom (sonho) + daad (feito) + wetten (leis) + weg (caminho)", "pt": "entre o sonho e a realização, a burocracia atrapalha", "emoji": "⚖️" },
+    { "nl": "iemand een rad voor de ogen draaien", "art": null, "split": "rad (roda) + ogen (olhos) + draaien (girar)", "pt": "enganar alguém, passar a perna", "emoji": "🎡" },
+    { "nl": "de druppel die de emmer doet overlopen", "art": "de", "split": "druppel (gota) + emmer (balde) + overlopen (transbordar)", "pt": "a gota d'água", "emoji": "💧" },
+    { "nl": "iets met een korreltje zout nemen", "art": null, "split": "korreltje (granito) + zout (sal)", "pt": "não levar algo ao pé da letra", "emoji": "🧂" },
+    { "nl": "de handdoek in de ring gooien", "art": "de", "split": "handdoek (toalha) + ring (ringue) + gooien (jogar)", "pt": "desistir, jogar a toalha", "emoji": "🥊" },
+    { "nl": "een appeltje voor de dorst bewaren", "art": null, "split": "appeltje (maçãzinha) + dorst (sede) + bewaren (guardar)", "pt": "guardar uma reserva para tempos difíceis", "emoji": "🍎" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que fazem as partículas modais (wel, toch, even, hoor...) numa frase neerlandesa? 🎭",
+      "options": ["Mudam o tempo verbal", "Mudam o tom/emoção sem mudar o sentido literal", "São sempre obrigatórias na gramática formal", "Substituem o verbo principal"],
+      "answer": 1,
+      "explain": "Partículas modais coloram o tom (insistência, simpatia, hesitação) sem alterar o significado factual da frase. Se você as remove, a frase continua correta, só perde o tempero."
+    },
+    {
+      "type": "mc",
+      "q": "Em 'Je bent toch niet boos?', o que a partícula toch sinaliza? 🤨",
+      "options": ["Uma ordem direta", "Incredulidade/confirmação esperada", "Passado distante", "Um pedido formal"],
+      "answer": 1,
+      "explain": "Toch aqui soa como 'você não está bravo, está?', quase incrédulo, esperando confirmação de que tudo está bem."
+    },
+    {
+      "type": "mc",
+      "q": "Qual partícula tranquiliza o ouvinte no FIM da frase, tipo 'viu' em português? 😌",
+      "options": ["nou", "even", "hoor", "wel"],
+      "answer": 2,
+      "explain": "Hoor aparece tipicamente no final e reforça/tranquiliza: 'Het is niet erg, hoor' = não tem problema, viu."
+    },
+    {
+      "type": "listen",
+      "nl": "Laten we nog even de kat uit de boom kijken.",
+      "options": ["Vamos esperar um pouco para ver como as coisas se desenrolam", "Vamos brincar com o gato agora", "Vamos subir na árvore juntos", "Vamos decidir tudo imediatamente"],
+      "answer": 0,
+      "explain": "De kat uit de boom kijken é um idiomatismo fixo: observar com cautela antes de agir, esperar o desenrolar da situação."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik val meteen met de deur in huis: we moeten besparen.",
+      "options": ["Vou direto ao ponto: precisamos economizar", "Vou fechar a porta de casa agora", "Estou entrando em casa correndo", "Preciso consertar a porta"],
+      "answer": 0,
+      "explain": "Met de deur in huis vallen = ir direto ao assunto, sem rodeios. Muito comum para abrir uma conversa difícil sem enrolação."
+    },
+    {
+      "type": "listen",
+      "nl": "Neem dat nieuwsbericht maar met een korreltje zout.",
+      "options": ["Não leve aquela notícia tão ao pé da letra", "Aquela notícia é totalmente verdadeira", "Tempere a comida com sal", "Ignore completamente a notícia"],
+      "answer": 0,
+      "explain": "Met een korreltje zout nemen = não levar ao pé da letra, manter certa desconfiança saudável. Maar aqui é partícula modal, não 'mas'."
+    },
+    {
+      "type": "fill",
+      "before": "Prima, maar dan wil ik wel boter bij de",
+      "after": ".",
+      "answer": "vis",
+      "alt": [],
+      "hint": "peixe",
+      "explain": "Boter bij de vis = pagamento imediato, sem fiado. A expressão completa é fixa: manteiga junto com o peixe."
+    },
+    {
+      "type": "fill",
+      "before": "Na drie nederlagen heeft de trainer de handdoek in de",
+      "after": "gegooid.",
+      "answer": "ring",
+      "alt": [],
+      "hint": "ringue (de boxe)",
+      "explain": "De handdoek in de ring gooien = desistir. Metáfora do boxe, igual em português ('jogar a toalha')."
+    },
+    {
+      "type": "fill",
+      "before": "Hij probeert je een rad voor de",
+      "after": "te draaien.",
+      "answer": "ogen",
+      "alt": [],
+      "hint": "olhos",
+      "explain": "Iemand een rad voor de ogen draaien = enganar alguém. A expressão é fixa: 'rad voor de ogen' não admite variação."
+    },
+    {
+      "type": "order",
+      "pt": "Ele ignorou todos os nossos avisos.",
+      "tokens": ["Hij", "heeft", "al", "onze", "waarschuwingen", "in", "de", "wind", "geslagen"],
+      "answer": "Hij heeft al onze waarschuwingen in de wind geslagen",
+      "explain": "Iets in de wind slaan = ignorar um conselho. O particípio geslagen fecha a oração no perfectum (pinça verbal)."
+    },
+    {
+      "type": "order",
+      "pt": "Aquele comentário foi realmente a gota d'água.",
+      "tokens": ["Die", "opmerking", "was", "echt", "de", "druppel", "die", "de", "emmer", "deed", "overlopen"],
+      "answer": "Die opmerking was echt de druppel die de emmer deed overlopen",
+      "explain": "De druppel die de emmer doet overlopen = a gota d'água. Imagem e uso idênticos em português."
+    },
+    {
+      "type": "match",
+      "pairs": [["de kat uit de boom kijken", "esperar antes de agir"], ["boter bij de vis", "pagamento imediato"], ["iets in de wind slaan", "ignorar um aviso"], ["de handdoek in de ring gooien", "desistir"], ["een appeltje voor de dorst bewaren", "guardar uma reserva"], ["iemand een rad voor de ogen draaien", "enganar alguém"]],
+      "explain": "Idiomatismos são pacotes fixos: a imagem concreta (gato, manteiga, toalha) sempre mapeia para o mesmo sentido abstrato. Nunca traduza palavra por palavra."
+    },
+    {
+      "type": "mc",
+      "q": "Qual verso de Willem Elsschot virou expressão fixa sobre burocracia? ⚖️",
+      "options": ["Boter bij de vis", "Tussen droom en daad staan wetten in de weg", "De druppel die de emmer doet overlopen", "Door de bomen het bos niet meer zien"],
+      "answer": 1,
+      "explain": "Tussen droom en daad staan wetten in de weg (entre o sonho e a realização, a burocracia atrapalha) é um verso célebre do escritor flamengo Willem Elsschot, hoje usado como expressão idiomática."
+    },
+    {
+      "type": "mc",
+      "q": "'Kom maar binnen' (com a partícula maar) soa como... 🙌",
+      "options": ["Uma ordem seca e formal", "Um convite tranquilizador, 'pode entrar sem cerimônia'", "Uma proibição de entrar", "Uma pergunta hesitante"],
+      "answer": 1,
+      "explain": "Maar como partícula modal (não como conjunção 'mas') suaviza e tranquiliza: entre à vontade, sem se preocupar com formalidade."
+    }
+  ]
+}

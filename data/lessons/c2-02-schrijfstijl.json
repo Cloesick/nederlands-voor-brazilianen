@@ -1,0 +1,217 @@
+{
+  "id": "c2-02-schrijfstijl",
+  "unit": "C2",
+  "title": "O neerlandês escrito e retórico · Schrijfstijl",
+  "emoji": "🖋️",
+  "teaching": [
+    {
+      "emoji": "📦",
+      "title": "📦 Nominalização: quando o verbo vira caixa",
+      "html": "<p>O neerlandês escrito formal adora transformar verbos em substantivos: em vez de dizer que <i>alguém pede algo</i>, escreve-se <b>\"het aanvragen van\"</b> (o pedir de). É mais denso, mais impessoal, mais \"documento oficial\". No português formal existe o mesmo truque: \"a solicitação\" em vez de \"pedir\". 🧠</p><table class=\"vocab\"><tr><th>fala natural</th><th>escrita formal (nominalização)</th><th>português</th></tr><tr><td>Je moet een visum aanvragen.</td><td><b>Het aanvragen van</b> een visum is verplicht.</td><td>a solicitação de um visto</td></tr><tr><td>Het feit dat hij te laat kwam...</td><td><b>Het feit dat</b> hij te laat kwam, stoorde niemand.</td><td>o fato de que</td></tr><tr><td>We besluiten dit.</td><td><b>Het besluiten</b> hiervan duurt lang.</td><td>a decisão disso</td></tr></table><p><small>⚠️ Regra: het + infinitivo + van = 'o [verbo]-ar de'. Muito comum em formulários, leis e editoriais.</small></p>"
+    },
+    {
+      "emoji": "🔗",
+      "title": "🔗 Conectores acadêmicos e jornalísticos",
+      "html": "<p>Para escrever como um artigo de opinião ou um relatório, o neerlandês padrão exige conectores formais que substituem o \"maar\" e o \"dus\" da fala cotidiana. Eles marcam a arquitetura lógica do texto. 🏛️</p><ul><li><b>echter</b> = no entanto (mais formal que 'maar', vem geralmente na 2ª posição da oração)</li><li><b>desalniettemin</b> = não obstante, apesar disso (bem formal, tom de ensaio)</li><li><b>daarentegen</b> = por outro lado, em contrapartida</li><li><b>bijgevolg</b> = consequentemente, por conseguinte</li><li><b>enerzijds... anderzijds...</b> = por um lado... por outro lado...</li></ul><p><small>💡 Truque de reconhecimento: esses conectores quase sempre disparam inversão V2: o verbo vem logo depois deles quando abrem a frase: <i>\"Echter, blijft het probleem bestaan.\"</i></small></p>"
+    },
+    {
+      "emoji": "👻",
+      "title": "👻 A voz passiva impessoal: er wordt gezegd dat...",
+      "html": "<p>Jornais e textos oficiais escondem o sujeito com <b>er wordt + particípio + dat</b>: \"diz-se que\", sem dizer quem diz. É a versão neerlandesa do português \"foi decidido que\" ou \"consta que\". 🗞️</p><ul><li><b>Er wordt gezegd dat...</b> = diz-se que...</li><li><b>Er wordt verwacht dat...</b> = espera-se que...</li><li><b>Er wordt beweerd dat...</b> = alega-se que...</li><li>Discurso indireto avançado: <i>\"De minister zei dat de maatregelen zouden worden ingevoerd.\"</i> (o ministro disse que as medidas seriam introduzidas), note o zouden + infinitivo no lugar do futuro direto.</li></ul>"
+    },
+    {
+      "emoji": "📰",
+      "title": "📰 Desmontando uma frase de jornal (De Standaard)",
+      "html": "<p>Frases jornalísticas empilham orações subordinadas e nominalizações. Vamos desmontar uma frase real de estilo De Standaard: 📖</p><p><i>\"Hoewel de regering desalniettemin volhoudt dat het aanvragen van een vergunning binnen dertig dagen afgehandeld wordt, blijkt uit cijfers dat dit in de praktijk vaak niet het geval is.\"</i></p><ul><li><b>Hoewel...</b> = embora... (oração subordinada concessiva, abre a frase)</li><li><b>desalniettemin volhoudt</b> = mesmo assim insiste (conector + verbo)</li><li><b>het aanvragen van een vergunning</b> = a solicitação de uma licença (nominalização, sujeito da subordinada)</li><li><b>afgehandeld wordt</b> = é processado (passiva impessoal)</li><li><b>blijkt uit cijfers dat...</b> = fica claro pelos números que... (oração principal, vem depois da vírgula por causa do Hoewel inicial)</li></ul><p><small>🎯 Tradução: \"Embora o governo insista, mesmo assim, que a solicitação de uma licença seja processada em até trinta dias, os números mostram que na prática isso frequentemente não é o caso.\"</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"aanvragen","r":"noun"},{"t":"van","r":"prep"},{"t":"een","r":"art"},{"t":"visum","r":"noun"},{"t":"is","r":"verb"},{"t":"verplicht","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"solicitação","r":"noun"},{"t":"de","r":"prep"},{"t":"um","r":"art"},{"t":"visto","r":"noun"},{"t":"é","r":"verb"},{"t":"obrigatória","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "o solicitar de um visto é obrigatório",
+      "note": "Nominalização: het + infinitivo (aanvragen) + van funciona como sujeito da frase, igual à solicitação em português formal."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"feit","r":"noun"},{"t":"dat","r":"conj"},{"t":"hij","r":"pron"},{"t":"te","r":"adv"},{"t":"laat","r":"adv"},{"t":"kwam",
+      "r":"verb"},{"t":",","r":"punc"},{"t":"stoorde","r":"verb"},{"t":"niemand","r":"pron"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"fato","r":"noun"},{"t":"de","r":"prep"},{"t":"que","r":"conj"},{"t":"ele","r":"pron"},{"t":"chegou","r":"verb"},{"t":"atrasado","r":"adv"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"incomodou","r":"verb"},{"t":"ninguém","r":"pron"},{"t":".","r":"punc"}],
+      "note": "Het feit dat = o fato de que, introduz oração subordinada como sujeito. Estrutura idêntica nas duas línguas."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"cijfers","r":"noun"},{"t":"zijn","r":"verb"},{"t":"positief","r":"adj"},{"t":";","r":"punc"},{"t":"de","r":"art"},{"t":"stemming","r":"noun"},{"t":"is","r":"verb"},{"t":"echter","r":"adv"},{"t":"somber","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"números","r":"noun"},{"t":"são","r":"verb"},{"t":"positivos","r":"adj"},{"t":";","r":"punc"},{"t":"o","r":"art"},{"t":"clima","r":"noun"},{"t":"no","r":"prep"},{"t":"entanto","r":"noun"},{"t":"é","r":"verb"},{"t":"sombrio","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "os números são positivos; o clima é no-entanto sombrio",
+      "note": "Echter (no entanto) tipicamente vem depois do sujeito, na 2ª ou 3ª posição, não no início como o 'maar' informal."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"prijzen","r":"noun"},{"t":"stijgen","r":"verb"},{"t":"al","r":"adv"},{"t":"jaren",
+      "r":"noun"},{"t":";","r":"punc"},{"t":"desalniettemin","r":"adv"},{"t":"blijft","r":"verb"},{"t":"de","r":"art"},{"t":"vraag","r":"noun"},{"t":"groot","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"preços","r":"noun"},{"t":"sobem","r":"verb"},{"t":"há","r":"verb"},{"t":"anos","r":"noun"},{"t":";","r":"punc"},{"t":"não","r":"neg"},{"t":"obstante","r":"adv"},{"t":",","r":"punc"},{"t":"a","r":"art"},{"t":"demanda","r":"noun"},{"t":"continua","r":"verb"},{"t":"grande","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Desalniettemin dispara inversão V2: o verbo blijft vem logo depois, antes do sujeito de vraag. Tom de ensaio, quase literário."
+    },
+    {
+      "nl": [{"t":"Enerzijds","r":"adv"},{"t":"wil","r":"verb"},{"t":"ze","r":"pron"},{"t":"verhuizen",
+      "r":"verb"},{"t":",","r":"punc"},{"t":"anderzijds","r":"adv"},{"t":"houdt","r":"verb"},{"t":"ze","r":"pron"},{"t":"van","r":"prep"},{"t":"deze","r":"pron"},{"t":"buurt","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"um","r":"art"},{"t":"lado","r":"noun"},{"t":"ela","r":"pron"},{"t":"quer","r":"verb"},{"t":"se","r":"pron"},{"t":"mudar","r":"verb"},{"t":",","r":"punc"},{"t":"por","r":"prep"},{"t":"outro","r":"noun"},{"t":"ela","r":"pron"},{"t":"gosta","r":"verb"},{"t":"deste","r":"prep"},{"t":"bairro","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "por um lado quer ela mudar-se, por outro lado gosta ela deste bairro",
+      "note": "Enerzijds/anderzijds espelha 'por um lado / por outro lado' exatamente, cada metade abrindo com inversão V2."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"export","r":"noun"},{"t":"daalt","r":"verb"},{"t":";","r":"punc"},{"t":"bijgevolg","r":"adv"},{"t":"verliezen","r":"verb"},{"t":"veel","r":"pron"},{"t":"bedrijven","r":"noun"},{"t":"winst","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"exportação","r":"noun"},{"t":"cai","r":"verb"},{"t":";","r":"punc"},{"t":"consequentemente","r":"adv"},{"t":",","r":"punc"},{"t":"muitas","r":"pron"},{"t":"empresas","r":"noun"},{"t":"perdem","r":"verb"},{"t":"lucro","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Bijgevolg = consequentemente, marca a relação causa-efeito num texto formal. Também dispara V2: verliezen antes do sujeito."
+    },
+    {
+      "nl": [{"t":"Er","r":"pron"},{"t":"wordt","r":"verb"},{"t":"gezegd","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"regering","r":"noun"},{"t":"binnenkort","r":"adv"},{"t":"aftreedt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Diz-se","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"governo","r":"noun"},{"t":"vai","r":"verb"},{"t":"renunciar","r":"verb"},{"t":"em","r":"prep"},{"t":"breve","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "aí é dito que o governo em breve renuncia",
+      "note": "Er wordt gezegd dat = voz passiva impessoal, esconde o sujeito (quem diz). Equivale ao 'diz-se que' português."
+    },
+    {
+      "nl": [{"t":"Er","r":"pron"},{"t":"wordt","r":"verb"},{"t":"verwacht","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"inflatie","r":"noun"},{"t":"daalt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Espera-se","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"inflação","r":"noun"},{"t":"caia","r":"verb"},{"t":".","r":"punc"}],
+      "note": "Er wordt verwacht dat = espera-se que. Mesmo padrão impessoal, comum em relatórios econômicos."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"minister","r":"noun"},{"t":"zei","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"maatregelen","r":"noun"},{"t":"zouden","r":"verb"},{"t":"worden","r":"verb"},{"t":"ingevoerd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"ministro","r":"noun"},{"t":"disse","r":"verb"},{"t":"que","r":"conj"},{"t":"as","r":"art"},{"t":"medidas","r":"noun"},{"t":"seriam","r":"verb"},{"t":"introduzidas","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "o ministro disse que as medidas iriam ser introduzidas",
+      "note": "Discurso indireto no futuro do passado: zouden + infinitivo (worden ingevoerd) equivale ao futuro do pretérito passivo em português."
+    },
+    {
+      "nl": [{"t":"Hoewel","r":"conj"},{"t":"de","r":"art"},{"t":"regering","r":"noun"},{"t":"volhoudt","r":"verb"},{"t":"dat","r":"conj"},{"t":"alles","r":"pron"},{"t":"onder","r":"prep"},{"t":"controle","r":"noun"},{"t":"is","r":"verb"},{"t":",","r":"punc"},{"t":"blijkt","r":"verb"},{"t":"uit","r":"prep"},{"t":"cijfers","r":"noun"},{"t":"het","r":"pron"},{"t":"tegendeel","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Embora","r":"conj"},{"t":"o","r":"art"},{"t":"governo","r":"noun"},{"t":"insista","r":"verb"},{"t":"que","r":"conj"},{"t":"tudo","r":"pron"},{"t":"esteja","r":"verb"},{"t":"sob","r":"prep"},{"t":"controle","r":"noun"},{"t":",","r":"punc"},{"t":"os","r":"art"},{"t":"números","r":"noun"},{"t":"mostram","r":"verb"},{"t":"o","r":"art"},{"t":"contrário","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Hoewel abre oração concessiva; a oração principal (blijkt...) vem depois da vírgula com inversão V2 obrigatória."
+    },
+    {
+      "nl": [{"t":"Daarentegen","r":"adv"},{"t":"tonen","r":"verb"},{"t":"andere","r":"pron"},{"t":"studies","r":"noun"},{"t":"een","r":"art"},{"t":"heel","r":"adv"},{"t":"ander","r":"adj"},{"t":"beeld","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"outro","r":"noun"},{"t":"lado","r":"noun"},{"t":",","r":"punc"},{"t":"outros","r":"pron"},{"t":"estudos","r":"noun"},{"t":"mostram","r":"verb"},{"t":"um","r":"art"},{"t":"quadro","r":"noun"},{"t":"bem","r":"adv"},{"t":"diferente","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Daarentegen = por outro lado, em contrapartida. Diferente de anderzijds: daarentegen contrasta duas ideias já apresentadas separadamente."
+    }
+  ],
+  "vocab": [
+    { "nl": "het aanvragen van", "art": "het", "split": "aan (prefixo) + vragen (pedir) + van (de)", "pt": "a solicitação de (nominalização formal)", "emoji": "📝" },
+    { "nl": "het feit dat", "art": "het", "split": "feit (fato) + dat (que)", "pt": "o fato de que", "emoji": "📌" },
+    { "nl": "echter", "art": null, "pt": "no entanto (formal, vem em 2ª/3ª posição)", "emoji": "🔄" },
+    { "nl": "desalniettemin", "art": null, "split": "des (disso) + al (tudo) + niet (não) + temin (menos)", "pt": "não obstante, apesar disso (bem formal)", "emoji": "🎓" },
+    { "nl": "daarentegen", "art": null, "split": "daar (lá/nisso) + en (e) + tegen (contra)", "pt": "por outro lado, em contrapartida", "emoji": "⚖️" },
+    { "nl": "bijgevolg", "art": null, "split": "bij (junto) + gevolg (consequência)", "pt": "consequentemente, por conseguinte", "emoji": "➡️" },
+    { "nl": "enerzijds", "art": null, "split": "ener (de um) + zijds (lado)", "pt": "por um lado", "emoji": "👈" },
+    { "nl": "anderzijds", "art": null, "split": "ander (outro) + zijds (lado)", "pt": "por outro lado", "emoji": "👉" },
+    { "nl": "er wordt gezegd dat", "art": null, "split": "er (aí) + wordt (é) + gezegd (dito) + dat (que)", "pt": "diz-se que (passiva impessoal)", "emoji": "🗞️" },
+    { "nl": "er wordt verwacht dat", "art": null, "split": "verwacht (esperado)", "pt": "espera-se que", "emoji": "🔮" },
+    { "nl": "er wordt beweerd dat", "art": null, "split": "beweerd (alegado)", "pt": "alega-se que", "emoji": "🗣️" },
+    { "nl": "de vergunning", "art": "de", "split": "ver (raiz) + gunning (concessão)", "pt": "a licença, a autorização", "emoji": "📋" },
+    { "nl": "afgehandeld worden", "art": null, "split": "af (concluído) + gehandeld (tratado) + worden (ser)", "pt": "ser processado, ser concluído", "emoji": "✅" },
+    { "nl": "blijken uit", "art": null, "split": "blijken (revelar-se) + uit (a partir de)", "pt": "ficar claro a partir de, revelar-se por", "emoji": "📊" },
+    { "nl": "de maatregel", "art": "de", "split": "maat (medida) + regel (regra)", "pt": "a medida (política/administrativa)", "emoji": "📐" },
+    { "nl": "volhouden", "art": null, "split": "vol (completamente) + houden (manter, segurar)", "pt": "insistir, manter a posição", "emoji": "💪" },
+    { "nl": "hoewel", "art": null, "split": "hoe (como) + wel (bem/embora)", "pt": "embora, ainda que", "emoji": "🌗" },
+    { "nl": "de stemming", "art": "de", "split": "stemmen (votar/afinar) + ing (sufixo)", "pt": "o clima, o humor geral (também: votação)", "emoji": "🌤️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que é 'het aanvragen van een vergunning' em termos gramaticais? 📦",
+      "options": ["Um verbo no infinitivo simples", "Uma nominalização (verbo virando substantivo formal)", "Uma pergunta indireta", "Um particípio passado"],
+      "answer": 1,
+      "explain": "Het + infinitivo + van é a fórmula da nominalização formal: transforma 'aanvragen' (pedir) em substantivo, equivalente a 'a solicitação de' em português."
+    },
+    {
+      "type": "mc",
+      "q": "Qual conector é o MAIS formal, de tom quase literário? 🎓",
+      "options": ["maar", "echter", "desalniettemin", "dus"],
+      "answer": 2,
+      "explain": "Desalniettemin (não obstante) é o mais formal dos quatro, típico de ensaios e editoriais de peso. Echter já é formal mas mais comum; maar e dus são do registro falado."
+    },
+    {
+      "type": "mc",
+      "q": "'Er wordt gezegd dat...' equivale em português a... 👻",
+      "options": ["Ele disse que...", "Diz-se que... (sem revelar quem)", "Nós dizemos que...", "Foi perguntado se..."],
+      "answer": 1,
+      "explain": "A construção er wordt + particípio + dat é a passiva impessoal neerlandesa: esconde o sujeito, exatamente como 'diz-se que' em português."
+    },
+    {
+      "type": "listen",
+      "nl": "Het feit dat hij te laat kwam, stoorde niemand.",
+      "options": ["O fato de que ele chegou atrasado não incomodou ninguém", "Ele nunca chega atrasado", "Todo mundo ficou incomodado com o atraso", "Ninguém sabia que ele chegaria atrasado"],
+      "answer": 0,
+      "explain": "Het feit dat = o fato de que, introduzindo uma oração subordinada como sujeito da frase principal."
+    },
+    {
+      "type": "listen",
+      "nl": "De cijfers zijn positief; de stemming is echter somber.",
+      "options": ["Os números são positivos; o clima, no entanto, é sombrio", "Os números são negativos e o clima também", "O clima está ótimo por causa dos números", "Os números não têm relação com o clima"],
+      "answer": 0,
+      "explain": "Echter (no entanto) marca contraste formal entre duas afirmações: números bons, mas clima ruim."
+    },
+    {
+      "type": "listen",
+      "nl": "De minister zei dat de maatregelen zouden worden ingevoerd.",
+      "options": ["O ministro disse que as medidas seriam introduzidas", "O ministro cancelou as medidas", "As medidas já foram introduzidas ontem", "O ministro não comentou sobre as medidas"],
+      "answer": 0,
+      "explain": "Zouden + worden + particípio é o futuro do pretérito passivo em discurso indireto: 'seriam introduzidas'."
+    },
+    {
+      "type": "fill",
+      "before": "De export daalt; ",
+      "after": " verliezen veel bedrijven winst.",
+      "answer": "bijgevolg",
+      "alt": [],
+      "hint": "consequentemente",
+      "explain": "Bijgevolg marca relação de causa-efeito num registro formal, e dispara inversão V2 (verliezen antes do sujeito)."
+    },
+    {
+      "type": "fill",
+      "before": "Enerzijds wil ze verhuizen, ",
+      "after": " houdt ze van deze buurt.",
+      "answer": "anderzijds",
+      "alt": [],
+      "hint": "por outro lado",
+      "explain": "Enerzijds... anderzijds... é o par fixo 'por um lado... por outro lado...', cada metade com inversão V2 própria."
+    },
+    {
+      "type": "fill",
+      "before": "Er wordt",
+      "after": " dat de inflatie daalt.",
+      "answer": "verwacht",
+      "alt": [],
+      "hint": "esperado",
+      "explain": "Er wordt verwacht dat = espera-se que, construção passiva impessoal comum em relatórios econômicos."
+    },
+    {
+      "type": "order",
+      "pt": "A solicitação de um visto é obrigatória.",
+      "tokens": ["Het", "aanvragen", "van", "een", "visum", "is", "verplicht"],
+      "answer": "Het aanvragen van een visum is verplicht",
+      "explain": "Nominalização clássica: het + aanvragen (infinitivo) + van + objeto funciona como sujeito de is verplicht."
+    },
+    {
+      "type": "order",
+      "pt": "Por outro lado, outros estudos mostram um quadro bem diferente.",
+      "tokens": ["Daarentegen", "tonen", "andere", "studies", "een", "heel", "ander", "beeld"],
+      "answer": "Daarentegen tonen andere studies een heel ander beeld",
+      "explain": "Daarentegen abre a frase e dispara V2: o verbo tonen vem logo em seguida, antes do sujeito andere studies."
+    },
+    {
+      "type": "match",
+      "pairs": [["echter", "no entanto"], ["desalniettemin", "não obstante"], ["daarentegen", "por outro lado (contraste)"], ["bijgevolg", "consequentemente"], ["enerzijds", "por um lado"], ["hoewel", "embora"]],
+      "explain": "Cada conector marca uma relação lógica específica no texto formal: concessão, contraste, causa-efeito. Confundir um pelo outro soa estranho para um leitor nativo."
+    },
+    {
+      "type": "mc",
+      "q": "Na frase de jornal 'Hoewel de regering desalniettemin volhoudt dat...', qual é a função gramatical de 'Hoewel'? 📰",
+      "options": ["Advérbio de tempo", "Conjunção subordinativa concessiva, abre a oração", "Verbo auxiliar", "Partícula modal"],
+      "answer": 1,
+      "explain": "Hoewel (embora) é conjunção subordinativa: abre uma oração concessiva, empurrando o verbo para o fim dela e provocando inversão V2 na oração principal que segue."
+    },
+    {
+      "type": "mc",
+      "q": "Qual a diferença central entre daarentegen e anderzijds? ⚖️",
+      "options": ["Não há diferença, são sinônimos perfeitos", "Daarentegen contrasta duas ideias já apresentadas; anderzijds forma par com enerzijds", "Anderzijds só se usa na fala", "Daarentegen é informal e anderzijds é formal"],
+      "answer": 1,
+      "explain": "Anderzijds normalmente aparece emparelhado com enerzijds (por um lado / por outro). Daarentegen contrasta uma afirmação já feita, sem precisar do par enerzijds."
+    }
+  ]
+}

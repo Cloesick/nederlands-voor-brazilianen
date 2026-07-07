@@ -238,8 +238,10 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
 
 /* ===== spelletjes: drag-and-drop games ===== */
 .game-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
-.game-tile{display:flex;flex-direction:column;align-items:center;gap:8px;background:#fff;border:3px solid;border-radius:16px;
+.game-tile{position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;background:#fff;border:3px solid;border-radius:16px;
   padding:16px 10px;text-decoration:none;color:var(--ink);font-weight:800;box-shadow:3px 3px 0 rgba(35,32,27,.10);transition:transform .08s}
+.game-lvl{position:absolute;top:-9px;right:-9px;color:#fff;font-size:.68rem;font-weight:800;border-radius:999px;
+  padding:2px 8px;box-shadow:2px 2px 0 rgba(35,32,27,.2)}
 .game-tile:hover{transform:translateY(-3px)}
 .game-em{font-size:1.8rem;width:56px;height:56px;display:flex;align-items:center;justify-content:center;border-radius:50%}
 .game-progress{display:flex;align-items:center;gap:6px;margin-bottom:6px}

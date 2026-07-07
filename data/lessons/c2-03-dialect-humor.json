@@ -1,0 +1,213 @@
+{
+  "id": "c2-03-dialect-humor",
+  "unit": "C2",
+  "title": "Dialetos, ironia e humor flamengo · Dialect en humor",
+  "emoji": "🎭",
+  "teaching": [
+    {
+      "emoji": "🗺️",
+      "title": "🗺️ Um mapinha de sabores dialetais",
+      "html": "<p>A Flandres tem dialetos fortes que sobrevivem ao lado do padrão. Você não precisa falá-los, mas reconhecer algumas palavras te salva de cara feia numa conversa de família. 🧭 No C2, o objetivo é EXPOSIÇÃO: identificar a origem e traduzir para o padrão, nunca produzir o dialeto ativamente.</p><table class=\"vocab\"><tr><th>dialeto</th><th>palavra</th><th>padrão (AN)</th><th>português</th></tr><tr><td>West-Vlaams 🌊</td><td>joeng</td><td>jongen</td><td>rapaz, cara</td></tr><tr><td>West-Vlaams 🌊</td><td>klekke</td><td>vallen</td><td>cair</td></tr><tr><td>Antwerps 🏙️</td><td>toet</td><td>gezicht / mond</td><td>rosto / boca</td></tr><tr><td>Antwerps 🏙️</td><td>zeiver(en)</td><td>onzin (uitkramen)</td><td>bobagem, encher linguiça</td></tr><tr><td>Limburgs ⛰️</td><td>gaw</td><td>snel</td><td>rápido</td></tr><tr><td>Limburgs ⛰️</td><td>sjiek</td><td>chic, leuk</td><td>chique, legal</td></tr></table><p><small>🎯 Regra de ouro: dialeto se ENTENDE, padrão se FALA. Ninguém espera que um estrangeiro imite o Antwerps.</small></p>"
+    },
+    {
+      "emoji": "😏",
+      "title": "😏 Ironia e understatement: o oposto do que parece",
+      "html": "<p>Belgas (e flamengos em particular) adoram dizer o oposto do que sentem, num tom seco, sem sorrir. Se você levar ao pé da letra, perde a piada. 🎯</p><ul><li><b>\"Tja, dat is nu net wat ik nodig had...\"</b> (dito depois de um problema) = \"Ah, era exatamente disso que eu precisava\" → ironia pura, ele NÃO precisava disso</li><li><b>\"Niet slecht, hè.\"</b> = \"Nada mal, né\", dito sobre algo excelente. Understatement: elogio disfarçado de comentário morno.</li><li><b>\"Dat wordt nog leuk...\"</b> (tom sarcástico, sobre uma tarefa chata) = \"Vai ser divertido isso...\" → quer dizer o contrário</li></ul><p><small>🔑 Pista de reconhecimento: tom de voz plano + contexto negativo + palavra positiva = ironia quase certa.</small></p>"
+    },
+    {
+      "emoji": "🥨",
+      "title": "🥨 Humor absurdista à belga",
+      "html": "<p>O humor belga (pense em Kamagurka, Jean-Marie Pfaff nas entrevistas, ou piadas de \"Belg-mop\" que os próprios belgas contam sobre si) gosta do absurdo tranquilo: afirmar algo impossível com cara séria, sem forçar a piada. 🎪</p><ul><li>Autoironia nacional: belgas fazem piada da própria \"burrice\" nacional antes que alguém mais faça (complexo de país pequeno entre França e Holanda)</li><li>O absurdo cotidiano: descrever algo banal com um exagero surreal e tom sério: <i>\"Mijn buurman groet zijn planten elke ochtend. Heel Vlaanderen doet dat, hoor.\"</i> (meu vizinho cumprimenta as plantas toda manhã. A Flandres inteira faz isso, viu.)</li><li>Contraste com o humor holandês: mais direto e provocador; o flamengo prefere o understatement afiado ao escárnio explícito</li></ul>"
+    },
+    {
+      "emoji": "🤝",
+      "title": "🤝 Corrigir com tato: 'met alle respect, maar...'",
+      "html": "<p>Corrigir um nativo (ou qualquer pessoa) exige fórmulas de suavização no neerlandês flamengo: direto demais soa grosseiro. 🙏</p><ul><li><b>\"Met alle respect, maar ik denk dat...\"</b> = \"Com todo respeito, mas acho que...\"</li><li><b>\"Correct me if I'm wrong, maar volgens mij...\"</b> (mistura comum no meio corporativo) = \"Me corrija se eu estiver errado, mas na minha opinião...\"</li><li><b>\"Ik zou het net iets anders zeggen...\"</b> = \"Eu diria de um jeito um pouquinho diferente...\" (correção suave, sem confronto)</li><li>Autodepreciação como abertura: <b>\"Ik ben geen expert, hoor, maar...\"</b> = \"Não sou nenhum especialista, viu, mas...\" (diminui o próprio peso antes de discordar)</li></ul><p><small>💬 Esse padrão (autodepreciação → ressalva → correção) é praticamente uma coreografia social fixa na Flandres.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"In","r":"prep"},{"t":"West-Vlaanderen","r":"noun"},{"t":"noemen","r":"verb"},{"t":"ze","r":"pron"},{"t":"een","r":"art"},{"t":"jongen","r":"noun"},{"t":"soms","r":"adv"},{"t":"een","r":"art"},{"t":"\"joeng\"","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Na","r":"prep"},{"t":"Flandres","r":"noun"},{"t":"Ocidental","r":"adj"},{"t":"às","r":"prep"},{"t":"vezes","r":"noun"},{"t":"chamam","r":"verb"},{"t":"um","r":"art"},{"t":"rapaz","r":"noun"},{"t":"de","r":"prep"},{"t":"\"joeng\"","r":"x"},{"t":".","r":"punc"}],
+      "note": "Joeng é a forma West-Vlaams de jongen (rapaz). Reconheça, não precise usar."
+    },
+    {
+      "nl": [{"t":"Hou","r":"verb"},{"t":"op","r":"part"},{"t":"met","r":"prep"},{"t":"zeiveren","r":"verb"},{"t":",","r":"punc"},{"t":"zeg","r":"verb"},{"t":"me","r":"pron"},{"t":"gewoon","r":"adv"},{"t":"wat","r":"pron"},{"t":"er","r":"adv"},{"t":"scheelt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Para","r":"verb"},{"t":"de","r":"prep"},{"t":"enrolar","r":"verb"},{"t":",","r":"punc"},{"t":"me","r":"pron"},{"t":"diz","r":"verb"},{"t":"logo","r":"adv"},{"t":"o","r":"pron"},{"t":"que","r":"pron"},{"t":"está","r":"verb"},{"t":"errado","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "para com encher-linguiça, diz-me simplesmente o que aí falta",
+      "note": "Zeiveren (Antwerps) = falar bobagem, enrolar. Muito usado informalmente em toda a Flandres, não só em Antuérpia."
+    },
+    {
+      "nl": [{"t":"Tja",
+      "r":"x"},{"t":",","r":"punc"},{"t":"dat","r":"pron"},{"t":"is","r":"verb"},{"t":"nu","r":"adv"},{"t":"net","r":"adv"},{"t":"wat","r":"pron"},{"t":"ik","r":"pron"},{"t":"nodig","r":"adj"},{"t":"had","r":"verb"},{"t":"...","r":"punc"}],
+      "pt": [{"t":"Ah","r":"x"},{"t":",","r":"punc"},{"t":"era","r":"verb"},{"t":"exatamente","r":"adv"},{"t":"disso","r":"pron"},{"t":"que","r":"conj"},{"t":"eu","r":"pron"},{"t":"precisava","r":"verb"},{"t":"...","r":"punc"}],
+      "note": "Ironia clássica: dito depois de um azar ou contratempo, o tom plano sinaliza que ele NÃO precisava disso de jeito nenhum."
+    },
+    {
+      "nl": [{"t":"Niet","r":"neg"},{"t":"slecht",
+      "r":"adj"},{"t":",","r":"punc"},{"t":"hè","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nada","r":"neg"},{"t":"mal",
+      "r":"adj"},{"t":",","r":"punc"},{"t":"né","r":"part"},{"t":".","r":"punc"}],
+      "note": "Understatement típico: dito sobre algo excelente. O elogio real fica escondido atrás do tom morno."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"wordt","r":"verb"},{"t":"nog","r":"adv"},{"t":"leuk",
+      "r":"adj"},{"t":",","r":"punc"},{"t":"die","r":"pron"},{"t":"hele","r":"adj"},{"t":"verhuizing","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Vai","r":"verb"},{"t":"ser","r":"verb"},{"t":"divertido","r":"adj"},{"t":",","r":"punc"},{"t":"hein","r":"part"},{"t":",","r":"punc"},{"t":"essa","r":"pron"},{"t":"mudança","r":"noun"},{"t":"toda","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Tom sarcástico sobre uma tarefa chata (mudar de casa): leuk (divertido) aqui quer dizer o oposto."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"buurman","r":"noun"},{"t":"groet","r":"verb"},{"t":"zijn","r":"pron"},{"t":"planten","r":"noun"},{"t":"elke","r":"pron"},{"t":"ochtend","r":"noun"},{"t":".","r":"punc"},{"t":"Heel","r":"adv"},{"t":"Vlaanderen","r":"noun"},{"t":"doet","r":"verb"},{"t":"dat","r":"pron"},{"t":",","r":"punc"},{"t":"hoor","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"vizinho","r":"noun"},{"t":"cumprimenta","r":"verb"},{"t":"as","r":"art"},{"t":"plantas","r":"noun"},{"t":"dele","r":"pron"},{"t":"toda","r":"adj"},{"t":"manhã","r":"noun"},{"t":".","r":"punc"},{"t":"A","r":"art"},{"t":"Flandres","r":"noun"},{"t":"inteira","r":"adj"},{"t":"faz","r":"verb"},{"t":"isso","r":"pron"},{"t":",","r":"punc"},{"t":"viu","r":"part"},{"t":".","r":"punc"}],
+      "note": "Humor absurdista: exagero surreal ('a Flandres inteira faz isso') dito com cara séria, sem forçar a piada."
+    },
+    {
+      "nl": [{"t":"Met","r":"prep"},{"t":"alle","r":"pron"},{"t":"respect",
+      "r":"noun"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"ik","r":"pron"},{"t":"denk","r":"verb"},{"t":"dat","r":"conj"},{"t":"dat","r":"pron"},{"t":"niet","r":"neg"},{"t":"klopt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Com","r":"prep"},{"t":"todo","r":"pron"},{"t":"respeito",
+      "r":"noun"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"eu","r":"pron"},{"t":"acho","r":"verb"},{"t":"que","r":"conj"},{"t":"isso","r":"pron"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"certo","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Fórmula fixa de correção educada: met alle respect, maar... suaviza uma discordância direta."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zou","r":"verb"},{"t":"het","r":"pron"},{"t":"net","r":"adv"},{"t":"iets","r":"pron"},{"t":"anders","r":"adj"},{"t":"zeggen",
+      "r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"diria","r":"verb"},{"t":"de","r":"prep"},{"t":"um","r":"art"},{"t":"jeito","r":"noun"},{"t":"um","r":"art"},{"t":"pouquinho","r":"adv"},{"t":"diferente","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu iria isso justo um pouco diferente dizer",
+      "note": "Correção suave sem confronto direto. Zou + infinitivo no condicional educado, típico do tato flamengo."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"geen","r":"neg"},{"t":"expert",
+      "r":"noun"},{"t":",","r":"punc"},{"t":"hoor","r":"part"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"volgens","r":"prep"},{"t":"mij","r":"pron"},{"t":"klopt","r":"verb"},{"t":"dit","r":"pron"},{"t":"niet","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"sou","r":"verb"},{"t":"nenhum","r":"neg"},{"t":"especialista",
+      "r":"noun"},{"t":",","r":"punc"},{"t":"viu","r":"part"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"na","r":"prep"},{"t":"minha","r":"pron"},{"t":"opinião","r":"noun"},{"t":"isso","r":"pron"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"certo","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Autodepreciação como abertura: diminui o próprio peso antes de discordar, coreografia social típica da Flandres."
+    },
+    {
+      "nl": [{"t":"In","r":"prep"},{"t":"Limburg","r":"noun"},{"t":"zeggen","r":"verb"},{"t":"ze","r":"pron"},{"t":"soms","r":"adv"},{"t":"\"sjiek\"","r":"x"},{"t":"in","r":"prep"},{"t":"plaats","r":"noun"},{"t":"van","r":"prep"},{"t":"\"leuk\"","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"No","r":"prep"},{"t":"Limburgo","r":"noun"},{"t":"às","r":"prep"},{"t":"vezes","r":"noun"},{"t":"dizem","r":"verb"},{"t":"\"sjiek\"","r":"x"},{"t":"no","r":"prep"},{"t":"lugar","r":"noun"},{"t":"de","r":"prep"},{"t":"\"leuk\"","r":"x"},{"t":".","r":"punc"}],
+      "note": "Sjiek (Limburgs) = legal, chique. Note a semelhança sonora com 'chic' do francês/inglês."
+    },
+    {
+      "nl": [{"t":"Belgen","r":"noun"},{"t":"maken","r":"verb"},{"t":"graag","r":"adv"},{"t":"grappen","r":"noun"},{"t":"over","r":"prep"},{"t":"zichzelf","r":"pron"},{"t":"voor","r":"prep"},{"t":"iemand","r":"pron"},{"t":"anders","r":"adj"},{"t":"het","r":"pron"},{"t":"doet","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Belgas","r":"noun"},{"t":"gostam","r":"verb"},{"t":"de","r":"prep"},{"t":"fazer","r":"verb"},{"t":"piadas","r":"noun"},{"t":"sobre","r":"prep"},{"t":"si","r":"pron"},{"t":"mesmos","r":"adj"},{"t":"antes","r":"adv"},{"t":"que","r":"conj"},{"t":"outra","r":"pron"},{"t":"pessoa","r":"noun"},{"t":"o","r":"pron"},{"t":"faça","r":"verb"},{"t":".","r":"punc"}],
+      "note": "Autoironia nacional: piada da própria imagem antes que estrangeiros façam. Traço central do humor belga."
+    }
+  ],
+  "vocab": [
+    { "nl": "joeng", "art": null, "split": "West-Vlaams de jongen", "pt": "rapaz, cara (dialeto da Flandres Ocidental)", "emoji": "🌊" },
+    { "nl": "klekken", "art": null, "split": "West-Vlaams de vallen", "pt": "cair (dialeto da Flandres Ocidental)", "emoji": "🍂" },
+    { "nl": "de toet", "art": "de", "split": "dialeto Antwerps", "pt": "rosto / boca (gíria de Antuérpia)", "emoji": "😮" },
+    { "nl": "zeiveren", "art": null, "split": "zeiver (baba, bobagem) + en (verbo)", "pt": "falar bobagem, encher linguiça (Antwerps, mas espalhado)", "emoji": "🗯️" },
+    { "nl": "gaw", "art": null, "split": "Limburgs de snel", "pt": "rápido (dialeto do Limburgo)", "emoji": "⚡" },
+    { "nl": "sjiek", "art": null, "split": "do francês 'chic', via Limburgs", "pt": "chique, legal (dialeto do Limburgo)", "emoji": "✨" },
+    { "nl": "de ironie", "art": "de", "pt": "a ironia (dizer o oposto do que se sente, tom plano)", "emoji": "😏" },
+    { "nl": "het understatement", "art": "het", "pt": "elogio ou crítica disfarçados de comentário morno", "emoji": "🫤" },
+    { "nl": "niet slecht, hè", "art": null, "split": "niet (não) + slecht (ruim) + hè (né)", "pt": "nada mal, né (elogio disfarçado)", "emoji": "👍" },
+    { "nl": "de zelfspot", "art": "de", "split": "zelf (próprio) + spot (zombaria)", "pt": "a autoironia, o autoescárnio bem-humorado", "emoji": "🤡" },
+    { "nl": "absurdistisch", "art": null, "split": "absurd (absurdo) + istisch (sufixo adjetival)", "pt": "absurdista (humor que descreve o banal com exagero surreal)", "emoji": "🎪" },
+    { "nl": "met alle respect", "art": null, "split": "met (com) + alle (todo) + respect (respeito)", "pt": "com todo respeito (fórmula de correção educada)", "emoji": "🙏" },
+    { "nl": "tactvol", "art": null, "split": "tact (tato) + vol (cheio de)", "pt": "com tato, cuidadoso ao falar", "emoji": "🤝" },
+    { "nl": "de kwinkslag", "art": "de", "split": "kwink (torção) + slag (golpe)", "pt": "o trocadilho, a piada espirituosa", "emoji": "😄" },
+    { "nl": "het dialect", "art": "het", "pt": "o dialeto (variedade regional, distinto do padrão AN)", "emoji": "🗺️" },
+    { "nl": "de streektaal", "art": "de", "split": "streek (região) + taal (língua)", "pt": "a língua/fala regional", "emoji": "📍" },
+    { "nl": "de spot drijven met", "art": null, "split": "spot (zombaria) + drijven (praticar, flutuar) + met (com)", "pt": "zombar de, tirar sarro de", "emoji": "😜" },
+    { "nl": "droogkomisch", "art": null, "split": "droog (seco) + komisch (cômico)", "pt": "humor seco, cômico com cara séria", "emoji": "🧊" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual é a atitude recomendada em relação aos dialetos flamengos no nível C2? 🗺️",
+      "options": ["Aprender a falar fluentemente todos eles", "Reconhecer e traduzir para o padrão, sem precisar produzi-los", "Ignorá-los completamente", "Usá-los sempre no lugar do padrão"],
+      "answer": 1,
+      "explain": "O objetivo é exposição e reconhecimento: entender palavras dialetais em contexto e saber o equivalente padrão, não produzir o dialeto ativamente."
+    },
+    {
+      "type": "mc",
+      "q": "\"Tja, dat is nu net wat ik nodig had...\" dito após um contratempo é um exemplo de... 😏",
+      "options": ["Elogio sincero", "Ironia (quer dizer o oposto)", "Pergunta retórica", "Discurso indireto"],
+      "answer": 1,
+      "explain": "É ironia clássica belga: o tom plano sinaliza que a pessoa definitivamente NÃO precisava daquilo."
+    },
+    {
+      "type": "mc",
+      "q": "\"Niet slecht, hè\" dito sobre algo excelente é... 🫤",
+      "options": ["Uma crítica dura", "Understatement (elogio disfarçado de comentário morno)", "Um insulto velado", "Uma pergunta"],
+      "answer": 1,
+      "explain": "Understatement: o comentário morno ('nada mal') na verdade é um elogio real, só que expresso com moderação típica flamenga."
+    },
+    {
+      "type": "listen",
+      "nl": "Hou op met zeiveren, zeg me gewoon wat er scheelt.",
+      "options": ["Para de enrolar, me diz logo o que está errado", "Continue falando, estou gostando", "Não sei o que está acontecendo", "Vamos conversar sobre o clima"],
+      "answer": 0,
+      "explain": "Zeiveren (gíria de Antuérpia) = falar bobagem, enrolar. A frase pede objetividade direta."
+    },
+    {
+      "type": "listen",
+      "nl": "Met alle respect, maar ik denk dat dat niet klopt.",
+      "options": ["Com todo respeito, mas acho que isso não está certo", "Eu concordo plenamente com você", "Não tenho nenhuma opinião sobre isso", "Por favor, não me respeite"],
+      "answer": 0,
+      "explain": "Fórmula fixa de discordância educada: 'met alle respect, maar...' suaviza a correção que vem a seguir."
+    },
+    {
+      "type": "listen",
+      "nl": "Mijn buurman groet zijn planten elke ochtend. Heel Vlaanderen doet dat, hoor.",
+      "options": ["Meu vizinho cumprimenta as plantas dele toda manhã, e supostamente todo mundo faz isso", "Meu vizinho odeia plantas", "Ninguém na Flandres tem plantas", "Meu vizinho é jardineiro profissional"],
+      "answer": 0,
+      "explain": "Humor absurdista: o exagero ('a Flandres inteira faz isso') dito com cara séria é a marca registrada do humor belga."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ben geen expert, hoor, maar volgens",
+      "after": "klopt dit niet.",
+      "answer": "mij",
+      "alt": [],
+      "hint": "mim (na minha opinião = volgens mij)",
+      "explain": "Volgens mij = na minha opinião. A frase inteira usa a coreografia social: autodepreciação → ressalva → correção."
+    },
+    {
+      "type": "fill",
+      "before": "Ik zou het net iets anders",
+      "after": ".",
+      "answer": "zeggen",
+      "alt": [],
+      "hint": "dizer",
+      "explain": "Zou + infinitivo (zeggen) no fim da oração forma o condicional educado de correção suave, sem confronto direto."
+    },
+    {
+      "type": "fill",
+      "before": "In Limburg zeggen ze soms \"sjiek\" in plaats van \"",
+      "after": "\".",
+      "answer": "leuk",
+      "alt": [],
+      "hint": "legal, no padrão",
+      "explain": "Sjiek é a versão Limburgs de leuk (legal, divertido) no padrão."
+    },
+    {
+      "type": "order",
+      "pt": "Não sou nenhum especialista, viu, mas na minha opinião isso não está certo.",
+      "tokens": ["Ik", "ben", "geen", "expert", "hoor", "maar", "volgens", "mij", "klopt", "dit", "niet"],
+      "answer": "Ik ben geen expert hoor maar volgens mij klopt dit niet",
+      "explain": "Autodepreciação (ik ben geen expert) seguida de ressalva (maar) e opinião (volgens mij + verbo klopt em V2 após o advérbio inicial)."
+    },
+    {
+      "type": "order",
+      "pt": "Belgas gostam de fazer piadas sobre si mesmos antes que outra pessoa o faça.",
+      "tokens": ["Belgen", "maken", "graag", "grappen", "over", "zichzelf", "voor", "iemand", "anders", "het", "doet"],
+      "answer": "Belgen maken graag grappen over zichzelf voor iemand anders het doet",
+      "explain": "Autoironia nacional: piada da própria imagem antes que um estrangeiro faça. Voor (antes que) empurra o verbo doet para o fim da subordinada."
+    },
+    {
+      "type": "match",
+      "pairs": [["joeng", "rapaz (West-Vlaams)"], ["zeiveren", "falar bobagem (Antwerps)"], ["sjiek", "legal (Limburgs)"], ["gaw", "rápido (Limburgs)"], ["de toet", "rosto/boca (Antwerps)"], ["klekken", "cair (West-Vlaams)"]],
+      "explain": "Cada dialeto tem seu próprio vocabulário regional; o objetivo C2 é reconhecer a origem e o equivalente padrão, não confundir os três."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a diferença central entre o humor belga e o humor holandês, segundo o padrão descrito? 🎪",
+      "options": ["Não existe diferença nenhuma", "O flamengo prefere understatement afiado; o holandês tende a ser mais direto e provocador", "O humor belga nunca usa ironia", "O humor holandês é sempre mais gentil"],
+      "answer": 1,
+      "explain": "O humor flamengo se apoia mais no understatement (dizer pouco, com peso) enquanto o holandês costuma ser mais direto, quase provocador."
+    }
+  ]
+}

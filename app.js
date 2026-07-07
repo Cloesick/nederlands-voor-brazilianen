@@ -687,17 +687,20 @@ async function renderLevel(app, unit) {
   const allVocab = []; const seen = new Set();
   packs.forEach(L => L.vocab.forEach(v => { const k = norm(v.nl); if (!seen.has(k)) { seen.add(k); allVocab.push(v); } }));
   const c = UNIT_COLORS[unit];
+  const levelGames = GAME_DOMAINS.filter(d => d.level === unit);
   app.innerHTML = `
     <div class="crumb"><a href="#/">🏠 Início</a></div>
     <div class="level-hero" style="border-color:${c}">
       <span class="level-chip" style="background:${c}">${unit}</span>
       <div><h1 style="margin:0">${UNIT_INFO[unit].emoji} ${UNIT_INFO[unit].name}</h1>
-      <span class="muted">${ls.length} lições · ${allPhrases.length} frases · ${allVocab.length} palavras · ${packs.reduce((s, L) => s + L.exercises.length, 0)} exercícios</span></div>
+      <span class="muted">${ls.length} lições · ${allPhrases.length} frases · ${allVocab.length} palavras ·
+      ${packs.reduce((s, L) => s + L.exercises.length, 0)} exercícios${levelGames.length ? ` · ${levelGames.length} jogo(s) 🧩` : ''}</span></div>
     </div>
     <div class="tabs" id="lvltabs">
       <button class="tab active" data-t="les">📚 Lições</button>
       <button class="tab" data-t="phr">🎨 Frases</button>
       <button class="tab" data-t="voc">🧩 Vocabulário</button>
+      ${levelGames.length ? `<button class="tab" data-t="jog">🧩 Jogos</button>` : ''}
     </div>
     <div id="lvlbody"></div>`;
   const body = $('#lvlbody');
@@ -720,6 +723,10 @@ async function renderLevel(app, unit) {
       body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say); }));
     },
     voc: () => { body.innerHTML = vocabTableHTML(allVocab); bindVspeak(body); },
+    jog: () => {
+      body.innerHTML = `<div class="game-grid">${levelGames.map(d => `<a class="game-tile" href="#/spelletjes/${d.id}" style="border-color:${d.color}">
+        <span class="game-em" style="background:${d.color}22">${d.emoji}</span><b>${d.label}</b></a>`).join('')}</div>`;
+    },
   };
   app.querySelectorAll('#lvltabs .tab').forEach(b => b.addEventListener('click', () => {
     app.querySelectorAll('#lvltabs .tab').forEach(x => x.classList.remove('active'));
@@ -850,6 +857,8 @@ const GAME_DOMAINS = [
   { id:'geschiedenis', emoji:'📜', label:'História',    color:'#8D6E63', type:'timeline', file:'games-humanities.json', key:'geschiedenis' },
   { id:'biologie',     emoji:'🧬', label:'Biologia',    color:'#00838F', type:'sort',  file:'games-sciences.json',   key:'biologie' },
   { id:'esthetiek',    emoji:'✨', label:'Estética',    color:'#AD1457', type:'sort',  file:'games-sciences.json',   key:'esthetiek' },
+  { id:'idiomen',      emoji:'🗝️', label:'Idiomatismos', color:'#6A1B9A', type:'match', file:'games-c2.json', key:'idiomen', level:'C2' },
+  { id:'nuance',       emoji:'🎯', label:'Nuance (C2)', color:'#B0207E', type:'sort',  file:'games-c2.json', key:'nuance',  level:'C2' },
 ];
 const GAME_FILE_CACHE = {};
 async function gameFile(name) {
@@ -880,6 +889,7 @@ async function renderGamesHub(app) {
     <p class="muted">Jogos de arrastar-e-soltar em 10 áreas: palavras, frases, política, notícias, esporte,
     geografia, arte, história, biologia e estética. Funciona igual no celular (toque) e no computador (mouse). 👆🖱️</p>
     <div class="game-grid">${GAME_DOMAINS.map(d => `<a class="game-tile" href="#/spelletjes/${d.id}" style="border-color:${d.color}">
+      ${d.level ? `<span class="game-lvl" style="background:${d.color}">${d.level}</span>` : ''}
       <span class="game-em" style="background:${d.color}22">${d.emoji}</span><b>${d.label}</b></a>`).join('')}</div>`;
 }
 

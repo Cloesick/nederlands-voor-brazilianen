@@ -1,0 +1,78 @@
+{
+  "idiomen": [
+    {
+      "title": "Uitdrukkingen over wachten, voorzichtigheid en geduld",
+      "instruction": "Arraste cada expressao para o significado certo",
+      "pairs": [
+        { "nl": "de kat uit de boom kijken", "pt": "esperar para ver como as coisas se desenrolam antes de agir", "emoji": "🐈" },
+        { "nl": "het kalfje bij de horens vatten", "pt": "enfrentar um problema de frente, sem mais adiar (a variante flamenga de 'pegar o touro pelos chifres')", "emoji": "🐄" },
+        { "nl": "op zijn tellen passen", "pt": "agir com muito cuidado, prestar bem atencao para nao errar", "emoji": "🧮" },
+        { "nl": "iets op de lange baan schuiven", "pt": "adiar algo indefinidamente, empurrar com a barriga", "emoji": "📅" },
+        { "nl": "geen vinger uitsteken", "pt": "nao fazer absolutamente nada para ajudar, ficar parado", "emoji": "☝️" },
+        { "nl": "de tijd voor zich hebben", "pt": "nao ter pressa nenhuma, poder tomar todo o tempo necessario", "emoji": "⏳" }
+      ]
+    },
+    {
+      "title": "Uitdrukkingen over praten en communiceren",
+      "instruction": "Arraste cada expressao para o significado certo",
+      "pairs": [
+        { "nl": "iets door de bloemen zeggen", "pt": "dizer algo de forma indireta e delicada, sem ser brusco", "emoji": "🌸" },
+        { "nl": "de spijker op zijn kop slaan", "pt": "acertar exatamente no ponto, dizer a coisa certa com precisao", "emoji": "🔨" },
+        { "nl": "boter bij de vis doen", "pt": "cumprir uma promessa na hora, ser direto e pagar/agir imediatamente", "emoji": "🐟" },
+        { "nl": "met de deur in huis vallen", "pt": "ir direto ao assunto sem rodeios nem introducao", "emoji": "🚪" },
+        { "nl": "iemand om de tuin leiden", "pt": "enganar alguem, levar alguem a acreditar em algo falso", "emoji": "🌳" },
+        { "nl": "iets tussen neus en lippen zeggen", "pt": "mencionar algo de passagem, quase sem querer, de forma casual", "emoji": "👃" }
+      ]
+    },
+    {
+      "title": "Uitdrukkingen over geld, werk en inspanning",
+      "instruction": "Arraste cada expressao para o significado certo",
+      "pairs": [
+        { "nl": "de broekriem aanhalen", "pt": "apertar o cinto, economizar e gastar menos", "emoji": "🪢" },
+        { "nl": "iets voor een appel en een ei kopen", "pt": "comprar algo por um preco muito baixo, quase de graca", "emoji": "🍎" },
+        { "nl": "zijn handen uit de mouwen steken", "pt": "arregacar as mangas, comecar a trabalhar com afinco", "emoji": "💪" },
+        { "nl": "het achterste van zijn tong laten zien", "pt": "finalmente revelar suas verdadeiras intencoes ou opiniao", "emoji": "👅" },
+        { "nl": "van een koude kermis thuiskomen", "pt": "ter uma decepcao grande, sair com as maos vazias apos um esforco", "emoji": "🎪" },
+        { "nl": "de kost verdienen", "pt": "ganhar a vida, trabalhar para se sustentar", "emoji": "💼" }
+      ]
+    }
+  ],
+  "nuance": [
+    {
+      "title": "Modale partikels: verzachten of benadrukken?",
+      "instruction": "Arraste cada particula modal para o efeito que ela acrescenta na frase",
+      "buckets": [
+        { "id": "b1", "label": "Suaviza o pedido", "emoji": "🤲" },
+        { "id": "b2", "label": "Reforca/insiste", "emoji": "💥" }
+      ],
+      "items": [
+        { "nl": "even", "pt": "suaviza o pedido, sugere que e algo rapido e sem esforco ('so um instantinho')", "emoji": "⏱️", "bucket": "b1" },
+        { "nl": "eens", "pt": "suaviza um pedido ou sugestao, torna o tom mais casual e convidativo", "emoji": "🙂", "bucket": "b1" },
+        { "nl": "hoor", "pt": "suaviza e tranquiliza, transmite simpatia ou garantia ('viu', 'tá')", "emoji": "💬", "bucket": "b1" },
+        { "nl": "maar", "pt": "suaviza uma ordem, torna-a mais gentil e menos autoritaria ('so vem, entao')", "emoji": "🍃", "bucket": "b1" },
+        { "nl": "wel", "pt": "reforca ou contradiz uma expectativa anterior, insiste que algo e verdade", "emoji": "✅", "bucket": "b2" },
+        { "nl": "toch", "pt": "reforca com um leve tom de insistencia ou espanto, cobra confirmacao do ouvinte", "emoji": "❗", "bucket": "b2" },
+        { "nl": "nou", "pt": "reforca com impaciencia ou urgencia, pressiona por uma resposta ou acao imediata", "emoji": "⚡", "bucket": "b2" },
+        { "nl": "hè", "pt": "reforca buscando confirmacao enfatica do ouvinte, quase uma cobranca ('não é mesmo?')", "emoji": "🔔", "bucket": "b2" }
+      ]
+    },
+    {
+      "title": "Register: formeel of informeel?",
+      "instruction": "Arraste cada palavra ou conector para o registro certo",
+      "buckets": [
+        { "id": "b1", "label": "Formal/escrito", "emoji": "📄" },
+        { "id": "b2", "label": "Informal/tussentaal", "emoji": "🗣️" }
+      ],
+      "items": [
+        { "nl": "evenwel", "pt": "conector formal e escrito para 'no entanto/contudo', tipico de textos oficiais", "emoji": "📜", "bucket": "b1" },
+        { "nl": "desalniettemin", "pt": "conector muito formal para 'mesmo assim/apesar disso', quase so em textos juridicos ou academicos", "emoji": "⚖️", "bucket": "b1" },
+        { "nl": "teneinde", "pt": "forma formal e escrita de 'a fim de/para que', em vez do comum 'om te'", "emoji": "🎯", "bucket": "b1" },
+        { "nl": "derhalve", "pt": "conector formal para 'portanto/por conseguinte', usado em relatorios e leis", "emoji": "📋", "bucket": "b1" },
+        { "nl": "toch wel", "pt": "versao falada e informal de 'evenwel', usada no dia a dia para dizer 'mas na verdade sim'", "emoji": "💬", "bucket": "b2" },
+        { "nl": "gewoon", "pt": "palavra tipica da fala informal para suavizar ou dizer 'simplesmente/só', muito usada no tussentaal", "emoji": "😎", "bucket": "b2" },
+        { "nl": "ne keer", "pt": "forma tussentaal (flamenga informal) de 'eens', tipica da fala coloquial na Flandres", "emoji": "🎙️", "bucket": "b2" },
+        { "nl": "'k zeg", "pt": "contracao informal e oral de 'ik zeg', tipica do tussentaal falado, nunca escrita formalmente", "emoji": "🔤", "bucket": "b2" }
+      ]
+    }
+  ]
+}
