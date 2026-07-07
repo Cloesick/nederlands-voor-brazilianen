@@ -1,0 +1,213 @@
+{
+  "id": "a1-03-de-het",
+  "unit": "A1",
+  "title": "De, Het e o plural · Lidwoorden",
+  "emoji": "🏷️",
+  "infographic": "assets/infographics/de-het-boom.svg",
+  "teaching": [
+    {
+      "emoji": "🏷️",
+      "title": "De ou het? Esqueça o gênero do português",
+      "html": "<p>O português tem <b>o/a</b>. O neerlandês tem <b>de</b> e <b>het</b>, e aqui vai o aviso mais importante: <b>não tem nada a ver com masculino/feminino</b>. 'A casa' é <b>het huis</b>, 'o homem' é <b>de man</b>. Cada palavra nova precisa ser decorada junto com o artigo dela.</p><table class=\"vocab\"><tr><th>DE (± 75% das palavras)</th><th>HET (± 25% das palavras)</th></tr><tr><td><b>todos os plurais</b>: de huizen, de kinderen</td><td><b>todos os diminutivos -je</b>: het huisje, het biertje</td></tr><tr><td>pessoas e profissões: de man, de vrouw, de dokter</td><td>idiomas: het Nederlands, het Portugees</td></tr><tr><td>frutas, legumes e árvores: de appel, de boom</td><td>metais: het goud (ouro), het ijzer (ferro)</td></tr><tr><td>palavras em <b>-ing</b>: de rekening, de regering</td><td>palavras em <b>-um / -isme</b>: het museum, het toerisme</td></tr><tr><td>palavras em <b>-heid</b>: de waarheid, de gezondheid</td><td>verbo usado como substantivo: het eten (a comida)</td></tr><tr><td>palavras em <b>-ie / -tie</b>: de familie, de informatie</td><td>duas sílabas com be-, ge-, ver-, ont-: het begin, het gesprek</td></tr></table><p><small>🎲 Estratégia prática: na dúvida, chute <b>de</b> e acerte 3 em cada 4. Mas anote sempre o artigo junto da palavra nova!</small></p>"
+    },
+    {
+      "emoji": "🐣",
+      "title": "O diminutivo -je é o nosso -inho",
+      "html": "<p>O belga usa <b>-je</b> com o mesmo carinho que o brasileiro usa <b>-inho</b>. Um <b>biertje</b> é exatamente uma cervejinha. E a regra de ouro: <b>todo diminutivo vira het</b>, mesmo quando a palavra base é de.</p><ul><li>het bier ➜ het bier<b>tje</b> (a cervejinha) 🍺</li><li>de kop ➜ het kop<b>je</b> (a xicrinha) ☕</li><li>de boom ➜ het boom<b>pje</b> (a arvorezinha) 🌳</li><li>het glas ➜ het glaa<b>sje</b> (o copinho) 🥛</li></ul><p><small>🇧🇪 No bar da Flandres você pede 'een pintje' (uma cervejinha de pressão) e espera 'een minuutje'. Nos dialetos flamengos também existe <b>-ke</b>: 'een pintke'. Igual ao Brasil, o diminutivo suaviza pedidos. Se você já fala 'cafezinho, rapidinho, agorinha', você já entende a alma flamenga.</small></p>"
+    },
+    {
+      "emoji": "🔢",
+      "title": "Plural: -en é o padrão, -s é a exceção",
+      "html": "<p>Regra padrão: <b>+en</b> (a maioria das palavras). boek ➜ boek<b>en</b> (livros), kat ➜ katt<b>en</b> (gatos).</p><p>Use <b>+s</b> quando a palavra termina em sílaba átona -el, -em, -en, -er, -je, ou em vogal: tafel ➜ tafel<b>s</b> (mesas), meisje ➜ meisje<b>s</b> (meninas), auto ➜ auto<b>'s</b> (carros, com apóstrofo!).</p><ul><li>✍️ Ortografia: vogal longa dobrada perde uma letra mas o som continua longo (maan ➜ manen, luas); após vogal curta a consoante dobra (kat ➜ katten).</li><li>⚠️ Irregulares do dia a dia: het kind ➜ de kind<b>eren</b> (crianças), het ei ➜ de ei<b>eren</b> (ovos), de stad ➜ de st<b>e</b>den (cidades).</li><li>🏆 E lembre: <b>todo plural leva de</b>, até o plural das palavras het: het huis ➜ de huizen.</li></ul>"
+    },
+    {
+      "emoji": "🪄",
+      "title": "Een e o efeito dominó",
+      "html": "<p>O artigo indefinido é sempre <b>een</b> (= um/uma, pronuncia-se 'ân') para os dois grupos. Mas o grupo de/het muda outras palavras da frase:</p><table class=\"vocab\"><tr><th></th><th>palavra DE</th><th>palavra HET</th></tr><tr><td>este/esta (perto)</td><td><b>deze</b> man</td><td><b>dit</b> huis</td></tr><tr><td>aquele/aquela (longe)</td><td><b>die</b> man</td><td><b>dat</b> huis</td></tr><tr><td>adjetivo com een</td><td>een grot<b>e</b> man</td><td>een groot huis (sem -e!)</td></tr></table><p><small>Regra do adjetivo: ele quase sempre ganha <b>-e</b> (de grote man, het grote huis, een grote man). A única exceção: een + palavra het = adjetivo sem -e: een groot huis.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"man","r":"noun"},{"t":"en","r":"conj"},{"t":"de","r":"art"},{"t":"vrouw","r":"noun"},{"t":"wonen","r":"verb"},{"t":"in","r":"prep"},{"t":"Antwerpen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"homem","r":"noun"},{"t":"e","r":"conj"},{"t":"a","r":"art"},{"t":"mulher","r":"noun"},{"t":"moram","r":"verb"},{"t":"em","r":"prep"},{"t":"Antuérpia","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Pessoas levam de: de man, de vrouw, de dokter. 👥"
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"huis","r":"noun"},{"t":"is","r":"verb"},{"t":"groot","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"casa","r":"noun"},{"t":"é","r":"verb"},{"t":"grande","r":"adj"},{"t":".","r":"punc"}],
+      "note": "het huis, mas 'a casa': o artigo NL não segue o gênero do português. Decore o artigo junto com cada palavra. 🏠"
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"Nederlands","r":"noun"},{"t":"is","r":"verb"},{"t":"moeilijk","r":"adj"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"leuk","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"neerlandês","r":"noun"},{"t":"é","r":"verb"},{"t":"difícil","r":"adj"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"divertido","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Idiomas sempre levam het: het Nederlands, het Portugees, het Frans. 🗣️"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"kinderen","r":"noun"},{"t":"spelen","r":"verb"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"tuin","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"As","r":"art"},{"t":"crianças","r":"noun"},{"t":"brincam","r":"verb"},{"t":"no","r":"prep"},{"t":"jardim","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Todo plural leva de, sempre. E kind ➜ kinderen é plural irregular, como ei ➜ eieren (ovos). 👶"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"appels","r":"noun"},{"t":"liggen","r":"verb"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"frigo","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"As","r":"art"},{"t":"maçãs","r":"noun"},{"t":"estão","r":"verb"},{"t":"na","r":"prep"},{"t":"geladeira","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "as maçãs jazem na geladeira",
+      "note": "frigo é a palavra belga para geladeira. 🧊 E appel ➜ appels: plural em -s porque termina em -el átono."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"meisje","r":"noun"},{"t":"drinkt","r":"verb"},{"t":"een","r":"art"},{"t":"glas","r":"noun"},{"t":"melk","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"menina","r":"noun"},{"t":"bebe","r":"verb"},{"t":"um","r":"art"},{"t":"copo","r":"noun"},{"t":"de","r":"prep"},{"t":"leite","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "a menina bebe um copo leite",
+      "note": "meisje termina em -je, então é het, mesmo significando 'menina'! E 'copo de leite' dispensa a preposição: een glas melk. 🥛"
+    },
+    {
+      "nl": [{"t":"Dag","r":"x"},{"t":"!","r":"punc"},{"t":"Een","r":"art"},{"t":"tas","r":"noun"},{"t":"koffie","r":"noun"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Oi","r":"x"},{"t":"!","r":"punc"},{"t":"Uma","r":"art"},{"t":"xícara","r":"noun"},{"t":"de","r":"prep"},{"t":"café","r":"noun"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":".","r":"punc"}],
+      "lit": "dia! uma xícara café, por-favor",
+      "note": "'Een tas koffie' é puro flamengo: tas = xícara na Bélgica (na Holanda dizem kopje). ☕🇧🇪"
+    },
+    {
+      "nl": [{"t":"Zeker","r":"adv"},{"t":"!","r":"punc"},{"t":"Wilt","r":"verb"},{"t":"u","r":"pron"},{"t":"ook","r":"adv"},{"t":"een","r":"art"},{"t":"koekje","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Claro","r":"adv"},{"t":"!","r":"punc"},{"t":"Quer","r":"verb"},{"t":"também","r":"adv"},{"t":"um","r":"art"},{"t":"biscoitinho","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "certo! quer o-senhor também um biscoitinho?",
+      "note": "u = 'o senhor / a senhora' formal. Entre amigos na Flandres você vai ouvir gij/ge no lugar de jij. E koekje: -je = biscoitinho. 🍪"
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"graag","r":"adv"},{"t":".","r":"punc"},{"t":"En","r":"conj"},{"t":"een","r":"art"},{"t":"glaasje","r":"noun"},{"t":"water","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"por","r":"adv"},{"t":"favor","r":"adv"},{"t":".","r":"punc"},{"t":"E","r":"conj"},{"t":"um","r":"art"},{"t":"copinho","r":"noun"},{"t":"de","r":"prep"},{"t":"água","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "sim, com-prazer. e um copinho água",
+      "note": "graag (com prazer) é como o belga aceita algo educadamente. glaasje = het glas + -je = copinho. 💧"
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"dan","r":"adv"},{"t":"vier","r":"num"},{"t":"euro","r":"noun"},{"t":"vijftig","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Então","r":"adv"},{"t":"são","r":"verb"},{"t":"quatro","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":".","r":"punc"}],
+      "lit": "isso é então quatro euro cinquenta",
+      "note": "euro fica no singular em NL: vier euro. Os centavos vêm direto depois: vier euro vijftig = 4,50 euros. 💶"
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"gsm","r":"noun"},{"t":"betalen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"pagar","r":"verb"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"celular","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "posso eu com o celular pagar?",
+      "note": "A pinça verbal: o segundo verbo (betalen) vai para o FIM da frase. E gsm = celular na Bélgica; para pagar, o app do momento é o Wero. 📱"
+    },
+    {
+      "nl": [{"t":"Dit","r":"pron"},{"t":"huis","r":"noun"},{"t":"is","r":"verb"},{"t":"klein","r":"adj"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"die","r":"pron"},{"t":"tuin","r":"noun"},{"t":"is","r":"verb"},{"t":"groot","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Esta","r":"pron"},{"t":"casa","r":"noun"},{"t":"é","r":"verb"},{"t":"pequena","r":"adj"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"aquele","r":"pron"},{"t":"jardim","r":"noun"},{"t":"é","r":"verb"},{"t":"grande","r":"adj"},{"t":".","r":"punc"}],
+      "note": "O efeito dominó: palavra het usa dit/dat (dit huis), palavra de usa deze/die (die tuin). 🪄"
+    }
+  ],
+  "vocab": [
+    { "nl": "de man", "art": "de", "pt": "o homem", "emoji": "👨" },
+    { "nl": "de vrouw", "art": "de", "pt": "a mulher", "emoji": "👩" },
+    { "nl": "het huis", "art": "het", "pt": "a casa", "emoji": "🏠" },
+    { "nl": "het huisje", "art": "het", "split": "huis (casa) + je (-inho)", "pt": "a casinha", "emoji": "🏡" },
+    { "nl": "het biertje", "art": "het", "split": "bier (cerveja) + tje (-inha)", "pt": "a cervejinha", "emoji": "🍺" },
+    { "nl": "de rekening", "art": "de", "split": "reken (calcular) + ing (-ção)", "pt": "a conta (do bar, do banco)", "emoji": "🧾" },
+    { "nl": "de gezondheid", "art": "de", "split": "gezond (saudável) + heid (-dade)", "pt": "a saúde", "emoji": "💪" },
+    { "nl": "het Nederlands", "art": "het", "pt": "o neerlandês (idioma, logo het)", "emoji": "🗣️" },
+    { "nl": "het goud", "art": "het", "pt": "o ouro (metal, logo het)", "emoji": "🥇" },
+    { "nl": "de appel", "art": "de", "pt": "a maçã (plural: de appels)", "emoji": "🍎" },
+    { "nl": "het kind", "art": "het", "pt": "a criança (plural irregular: de kinderen!)", "emoji": "👶" },
+    { "nl": "de stad", "art": "de", "pt": "a cidade (plural irregular: de steden!)", "emoji": "🏙️" },
+    { "nl": "de tas", "art": "de", "pt": "a xícara (flamengo; também: bolsa)", "emoji": "☕" },
+    { "nl": "de frigo", "art": "de", "pt": "a geladeira (palavra belga)", "emoji": "🧊" },
+    { "nl": "de gsm", "art": "de", "pt": "o celular (palavra belga)", "emoji": "📱" },
+    { "nl": "het ziekenhuis", "art": "het", "split": "zieken (doentes) + huis (casa)", "pt": "o hospital (composto herda o artigo da última parte)", "emoji": "🏥" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual é o artigo de 'biertje' (cervejinha)? 🍺",
+      "options": ["de", "het", "een, obrigatoriamente", "os dois servem"],
+      "answer": 1,
+      "explain": "Todo diminutivo em -je é het, sem exceção: het biertje, het huisje, het kopje. Mesmo que a palavra base seja de!"
+    },
+    {
+      "type": "mc",
+      "q": "'A casa' em neerlandês é... 🏠",
+      "options": ["de huis", "huis, sem artigo", "het huis", "een huis, sempre"],
+      "answer": 2,
+      "explain": "huis é palavra het. O artigo NL não segue o gênero do português: 'a casa' (feminino em PT) = het huis."
+    },
+    {
+      "type": "mc",
+      "q": "Qual destas palavras leva DE? 🤔",
+      "options": ["museum", "goud", "rekening", "Nederlands"],
+      "answer": 2,
+      "explain": "Palavras em -ing levam de: de rekening. As outras são het: museum (-um), goud (metal) e Nederlands (idioma)."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é o plural de 'kind' (criança)? 👶",
+      "options": ["kinds", "kinderen", "kinden", "kindjes"],
+      "answer": 1,
+      "explain": "kind tem plural irregular em -eren: de kinderen. E lembre: todo plural leva de, mesmo que o singular seja het kind."
+    },
+    {
+      "type": "listen",
+      "nl": "Een tas koffie, alstublieft.",
+      "options": ["Uma sacola de café, por favor.", "Uma xícara de café, por favor.", "Um copo de chá, por favor."],
+      "answer": 1,
+      "explain": "Na Flandres, tas = xícara (na Holanda seria kopje). Tas também significa bolsa, mas no café o contexto decide. ☕"
+    },
+    {
+      "type": "listen",
+      "nl": "Het meisje drinkt een glaasje water.",
+      "options": ["O menino bebe um copo de leite.", "A menina compra uma garrafa de água.", "A menina bebe um copinho de água."],
+      "answer": 2,
+      "explain": "meisje (menina) e glaasje (copinho) são diminutivos em -je, por isso het/een. glaasje = glas + -je, igual ao nosso -inho. 💧"
+    },
+    {
+      "type": "fill",
+      "before": "Ik betaal met de",
+      "after": ".",
+      "answer": "gsm",
+      "alt": ["telefoon"],
+      "hint": "celular, à moda belga 📱",
+      "explain": "Na Bélgica o celular é de gsm. E na hora de pagar o cafezinho, o belga abre o app Wero no gsm."
+    },
+    {
+      "type": "fill",
+      "before": "De appels liggen in de",
+      "after": ".",
+      "answer": "frigo",
+      "alt": ["koelkast"],
+      "hint": "geladeira, palavra belga 🧊",
+      "explain": "frigo é como o belga chama a geladeira (koelkast também é correto). E note o plural appels: -s porque appel termina em -el átono."
+    },
+    {
+      "type": "fill",
+      "before": "Eén boek, twee",
+      "after": ".",
+      "answer": "boeken",
+      "alt": [],
+      "hint": "plural padrão: +en 📚",
+      "explain": "Regra padrão do plural: +en. boek vira boeken. E qualquer plural leva de: de boeken."
+    },
+    {
+      "type": "order",
+      "pt": "A menina bebe um copo de leite.",
+      "tokens": ["Het", "meisje", "drinkt", "een", "glas", "melk"],
+      "answer": "Het meisje drinkt een glas melk",
+      "explain": "meisje termina em -je, então het. A ordem aqui é igual ao português: sujeito + verbo + objeto. E 'copo de leite' dispensa preposição: een glas melk."
+    },
+    {
+      "type": "order",
+      "pt": "Posso pagar com o celular?",
+      "tokens": ["Kan", "ik", "met", "de", "gsm", "betalen"],
+      "answer": "Kan ik met de gsm betalen",
+      "explain": "Pergunta de sim/não: o verbo vem primeiro (Kan ik...). E o segundo verbo, betalen, fecha a frase lá no fim: a pinça verbal. 📱"
+    },
+    {
+      "type": "match",
+      "pairs": [["het huisje", "a casinha"], ["de kinderen", "as crianças"], ["het goud", "o ouro"], ["de rekening", "a conta"], ["het Nederlands", "o neerlandês"]],
+      "explain": "-je é sempre het; plural é sempre de; metais e idiomas são het; -ing é de. Quatro regras que resolvem quase tudo!"
+    },
+    {
+      "type": "mc",
+      "q": "Palavra nova, artigo desconhecido. Qual é a melhor aposta? 🎲",
+      "options": ["het, acerta 3 em 4", "een, sempre funciona", "tanto faz, é 50/50", "de, acerta 3 em 4"],
+      "answer": 3,
+      "explain": "Cerca de 75% das palavras são de. Na dúvida, chute de, mas anote sempre o artigo junto de cada palavra nova que aprender."
+    }
+  ]
+}

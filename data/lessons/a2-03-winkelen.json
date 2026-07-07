@@ -64,7 +64,7 @@
     },
     {
       "nl": [{"t":"Waar","r":"qw"},{"t":"staan","r":"verb"},{"t":"de","r":"art"},{"t":"winkelwagentjes","r":"noun"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"Onde","r":"qw"},{"t":"ficam","r":"noun"},{"t":"os","r":"art"},{"t":"carrinhos","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"ficam","r":"verb"},{"t":"os","r":"art"},{"t":"carrinhos","r":"noun"},{"t":"?","r":"punc"}],
       "note": "staan = literalmente 'estar em pé'. Objetos verticais ou sobre rodas 'staan' em neerlandês; coisas deitadas 'liggen'."
     },
     {

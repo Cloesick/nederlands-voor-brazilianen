@@ -1,0 +1,219 @@
+{
+  "id": "b1-04-gemeente-wonen",
+  "unit": "B1",
+  "title": "Prefeitura e moradia · Gemeente en wonen",
+  "emoji": "🏢",
+  "teaching": [
+    {
+      "emoji": "🏢",
+      "title": "Da mala ao CPF belga: o roteiro da chegada",
+      "html": "<p>A primeira parada de quem chega é o <b>gemeentehuis</b> (prefeitura). O balcão para estrangeiros chama-se <b>dienst vreemdelingenzaken</b>. O roteiro é sempre o mesmo:</p><ul><li>1️⃣ <b>Inschrijving</b>: leve passaporte, <b>huurcontract</b> e certidões brasileiras com <b>apostille</b> (a apostila de Haia). Taxa de mais ou menos €20, paga no balcão com cartão.</li><li>2️⃣ <b>Woonstcontrole</b>: nas semanas seguintes o <b>wijkagent</b> (policial do bairro) passa na sua casa, sem hora marcada, para confirmar que você mora lá mesmo.</li><li>3️⃣ <b>Verblijfskaart + rijksregisternummer</b>: depois da checagem você retira o cartão de residência. O rijksregisternummer é o seu CPF belga: serve para banco, trabalho, saúde, tudo.</li><li>4️⃣ <b>eID + itsme</b>: com o cartão eletrônico você ativa o app itsme, a assinatura digital que abre todos os portais do governo.</li></ul>"
+    },
+    {
+      "emoji": "🔑",
+      "title": "Alugar sem sustos: as 4 palavras que protegem seu dinheiro",
+      "html": "<p>O aluguel flamengo tem regras próprias, e quatro palavras compostas guardam seu dinheiro:</p><table class=\"vocab\"><tr><th>palavra</th><th>o que é</th></tr><tr><td><b>de huurwaarborg</b></td><td>caução de 2 a 3 meses de aluguel. Nunca em dinheiro vivo: a lei manda depositar em <b>conta bloqueada</b> no seu nome (geblokkeerde rekening).</td></tr><tr><td><b>de plaatsbeschrijving</b></td><td>vistoria de entrada, assinada e com fotos. É ela que devolve sua caução na saída.</td></tr><tr><td><b>de brandverzekering</b></td><td>seguro contra incêndio, obrigatório para o inquilino na Flandres.</td></tr><tr><td><b>de opzegtermijn</b></td><td>prazo de aviso prévio: no contrato padrão de 9 anos, 3 meses por carta registrada.</td></tr></table><p><small>💡 Compare: no Brasil a caução costuma ir para a mão do dono; na Flandres ela fica travada no banco até vocês dois assinarem a saída.</small></p>"
+    },
+    {
+      "emoji": "🧲",
+      "title": "A pinça e os verbos que se partem no guichê",
+      "html": "<p>A conversa da gemeente é cheia de <b>verbos separáveis</b> e da <b>pinça</b> (o segundo verbo vai para o fim da frase):</p><ul><li>✍️ <b>zich inschrijven</b> (registrar-se): <i>Ik schrijf me <b>in</b>.</i> A partícula in voa para o fim.</li><li>🚶 <b>langskomen</b> (passar na casa de alguém): <i>De wijkagent komt <b>langs</b>.</i></li><li>📦 <b>afhalen</b> (retirar): <i>U mag de kaart <b>afhalen</b>.</i> Com um modal (mag), o verbo inteiro vai para o fim.</li><li>💶 <b>terugkrijgen</b> (receber de volta): <i>U krijgt de waarborg <b>terug</b>.</i></li></ul><p>Em português o verbo fica inteiro e junto: <i>eu me registro</i>. Em neerlandês, pense na pinça 🤏: verbo conjugado em 2º lugar, o resto lá no fim.</p>"
+    },
+    {
+      "emoji": "🎩",
+      "title": "u, alstublieft e o gij do dia a dia",
+      "html": "<p>No balcão, o funcionário (<b>de ambtenaar</b>) usa o formal <b>u</b> e <b>uw</b> (o senhor, a senhora, seu): <i>Hebt u uw paspoort bij u?</i> Ao entregar um documento, diga <b>alstublieft</b>, o 'aqui está' educado da Flandres.</p><p>Na rua, os flamengos falam <b>gij / ge</b> entre amigos (<i>Zijt ge al ingeschreven?</i>). Entenda quando ouvir, mas no guichê e em formulários fique com o u. 😉</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"me","r":"pron"},{"t":"graag","r":"adv"},{"t":"inschrijven","r":"verb"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"gemeente","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"me","r":"pron"},{"t":"registrar","r":"verb"},{"t":"no","r":"prep"},{"t":"município","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero me de-bom-grado inscrever no município",
+      "note": "wil + graag = pedido educado, o 'gostaria' do neerlandês. E inschrijven é literalmente 'escrever para dentro' do registro."
+    },
+    {
+      "nl": [{"t":"Goedemorgen","r":"x"},{"t":",","r":"punc"},{"t":"hoe","r":"qw"},{"t":"kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"u","r":"pron"},{"t":"helpen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Bom","r":"adj"},{"t":"dia","r":"noun"},{"t":",","r":"punc"},{"t":"como","r":"qw"},{"t":"posso","r":"verb"},{"t":"ajudar","r":"verb"},{"t":"a","r":"pron"},{"t":"senhora","r":"pron"},{"t":"?","r":"punc"}],
+      "lit": "bom-dia, como posso eu a senhora ajudar?",
+      "note": "A pinça: kan em 2º lugar, helpen no fim. 'a senhora' faz o papel do u formal."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"net","r":"adv"},{"t":"verhuisd","r":"verb"},{"t":"naar","r":"prep"},{"t":"Antwerpen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"acabei","r":"verb"},{"t":"de","r":"prep"},{"t":"me","r":"pron"},{"t":"mudar","r":"verb"},{"t":"para","r":"prep"},{"t":"Antuérpia","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu sou recém mudado para Antuérpia",
+      "note": "Verbos de movimento e mudança usam zijn (ser) no passado: ik ben verhuisd, e não ik heb."
+    },
+    {
+      "nl": [{"t":"Hebt","r":"verb"},{"t":"u","r":"pron"},{"t":"uw","r":"pron"},{"t":"paspoort","r":"noun"},{"t":"en","r":"conj"},{"t":"uw","r":"pron"},{"t":"huurcontract","r":"noun"},{"t":"bij","r":"prep"},{"t":"u","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"A","r":"pron"},{"t":"senhora","r":"pron"},{"t":"trouxe","r":"verb"},{"t":"seu","r":"pron"},{"t":"passaporte","r":"noun"},{"t":"e","r":"conj"},{"t":"seu","r":"pron"},{"t":"contrato","r":"noun"},{"t":"de","r":"prep"},{"t":"aluguel","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem a senhora seu passaporte e seu contrato-de-aluguel junto a si?",
+      "note": "Pergunta de sim ou não: o verbo pula para a 1ª posição, sem 'será que'. bij u = com você, aí na bolsa."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"alle","r":"adj"},{"t":"documenten","r":"noun"},{"t":"met","r":"prep"},{"t":"apostille","r":"noun"},{"t":"hier","r":"adv"},{"t":"in","r":"prep"},{"t":"deze","r":"pron"},{"t":"map","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"todos","r":"adj"},{"t":"os","r":"art"},{"t":"documentos","r":"noun"},{"t":"com","r":"prep"},{"t":"apostila","r":"noun"},{"t":"aqui","r":"adv"},{"t":"nesta","r":"pron"},{"t":"pasta","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Falso amigo: de map é a pasta de documentos, não o mapa (mapa é de kaart)."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"wijkagent","r":"noun"},{"t":"komt","r":"verb"},{"t":"binnen","r":"prep"},{"t":"een","r":"art"},{"t":"paar","r":"noun"},{"t":"weken","r":"noun"},{"t":"langs","r":"part"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"woonstcontrole","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"policial","r":"noun"},{"t":"do","r":"prep"},{"t":"bairro","r":"noun"},{"t":"passa","r":"verb"},{"t":"na","r":"prep"},{"t":"sua","r":"pron"},{"t":"casa","r":"noun"},{"t":"dentro","r":"prep"},{"t":"de","r":"prep"},{"t":"algumas","r":"adj"},{"t":"semanas","r":"noun"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"checagem","r":"noun"},{"t":"de","r":"prep"},{"t":"residência","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o agente-de-bairro vem dentro de um par de semanas ao-longo para o controle-de-moradia",
+      "note": "langskomen (passar na casa) se separa: komt ... langs. E ele vem sem hora marcada!"
+    },
+    {
+      "nl": [{"t":"U","r":"pron"},{"t":"moet","r":"verb"},{"t":"de","r":"art"},{"t":"huurwaarborg","r":"noun"},{"t":"op","r":"prep"},{"t":"een","r":"art"},{"t":"geblokkeerde","r":"adj"},{"t":"rekening","r":"noun"},{"t":"storten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"pron"},{"t":"senhor","r":"pron"},{"t":"deve","r":"verb"},{"t":"depositar","r":"verb"},{"t":"a","r":"art"},{"t":"caução","r":"noun"},{"t":"em","r":"prep"},{"t":"uma","r":"art"},{"t":"conta","r":"noun"},{"t":"bloqueada","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "o senhor deve a caução em uma bloqueada conta depositar",
+      "note": "Pinça de novo: moet ... storten. E o adjetivo vem ANTES do substantivo: geblokkeerde rekening."
+    },
+    {
+      "nl": [{"t":"Vergeet","r":"verb"},{"t":"de","r":"art"},{"t":"brandverzekering","r":"noun"},{"t":"niet","r":"neg"},{"t":",","r":"punc"},{"t":"die","r":"pron"},{"t":"is","r":"verb"},{"t":"verplicht","r":"adj"},{"t":"in","r":"prep"},{"t":"Vlaanderen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"esqueça","r":"verb"},{"t":"o","r":"art"},{"t":"seguro","r":"noun"},{"t":"contra","r":"prep"},{"t":"incêndio","r":"noun"},{"t":",","r":"punc"},{"t":"ele","r":"pron"},{"t":"é","r":"verb"},{"t":"obrigatório","r":"adj"},{"t":"na","r":"prep"},{"t":"Flandres","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "esqueça o seguro-de-incêndio não, aquele é obrigatório na Flandres",
+      "note": "niet vem DEPOIS do objeto, não antes do verbo como o nosso 'não'."
+    },
+    {
+      "nl": [{"t":"Hoe","r":"qw"},{"t":"lang","r":"adj"},{"t":"is","r":"verb"},{"t":"de","r":"art"},{"t":"opzegtermijn","r":"noun"},{"t":"voor","r":"prep"},{"t":"dit","r":"pron"},{"t":"appartement","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Qual","r":"qw"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"prazo","r":"noun"},{"t":"de","r":"prep"},{"t":"aviso","r":"noun"},{"t":"prévio","r":"adj"},{"t":"para","r":"prep"},{"t":"este","r":"pron"},{"t":"apartamento","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "quão longo é o prazo-de-rescisão para este apartamento?",
+      "note": "hoe + adjetivo = 'quão': hoe lang (quanto tempo), hoe duur (quão caro), hoe oud (quantos anos)."
+    },
+    {
+      "nl": [{"t":"Zonder","r":"prep"},{"t":"plaatsbeschrijving","r":"noun"},{"t":"krijgt","r":"verb"},{"t":"u","r":"pron"},{"t":"uw","r":"pron"},{"t":"waarborg","r":"noun"},{"t":"misschien","r":"adv"},{"t":"niet","r":"neg"},{"t":"terug","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sem","r":"prep"},{"t":"a","r":"art"},{"t":"vistoria","r":"noun"},{"t":"de","r":"prep"},{"t":"entrada","r":"noun"},{"t":",","r":"punc"},{"t":"talvez","r":"adv"},{"t":"o","r":"pron"},{"t":"senhor","r":"pron"},{"t":"não","r":"neg"},{"t":"receba","r":"verb"},{"t":"sua","r":"pron"},{"t":"caução","r":"noun"},{"t":"de","r":"part"},{"t":"volta","r":"part"},{"t":".","r":"punc"}],
+      "lit": "sem descrição-do-lugar recebe o senhor sua garantia talvez não de-volta",
+      "note": "Regra V2: a frase começou com 'Zonder plaatsbeschrijving', então o verbo vem em 2º e o sujeito u depois. terug = a partícula do 'de volta'."
+    },
+    {
+      "nl": [{"t":"Na","r":"prep"},{"t":"de","r":"art"},{"t":"woonstcontrole","r":"noun"},{"t":"mag","r":"verb"},{"t":"u","r":"pron"},{"t":"uw","r":"pron"},{"t":"verblijfskaart","r":"noun"},{"t":"op","r":"prep"},{"t":"het","r":"art"},{"t":"gemeentehuis","r":"noun"},{"t":"afhalen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Depois","r":"prep"},{"t":"da","r":"prep"},{"t":"checagem","r":"noun"},{"t":"de","r":"prep"},{"t":"residência","r":"noun"},{"t":",","r":"punc"},{"t":"o","r":"pron"},{"t":"senhor","r":"pron"},{"t":"pode","r":"verb"},{"t":"retirar","r":"verb"},{"t":"seu","r":"pron"},{"t":"cartão","r":"noun"},{"t":"de","r":"prep"},{"t":"residência","r":"noun"},{"t":"na","r":"prep"},{"t":"prefeitura","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "depois da checagem-de-moradia pode o senhor seu cartão-de-residência na prefeitura retirar",
+      "note": "V2 + pinça juntos: mag em 2º lugar, afhalen lá no fim. afhalen = af (fora) + halen (buscar)."
+    },
+    {
+      "nl": [{"t":"Met","r":"prep"},{"t":"uw","r":"pron"},{"t":"rijksregisternummer","r":"noun"},{"t":"en","r":"conj"},{"t":"uw","r":"pron"},{"t":"eID","r":"noun"},{"t":"kunt","r":"verb"},{"t":"u","r":"pron"},{"t":"itsme","r":"noun"},{"t":"activeren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Com","r":"prep"},{"t":"seu","r":"pron"},{"t":"número","r":"noun"},{"t":"de","r":"prep"},{"t":"registro","r":"noun"},{"t":"nacional","r":"adj"},{"t":"e","r":"conj"},{"t":"seu","r":"pron"},{"t":"eID","r":"noun"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"pode","r":"verb"},{"t":"ativar","r":"verb"},{"t":"o","r":"art"},{"t":"itsme","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "com seu número-de-registro-do-reino e seu eID pode você itsme ativar",
+      "note": "O rijksregisternummer é o seu CPF belga; o itsme abre todos os portais do governo com um toque no gsm. 📱"
+    }
+  ],
+  "vocab": [
+    { "nl": "het gemeentehuis", "art": "het", "split": "gemeente (município) + huis (casa)", "pt": "prefeitura, a casa do município", "emoji": "🏢" },
+    { "nl": "de dienst vreemdelingenzaken", "art": "de", "split": "dienst (serviço) + vreemdelingen (estrangeiros) + zaken (assuntos)", "pt": "departamento de imigração, o guichê para não-belgas", "emoji": "🛂" },
+    { "nl": "de verblijfskaart", "art": "de", "split": "verblijf (estadia, de ver + blijven, ficar) + s + kaart (cartão)", "pt": "cartão de residência (A-kaart, EU-kaart...)", "emoji": "💳" },
+    { "nl": "het rijksregisternummer", "art": "het", "split": "rijk (Estado, reino) + s + register (registro) + nummer (número)", "pt": "número de registro nacional, o CPF belga", "emoji": "🔢" },
+    { "nl": "de woonstcontrole", "art": "de", "split": "woonst (moradia, palavra flamenga) + controle (controle)", "pt": "checagem de residência feita pelo policial do bairro", "emoji": "👮" },
+    { "nl": "de wijkagent", "art": "de", "split": "wijk (bairro) + agent (policial)", "pt": "policial de bairro", "emoji": "🚔" },
+    { "nl": "de apostille", "art": "de", "split": "do francês, a mesma apostila de Haia do Brasil", "pt": "apostila, legalização internacional de documentos", "emoji": "📜" },
+    { "nl": "het huurcontract", "art": "het", "split": "huur (aluguel) + contract (contrato)", "pt": "contrato de aluguel", "emoji": "📝" },
+    { "nl": "de huurwaarborg", "art": "de", "split": "huur (aluguel) + waarborg (garantia)", "pt": "caução do aluguel, 2 a 3 meses em conta bloqueada", "emoji": "💰" },
+    { "nl": "de geblokkeerde rekening", "art": "de", "split": "geblokkeerd (bloqueada) + rekening (conta)", "pt": "conta bloqueada onde a caução fica guardada", "emoji": "🔒" },
+    { "nl": "de plaatsbeschrijving", "art": "de", "split": "plaats (lugar) + beschrijving (descrição, de be + schrijven, escrever)", "pt": "vistoria do imóvel na entrada, assinada e com fotos", "emoji": "📸" },
+    { "nl": "de brandverzekering", "art": "de", "split": "brand (incêndio) + verzekering (seguro, de zeker, certo)", "pt": "seguro contra incêndio, obrigatório na Flandres", "emoji": "🔥" },
+    { "nl": "de opzegtermijn", "art": "de", "split": "opzeg (de opzeggen, rescindir) + termijn (prazo)", "pt": "prazo de aviso prévio do aluguel", "emoji": "📆" },
+    { "nl": "de verhuurder", "art": "de", "split": "ver (para fora) + huur (aluguel) + der (quem faz)", "pt": "senhorio, quem aluga para fora (o inquilino é de huurder)", "emoji": "🧑‍💼" },
+    { "nl": "de geboorteakte", "art": "de", "split": "geboorte (nascimento) + akte (certidão)", "pt": "certidão de nascimento", "emoji": "👶" },
+    { "nl": "zich inschrijven", "art": null, "split": "in (para dentro) + schrijven (escrever)", "pt": "registrar-se, 'escrever-se para dentro' do registro", "emoji": "✍️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que é o rijksregisternummer? 🤔",
+      "options": ["O número do seu contrato de aluguel", "A senha do app itsme", "O 'CPF belga': seu número nacional para tudo", "O número da conta bloqueada da caução"],
+      "answer": 2,
+      "explain": "rijk (Estado) + s + register (registro) + nummer (número): o número de registro nacional. Você recebe um ao se inscrever na gemeente e usa em tudo: banco, trabalho, ziekenkas."
+    },
+    {
+      "type": "mc",
+      "q": "Quem aparece na sua casa, sem hora marcada, algumas semanas depois da inscrição? 👮",
+      "options": ["O syndicus, para cobrar o condomínio", "O wijkagent, para a woonstcontrole", "O verhuurder, para a plaatsbeschrijving", "Um funcionário da dienst vreemdelingenzaken"],
+      "answer": 1,
+      "explain": "wijk (bairro) + agent (policial): o policial do bairro confirma que você mora mesmo no endereço declarado. Só depois disso sai a sua verblijfskaart."
+    },
+    {
+      "type": "mc",
+      "q": "Como a huurwaarborg deve ser paga na Flandres? 💰",
+      "options": ["Em dinheiro vivo na mão do senhorio", "Transferida por Wero para o síndico", "Depositada em uma conta bloqueada no seu nome", "Não existe caução na Bélgica"],
+      "answer": 2,
+      "explain": "A lei flamenga manda depositar a caução (2 a 3 meses de aluguel) em uma geblokkeerde rekening. Nunca entregue dinheiro vivo: sem a conta bloqueada você perde a proteção legal."
+    },
+    {
+      "type": "mc",
+      "q": "Você assinou um contrato de 9 anos e quer se mudar. O que precisa respeitar? 📆",
+      "options": ["O opzegtermijn: avisar com 3 meses de antecedência", "Nada, pode sair no mesmo dia", "Só avisar o wijkagent", "Pagar a brandverzekering em dobro"],
+      "answer": 0,
+      "explain": "opzeggen (rescindir) + termijn (prazo): no contrato padrão de 9 anos, o inquilino avisa por carta registrada com 3 meses de antecedência."
+    },
+    {
+      "type": "mc",
+      "q": "Por que a plaatsbeschrijving com fotos é tão importante? 📸",
+      "options": ["É o documento que ativa o itsme", "É ela que garante a devolução da sua caução na saída", "Sem ela o wijkagent não pode entrar", "É o contrato de aluguel em si"],
+      "answer": 1,
+      "explain": "plaats (lugar) + beschrijving (descrição): a vistoria assinada registra o estado do imóvel na entrada. Na saída, é ela que prova que os danos não foram seus."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik wil me graag inschrijven in de gemeente.",
+      "options": ["Eu quero cancelar meu contrato de aluguel", "Eu gostaria de me registrar no município", "Eu gostaria de pagar a taxa no balcão"],
+      "answer": 1,
+      "explain": "inschrijven = 'escrever para dentro', registrar-se. wil + graag suaviza o pedido: é o 'gostaria' do neerlandês."
+    },
+    {
+      "type": "listen",
+      "nl": "De wijkagent komt volgende week langs.",
+      "options": ["O policial do bairro passa aqui na semana que vem", "O senhorio vem na semana que vem receber o aluguel", "O síndico passou aqui na semana passada"],
+      "answer": 0,
+      "explain": "langskomen (passar na casa) se separa: komt ... langs. volgende week = semana que vem."
+    },
+    {
+      "type": "listen",
+      "nl": "Vergeet de brandverzekering niet!",
+      "options": ["Não esqueça o contrato de aluguel!", "Não apague o incêndio!", "Não esqueça o seguro contra incêndio!"],
+      "answer": 2,
+      "explain": "brand (incêndio) + verzekering (seguro). Repare que niet vem no fim: Vergeet ... niet, o oposto do nosso 'não esqueça'."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ben net",
+      "after": "naar Antwerpen.",
+      "answer": "verhuisd",
+      "alt": [],
+      "hint": "mudar-se (particípio)",
+      "explain": "verhuizen (mudar de casa) usa zijn no passado: ik ben verhuisd. Verbos de mudança de lugar ou estado pedem zijn, não hebben."
+    },
+    {
+      "type": "fill",
+      "before": "U moet de huurwaarborg op een geblokkeerde rekening",
+      "after": ".",
+      "answer": "storten",
+      "alt": ["zetten"],
+      "hint": "depositar",
+      "explain": "A pinça: moet em 2º lugar, storten (depositar) no fim da frase. No dia a dia, op een rekening zetten também funciona."
+    },
+    {
+      "type": "order",
+      "pt": "Depois da checagem você recebe seu cartão de residência.",
+      "tokens": ["Na", "de", "controle", "krijgt", "u", "uw", "verblijfskaart"],
+      "answer": "Na de controle krijgt u uw verblijfskaart",
+      "explain": "Regra V2: a frase começa com 'Na de controle', então o verbo krijgt fica em 2º lugar e o sujeito u vem depois (inversão)."
+    },
+    {
+      "type": "order",
+      "pt": "O policial do bairro passa na sua casa.",
+      "tokens": ["De", "wijkagent", "komt", "bij", "u", "langs"],
+      "answer": "De wijkagent komt bij u langs",
+      "explain": "langskomen é separável: o verbo komt fica em 2º lugar e a partícula langs vai para o fim. bij u = na sua casa."
+    },
+    {
+      "type": "match",
+      "pairs": [["de huurwaarborg", "a caução"], ["de plaatsbeschrijving", "a vistoria do imóvel"], ["de brandverzekering", "o seguro contra incêndio"], ["de opzegtermijn", "o prazo de aviso prévio"], ["het huurcontract", "o contrato de aluguel"]],
+      "explain": "As 5 palavras do aluguel flamengo, todas compostas: huur + waarborg, plaats + beschrijving, brand + verzekering, opzeg + termijn, huur + contract."
+    },
+    {
+      "type": "match",
+      "pairs": [["het gemeentehuis", "a prefeitura"], ["de wijkagent", "o policial de bairro"], ["de verblijfskaart", "o cartão de residência"], ["de geboorteakte", "a certidão de nascimento"]],
+      "explain": "O kit da inscrição: você leva a geboorteakte com apostila ao gemeentehuis, o wijkagent confirma o endereço e você retira a verblijfskaart."
+    }
+  ]
+}

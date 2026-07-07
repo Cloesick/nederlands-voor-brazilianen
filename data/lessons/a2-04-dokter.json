@@ -1,0 +1,215 @@
+{
+  "id": "a2-04-dokter",
+  "unit": "A2",
+  "title": "Médico e farmácia · Bij de dokter",
+  "emoji": "🏥",
+  "teaching": [
+    {
+      "emoji": "🩺",
+      "title": "🩺 O huisarts: a porta de entrada",
+      "html": "<p>Na Flandres você não vai direto ao especialista: quase tudo começa no <b>huisarts</b> (huis + arts, o \"médico de casa\"). Ele trata, pede exames e, se preciso, <i>encaminha</i> (doorverwijzen).</p><ul><li>💶 Consulta ± <b>€30 a €35</b>, e a ziekenkas devolve a maior parte depois.</li><li>📞 Marca-se por telefone ou pelo site da praktijk: <i>\"Ik wil graag een afspraak maken.\"</i></li><li>📂 Dica de ouro: registre um huisarts fixo no <b>GMD</b> (Globaal Medisch Dossier). Você paga menos remgeld e seu histórico fica centralizado.</li></ul>"
+    },
+    {
+      "emoji": "💶",
+      "title": "💶 Ziekenkas, remgeld e o klevertje",
+      "html": "<p>Todo mundo na Bélgica deve se filiar a uma <b>mutualiteit</b>, popularmente <b>ziekenkas</b> (zieken + kas, a \"caixa dos doentes\"): CM, Helan... Sem filiação, sem reembolso!</p><table class=\"vocab\"><tr><th>passo</th><th>o que acontece</th></tr><tr><td>1️⃣ Você paga</td><td>a consulta do huisarts, ± €30 a €35</td></tr><tr><td>2️⃣ Terugbetaling</td><td>a ziekenkas devolve a maior parte na sua conta</td></tr><tr><td>3️⃣ Remgeld</td><td>sobra só ± €4 a €6: rem (freio) + geld (dinheiro), o \"dinheiro de freio\" contra consultas desnecessárias</td></tr></table><p>🏷️ E o fenômeno mais belga de todos: os <b>klevertjes</b>, adesivos com seus dados que você cola em recibos e documentos médicos. <small>Na farmácia, com a derdebetalersregeling, o desconto já vem aplicado na hora: você só paga o remgeld.</small></p>"
+    },
+    {
+      "emoji": "🤒",
+      "title": "🤒 Sintomas: você TEM dor, mas ESTÁ resfriado",
+      "html": "<p>Em neerlandês, dor e febre se <b>têm</b> (hebben), bem parecido com o \"eu tenho dor\" do português:</p><ul><li><b>Ik heb hoofdpijn.</b> = Estou com dor de cabeça.</li><li><b>Ik heb koorts.</b> = Estou com febre.</li><li><b>Ik ben verkouden.</b> = Estou resfriado (adjetivo, então com zijn!).</li></ul><p>O padrão <b>[parte do corpo] + pijn</b> gera tudo: hoofdpijn, keelpijn (garganta), buikpijn (barriga), rugpijn (costas). Repare que a ordem inverte o PT: \"cabeça-dor\" em vez de \"dor de cabeça\".</p>"
+    },
+    {
+      "emoji": "📞",
+      "title": "📞 Marcar por telefone + números que salvam",
+      "html": "<p>Ao telefone, o assistente atende com <i>\"Waarmee kan ik u helpen?\"</i> e oferece um horário. Atenção redobrada com as horas: <b>half drie = 14h30</b>, meia hora ANTES das três, nunca depois!</p><ul><li>🚨 <b>112</b>: emergência médica</li><li>🌙 <b>1733</b>: médico de plantão (wachtdienst) à noite e no fim de semana</li><li>💊 <b>apotheek.be</b>: mostra qual farmácia está de plantão agora</li></ul><p><small>Na farmácia a receita é eletrônica: o huisarts grava no sistema e o apotheker lê tudo pelo seu eID. Pague com a bankkaart ou pelo app Wero.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"hoofdpijn","r":"noun"},{"t":"en","r":"conj"},{"t":"koorts","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"estou","r":"verb"},{"t":"com","r":"prep"},{"t":"dor","r":"noun"},{"t":"de","r":"prep"},{"t":"cabeça","r":"noun"},{"t":"e","r":"conj"},{"t":"febre","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho cabeça-dor e febre",
+      "note": "Em NL a dor é algo que você TEM: ik heb pijn. E hoofdpijn inverte o PT: cabeça + dor."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"verkouden","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"estou","r":"verb"},{"t":"resfriado","r":"adj"},{"t":".","r":"punc"}],
+      "note": "koorts e pijn usam hebben, mas verkouden é adjetivo e usa zijn, igual ao \"estar resfriado\" do PT."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"graag","r":"adv"},{"t":"een","r":"art"},{"t":"afspraak","r":"noun"},{"t":"maken","r":"verb"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"huisarts","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"marcar","r":"verb"},{"t":"uma","r":"art"},{"t":"consulta","r":"noun"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"clínico","r":"noun"},{"t":"geral","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu quero com-prazer uma consulta fazer com o médico-de-casa",
+      "note": "A pinça: wil na posição 2, maken no fim da frase. wil graag = a fórmula educada para \"gostaria\"."
+    },
+    {
+      "nl": [{"t":"Goedemorgen","r":"x"},{"t":",","r":"punc"},{"t":"praktijk","r":"noun"},{"t":"van","r":"prep"},{"t":"dokter","r":"noun"},{"t":"Peeters","r":"noun"},{"t":",","r":"punc"},{"t":"waarmee","r":"qw"},{"t":"kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"u","r":"pron"},{"t":"helpen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Bom","r":"x"},{"t":"dia","r":"x"},{"t":",","r":"punc"},{"t":"consultório","r":"noun"},{"t":"do","r":"prep"},{"t":"doutor","r":"noun"},{"t":"Peeters","r":"noun"},{"t":",","r":"punc"},{"t":"em","r":"prep"},{"t":"que","r":"qw"},{"t":"posso","r":"verb"},{"t":"ajudar","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "bom-dia, consultório de doutor Peeters, com-quê posso eu o-senhor ajudar?",
+      "note": "waarmee = waar + mee, literalmente \"com o quê\". É assim que atendem o telefone na Flandres."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"voel","r":"verb"},{"t":"me","r":"pron"},{"t":"niet","r":"neg"},{"t":"goed","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"não","r":"neg"},{"t":"estou","r":"verb"},{"t":"me","r":"pron"},{"t":"sentindo","r":"verb"},{"t":"bem","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu sinto me não bem",
+      "note": "O niet vem DEPOIS do verbo; o não do português vem antes. Ordem invertida!"
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"vandaag","r":"adv"},{"t":"nog","r":"adv"},{"t":"langskomen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"passar","r":"verb"},{"t":"aí","r":"adv"},{"t":"ainda","r":"adv"},{"t":"hoje","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "posso eu hoje ainda passar-por-aí?",
+      "note": "Pergunta sim/não começa com o verbo, como em PT. langskomen = langs + komen, \"vir por perto\"."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"dokter","r":"noun"},{"t":"heeft","r":"verb"},{"t":"om","r":"prep"},{"t":"half","r":"num"},{"t":"drie","r":"num"},{"t":"een","r":"art"},{"t":"plekje","r":"noun"},{"t":"vrij","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"médico","r":"noun"},{"t":"tem","r":"verb"},{"t":"um","r":"art"},{"t":"horário","r":"noun"},{"t":"livre","r":"adj"},{"t":"às","r":"prep"},{"t":"duas","r":"num"},{"t":"e","r":"conj"},{"t":"meia","r":"num"},{"t":".","r":"punc"}],
+      "lit": "o médico tem à metade-três um lugarzinho livre",
+      "note": "half drie = 14h30, meia hora ANTES das três! E plekje = plek + je, \"lugarzinho\"."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"huisarts","r":"noun"},{"t":"heeft","r":"verb"},{"t":"het","r":"art"},{"t":"recept","r":"noun"},{"t":"op","r":"prep"},{"t":"mijn","r":"pron"},{"t":"eID","r":"noun"},{"t":"gezet","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"médico","r":"noun"},{"t":"colocou","r":"verb"},{"t":"a","r":"art"},{"t":"receita","r":"noun"},{"t":"no","r":"prep"},{"t":"meu","r":"pron"},{"t":"eID","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o médico tem a receita no meu eID colocado",
+      "note": "Passado composto: heeft ... gezet. O particípio fecha a frase, outra pinça."
+    },
+    {
+      "nl": [{"t":"Mag","r":"verb"},{"t":"ik","r":"pron"},{"t":"uw","r":"pron"},{"t":"identiteitskaart","r":"noun"},{"t":"even","r":"adv"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Pode","r":"verb"},{"t":"me","r":"pron"},{"t":"dar","r":"verb"},{"t":"o","r":"art"},{"t":"seu","r":"pron"},{"t":"cartão","r":"noun"},{"t":"de","r":"prep"},{"t":"identidade","r":"noun"},{"t":"rapidinho","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "posso eu seu cartão-de-identidade rapidinho?",
+      "note": "Mag ik ... even? = fórmula educadíssima; o verbo \"dar\" fica implícito em NL."
+    },
+    {
+      "nl": [{"t":"U","r":"pron"},{"t":"betaalt","r":"verb"},{"t":"enkel","r":"adv"},{"t":"het","r":"art"},{"t":"remgeld","r":"noun"},{"t":":","r":"punc"},{"t":"vier","r":"num"},{"t":"euro","r":"noun"},{"t":"tachtig","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"paga","r":"verb"},{"t":"só","r":"adv"},{"t":"a","r":"art"},{"t":"coparticipação","r":"noun"},{"t":":","r":"punc"},{"t":"quatro","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"oitenta","r":"num"},{"t":".","r":"punc"}],
+      "note": "enkel = \"só\" bem flamengo (na Holanda dizem alleen). U é o tratamento formal padrão com clientes."
+    },
+    {
+      "nl": [{"t":"Neem","r":"verb"},{"t":"twee","r":"num"},{"t":"keer","r":"noun"},{"t":"per","r":"prep"},{"t":"dag","r":"noun"},{"t":"één","r":"num"},{"t":"tablet","r":"noun"},{"t":"in","r":"part"},{"t":",","r":"punc"},{"t":"tijdens","r":"prep"},{"t":"het","r":"art"},{"t":"eten","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Tome","r":"verb"},{"t":"um","r":"num"},{"t":"comprimido","r":"noun"},{"t":"duas","r":"num"},{"t":"vezes","r":"noun"},{"t":"por","r":"prep"},{"t":"dia","r":"noun"},{"t":",","r":"punc"},{"t":"durante","r":"prep"},{"t":"as","r":"art"},{"t":"refeições","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "tome duas vezes por dia um comprimido para-dentro, durante o comer",
+      "note": "innemen (tomar remédio) é separável: a partícula in viaja sozinha para o fim da frase."
+    },
+    {
+      "nl": [{"t":"Vergeet","r":"verb"},{"t":"uw","r":"pron"},{"t":"klevertje","r":"noun"},{"t":"van","r":"prep"},{"t":"de","r":"art"},{"t":"ziekenkas","r":"noun"},{"t":"niet","r":"neg"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"esqueça","r":"verb"},{"t":"seu","r":"pron"},{"t":"adesivo","r":"noun"},{"t":"do","r":"prep"},{"t":"plano","r":"noun"},{"t":"!","r":"punc"}],
+      "lit": "esqueça seu coladinho da caixa-dos-doentes não!",
+      "note": "No imperativo o niet fecha a frase; em PT o não abre. Espelho perfeito."
+    }
+  ],
+  "vocab": [
+    { "nl": "de huisarts", "art": "de", "split": "huis (casa) + arts (médico)", "pt": "clínico geral, médico de família", "emoji": "🩺" },
+    { "nl": "de afspraak", "art": "de", "split": "af (fechado, combinado) + spraak (fala): o que foi falado e fechado", "pt": "consulta marcada, compromisso", "emoji": "📅" },
+    { "nl": "de hoofdpijn", "art": "de", "split": "hoofd (cabeça) + pijn (dor)", "pt": "dor de cabeça", "emoji": "🤕" },
+    { "nl": "de koorts", "art": "de", "split": "palavra própria, sem parentes: decore!", "pt": "febre", "emoji": "🌡️" },
+    { "nl": "verkouden", "art": null, "split": "ver- (mudança) + koud (frio): literalmente \"esfriado\"", "pt": "resfriado (adjetivo, usa zijn)", "emoji": "🤧" },
+    { "nl": "de ziekenkas", "art": "de", "split": "zieken (doentes) + kas (caixa): a \"caixa dos doentes\"", "pt": "plano de saúde belga (mutualiteit: CM, Helan...)", "emoji": "🏦" },
+    { "nl": "het remgeld", "art": "het", "split": "rem (freio) + geld (dinheiro): \"dinheiro de freio\"", "pt": "coparticipação, a parte que fica por sua conta", "emoji": "🚦" },
+    { "nl": "het klevertje", "art": "het", "split": "klever (que cola, de kleven) + -tje (-inho): \"coladinho\"", "pt": "adesivo do plano com seus dados", "emoji": "🏷️" },
+    { "nl": "de terugbetaling", "art": "de", "split": "terug (de volta) + betaling (pagamento)", "pt": "reembolso, \"pagamento de volta\"", "emoji": "💰" },
+    { "nl": "het voorschrift", "art": "het", "split": "voor (antes) + schrift (escrito): \"pré-escrito\", igual a prescrição", "pt": "receita médica (também: het recept)", "emoji": "📝" },
+    { "nl": "de apotheek", "art": "de", "split": "do grego apotheke (depósito), prima da nossa \"botica\"", "pt": "farmácia", "emoji": "💊" },
+    { "nl": "de apotheker", "art": "de", "split": "apotheek (farmácia) + -er (quem faz)", "pt": "farmacêutico", "emoji": "🧑‍⚕️" },
+    { "nl": "de wachtdienst", "art": "de", "split": "wacht (plantão, espera) + dienst (serviço)", "pt": "plantão médico ou de farmácia (noites, fins de semana)", "emoji": "🌙" },
+    { "nl": "de spoedafdeling", "art": "de", "split": "spoed (urgência) + afdeling (departamento)", "pt": "pronto-socorro (na fala: \"de spoed\")", "emoji": "🚑" },
+    { "nl": "het ziekenhuis", "art": "het", "split": "zieken (doentes) + huis (casa)", "pt": "hospital, a \"casa dos doentes\"", "emoji": "🏥" },
+    { "nl": "innemen", "art": null, "split": "in (para dentro) + nemen (pegar): verbo separável", "pt": "tomar (remédio)", "emoji": "⏰" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que é o remgeld? 🚦",
+      "options": ["O valor total da consulta", "A pequena parte que fica por sua conta", "A mensalidade do plano de saúde", "Uma multa por faltar à consulta"],
+      "answer": 1,
+      "explain": "rem (freio) + geld (dinheiro): o \"dinheiro de freio\" é a parte simbólica que você paga do próprio bolso (± €4 a €6 no clínico geral). O resto a ziekenkas devolve."
+    },
+    {
+      "type": "mc",
+      "q": "Você fica doente na Flandres. Quem você procura PRIMEIRO? 🤒",
+      "options": ["O especialista no hospital", "O pronto-socorro (de spoed)", "O huisarts (clínico geral)", "O farmacêutico"],
+      "answer": 2,
+      "explain": "O huisarts é a porta de entrada do sistema belga: ele resolve a maioria dos casos e encaminha ao especialista quando necessário. A spoed é só para emergências reais."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb hoofdpijn en koorts.",
+      "options": ["Estou com dor de cabeça e febre", "Estou com dor de garganta e tosse", "Estou resfriado e cansado"],
+      "answer": 0,
+      "explain": "hoofdpijn = hoofd (cabeça) + pijn (dor); koorts = febre. E repare: em NL você TEM (heb) a dor e a febre."
+    },
+    {
+      "type": "listen",
+      "nl": "De dokter heeft om half drie een plekje vrij.",
+      "options": ["O médico tem horário livre às 15h30", "O médico tem horário livre às 14h30", "O médico tem horário livre às 3h da manhã"],
+      "answer": 1,
+      "explain": "half drie = meia hora ANTES das três = 14h30. É a pegadinha clássica do neerlandês: nunca meia hora depois!"
+    },
+    {
+      "type": "listen",
+      "nl": "U betaalt enkel het remgeld: vier euro tachtig.",
+      "options": ["Você paga só a coparticipação: €4,80", "Você paga o total: €40,80", "Hoje você não paga nada"],
+      "answer": 0,
+      "explain": "enkel = só (bem flamengo!) e vier euro tachtig = €4,80. A ziekenkas já descontou o resto na hora, via derdebetalersregeling."
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "koorts en hoofdpijn.",
+      "answer": "heb",
+      "alt": [],
+      "hint": "em NL você TEM febre",
+      "explain": "Sintomas usam hebben: ik heb koorts, ik heb pijn. Igualzinho ao \"eu tenho dor\" do português."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ben",
+      "after": ".",
+      "answer": "verkouden",
+      "alt": [],
+      "hint": "resfriado",
+      "explain": "verkouden é adjetivo, então usa zijn (estar): ik ben verkouden. Mas febre e dor usam hebben!"
+    },
+    {
+      "type": "fill",
+      "before": "Neem twee keer per dag één tablet",
+      "after": ", tijdens het eten.",
+      "answer": "in",
+      "alt": [],
+      "hint": "verbo separável: innemen",
+      "explain": "innemen (tomar remédio) é separável: neem ... in. A partícula in viaja sozinha para o fim da frase."
+    },
+    {
+      "type": "order",
+      "pt": "Posso passar aí ainda hoje?",
+      "tokens": ["Kan", "ik", "vandaag", "nog", "langskomen"],
+      "answer": "Kan ik vandaag nog langskomen",
+      "explain": "Pergunta sim/não: o verbo conjugado abre a frase (Kan ik...?) e o infinitivo langskomen fecha. A pinça em ação!"
+    },
+    {
+      "type": "order",
+      "pt": "Eu gostaria de marcar uma consulta.",
+      "tokens": ["Ik", "wil", "graag", "een", "afspraak", "maken"],
+      "answer": "Ik wil graag een afspraak maken",
+      "explain": "wil na posição 2, maken no fim: a pinça verbal. E wil graag é a fórmula educada para \"gostaria\"."
+    },
+    {
+      "type": "match",
+      "pairs": [["de hoofdpijn", "a dor de cabeça"], ["de koorts", "a febre"], ["het klevertje", "o adesivo do plano"], ["de wachtdienst", "o plantão médico"], ["het ziekenhuis", "o hospital"]],
+      "explain": "Repare nos compostos: hoofd + pijn (cabeça + dor, ordem invertida do PT), zieken + huis (casa dos doentes), wacht + dienst (serviço de plantão)."
+    },
+    {
+      "type": "mc",
+      "q": "Na farmácia, como o apotheker encontra sua receita eletrônica? 💊",
+      "options": ["Lendo o seu eID no sistema", "Você precisa levar a receita impressa", "Pelo seu número de telefone", "Pela carteirinha do plano brasileiro"],
+      "answer": 0,
+      "explain": "O huisarts grava o recept no sistema nacional; na apotheek basta apresentar o eID e tudo aparece na tela. Sem papel!"
+    },
+    {
+      "type": "mc",
+      "q": "Para que serve o klevertje? 🏷️",
+      "options": ["Fechar a caixa do remédio", "Colar seus dados da ziekenkas em documentos médicos", "Identificar sua bagagem no hospital", "Pagar o estacionamento do hospital"],
+      "answer": 1,
+      "explain": "klever (que cola) + -tje (-inho): o \"coladinho\" traz seus dados de filiação e vai colado em recibos (getuigschriften) e papéis do plano."
+    }
+  ]
+}

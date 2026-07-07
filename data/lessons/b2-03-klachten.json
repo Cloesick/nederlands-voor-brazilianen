@@ -1,0 +1,221 @@
+{
+  "id": "b2-03-klachten",
+  "unit": "B2",
+  "title": "Reclamar com classe · Een klacht indienen",
+  "emoji": "☎️",
+  "teaching": [
+    {
+      "emoji": "🧾",
+      "title": "🧾 A jaarafrekening: o acerto anual que assusta todo imigrante",
+      "html": "<p>No Brasil, a conta de luz chega todo mês com o valor exato do consumo. Na Flandres o sistema é diferente: você paga todo mês um <b>voorschot</b> (uma parcela fixa adiantada) e, uma vez por ano, o fornecedor faz o acerto: a famosa <b>jaarafrekening</b>.</p><ul><li>💶 <b>Voorschot</b> = voor (antes) + schot (tiro): você \"atira\" o dinheiro antes, todo mês.</li><li>🔢 <b>Meterstand</b> = a leitura do medidor. Você mesmo informa os números, pelo app ou pelo site da Fluvius.</li><li>🧾 <b>Jaarafrekening</b> = o acerto: pagou de menos? Vem boleto extra. Pagou de mais? Vem dinheiro de volta.</li></ul><p>⚠️ O perigo: se você esquece de informar a meterstand, o fornecedor <b>estima</b> (schat) o consumo. E uma estimativa errada pode gerar uma cobrança surpresa de centenas de euros. É exatamente essa a briga desta lição: 480 euros cobrados a mais!</p>"
+    },
+    {
+      "emoji": "🧊",
+      "title": "🧊 Firme, mas educado: o kit flamengo de reclamação",
+      "html": "<p>O flamengo reclama <i>sem levantar a voz</i>. A força está no vocabulário formal, não no volume. Compare com o PT-BR, onde a gente amacia com \"será que você podia...\". Em NL, o kit é:</p><table class=\"vocab\"><tr><th>🇧🇪 Frase</th><th>O que ela faz</th></tr><tr><td><b>Ik bel in verband met...</b></td><td>abre a ligação com registro formal: \"ligo a respeito de...\"</td></tr><tr><td><b>Dat klopt volgens mij niet.</b></td><td>discorda sem acusar: \"na minha opinião, não confere\"</td></tr><tr><td><b>Ik zou willen vragen dat...</b></td><td>exige com condicional: firme e cortês ao mesmo tempo</td></tr><tr><td><b>...aangezien de fout niet bij mij ligt.</b></td><td>fecha a porta: \"visto que o erro não é meu\"</td></tr></table><p>💡 Repare no padrão: <b>fato + pedido + justificativa</b>. Nada de \"absurdo!\" ou \"vergonha!\": na Flandres, quem perde a calma perde a razão. Os flamengos chamam isso de <i>met twee woorden spreken</i> (falar com educação).</p>"
+    },
+    {
+      "emoji": "🔧",
+      "title": "🔧 A gramática da reclamação: passiva e verbo no fim",
+      "html": "<p>Três engrenagens gramaticais fazem a reclamação B2 funcionar:</p><ul><li>⚙️ <b>Passiva com werden:</b> <i>De meterstand <b>werd geschat</b></i> = \"a leitura <b>foi estimada</b>\". Igualzinho ao PT: werd = foi, geschat = estimada. Use a passiva para culpar o processo, não a pessoa.</li><li>⚙️ <b>Verbo no fim depois de dat / zodat / aangezien:</b> <i>Ik zou willen vragen dat de afrekening herberekend <b>wordt</b></i>. Na oração subordinada, o verbo conjugado vai para o FIM. Em PT ele fica no meio: \"que a fatura <b>seja</b> recalculada\".</li><li>⚙️ <b>A pinça do perfeito:</b> <i>Ik <b>heb</b> de meterstand vorige week <b>doorgegeven</b></i>. O auxiliar heb segura a frase na posição 2 e o particípio doorgegeven fecha a pinça lá no fim.</li></ul><p>🎯 Junte as três e você soa como quem já ganhou a discussão antes de ela começar.</p>"
+    },
+    {
+      "emoji": "🖋️",
+      "title": "🖋️ Zwart op wit: sem e-mail, não aconteceu",
+      "html": "<p>Regra de ouro belga: promessa por telefone não vale nada. Sempre feche a ligação pedindo confirmação por escrito:</p><ul><li>📧 <b>Graag een bevestiging per e-mail</b> = \"uma confirmação por e-mail, por gentileza\". O <i>graag</i> sozinho já é um pedido educado, muito usado na Flandres.</li><li>🖋️ <b>Zwart op wit</b> = \"preto no branco\": ter tudo por escrito. A mesma imagem existe em PT!</li><li>📆 <b>Binnen de tien werkdagen</b> = em até dez dias úteis. O <i>de</i> antes do número é tipicamente belga.</li></ul><p>E se nada acontecer? A escada flamenga: 1️⃣ reclamação por escrito ao fornecedor (<i>een klacht indienen</i>, de preferência por <i>aangetekende brief</i>, carta registrada), 2️⃣ a <b>Ombudsdienst voor Energie</b>, o serviço federal gratuito que media conflitos de energia. Com tudo zwart op wit, você quase sempre ganha. 💪</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Goedemiddag","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"vraag","r":"noun"},{"t":"over","r":"prep"},{"t":"mijn","r":"pron"},{"t":"factuur","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Boa","r":"x"},{"t":"tarde","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"uma","r":"art"},{"t":"pergunta","r":"noun"},{"t":"sobre","r":"prep"},{"t":"a","r":"art"},{"t":"minha","r":"pron"},{"t":"fatura","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Abertura neutra e segura para qualquer ligação. Em NL o possessivo dispensa artigo: mijn factuur, nunca 'de mijn factuur'."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"fout","r":"noun"},{"t":"ligt","r":"verb"},{"t":"niet","r":"neg"},{"t":"bij","r":"prep"},{"t":"mij","r":"pron"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"erro","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"meu","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "o erro deita não junto de mim",
+      "note": "Em NL a culpa 'deita' em algum lugar: de fout ligt bij... É a forma padrão de dizer de quem é a responsabilidade."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"bedrag","r":"noun"},{"t":"klopt","r":"verb"},{"t":"volgens","r":"prep"},{"t":"mij","r":"pron"},{"t":"niet","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Esse","r":"pron"},{"t":"valor","r":"noun"},{"t":",","r":"punc"},{"t":"na","r":"prep"},{"t":"minha","r":"pron"},{"t":"opinião","r":"noun"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"confere","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "esse valor confere segundo mim não",
+      "note": "Kloppen = 'bater, conferir'. O niet vai para o fim da frase. E volgens mij amacia a crítica: você discorda do número, não ataca a pessoa."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"voorschotten","r":"noun"},{"t":"dekten","r":"verb"},{"t":"het","r":"art"},{"t":"verbruik","r":"noun"},{"t":"ruimschoots","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Minhas","r":"pron"},{"t":"parcelas","r":"noun"},{"t":"mensais","r":"adj"},{"t":"cobriam","r":"verb"},{"t":"o","r":"art"},{"t":"consumo","r":"noun"},{"t":"com","r":"prep"},{"t":"folga","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Ruimschoots (ruim = amplo) = 'com folga, de sobra'. Argumento matador na jaarafrekening: se as parcelas cobriam o consumo, a cobrança extra é suspeita."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"bel","r":"verb"},{"t":"in","r":"prep"},{"t":"verband","r":"noun"},{"t":"met","r":"prep"},{"t":"mijn","r":"pron"},{"t":"jaarafrekening","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"ligo","r":"verb"},{"t":"a","r":"prep"},{"t":"respeito","r":"noun"},{"t":"da","r":"prep"},{"t":"minha","r":"pron"},{"t":"fatura","r":"noun"},{"t":"anual","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu ligo em ligação com minha ano-fatura",
+      "note": "🎬 Começa o diálogo! Sofia: in verband met é O conector formal para anunciar o assunto. Grave como bloco fixo: funciona em ligação, e-mail e carta."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"meterstand","r":"noun"},{"t":"werd","r":"verb"},{"t":"geschat","r":"verb"},{"t":"in","r":"prep"},{"t":"plaats","r":"noun"},{"t":"van","r":"prep"},{"t":"opgenomen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"leitura","r":"noun"},{"t":"do","r":"prep"},{"t":"medidor","r":"noun"},{"t":"foi","r":"verb"},{"t":"estimada","r":"verb"},{"t":"em","r":"prep"},{"t":"vez","r":"noun"},{"t":"de","r":"prep"},{"t":"coletada","r":"verb"},{"t":".","r":"punc"}],
+      "note": "O atendente Tom explica o problema. Passiva com werden: werd geschat = foi estimada. In plaats van = em vez de, outro bloco fixo que cai como uma luva."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"de","r":"art"},{"t":"meterstand","r":"noun"},{"t":"vorige","r":"adj"},{"t":"week","r":"noun"},{"t":"doorgegeven","r":"verb"},{"t":"via","r":"prep"},{"t":"de","r":"art"},{"t":"app","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"enviei","r":"verb"},{"t":"a","r":"art"},{"t":"leitura","r":"noun"},{"t":"na","r":"prep"},{"t":"semana","r":"noun"},{"t":"passada","r":"adj"},{"t":"pelo","r":"prep"},{"t":"aplicativo","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho a leitura semana passada através-dado via a app",
+      "note": "Sofia contra-ataca com fatos. A pinça: heb na posição 2, doorgegeven (door + gegeven, 'dado adiante') lá no fim. Tudo o que está no meio fica preso entre os dois."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zou","r":"verb"},{"t":"willen","r":"verb"},{"t":"vragen","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"afrekening","r":"noun"},{"t":"herberekend","r":"verb"},{"t":"wordt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"pedir","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"fatura","r":"noun"},{"t":"seja","r":"verb"},{"t":"recalculada","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "eu deveria querer pedir que a fatura recalculada é",
+      "note": "A frase mais poderosa da lição. Zou willen = 'gostaria': exige sem agredir. E depois de dat, o verbo conjugado (wordt) vai para o FIM da oração."
+    },
+    {
+      "nl": [{"t":"U","r":"pron"},{"t":"ontvangt","r":"verb"},{"t":"binnen","r":"prep"},{"t":"de","r":"art"},{"t":"tien","r":"num"},{"t":"werkdagen","r":"noun"},{"t":"een","r":"art"},{"t":"rechtzetting","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"senhora","r":"pron"},{"t":"recebe","r":"verb"},{"t":"em","r":"prep"},{"t":"até","r":"prep"},{"t":"dez","r":"num"},{"t":"dias","r":"noun"},{"t":"úteis","r":"adj"},{"t":"uma","r":"art"},{"t":"retificação","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "a senhora recebe dentro de os dez dias-de-trabalho uma retificação",
+      "note": "Tom cede. Em NL a expressão de tempo vem ANTES do objeto: binnen de tien werkdagen antes de een rechtzetting. O 'de' antes do número é bem belga."
+    },
+    {
+      "nl": [{"t":"Mag","r":"verb"},{"t":"ik","r":"pron"},{"t":"een","r":"art"},{"t":"bevestiging","r":"noun"},{"t":"per","r":"prep"},{"t":"e-mail","r":"noun"},{"t":",","r":"punc"},{"t":"zodat","r":"conj"},{"t":"ik","r":"pron"},{"t":"alles","r":"pron"},{"t":"zwart","r":"adj"},{"t":"op","r":"prep"},{"t":"wit","r":"adj"},{"t":"heb","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"ter","r":"verb"},{"t":"uma","r":"art"},{"t":"confirmação","r":"noun"},{"t":"por","r":"prep"},{"t":"e-mail","r":"noun"},{"t":",","r":"punc"},{"t":"para","r":"conj"},{"t":"que","r":"conj"},{"t":"eu","r":"pron"},{"t":"tenha","r":"verb"},{"t":"tudo","r":"pron"},{"t":"preto","r":"adj"},{"t":"no","r":"prep"},{"t":"branco","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "posso eu uma confirmação por e-mail, de-modo-que eu tudo preto em branco tenho",
+      "note": "A jogada final de Sofia. Depois de zodat, o verbo (heb) vai para o fim. Na Flandres você também ouve só 'Graag een bevestiging per e-mail': o graag sozinho já pede com educação."
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"nog","r":"adv"},{"t":"iets","r":"pron"},{"t":"anders","r":"adj"},{"t":"voor","r":"prep"},{"t":"u","r":"pron"},{"t":"doen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"fazer","r":"verb"},{"t":"mais","r":"adv"},{"t":"alguma","r":"pron"},{"t":"coisa","r":"noun"},{"t":"pela","r":"prep"},{"t":"senhora","r":"pron"},{"t":"?","r":"punc"}],
+      "lit": "posso eu ainda algo diferente pela senhora fazer",
+      "note": "Fecho padrão de todo atendimento. Outra pinça: kan na frente, doen no fim. Responda 'Voor de rest ben ik geholpen, dank u' e desligue vitorioso."
+    }
+  ],
+  "vocab": [
+    { "nl": "de klacht", "art": "de", "split": null, "pt": "a reclamação, a queixa", "emoji": "📣" },
+    { "nl": "een klacht indienen", "art": null, "split": "in (para dentro) + dienen (entregar, servir)", "pt": "protocolar uma reclamação formal", "emoji": "📨" },
+    { "nl": "de jaarafrekening", "art": "de", "split": "jaar (ano) + af (concluído, quitado) + rekening (conta)", "pt": "fatura anual de acerto (luz/gás)", "emoji": "🧾" },
+    { "nl": "het voorschot", "art": "het", "split": "voor (antes) + schot (de schieten, atirar)", "pt": "parcela mensal adiantada", "emoji": "💶" },
+    { "nl": "de meterstand", "art": "de", "split": "meter (medidor) + stand (posição)", "pt": "leitura do medidor", "emoji": "🔢" },
+    { "nl": "het verbruik", "art": "het", "split": "ver- (prefixo) + bruik (de gebruiken, usar)", "pt": "consumo (de energia)", "emoji": "⚡" },
+    { "nl": "de klantendienst", "art": "de", "split": "klanten (clientes) + dienst (serviço)", "pt": "atendimento ao cliente (palavra belga!)", "emoji": "☎️" },
+    { "nl": "de rechtzetting", "art": "de", "split": "recht (correto, reto) + zetting (colocação)", "pt": "retificação, correção oficial", "emoji": "✅" },
+    { "nl": "de aanmaningskosten", "art": "de", "split": "aanmaning (cobrança, aviso) + s + kosten (custos)", "pt": "taxas de cobrança por atraso", "emoji": "💸" },
+    { "nl": "de werkdag", "art": "de", "split": "werk (trabalho) + dag (dia)", "pt": "dia útil", "emoji": "📆" },
+    { "nl": "de bezorgdheid", "art": "de", "split": "bezorgd (preocupado) + -heid (sufixo -dade)", "pt": "preocupação", "emoji": "😟" },
+    { "nl": "aanrekenen", "art": null, "split": "aan (a, para) + rekenen (calcular)", "pt": "cobrar, lançar na conta", "emoji": "🧮" },
+    { "nl": "herberekenen", "art": null, "split": "her- (de novo) + berekenen (calcular)", "pt": "recalcular", "emoji": "🔁" },
+    { "nl": "doorgeven", "art": null, "split": "door (através, adiante) + geven (dar)", "pt": "transmitir, informar (a leitura)", "emoji": "📲" },
+    { "nl": "in verband met", "art": null, "split": "in (em) + verband (ligação, laço) + met (com)", "pt": "a respeito de, em relação a", "emoji": "🔗" },
+    { "nl": "zwart op wit", "art": null, "split": "zwart (preto) + op (sobre) + wit (branco)", "pt": "preto no branco, por escrito", "emoji": "🖋️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Você liga para a Energiplus por causa da fatura anual. Qual é a abertura formal perfeita? 🤔",
+      "options": ["Hé, er is een probleem met geld!", "Ik bel in verband met mijn jaarafrekening.", "Jij moet mijn factuur repareren.", "Ik wil praten over dingen."],
+      "answer": 1,
+      "explain": "In verband met é o conector formal para anunciar o assunto: 'ligo a respeito de'. As outras opções são rudes (jij + imperativo) ou vagas demais para uma reclamação séria. 🔗"
+    },
+    {
+      "type": "mc",
+      "q": "Na Flandres, o que é exatamente o voorschot da conta de energia? 💶",
+      "options": ["A multa por atraso de pagamento", "O imposto regional sobre energia", "A parcela fixa mensal que você paga adiantado", "O depósito de caução do medidor"],
+      "answer": 2,
+      "explain": "Voor (antes) + schot (tiro): você 'atira' o dinheiro antes, todo mês. No fim do ano, a jaarafrekening compara os voorschotten com o consumo real e acerta a diferença. 🧾"
+    },
+    {
+      "type": "listen",
+      "nl": "Ik bel in verband met mijn jaarafrekening.",
+      "options": ["Ligo a respeito da minha fatura anual.", "Ligo para marcar a visita anual do técnico.", "Ligo para cancelar meu contrato anual."],
+      "answer": 0,
+      "explain": "Bellen = ligar, in verband met = a respeito de, jaarafrekening = jaar (ano) + af + rekening (conta): a fatura anual de acerto. Nada de visita nem cancelamento. ☎️"
+    },
+    {
+      "type": "fill",
+      "before": "Ik bel in",
+      "after": "met mijn jaarafrekening.",
+      "answer": "verband",
+      "alt": [],
+      "hint": "ligação, laço 🔗",
+      "explain": "In VERBAND met: verband = ligação, laço (ver- + band). O trio in verband met é um bloco fixo do registro formal, sempre nessa ordem."
+    },
+    {
+      "type": "mc",
+      "q": "A cobrança veio 480 euros mais alta. Como você discorda do valor SEM agredir o atendente? 🧊",
+      "options": ["U bent een dief!", "Dat is belachelijk!", "Ik betaal nooit!", "Dat bedrag klopt volgens mij niet."],
+      "answer": 3,
+      "explain": "Kloppen = conferir, bater. Volgens mij (na minha opinião) transforma a acusação em discordância educada: você ataca o número, não a pessoa. Quem xinga (dief = ladrão, belachelijk = ridículo) perde a razão na Flandres. 🧊"
+    },
+    {
+      "type": "fill",
+      "before": "De meterstand werd",
+      "after": "in plaats van opgenomen.",
+      "answer": "geschat",
+      "alt": [],
+      "hint": "estimada, chutada 🎲",
+      "explain": "Geschat = particípio de schatten (estimar). Werd geschat = foi estimada: a passiva com werden. É a causa clássica de jaarafrekening errada: leitura estimada em vez de coletada (opgenomen)."
+    },
+    {
+      "type": "order",
+      "pt": "Eu gostaria de pedir que a fatura seja recalculada.",
+      "tokens": ["Ik", "zou", "willen", "vragen", "dat", "de", "afrekening", "herberekend", "wordt"],
+      "answer": "Ik zou willen vragen dat de afrekening herberekend wordt",
+      "explain": "Zou willen vragen = 'gostaria de pedir': o condicional educado. E depois da conjunção dat, o verbo conjugado (wordt) vai para o FIM da oração subordinada. Em PT ele fica no meio: 'que a fatura SEJA recalculada'. 🔚"
+    },
+    {
+      "type": "listen",
+      "nl": "U ontvangt binnen de tien werkdagen een rechtzetting.",
+      "options": ["O senhor deve pagar dentro de dez dias.", "O senhor recebe uma retificação em até dez dias úteis.", "O senhor recebe uma nova fatura todo dia dez.", "O senhor trabalha dez dias por mês."],
+      "answer": 1,
+      "explain": "Ontvangen = receber, rechtzetting = recht (correto) + zetting (colocação): a retificação. Binnen de tien werkdagen = em até dez dias úteis, com o 'de' tipicamente belga antes do número. 📆"
+    },
+    {
+      "type": "order",
+      "pt": "O erro não é meu.",
+      "tokens": ["De", "fout", "ligt", "niet", "bij", "mij"],
+      "answer": "De fout ligt niet bij mij",
+      "explain": "Literalmente 'o erro deita não junto de mim': em NL a culpa liggen bij alguém. O niet vem logo depois do verbo, antes do bloco bij mij. Frase essencial para cancelar aanmaningskosten injustas. ⚖️"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["de meterstand", "a leitura do medidor"],
+        ["het voorschot", "a parcela mensal adiantada"],
+        ["de rechtzetting", "a retificação"],
+        ["de aanmaningskosten", "as taxas de cobrança"],
+        ["zwart op wit", "preto no branco"]
+      ],
+      "explain": "O kit completo da jaarafrekening: você informa a meterstand, paga voorschotten, contesta aanmaningskosten, exige uma rechtzetting e guarda tudo zwart op wit. 🧾"
+    },
+    {
+      "type": "listen",
+      "nl": "Mijn voorschotten dekten het verbruik ruimschoots.",
+      "options": ["Minhas parcelas mensais cobriam o consumo com folga.", "Meus vizinhos consomem mais do que eu.", "Minhas parcelas aumentaram muito este ano."],
+      "answer": 0,
+      "explain": "Dekken = cobrir, het verbruik = o consumo, ruimschoots = com folga, de sobra (ruim = amplo). É O argumento numérico da reclamação: se as parcelas cobriam o consumo, a cobrança extra não se sustenta. 💪"
+    },
+    {
+      "type": "fill",
+      "before": "Graag een bevestiging per e-mail, zodat ik alles",
+      "after": "op wit heb.",
+      "answer": "zwart",
+      "alt": [],
+      "hint": "a cor da tinta 🖋️",
+      "explain": "Zwart op wit = preto no branco: por escrito, com prova. A imagem é idêntica em português! E repare: depois de zodat, o verbo heb foi parar no fim da frase."
+    },
+    {
+      "type": "mc",
+      "q": "Passaram os dez dias úteis e nada de rechtzetting. Qual é o próximo passo tipicamente belga? 🪜",
+      "options": ["Parar de pagar os voorschotten imediatamente", "Enviar uma klacht por escrito e depois acionar a Ombudsdienst voor Energie", "Ligar todos os dias gritando com o Tom", "Trocar de fornecedor sem avisar ninguém"],
+      "answer": 1,
+      "explain": "A escada belga: primeiro uma reclamação formal por escrito (de preferência aangetekende brief, carta registrada), depois a Ombudsdienst voor Energie, o mediador federal gratuito. Parar de pagar gera aanmaningskosten e enfraquece seu caso. 🪜"
+    },
+    {
+      "type": "order",
+      "pt": "Posso fazer mais alguma coisa pela senhora?",
+      "tokens": ["Kan", "ik", "nog", "iets", "anders", "voor", "u", "doen"],
+      "answer": "Kan ik nog iets anders voor u doen",
+      "explain": "A pinça da pergunta: kan abre e doen fecha, com tudo preso no meio. Nog iets anders = 'ainda algo diferente' = mais alguma coisa. Resposta vitoriosa: 'Voor de rest ben ik geholpen, dank u.' 😎"
+    }
+  ]
+}

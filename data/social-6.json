@@ -1,0 +1,98 @@
+{
+  "b2-02-bank-wero": [
+    {
+      "icon": "🎬",
+      "label": "Reportagem da VRT NWS sobre o Wero, o app que vai substituir o Payconiq na Bélgica",
+      "url": "https://www.vrt.be/vrtnws/nl/2024/11/19/nieuwe-digitale-betaalportemonnee-wero-vergemakkelijkt-betalinge/",
+      "src": "VRT NWS"
+    },
+    {
+      "icon": "🎬",
+      "label": "Site oficial do Wero em holandês belga: leia como os bancos explicam o app",
+      "url": "https://wero-wallet.eu/be-nl",
+      "src": "Wero · site oficial"
+    },
+    {
+      "icon": "▶️",
+      "label": "Vídeos em holandês explicando como funciona o Wero e o Bancontact",
+      "url": "https://www.youtube.com/results?search_query=wero+betaalapp+belgi%C3%AB+uitleg",
+      "src": "YouTube · busca"
+    },
+    {
+      "icon": "🎵",
+      "label": "Flamengos testando e comentando o app Wero no dia a dia",
+      "url": "https://www.tiktok.com/search?q=wero%20betaalapp%20belgi%C3%AB",
+      "src": "TikTok · busca"
+    },
+    {
+      "icon": "📸",
+      "label": "Posts sobre Bancontact e pagamentos na Bélgica para treinar vocabulário bancário",
+      "url": "https://www.instagram.com/explore/search/keyword/?q=bancontact",
+      "src": "Instagram · busca"
+    }
+  ],
+  "b2-03-klachten": [
+    {
+      "icon": "▶️",
+      "label": "Como remarcar um compromisso e pedir retorno de ligação por telefone (NT2)",
+      "url": "https://www.youtube.com/watch?v=DQATQbu4wcA",
+      "src": "YouTube · NT2 Leer beter Nederlands"
+    },
+    {
+      "icon": "▶️",
+      "label": "Diálogo completo de um telefonema formal em holandês para praticar",
+      "url": "https://www.youtube.com/watch?v=1tB1LY112P4",
+      "src": "YouTube · NT2 Nederlands leren"
+    },
+    {
+      "icon": "▶️",
+      "label": "Vídeos sobre como registrar uma reclamação (klacht indienen) em holandês",
+      "url": "https://www.youtube.com/results?search_query=klacht+indienen+nederlands+leren+nt2",
+      "src": "YouTube · busca"
+    },
+    {
+      "icon": "🎵",
+      "label": "Dicas rápidas de holandês formal ao telefone em vídeos curtos",
+      "url": "https://www.tiktok.com/search?q=formeel%20nederlands%20telefoneren",
+      "src": "TikTok · busca"
+    },
+    {
+      "icon": "📸",
+      "label": "Contas de professores de holandês com frases prontas para situações formais",
+      "url": "https://www.instagram.com/explore/search/keyword/?q=nederlands%20leren",
+      "src": "Instagram · busca"
+    }
+  ],
+  "c1-01-tussentaal": [
+    {
+      "icon": "▶️",
+      "label": "Flamengo vs holandês da Holanda: entrevistas de rua comparando os dois",
+      "url": "https://www.youtube.com/watch?v=I82-WZFuDT4",
+      "src": "YouTube · Easy Dutch"
+    },
+    {
+      "icon": "▶️",
+      "label": "Os holandeses entendem o flamengo? Teste divertido nas ruas",
+      "url": "https://www.youtube.com/watch?v=zVm2EV9cUVw",
+      "src": "YouTube · Easy Dutch"
+    },
+    {
+      "icon": "▶️",
+      "label": "Introdução ao flamengo (Belgian Dutch) com as diferenças mais importantes",
+      "url": "https://www.youtube.com/watch?v=lm73NYBpZc8",
+      "src": "YouTube · Bart de Pau (learndutch.org)"
+    },
+    {
+      "icon": "🎵",
+      "label": "Expressões flamengas típicas explicadas em vídeos curtos e com humor",
+      "url": "https://www.tiktok.com/search?q=vlaamse%20uitdrukkingen",
+      "src": "TikTok · busca"
+    },
+    {
+      "icon": "📸",
+      "label": "Memes e posts sobre tussentaal e o jeito belga de falar holandês",
+      "url": "https://www.instagram.com/explore/search/keyword/?q=vlaamse%20uitdrukkingen",
+      "src": "Instagram · busca"
+    }
+  ]
+}

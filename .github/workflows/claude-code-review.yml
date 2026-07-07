@@ -1,0 +1,37 @@
+name: Claude Code Review
+
+# Automatic review on every new PR (including PRs opened by the autopilot),
+# posted as a PR comment. Auth: CLAUDE_CODE_OAUTH_TOKEN (Claude Max).
+
+on:
+  pull_request:
+    types: [opened, reopened, ready_for_review]
+
+jobs:
+  claude-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Review PR
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          allowed_bots: "claude"
+          prompt: |
+            Review this pull request for real bugs, security issues, and
+            correctness problems. Post the review as a PR comment.
+            Be concise: only surface findings that matter, ranked by severity.
+            If the PR looks good, say so in one short paragraph.
+          claude_args: |
+            --max-turns 30
+            --allowedTools "Bash(gh:*),Bash(git:*),Read,Glob,Grep"

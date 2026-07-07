@@ -123,29 +123,29 @@
     {
       "type": "mc",
       "q": "Você quer dizer que vem do Brasil. Qual é a frase certa? 🇧🇷",
-      "options": ["Ik kom uit Brazilië.", "Ik kom in Brazilië.", "Ik kom naar Brazilië.", "Ik woon uit Brazilië."],
-      "answer": 0,
+      "options": ["Ik kom in Brazilië.", "Ik kom naar Brazilië.", "Ik kom uit Brazilië.", "Ik woon uit Brazilië."],
+      "answer": 2,
       "explain": "Origem usa uit (de dentro de): Ik kom uit Brazilië. in é para onde você mora agora, naar é direção (para o Brasil)."
     },
     {
       "type": "mc",
       "q": "A vizinha Els fala rápido demais. Qual frase salva-vidas você usa? 🆘",
-      "options": ["Kan u dat herhalen, alstublieft?", "Tot ziens!", "Ik heb een dochter.", "Welkom in de straat!"],
-      "answer": 0,
+      "options": ["Tot ziens!", "Kan u dat herhalen, alstublieft?", "Ik heb een dochter.", "Welkom in de straat!"],
+      "answer": 1,
       "explain": "Kan u dat herhalen, alstublieft? = Pode repetir, por favor? As outras são despedida, informação de família e boas-vindas: educadas, mas não salvam a conversa."
     },
     {
       "type": "mc",
       "q": "O que significa \"Zij is twee jaar oud\"? 🎂",
-      "options": ["Ela tem dois anos.", "Ela é velha demais.", "Ela tem duas filhas.", "Ela mora lá há dois anos."],
-      "answer": 0,
+      "options": ["Ela é velha demais.", "Ela tem duas filhas.", "Ela tem dois anos.", "Ela mora lá há dois anos."],
+      "answer": 2,
       "explain": "Idade em neerlandês usa zijn + oud (literalmente: ela é dois anos velha). O português usa TER anos; o neerlandês usa SER velho."
     },
     {
       "type": "listen",
       "nl": "Waar kom je vandaan?",
-      "options": ["De onde você vem?", "Onde você mora?", "Como você se chama?", "Para onde você vai?"],
-      "answer": 0,
+      "options": ["Onde você mora?", "De onde você vem?", "Como você se chama?", "Para onde você vai?"],
+      "answer": 1,
       "explain": "Waar kom je vandaan? pergunta a ORIGEM. O vandaan no fim é o \"de\" do português que viajou para o final da frase."
     },
     {
@@ -158,8 +158,8 @@
     {
       "type": "listen",
       "nl": "Ik begrijp het niet.",
-      "options": ["Eu não entendo.", "Eu não repito.", "Eu entendo tudo."],
-      "answer": 0,
+      "options": ["Eu não repito.", "Eu entendo tudo.", "Eu não entendo."],
+      "answer": 2,
       "explain": "begrijpen = entender; o niet no fim nega a frase. Sem o niet seria \"Ik begrijp het\" = eu entendo. Frase salva-vidas essencial!"
     },
     {

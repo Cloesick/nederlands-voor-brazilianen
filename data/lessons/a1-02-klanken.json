@@ -115,64 +115,64 @@
     {
       "type": "mc",
       "q": "Como se pronuncia o G de \"goed\" na Flandres? 🗣️",
-      "options": ["Como o rr carioca de \"carro\", em versão suave", "Como o g de \"gato\"", "Como o j de \"janela\"", "Fica mudo"],
-      "answer": 0,
+      "options": ["Como o g de \"gato\"", "Como o j de \"janela\"", "Como o rr carioca de \"carro\", em versão suave", "Fica mudo"],
+      "answer": 2,
       "explain": "O g/ch neerlandês é o som de garganta, quase igual ao rr carioca. Na Flandres usa-se a \"zachte g\", mais leve que na Holanda. Goed soa \"rrut\"."
     },
     {
       "type": "listen",
       "nl": "Het boek is goed.",
-      "options": ["O livro é bom.", "O bolo é bom.", "O livro é grande."],
-      "answer": 0,
+      "options": ["O bolo é bom.", "O livro é bom.", "O livro é grande."],
+      "answer": 1,
       "explain": "boek soa \"buk\" porque oe = u. E goed termina em som de T: consoante final sempre fica surda."
     },
     {
       "type": "listen",
       "nl": "De man kijkt naar de maan.",
-      "options": ["O homem olha para a lua.", "A lua olha para o homem.", "O homem olha para o mapa."],
-      "answer": 0,
+      "options": ["O homem olha para o mapa.", "A lua olha para o homem.", "O homem olha para a lua."],
+      "answer": 2,
       "explain": "Par mínimo: man (a curto) = homem, maan (aa longo) = lua. Vogal dobrada = som longo. A ordem diz quem olha: de man é o sujeito."
     },
     {
       "type": "mc",
       "q": "Qual par de letras tem exatamente o MESMO som? 👂",
-      "options": ["ij e ei", "oe e eu", "u e ui", "aa e a"],
-      "answer": 0,
+      "options": ["oe e eu", "ij e ei", "u e ui", "aa e a"],
+      "answer": 1,
       "explain": "ij e ei soam ambos como o \"ei\" de lei: wijn e trein rimam! Só a escrita muda. Os outros pares são sons diferentes."
     },
     {
       "type": "listen",
       "nl": "Ik woon in een huis met een tuin.",
-      "options": ["Eu moro em uma casa com um jardim.", "Eu trabalho em uma casa com uma porta.", "Eu moro em um apartamento com garagem."],
-      "answer": 0,
+      "options": ["Eu trabalho em uma casa com uma porta.", "Eu moro em uma casa com um jardim.", "Eu moro em um apartamento com garagem."],
+      "answer": 1,
       "explain": "huis = casa e tuin = jardim, os dois com o som ui: comece em \"á\" e deslize para \"ü\", lábios arredondados."
     },
     {
       "type": "mc",
       "q": "Como um brasileiro deve ler \"straat\" (rua)? 🚧",
-      "options": ["\"s-traat\", começando direto no s", "\"es-traat\", com e de apoio", "\"xtraat\", com som de x", "\"strát\", com a curto"],
-      "answer": 0,
+      "options": ["\"es-traat\", com e de apoio", "\"xtraat\", com som de x", "\"s-traat\", começando direto no s", "\"strát\", com a curto"],
+      "answer": 2,
       "explain": "Armadilha número 1: nada de \"e\" antes do s! E aa dobrado = a longo. O reflexo de dizer \"estraat\" entrega o sotaque brasileiro na hora."
     },
     {
       "type": "listen",
       "nl": "De school is niet ver.",
-      "options": ["A escola não é longe.", "A escola não é grande.", "A rua não é longe."],
-      "answer": 0,
+      "options": ["A escola não é grande.", "A rua não é longe.", "A escola não é longe."],
+      "answer": 2,
       "explain": "school = \"s-rrôl\": s + som de garganta, sem e de apoio. E niet = não, ver = longe."
     },
     {
       "type": "mc",
       "q": "O que acontece com o D no fim de \"goed\"? 🔚",
-      "options": ["Soa como T", "Soa como D normal", "Fica mudo", "Vira R"],
-      "answer": 0,
+      "options": ["Fica mudo", "Soa como T", "Soa como D normal", "Vira R"],
+      "answer": 1,
       "explain": "Armadilha número 2: toda consoante final fica surda. goed termina em som de T (\"rrut\") e web termina em som de P."
     },
     {
       "type": "listen",
       "nl": "De wijn is niet duur.",
-      "options": ["O vinho não é caro.", "O trem não é caro.", "O vinho não é bom."],
-      "answer": 0,
+      "options": ["O trem não é caro.", "O vinho não é caro.", "O vinho não é bom."],
+      "answer": 1,
       "explain": "wijn = vinho, com ij de lei. duur = caro, com uu: diga \"i\" com bico de u. trein seria trem, mas você ouviu wijn."
     },
     {
@@ -196,8 +196,8 @@
     {
       "type": "listen",
       "nl": "Vier euro vijftig, alstublieft.",
-      "options": ["Quatro euros e cinquenta, por favor.", "Cinco euros e quarenta, por favor.", "Quatro euros e quinze, por favor."],
-      "answer": 0,
+      "options": ["Quatro euros e quinze, por favor.", "Cinco euros e quarenta, por favor.", "Quatro euros e cinquenta, por favor."],
+      "answer": 2,
       "explain": "vier = 4 e vijftig = 50 (centavos, aqui). vijftien seria 15. O ij soa \"ei\" de lei: \"FEIF-terr\"."
     },
     {

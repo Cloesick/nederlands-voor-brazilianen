@@ -75,7 +75,7 @@
     },
     {
       "nl": [{"t":"Als","r":"conj"},{"t":"ze","r":"pron"},{"t":"koorts","r":"noun"},{"t":"krijgt","r":"verb"},{"t":",","r":"punc"},{"t":"hou","r":"verb"},{"t":"ik","r":"pron"},{"t":"haar","r":"pron"},{"t":"thuis","r":"adv"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Se","r":"conj"},{"t":"ela","r":"pron"},{"t":"tiver","r":"verb"},{"t":"febre","r":"noun"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"deixo","r":"verb"},{"t":"ela","r":"pron"},{"t":"em","r":"prep"},{"t":"casa","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"ela","r":"pron"},{"t":"tiver","r":"verb"},{"t":"febre","r":"noun"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"deixo","r":"verb"},{"t":"ela","r":"pron"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":".","r":"punc"}],
       "lit": "se ela febre recebe, seguro eu ela em-casa",
       "note": "🧸 Mini-diálogo (2/4): a mãe responde. \"koorts krijgen\" = literalmente \"receber febre\"."
     },
@@ -104,7 +104,7 @@
     { "nl": "hoewel", "art": null, "split": "hoe (como) + wel (bem)", "pt": "embora", "emoji": "🤷" },
     { "nl": "terwijl", "art": null, "split": "ter (no) + wijl (momento, arcaico)", "pt": "enquanto", "emoji": "⏳" },
     { "nl": "zodra", "art": null, "split": "zo (tão) + dra (logo, arcaico)", "pt": "assim que", "emoji": "⚡" },
-    { "nl": "tenzij", "art": null, "split": "ten (a) + zij (seja, de zijn)", "pt": "a menos que", "emoji": "🚫" },
+    { "nl": "tenzij", "art": null, "split": "'t en zij (arcaico: \"que assim não seja\")", "pt": "a menos que", "emoji": "🚫" },
     { "nl": "het kinderdagverblijf", "art": "het", "split": "kinder (crianças) + dag (dia) + verblijf (estadia)", "pt": "creche", "emoji": "🧸" },
     { "nl": "het oudercontact", "art": "het", "split": "ouder (pai/mãe) + contact (contato)", "pt": "reunião de pais", "emoji": "👨‍👩‍👧" },
     { "nl": "de studiedag", "art": "de", "split": "studie (estudo) + dag (dia)", "pt": "dia pedagógico (a escola fecha!)", "emoji": "📚" },

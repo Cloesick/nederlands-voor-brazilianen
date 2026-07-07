@@ -1,1 +1,166 @@
-{"lessons":[{"id":"test","unit":"A1","title":"Lição de teste · Testles","emoji":"🧪","phrases":2,"exercises":5,"vocab":2}]}
+{
+ "lessons": [
+  {
+   "id": "a1-01-kennismaken",
+   "unit": "A1",
+   "title": "Se apresentar · Kennismaken",
+   "emoji": "👋",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a1-02-klanken",
+   "unit": "A1",
+   "title": "Os sons do neerlandês · Klanken",
+   "emoji": "🔊",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a1-03-de-het",
+   "unit": "A1",
+   "title": "De, Het e o plural · Lidwoorden",
+   "emoji": "🏷️",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "a1-04-getallen-tijd",
+   "unit": "A1",
+   "title": "Números, horas e datas · Getallen en tijd",
+   "emoji": "🕐",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a1-05-familie-huis",
+   "unit": "A1",
+   "title": "Família e casa · Familie en huis",
+   "emoji": "🏠",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-01-v2-vragen",
+   "unit": "A2",
+   "title": "A ordem V2 e perguntas · Woordvolgorde",
+   "emoji": "🧱",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-02-perfectum",
+   "unit": "A2",
+   "title": "O passado: perfectum · Perfectum",
+   "emoji": "⏮️",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-03-winkelen",
+   "unit": "A2",
+   "title": "Padaria e supermercado · Winkelen",
+   "emoji": "🛒",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-04-dokter",
+   "unit": "A2",
+   "title": "Médico e farmácia · Bij de dokter",
+   "emoji": "🏥",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "a2-05-vervoer",
+   "unit": "A2",
+   "title": "Bonde, ônibus e trem · Openbaar vervoer",
+   "emoji": "🚌",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "b1-01-bijzinnen",
+   "unit": "B1",
+   "title": "Orações com omdat e als · Bijzinnen",
+   "emoji": "🔗",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "b1-02-scheidbaar",
+   "unit": "B1",
+   "title": "Verbos separáveis · Scheidbare werkwoorden",
+   "emoji": "✂️",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "b1-03-school-creche",
+   "unit": "B1",
+   "title": "Creche e escola · School en opvang",
+   "emoji": "👶",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "b1-04-gemeente-wonen",
+   "unit": "B1",
+   "title": "Prefeitura e moradia · Gemeente en wonen",
+   "emoji": "🏢",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "b2-01-solliciteren",
+   "unit": "B2",
+   "title": "Entrevista de emprego · Solliciteren",
+   "emoji": "💼",
+   "phrases": 11,
+   "exercises": 12,
+   "vocab": 16
+  },
+  {
+   "id": "b2-02-bank-wero",
+   "unit": "B2",
+   "title": "Banco e Wero · Bank en geld",
+   "emoji": "🏦",
+   "phrases": 12,
+   "exercises": 12,
+   "vocab": 16
+  },
+  {
+   "id": "b2-03-klachten",
+   "unit": "B2",
+   "title": "Reclamar com classe · Een klacht indienen",
+   "emoji": "☎️",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "c1-01-tussentaal",
+   "unit": "C1",
+   "title": "Flamengo de rua · Tussentaal",
+   "emoji": "🍺",
+   "phrases": 10,
+   "exercises": 13,
+   "vocab": 16
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+name: Claude Course Coach
+
+# The continuous-improvement loop: once a week, Claude audits the course
+# (content quality, dead links, learner experience, coverage gaps), posts a
+# feedback report as an issue, and files concrete improvements as new issues
+# labeled "autopilot" so the nightly autopilot picks them up automatically.
+
+on:
+  schedule:
+    - cron: "0 6 * * 1" # Mondays 08:00 CEST
+  workflow_dispatch:
+
+jobs:
+  coach:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Audit course and file improvement issues
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            You are the weekly course coach for this Dutch course for Brazilians
+            (static vanilla-JS app; lessons in data/lessons/*.json, schema in
+            data/SCHEMA.md; social links in data/social.json; dictionary extras
+            in data/woordenboek-extra-*.json).
+
+            Do a focused audit (pick 2-3 areas per week, rotate):
+            1. CONTENT: sample 3 lesson files; check Dutch correctness (Flemish),
+               PT-BR naturalness, word-role alignment consistency, exercise
+               answer correctness.
+            2. LINKS: check a sample of URLs in data/social.json and livro.html
+               resources; note dead or redirected ones.
+            3. COVERAGE: what is missing vs a full A1-C1 curriculum? (topics,
+               exercise variety, C1/C2 depth, audio, spaced-repetition tuning)
+            4. LEARNER UX: read app.js/index.html for friction (a11y, mobile,
+               feedback quality).
+
+            Then:
+            - Post ONE issue titled "📋 Course coach report <date>" with your
+              findings, ranked by impact on learners.
+            - For the top 2-3 CONCRETE fixes, open separate small issues with
+              clear acceptance criteria and add the "autopilot" label so the
+              nightly autopilot implements them.
+            - Check first with `gh issue list` that you are not duplicating
+              existing open issues. File at most 3 autopilot issues per run.
+          claude_args: |
+            --max-turns 80
+            --allowedTools "Bash,Read,Glob,Grep,WebFetch,WebSearch"

@@ -1,0 +1,210 @@
+{
+  "id": "b1-03-school-creche",
+  "unit": "B1",
+  "title": "Creche e escola · School en opvang",
+  "emoji": "👶",
+  "teaching": [
+    {
+      "emoji": "🍼",
+      "title": "A linha do tempo da criança flamenga",
+      "html": "<p>A Flandres cuida bem das crianças, e cada fase tem sua palavra e seu guichê:</p><table class=\"vocab\"><tr><th>Fase</th><th>O que acontece</th></tr><tr><td><b>Nascimento</b></td><td><i>geboorteaangifte</i> na gemeente em até 15 dias + <i>startbedrag</i> do Groeipakket (valor único de boas-vindas, cerca de €1.288) 💶</td></tr><tr><td><b>0 a 3 anos</b></td><td>consultas <b>gratuitas</b> no <i>consultatiebureau</i> do <b>Kind en Gezin</b> (peso, vacinas, conselhos). A <i>kinderopvang</i> tem lista de espera: inscreva-se ainda na gravidez! Preço muitas vezes por renda (<i>inkomenstarief</i>)</td></tr><tr><td><b>2,5 anos</b></td><td>a <i>kleuterschool</i>, quase gratuita. Não é obrigatória até os 5, mas TODOS vão: é lá que a criança vira nativa em neerlandês em poucos meses 🚀</td></tr><tr><td><b>6 a 12 anos</b></td><td><i>lagere school</i> (fundamental). Todo mês cai o <i>Groeipakket</i> (cerca de €176 ou mais por filho, com suplementos por renda)</td></tr></table><p><small>Compare com o Brasil: o acompanhamento do bebê é como as consultas de puericultura do SUS, mas com visita domiciliar e posto próprio; o Groeipakket é um Bolsa Família universal, para todo mundo.</small></p>"
+    },
+    {
+      "emoji": "🤒",
+      "title": "O idioma da porta da creche",
+      "html": "<p>A conversa de 30 segundos na entrada da creche é um mini exame de neerlandês diário. As três palavras que decidem o seu dia:</p><ul><li><b>verkouden</b> 🤧 = resfriado. <i>Ze is verkouden</i> = nariz escorrendo, mas <b>pode</b> ir à creche.</li><li><b>koorts</b> 🌡️ = febre. Com 38° ou mais a criança <b>fica em casa</b>, e se a febre aparecer durante o dia, a creche liga: <i>Als ze koorts krijgt, bellen wij u meteen.</i></li><li><b>studiedag</b> 📚 = dia pedagógico. A escola fecha para os alunos e você precisa de um plano B (<i>opvang</i>)!</li></ul><p>Padrão de negação: <b>geen</b> antes de substantivo (<i>geen koorts</i> = sem febre, nenhuma febre), <b>niet</b> para o resto, no fim da frase (<i>Vergeet je brooddoos niet!</i>). Em português a negação vem antes do verbo; em neerlandês ela corre para o fim.</p><p><small>Na porta da creche você vai ouvir muito flamengo informal: <i>gij/ge</i> em vez de <i>jij/je</i> entre os pais, e frases fechando com <i>hè?</i>, igualzinho ao nosso <b>né?</b></small></p>"
+    },
+    {
+      "emoji": "🎒",
+      "title": "Brooddoos, boekentas e o kit belga",
+      "html": "<p>Duas palavras que definem a infância belga:</p><ul><li><b>de brooddoos</b> 🥪 = a marmita de pão. TODA criança leva uma: sanduíche no almoço é a norma, refeição quente na escola é opcional e paga.</li><li><b>de boekentas</b> 🎒 = a mochila escolar, literalmente a bolsa de livros.</li></ul><p>Outros rituais escolares que surpreendem brasileiros:</p><ul><li><b>zwemles</b> 🏊 = aula de natação, parte obrigatória do currículo!</li><li><b>het oudercontact</b> = reunião individual de pais, geralmente blocos de 10 minutos com hora marcada. Vá SEMPRE: é onde você fica sabendo tudo.</li><li><b>het rapport</b> = o boletim escolar.</li></ul><p><small>Dica de ouro: leia os livrinhos da biblioteca JUNTO com a criança. A bib é gratuita para crianças e o <i>voorleesuurtje</i> (horinha de leitura em voz alta) treina o ouvido dos dois. A escola do seu filho é a maior escola de neerlandês da família inteira.</small></p>"
+    },
+    {
+      "emoji": "🧸",
+      "title": "Badje, boekje, bedje: o -je que os flamengos amam",
+      "html": "<p>O diminutivo <b>-je</b> é o nosso <b>-inho</b>, e os flamengos usam sem moderação, principalmente com crianças:</p><ul><li><i>bad</i> → <b>badje</b> (banhinho) · <i>boek</i> → <b>boekje</b> (livrinho) · <i>bed</i> → <b>bedje</b> (caminha)</li><li><b>Badje, boekje, bedje</b> é o mantra do Kind en Gezin para a rotina do sono: banho, livro, cama. 😴</li><li>A chupeta na Flandres é <b>tut</b> ou <b>tutje</b> (na Holanda dizem <i>speen</i>). O nome oficial, <i>fopspeen</i>, significa bico enganador!</li></ul><p>Regra gramatical de presente: <b>todo diminutivo é palavra het</b>, sem exceção. <i>De boekentas</i>, mas <i>het tasje</i>. Se estiver em dúvida sobre o artigo, jogue um -je e use <i>het</i>. 😉</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Wanneer","r":"qw"},{"t":"is","r":"verb"},{"t":"het","r":"art"},{"t":"oudercontact","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quando","r":"qw"},{"t":"é","r":"verb"},{"t":"a","r":"art"},{"t":"reunião","r":"noun"},{"t":"de","r":"prep"},{"t":"pais","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "oudercontact junta ouder (pai/mãe) + contact numa palavra só: o neerlandês adora compactar."
+    },
+    {
+      "nl": [{"t":"Morgen","r":"adv"},{"t":"hebben","r":"verb"},{"t":"we","r":"pron"},{"t":"een","r":"art"},{"t":"afspraak","r":"noun"},{"t":"bij","r":"prep"},{"t":"het","r":"art"},{"t":"consultatiebureau","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Amanhã","r":"adv"},{"t":"temos","r":"verb"},{"t":"uma","r":"art"},{"t":"consulta","r":"noun"},{"t":"no","r":"prep"},{"t":"consultatiebureau","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "amanhã temos nós uma consulta junto do consultatiebureau",
+      "note": "V2: Morgen ocupa a primeira posição, então o verbo vem antes do sujeito (hebben we, e não we hebben)."
+    },
+    {
+      "nl": [{"t":"In","r":"prep"},{"t":"september","r":"noun"},{"t":"gaat","r":"verb"},{"t":"mijn","r":"pron"},{"t":"dochter","r":"noun"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"kleuterschool","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Em","r":"prep"},{"t":"setembro","r":"noun"},{"t":"minha","r":"pron"},{"t":"filha","r":"noun"},{"t":"vai","r":"verb"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"escolinha","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "em setembro vai minha filha para a escola infantil",
+      "note": "De novo V2: com In september na frente, gaat pula para a segunda posição e o sujeito vem depois."
+    },
+    {
+      "nl": [{"t":"Vergeet","r":"verb"},{"t":"je","r":"pron"},{"t":"brooddoos","r":"noun"},{"t":"en","r":"conj"},{"t":"je","r":"pron"},{"t":"boekentas","r":"noun"},{"t":"niet","r":"neg"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"esqueça","r":"verb"},{"t":"sua","r":"pron"},{"t":"marmita","r":"noun"},{"t":"e","r":"conj"},{"t":"sua","r":"pron"},{"t":"mochila","r":"noun"},{"t":"!","r":"punc"}],
+      "lit": "esquece tua marmita e tua mochila não",
+      "note": "niet corre para o FIM da frase; em português a negação vem antes do verbo."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"Groeipakket","r":"noun"},{"t":"wordt","r":"verb"},{"t":"elke","r":"pron"},{"t":"maand","r":"noun"},{"t":"betaald","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"Groeipakket","r":"noun"},{"t":"é","r":"verb"},{"t":"pago","r":"verb"},{"t":"todo","r":"pron"},{"t":"mês","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o Groeipakket fica todo mês pago",
+      "note": "Passiva com worden (não com zijn); o particípio betaald fecha a frase, formando a pinça."
+    },
+    {
+      "nl": [{"t":"Kinderen","r":"noun"},{"t":"mogen","r":"verb"},{"t":"al","r":"adv"},{"t":"vanaf","r":"prep"},{"t":"tweeënhalf","r":"num"},{"t":"jaar","r":"noun"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"kleuterschool","r":"noun"},{"t":"gaan","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Crianças","r":"noun"},{"t":"já","r":"adv"},{"t":"podem","r":"verb"},{"t":"ir","r":"verb"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"escolinha","r":"noun"},{"t":"com","r":"prep"},{"t":"dois","r":"num"},{"t":"anos","r":"noun"},{"t":"e","r":"conj"},{"t":"meio","r":"num"},{"t":".","r":"punc"}],
+      "lit": "crianças podem já desde dois e meio ano para a escolinha ir",
+      "note": "Pinça modal: mogen segura a segunda posição e o infinitivo gaan vai lá para o fim da frase."
+    },
+    {
+      "nl": [{"t":"Een","r":"art"},{"t":"vast","r":"adj"},{"t":"slaapritueel","r":"noun"},{"t":"helpt","r":"verb"},{"t":":","r":"punc"},{"t":"badje","r":"noun"},{"t":",","r":"punc"},{"t":"boekje","r":"noun"},{"t":",","r":"punc"},{"t":"bedje","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Uma","r":"art"},{"t":"rotina","r":"noun"},{"t":"fixa","r":"adj"},{"t":"de","r":"prep"},{"t":"sono","r":"noun"},{"t":"ajuda","r":"verb"},{"t":":","r":"punc"},{"t":"banhinho","r":"noun"},{"t":",","r":"punc"},{"t":"livrinho","r":"noun"},{"t":",","r":"punc"},{"t":"caminha","r":"noun"},{"t":".","r":"punc"}],
+      "note": "O -je é o nosso -inho: bad→badje, boek→boekje, bed→bedje. E todo diminutivo vira palavra het!"
+    },
+    {
+      "nl": [{"t":"Dag","r":"x"},{"t":"Sofia","r":"noun"},{"t":"!","r":"punc"},{"t":"Hoe","r":"qw"},{"t":"gaat","r":"verb"},{"t":"het","r":"pron"},{"t":"met","r":"prep"},{"t":"Alice","r":"noun"},{"t":"vandaag","r":"adv"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Olá","r":"x"},{"t":"Sofia","r":"noun"},{"t":"!","r":"punc"},{"t":"Como","r":"qw"},{"t":"está","r":"verb"},{"t":"a","r":"art"},{"t":"Alice","r":"noun"},{"t":"hoje","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "como vai isso com Alice hoje",
+      "note": "Hoe gaat het met...? é literalmente como vai isso com..., a fórmula padrão para perguntar como alguém está."
+    },
+    {
+      "nl": [{"t":"Ze","r":"pron"},{"t":"is","r":"verb"},{"t":"een","r":"art"},{"t":"beetje","r":"adv"},{"t":"verkouden","r":"adj"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"ze","r":"pron"},{"t":"heeft","r":"verb"},{"t":"geen","r":"neg"},{"t":"koorts","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ela","r":"pron"},{"t":"está","r":"verb"},{"t":"um","r":"art"},{"t":"pouco","r":"adv"},{"t":"resfriada","r":"adj"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"ela","r":"pron"},{"t":"não","r":"neg"},{"t":"tem","r":"verb"},{"t":"febre","r":"noun"},{"t":".","r":"punc"}],
+      "note": "geen nega substantivos: geen koorts = não tem nenhuma febre, tudo numa palavrinha só."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"ze","r":"pron"},{"t":"koorts","r":"noun"},{"t":"krijgt","r":"verb"},{"t":",","r":"punc"},{"t":"bellen","r":"verb"},{"t":"wij","r":"pron"},{"t":"u","r":"pron"},{"t":"meteen","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"ela","r":"pron"},{"t":"tiver","r":"verb"},{"t":"febre","r":"noun"},{"t":",","r":"punc"},{"t":"nós","r":"pron"},{"t":"ligamos","r":"verb"},{"t":"para","r":"prep"},{"t":"você","r":"pron"},{"t":"imediatamente","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "se ela febre pega, ligamos nós o senhor imediatamente",
+      "note": "Dois truques de uma vez: na oração com als o verbo krijgt vai para o fim; e a oração inteira conta como primeira posição, então depois da vírgula vem bellen wij (inversão V2)."
+    },
+    {
+      "nl": [{"t":"Dank","r":"verb"},{"t":"u","r":"pron"},{"t":"wel","r":"adv"},{"t":".","r":"punc"},{"t":"Vrijdag","r":"noun"},{"t":"is","r":"verb"},{"t":"er","r":"adv"},{"t":"een","r":"art"},{"t":"studiedag","r":"noun"},{"t":",","r":"punc"},{"t":"hè","r":"x"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Muito","r":"adv"},{"t":"obrigada","r":"verb"},{"t":".","r":"punc"},{"t":"Sexta","r":"noun"},{"t":"tem","r":"verb"},{"t":"um","r":"art"},{"t":"dia","r":"noun"},{"t":"pedagógico","r":"adj"},{"t":",","r":"punc"},{"t":"né","r":"x"},{"t":"?","r":"punc"}],
+      "lit": "agradeço o senhor bem. sexta é aí um dia de estudo, né",
+      "note": "er is = tem existencial; e o flamengo fecha frases com hè?, igualzinho ao nosso né?"
+    },
+    {
+      "nl": [{"t":"Heeft","r":"verb"},{"t":"ze","r":"pron"},{"t":"goed","r":"adv"},{"t":"geslapen","r":"verb"},{"t":"en","r":"conj"},{"t":"gegeten","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Ela","r":"pron"},{"t":"dormiu","r":"verb"},{"t":"e","r":"conj"},{"t":"comeu","r":"verb"},{"t":"bem","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "tem ela bem dormido e comido",
+      "note": "Pergunta de fim de dia na creche: verbo auxiliar primeiro (pergunta sim/não), particípios geslapen e gegeten fechando a frase."
+    }
+  ],
+  "vocab": [
+    { "nl": "de kinderopvang", "art": "de", "split": "kinder (crianças) + opvang (acolhimento, de opvangen: pegar no ar)", "pt": "creche, cuidado infantil", "emoji": "🍼" },
+    { "nl": "het kinderdagverblijf", "art": "het", "split": "kinder (crianças) + dag (dia) + verblijf (estadia)", "pt": "creche (nome formal), estadia diurna de crianças", "emoji": "🏠" },
+    { "nl": "de onthaalouder", "art": "de", "split": "onthaal (acolhida) + ouder (pai/mãe)", "pt": "mãe ou pai crecheira: cuida de poucas crianças em casa", "emoji": "👩‍👧" },
+    { "nl": "de kleuterschool", "art": "de", "split": "kleuter (criança de 2,5 a 6 anos) + school (escola)", "pt": "educação infantil, a partir dos 2,5 anos", "emoji": "🎨" },
+    { "nl": "de lagere school", "art": "de", "split": "lagere (mais baixa) + school (escola)", "pt": "ensino fundamental (6 a 12 anos)", "emoji": "🏫" },
+    { "nl": "de boekentas", "art": "de", "split": "boeken (livros) + tas (bolsa)", "pt": "mochila escolar", "emoji": "🎒" },
+    { "nl": "de brooddoos", "art": "de", "split": "brood (pão) + doos (caixa)", "pt": "marmita de pão: toda criança belga leva uma", "emoji": "🥪" },
+    { "nl": "het Groeipakket", "art": "het", "split": "groei (crescimento) + pakket (pacote)", "pt": "salário-família flamengo mensal", "emoji": "💶" },
+    { "nl": "het consultatiebureau", "art": "het", "split": "consultatie (consulta) + bureau (escritório)", "pt": "posto do Kind en Gezin: pesagem, vacinas, conselhos grátis", "emoji": "🩺" },
+    { "nl": "de koorts", "art": "de", "split": null, "pt": "febre (com 38° a criança fica em casa)", "emoji": "🌡️" },
+    { "nl": "verkouden", "art": null, "split": "ver- (mudança de estado) + koud (frio): pegou frio", "pt": "resfriado(a)", "emoji": "🤧" },
+    { "nl": "de studiedag", "art": "de", "split": "studie (estudo) + dag (dia)", "pt": "dia pedagógico: escola fechada para os alunos!", "emoji": "📚" },
+    { "nl": "het oudercontact", "art": "het", "split": "ouder (pai/mãe) + contact (contato)", "pt": "reunião individual de pais e professores", "emoji": "👨‍👩‍👧" },
+    { "nl": "de geboorteaangifte", "art": "de", "split": "geboorte (nascimento) + aangifte (declaração, de aangeven)", "pt": "registro de nascimento (na gemeente, em até 15 dias)", "emoji": "📝" },
+    { "nl": "de luier", "art": "de", "split": null, "pt": "fralda", "emoji": "🧷" },
+    { "nl": "de fopspeen", "art": "de", "split": "fop (enganar) + speen (bico)", "pt": "chupeta, bico enganador (na Flandres: tut ou tutje)", "emoji": "🤫" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "A partir de que idade as crianças podem ir à kleuterschool na Flandres? 🎨",
+      "options": ["4 anos", "2,5 anos", "6 anos", "3 anos"],
+      "answer": 1,
+      "explain": "A kleuterschool aceita crianças a partir dos 2,5 anos e é quase gratuita. Só é obrigatória aos 5, mas praticamente todas vão antes: é onde a criança vira nativa em neerlandês em poucos meses."
+    },
+    {
+      "type": "listen",
+      "nl": "Ze is een beetje verkouden, maar ze heeft geen koorts.",
+      "options": ["Ela está com febre alta e muito resfriada", "Ela dormiu mal e não quis comer", "Ela está um pouco resfriada, mas não tem febre"],
+      "answer": 2,
+      "explain": "verkouden = resfriado, koorts = febre. geen koorts = sem febre nenhuma: geen é a negação que gruda em substantivos. Frase mágica para a porta da creche!"
+    },
+    {
+      "type": "fill",
+      "before": "Ze heeft",
+      "after": "koorts.",
+      "answer": "geen",
+      "alt": [],
+      "hint": "negação que acompanha substantivo",
+      "explain": "Substantivo indefinido se nega com geen, nunca com niet: ze heeft geen koorts = ela não tem febre. niet fica para verbos, adjetivos e o resto da frase."
+    },
+    {
+      "type": "order",
+      "pt": "Em setembro minha filha vai para a educação infantil.",
+      "tokens": ["In", "september", "gaat", "mijn", "dochter", "naar", "de", "kleuterschool"],
+      "answer": "In september gaat mijn dochter naar de kleuterschool",
+      "explain": "Regra V2: In september ocupa a primeira posição, então o verbo gaat vem em segundo lugar e o sujeito mijn dochter só depois dele."
+    },
+    {
+      "type": "mc",
+      "q": "O que é o Groeipakket? 💶",
+      "options": ["Um pacote de fraldas do governo", "O material escolar obrigatório", "O salário-família mensal da Flandres", "Uma cesta básica para recém-chegados"],
+      "answer": 2,
+      "explain": "Groeipakket = groei (crescimento) + pakket (pacote): o benefício mensal por filho (cerca de €176 ou mais, com suplementos por renda), pago a todas as famílias. No nascimento ainda há o startbedrag de cerca de €1.288."
+    },
+    {
+      "type": "match",
+      "pairs": [["de brooddoos", "a marmita de pão"], ["de boekentas", "a mochila escolar"], ["de koorts", "a febre"], ["verkouden", "resfriado(a)"], ["de studiedag", "o dia pedagógico"]],
+      "explain": "O kit de sobrevivência escolar: brood (pão) + doos (caixa), boeken (livros) + tas (bolsa), e as três palavras da porta da creche: koorts, verkouden, studiedag."
+    },
+    {
+      "type": "listen",
+      "nl": "Vergeet je brooddoos en je boekentas niet!",
+      "options": ["Coloque o pão dentro da mochila!", "Não esqueça sua marmita e sua mochila!", "Esqueci a marmita e a mochila em casa!"],
+      "answer": 1,
+      "explain": "O grito de guerra matinal de toda casa flamenga. Repare que niet vai para o FIM: vergeet... niet = não esqueça."
+    },
+    {
+      "type": "fill",
+      "before": "In september gaat mijn dochter naar de",
+      "after": ".",
+      "answer": "kleuterschool",
+      "alt": [],
+      "hint": "a escola dos 2,5 aos 6 anos",
+      "explain": "kleuterschool = kleuter (criança de 2,5 a 6 anos) + school. É a etapa entre a creche (kinderopvang) e a lagere school."
+    },
+    {
+      "type": "mc",
+      "q": "A creche avisa: sexta é 'pedagogische studiedag'. O que isso significa para você? 📚",
+      "options": ["Haverá prova de neerlandês para os pais", "É o dia da reunião de pais", "A escola fecha para os alunos e você precisa de um plano B", "As crianças ficam até mais tarde estudando"],
+      "answer": 2,
+      "explain": "studiedag = studie + dag: dia de formação dos professores. Os alunos ficam em casa, então os pais precisam de opvang (acolhimento) alternativo. Anote essas datas no início do ano!"
+    },
+    {
+      "type": "order",
+      "pt": "Ela dormiu e comeu bem?",
+      "tokens": ["Heeft", "ze", "goed", "geslapen", "en", "gegeten", "?"],
+      "answer": "Heeft ze goed geslapen en gegeten ?",
+      "explain": "Pergunta sim/não: o auxiliar Heeft abre a frase, e os particípios geslapen e gegeten fecham lá no fim. A pergunta clássica na hora de buscar o bebê."
+    },
+    {
+      "type": "listen",
+      "nl": "Wanneer is het oudercontact?",
+      "options": ["Onde fica a creche?", "Quando é a reunião de pais?", "Quem é a professora?", "Quando começam as férias?"],
+      "answer": 1,
+      "explain": "oudercontact = ouder (pai/mãe) + contact: a reunião individual com o professor, geralmente em blocos de 10 minutos com hora marcada. Wanneer = quando."
+    },
+    {
+      "type": "mc",
+      "q": "O que significa o conselho 'badje, boekje, bedje' do Kind en Gezin? 😴",
+      "options": ["Banhinho, livrinho, caminha: uma rotina fixa de sono", "Três brinquedos que a creche exige", "O material da aula de natação", "As três consultas obrigatórias do bebê"],
+      "answer": 0,
+      "explain": "É o mantra da rotina do sono: banho, livro, cama. O -je é o nosso -inho (bad→badje, boek→boekje, bed→bedje), e todo diminutivo é palavra het!"
+    },
+    {
+      "type": "match",
+      "pairs": [["het Groeipakket", "salário-família mensal"], ["het consultatiebureau", "posto do Kind en Gezin"], ["de onthaalouder", "cuida de crianças na própria casa"], ["het kinderdagverblijf", "creche formal"]],
+      "explain": "As quatro instituições da primeira infância flamenga: o dinheiro (Groeipakket), o acompanhamento gratuito (consultatiebureau) e as duas formas de creche (kinderdagverblijf coletiva, onthaalouder em casa)."
+    }
+  ]
+}

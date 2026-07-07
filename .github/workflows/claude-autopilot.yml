@@ -1,0 +1,87 @@
+name: Claude Autopilot
+
+# Continuous coding without manual interaction:
+# - Add the "autopilot" label to any issue -> Claude implements it and opens a PR.
+# - Nightly cron sweeps for the oldest open "autopilot" issue with no linked PR.
+
+on:
+  issues:
+    types: [labeled]
+  schedule:
+    - cron: "0 5 * * *" # 07:00 CEST nightly sweep
+  workflow_dispatch:
+
+jobs:
+  implement-labeled-issue:
+    if: github.event_name == 'issues' && github.event.label.name == 'autopilot'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Implement issue
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            Implement GitHub issue #${{ github.event.issue.number }} end-to-end:
+            1. Read the issue body and all comments for full context.
+            2. Implement the change on a new branch (never push to main).
+            3. PROJECT NOTES: this is a static vanilla-JS Dutch course app for
+               Brazilians (no build step). Lessons live in data/lessons/*.json
+               (schema in data/SCHEMA.md; word-role alignment codes are the heart
+               of the product). After adding/changing lessons run
+               `python build_manifest.py`. Instruction language is PT-BR, target
+               language Belgian Flemish Dutch. Never use em-dashes. The payment
+               app is "Wero" (not Payconiq). Keep the Saspire footer intact.
+            4. Open a pull request that references the issue with a clear summary.
+            5. Comment on the issue with a link to the PR.
+          claude_args: |
+            --max-turns 150
+            --allowedTools "Bash,Read,Write,Edit,MultiEdit,Glob,Grep,WebFetch,WebSearch"
+
+  nightly-sweep:
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+      id-token: write
+      actions: read
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Work the autopilot queue
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          show_full_output: true
+          prompt: |
+            You are the nightly autopilot for this Dutch-course repository.
+            1. Use `gh issue list --label autopilot --state open` to find open
+               autopilot issues.
+            2. Skip any issue that already has a linked open PR.
+            3. Pick the OLDEST remaining issue and implement it end-to-end on
+               a new branch, then open a PR referencing the issue.
+            4. If the queue is empty, exit without changes.
+            PROJECT NOTES: static vanilla-JS app, lessons in data/lessons/*.json
+            (schema: data/SCHEMA.md), run `python build_manifest.py` after lesson
+            changes, PT-BR instruction language, Belgian Flemish Dutch, no
+            em-dashes, payment app is "Wero".
+            Work on at most ONE issue per run. Never push to main.
+          claude_args: |
+            --max-turns 150
+            --allowedTools "Bash,Read,Write,Edit,MultiEdit,Glob,Grep,WebFetch,WebSearch"

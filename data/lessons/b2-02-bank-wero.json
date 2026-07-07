@@ -1,0 +1,206 @@
+{
+  "id": "b2-02-bank-wero",
+  "unit": "B2",
+  "title": "Banco e Wero · Bank en geld",
+  "emoji": "🏦",
+  "teaching": [
+    {
+      "emoji": "🏦",
+      "title": "Zicht ou spaar? As duas contas belgas",
+      "html": "<p>Na Bélgica quase tudo passa pelo app do banco (KBC, Belfius, BNP Paribas Fortis, Argenta, ING), com o <b>itsme</b> como chave digital. E você vai viver entre duas contas:</p><table class=\"vocab\"><tr><th>conta</th><th>lógica</th><th>para quê</th></tr><tr><td><b>de zichtrekening</b></td><td>zicht (vista) + rekening (conta)</td><td>conta corrente: salário entra, contas saem 💳</td></tr><tr><td><b>de spaarrekening</b></td><td>spaar (poupar) + rekening</td><td>poupança: rende <b>rente</b> (juros) 🐷</td></tr></table><p>Repare na lógica: a conta corrente é a conta <i>à vista</i>, igualzinho ao português antigo \"depósito à vista\". <small>O cartão de crédito existe, mas é bem menos usado que no Brasil: o padrão do dia a dia é o débito.</small></p>"
+    },
+    {
+      "emoji": "💸",
+      "title": "Overschrijving: a transferência e a mededeling sagrada",
+      "html": "<p><b>De overschrijving</b> = over (por cima) + schrijving (escrita): você \"escreve\" o dinheiro de uma conta para a outra. Para fazer uma, você precisa de:</p><ul><li>o <b>rekeningnummer / IBAN</b> de quem recebe (BE68 5390 0754 7034)</li><li>o valor em euros 💶</li><li>a <b>mededeling</b>: a descrição ou referência do pagamento</li></ul><p>Atenção máxima à <b>gestructureerde mededeling</b>, aquele código no formato <b>+++090/9337/55493+++</b> que vem em boletos de escola, creche, impostos. Copie EXATAMENTE: é como o \"copia e cola\" do boleto brasileiro, é assim que a empresa reconhece o seu pagamento. 🧾</p><p>Para contas fixas (luz, aluguel, creche) existe <b>de domiciliëring</b>: o débito automático. Você autoriza uma vez e a empresa puxa o valor todo mês. 🔁</p>"
+    },
+    {
+      "emoji": "📲",
+      "title": "Bancontact e Wero: pagar como um belga",
+      "html": "<p>Na loja, na padaria, no mercado: <b>Bancontact</b>, o sistema de débito belga. Procure \"Bancontact CASH\" para achar um <b>geldautomaat</b> (caixa eletrônico). 🏧</p><p>Entre amigos e em muitos comércios, o app do momento é o <b>Wero</b>, o sucessor europeu do antigo Payconiq: você paga pelo celular usando o número de telefone da pessoa ou um QR-code. A frase que você mais vai usar depois de dividir uma conta:</p><p><b>\"Ik stuur het je via Wero.\"</b> = \"Eu te mando pelo Wero.\" 💶</p><p>Também dá para mandar um <b>betaalverzoek</b> (pedido de pagamento) para cobrar os amigos sem constrangimento. <small>Entre amigos flamengos você ainda ouve o informal <i>gij/ge</i>: \"Stuurt ge het via Wero?\"</small></p>"
+    },
+    {
+      "emoji": "🚨",
+      "title": "Card Stop e o golpe do falso banco",
+      "html": "<p>Cartão perdido ou roubado? Ligue na hora para <b>Card Stop: 078 170 170</b>. Eles bloqueiam o cartão em minutos, 24h por dia. Salve esse número no celular AGORA. 📞</p><p>E grave a regra de ouro contra o golpe que mais pega recém-chegados: <b>NINGUÉM legítimo</b> (banco, polícia, Card Stop) pede por telefone:</p><ul><li>o seu código <b>PIN</b> 🔒</li><li>para \"transferir o dinheiro para uma <i>veilige rekening</i>\" (conta segura)</li><li>para instalar um app de acesso remoto</li></ul><p>Se acontecer: desligue e ligue VOCÊ para o número oficial do seu banco. <small>\"Conta segura\" não existe: quem fala isso é golpista, sempre.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"zichtrekening","r":"noun"},{"t":"bij","r":"prep"},{"t":"KBC","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"uma","r":"art"},{"t":"conta","r":"noun"},{"t":"corrente","r":"adj"},{"t":"no","r":"prep"},{"t":"KBC","r":"noun"},{"t":".","r":"punc"}],
+      "note": "\"bij\" para instituições: bij KBC, bij Belfius. Em português dizemos \"no banco X\", em neerlandês você está \"junto ao\" banco."
+    },
+    {
+      "nl": [{"t":"Hoeveel","r":"qw"},{"t":"staat","r":"verb"},{"t":"er","r":"adv"},{"t":"op","r":"prep"},{"t":"mijn","r":"pron"},{"t":"spaarrekening","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quanto","r":"qw"},{"t":"tem","r":"verb"},{"t":"na","r":"prep"},{"t":"minha","r":"pron"},{"t":"poupança","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "quanto está lá sobre minha poupança",
+      "note": "O dinheiro \"fica em pé\" (staat) NA conta, e o \"er\" é aquele lá/aí fantasma que o neerlandês adora e o português nem traduz."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"100","r":"num"},{"t":"euro","r":"noun"},{"t":"naar","r":"prep"},{"t":"mijn","r":"pron"},{"t":"spaarrekening","r":"noun"},{"t":"overschrijven","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Quero","r":"verb"},{"t":"transferir","r":"verb"},{"t":"100","r":"num"},{"t":"euros","r":"noun"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"minha","r":"pron"},{"t":"poupança","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero 100 euro para minha poupança transferir",
+      "note": "A pinça: \"wil\" segura o começo e \"overschrijven\" fecha a frase lá no fim. Em NL \"euro\" fica no singular: 100 euro."
+    },
+    {
+      "nl": [{"t":"Vergeet","r":"verb"},{"t":"de","r":"art"},{"t":"gestructureerde","r":"adj"},{"t":"mededeling","r":"noun"},{"t":"niet","r":"neg"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"esqueça","r":"verb"},{"t":"a","r":"art"},{"t":"referência","r":"noun"},{"t":"estruturada","r":"adj"},{"t":"!","r":"punc"}],
+      "lit": "esqueça a estruturada referência não",
+      "note": "O \"niet\" vai para o FIM da frase, o oposto do português, que nega antes do verbo."
+    },
+    {
+      "nl": [{"t":"Zullen","r":"verb"},{"t":"we","r":"pron"},{"t":"de","r":"art"},{"t":"rekening","r":"noun"},{"t":"delen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Vamos","r":"verb"},{"t":"dividir","r":"verb"},{"t":"a","r":"art"},{"t":"conta","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "vamos nós a conta dividir",
+      "note": "Início do diálogo no café ☕. \"Zullen we...?\" é o convite padrão (\"vamos...?\") e o segundo verbo fecha a pinça no fim."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"betaal","r":"verb"},{"t":"alles","r":"pron"},{"t":"met","r":"prep"},{"t":"mijn","r":"pron"},{"t":"bankkaart","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"pago","r":"verb"},{"t":"tudo","r":"pron"},{"t":"com","r":"prep"},{"t":"meu","r":"pron"},{"t":"cartão","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Betalen met = pagar com. Na Flandres o débito (Bancontact) resolve quase tudo."
+    },
+    {
+      "nl": [{"t":"Oké","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"stuur","r":"verb"},{"t":"het","r":"pron"},{"t":"je","r":"pron"},{"t":"via","r":"prep"},{"t":"Wero","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Tá","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"te","r":"pron"},{"t":"mando","r":"verb"},{"t":"isso","r":"pron"},{"t":"pelo","r":"prep"},{"t":"Wero","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "tá, eu mando isso te via Wero",
+      "note": "A frase mais útil da lição! Em NL a coisa (het) vem antes da pessoa (je): stuur HET JE. E \"via Wero\" = pelo app Wero. 📲"
+    },
+    {
+      "nl": [{"t":"Top","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"het","r":"art"},{"t":"geld","r":"noun"},{"t":"al","r":"adv"},{"t":"ontvangen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ótimo","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"já","r":"adv"},{"t":"recebi","r":"verb"},{"t":"o","r":"art"},{"t":"dinheiro","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "top, eu tenho o dinheiro já recebido",
+      "note": "Passado com hebben + particípio no fim: heb ... ontvangen. \"Top!\" é o \"ótimo/fechou\" flamengo do dia a dia."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"huur","r":"noun"},{"t":"betaal","r":"verb"},{"t":"ik","r":"pron"},{"t":"via","r":"prep"},{"t":"domiciliëring","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"aluguel","r":"noun"},{"t":"eu","r":"pron"},{"t":"pago","r":"verb"},{"t":"por","r":"prep"},{"t":"débito","r":"noun"},{"t":"automático","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "meu aluguel pago eu via domiciliação",
+      "note": "V2 em ação: \"mijn huur\" foi para a frente, então o verbo fica no 2º lugar e o sujeito \"ik\" pula para depois dele."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"kaart","r":"noun"},{"t":"is","r":"verb"},{"t":"gestolen","r":"verb"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"bel","r":"verb"},{"t":"meteen","r":"adv"},{"t":"Card","r":"noun"},{"t":"Stop","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"cartão","r":"noun"},{"t":"foi","r":"verb"},{"t":"roubado","r":"verb"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"ligo","r":"verb"},{"t":"já","r":"adv"},{"t":"para","r":"prep"},{"t":"o","r":"art"},{"t":"Card","r":"noun"},{"t":"Stop","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "meu cartão é roubado, eu ligo imediatamente Card Stop",
+      "note": "\"Bellen\" é direto, sem preposição: ik bel Card Stop, ik bel mijn moeder. O número: 078 170 170. 📞"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"bank","r":"noun"},{"t":"vraagt","r":"verb"},{"t":"nooit","r":"neg"},{"t":"je","r":"pron"},{"t":"pincode","r":"noun"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"telefoon","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"banco","r":"noun"},{"t":"nunca","r":"neg"},{"t":"pede","r":"verb"},{"t":"seu","r":"pron"},{"t":"PIN","r":"noun"},{"t":"por","r":"prep"},{"t":"telefone","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o banco pede nunca teu PIN no telefone",
+      "note": "\"Nooit\" vem DEPOIS do verbo (V2 não abre mão do 2º lugar); \"nunca\" em PT vem antes. Grave esta frase: ela é o seu escudo. 🛡️"
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"iemand","r":"pron"},{"t":"over","r":"prep"},{"t":"een","r":"art"},{"t":"veilige","r":"adj"},{"t":"rekening","r":"noun"},{"t":"belt","r":"verb"},{"t":",","r":"punc"},{"t":"hang","r":"verb"},{"t":"dan","r":"adv"},{"t":"meteen","r":"adv"},{"t":"op","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"alguém","r":"pron"},{"t":"ligar","r":"verb"},{"t":"sobre","r":"prep"},{"t":"uma","r":"art"},{"t":"conta","r":"noun"},{"t":"segura","r":"adj"},{"t":",","r":"punc"},{"t":"desligue","r":"verb"},{"t":"na","r":"prep"},{"t":"hora","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "se alguém sobre uma segura conta liga, pendura então imediatamente (des)",
+      "note": "Dois monstros de uma vez: depois de \"als\" o verbo (belt) vai para o fim da oração, e \"ophangen\" (desligar) é separável: o \"op\" cai lá no finalzinho."
+    }
+  ],
+  "vocab": [
+    { "nl": "de zichtrekening", "art": "de", "split": "zicht (vista) + rekening (conta)", "pt": "conta corrente, \"conta à vista\"", "emoji": "💳" },
+    { "nl": "de spaarrekening", "art": "de", "split": "spaar (poupar) + rekening (conta)", "pt": "poupança", "emoji": "🐷" },
+    { "nl": "de overschrijving", "art": "de", "split": "over (por cima) + schrijving (escrita)", "pt": "transferência bancária", "emoji": "💸" },
+    { "nl": "de mededeling", "art": "de", "split": "mede (junto) + deling (partilha)", "pt": "referência/descrição da transferência", "emoji": "🧾" },
+    { "nl": "de domiciliëring", "art": "de", "split": "domicilie (domicílio) + -ering (ação)", "pt": "débito automático (luz, aluguel, creche)", "emoji": "🔁" },
+    { "nl": "de bankkaart", "art": "de", "split": "bank (banco) + kaart (cartão)", "pt": "cartão de débito (Bancontact)", "emoji": "🛒" },
+    { "nl": "de kredietkaart", "art": "de", "split": "krediet (crédito) + kaart (cartão)", "pt": "cartão de crédito (bem menos usado que no Brasil)", "emoji": "✨" },
+    { "nl": "de geldautomaat", "art": "de", "split": "geld (dinheiro) + automaat (máquina automática)", "pt": "caixa eletrônico (procure \"Bancontact CASH\")", "emoji": "🏧" },
+    { "nl": "het rekeningnummer", "art": "het", "split": "rekening (conta) + nummer (número)", "pt": "número da conta, o IBAN (BE68 ...)", "emoji": "🔢" },
+    { "nl": "het afschrift", "art": "het", "split": "af (de cima) + schrift (escrito)", "pt": "extrato bancário", "emoji": "📄" },
+    { "nl": "de lening", "art": "de", "split": "leen (emprestar) + -ing (ação)", "pt": "empréstimo; hypothecaire lening = financiamento imobiliário", "emoji": "🏠" },
+    { "nl": "de rente", "art": "de", "split": null, "pt": "juros", "emoji": "📈" },
+    { "nl": "het betaalverzoek", "art": "het", "split": "betaal (pagar) + verzoek (pedido)", "pt": "pedido de pagamento (cobrar amigos no Wero)", "emoji": "📲" },
+    { "nl": "overschrijven", "art": null, "split": "over (por cima) + schrijven (escrever)", "pt": "transferir dinheiro", "emoji": "✍️" },
+    { "nl": "sparen", "art": null, "split": null, "pt": "poupar, economizar", "emoji": "💰" },
+    { "nl": "de oplichting", "art": "de", "split": "oplichten (enganar) + -ing (ação)", "pt": "golpe, fraude", "emoji": "🚨" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Seu salário cai e você paga o mercado com ela. Que conta é essa? 🤔",
+      "options": ["de zichtrekening", "de spaarrekening", "de lening", "de domiciliëring"],
+      "answer": 0,
+      "explain": "A zichtrekening (conta \"à vista\") é a conta corrente do dia a dia. A spaarrekening é a poupança, lening é empréstimo e domiciliëring é o débito automático."
+    },
+    {
+      "type": "mc",
+      "q": "O boleto da creche traz +++090/9337/55493+++. O que é isso? 🧾",
+      "options": ["A gestructureerde mededeling: copie exatamente na transferência", "O número do cartão de débito", "O código PIN da conta", "O número do Card Stop"],
+      "answer": 0,
+      "explain": "É a referência estruturada, sagrada em boletos belgas: é por ela que a empresa reconhece o SEU pagamento. Copie sem mudar um dígito, como o copia e cola do boleto brasileiro."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik stuur het je via Wero.",
+      "options": ["Eu te mando pelo Wero.", "Eu recebi pelo Wero.", "Eu pago com meu cartão de débito.", "Eu te mando o extrato."],
+      "answer": 0,
+      "explain": "Stuur = mando, het = isso (o dinheiro), je = para você, via Wero = pelo app Wero, o sucessor do Payconiq para pagar amigos pelo celular."
+    },
+    {
+      "type": "listen",
+      "nl": "Vergeet de gestructureerde mededeling niet!",
+      "options": ["Não esqueça a referência estruturada!", "Não esqueça o cartão de débito!", "Não assine o extrato!", "Não esqueça a senha do app!"],
+      "answer": 0,
+      "explain": "Vergeet ... niet = não esqueça. O \"niet\" fica no fim da frase em neerlandês, por isso você ouve a negação por último."
+    },
+    {
+      "type": "listen",
+      "nl": "Hoeveel staat er op mijn spaarrekening?",
+      "options": ["Quanto tem na minha poupança?", "Quanto custa abrir uma poupança?", "Onde fica o caixa eletrônico?", "Qual é o número da minha conta?"],
+      "answer": 0,
+      "explain": "Hoeveel = quanto, staat er op = \"está sobre\" (tem em), spaarrekening = poupança. O dinheiro \"fica em pé\" na conta em neerlandês."
+    },
+    {
+      "type": "fill",
+      "before": "Ik wil 100 euro naar mijn spaarrekening",
+      "after": ".",
+      "answer": "overschrijven",
+      "alt": [],
+      "hint": "transferir",
+      "explain": "Com \"wil\" o segundo verbo vai inteiro (infinitivo) para o FIM da frase: a pinça. Overschrijven = over + schrijven, \"escrever por cima\" = transferir. (\"Storten\", depositar, pede outra preposição: storten OP een rekening.)"
+    },
+    {
+      "type": "fill",
+      "before": "De bank vraagt",
+      "after": "je pincode aan de telefoon.",
+      "answer": "nooit",
+      "alt": [],
+      "hint": "nunca",
+      "explain": "Nooit = nunca, e em neerlandês vem DEPOIS do verbo, porque o verbo não larga o 2º lugar (V2). Esta frase é o seu escudo contra o golpe do falso banco."
+    },
+    {
+      "type": "order",
+      "pt": "Eu pago o aluguel por débito automático.",
+      "tokens": ["Ik", "betaal", "de", "huur", "via", "domiciliëring"],
+      "answer": "Ik betaal de huur via domiciliëring",
+      "explain": "Ordem básica: sujeito + verbo em 2º lugar + objeto + complemento. Domiciliëring = o débito automático que paga aluguel, luz e creche sozinho."
+    },
+    {
+      "type": "order",
+      "pt": "Eu te mando o dinheiro pelo Wero.",
+      "tokens": ["Ik", "stuur", "het", "je", "via", "Wero"],
+      "answer": "Ik stuur het je via Wero",
+      "explain": "Pegadinha da ordem: em neerlandês a coisa (het) vem ANTES da pessoa (je): stuur het je. Em português fazemos o contrário: te mando isso."
+    },
+    {
+      "type": "match",
+      "pairs": [["de zichtrekening", "conta corrente"], ["de spaarrekening", "poupança"], ["de overschrijving", "transferência"], ["de geldautomaat", "caixa eletrônico"], ["het afschrift", "extrato bancário"]],
+      "explain": "Todas são palavras montadas: zicht+rekening (conta à vista), spaar+rekening (conta de poupar), over+schrijving (escrita por cima), geld+automaat (máquina de dinheiro), af+schrift (o escrito que sai da conta)."
+    },
+    {
+      "type": "mc",
+      "q": "Seu cartão sumiu no tram. Para que número você liga primeiro? 📞",
+      "options": ["078 170 170 (Card Stop)", "112", "101", "1733"],
+      "answer": 0,
+      "explain": "Card Stop 078 170 170 bloqueia o cartão em minutos, 24h por dia. O 112 é ambulância e bombeiros, 101 é polícia urgente e 1733 é médico de plantão."
+    },
+    {
+      "type": "mc",
+      "q": "Alguém liga \"do banco\" mandando transferir tudo para uma veilige rekening (conta segura). O que você faz? 🚨",
+      "options": ["Desligo e ligo eu mesmo para o número oficial do banco", "Transfiro rápido antes que roubem meu dinheiro", "Dou o PIN para confirmar minha identidade", "Mando o valor por Wero para ganhar tempo"],
+      "answer": 0,
+      "explain": "\"Conta segura\" não existe: é o golpe clássico contra recém-chegados. Nenhum banco, polícia ou Card Stop pede PIN ou transferência por telefone. Desligue e ligue VOCÊ para o banco."
+    }
+  ]
+}

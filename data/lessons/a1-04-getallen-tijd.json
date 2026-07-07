@@ -120,29 +120,29 @@
     {
       "type": "mc",
       "q": "Quanto é \"vierendertig\"? 🔢",
-      "options": ["34", "43", "44", "334"],
-      "answer": 0,
+      "options": ["43", "34", "44", "334"],
+      "answer": 1,
       "explain": "vier (4) + en (e) + dertig (30) = \"quatro-e-trinta\" = 34. A unidade vem ANTES da dezena, o contrário do português."
     },
     {
       "type": "mc",
       "q": "São 14:30 no relógio. Como o belga fala essa hora? ⏰",
-      "options": ["half drie", "half twee", "drie uur dertig", "kwart na twee"],
-      "answer": 0,
+      "options": ["half twee", "drie uur dertig", "half drie", "kwart na twee"],
+      "answer": 2,
       "explain": "half drie = \"metade do caminho até as TRÊS\" = 2:30. A meia hora sempre aponta para a hora seguinte."
     },
     {
       "type": "listen",
       "nl": "De afspraak is om half acht.",
-      "options": ["O compromisso é às 7:30", "O compromisso é às 8:30", "O compromisso é às 8:00"],
-      "answer": 0,
+      "options": ["O compromisso é às 8:30", "O compromisso é às 7:30", "O compromisso é às 8:00"],
+      "answer": 1,
       "explain": "half acht = metade do caminho até as OITO = 7:30. Errar isso é perder a consulta! ⚠️"
     },
     {
       "type": "listen",
       "nl": "Dat kost vijfennegentig euro.",
-      "options": ["Custa 95 euros", "Custa 59 euros", "Custa 65 euros", "Custa 90 euros"],
-      "answer": 0,
+      "options": ["Custa 59 euros", "Custa 65 euros", "Custa 95 euros", "Custa 90 euros"],
+      "answer": 2,
       "explain": "vijf (5) + en + negentig (90) = \"cinco-e-noventa\" = 95. Anote a dezena por último!"
     },
     {
@@ -189,22 +189,22 @@
     {
       "type": "mc",
       "q": "Como se escreve \"quarta-feira\" numa frase em neerlandês? 📅",
-      "options": ["woensdag", "Woensdag", "Woensdag-dag", "wodansdag"],
-      "answer": 0,
+      "options": ["Woensdag", "woensdag", "Woensdag-dag", "wodansdag"],
+      "answer": 1,
       "explain": "Dias e meses NUNCA levam maiúscula em neerlandês (diferente do inglês): woensdag, maart, juli."
     },
     {
       "type": "listen",
       "nl": "De winkel is open van negen tot half zes.",
-      "options": ["A loja abre das 9:00 às 17:30", "A loja abre das 9:00 às 18:30", "A loja abre das 9:00 às 6:30"],
-      "answer": 0,
+      "options": ["A loja abre das 9:00 às 18:30", "A loja abre das 9:00 às 17:30", "A loja abre das 9:00 às 6:30"],
+      "answer": 1,
       "explain": "van... tot = de... até. E half zes = metade do caminho até as SEIS = 17:30. Horário belga clássico de comércio. 🛍️"
     },
     {
       "type": "mc",
       "q": "Você vê \"€ 1.500,50\" num contrato belga. Quanto é? 💶",
-      "options": ["mil e quinhentos euros e cinquenta cents", "um euro e cinquenta", "cento e cinquenta mil euros", "quinze mil euros"],
-      "answer": 0,
+      "options": ["um euro e cinquenta", "cento e cinquenta mil euros", "mil e quinhentos euros e cinquenta cents", "quinze mil euros"],
+      "answer": 2,
       "explain": "Na Bélgica o ponto separa milhares e a vírgula separa os centavos, igual ao Brasil. Em sites em inglês é o contrário: confira sempre!"
     },
     {

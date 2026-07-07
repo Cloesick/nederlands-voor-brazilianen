@@ -1,0 +1,201 @@
+{
+  "id": "c1-01-tussentaal",
+  "unit": "C1",
+  "title": "Flamengo de rua · Tussentaal",
+  "emoji": "🍺",
+  "teaching": [
+    {
+      "emoji": "🍺",
+      "title": "O que é tussentaal? O neerlandês do churrasco",
+      "html": "<p>Na escola você aprende o <b>Algemeen Nederlands</b> (padrão). No churrasco, no frietkot e no café você ouve <b>tussentaal</b>: a língua intermediária flamenga 🍟. Não é erro nem dialeto fechado: é o registro do dia a dia. Regra de ouro: <b>entenda as duas, fale o padrão</b>.</p><table class=\"vocab\"><tr><th>escola 🏫</th><th>rua / churrasco 🍺</th><th>português</th></tr><tr><td>jij / je</td><td><b>gij / ge</b></td><td>você</td></tr><tr><td>leuk</td><td><b>plezant</b></td><td>divertido</td></tr><tr><td>zin hebben in</td><td><b>goesting hebben in</b></td><td>estar com vontade de</td></tr><tr><td>een kopje koffie</td><td><b>een tas koffie</b></td><td>uma xícara de café</td></tr><tr><td>schoonmaken</td><td><b>kuisen</b></td><td>limpar</td></tr><tr><td>mooi</td><td><b>schoon</b></td><td>bonito</td></tr><tr><td>dag!</td><td><b>salu!</b></td><td>tchau!</td></tr></table><p><small>É como o brasileiro que escreve \"estou indo\" e fala \"tô indo\": mesmo idioma, dois registros. 😉</small></p>"
+    },
+    {
+      "emoji": "👉",
+      "title": "Gij zijt: o \"tu\" flamengo",
+      "html": "<p><b>Gij</b> (forma átona: <b>ge</b>) é o \"você\" da rua flamenga, no lugar de jij/je. Para o brasileiro é intuitivo: é como a variação regional entre <i>tu</i> e <i>você</i> no Brasil 🇧🇷.</p><ul><li><b>Gij zijt</b> = você é/está (nunca \"gij bent\"!)</li><li><b>Gij hebt</b> = você tem</li><li><b>Wat zegt ge?</b> = o que você está dizendo?</li><li>Objeto e possessivo: <b>u</b> e <b>uw</b>. \"Ik zie u graag\" = gosto de você (e não é formal!)</li></ul><p><small>⚠️ Na tussentaal, esse \"u\" depois de gij NÃO é formal. Mas em texto escrito, no banco ou na gemeente, volte para o padrão je/u.</small></p>"
+    },
+    {
+      "emoji": "🎂",
+      "title": "Trakteren: o aniversário ao contrário",
+      "html": "<p>No Brasil, os outros organizam a festa para você. Na Flandres é o inverso: <b>quem faz anos paga</b>! 🎉</p><ul><li>No trabalho: <b>você</b> leva koffiekoeken ou bolo para os colegas 🥐</li><li>No café: <b>\"Ik trakteer!\"</b> = a rodada é por sua conta, uns 15 euros bem investidos 🍺</li><li>Convidado para um churrasco? Leve flores, vinho ou chocolates para a anfitriã 🌷</li><li>No restaurante, cada um paga o seu, calculado ao cent, muitas vezes pelo Wero 📱</li></ul><p><small>Brindou? <b>Santé!</b> Olhando nos olhos, sempre. 👀</small></p>"
+    },
+    {
+      "emoji": "🕯️",
+      "title": "Gezelligheid vs saudade: o empate cultural",
+      "html": "<p>O neerlandês tem <b>gezellig(heid)</b>: aquele aconchego social de estar bem juntos, com velas, cerveja e conversa boa. O português tem <b>saudade</b>. Nenhuma das duas tem tradução exata.</p><p>No churrasco, a Sofia resume: <i>\"Van saudade hebben jullie geen woord, maar van gezelligheid ook niet in 't Portugees. We staan quitte.\"</i> (Para saudade vocês não têm palavra, mas para gezelligheid nós também não. Estamos quites.) 🤝</p><p><small>Quando você conseguir explicar uma usando a outra, parabéns: você chegou ao coração das duas culturas. ❤️</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Amai","r":"x"},{"t":",","r":"punc"},{"t":"dat","r":"pron"},{"t":"is","r":"verb"},{"t":"schoon","r":"adj"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Nossa","r":"x"},{"t":",","r":"punc"},{"t":"isso","r":"pron"},{"t":"é","r":"verb"},{"t":"bonito","r":"adj"},{"t":"!","r":"punc"}],
+      "note": "Na Flandres, schoon = bonito. Na Holanda, schoon = limpo (e bonito lá é mooi). Falso amigo dentro da própria língua!"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"goesting","r":"noun"},{"t":"in","r":"prep"},{"t":"een","r":"art"},{"t":"tas","r":"noun"},{"t":"koffie","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Estou","r":"verb"},{"t":"com","r":"prep"},{"t":"vontade","r":"noun"},{"t":"de","r":"prep"},{"t":"uma","r":"art"},{"t":"xícara","r":"noun"},{"t":"de","r":"prep"},{"t":"café","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho desejo em uma xícara café",
+      "note": "Goesting hebben in = o flamengo de zin hebben in. E tas = xícara só na Flandres; na Holanda tas é bolsa!"
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"was","r":"verb"},{"t":"echt","r":"adv"},{"t":"plezant","r":"adj"},{"t":"op","r":"prep"},{"t":"de","r":"art"},{"t":"barbecue","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Foi","r":"verb"},{"t":"muito","r":"adv"},{"t":"divertido","r":"adj"},{"t":"no","r":"prep"},{"t":"churrasco","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "isso foi mesmo divertido no churrasco",
+      "note": "Plezant = leuk em flamengo. E o sujeito het é obrigatório em NL; o PT pode omitir (\"foi\")."
+    },
+    {
+      "nl": [{"t":"Amai","r":"x"},{"t":",","r":"punc"},{"t":"gij","r":"pron"},{"t":"spreekt","r":"verb"},{"t":"al","r":"adv"},{"t":"goed","r":"adv"},{"t":"Nederlands","r":"noun"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Caramba","r":"x"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"já","r":"adv"},{"t":"fala","r":"verb"},{"t":"bem","r":"adv"},{"t":"neerlandês","r":"noun"},{"t":"!","r":"punc"}],
+      "lit": "caramba, você fala já bem neerlandês",
+      "note": "Início do diálogo do churrasco 🍖. Com gij o verbo leva -t: gij spreekt. E al (já) fica depois do verbo, não antes."
+    },
+    {
+      "nl": [{"t":"Allee","r":"x"},{"t":",","r":"punc"},{"t":"ge","r":"pron"},{"t":"moet","r":"verb"},{"t":"niet","r":"neg"},{"t":"overdrijven","r":"verb"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Ah","r":"x"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"não","r":"neg"},{"t":"precisa","r":"verb"},{"t":"exagerar","r":"verb"},{"t":"!","r":"punc"}],
+      "lit": "allee, você deve não exagerar",
+      "note": "A pinça em ação: moet segura a 2ª posição e o infinitivo overdrijven fecha a frase. Niet vem DEPOIS do verbo conjugado."
+    },
+    {
+      "nl": [{"t":"Wilt","r":"verb"},{"t":"ge","r":"pron"},{"t":"nog","r":"adv"},{"t":"een","r":"art"},{"t":"pintje","r":"noun"},{"t":"?","r":"punc"},{"t":"Ik","r":"pron"},{"t":"trakteer","r":"verb"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"quer","r":"verb"},{"t":"mais","r":"adv"},{"t":"uma","r":"art"},{"t":"cervejinha","r":"noun"},{"t":"?","r":"punc"},{"t":"Eu","r":"pron"},{"t":"pago","r":"verb"},{"t":"!","r":"punc"}],
+      "lit": "quer você ainda uma cervejinha? eu pago a rodada",
+      "note": "Pergunta de sim/não: o verbo pula para a frente (Wilt ge...?). Trakteren = oferecer, pagar para os outros."
+    },
+    {
+      "nl": [{"t":"Santé","r":"x"},{"t":"!","r":"punc"},{"t":"En","r":"conj"},{"t":"salu","r":"x"},{"t":",","r":"punc"},{"t":"tot","r":"prep"},{"t":"volgende","r":"adj"},{"t":"week","r":"noun"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Saúde","r":"x"},{"t":"!","r":"punc"},{"t":"E","r":"conj"},{"t":"tchau","r":"x"},{"t":",","r":"punc"},{"t":"até","r":"prep"},{"t":"a","r":"art"},{"t":"próxima","r":"adj"},{"t":"semana","r":"noun"},{"t":"!","r":"punc"}],
+      "note": "Fim do diálogo 🥂. Santé no brinde (olhando nos olhos!) e salu na despedida. Em NL, tot volgende week dispensa o artigo."
+    },
+    {
+      "nl": [{"t":"Nu","r":"adv"},{"t":"is","r":"verb"},{"t":"het","r":"pron"},{"t":"hier","r":"adv"},{"t":"proper","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Agora","r":"adv"},{"t":"está","r":"verb"},{"t":"limpo","r":"adj"},{"t":"aqui","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "agora está isso aqui limpo",
+      "note": "V2 clássico: Nu ocupa a 1ª posição, o verbo continua em 2º e o sujeito het pula para depois. Proper = limpo, bem flamengo."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"moet","r":"verb"},{"t":"nog","r":"adv"},{"t":"heel","r":"adj"},{"t":"het","r":"art"},{"t":"huis","r":"noun"},{"t":"kuisen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"ainda","r":"adv"},{"t":"tenho","r":"verb"},{"t":"que","r":"conj"},{"t":"limpar","r":"verb"},{"t":"a","r":"art"},{"t":"casa","r":"noun"},{"t":"toda","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu devo ainda inteira a casa limpar",
+      "note": "Kuisen = schoonmaken flamengo. Pinça de novo: o infinitivo vai para o fim. E \"heel het huis\" é ordem flamenga (padrão: het hele huis)."
+    },
+    {
+      "nl": [{"t":"Voor","r":"prep"},{"t":"saudade","r":"noun"},{"t":"bestaat","r":"verb"},{"t":"er","r":"adv"},{"t":"geen","r":"neg"},{"t":"Nederlands","r":"adj"},{"t":"woord","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Para","r":"prep"},{"t":"saudade","r":"noun"},{"t":"não","r":"neg"},{"t":"existe","r":"verb"},{"t":"palavra","r":"noun"},{"t":"neerlandesa","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "para saudade existe aí nenhuma neerlandesa palavra",
+      "note": "Geen nega o substantivo (nunca niet + een). E a Flandres devolve na mesma moeda: gezelligheid também não tem tradução. Estamos quites! 🤝"
+    }
+  ],
+  "vocab": [
+    { "nl": "amai", "art": null, "pt": "nossa!, caramba! (a surpresa flamenga)", "emoji": "😮" },
+    { "nl": "allee", "art": null, "pt": "vamos lá, então, ah (do francês allez; preenche qualquer pausa)", "emoji": "🗣️" },
+    { "nl": "de goesting", "art": "de", "pt": "vontade, desejo (goesting hebben in = estar com vontade de)", "emoji": "🤤" },
+    { "nl": "plezant", "art": null, "pt": "divertido, agradável (padrão: leuk)", "emoji": "🎉" },
+    { "nl": "schoon", "art": null, "pt": "bonito (na Flandres!; na Holanda significa limpo)", "emoji": "😍" },
+    { "nl": "proper", "art": null, "pt": "limpo (o limpo flamengo; na Holanda dizem schoon)", "emoji": "✨" },
+    { "nl": "kuisen", "art": null, "pt": "limpar, fazer faxina (padrão: schoonmaken)", "emoji": "🧹" },
+    { "nl": "de tas", "art": "de", "pt": "xícara (na Flandres; na Holanda tas = bolsa!)", "emoji": "☕" },
+    { "nl": "gij / ge", "art": null, "pt": "você (informal flamengo, no lugar de jij/je; verbo com -t: gij zijt)", "emoji": "👉" },
+    { "nl": "salu", "art": null, "pt": "tchau (despedida informal; também salukes)", "emoji": "👋" },
+    { "nl": "trakteren", "art": null, "pt": "pagar a rodada, oferecer aos outros (quem faz anos trakteert!)", "emoji": "🎂" },
+    { "nl": "de tussentaal", "art": "de", "split": "tussen (entre) + taal (língua)", "pt": "a língua intermediária flamenga, entre o dialeto e o padrão", "emoji": "🌉" },
+    { "nl": "de gezelligheid", "art": "de", "split": "gezellig (aconchegante) + heid (-dade)", "pt": "aconchego social, o quase-saudade flamengo", "emoji": "🕯️" },
+    { "nl": "het pintje", "art": "het", "split": "pint (copo de cerveja) + je (diminutivo carinhoso)", "pt": "cervejinha (chope de 25 cl)", "emoji": "🍺" },
+    { "nl": "het frietkot", "art": "het", "split": "friet (fritas) + kot (barraca, cabana)", "pt": "barraca de fritas, instituição nacional belga", "emoji": "🍟" },
+    { "nl": "overdrijven", "art": null, "split": "over (além de) + drijven (flutuar, levar)", "pt": "exagerar", "emoji": "🎭" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que um flamengo quer dizer quando solta um \"Amai!\"? 😮",
+      "options": ["Ame!", "Nossa! / Caramba!", "Tchau!", "Silêncio!"],
+      "answer": 1,
+      "explain": "Amai é a interjeição flamenga de surpresa e admiração. Nada a ver com o verbo amar!"
+    },
+    {
+      "type": "mc",
+      "q": "Na Flandres, \"schoon weer\" significa... ☀️",
+      "options": ["tempo limpo", "tempo bonito", "tempo estranho", "tempo frio"],
+      "answer": 1,
+      "explain": "Na Flandres schoon = bonito. Na Holanda schoon = limpo. O limpo flamengo é proper."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb goesting in een tas koffie.",
+      "options": ["Estou com vontade de uma xícara de café", "Tenho uma bolsa cheia de café", "Preciso pagar um café", "Não gosto de café"],
+      "answer": 0,
+      "explain": "Goesting = vontade (padrão: zin) e tas = xícara na Flandres. Na Holanda, tas seria bolsa!"
+    },
+    {
+      "type": "listen",
+      "nl": "Allee, salu, tot volgende week!",
+      "options": ["Vamos lá, tchau, até semana que vem!", "Olá, seja bem-vindo esta semana!", "Saúde, um brinde à semana!"],
+      "answer": 0,
+      "explain": "Allee abre a despedida, salu é o tchau flamengo e tot volgende week marca o reencontro (sem artigo em NL)."
+    },
+    {
+      "type": "listen",
+      "nl": "Amai, gij spreekt al goed Nederlands!",
+      "options": ["Caramba, você já fala bem neerlandês!", "Amor, fale neerlandês comigo!", "Nossa, você não fala neerlandês!"],
+      "answer": 0,
+      "explain": "O elogio clássico do churrasco: amai (caramba) + gij spreekt (você fala, com -t) + al (já)."
+    },
+    {
+      "type": "fill",
+      "before": "Ik moet heel het huis",
+      "after": ".",
+      "answer": "kuisen",
+      "alt": ["schoonmaken", "poetsen"],
+      "hint": "limpar, em flamengo",
+      "explain": "Kuisen é o verbo flamengo para limpar/fazer faxina. Schoonmaken é o padrão e poetsen também se ouve. O infinitivo fecha a frase (pinça!)."
+    },
+    {
+      "type": "fill",
+      "before": "Ik heb",
+      "after": "in friet!",
+      "answer": "goesting",
+      "alt": ["zin"],
+      "hint": "vontade (bem flamengo)",
+      "explain": "Goesting hebben in = estar com vontade de. O padrão ensina zin hebben in, mas no frietkot você vai ouvir goesting."
+    },
+    {
+      "type": "order",
+      "pt": "Você quer mais uma cervejinha?",
+      "tokens": ["Wilt", "ge", "nog", "een", "pintje"],
+      "answer": "Wilt ge nog een pintje",
+      "explain": "Pergunta de sim/não: o verbo vai para a frente e ge vem logo depois. Nog = mais uma/ainda. E pintje é o diminutivo carinhoso do chope."
+    },
+    {
+      "type": "order",
+      "pt": "Agora está limpo aqui.",
+      "tokens": ["Nu", "is", "het", "hier", "proper"],
+      "answer": "Nu is het hier proper",
+      "explain": "V2! Nu ocupa a 1ª posição, o verbo is fica em 2º e o sujeito het pula para depois. Proper = limpo em flamengo."
+    },
+    {
+      "type": "match",
+      "pairs": [["plezant", "divertido"], ["proper", "limpo"], ["schoon", "bonito"], ["de goesting", "a vontade"], ["kuisen", "limpar"], ["salu", "tchau"]],
+      "explain": "A pegadinha dupla: na Flandres schoon = bonito e proper = limpo. Guarde os pares e nunca mais confunda com o neerlandês da Holanda."
+    },
+    {
+      "type": "mc",
+      "q": "É seu aniversário no trabalho na Flandres. O que acontece? 🎂",
+      "options": ["Os colegas organizam uma festa e pagam tudo para você", "VOCÊ leva koffiekoeken e paga a rodada: gij trakteert!", "Ninguém comemora aniversários", "O chefe dá o dia de folga"],
+      "answer": 1,
+      "explain": "O contrário do Brasil: quem faz anos trakteert! Você leva bolo ou koffiekoeken para os colegas e no café oferece a rodada, uns 15 euros bem investidos."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a forma correta com gij? 👉",
+      "options": ["Gij bent", "Gij is", "Gij zijt", "Gij ben"],
+      "answer": 2,
+      "explain": "Gij tem conjugação própria: gij zijt, gij hebt, gij spreekt. \"Bent\" combina com jij, do neerlandês padrão."
+    },
+    {
+      "type": "mc",
+      "q": "Qual palavra flamenga é tão intraduzível quanto saudade? 🕯️",
+      "options": ["goesting", "gezelligheid", "plezant", "proper"],
+      "answer": 1,
+      "explain": "Gezelligheid é o aconchego social de estar bem juntos: velas, pintje, conversa boa. Quando você explicar uma com a outra, chegou ao C2!"
+    }
+  ]
+}

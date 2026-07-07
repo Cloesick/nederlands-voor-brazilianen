@@ -142,6 +142,7 @@ async function route() {
     if (h === '' || h === '/') return renderHome(app);
     if (h === 'legenda') return renderLegend(app);
     if (h === 'revisao') return renderReview(app);
+    if (h === 'woordenboek') return renderWoordenboek(app);
     const m = h.match(/^les\/([\w-]+)(\/praticar)?$/);
     if (m) return renderLesson(app, m[1], !!m[2]);
     renderHome(app);
@@ -222,12 +223,14 @@ function showTab(t, L) {
         <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
         <td class="v-split">${esc(v.split || '')}</td>
         <td>${v.emoji || ''} ${esc(v.pt)}</td></tr>`).join('')}</table>
+      <div id="socialCard"></div>
       <p class="center"><button class="btn primary" id="goPractice">🏋️ Praticar agora →</button></p>`;
     bindPhraseEvents(body);
     body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
     $('#goPractice').addEventListener('click', () => {
       body.closest('#app').querySelector('[data-t="pr"]').click();
     });
+    fillSocialCard(L.id);
   }
   if (t === 'pr') runExercises(body, L);
   if (t === 'fc') runFlashcards(body, L, L.vocab.map(v => ({ ...v, key: L.id + '|' + v.nl })));
@@ -452,6 +455,103 @@ async function renderReview(app) {
   }
   app.innerHTML = `<h1>🃏 Revisão inteligente <span class="muted" style="font-size:1rem">${cards.length} carta(s) vencida(s)</span></h1><div id="fcbody"></div>`;
   runFlashcards($('#fcbody'), null, cards);
+}
+
+/* ---------- social media per lesson (📱 Ver na prática) ---------- */
+let SOCIAL = null;
+async function socialData() {
+  if (SOCIAL === null) {
+    try { SOCIAL = await (await fetch('data/social.json')).json(); } catch { SOCIAL = {}; }
+  }
+  return SOCIAL;
+}
+async function fillSocialCard(id) {
+  const soc = (await socialData())[id];
+  const el = document.getElementById('socialCard');
+  if (!soc || !soc.length || !el) return;
+  el.innerHTML = `<div class="card social-card"><h3>📱 Ver na prática (redes e vídeos)</h3>
+    <p class="muted" style="margin-top:0"><small>Conteúdo real em neerlandês sobre este tema. Ouvir nativos é metade do aprendizado! 🎧</small></p>
+    <div class="social-links">${soc.map(s =>
+      `<a class="social-link" href="${esc(s.url)}" target="_blank" rel="noopener">
+        <span class="social-icon">${esc(s.icon)}</span>
+        <span><b>${esc(s.label)}</b><br><small class="muted">${esc(s.src || '')}</small></span> ↗</a>`).join('')}
+    </div></div>`;
+}
+
+/* ---------- woordenboek: dicionário + busca rápida + emojis ---------- */
+let ALLVOCAB = null, EMOJI = null;
+async function allVocab() {
+  if (ALLVOCAB) return ALLVOCAB;
+  const man = await manifest();
+  const out = [];
+  const seen = new Set();
+  const packs = await Promise.all(man.lessons.map(async l => ({ l, L: await lesson(l.id) })));
+  for (const { l, L } of packs) {
+    for (const v of L.vocab) {
+      const k = norm(v.nl);
+      if (seen.has(k)) continue;
+      seen.add(k);
+      out.push({ ...v, from: l.id, fromEmoji: l.emoji });
+    }
+  }
+  try {  // extra dictionary entries beyond the lessons
+    const extra = await (await fetch('data/woordenboek-extra.json')).json();
+    for (const v of extra) {
+      const k = norm(v.nl);
+      if (!seen.has(k)) { seen.add(k); out.push(v); }
+    }
+  } catch { /* optional file */ }
+  ALLVOCAB = out.sort((a, b) => norm(a.nl).localeCompare(norm(b.nl)));
+  return ALLVOCAB;
+}
+async function emojiIndex() {
+  if (!EMOJI) { try { EMOJI = await (await fetch('data/emoji/index.json')).json(); } catch { EMOJI = []; } }
+  return EMOJI; // rows: [emoji, label_pt, tags_pt, label_nl, tags_nl]
+}
+async function renderWoordenboek(app) {
+  app.innerHTML = `
+    <h1>🔎 Woordenboek <small class="muted" style="font-size:1rem">dicionário + busca rápida</small></h1>
+    <div class="card">
+      <input class="fill-input" id="dictQ" style="max-width:100%" autocomplete="off"
+        placeholder="🔍 digite em neerlandês OU português... (ex: huis, casa, afspraak, médico)">
+      <p class="muted" style="margin:.5em 0 0"><small>💡 Busca nas palavras do curso (com a quebra 🧩), no banco de
+      <b>1900+ emojis bilíngues</b> 😀 e oferece atalhos para dicionários externos.</small></p>
+    </div>
+    <div id="dictOut"><p class="muted center">⌨️ Comece a digitar...</p></div>`;
+  const [vocab, emo] = await Promise.all([allVocab(), emojiIndex()]);
+  const out = $('#dictOut'), q = $('#dictQ');
+  q.focus();
+  q.addEventListener('input', () => {
+    const s = norm(q.value);
+    if (s.length < 2) { out.innerHTML = `<p class="muted center">⌨️ Digite pelo menos 2 letras... (${vocab.length} palavras + ${emo.length} emojis na base)</p>`; return; }
+    const words = vocab.filter(v => norm(v.nl).includes(s) || norm(v.pt).includes(s) || norm(v.split || '').includes(s)).slice(0, 40);
+    const emojis = emo.filter(r => norm(r[1]).includes(s) || norm(r[2]).includes(s) || norm(r[3]).includes(s) || norm(r[4]).includes(s)).slice(0, 24);
+    const enc = encodeURIComponent(q.value.trim());
+    out.innerHTML = `
+      ${words.length ? `<table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th><th>lição</th></tr>
+        ${words.map(v => `<tr>
+          <td>${v.art ? `<span class="pill art-${v.art}">${v.art}</span>` : ''}</td>
+          <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn dspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
+          <td class="v-split">${esc(v.split || '')}</td>
+          <td>${v.emoji || ''} ${esc(v.pt)}</td>
+          <td>${v.from ? `<a href="#/les/${v.from}" title="ver lição">${v.fromEmoji || '📖'}</a>` : '📕'}</td></tr>`).join('')}</table>`
+      : `<div class="card center">🤷 Nada no vocabulário do curso para "<b>${esc(q.value)}</b>".</div>`}
+      ${emojis.length ? `<div class="card"><h3>😀 Emojis que combinam <small class="muted" style="font-size:.8rem">(toque para copiar)</small></h3>
+        <div class="emoji-grid">${emojis.map(r => `<button class="emoji-hit" data-e="${esc(r[0])}" title="🇧🇷 ${esc(r[1])} · 🇧🇪 ${esc(r[3])}">${r[0]}<small>${esc(r[3])}</small></button>`).join('')}</div></div>` : ''}
+      <div class="card"><h3>🌍 Não achou? Busque fora:</h3>
+        <p class="ext-links">
+          <a class="btn small" target="_blank" rel="noopener" href="https://glosbe.com/nl/pt/${enc}">📗 Glosbe NL→PT</a>
+          <a class="btn small" target="_blank" rel="noopener" href="https://glosbe.com/pt/nl/${enc}">📘 Glosbe PT→NL</a>
+          <a class="btn small" target="_blank" rel="noopener" href="https://translate.google.com/?sl=auto&tl=pt&text=${enc}&op=translate">🌐 Google Translate</a>
+          <a class="btn small" target="_blank" rel="noopener" href="https://www.deepl.com/translator#nl/pt/${enc}">🤖 DeepL</a>
+          <a class="btn small" target="_blank" rel="noopener" href="https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/${enc}">📙 Van Dale (NL)</a>
+        </p></div>`;
+    out.querySelectorAll('.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    out.querySelectorAll('.emoji-hit').forEach(b => b.addEventListener('click', () => {
+      navigator.clipboard && navigator.clipboard.writeText(b.dataset.e);
+      toast(`${b.dataset.e} copiado!`);
+    }));
+  });
 }
 
 /* ---------- legend ---------- */

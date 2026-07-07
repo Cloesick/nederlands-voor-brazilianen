@@ -1,0 +1,200 @@
+{
+  "id": "b2-01-solliciteren",
+  "unit": "B2",
+  "title": "Entrevista de emprego · Solliciteren",
+  "emoji": "💼",
+  "teaching": [
+    {
+      "emoji": "🧭",
+      "title": "🧭 Do VDAB ao contrato: o caminho belga até o emprego",
+      "html": "<p>Procurar emprego na Flandres tem um roteiro claro. O <b>VDAB</b> é a agência flamenga de emprego: cadastro gratuito, cursos de neerlandês voltados ao trabalho, orientação de carreira e milhares de <i>vacatures</i>. Para quem faz inburgering, o cadastro costuma fazer parte do trajeto. 📋</p><ul><li>🏬 <b>Het interimkantoor</b> (Randstad, Adecco...) é a porta de entrada mais rápida: você trabalha como <b>uitzendkracht</b> (temporário) e, se os dois lados gostarem, vira <b>vast contract</b>.</li><li>✉️ Para vagas fixas você envia <b>cv + sollicitatiebrief</b> (carta de motivação) e, se der certo, é convidado para <b>het sollicitatiegesprek</b>.</li><li>🕰️ Na entrevista, trate o recrutador com <b>u</b> e chegue 10 minutos antes: pontualidade na Bélgica é coisa séria!</li></ul><p>💡 Cuidado com o falso amigo: em português a \"solicitação\" pede qualquer coisa; em neerlandês <b>solliciteren</b> é sempre candidatar-se a um emprego, com preposição fixa: <i>solliciteren <b>op</b> een vacature</i>.</p>"
+    },
+    {
+      "emoji": "💶",
+      "title": "💶 O pacote salarial belga: muito além do bruto",
+      "html": "<p>Na Bélgica, quem negocia só o salário perde metade do jogo. O pacote (<i>het loonpakket</i>) tem várias camadas: 🇧🇪</p><table class=\"vocab\"><tr><th>quando</th><th>o quê</th><th>quanto</th></tr><tr><td>todo mês</td><td><b>brutoloon</b> vira <b>nettoloon</b> após impostos e RSZ (o INSS belga)</td><td>sobram ± 55 a 70% do bruto</td></tr><tr><td>por dia trabalhado</td><td><b>maaltijdcheques</b> (vale-refeição)</td><td>± 8 euros por dia</td></tr><tr><td>± maio</td><td><b>vakantiegeld</b>: o \"dobro de férias\"</td><td>± um salário extra</td></tr><tr><td>dezembro</td><td><b>eindejaarspremie</b>: o 13º belga</td><td>± um salário extra</td></tr></table><p>🎁 Extras comuns: <b>ecocheques</b>, <b>hospitalisatieverzekering</b> (plano hospitalar), abono de transporte ou carro da empresa. E sim: vakantiegeld E eindejaarspremie, os dois! Por isso, na entrevista pergunte sempre pelo <i>volledige loonpakket</i>, não só pelo loon. 😉</p>"
+    },
+    {
+      "emoji": "🎩",
+      "title": "🎩 Zou: o condicional que abre portas",
+      "html": "<p><b>Zou</b> (plural: <i>zouden</i>) é o irmão neerlandês do nosso \"-ria\": gosta<b>ria</b>, fa<b>ria</b>, pode<b>ria</b>. Ele ocupa a posição 2 e empurra o verbo principal para o fim da frase, formando a pinça. 🦀 O B2 pede os três usos:</p><ul><li>🙏 <b>Cortesia</b>: <i>Ik <b>zou</b> graag op woensdag vrij <b>zijn</b>.</i> = Eu gostaria de estar livre na quarta. O tom perfeito para negociar sem exigir.</li><li>🌈 <b>Hipótese</b>: <i>Als ik rijk was, <b>zou</b> ik minder <b>werken</b>.</i> = Se eu fosse rico, trabalharia menos.</li><li>🗞️ <b>Boato</b>: <i>Het bedrijf <b>zou</b> mensen <b>ontslaan</b>.</i> = Dizem que a empresa vai demitir. (uso jornalístico: informação não confirmada)</li></ul><p>💡 Na entrevista, o combo mágico é <b>zou + graag</b>: <i>Ik zou graag meer willen weten over de maaltijdcheques.</i> Educado, profissional e 100% belga. O recrutador também usa zou nas perguntas: <i>Hoe zou u omgaan met een boze klant?</i> (Como o senhor lidaria com um cliente bravo?)</p>"
+    },
+    {
+      "emoji": "🗣️",
+      "title": "🗣️ Expressões que fazem você soar B2 na entrevista",
+      "html": "<p>O salto do B1 para o B2 está nas expressões fixas e nas preposições que grudam nos verbos: 🧲</p><ul><li><b>het valt me op dat...</b> = me chama a atenção que... (<i>Het viel me op dat jullie internationaal werken.</i>)</li><li><b>belang hechten aan</b> = dar importância a (<i>Jullie hechten veel belang aan meertaligheid.</i>)</li><li><b>ten laatste</b> = no mais tardar (<i>We laten u ten laatste vrijdag iets weten.</i>)</li><li><b>uit de hand lopen</b> = sair do controle (<i>Als het gesprek uit de hand loopt, blijf ik rustig.</i>)</li><li><b>ervaring opbouwen</b> = acumular experiência, literalmente \"construir para cima\"</li></ul><p>🧲 Preposições fixas para decorar em bloco: <b>solliciteren op</b> een vacature, <b>denken aan</b> een loon, <b>omgaan met</b> klanten, <b>wachten op</b> een antwoord. Em português também as temos (\"depender DE\", \"gostar DE\"): decore verbo + preposição como se fosse uma palavra só!</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"me","r":"pron"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"VDAB","r":"noun"},{"t":"ingeschreven","r":"verb"},{"t":"als","r":"prep"},{"t":"werkzoekende","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Me","r":"pron"},{"t":"inscrevi","r":"verb"},{"t":"no","r":"prep"},{"t":"VDAB","r":"noun"},{"t":"como","r":"prep"},{"t":"candidato","r":"noun"},{"t":"a","r":"prep"},{"t":"emprego","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho me junto-de o VDAB inscrito como trabalho-procurante",
+      "note": "zich inschrijven = inscrever-se (reflexivo, como em PT). werkzoekende = werk (trabalho) + zoekende (que procura): a palavra oficial do VDAB para quem busca emprego. 🧭"
+    },
+    {
+      "nl": [{"t":"Waarom","r":"qw"},{"t":"hebt","r":"verb"},{"t":"u","r":"pron"},{"t":"op","r":"prep"},{"t":"deze","r":"pron"},{"t":"vacature","r":"noun"},{"t":"gesolliciteerd","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Por","r":"qw"},{"t":"que","r":"qw"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"se","r":"pron"},{"t":"candidatou","r":"verb"},{"t":"a","r":"prep"},{"t":"esta","r":"pron"},{"t":"vaga","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "por que tem o-senhor em esta vaga candidatado",
+      "note": "A pergunta que abre TODA entrevista. Perfectum em pinça: hebt na posição 2, gesolliciteerd lá no fim. E a preposição fixa: solliciteren OP een vacature. 🎬"
+    },
+    {
+      "nl": [{"t":"In","r":"prep"},{"t":"Brazilië","r":"noun"},{"t":"heb","r":"verb"},{"t":"ik","r":"pron"},{"t":"vijf","r":"num"},{"t":"jaar","r":"noun"},{"t":"ervaring","r":"noun"},{"t":"opgebouwd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"No","r":"prep"},{"t":"Brasil","r":"noun"},{"t":"acumulei","r":"verb"},{"t":"cinco","r":"num"},{"t":"anos","r":"noun"},{"t":"de","r":"prep"},{"t":"experiência","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "em Brasil tenho eu cinco ano experiência construído",
+      "note": "V2 em ação: \"In Brazilië\" ocupa a posição 1, então o sujeito ik pula para DEPOIS de heb. E jaar fica no singular depois de número! 🇧🇷"
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"viel","r":"verb"},{"t":"me","r":"pron"},{"t":"op","r":"part"},{"t":"dat","r":"conj"},{"t":"jullie","r":"pron"},{"t":"belang","r":"noun"},{"t":"hechten","r":"verb"},{"t":"aan","r":"prep"},{"t":"meertaligheid","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Me","r":"pron"},{"t":"chamou","r":"verb"},{"t":"a","r":"art"},{"t":"atenção","r":"noun"},{"t":"que","r":"conj"},{"t":"vocês","r":"pron"},{"t":"dão","r":"verb"},{"t":"importância","r":"noun"},{"t":"ao","r":"prep"},{"t":"multilinguismo","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "isso caiu-me sobre que vocês importância prendem a multilinguismo",
+      "note": "Duas joias B2 numa frase: opvallen é separável (viel ... op) e, depois de dat, o verbo hechten vai para o FIM. belang hechten aan = dar importância a. ✨"
+    },
+    {
+      "nl": [{"t":"Hoe","r":"qw"},{"t":"zou","r":"verb"},{"t":"u","r":"pron"},{"t":"omgaan","r":"verb"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"ontevreden","r":"adj"},{"t":"klant","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Como","r":"qw"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"lidaria","r":"verb"},{"t":"com","r":"prep"},{"t":"um","r":"art"},{"t":"cliente","r":"noun"},{"t":"insatisfeito","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "como iria o-senhor lidar com um insatisfeito cliente",
+      "note": "Pergunta clássica de recrutador com zou (lidaRIA). Note o adjetivo ANTES do substantivo: ontevreden klant, o contrário do nosso \"cliente insatisfeito\". 🔄"
+    },
+    {
+      "nl": [{"t":"Eerst","r":"adv"},{"t":"zou","r":"verb"},{"t":"ik","r":"pron"},{"t":"rustig","r":"adj"},{"t":"blijven","r":"verb"},{"t":"en","r":"conj"},{"t":"actief","r":"adv"},{"t":"luisteren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Primeiro","r":"adv"},{"t":"eu","r":"pron"},{"t":"manteria","r":"verb"},{"t":"a","r":"art"},{"t":"calma","r":"noun"},{"t":"e","r":"conj"},{"t":"escutaria","r":"verb"},{"t":"ativamente","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "primeiro iria eu calmo ficar e ativo escutar",
+      "note": "Resposta de ouro: Eerst na posição 1 força a inversão (zou ik). E um único zou vale para os dois infinitivos no fim: blijven e luisteren. 🧘"
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"zijn","r":"verb"},{"t":"uw","r":"pron"},{"t":"verwachtingen","r":"noun"},{"t":"qua","r":"prep"},{"t":"loon","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quais","r":"qw"},{"t":"são","r":"verb"},{"t":"as","r":"art"},{"t":"suas","r":"pron"},{"t":"expectativas","r":"noun"},{"t":"de","r":"prep"},{"t":"salário","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "uw = possessivo de u (\"do senhor\"). qua = \"em termos de\": palavrinha adorada em entrevistas belgas (qua loon, qua uurrooster, qua ervaring). 💬"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"denk","r":"verb"},{"t":"aan","r":"prep"},{"t":"een","r":"art"},{"t":"brutoloon","r":"noun"},{"t":"van","r":"prep"},{"t":"2900","r":"num"},{"t":"euro","r":"noun"},{"t":",","r":"punc"},{"t":"plus","r":"prep"},{"t":"maaltijdcheques","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Penso","r":"verb"},{"t":"num","r":"prep"},{"t":"salário","r":"noun"},{"t":"bruto","r":"adj"},{"t":"de","r":"prep"},{"t":"2900","r":"num"},{"t":"euros","r":"noun"},{"t":",","r":"punc"},{"t":"mais","r":"prep"},{"t":"vale-refeição","r":"noun"},{"t":".","r":"punc"}],
+      "note": "denken AAN: preposição fixa, decore em bloco. E euro fica no singular depois de número: 2900 euro. Negocie o pacote inteiro, não só o loon! 💶"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zou","r":"verb"},{"t":"graag","r":"adv"},{"t":"op","r":"prep"},{"t":"woensdagmiddag","r":"noun"},{"t":"vrij","r":"adj"},{"t":"zijn","r":"verb"},{"t":"voor","r":"prep"},{"t":"mijn","r":"pron"},{"t":"dochter","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"estar","r":"verb"},{"t":"livre","r":"adj"},{"t":"na","r":"prep"},{"t":"quarta","r":"noun"},{"t":"à","r":"prep"},{"t":"tarde","r":"noun"},{"t":"pela","r":"prep"},{"t":"minha","r":"pron"},{"t":"filha","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu iria com-gosto em quarta-tarde livre estar pela minha filha",
+      "note": "zou + graag = \"gostaria\": o jeito educado de negociar horário. woensdagmiddag = woensdag + middag numa palavra só. Na Flandres, quarta à tarde não tem escola! 👧"
+    },
+    {
+      "nl": [{"t":"Wanneer","r":"qw"},{"t":"zou","r":"verb"},{"t":"ik","r":"pron"},{"t":"kunnen","r":"verb"},{"t":"starten","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quando","r":"qw"},{"t":"eu","r":"pron"},{"t":"poderia","r":"verb"},{"t":"começar","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "quando iria eu poder começar",
+      "note": "O trenzinho de verbos no fim: zou ... kunnen starten. O PT junta tudo em \"poderia começar\"; o NL espalha: zou na posição 2 e o resto empilhado no FINAL. 🚂"
+    },
+    {
+      "nl": [{"t":"We","r":"pron"},{"t":"laten","r":"verb"},{"t":"u","r":"pron"},{"t":"ten","r":"prep"},{"t":"laatste","r":"adj"},{"t":"vrijdag","r":"noun"},{"t":"iets","r":"pron"},{"t":"weten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Damos","r":"verb"},{"t":"um","r":"art"},{"t":"retorno","r":"noun"},{"t":"ao","r":"prep"},{"t":"senhor","r":"pron"},{"t":"até","r":"prep"},{"t":"sexta","r":"noun"},{"t":",","r":"punc"},{"t":"no","r":"prep"},{"t":"mais","r":"adv"},{"t":"tardar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "nós deixamos o-senhor no-mais-tardar sexta algo saber",
+      "note": "iemand iets laten weten = \"deixar alguém saber algo\" = dar retorno. ten laatste = no mais tardar. Se a entrevista terminar assim, bom sinal! 🍀"
+    }
+  ],
+  "vocab": [
+    { "nl": "de sollicitatie", "art": "de", "split": null, "pt": "candidatura a emprego (falso amigo: não é qualquer solicitação!)", "emoji": "📨" },
+    { "nl": "het sollicitatiegesprek", "art": "het", "split": "sollicitatie (candidatura) + gesprek (conversa)", "pt": "entrevista de emprego", "emoji": "🤝" },
+    { "nl": "de sollicitatiebrief", "art": "de", "split": "sollicitatie (candidatura) + brief (carta)", "pt": "carta de motivação", "emoji": "✉️" },
+    { "nl": "de vacature", "art": "de", "split": null, "pt": "vaga de emprego (como \"vacância\")", "emoji": "📋" },
+    { "nl": "de werkgever", "art": "de", "split": "werk (trabalho) + gever (quem dá)", "pt": "empregador, \"dador de trabalho\"", "emoji": "🏢" },
+    { "nl": "de werknemer", "art": "de", "split": "werk (trabalho) + nemer (quem pega)", "pt": "empregado, \"tomador de trabalho\"", "emoji": "👷" },
+    { "nl": "het interimkantoor", "art": "het", "split": "interim (temporário) + kantoor (escritório)", "pt": "agência de trabalho temporário (Randstad, Adecco...)", "emoji": "🏬" },
+    { "nl": "de uitzendkracht", "art": "de", "split": "uit (para fora) + zend (enviar) + kracht (força)", "pt": "trabalhador temporário, \"força enviada\"", "emoji": "💪" },
+    { "nl": "het brutoloon", "art": "het", "split": "bruto + loon (salário)", "pt": "salário bruto", "emoji": "💶" },
+    { "nl": "het nettoloon", "art": "het", "split": "netto (líquido) + loon (salário)", "pt": "salário líquido, o que cai na conta", "emoji": "💰" },
+    { "nl": "de maaltijdcheque", "art": "de", "split": "maaltijd (refeição) + cheque", "pt": "vale-refeição (± 8 euros por dia trabalhado)", "emoji": "🍽️" },
+    { "nl": "het vakantiegeld", "art": "het", "split": "vakantie (férias) + geld (dinheiro)", "pt": "abono de férias, pago ± em maio", "emoji": "🏖️" },
+    { "nl": "de eindejaarspremie", "art": "de", "split": "einde (fim) + jaar (ano) + s + premie (prêmio)", "pt": "o 13º salário belga, pago em dezembro", "emoji": "🎁" },
+    { "nl": "de arbeidsovereenkomst", "art": "de", "split": "arbeid (trabalho) + s + overeenkomst (acordo)", "pt": "contrato de trabalho", "emoji": "📜" },
+    { "nl": "de proefperiode", "art": "de", "split": "proef (teste) + periode (período)", "pt": "período de experiência", "emoji": "⏳" },
+    { "nl": "solliciteren", "art": null, "split": null, "pt": "candidatar-se (solliciteren op een vacature)", "emoji": "🖊️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Na Bélgica você recebe dois \"salários extras\" por ano. Quais? 🎁",
+      "options": ["vakantiegeld (± maio) e eindejaarspremie (dezembro)", "maaltijdcheques e ecocheques", "brutoloon e nettoloon", "loonfiche e verlof"],
+      "answer": 0,
+      "explain": "O vakantiegeld é o \"dobro de férias\" pago por volta de maio, e a eindejaarspremie é o 13º belga de dezembro. Sim, os dois! Maaltijdcheques são um benefício por dia trabalhado, não um salário extra. 💶"
+    },
+    {
+      "type": "mc",
+      "q": "Seu brutoloon é 3000 euros. Quanto sobra aproximadamente de nettoloon? 🤔",
+      "options": ["3000 euros, o valor não muda", "Cerca de 900 euros (30%)", "Entre 1650 e 2100 euros (± 55 a 70%)", "3600 euros, com os bônus incluídos"],
+      "answer": 2,
+      "explain": "Depois dos impostos e do RSZ (o INSS belga), sobram tipicamente 55 a 70% do bruto. Por isso na entrevista se fala sempre em brutoloon: o netto varia por situação familiar. 🧮"
+    },
+    {
+      "type": "listen",
+      "nl": "Waarom hebt u op deze vacature gesolliciteerd?",
+      "options": ["Quando o senhor pode começar a trabalhar?", "Por que o senhor se candidatou a esta vaga?", "Onde o senhor trabalhou antes disso?"],
+      "answer": 1,
+      "explain": "Waarom = por que, e solliciteren op een vacature = candidatar-se a uma vaga. É quase sempre a primeira pergunta da entrevista: prepare uma resposta! 🎬"
+    },
+    {
+      "type": "listen",
+      "nl": "Wat zijn uw verwachtingen qua loon?",
+      "options": ["Qual é o seu horário de trabalho ideal?", "O senhor tem experiência com clientes?", "Quais são as suas expectativas de salário?", "Quando o senhor pode assinar o contrato?"],
+      "answer": 2,
+      "explain": "verwachtingen = expectativas, qua = em termos de, loon = salário. Dica belga: responda com uma faixa de brutoloon baseada nos barema's do setor. 💶"
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "graag op woensdagmiddag vrij zijn.",
+      "answer": "zou",
+      "alt": ["wil"],
+      "hint": "condicional de cortesia (gostaria)",
+      "explain": "zou + graag + infinitivo no fim = \"eu gostaria de...\". wil (quero) também é gramatical, mas soa mais direto; numa entrevista, zou é o tom certo. 🎩"
+    },
+    {
+      "type": "fill",
+      "before": "Ik denk",
+      "after": "een brutoloon van 2900 euro.",
+      "answer": "aan",
+      "alt": [],
+      "hint": "preposição fixa de denken",
+      "explain": "denken AAN = pensar em: preposição fixa que gruda no verbo. Assim como wachten OP (esperar por) e omgaan MET (lidar com). Decore o par inteiro! 🧲"
+    },
+    {
+      "type": "order",
+      "pt": "Primeiro eu manteria a calma.",
+      "tokens": ["Eerst", "zou", "ik", "rustig", "blijven"],
+      "answer": "Eerst zou ik rustig blijven",
+      "explain": "Eerst ocupa a posição 1, então o verbo zou fica na posição 2 e o sujeito ik cai para a 3 (inversão V2). O infinitivo blijven fecha a pinça no fim. 🦀"
+    },
+    {
+      "type": "order",
+      "pt": "No Brasil acumulei cinco anos de experiência.",
+      "tokens": ["In", "Brazilië", "heb", "ik", "vijf", "jaar", "ervaring", "opgebouwd"],
+      "answer": "In Brazilië heb ik vijf jaar ervaring opgebouwd",
+      "explain": "\"In Brazilië\" na posição 1 empurra o sujeito para depois de heb, e o particípio opgebouwd vai para o FIM. E lembre: vijf jaar, singular depois de número! 🇧🇷"
+    },
+    {
+      "type": "match",
+      "pairs": [["het brutoloon", "o salário bruto"], ["de maaltijdcheque", "o vale-refeição"], ["de eindejaarspremie", "o 13º salário belga"], ["het vakantiegeld", "o abono de férias"], ["de vacature", "a vaga de emprego"]],
+      "explain": "O vocabulário do pacote salarial belga: bruto vira netto após impostos, maaltijdcheques caem por dia trabalhado, e vakantiegeld + eindejaarspremie são os dois extras anuais. 💼"
+    },
+    {
+      "type": "mc",
+      "q": "Você acabou de chegar na Flandres e procura emprego. Onde se cadastra gratuitamente? 🧭",
+      "options": ["No consultatiebureau do Kind en Gezin", "No VDAB, a agência flamenga de emprego", "No vakbond, pagando mensalidade", "Na gemeente, pelo Groeipakket"],
+      "answer": 1,
+      "explain": "O VDAB oferece cadastro gratuito, cursos, orientação e vagas; para quem faz inburgering, costuma ser parte do trajeto. Os interimkantoren (Randstad, Adecco...) são a porta de entrada mais rápida. 🏬"
+    },
+    {
+      "type": "listen",
+      "nl": "We laten u ten laatste vrijdag iets weten.",
+      "options": ["O senhor começa a trabalhar na sexta-feira", "A vaga foi fechada na sexta passada", "Precisamos dos seus documentos até sexta", "Damos um retorno ao senhor até sexta, no mais tardar"],
+      "answer": 3,
+      "explain": "iemand iets laten weten = dar um retorno a alguém, e ten laatste = no mais tardar. É a frase clássica de fim de entrevista: agora é esperar (wachten OP een antwoord). 🍀"
+    },
+    {
+      "type": "mc",
+      "q": "Em qual frase o zou é usado por CORTESIA? 🎩",
+      "options": ["Als ik rijk was, zou ik stoppen met werken.", "Ik zou graag deeltijds werken.", "De trein zou vertraging hebben.", "Zou het morgen regenen?"],
+      "answer": 1,
+      "explain": "zou + graag = \"gostaria\": cortesia pura, perfeita para negociar. As outras são os outros usos: hipótese irreal (als ik rijk was...), boato (dizem que o trem está atrasado) e suposição em dúvida. 🌈"
+    }
+  ]
+}

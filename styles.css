@@ -167,6 +167,22 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
   border-radius:12px;padding:8px 14px}
 .legend-row .sample{min-width:170px;font-size:1.05rem}
 
+/* ===== woordenboek & social ===== */
+.emoji-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:8px}
+.emoji-hit{border:2px solid var(--line);background:#fff;border-radius:12px;padding:8px 4px;cursor:pointer;
+  font-size:1.6rem;display:flex;flex-direction:column;align-items:center;gap:2px}
+.emoji-hit small{font-size:.6rem;color:var(--soft);max-width:84px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.emoji-hit:hover{border-color:var(--gold);background:#FFF9E8}
+.ext-links{display:flex;gap:8px;flex-wrap:wrap}
+.social-card{border-color:var(--c2)}
+.social-links{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(250px,1fr))}
+.social-link{display:flex;align-items:center;gap:10px;border:2px solid var(--line);border-radius:12px;
+  padding:9px 12px;text-decoration:none;color:var(--ink);background:#fff}
+.social-link:hover{border-color:var(--c2);background:#FBF7FF}
+.social-icon{font-size:1.5rem}
+.signature{border-top:1px dashed var(--line);padding-top:8px;margin-top:8px !important}
+.signature a{font-weight:700}
+
 /* ===== toast ===== */
 .toast{position:fixed;bottom:24px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;
   border-radius:12px;padding:10px 20px;font-weight:700;z-index:100;box-shadow:0 4px 20px rgba(0,0,0,.3)}
