@@ -1,0 +1,23 @@
+{
+ "id": "test", "unit": "A1", "title": "Lição de teste · Testles", "emoji": "🧪",
+ "teaching": [ { "emoji": "🎯", "title": "Card de teste", "html": "<p>Isto é um <b>teste</b> do motor.</p>" } ],
+ "phrases": [
+  { "nl": [{"t":"Wat","r":"qw"},{"t":"is","r":"verb"},{"t":"de","r":"art"},{"t":"naam","r":"noun"},{"t":"van","r":"prep"},{"t":"hem","r":"pron"},{"t":"?","r":"punc"}],
+    "pt": [{"t":"Qual","r":"qw"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"nome","r":"noun"},{"t":"dele","r":"pron"},{"t":"?","r":"punc"}],
+    "lit": "que é o nome de ele", "note": "van hem vira uma palavra só: dele" },
+  { "nl": [{"t":"Ik","r":"pron"},{"t":"bel","r":"verb"},{"t":"je","r":"pron"},{"t":"morgen","r":"adv"},{"t":"op","r":"part"},{"t":".","r":"punc"}],
+    "pt": [{"t":"Eu","r":"pron"},{"t":"te","r":"pron"},{"t":"ligo","r":"verb"},{"t":"amanhã","r":"adv"},{"t":".","r":"punc"}],
+    "lit": "eu ligo te amanhã (op)", "note": "opbellen se parte: o op voa pro fim" }
+ ],
+ "vocab": [
+  { "nl": "de naam", "art": "de", "split": "", "pt": "o nome", "emoji": "📛" },
+  { "nl": "het ziekenhuis", "art": "het", "split": "zieken (doentes) + huis (casa)", "pt": "hospital", "emoji": "🏥" }
+ ],
+ "exercises": [
+  { "type": "mc", "q": "Como se diz 'nome'?", "options": ["naam","huis","brood"], "answer": 0, "explain": "de naam = o nome" },
+  { "type": "listen", "nl": "Goedemorgen", "options": ["Bom dia","Boa noite","Tchau"], "answer": 0, "explain": "goede+morgen" },
+  { "type": "fill", "before": "Ik", "after": "Sofia.", "answer": "heet", "alt": ["ben"], "hint": "chamar-se", "explain": "heten = chamar-se" },
+  { "type": "order", "pt": "Eu moro em Antuérpia.", "tokens": ["Ik","woon","in","Antwerpen"], "answer": "Ik woon in Antwerpen", "explain": "V2!" },
+  { "type": "match", "pairs": [["de naam","o nome"],["het huis","a casa"],["de straat","a rua"],["het brood","o pão"]], "explain": "artigos!" }
+ ]
+}

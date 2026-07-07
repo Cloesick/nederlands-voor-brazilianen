@@ -1,0 +1,219 @@
+{
+  "id": "a1-04-getallen-tijd",
+  "unit": "A1",
+  "title": "Números, horas e datas · Getallen en tijd",
+  "emoji": "🕐",
+  "infographic": "assets/infographics/half-drie-klok.svg",
+  "teaching": [
+    {
+      "emoji": "🔢",
+      "title": "Números: a partir de 21, leia de trás pra frente",
+      "html": "<p>Do 0 ao 20 é decoreba tranquila. A partir de <b>21</b>, o neerlandês fala a unidade <b>ANTES</b> da dezena, coladas com <i>en</i> (e):</p><p><b>een + en + twintig = eenentwintig</b> (literalmente \"um-e-vinte\" = 21) 🧩</p><table class=\"vocab\"><tr><th>número</th><th>neerlandês</th><th>lógica</th></tr><tr><td>34</td><td>vierendertig</td><td><small>quatro-e-trinta</small></td></tr><tr><td>78</td><td>achtenzeventig</td><td><small>oito-e-setenta</small></td></tr><tr><td>95</td><td>vijfennegentig</td><td><small>cinco-e-noventa</small></td></tr><tr><td>2026</td><td>tweeduizend zesentwintig</td><td><small>dois mil seis-e-vinte</small></td></tr></table><p><small><b>Base:</b> 0 nul · 1 een · 2 twee · 3 drie · 4 vier · 5 vijf · 6 zes · 7 zeven · 8 acht · 9 negen · 10 tien · 11 elf · 12 twaalf · 13 dertien · 14 veertien · 20 twintig · 30 dertig · 40 veertig · 50 vijftig · 60 zestig · 70 zeventig · 80 tachtig · 90 negentig · 100 honderd · 1000 duizend.</small></p><p>💡 Dica de sobrevivência: ao ouvir um número de telefone ou um preço, anote a dezena por último. <i>Zevenenveertig</i> começa com \"sete\" mas é <b>47</b>, não 74!</p>"
+    },
+    {
+      "emoji": "💶",
+      "title": "Preços em euros (e como pagar com Wero)",
+      "html": "<p>Na padaria você vai ouvir: <b>\"Dat is twee euro vijftig.\"</b> Repare em duas coisas:</p><ul><li><b>euro fica no singular</b>: twee euro, honderd euro (nunca \"euros\") 💶</li><li><b>não tem \"e\" entre euros e cents</b>: twee euro vijftig = € 2,50</li></ul><p><b>Vírgula e ponto, igual ao Brasil:</b> na Bélgica, <b>€ 1.500,50</b> = mil e quinhentos euros e cinquenta cents. O ponto separa milhares, a vírgula separa os centavos. Mas cuidado: em sites em inglês é o contrário! Confira duas vezes num contrato de aluguel. 🏠</p><p>📱 Para pagar, o belga usa o cartão (<i>de bankkaart</i>) ou o app <b>Wero</b> no gsm (o celular, na Bélgica, chama-se <i>gsm</i>). Frases úteis: <i>\"Kan ik met de kaart betalen?\"</i> (Posso pagar com cartão?) e <i>\"Mag het met Wero?\"</i> (Pode ser com Wero?). Ao entregar o troco, o vendedor diz <i>\"Alstublieft!\"</i>, que aqui significa \"aqui está\", não \"por favor\". 😉</p>"
+    },
+    {
+      "emoji": "⏰",
+      "title": "A armadilha das horas: half drie = 2:30!",
+      "html": "<p>A meia hora em neerlandês aponta para a hora <b>SEGUINTE</b>: <b>half drie</b> = \"metade do caminho até as três\" = <b>2:30</b>. Este é o erro que faz brasileiro perder consulta de pediatra. 🚨</p><table class=\"vocab\"><tr><th>relógio</th><th>neerlandês</th><th>lógica</th></tr><tr><td><b>14:00</b></td><td>twee uur</td><td><small>duas horas</small></td></tr><tr><td><b>14:15</b></td><td>kwart na twee</td><td><small>um quarto depois das duas (na Flandres; na Holanda: kwart over twee)</small></td></tr><tr><td><b>14:30</b></td><td>half drie ⚠️</td><td><small>metade do caminho até as TRÊS</small></td></tr><tr><td><b>14:45</b></td><td>kwart voor drie</td><td><small>um quarto antes das três</small></td></tr><tr><td><b>14:20</b></td><td>tien voor half drie 🤯</td><td><small>dez antes da metade das três</small></td></tr><tr><td><b>14:40</b></td><td>tien na half drie 🤯</td><td><small>dez depois da metade das três</small></td></tr></table><p>Se um belga marcar às <b>\"half acht\"</b>, apareça às <b>7:30</b>, não às 8:30. E para perguntar as horas: <i>\"Hoe laat is het?\"</i> (literalmente \"quão tarde é?\"). A resposta usa <i>uur</i> no singular: <i>het is drie uur</i>. 🕒</p>"
+    },
+    {
+      "emoji": "📅",
+      "title": "Dias, meses e momentos do dia (tudo minúsculo!)",
+      "html": "<p>Em neerlandês, dias e meses <b>NUNCA levam maiúscula</b>, diferente do inglês:</p><p><small><b>Dias:</b> maandag (seg) · dinsdag (ter) · woensdag (qua) · donderdag (qui) · vrijdag (sex) · zaterdag (sáb) · zondag (dom)</small><br><small><b>Meses:</b> januari · februari · maart · april · mei · juni · juli · augustus · september · oktober · november · december</small></p><p>📆 A data belga é <b>dia/mês/ano</b>, igual ao Brasil: 07/07/2026. E fala-se sem \"de\": <i>eenentwintig maart</i> = vinte e um de março.</p><table class=\"vocab\"><tr><th>neerlandês</th><th>português</th></tr><tr><td>'s morgens / in de voormiddag</td><td><small>de manhã (voormiddag = antes do meio-dia, bem flamengo)</small></td></tr><tr><td>'s middags / in de namiddag</td><td><small>à tarde (namiddag = depois do meio-dia)</small></td></tr><tr><td>'s avonds</td><td><small>à noite (18h-24h)</small></td></tr><tr><td>'s nachts</td><td><small>de madrugada</small></td></tr><tr><td>vandaag / morgen / gisteren</td><td><small>hoje / amanhã / ontem</small></td></tr><tr><td>overmorgen / eergisteren</td><td><small>depois de amanhã / anteontem</small></td></tr></table><p>💡 <i>Morgen</i> é amanhã E manhã: <i>morgenvroeg</i> = amanhã cedo. Com dia da semana usa-se <b>op</b>: <i>op woensdag</i> = na quarta.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Hoe","r":"qw"},{"t":"laat","r":"adv"},{"t":"is","r":"verb"},{"t":"het","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Que","r":"qw"},{"t":"horas","r":"noun"},{"t":"são","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "quão tarde é isso?",
+      "note": "O neerlandês pergunta \"quão tarde\", não \"que horas\". Decore como bloco fixo: Hoe laat is het? 🕐"
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"is","r":"verb"},{"t":"twee","r":"num"},{"t":"uur","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"São","r":"verb"},{"t":"duas","r":"num"},{"t":"horas","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "isso é duas hora",
+      "note": "Sujeito fantasma \"het\" obrigatório + uur fica no SINGULAR: twee uur, nunca twee uren."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"kost","r":"verb"},{"t":"eenentwintig","r":"num"},{"t":"euro","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Isso","r":"pron"},{"t":"custa","r":"verb"},{"t":"vinte","r":"num"},{"t":"e","r":"conj"},{"t":"um","r":"num"},{"t":"euros","r":"noun"},{"t":".","r":"punc"}],
+      "note": "eenentwintig = een (1) + en (e) + twintig (20): a unidade vem ANTES da dezena. E euro fica no singular! 💶"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"afspraak","r":"noun"},{"t":"is","r":"verb"},{"t":"om","r":"prep"},{"t":"half","r":"num"},{"t":"drie","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"compromisso","r":"noun"},{"t":"é","r":"verb"},{"t":"às","r":"prep"},{"t":"duas","r":"num"},{"t":"e","r":"conj"},{"t":"meia","r":"num"},{"t":".","r":"punc"}],
+      "lit": "o compromisso é a metade três",
+      "note": "⚠️ half drie = 2:30, NÃO 3:30! A meia hora aponta para a hora seguinte."
+    },
+    {
+      "nl": [{"t":"Goedemiddag","r":"x"},{"t":",","r":"punc"},{"t":"wat","r":"qw"},{"t":"kost","r":"verb"},{"t":"het","r":"art"},{"t":"brood","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Boa","r":"x"},{"t":"tarde","r":"x"},{"t":",","r":"punc"},{"t":"quanto","r":"qw"},{"t":"custa","r":"verb"},{"t":"o","r":"art"},{"t":"pão","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "boa tarde, o que custa o pão?",
+      "note": "Cena da padaria, parte 1. Para preço pergunta-se \"wat kost...?\" (o que custa)."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"twee","r":"num"},{"t":"euro","r":"noun"},{"t":"vijftig","r":"num"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"São","r":"verb"},{"t":"dois","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":".","r":"punc"}],
+      "lit": "isso é dois euro cinquenta, aqui está",
+      "note": "Parte 2. Preço sem \"e\": twee euro vijftig = € 2,50. E alstublieft aqui = \"aqui está\", muito belga. 🥖"
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"met","r":"prep"},{"t":"mijn","r":"pron"},{"t":"gsm","r":"noun"},{"t":"betalen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"pagar","r":"verb"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"meu","r":"pron"},{"t":"celular","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "posso eu com meu celular pagar?",
+      "note": "Parte 3. A pinça: o segundo verbo (betalen) vai lá pro FIM da frase. E celular na Bélgica = gsm. 📱"
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"met","r":"prep"},{"t":"Wero","r":"noun"},{"t":"gaat","r":"verb"},{"t":"dat","r":"pron"},{"t":"perfect","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"com","r":"prep"},{"t":"Wero","r":"noun"},{"t":"funciona","r":"verb"},{"t":"perfeitamente","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "sim, com Wero vai isso perfeito",
+      "note": "Parte 4. Regra V2: \"met Wero\" abriu a frase, então o verbo vem em 2º lugar e o sujeito (dat) pula para depois dele."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"trein","r":"noun"},{"t":"vertrekt","r":"verb"},{"t":"om","r":"prep"},{"t":"kwart","r":"num"},{"t":"voor","r":"prep"},{"t":"acht","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"trem","r":"noun"},{"t":"parte","r":"verb"},{"t":"às","r":"prep"},{"t":"quinze","r":"num"},{"t":"para","r":"prep"},{"t":"as","r":"art"},{"t":"oito","r":"num"},{"t":".","r":"punc"}],
+      "lit": "o trem parte a quarto antes oito",
+      "note": "kwart voor acht = 7:45. \"voor\" = antes da hora, \"na\" = depois da hora (na Flandres). 🚆"
+    },
+    {
+      "nl": [{"t":"Op","r":"prep"},{"t":"woensdag","r":"noun"},{"t":"werk","r":"verb"},{"t":"ik","r":"pron"},{"t":"niet","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Na","r":"prep"},{"t":"quarta-feira","r":"noun"},{"t":"eu","r":"pron"},{"t":"não","r":"neg"},{"t":"trabalho","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "em quarta trabalho eu não",
+      "note": "V2 de novo: \"op woensdag\" na frente empurra o sujeito para depois do verbo. E woensdag em minúscula!"
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"verjaardag","r":"noun"},{"t":"is","r":"verb"},{"t":"op","r":"prep"},{"t":"eenentwintig","r":"num"},{"t":"maart","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"aniversário","r":"noun"},{"t":"é","r":"verb"},{"t":"em","r":"prep"},{"t":"vinte","r":"num"},{"t":"e","r":"conj"},{"t":"um","r":"num"},{"t":"de","r":"prep"},{"t":"março","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Data sem \"de\": eenentwintig maart. Mês em minúscula. 🎂"
+    },
+    {
+      "nl": [{"t":"We","r":"pron"},{"t":"zien","r":"verb"},{"t":"elkaar","r":"pron"},{"t":"morgen","r":"adv"},{"t":"om","r":"prep"},{"t":"tien","r":"num"},{"t":"voor","r":"prep"},{"t":"half","r":"num"},{"t":"drie","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nos","r":"pron"},{"t":"vemos","r":"verb"},{"t":"amanhã","r":"adv"},{"t":"às","r":"prep"},{"t":"duas","r":"num"},{"t":"e","r":"conj"},{"t":"vinte","r":"num"},{"t":".","r":"punc"}],
+      "lit": "nós vemos um-ao-outro amanhã a dez antes de metade três",
+      "note": "Nível chefão 🤯: tien voor half drie = dez minutos ANTES de half drie (2:30) = 14:20."
+    }
+  ],
+  "vocab": [
+    { "nl": "de afspraak", "art": "de", "split": "af (concluído) + spraak (fala)", "pt": "compromisso marcado", "emoji": "📅" },
+    { "nl": "het uur", "art": "het", "split": null, "pt": "a hora", "emoji": "⏰" },
+    { "nl": "kwart voor / kwart na", "art": null, "split": null, "pt": "quinze para / e quinze", "emoji": "🕒" },
+    { "nl": "half", "art": null, "split": null, "pt": "meia (rumo à hora SEGUINTE!)", "emoji": "🕜" },
+    { "nl": "de week", "art": "de", "split": null, "pt": "a semana", "emoji": "🗓️" },
+    { "nl": "de maand", "art": "de", "split": null, "pt": "o mês", "emoji": "📆" },
+    { "nl": "het jaar", "art": "het", "split": null, "pt": "o ano", "emoji": "🎆" },
+    { "nl": "vandaag", "art": null, "split": null, "pt": "hoje", "emoji": "☀️" },
+    { "nl": "morgen", "art": null, "split": null, "pt": "amanhã (e também: manhã)", "emoji": "🌅" },
+    { "nl": "gisteren", "art": null, "split": null, "pt": "ontem", "emoji": "🌙" },
+    { "nl": "de verjaardag", "art": "de", "split": "verjaar (completar ano) + dag (dia)", "pt": "aniversário", "emoji": "🎂" },
+    { "nl": "de voormiddag", "art": "de", "split": "voor (antes) + middag (meio-dia)", "pt": "a manhã (bem flamengo)", "emoji": "🌄" },
+    { "nl": "de namiddag", "art": "de", "split": "na (depois) + middag (meio-dia)", "pt": "a tarde (bem flamengo)", "emoji": "🌇" },
+    { "nl": "betalen", "art": null, "split": null, "pt": "pagar", "emoji": "💳" },
+    { "nl": "kosten", "art": null, "split": null, "pt": "custar", "emoji": "💶" },
+    { "nl": "de rekening", "art": "de", "split": "reken (calcular) + ing (-ção/-mento)", "pt": "a conta", "emoji": "🧾" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Quanto é \"vierendertig\"? 🔢",
+      "options": ["34", "43", "44", "334"],
+      "answer": 0,
+      "explain": "vier (4) + en (e) + dertig (30) = \"quatro-e-trinta\" = 34. A unidade vem ANTES da dezena, o contrário do português."
+    },
+    {
+      "type": "mc",
+      "q": "São 14:30 no relógio. Como o belga fala essa hora? ⏰",
+      "options": ["half drie", "half twee", "drie uur dertig", "kwart na twee"],
+      "answer": 0,
+      "explain": "half drie = \"metade do caminho até as TRÊS\" = 2:30. A meia hora sempre aponta para a hora seguinte."
+    },
+    {
+      "type": "listen",
+      "nl": "De afspraak is om half acht.",
+      "options": ["O compromisso é às 7:30", "O compromisso é às 8:30", "O compromisso é às 8:00"],
+      "answer": 0,
+      "explain": "half acht = metade do caminho até as OITO = 7:30. Errar isso é perder a consulta! ⚠️"
+    },
+    {
+      "type": "listen",
+      "nl": "Dat kost vijfennegentig euro.",
+      "options": ["Custa 95 euros", "Custa 59 euros", "Custa 65 euros", "Custa 90 euros"],
+      "answer": 0,
+      "explain": "vijf (5) + en + negentig (90) = \"cinco-e-noventa\" = 95. Anote a dezena por último!"
+    },
+    {
+      "type": "fill",
+      "before": "Het is kwart",
+      "after": "drie. (14:45)",
+      "answer": "voor",
+      "hint": "antes ou depois da hora?",
+      "explain": "14:45 é um quarto ANTES das três: kwart voor drie. Se fosse 15:15 seria kwart na drie."
+    },
+    {
+      "type": "fill",
+      "before": "Ik betaal met mijn",
+      "after": ". (celular)",
+      "answer": "gsm",
+      "alt": ["telefoon"],
+      "hint": "como o belga chama o celular",
+      "explain": "Na Flandres o celular é \"de gsm\". Com ele você paga no Wero, o app belga de pagamento. 📱"
+    },
+    {
+      "type": "order",
+      "pt": "A festa é na sexta-feira.",
+      "tokens": ["Het", "feest", "is", "op", "vrijdag"],
+      "answer": "Het feest is op vrijdag",
+      "explain": "Com dias da semana usa-se \"op\": op vrijdag. E vrijdag em minúscula, sempre! 🎉"
+    },
+    {
+      "type": "order",
+      "pt": "O trem parte às duas e meia.",
+      "tokens": ["De", "trein", "vertrekt", "om", "half", "drie"],
+      "answer": "De trein vertrekt om half drie",
+      "explain": "Hora marcada leva \"om\": om half drie = às 2:30 (metade do caminho até as três). 🚆"
+    },
+    {
+      "type": "match",
+      "pairs": [["half twee", "1:30"], ["kwart na vier", "4:15"], ["kwart voor tien", "9:45"], ["tien voor half drie", "2:20"], ["twaalf uur", "12:00"]],
+      "explain": "half aponta para a hora seguinte (half twee = 1:30), voor = antes, na = depois. E tien voor half drie = 10 min antes de 2:30 = 2:20. 🤯"
+    },
+    {
+      "type": "match",
+      "pairs": [["eenentwintig", "21"], ["vijfenveertig", "45"], ["achtenzestig", "68"], ["negenennegentig", "99"]],
+      "explain": "Sempre unidade + en + dezena: een-en-twintig = 21, vijf-en-veertig = 45, acht-en-zestig = 68, negen-en-negentig = 99."
+    },
+    {
+      "type": "mc",
+      "q": "Como se escreve \"quarta-feira\" numa frase em neerlandês? 📅",
+      "options": ["woensdag", "Woensdag", "Woensdag-dag", "wodansdag"],
+      "answer": 0,
+      "explain": "Dias e meses NUNCA levam maiúscula em neerlandês (diferente do inglês): woensdag, maart, juli."
+    },
+    {
+      "type": "listen",
+      "nl": "De winkel is open van negen tot half zes.",
+      "options": ["A loja abre das 9:00 às 17:30", "A loja abre das 9:00 às 18:30", "A loja abre das 9:00 às 6:30"],
+      "answer": 0,
+      "explain": "van... tot = de... até. E half zes = metade do caminho até as SEIS = 17:30. Horário belga clássico de comércio. 🛍️"
+    },
+    {
+      "type": "mc",
+      "q": "Você vê \"€ 1.500,50\" num contrato belga. Quanto é? 💶",
+      "options": ["mil e quinhentos euros e cinquenta cents", "um euro e cinquenta", "cento e cinquenta mil euros", "quinze mil euros"],
+      "answer": 0,
+      "explain": "Na Bélgica o ponto separa milhares e a vírgula separa os centavos, igual ao Brasil. Em sites em inglês é o contrário: confira sempre!"
+    },
+    {
+      "type": "fill",
+      "before": "Vandaag is het maandag, dus",
+      "after": "is het dinsdag.",
+      "answer": "morgen",
+      "hint": "hoje, ontem, ...?",
+      "explain": "vandaag = hoje, morgen = amanhã, gisteren = ontem. Se hoje é maandag, amanhã é dinsdag. 📆"
+    }
+  ]
+}

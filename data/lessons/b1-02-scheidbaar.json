@@ -1,0 +1,218 @@
+{
+  "id": "b1-02-scheidbaar",
+  "unit": "B1",
+  "title": "Verbos separáveis · Scheidbare werkwoorden",
+  "emoji": "✂️",
+  "teaching": [
+    {
+      "emoji": "🎯",
+      "title": "O verbo que se parte em dois",
+      "html": "<p>Em português não existe nada parecido: alguns verbos neerlandeses têm um prefixo (<b>op-</b>, <b>aan-</b>, <b>uit-</b>, <b>mee-</b>, <b>in-</b>, <b>af-</b>...) que <b>se solta e voa para o fim da frase</b> quando o verbo é conjugado.</p><p>Anatomia de <b>opbellen</b> (telefonar): <b>op</b> (para cima) + <b>bellen</b> (ligar).</p><p><b>Ik bel mijn moeder elke zondag op.</b><br><small>literal: eu ligo minha mãe todo domingo PRA CIMA (op)</small></p><p>Pense na pinça (<i>tangconstructie</i>): o verbo conjugado segura a frase de um lado, o prefixo fecha do outro. Tudo o que está no meio fica abraçado. 🦀</p>"
+    },
+    {
+      "emoji": "🪃",
+      "title": "As 4 posições do prefixo (o bumerangue)",
+      "html": "<table class=\"vocab\"><tr><th>situação</th><th>exemplo</th><th>o que acontece</th></tr><tr><td>frase principal</td><td>Ik bel je morgen <b>op</b>.</td><td>prefixo voa pro fim</td></tr><tr><td>subordinada (omdat, dat, als...)</td><td>...omdat ik je morgen <b>opbel</b>.</td><td>gruda de novo, numa palavra só</td></tr><tr><td>perfectum</td><td>Ik heb je <b>opgebeld</b>.</td><td>o ge- entra NO MEIO</td></tr><tr><td>com modal (wil, kan, moet)</td><td>Ik wil je <b>opbellen</b>.</td><td>fica inteiro no fim</td></tr></table><p><small>O perfectum é o truque favorito das provas: o <b>ge-</b> não vai na frente como em <i>gewerkt</i>, ele se espreme entre o prefixo e o radical: op + ge + beld = <b>opgebeld</b>, in + ge + vuld = <b>ingevuld</b>, mee + ge + nomen = <b>meegenomen</b>, af + ge + sproken = <b>afgesproken</b>.</small></p>"
+    },
+    {
+      "emoji": "👂",
+      "title": "Espere até o fim da frase!",
+      "html": "<p>Ao ouvir um flamengo, <b>não conclua o verbo antes da última palavra</b>. \"Ik kom...\" pode virar três coisas diferentes:</p><ul><li><b>Ik kom aan</b> = eu chego (aankomen)</li><li><b>Ik kom terug</b> = eu volto (terugkomen)</li><li><b>Ik kom binnen</b> = eu entro (binnenkomen)</li></ul><p>O sentido só se revela no fim, como novela que guarda a reviravolta pro último capítulo. 📺</p><p><small>Ouvido flamengo: em Antuérpia e Gent você vai ouvir <b>gij</b> no lugar de <i>jij</i>: \"Staat gij al op?\" (Você já está de pé?).</small></p>"
+    },
+    {
+      "emoji": "🏛️",
+      "title": "Os separáveis da vida real na Flandres",
+      "html": "<p>Boa parte da burocracia e do dia a dia belga fala em verbos separáveis:</p><ul><li><b>invullen</b> 📝: preencher formulário no gemeentehuis (prefeitura): \"Vul dit formulier in, alstublieft.\"</li><li><b>inschrijven</b> ✍️: inscrever-se na cidade, no curso de neerlandês, na creche.</li><li><b>afspreken</b> 🤝: na Bélgica quase nada funciona sem hora marcada, do médico ao banco.</li><li><b>ophalen</b> 📦: retirar um pacote no ponto de coleta, buscar as crianças na escola.</li><li><b>terugbetalen</b> 💶: reembolsar. Seu colega pagou sua <i>tas koffie</i> (xícara de café)? \"Ik betaal je terug via Wero\" (te devolvo pelo Wero, o app belga de pagamento).</li></ul>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"sta","r":"verb"},{"t":"om","r":"prep"},{"t":"zeven","r":"num"},{"t":"uur","r":"noun"},{"t":"op","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"me","r":"pron"},{"t":"levanto","r":"verb"},{"t":"(op)","r":"part"},{"t":"às","r":"prep"},{"t":"sete","r":"num"},{"t":"horas","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu fico-de-pé às sete horas PRA-CIMA (op)",
+      "note": "opstaan se parte: sta na posição 2, op lá no fim. O eco (op) no português mostra onde o prefixo caiu."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"bel","r":"verb"},{"t":"mijn","r":"pron"},{"t":"moeder","r":"noun"},{"t":"elke","r":"adj"},{"t":"zondag","r":"noun"},{"t":"op","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"ligo","r":"verb"},{"t":"(op)","r":"part"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"minha","r":"pron"},{"t":"mãe","r":"noun"},{"t":"todo","r":"adj"},{"t":"domingo","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu ligo minha mãe todo domingo PRA-CIMA (op)",
+      "note": "A pinça: bel segura a frase de um lado, op fecha do outro. Tudo no meio fica abraçado."
+    },
+    {
+      "nl": [{"t":"Neem","r":"verb"},{"t":"je","r":"pron"},{"t":"gsm","r":"noun"},{"t":"mee","r":"part"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Leve","r":"verb"},{"t":"(mee)","r":"part"},{"t":"o","r":"art"},{"t":"seu","r":"pron"},{"t":"celular","r":"noun"},{"t":"!","r":"punc"}],
+      "lit": "pega teu celular JUNTO (mee)",
+      "note": "Imperativo: verbo na frente, prefixo no fim. E na Flandres, celular é gsm!"
+    },
+    {
+      "nl": [{"t":"Vul","r":"verb"},{"t":"dit","r":"pron"},{"t":"formulier","r":"noun"},{"t":"in","r":"part"},{"t":",","r":"punc"},{"t":"alstublieft","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Preencha","r":"verb"},{"t":"(in)","r":"part"},{"t":"este","r":"pron"},{"t":"formulário","r":"noun"},{"t":",","r":"punc"},{"t":"por","r":"adv"},{"t":"favor","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "encha este formulário PRA-DENTRO (in), por favor",
+      "note": "invullen = in (dentro) + vullen (encher). A frase oficial de todo guichê do gemeentehuis."
+    },
+    {
+      "nl": [{"t":"Hallo","r":"x"},{"t":"Ana","r":"noun"},{"t":"!","r":"punc"},{"t":"Zullen","r":"verb"},{"t":"we","r":"pron"},{"t":"voor","r":"prep"},{"t":"zaterdag","r":"noun"},{"t":"iets","r":"pron"},{"t":"afspreken","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Oi","r":"x"},{"t":"Ana","r":"noun"},{"t":"!","r":"punc"},{"t":"Vamos","r":"verb"},{"t":"combinar","r":"verb"},{"t":"alguma","r":"pron"},{"t":"coisa","r":"noun"},{"t":"para","r":"prep"},{"t":"sábado","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "haveremos nós para sábado algo combinar",
+      "note": "Com o modal zullen, o separável NÃO separa: afspreken fica inteirinho no fim da pinça."
+    },
+    {
+      "nl": [{"t":"Leuk","r":"adj"},{"t":"!","r":"punc"},{"t":"Ik","r":"pron"},{"t":"haal","r":"verb"},{"t":"je","r":"pron"},{"t":"om","r":"prep"},{"t":"tien","r":"num"},{"t":"uur","r":"noun"},{"t":"aan","r":"prep"},{"t":"het","r":"art"},{"t":"station","r":"noun"},{"t":"op","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Legal","r":"adj"},{"t":"!","r":"punc"},{"t":"Eu","r":"pron"},{"t":"te","r":"pron"},{"t":"busco","r":"verb"},{"t":"(op)","r":"part"},{"t":"às","r":"prep"},{"t":"dez","r":"num"},{"t":"horas","r":"noun"},{"t":"na","r":"prep"},{"t":"estação","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu busco você às dez horas na estação PRA-CIMA (op)",
+      "note": "ophalen = ir buscar. Repare como a frase INTEIRA fica presa entre haal e op."
+    },
+    {
+      "nl": [{"t":"Perfect","r":"adj"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"neem","r":"verb"},{"t":"een","r":"art"},{"t":"Braziliaanse","r":"adj"},{"t":"taart","r":"noun"},{"t":"mee","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Perfeito","r":"adj"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"levo","r":"verb"},{"t":"(mee)","r":"part"},{"t":"uma","r":"art"},{"t":"torta","r":"noun"},{"t":"brasileira","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu pego uma brasileira torta JUNTO (mee)",
+      "note": "meenemen = mee (junto) + nemen (pegar), levar consigo. E o adjetivo vem ANTES do substantivo: Braziliaanse taart."
+    },
+    {
+      "nl": [{"t":"Super","r":"adj"},{"t":"!","r":"punc"},{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"Marco","r":"noun"},{"t":"ook","r":"adv"},{"t":"uitgenodigd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ótimo","r":"adj"},{"t":"!","r":"punc"},{"t":"Eu","r":"pron"},{"t":"também","r":"adv"},{"t":"convidei","r":"verb"},{"t":"o","r":"art"},{"t":"Marco","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho Marco também PRA-FORA-convidado",
+      "note": "Perfectum: uit + ge + nodigd = uitgenodigd. O ge- entra NO MEIO do verbo separável."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"je","r":"pron"},{"t":"gisteren","r":"adv"},{"t":"drie","r":"num"},{"t":"keer","r":"noun"},{"t":"opgebeld","r":"verb"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"te","r":"pron"},{"t":"liguei","r":"verb"},{"t":"três","r":"num"},{"t":"vezes","r":"noun"},{"t":"ontem","r":"adv"},{"t":"!","r":"punc"}],
+      "lit": "eu tenho você ontem três vezes PRA-CIMA-ligado",
+      "note": "op + ge + beld = opgebeld. O ge- do perfectum se espreme entre o prefixo e o radical."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"blijf","r":"verb"},{"t":"thuis","r":"adv"},{"t":",","r":"punc"},{"t":"omdat","r":"conj"},{"t":"mijn","r":"pron"},{"t":"dochter","r":"noun"},{"t":"morgen","r":"adv"},{"t":"vroeg","r":"adv"},{"t":"opstaat","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"fico","r":"verb"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":",","r":"punc"},{"t":"porque","r":"conj"},{"t":"minha","r":"pron"},{"t":"filha","r":"noun"},{"t":"levanta","r":"verb"},{"t":"cedo","r":"adv"},{"t":"amanhã","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu fico em-casa, porque minha filha amanhã cedo PRA-CIMA-fica-de-pé",
+      "note": "Na subordinada (omdat), o verbo vai pro fim E o prefixo gruda de novo: opstaat, numa palavra só."
+    },
+    {
+      "nl": [{"t":"Staat","r":"verb"},{"t":"gij","r":"pron"},{"t":"ook","r":"adv"},{"t":"zo","r":"adv"},{"t":"vroeg","r":"adv"},{"t":"op","r":"part"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"também","r":"adv"},{"t":"levanta","r":"verb"},{"t":"(op)","r":"part"},{"t":"tão","r":"adv"},{"t":"cedo","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "fica-de-pé você também tão cedo PRA-CIMA (op)",
+      "note": "gij = o 'você' flamengo que você ouve em Antuérpia e Gent. Pergunta = verbo na frente, mas o prefixo continua fiel ao fim."
+    }
+  ],
+  "vocab": [
+    { "nl": "opbellen", "art": null, "split": "op (para cima) + bellen (ligar)", "pt": "telefonar para alguém", "emoji": "☎️" },
+    { "nl": "opstaan", "art": null, "split": "op (para cima) + staan (ficar de pé)", "pt": "levantar-se", "emoji": "⏰" },
+    { "nl": "meenemen", "art": null, "split": "mee (junto) + nemen (pegar)", "pt": "levar consigo", "emoji": "🎒" },
+    { "nl": "invullen", "art": null, "split": "in (dentro) + vullen (encher)", "pt": "preencher (formulário)", "emoji": "📝" },
+    { "nl": "afspreken", "art": null, "split": "af (fechado, combinado) + spreken (falar)", "pt": "marcar, combinar", "emoji": "🤝" },
+    { "nl": "aankomen", "art": null, "split": "aan (junto, em) + komen (vir)", "pt": "chegar", "emoji": "🚉" },
+    { "nl": "uitnodigen", "art": null, "split": "uit (para fora) + nodigen (convidar)", "pt": "convidar", "emoji": "💌" },
+    { "nl": "terugkomen", "art": null, "split": "terug (de volta) + komen (vir)", "pt": "voltar", "emoji": "🔙" },
+    { "nl": "binnenkomen", "art": null, "split": "binnen (dentro) + komen (vir)", "pt": "entrar", "emoji": "🚪" },
+    { "nl": "inschrijven", "art": null, "split": "in (dentro) + schrijven (escrever)", "pt": "inscrever-se", "emoji": "✍️" },
+    { "nl": "ophalen", "art": null, "split": "op (para cima) + halen (buscar)", "pt": "ir buscar, retirar", "emoji": "📦" },
+    { "nl": "uitleggen", "art": null, "split": "uit (para fora) + leggen (pôr)", "pt": "explicar", "emoji": "💡" },
+    { "nl": "terugbetalen", "art": null, "split": "terug (de volta) + betalen (pagar)", "pt": "reembolsar, devolver dinheiro", "emoji": "💶" },
+    { "nl": "de afspraak", "art": "de", "split": "af (combinado) + spraak (fala)", "pt": "compromisso marcado, hora marcada", "emoji": "📅" },
+    { "nl": "het gemeentehuis", "art": "het", "split": "gemeente (município) + huis (casa)", "pt": "prefeitura", "emoji": "🏛️" },
+    { "nl": "de gsm", "art": "de", "pt": "celular (a palavra belga)", "emoji": "📱" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Na frase principal, o que acontece com o prefixo de um verbo separável como opbellen? 🤔",
+      "options": ["Ele se solta e voa para o fim da frase", "Ele fica grudado no verbo", "Ele vira ge-", "Ele desaparece"],
+      "answer": 0,
+      "explain": "Regra número 1 do separável: conjugou na frase principal, o prefixo vai lá pro fim. Ik bel je morgen op."
+    },
+    {
+      "type": "fill",
+      "before": "Ik sta elke dag om zeven uur",
+      "after": ".",
+      "answer": "op",
+      "alt": [],
+      "hint": "prefixo de opstaan",
+      "explain": "opstaan (levantar-se) se parte: sta fica na posição 2 e op fecha a frase, como a segunda garra da pinça."
+    },
+    {
+      "type": "order",
+      "pt": "Eu te ligo amanhã.",
+      "tokens": ["Ik", "bel", "je", "morgen", "op"],
+      "answer": "Ik bel je morgen op",
+      "explain": "Pinça: bel na posição 2, op no fim. Nunca diga 'Ik opbel je morgen'."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik haal je om tien uur aan het station op.",
+      "options": ["Eu te busco às dez horas na estação", "Eu te ligo às dez horas da estação", "Eu chego na estação às dez horas", "Eu te deixo na estação às dez horas"],
+      "answer": 0,
+      "explain": "haal ... op = ophalen (ir buscar). O op lá no fim muda tudo: sem ele, halen seria só 'pegar'."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb het formulier al ingevuld.",
+      "options": ["Eu já preenchi o formulário", "Eu ainda vou preencher o formulário", "Eu perdi o formulário"],
+      "answer": 0,
+      "explain": "ingevuld = in + ge + vuld: o ge- do perfectum entra no meio do verbo separável. E 'al' = já."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é o perfectum de opbellen (telefonar)? ☎️",
+      "options": ["opgebeld", "geopbeld", "gebeld op", "opbelt"],
+      "answer": 0,
+      "explain": "O ge- se espreme entre o prefixo e o radical: op + ge + beld = opgebeld. Ik heb je opgebeld."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ga vroeg slapen, omdat ik morgen vroeg",
+      "after": ".",
+      "answer": "opsta",
+      "alt": [],
+      "hint": "opstaan na subordinada: gruda!",
+      "explain": "Depois de omdat, o verbo vai pro fim e o prefixo gruda de novo: ...omdat ik morgen vroeg opsta, numa palavra só."
+    },
+    {
+      "type": "order",
+      "pt": "Vamos combinar alguma coisa para sábado?",
+      "tokens": ["Zullen", "we", "voor", "zaterdag", "iets", "afspreken"],
+      "answer": "Zullen we voor zaterdag iets afspreken",
+      "explain": "Com o modal zullen, o separável não separa: afspreken fica inteirinho no fim da pinça."
+    },
+    {
+      "type": "match",
+      "pairs": [["opstaan", "levantar-se"], ["meenemen", "levar consigo"], ["invullen", "preencher"], ["afspreken", "marcar, combinar"], ["ophalen", "ir buscar"]],
+      "explain": "Cinco separáveis do dia a dia belga. Repare como o prefixo transforma o verbo base: staan (ficar de pé) vira opstaan (levantar-se)."
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase está correta? ✅",
+      "options": ["Ik bel je morgen op.", "Ik opbel je morgen.", "Ik bel op je morgen.", "Op ik bel je morgen."],
+      "answer": 0,
+      "explain": "Na frase principal o prefixo vai pro FIM da frase, não cola no verbo nem fica no meio: Ik bel je morgen op."
+    },
+    {
+      "type": "listen",
+      "nl": "Neem je gsm mee!",
+      "options": ["Leve o seu celular!", "Desligue o seu celular!", "Compre um celular novo!", "Deixe o seu celular em casa!"],
+      "answer": 0,
+      "explain": "meenemen = levar consigo. Na Flandres, celular é gsm. Imperativo: verbo na frente, mee no fim."
+    },
+    {
+      "type": "fill",
+      "before": "Ik heb mijn vriendin gisteren",
+      "after": ".",
+      "answer": "opgebeld",
+      "alt": [],
+      "hint": "opbellen no perfectum (ge- no meio)",
+      "explain": "Perfectum do separável: prefixo + ge + particípio: op + ge + beld = opgebeld."
+    },
+    {
+      "type": "order",
+      "pt": "Ela diz que leva os documentos amanhã.",
+      "tokens": ["Ze", "zegt", "dat", "ze", "de", "documenten", "morgen", "meeneemt"],
+      "answer": "Ze zegt dat ze de documenten morgen meeneemt",
+      "explain": "Na subordinada com dat, o verbo vai pro fim e o prefixo gruda: meeneemt, numa palavra só."
+    },
+    {
+      "type": "mc",
+      "q": "Você ouve alguém começar: 'Ik kom...'. O que você faz? 👂",
+      "options": ["Espero a última palavra: pode ser aan (chego), terug (volto) ou binnen (entro)", "Já sei que significa 'eu venho' e paro de ouvir", "Interrompo, porque a frase já acabou", "Assumo que é sempre terugkomen"],
+      "answer": 0,
+      "explain": "Com separáveis, o sentido só se revela no fim: kom ... aan = chegar, kom ... terug = voltar, kom ... binnen = entrar. Espere o prefixo!"
+    }
+  ]
+}

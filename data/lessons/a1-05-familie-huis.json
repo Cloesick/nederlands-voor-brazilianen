@@ -1,0 +1,130 @@
+{
+  "id": "a1-05-familie-huis",
+  "unit": "A1",
+  "title": "Família e casa · Familie en huis",
+  "emoji": "🏠",
+  "teaching": [
+    {
+      "emoji": "👨‍👩‍👧",
+      "title": "A família: palavras que fazem serviço duplo",
+      "html": "<p><b>De familie</b> veio do francês e é igualzinha ao português: <i>família</i>. Mas duas palavras fazem serviço duplo:</p><ul><li><b>de man</b> = homem <b>e</b> marido. <i>Mijn man</i> = meu marido.</li><li><b>de vrouw</b> = mulher <b>e</b> esposa. <i>Mijn vrouw</i> = minha esposa.</li></ul><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>de zoon</td><td>o filho</td></tr><tr><td>de dochter</td><td>a filha</td></tr><tr><td>het kind / de kinderen</td><td>a criança / os filhos</td></tr><tr><td>de ouders</td><td>os pais</td></tr></table><p><small>Atenção: depois de possessivo não entra artigo: <b>mijn man</b>, nunca <i>de mijn man</i>. E cuidado com o falso amigo: <i>prima</i> em NL significa \"ótimo!\"; a prima parente é <b>de nicht</b>. 😄</small></p>"
+    },
+    {
+      "emoji": "🧩",
+      "title": "Cômodos são palavras LEGO",
+      "html": "<p>O neerlandês cola palavras. A peça-base dos cômodos é <b>de kamer</b> (quarto, cômodo). A regra de ouro: <b>a última peça manda</b>, ela define o que a coisa É e qual artigo usa. Como <i>kamer</i> é palavra \"de\", todo cômodo terminado em -kamer também é \"de\".</p><table class=\"vocab\"><tr><th>LEGO</th><th>resultado</th><th>PT</th></tr><tr><td>slaap (sono) + kamer</td><td>de slaapkamer</td><td>quarto de dormir</td></tr><tr><td>bad (banho) + kamer</td><td>de badkamer</td><td>banheiro</td></tr><tr><td>woon (morar) + kamer</td><td>de woonkamer</td><td>sala de estar</td></tr></table><p><small>Fora da série LEGO: <b>de keuken</b> (cozinha), <b>de tuin</b> (jardim) e <b>het toilet</b>: muitas casas belgas têm o vaso separado do banheiro! E a geladeira, na Flandres, é <b>de frigo</b>. 😉</small></p>"
+    },
+    {
+      "emoji": "📍",
+      "title": "Morar e dar o endereço",
+      "html": "<p><b>Wonen</b> = morar. <i>Ik woon, jij woont, wij wonen.</i> Para dar o endereço, a ordem belga é rua primeiro, número depois:</p><p><b>Ik woon in de Kerkstraat op nummer 10.</b><br><small>Eu moro na Kerkstraat, no número 10.</small></p><ul><li><b>de woonplaats</b> = cidade onde mora (woon + plaats)</li><li><b>het huisnummer</b> = número da casa (huis + nummer)</li><li><b>het adres</b> = endereço</li></ul><p><small>Esses três campos aparecem em todo formulário da gemeente (prefeitura). Na Flandres você vai ouvir <i>\"Waar woont gij?\"</i>: o <b>gij</b> é o \"você\" bem flamengo. Entenda, sorria e responda com je/jij, que funciona sempre. 🇧🇪</small></p>"
+    },
+    {
+      "emoji": "🚫",
+      "title": "Não = niet ou geen?",
+      "html": "<p>O português nega tudo com \"não\". O neerlandês tem duas palavras, e a escolha é um fluxo simples:</p><ul><li>Negando um substantivo com <i>een</i> ou sem artigo? Use <b>GEEN</b>, antes do substantivo: <i>Ik heb <b>geen</b> auto</i> = não tenho carro.</li><li>Todo o resto (verbo, adjetivo, coisa definida)? Use <b>NIET</b>, depois do verbo: <i>Ik werk <b>niet</b></i> = não trabalho. <i>Het huis is <b>niet</b> groot</i> = a casa não é grande.</li></ul><p><small><b>Adeus, dupla negação!</b> \"Não vi nada\" vira UMA negação só: <i>Ik heb niets gezien</i>. Duas negações em neerlandês viram afirmação. 🙃</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Dit","r":"pron"},{"t":"is","r":"verb"},{"t":"mijn","r":"pron"},{"t":"man","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Este","r":"pron"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"meu","r":"pron"},{"t":"marido","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Depois de possessivo o NL não usa artigo: mijn man, nunca \"de mijn man\". E man aqui é marido, não só homem."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"zoon","r":"noun"},{"t":"en","r":"conj"},{"t":"een","r":"art"},{"t":"dochter","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"um","r":"art"},{"t":"filho","r":"noun"},{"t":"e","r":"conj"},{"t":"uma","r":"art"},{"t":"filha","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Ordem idêntica ao português, palavra por palavra. Aproveite as frases fáceis: elas existem! 😄"
+    },
+    {
+      "nl": [{"t":"Wij","r":"pron"},{"t":"wonen","r":"verb"},{"t":"in","r":"prep"},{"t":"Antwerpen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nós","r":"pron"},{"t":"moramos","r":"verb"},{"t":"em","r":"prep"},{"t":"Antuérpia","r":"noun"},{"t":".","r":"punc"}],
+      "note": "wonen = morar (ter endereço). Viver no sentido de estar vivo é outro verbo: leven."
+    },
+    {
+      "nl": [{"t":"Ons","r":"pron"},{"t":"huis","r":"noun"},{"t":"heeft","r":"verb"},{"t":"drie","r":"num"},{"t":"slaapkamers","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nossa","r":"pron"},{"t":"casa","r":"noun"},{"t":"tem","r":"verb"},{"t":"três","r":"num"},{"t":"quartos","r":"noun"},{"t":".","r":"punc"}],
+      "note": "ons antes de palavras het (het huis, ons huis); onze antes de palavras de (de tuin, onze tuin)."
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"woon","r":"verb"},{"t":"je","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"você","r":"pron"},{"t":"mora","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "onde mora você?",
+      "note": "Regra V2: depois da palavra interrogativa vem o VERBO, e só então o sujeito. E na inversão o -t some: woon je, não woont je."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"woon","r":"verb"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"Kerkstraat","r":"noun"},{"t":"op","r":"prep"},{"t":"nummer","r":"noun"},{"t":"tien","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"moro","r":"verb"},{"t":"na","r":"prep"},{"t":"Kerkstraat","r":"noun"},{"t":"no","r":"prep"},{"t":"número","r":"noun"},{"t":"dez","r":"num"},{"t":".","r":"punc"}],
+      "note": "Endereço belga: rua primeiro, número depois. As contrações na e no fazem o papel de preposição, por isso a mesma cor de in e op."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"kinderen","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"tem","r":"verb"},{"t":"filhos","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem você filhos?",
+      "note": "Pergunta sim/não começa direto com o verbo, sem palavra interrogativa. É a conversa de portão clássica na Flandres. 🙂"
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"dochter","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"uma","r":"art"},{"t":"filha","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Cuidado com o falso amigo: ja = sim, não é o nosso \"já\". O nosso já em NL é al."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"geen","r":"neg"},{"t":"tuin","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"não","r":"neg"},{"t":"tenho","r":"verb"},{"t":"jardim","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho nenhum jardim",
+      "note": "geen nega substantivo sem artigo definido e fica colado ANTES dele. O não do PT fica antes do verbo; o geen, antes do substantivo."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"badkamer","r":"noun"},{"t":"is","r":"verb"},{"t":"niet","r":"neg"},{"t":"groot","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"banheiro","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"grande","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "o banheiro é não grande",
+      "note": "Adjetivo se nega com niet, que vem DEPOIS do verbo. O português coloca o não antes; o neerlandês, depois."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"vrouw","r":"noun"},{"t":"werkt","r":"verb"},{"t":"niet","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Minha","r":"pron"},{"t":"esposa","r":"noun"},{"t":"não","r":"neg"},{"t":"trabalha","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "minha esposa trabalha não",
+      "note": "Negando o verbo inteiro, o niet vai para o fim da frase. Soa como o \"trabalha não\" do Nordeste! 😄"
+    },
+    {
+      "nl": [{"t":"Er","r":"x"},{"t":"is","r":"verb"},{"t":"geen","r":"neg"},{"t":"lift","r":"noun"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"het","r":"art"},{"t":"appartement","r":"noun"},{"t":"is","r":"verb"},{"t":"niet","r":"neg"},{"t":"duur","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"tem","r":"verb"},{"t":"elevador","r":"noun"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"o","r":"art"},{"t":"apartamento","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"caro","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "há nenhum elevador, mas o apartamento é não caro",
+      "note": "er is / er zijn = o nosso \"tem\" existencial. E olhe a dupla em ação: geen para o substantivo (lift), niet para o adjetivo (duur)."
+    }
+  ],
+  "vocab": [
+    { "nl": "de familie", "art": "de", "pt": "família (amiga verdadeira, veio do francês)", "emoji": "👨‍👩‍👧‍👦" },
+    { "nl": "de man", "art": "de", "pt": "homem; também marido", "emoji": "👨" },
+    { "nl": "de vrouw", "art": "de", "pt": "mulher; também esposa", "emoji": "👩" },
+    { "nl": "de zoon", "art": "de", "pt": "filho", "emoji": "👦" },
+    { "nl": "de dochter", "art": "de", "pt": "filha", "emoji": "👧" },
+    { "nl": "het kind", "art": "het", "pt": "criança, filho(a); plural: de kinderen", "emoji": "🧒" },
+    { "nl": "het huis", "art": "het", "pt": "casa", "emoji": "🏠" },
+    { "nl": "de kamer", "art": "de", "pt": "quarto, cômodo; a peça-base de todos os cômodos", "emoji": "🚪" },
+    { "nl": "de slaapkamer", "art": "de", "split": "slaap (sono) + kamer (quarto)", "pt": "quarto de dormir", "emoji": "🛏️" },
+    { "nl": "de badkamer", "art": "de", "split": "bad (banho) + kamer (quarto)", "pt": "banheiro", "emoji": "🛁" },
+    { "nl": "de woonkamer", "art": "de", "split": "woon (morar/viver) + kamer (quarto)", "pt": "sala de estar", "emoji": "🛋️" },
+    { "nl": "de keuken", "art": "de", "pt": "cozinha", "emoji": "🍳" },
+    { "nl": "de tuin", "art": "de", "pt": "jardim, quintal", "emoji": "🌳" },
+    { "nl": "het huisnummer", "art": "het", "split": "huis (casa) + nummer (número)", "pt": "número da casa", "emoji": "🔢" },
+    { "nl": "de woonplaats", "art": "de", "split": "woon (morar) + plaats (lugar)", "pt": "cidade onde você mora (campo de formulário)", "emoji": "📍" },
+    { "nl": "wonen", "art": null, "pt": "morar", "emoji": "🏡" }
+  ],
+  "exercises": [
+    { "type": "mc", "q": "Você quer dizer \"Não tenho carro\". Qual palavra completa \"Ik heb ___ auto\"? 🚗", "options": ["geen", "niet", "nee", "niets"], "answer": 0, "explain": "Auto é um substantivo com artigo indefinido (een auto). Negar substantivo com een ou sem artigo = geen. Niet nega verbos, adjetivos e coisas definidas." },
+    { "type": "mc", "q": "Qual é o \"quarto de dormir\"? 🛏️", "options": ["de slaapkamer", "de badkamer", "de woonkamer", "de keuken"], "answer": 0, "explain": "slaap (sono) + kamer (quarto). LEGO puro: badkamer = quarto do banho, woonkamer = quarto de morar, keuken = cozinha." },
+    { "type": "mc", "q": "Todos os cômodos terminados em -kamer usam o artigo \"de\". Por quê? 🧩", "options": ["Porque a última peça (kamer) é palavra \"de\", e a última peça manda", "Porque cômodos são sempre \"de\"", "Porque são palavras femininas", "É aleatório, tem que decorar"], "answer": 0, "explain": "Regra de ouro dos compostos: a ÚLTIMA peça define o significado E o artigo. Kamer é \"de\", então slaapkamer, badkamer e woonkamer também são." },
+    { "type": "listen", "nl": "Ik woon in Antwerpen.", "options": ["Eu moro em Antuérpia.", "Eu trabalho em Antuérpia.", "Eu vou para Antuérpia."], "answer": 0, "explain": "wonen = morar. Trabalhar seria werken e ir seria gaan. Ouça o woon: é o coração da frase." },
+    { "type": "listen", "nl": "Ik heb geen kinderen.", "options": ["Eu não tenho filhos.", "Eu tenho dois filhos.", "Eu não tenho tempo."], "answer": 0, "explain": "geen + kinderen = nenhum filho. Tempo seria tijd. O geen antes do substantivo é a negação de \"ter algo\"." },
+    { "type": "listen", "nl": "Mijn dochter is niet thuis.", "options": ["Minha filha não está em casa.", "Minha filha está em casa.", "Meu filho não está em casa."], "answer": 0, "explain": "dochter = filha (zoon seria filho) e o niet nega o thuis (em casa). Sem o niet, a frase vira afirmação." },
+    { "type": "fill", "before": "Ik heb", "after": "tuin.", "answer": "geen", "hint": "negação de substantivo", "explain": "Tuin aparece sem artigo definido, então a negação é geen, colada antes do substantivo: Ik heb geen tuin = Não tenho jardim." },
+    { "type": "fill", "before": "De badkamer is", "after": "groot.", "answer": "niet", "hint": "negação do adjetivo", "explain": "Groot é adjetivo, e adjetivo se nega com niet depois do verbo: is niet groot. Geen só serve para substantivos." },
+    { "type": "fill", "before": "Wij", "after": "in Gent.", "answer": "wonen", "hint": "morar (nós)", "explain": "Com wij o verbo vai no plural: wonen. A escadinha: ik woon, jij woont, wij wonen." },
+    { "type": "order", "pt": "Minha esposa não trabalha.", "tokens": ["Mijn", "vrouw", "werkt", "niet"], "answer": "Mijn vrouw werkt niet", "explain": "Negando o verbo, o niet vai DEPOIS dele: werkt niet. O oposto do português, onde o não vem antes: não trabalha." },
+    { "type": "order", "pt": "Eu não tenho carro.", "tokens": ["Ik", "heb", "geen", "auto"], "answer": "Ik heb geen auto", "explain": "geen fica sempre colado ANTES do substantivo que ele nega: geen auto. Nunca vai para o fim da frase como o niet." },
+    { "type": "order", "pt": "Onde você mora?", "tokens": ["Waar", "woon", "je"], "answer": "Waar woon je", "explain": "Regra V2: depois da palavra interrogativa vem o VERBO e só então o sujeito: Waar + woon + je. E na inversão o -t desaparece." },
+    { "type": "match", "pairs": [["de slaapkamer", "o quarto de dormir"], ["de badkamer", "o banheiro"], ["de woonkamer", "a sala de estar"], ["de keuken", "a cozinha"], ["de tuin", "o jardim"]], "explain": "Três dos cinco são LEGO com kamer: slaap+kamer, bad+kamer, woon+kamer. Keuken e tuin são peças únicas, sem quebra." },
+    { "type": "match", "pairs": [["de man", "o marido"], ["de vrouw", "a esposa"], ["de zoon", "o filho"], ["de dochter", "a filha"]], "explain": "man e vrouw fazem serviço duplo: homem/marido e mulher/esposa. O contexto resolve: mijn man = meu marido." }
+  ]
+}

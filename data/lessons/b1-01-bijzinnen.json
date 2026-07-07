@@ -1,0 +1,223 @@
+{
+  "id": "b1-01-bijzinnen",
+  "unit": "B1",
+  "title": "Orações com omdat e als · Bijzinnen",
+  "emoji": "🔗",
+  "teaching": [
+    {
+      "emoji": "🎯",
+      "title": "A regra de ouro: o verbo vai para o FIM da subordinada",
+      "html": "<p>Em português a ordem não muda: \"Eu fico em casa <b>porque minha filha tem febre</b>\". Em neerlandês, depois de certas conjunções o verbo abandona o 2º lugar e vai para o <b>FIM</b> da oração:</p><p>🇧🇷 ...porque minha filha <b>tem</b> febre<br>🇧🇪 ...omdat mijn dochter koorts <b>heeft</b> <small>(literal: \"porque minha filha febre tem\")</small></p><table class=\"vocab\"><tr><th>conjunção</th><th>significado</th></tr><tr><td><b>omdat</b></td><td>porque</td></tr><tr><td><b>als</b></td><td>se / quando</td></tr><tr><td><b>dat</b></td><td>que</td></tr><tr><td><b>terwijl</b></td><td>enquanto</td></tr><tr><td><b>hoewel</b></td><td>embora</td></tr><tr><td><b>of</b></td><td>se (pergunta indireta)</td></tr></table><p>💡 Pense nessas palavrinhas como <b>ímãs</b>: elas puxam o verbo para o fim da oração. Erro clássico de brasileiro: <i>\"omdat ik heb koorts\"</i> ❌ → certo: <i>\"omdat ik koorts heb\"</i> ✅</p>"
+    },
+    {
+      "emoji": "⚖️",
+      "title": "omdat vs want: dois porquês, duas ordens",
+      "html": "<p>Os dois significam \"porque\", mas se comportam diferente:</p><table class=\"vocab\"><tr><th></th><th>ordem</th><th>exemplo</th></tr><tr><td><b>want</b></td><td>normal (V2), como \"pois\"</td><td>Ik blijf thuis, want mijn dochter <b>heeft</b> koorts.</td></tr><tr><td><b>omdat</b></td><td>verbo no FIM</td><td>Ik blijf thuis, omdat mijn dochter koorts <b>heeft</b>.</td></tr></table><p>💡 <b>want</b> é como \"pois\": só cola duas frases normais. <b>omdat</b> abre uma subordinada e manda o verbo lá para o fim. Na dúvida, use omdat (responde à pergunta \"Waarom?\", por quê?), mas não esqueça do verbo! 🚀</p><p><small>💬 Bônus flamengo: \"aangezien\" (visto que) funciona exatamente como omdat, com verbo no fim.</small></p>"
+    },
+    {
+      "emoji": "🗣️",
+      "title": "Discurso indireto: Hij zegt dat...",
+      "html": "<p>Para contar o que alguém disse, use <b>zeggen dat</b> + verbo no fim:</p><p>🗣️ Direto: Hij zegt: \"Ik kom morgen.\"<br>🔗 Indireto: Hij zegt <b>dat</b> hij morgen <b>komt</b>.</p><p>Para perguntas indiretas de sim ou não, o \"se\" do português vira <b>of</b>:</p><p>❓ Ze vraagt <b>of</b> ik morgen tijd <b>heb</b>. <small>(Ela pergunta se eu tenho tempo amanhã.)</small></p><p>⚠️ Com dois verbos, os dois vão para o fim, juntinhos: Ik zeg dat ik hier <b>wil werken</b> <small>(que eu quero trabalhar aqui)</small>. E o verbo separável gruda de novo: ...omdat ik je morgen <b>opbel</b> 📞</p>"
+    },
+    {
+      "emoji": "🔄",
+      "title": "Subordinada primeiro? A principal inverte!",
+      "html": "<p>Se você começa pela subordinada, ela inteira ocupa a posição 1 da frase. Resultado: a oração principal <b>inverte</b> (verbo antes do sujeito) e dois verbos se encontram na vírgula 🤝</p><ul><li>Als het <b>regent</b>, <b>blijven</b> we binnen.</li><li>Als ze koorts <b>krijgt</b>, <b>hou</b> ik haar thuis.</li><li>Terwijl ik <b>kook</b>, <b>doet</b> hij de afwas.</li><li>Hoewel ze moe <b>is</b>, <b>gaat</b> ze naar de les.</li></ul><p>💡 Truque para gravar: <b>vírgula = ponto de encontro dos verbos</b>. Verbo da subordinada termina, verbo da principal começa.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"blijf","r":"verb"},{"t":"thuis","r":"adv"},{"t":",","r":"punc"},{"t":"omdat","r":"conj"},{"t":"mijn","r":"pron"},{"t":"dochter","r":"noun"},{"t":"koorts","r":"noun"},{"t":"heeft","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"fico","r":"verb"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"porque","r":"conj"},{"t":"minha","r":"pron"},{"t":"filha","r":"noun"},{"t":"tem","r":"verb"},{"t":"febre","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu fico em-casa, porque minha filha febre tem",
+      "note": "Depois de omdat, o verbo conjugado (heeft) vai para o FIM da oração."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"blijf","r":"verb"},{"t":"thuis","r":"adv"},{"t":",","r":"punc"},{"t":"want","r":"conj"},{"t":"mijn","r":"pron"},{"t":"dochter","r":"noun"},{"t":"heeft","r":"verb"},{"t":"koorts","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"fico","r":"verb"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"pois","r":"conj"},{"t":"minha","r":"pron"},{"t":"filha","r":"noun"},{"t":"tem","r":"verb"},{"t":"febre","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Compare com a frase anterior: want NÃO muda a ordem, é como o nosso \"pois\". Mesmo sentido, outra gramática."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"het","r":"pron"},{"t":"regent","r":"verb"},{"t":",","r":"punc"},{"t":"blijven","r":"verb"},{"t":"we","r":"pron"},{"t":"binnen","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"chove","r":"verb"},{"t":",","r":"punc"},{"t":"nós","r":"pron"},{"t":"ficamos","r":"verb"},{"t":"dentro","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "se ele chove, ficamos nós dentro",
+      "note": "Subordinada primeiro → a principal inverte: os dois verbos se encontram na vírgula."
+    },
+    {
+      "nl": [{"t":"Hij","r":"pron"},{"t":"zegt","r":"verb"},{"t":"dat","r":"conj"},{"t":"hij","r":"pron"},{"t":"morgen","r":"adv"},{"t":"komt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ele","r":"pron"},{"t":"diz","r":"verb"},{"t":"que","r":"conj"},{"t":"ele","r":"pron"},{"t":"vem","r":"verb"},{"t":"amanhã","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "ele diz que ele amanhã vem",
+      "note": "Discurso indireto: depois de dat, o verbo (komt) fecha a oração."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"denk","r":"verb"},{"t":"dat","r":"conj"},{"t":"Nederlands","r":"noun"},{"t":"niet","r":"neg"},{"t":"zo","r":"adv"},{"t":"moeilijk","r":"adj"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"acho","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"neerlandês","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"tão","r":"adv"},{"t":"difícil","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu acho que neerlandês não tão difícil é",
+      "note": "\"Ik denk dat...\" e \"Ik vind dat...\" são as portas de entrada para dar opinião no B1."
+    },
+    {
+      "nl": [{"t":"Terwijl","r":"conj"},{"t":"ik","r":"pron"},{"t":"kook","r":"verb"},{"t":",","r":"punc"},{"t":"doet","r":"verb"},{"t":"hij","r":"pron"},{"t":"de","r":"art"},{"t":"afwas","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Enquanto","r":"conj"},{"t":"eu","r":"pron"},{"t":"cozinho","r":"verb"},{"t":",","r":"punc"},{"t":"ele","r":"pron"},{"t":"lava","r":"verb"},{"t":"a","r":"art"},{"t":"louça","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "enquanto eu cozinho, faz ele a louça",
+      "note": "terwijl = enquanto (duas ações ao mesmo tempo). De novo: verbo + vírgula + verbo."
+    },
+    {
+      "nl": [{"t":"Hoewel","r":"conj"},{"t":"ze","r":"pron"},{"t":"moe","r":"adj"},{"t":"is","r":"verb"},{"t":",","r":"punc"},{"t":"gaat","r":"verb"},{"t":"ze","r":"pron"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"les","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Embora","r":"conj"},{"t":"ela","r":"pron"},{"t":"esteja","r":"verb"},{"t":"cansada","r":"adj"},{"t":",","r":"punc"},{"t":"ela","r":"pron"},{"t":"vai","r":"verb"},{"t":"à","r":"prep"},{"t":"aula","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "embora ela cansada é, vai ela para a aula",
+      "note": "hoewel = embora, mas sem subjuntivo: o neerlandês usa o presente normal (is)."
+    },
+    {
+      "nl": [{"t":"We","r":"pron"},{"t":"hebben","r":"verb"},{"t":"gemerkt","r":"verb"},{"t":"dat","r":"conj"},{"t":"Alice","r":"noun"},{"t":"een","r":"art"},{"t":"beetje","r":"adv"},{"t":"verkouden","r":"adj"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Notamos","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"Alice","r":"noun"},{"t":"está","r":"verb"},{"t":"um","r":"art"},{"t":"pouco","r":"adv"},{"t":"resfriada","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "nós temos notado que Alice um pouquinho resfriada é",
+      "note": "🧸 Mini-diálogo na creche (1/4): a educadora avisa a mãe. Na subordinada, o \"is\" vai lá para o fim."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"ze","r":"pron"},{"t":"koorts","r":"noun"},{"t":"krijgt","r":"verb"},{"t":",","r":"punc"},{"t":"hou","r":"verb"},{"t":"ik","r":"pron"},{"t":"haar","r":"pron"},{"t":"thuis","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"ela","r":"pron"},{"t":"tiver","r":"verb"},{"t":"febre","r":"noun"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"deixo","r":"verb"},{"t":"ela","r":"pron"},{"t":"em","r":"prep"},{"t":"casa","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "se ela febre recebe, seguro eu ela em-casa",
+      "note": "🧸 Mini-diálogo (2/4): a mãe responde. \"koorts krijgen\" = literalmente \"receber febre\"."
+    },
+    {
+      "nl": [{"t":"Vergeet","r":"verb"},{"t":"niet","r":"neg"},{"t":"dat","r":"conj"},{"t":"we","r":"pron"},{"t":"vrijdag","r":"adv"},{"t":"gesloten","r":"adj"},{"t":"zijn","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"esqueça","r":"verb"},{"t":"que","r":"conj"},{"t":"sexta","r":"adv"},{"t":"estamos","r":"verb"},{"t":"fechados","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "esqueça não que nós sexta fechados estamos",
+      "note": "🧸 Mini-diálogo (3/4): aviso da studiedag. No imperativo, o niet vem DEPOIS do verbo."
+    },
+    {
+      "nl": [{"t":"Dan","r":"adv"},{"t":"vraag","r":"verb"},{"t":"ik","r":"pron"},{"t":"of","r":"conj"},{"t":"mijn","r":"pron"},{"t":"man","r":"noun"},{"t":"op","r":"prep"},{"t":"vrijdag","r":"noun"},{"t":"kan","r":"verb"},{"t":"thuiswerken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Então","r":"adv"},{"t":"eu","r":"pron"},{"t":"pergunto","r":"verb"},{"t":"se","r":"conj"},{"t":"meu","r":"pron"},{"t":"marido","r":"noun"},{"t":"pode","r":"verb"},{"t":"trabalhar","r":"verb"},{"t":"na","r":"prep"},{"t":"sexta","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "então pergunto eu se meu marido na sexta pode em-casa-trabalhar",
+      "note": "🧸 Mini-diálogo (4/4): pergunta indireta com of (= se). Os DOIS verbos se empilham no fim: kan thuiswerken."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"leer","r":"verb"},{"t":"Nederlands","r":"noun"},{"t":",","r":"punc"},{"t":"omdat","r":"conj"},{"t":"ik","r":"pron"},{"t":"hier","r":"adv"},{"t":"wil","r":"verb"},{"t":"werken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"aprendo","r":"verb"},{"t":"neerlandês","r":"noun"},{"t":"porque","r":"conj"},{"t":"eu","r":"pron"},{"t":"quero","r":"verb"},{"t":"trabalhar","r":"verb"},{"t":"aqui","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu aprendo neerlandês, porque eu aqui quero trabalhar",
+      "note": "Nível chefe: modal + infinitivo na subordinada. Os dois verbos formam um bloco no fim: wil werken."
+    }
+  ],
+  "vocab": [
+    { "nl": "omdat", "art": null, "split": "om (por) + dat (que)", "pt": "porque (manda o verbo pro fim!)", "emoji": "🔗" },
+    { "nl": "want", "art": null, "split": null, "pt": "pois, porque (ordem normal V2)", "emoji": "➡️" },
+    { "nl": "hoewel", "art": null, "split": "hoe (como) + wel (bem)", "pt": "embora", "emoji": "🤷" },
+    { "nl": "terwijl", "art": null, "split": "ter (no) + wijl (momento, arcaico)", "pt": "enquanto", "emoji": "⏳" },
+    { "nl": "zodra", "art": null, "split": "zo (tão) + dra (logo, arcaico)", "pt": "assim que", "emoji": "⚡" },
+    { "nl": "tenzij", "art": null, "split": "ten (a) + zij (seja, de zijn)", "pt": "a menos que", "emoji": "🚫" },
+    { "nl": "het kinderdagverblijf", "art": "het", "split": "kinder (crianças) + dag (dia) + verblijf (estadia)", "pt": "creche", "emoji": "🧸" },
+    { "nl": "het oudercontact", "art": "het", "split": "ouder (pai/mãe) + contact (contato)", "pt": "reunião de pais", "emoji": "👨‍👩‍👧" },
+    { "nl": "de studiedag", "art": "de", "split": "studie (estudo) + dag (dia)", "pt": "dia pedagógico (a escola fecha!)", "emoji": "📚" },
+    { "nl": "de verkoudheid", "art": "de", "split": "ver- + koud (frio) + -heid (-dade)", "pt": "resfriado", "emoji": "🤧" },
+    { "nl": "de koorts", "art": "de", "split": null, "pt": "febre", "emoji": "🌡️" },
+    { "nl": "de vergadering", "art": "de", "split": "vergader (reunir) + -ing (-ção)", "pt": "reunião (de trabalho)", "emoji": "🧑‍💼" },
+    { "nl": "de bijlage", "art": "de", "split": "bij (junto) + lage (de leggen, pôr)", "pt": "anexo (de e-mail)", "emoji": "📎" },
+    { "nl": "de aanvraag", "art": "de", "split": "aan (a) + vraag (pedido)", "pt": "solicitação, requerimento", "emoji": "📝" },
+    { "nl": "thuiswerken", "art": null, "split": "thuis (em casa) + werken (trabalhar)", "pt": "trabalhar de casa", "emoji": "🏠" },
+    { "nl": "verwittigen", "art": null, "split": "ver- + wittig (de weten, saber)", "pt": "avisar (palavra tipicamente belga!)", "emoji": "📢" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual frase está correta? 🤔",
+      "options": ["Ik blijf thuis omdat mijn dochter heeft koorts", "Ik blijf thuis omdat mijn dochter koorts heeft", "Ik blijf thuis omdat heeft mijn dochter koorts", "Ik blijf omdat thuis mijn dochter koorts"],
+      "answer": 1,
+      "explain": "omdat abre uma subordinada, então o verbo conjugado (heeft) vai lá para o FIM: ...omdat mijn dochter koorts heeft."
+    },
+    {
+      "type": "order",
+      "pt": "Eu fico em casa porque minha filha tem febre.",
+      "tokens": ["Ik", "blijf", "thuis", "omdat", "mijn", "dochter", "koorts", "heeft"],
+      "answer": "Ik blijf thuis omdat mijn dochter koorts heeft",
+      "explain": "Principal com V2 normal (Ik blijf thuis) + subordinada com omdat: o verbo heeft fecha a frase."
+    },
+    {
+      "type": "mc",
+      "q": "Complete: \"Ik leer Nederlands, ___ ik wil hier werken.\" Qual conjunção combina com essa ordem (verbo em 2º lugar)? 🧐",
+      "options": ["want", "omdat", "dat", "als"],
+      "answer": 0,
+      "explain": "Depois da lacuna vem \"ik WIL hier werken\": verbo em 2º lugar, ordem normal. Só want permite isso. Com omdat seria \"omdat ik hier wil werken\"."
+    },
+    {
+      "type": "order",
+      "pt": "Ele diz que ele vem amanhã.",
+      "tokens": ["Hij", "zegt", "dat", "hij", "morgen", "komt"],
+      "answer": "Hij zegt dat hij morgen komt",
+      "explain": "Discurso indireto: Hij zegt dat... e o verbo komt vai para o fim da subordinada."
+    },
+    {
+      "type": "listen",
+      "nl": "Hij zegt dat hij vrijdag niet kan komen.",
+      "options": ["Ele diz que não pode vir na sexta", "Ele diz que vem na sexta", "Ele pergunta se hoje é sexta"],
+      "answer": 0,
+      "explain": "dat + verbo no fim: \"...dat hij vrijdag niet kan komen\" = que ele não pode vir na sexta. Os dois verbos (kan komen) se empilham no final."
+    },
+    {
+      "type": "order",
+      "pt": "Se chove, ficamos dentro.",
+      "tokens": ["Als", "het", "regent", "blijven", "we", "binnen"],
+      "answer": "Als het regent blijven we binnen",
+      "explain": "Subordinada primeiro → a principal inverte: regent (fim da subordinada) e blijven (início da principal) ficam lado a lado."
+    },
+    {
+      "type": "fill",
+      "before": "Ik blijf thuis, omdat mijn dochter koorts",
+      "after": ".",
+      "answer": "heeft",
+      "alt": [],
+      "hint": "ter (hij/zij) → no FIM",
+      "explain": "Na subordinada com omdat, o verbo conjugado vai para o fim: ...koorts heeft."
+    },
+    {
+      "type": "listen",
+      "nl": "Als het morgen regent, blijven we thuis.",
+      "options": ["Se chover amanhã, ficamos em casa", "Porque choveu ontem, ficamos em casa", "Enquanto chove, saímos de casa"],
+      "answer": 0,
+      "explain": "als = se/quando; morgen = amanhã. E repare na inversão depois da vírgula: blijven we (e não \"we blijven\")."
+    },
+    {
+      "type": "order",
+      "pt": "Enquanto eu cozinho, ele lava a louça.",
+      "tokens": ["Terwijl", "ik", "kook", "doet", "hij", "de", "afwas"],
+      "answer": "Terwijl ik kook doet hij de afwas",
+      "explain": "terwijl manda kook para o fim da subordinada; a principal inverte (doet hij). De afwas doen = lavar a louça."
+    },
+    {
+      "type": "fill",
+      "before": "Ik leer Nederlands,",
+      "after": "ik hier wil werken.",
+      "answer": "omdat",
+      "alt": [],
+      "hint": "porque (olhe onde está o verbo!)",
+      "explain": "Os verbos estão no fim (wil werken), então a oração é subordinada: só omdat serve. Com want a ordem seria \"want ik wil hier werken\"."
+    },
+    {
+      "type": "order",
+      "pt": "Embora ela esteja cansada, ela vai à aula.",
+      "tokens": ["Hoewel", "ze", "moe", "is", "gaat", "ze", "naar", "de", "les"],
+      "answer": "Hoewel ze moe is gaat ze naar de les",
+      "explain": "hoewel = embora. O is fecha a subordinada, e gaat abre a principal invertida: os dois verbos se encontram no meio."
+    },
+    {
+      "type": "fill",
+      "before": "Hij vraagt",
+      "after": "ik morgen tijd heb.",
+      "answer": "of",
+      "alt": [],
+      "hint": "\"se\" de pergunta indireta",
+      "explain": "Pergunta indireta de sim ou não usa of (= se): Hij vraagt of ik morgen tijd heb, com o verbo heb no fim."
+    },
+    {
+      "type": "match",
+      "pairs": [["omdat", "porque (verbo no fim)"], ["want", "pois (ordem normal)"], ["als", "se / quando"], ["terwijl", "enquanto"], ["hoewel", "embora"], ["of", "se (pergunta indireta)"]],
+      "explain": "Todas menos want são subordinativas: mandam o verbo para o fim. want é a exceção que mantém a ordem V2."
+    },
+    {
+      "type": "mc",
+      "q": "Na frase \"Ze zegt dat ze haar mama elke zondag opbelt\", o que aconteceu com o verbo separável opbellen? ☎️",
+      "options": ["Grudou de novo em uma palavra só no fim", "Se separou: bel na frente, op no fim", "Perdeu o prefixo op", "Virou particípio opgebeld"],
+      "answer": 0,
+      "explain": "Na frase principal ele se separa (Ze belt haar mama op), mas na subordinada o verbo vai para o fim e o prefixo gruda de novo: ...elke zondag opbelt."
+    }
+  ]
+}

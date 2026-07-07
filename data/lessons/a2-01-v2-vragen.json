@@ -1,0 +1,215 @@
+{
+  "id": "a2-01-v2-vragen",
+  "unit": "A2",
+  "title": "A ordem V2 e perguntas · Woordvolgorde",
+  "emoji": "🧱",
+  "infographic": "assets/infographics/v2-regel.svg",
+  "teaching": [
+    {
+      "emoji": "🥈",
+      "title": "O verbo tem lugar marcado: a regra V2 🥈",
+      "html": "<p>No português a ordem das palavras é flexível. No neerlandês ela é <b>rígida como um trilho de trem</b>: na frase principal, o verbo conjugado fica <b>sempre na 2ª posição</b>. 🚂</p><table class=\"vocab\"><tr><th>1ª posição</th><th>2ª · VERBO</th><th>o resto</th></tr><tr><td>Ik</td><td><b>koop</b></td><td>morgen brood</td></tr><tr><td>Morgen</td><td><b>koop</b></td><td>ik brood</td></tr><tr><td>In Antwerpen</td><td><b>koop</b></td><td>ik brood</td></tr></table><p><small>💡 Não importa o que ocupa a 1ª posição: sujeito, tempo ou lugar. O verbo não sai da cadeira nº 2.</small></p>"
+    },
+    {
+      "emoji": "🔄",
+      "title": "Inversão: começou com amanhã? O sujeito pula! 🔄",
+      "html": "<p>Se a frase começa com uma palavra de tempo (<b>morgen</b>, <b>vandaag</b>, <b>gisteren</b>) ou de lugar, o sujeito <b>pula para depois do verbo</b>:</p><ul><li>✅ <b>Morgen koop ik brood.</b> <i>(literal: amanhã compro eu pão)</i></li><li>❌ <i>Morgen ik koop brood.</i> O erro clássico de brasileiro!</li></ul><p>Em português isso soaria como Machado de Assis (\"Amanhã compro eu o pão\"). Em neerlandês não é estilo, é <b>obrigação</b>. 😄 O verbo nunca cai para a 3ª posição.</p>"
+    },
+    {
+      "emoji": "❓",
+      "title": "Perguntas: sem será que, só inversão ❓",
+      "html": "<p>Pergunta de sim/não? Jogue o verbo para a 1ª posição: <b>Jij spreekt Portugees.</b> → <b>Spreek jij Portugees?</b> 🎤</p><p><small>⚠️ Com <b>jij</b> depois do verbo, o -t cai: spreekt → <b>spreek jij</b>. Na Flandres você também vai ouvir o informal <b>gij</b>: \"Wat zegt gij?\"</small></p><p>Com palavra interrogativa, ela fica na 1ª posição e o verbo continua firme na 2ª:</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th><th>exemplo</th></tr><tr><td>wie</td><td>quem</td><td>Wie is dat?</td></tr><tr><td>wat</td><td>o quê</td><td>Wat drink jij?</td></tr><tr><td>waar</td><td>onde</td><td>Waar woon jij?</td></tr><tr><td>wanneer</td><td>quando</td><td>Wanneer kom jij?</td></tr><tr><td>waarom</td><td>por quê</td><td>Waarom leer jij Nederlands?</td></tr><tr><td>hoe</td><td>como</td><td>Hoe heet jij?</td></tr><tr><td>hoeveel</td><td>quanto</td><td>Hoeveel kost dat? (3 euro!)</td></tr><tr><td>welke</td><td>qual</td><td>Welke tram neem jij?</td></tr></table>"
+    },
+    {
+      "emoji": "🕐",
+      "title": "Tempo → Modo → Lugar 🕐",
+      "html": "<p>Os complementos seguem a ordem <b>QUANDO → COMO → ONDE</b>. Em português fazemos quase sempre o contrário! 🔀</p><p><b>Ik ga morgen met de fiets naar school.</b><br><small>quando (morgen) → como (met de fiets) → onde (naar school)</small></p><p><i>Eu vou à escola de bicicleta amanhã</i> = onde → como → quando. Ao montar a frase em neerlandês, pense de trás pra frente. 🧠</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"koop","r":"verb"},{"t":"morgen","r":"adv"},{"t":"brood","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"compro","r":"verb"},{"t":"pão","r":"noun"},{"t":"amanhã","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu compro amanhã pão",
+      "note": "Frase neutra: sujeito em 1º, verbo em 2º. Repare que o tempo (morgen) vem antes do objeto (brood)."
+    },
+    {
+      "nl": [{"t":"Morgen","r":"adv"},{"t":"koop","r":"verb"},{"t":"ik","r":"pron"},{"t":"brood","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Amanhã","r":"adv"},{"t":"eu","r":"pron"},{"t":"compro","r":"verb"},{"t":"pão","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "amanhã compro eu pão",
+      "note": "A inversão: o tempo roubou a 1ª posição, o verbo NÃO sai do 2º lugar, então o sujeito pula pra trás dele."
+    },
+    {
+      "nl": [{"t":"Spreek","r":"verb"},{"t":"jij","r":"pron"},{"t":"Portugees","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"fala","r":"verb"},{"t":"português","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "fala você português?",
+      "note": "Pergunta de sim/não = verbo na frente, sem 'será que'. E o -t cai: 'jij spreekt' vira 'spreek jij'."
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"woon","r":"verb"},{"t":"jij","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"você","r":"pron"},{"t":"mora","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "onde mora você?",
+      "note": "Palavra interrogativa em 1º, verbo em 2º, sujeito em 3º. Sempre esse trio."
+    },
+    {
+      "nl": [{"t":"Hoeveel","r":"qw"},{"t":"kost","r":"verb"},{"t":"dat","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quanto","r":"qw"},{"t":"custa","r":"verb"},{"t":"isso","r":"pron"},{"t":"?","r":"punc"}],
+      "note": "Aqui a ordem é idêntica ao português! 'Hoeveel' = hoe + veel (como + muito). Frase essencial no mercado. 💶"
+    },
+    {
+      "nl": [{"t":"Waarom","r":"qw"},{"t":"leer","r":"verb"},{"t":"jij","r":"pron"},{"t":"Nederlands","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Por","r":"qw"},{"t":"que","r":"qw"},{"t":"você","r":"pron"},{"t":"aprende","r":"verb"},{"t":"neerlandês","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "por que aprende você neerlandês?",
+      "note": "'Waarom' = waar + om. A resposta começa com 'Omdat...' (porque), mas isso é assunto de outra lição. 😉"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ga","r":"verb"},{"t":"morgen","r":"adv"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"fiets","r":"noun"},{"t":"naar","r":"prep"},{"t":"school","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"vou","r":"verb"},{"t":"à","r":"prep"},{"t":"escola","r":"noun"},{"t":"de","r":"prep"},{"t":"bicicleta","r":"noun"},{"t":"amanhã","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu vou amanhã com a bicicleta para escola",
+      "note": "Tempo → Modo → Lugar: quando, como, onde. O português percorre o caminho inverso!"
+    },
+    {
+      "nl": [{"t":"Wanneer","r":"qw"},{"t":"heb","r":"verb"},{"t":"jij","r":"pron"},{"t":"tijd","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Quando","r":"qw"},{"t":"você","r":"pron"},{"t":"tem","r":"verb"},{"t":"tempo","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "quando tem você tempo?",
+      "note": "Começa o mini diálogo! ☕ 'Jij hebt' invertido vira 'heb jij', sem -t."
+    },
+    {
+      "nl": [{"t":"Morgen","r":"adv"},{"t":"heb","r":"verb"},{"t":"ik","r":"pron"},{"t":"tijd","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Amanhã","r":"adv"},{"t":"eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"tempo","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "amanhã tenho eu tempo",
+      "note": "A resposta espelha a pergunta e usa a inversão: morgen em 1º, heb em 2º, ik em 3º."
+    },
+    {
+      "nl": [{"t":"Drinken","r":"verb"},{"t":"we","r":"pron"},{"t":"dan","r":"adv"},{"t":"een","r":"art"},{"t":"tas","r":"noun"},{"t":"koffie","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"A","r":"pron"},{"t":"gente","r":"pron"},{"t":"toma","r":"verb"},{"t":"então","r":"adv"},{"t":"uma","r":"art"},{"t":"xícara","r":"noun"},{"t":"de","r":"prep"},{"t":"café","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "bebemos nós então uma xícara café?",
+      "note": "'Een tas koffie' é puro flamengo: na Bélgica, tas = xícara. Na Holanda dizem 'een kopje koffie'. ☕🇧🇪"
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"graag","r":"adv"},{"t":"!","r":"punc"},{"t":"Tot","r":"prep"},{"t":"morgen","r":"adv"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"claro","r":"adv"},{"t":"!","r":"punc"},{"t":"Até","r":"prep"},{"t":"amanhã","r":"adv"},{"t":"!","r":"punc"}],
+      "note": "'Graag' = com prazer, a palavrinha mágica belga. 'Tot morgen!' fecha o encontro: até amanhã! 👋"
+    }
+  ],
+  "vocab": [
+    { "nl": "wie", "art": null, "pt": "quem", "emoji": "🙋" },
+    { "nl": "wat", "art": null, "pt": "o quê", "emoji": "🤔" },
+    { "nl": "waar", "art": null, "pt": "onde", "emoji": "📍" },
+    { "nl": "wanneer", "art": null, "pt": "quando", "emoji": "🗓️" },
+    { "nl": "waarom", "art": null, "split": "waar (onde) + om (por, em volta)", "pt": "por quê", "emoji": "🤷" },
+    { "nl": "hoe", "art": null, "pt": "como", "emoji": "🧭" },
+    { "nl": "hoeveel", "art": null, "split": "hoe (como) + veel (muito)", "pt": "quanto, quantos", "emoji": "🔢" },
+    { "nl": "welke", "art": null, "pt": "qual, quais", "emoji": "👉" },
+    { "nl": "morgen", "art": null, "pt": "amanhã", "emoji": "🌅" },
+    { "nl": "vandaag", "art": null, "split": "van (de) + daag (dia, forma antiga)", "pt": "hoje", "emoji": "📅" },
+    { "nl": "gisteren", "art": null, "pt": "ontem", "emoji": "🕰️" },
+    { "nl": "de woordvolgorde", "art": "de", "split": "woord (palavra) + volg (seguir) + orde (ordem)", "pt": "a ordem das palavras", "emoji": "🧱" },
+    { "nl": "de vraag", "art": "de", "pt": "a pergunta", "emoji": "❓" },
+    { "nl": "het antwoord", "art": "het", "split": "ant (de volta) + woord (palavra)", "pt": "a resposta", "emoji": "💬" },
+    { "nl": "de tas", "art": "de", "pt": "a xícara (na Bélgica; na Holanda é bolsa!)", "emoji": "☕" },
+    { "nl": "de tijd", "art": "de", "pt": "o tempo (hora, tempo livre)", "emoji": "⏳" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Numa frase principal em neerlandês, onde fica o verbo conjugado? 🧱",
+      "options": ["Sempre no fim da frase", "Sempre na 2ª posição", "Sempre na 1ª posição", "Em qualquer lugar, como em português"],
+      "answer": 1,
+      "explain": "É a regra V2: não importa o que ocupa a 1ª posição (sujeito, tempo, lugar), o verbo conjugado senta sempre na cadeira nº 2. Só na pergunta de sim/não ele vai pra frente."
+    },
+    {
+      "type": "order",
+      "pt": "Eu compro pão amanhã.",
+      "tokens": ["Ik", "koop", "morgen", "brood"],
+      "answer": "Ik koop morgen brood",
+      "explain": "Sujeito (1º) + verbo (2º). E repare: em neerlandês o tempo (morgen) vem ANTES do objeto (brood)."
+    },
+    {
+      "type": "order",
+      "pt": "Amanhã eu compro pão.",
+      "tokens": ["Morgen", "koop", "ik", "brood"],
+      "answer": "Morgen koop ik brood",
+      "explain": "Começou com 'morgen'? O verbo continua em 2º e o sujeito 'ik' pula pra depois dele. 'Morgen ik koop brood' é o erro clássico de brasileiro!"
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase está correta? 🤔",
+      "options": ["Vandaag ik werk thuis", "Vandaag werk ik thuis", "Ik vandaag werk thuis", "Vandaag thuis ik werk"],
+      "answer": 1,
+      "explain": "'Vandaag' ocupa a 1ª posição, então o verbo 'werk' fica na 2ª e o sujeito 'ik' vem depois: inversão obrigatória. O verbo nunca cai pro 3º lugar."
+    },
+    {
+      "type": "listen",
+      "nl": "Waar woon jij?",
+      "options": ["Onde você mora?", "Onde você trabalha?", "Quando você chega?"],
+      "answer": 0,
+      "explain": "'Waar' = onde e 'wonen' = morar. Estrutura da pergunta: waar (1º) + woon (2º) + jij (3º)."
+    },
+    {
+      "type": "order",
+      "pt": "Você fala português?",
+      "tokens": ["Spreek", "jij", "Portugees"],
+      "answer": "Spreek jij Portugees",
+      "explain": "Pergunta de sim/não: o verbo pula pra 1ª posição, sem 'será que'. E com 'jij' depois do verbo, o -t cai: 'jij spreekt' vira 'spreek jij'."
+    },
+    {
+      "type": "fill",
+      "before": "Morgen",
+      "after": "ik naar Antwerpen.",
+      "answer": "ga",
+      "alt": ["rijd"],
+      "hint": "ir",
+      "explain": "Depois da palavra de tempo vem imediatamente o verbo (2ª posição): Morgen GA ik naar Antwerpen. O sujeito espera a vez dele."
+    },
+    {
+      "type": "order",
+      "pt": "Hoje eu trabalho em casa.",
+      "tokens": ["Vandaag", "werk", "ik", "thuis"],
+      "answer": "Vandaag werk ik thuis",
+      "explain": "'Vandaag' na frente força a inversão: verbo 'werk' em 2º, 'ik' em 3º. 'Thuis' = em casa."
+    },
+    {
+      "type": "listen",
+      "nl": "Hoeveel kost dat?",
+      "options": ["Onde fica isso?", "Quanto custa isso?", "O que é isso?", "De quem é isso?"],
+      "answer": 1,
+      "explain": "'Hoeveel' = hoe (como) + veel (muito) = quanto. Frase essencial na feira: Hoeveel kost dat? Dat kost 3 euro. 💶"
+    },
+    {
+      "type": "order",
+      "pt": "Eu vou à escola de bicicleta amanhã.",
+      "tokens": ["Ik", "ga", "morgen", "met", "de", "fiets", "naar", "school"],
+      "answer": "Ik ga morgen met de fiets naar school",
+      "explain": "Ordem Tempo → Modo → Lugar: morgen (quando) → met de fiets (como) → naar school (onde). Em português dizemos exatamente ao contrário!"
+    },
+    {
+      "type": "fill",
+      "before": "Waar",
+      "after": "jij? In Gent?",
+      "answer": "woon",
+      "alt": [],
+      "hint": "morar (cuidado com o -t!)",
+      "explain": "Com 'jij' depois do verbo, o -t desaparece: 'jij woont', mas 'woon jij?'. Por isso a resposta é 'woon', não 'woont'."
+    },
+    {
+      "type": "order",
+      "pt": "Quando você tem tempo?",
+      "tokens": ["Wanneer", "heb", "jij", "tijd"],
+      "answer": "Wanneer heb jij tijd",
+      "explain": "Palavra interrogativa (1º) + verbo (2º) + sujeito (3º). E 'jij hebt' invertido vira 'heb jij', sem -t."
+    },
+    {
+      "type": "order",
+      "pt": "Amanhã eu tenho tempo.",
+      "tokens": ["Morgen", "heb", "ik", "tijd"],
+      "answer": "Morgen heb ik tijd",
+      "explain": "A resposta espelha a pergunta: 'morgen' rouba a 1ª posição, então 'heb' fica em 2º e 'ik' em 3º. Inversão automática!"
+    },
+    {
+      "type": "match",
+      "pairs": [["wie", "quem"], ["waar", "onde"], ["wanneer", "quando"], ["waarom", "por quê"], ["hoeveel", "quanto"], ["hoe", "como"]],
+      "explain": "Truque de memória: quase todas começam com W, como as WH-questions do inglês. E duas são compostas: waarom = waar + om, hoeveel = hoe + veel."
+    }
+  ]
+}

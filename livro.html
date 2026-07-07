@@ -1,0 +1,2369 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nederlands voor Brazilianen: O Livro Infográfico</title>
+<style>
+:root{
+  --paper:#FBF7F0; --ink:#23201B; --soft:#6B6357;
+  --nl:#1D4E89; --nl-bg:#E7EEF7; --pt:#1E7A46; --pt-bg:#E6F2EA;
+  --de:#C84B31; --de-bg:#F9E7E1; --het:#17756B; --het-bg:#E0F0EE;
+  --gold:#C99B2F; --warn-bg:#FBF1DC; --line:#D8CFC0;
+  --a1:#2E7D32; --a2:#558B2F; --b1:#F9A825; --b2:#EF6C00; --c1:#C62828; --c2:#6A1B9A;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);
+  font-family:"Segoe UI",Tahoma,system-ui,sans-serif;font-size:16px;line-height:1.55}
+.page{max-width:920px;margin:0 auto;padding:0 28px 60px}
+h1,h2,h3,h4{font-family:Georgia,"Times New Roman",serif;line-height:1.2;margin:0 0 .4em}
+h1{font-size:2.6rem} h2{font-size:1.9rem} h3{font-size:1.35rem} h4{font-size:1.1rem}
+p{margin:.5em 0 .9em}
+small{color:var(--soft)}
+a{color:var(--nl)}
+strong{color:inherit}
+
+/* ---------- cover ---------- */
+.cover{min-height:92vh;display:flex;flex-direction:column;justify-content:center;
+  border-bottom:6px double var(--ink);padding:60px 0 40px;position:relative}
+.cover .flags{font-size:2.2rem;letter-spacing:.35em;margin-bottom:18px}
+.cover h1{font-size:3.2rem;max-width:14ch}
+.cover .sub{font-size:1.25rem;color:var(--soft);max-width:52ch;margin-top:10px}
+.cover .meta{margin-top:36px;display:flex;gap:14px;flex-wrap:wrap}
+.badge{display:inline-block;padding:6px 14px;border:2px solid var(--ink);border-radius:999px;
+  font-weight:600;font-size:.85rem;background:#fff}
+
+/* ---------- chapters ---------- */
+.chapter{border-top:4px solid var(--ink);margin-top:70px;padding-top:26px;page-break-before:always}
+.chapkicker{font-size:.8rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--gold)}
+.chapnum{font-family:Georgia,serif;font-size:3.4rem;color:var(--line);float:right;line-height:1;margin-top:-8px}
+.lead{font-size:1.08rem;color:#3d382f;max-width:66ch}
+
+/* ---------- cards & grids ---------- */
+.infocard{background:#fff;border:2px solid var(--ink);border-radius:14px;padding:18px 20px;margin:18px 0;
+  box-shadow:4px 4px 0 rgba(35,32,27,.12);page-break-inside:avoid}
+.infocard h3,.infocard h4{margin-top:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+@media(max-width:760px){
+  .grid2,.grid3,.grid4{grid-template-columns:1fr}
+  .grid2>*,.grid3>*,.grid4>*{min-width:0}
+  table.wordlist,.convo table{display:block;overflow-x:auto;-webkit-overflow-scrolling:touch}
+  td.w-nl{white-space:normal}
+  .infocard,.convo{overflow-x:auto}
+  .cover h1{font-size:2.4rem}
+  .page{padding:0 16px 60px}
+}
+
+/* ---------- language chips ---------- */
+.nl-chip,.pt-chip,.art-de,.art-het,.art-pl{display:inline-block;padding:1px 9px;border-radius:6px;
+  font-weight:700;font-size:.82rem;white-space:nowrap}
+.nl-chip{background:var(--nl-bg);color:var(--nl)}
+.pt-chip{background:var(--pt-bg);color:var(--pt)}
+.art-de{background:var(--de-bg);color:var(--de)}
+.art-het{background:var(--het-bg);color:var(--het)}
+.art-pl{background:#eee;color:#555}
+.nl-word{color:var(--nl);font-weight:700}
+.pt-word{color:var(--pt);font-weight:600}
+
+/* ---------- sound cards ---------- */
+.soundcard{background:#fff;border:2px solid var(--ink);border-radius:12px;padding:12px 14px;page-break-inside:avoid}
+.soundcard .snd{font-family:Georgia,serif;font-size:1.7rem;font-weight:700;color:var(--nl)}
+.soundcard .ipa{color:var(--soft);font-size:.85rem;margin-left:6px}
+.soundcard .like{margin:6px 0 4px;font-size:.92rem}
+.soundcard .ex{font-size:.88rem;color:var(--soft)}
+
+/* ---------- word-order blocks ---------- */
+.sentence{display:flex;flex-wrap:wrap;gap:6px;align-items:flex-end;margin:10px 0}
+.blok{padding:8px 12px;border-radius:10px;border:2px solid var(--ink);font-weight:700;text-align:center;background:#fff}
+.blok small{display:block;font-weight:400;font-size:.68rem;letter-spacing:.05em;text-transform:uppercase;margin-top:2px}
+.b-sub{background:#FFE9A8}.b-verb{background:#FFB3A0}.b-time{background:#C9E4FF}
+.b-obj{background:#D9F2D0}.b-place{background:#EBD9FF}.b-rest{background:#F0EAE0}.b-verb2{background:#FFD9CF;border-style:dashed}
+.arrowline{text-align:center;font-size:1.4rem;color:var(--soft);margin:2px 0}
+
+/* ---------- LEGO word splitter ---------- */
+.lego{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}
+.piece{background:#fff;border:2px solid var(--nl);color:var(--nl);border-radius:10px;padding:6px 12px;
+  font-weight:700;text-align:center}
+.piece small{display:block;color:var(--pt);font-weight:600;font-size:.75rem}
+.lego .op{font-size:1.3rem;font-weight:700;color:var(--soft)}
+.piece.result{background:var(--nl);color:#fff;border-color:var(--nl)}
+.piece.result small{color:#CFE3B8}
+
+/* ---------- tables ---------- */
+table.wordlist{width:100%;border-collapse:collapse;margin:14px 0;font-size:.92rem;background:#fff;
+  border:2px solid var(--ink);border-radius:10px;overflow:hidden}
+table.wordlist th{background:var(--ink);color:#fff;text-align:left;padding:8px 10px;font-size:.8rem;
+  letter-spacing:.06em;text-transform:uppercase}
+table.wordlist td{padding:8px 10px;border-top:1px solid var(--line);vertical-align:top}
+table.wordlist tr:nth-child(even) td{background:#F7F2E9}
+td.w-nl{font-weight:700;color:var(--nl);white-space:nowrap}
+td.w-split small{display:block;color:var(--soft)}
+.mdot{color:var(--gold);font-weight:900}
+
+/* ---------- conversations ---------- */
+.convo{background:#fff;border:2px solid var(--ink);border-radius:14px;margin:18px 0;overflow:hidden;page-break-inside:avoid}
+.convo .title{background:var(--ink);color:#fff;padding:8px 16px;font-weight:700;font-size:.9rem}
+.convo table{width:100%;border-collapse:collapse;font-size:.92rem}
+.convo td{padding:9px 12px;border-top:1px solid var(--line);vertical-align:top;width:50%}
+.convo td.who{width:auto;white-space:nowrap;font-weight:700;color:var(--gold);border-right:1px solid var(--line)}
+.convo td.nl{color:var(--nl)}
+.convo td.pt{color:var(--pt);border-left:1px dashed var(--line)}
+.convo thead td{font-weight:700;border-top:none;background:#F7F2E9}
+
+/* ---------- checklists ---------- */
+.checklist{list-style:none;padding:0;margin:10px 0}
+.checklist li{padding:6px 0 6px 34px;position:relative;border-bottom:1px dotted var(--line)}
+.checklist li::before{content:"";position:absolute;left:2px;top:9px;width:16px;height:16px;
+  border:2px solid var(--ink);border-radius:4px;background:#fff}
+
+/* ---------- callouts ---------- */
+.tip,.warn,.culture{border-radius:12px;padding:12px 16px 12px 46px;margin:14px 0;position:relative;page-break-inside:avoid}
+.tip{background:var(--pt-bg);border:2px solid var(--pt)}
+.warn{background:var(--warn-bg);border:2px solid var(--gold)}
+.culture{background:#F0E7F7;border:2px solid var(--c2)}
+.tip::before{content:"💡";position:absolute;left:14px;top:10px}
+.warn::before{content:"⚠️";position:absolute;left:14px;top:10px}
+.culture::before{content:"🇧🇪";position:absolute;left:14px;top:10px}
+
+/* ---------- CEFR level badges ---------- */
+.levelband{display:flex;gap:6px;margin:16px 0;flex-wrap:wrap}
+.lvl{flex:1;min-width:90px;text-align:center;color:#fff;font-weight:800;padding:10px 4px;border-radius:10px}
+.lvl small{display:block;font-weight:500;font-size:.68rem;opacity:.92}
+.lvl.a1{background:var(--a1)}.lvl.a2{background:var(--a2)}.lvl.b1{background:var(--b1)}
+.lvl.b2{background:var(--b2)}.lvl.c1{background:var(--c1)}.lvl.c2{background:var(--c2)}
+.levelhead{display:flex;align-items:center;gap:16px;margin:10px 0 6px}
+.levelhead .big{font-size:2.4rem;font-weight:900;color:#fff;padding:10px 20px;border-radius:14px;font-family:Georgia,serif}
+
+/* ---------- TOC ---------- */
+.toc{columns:2;column-gap:40px;margin-top:10px}
+@media(max-width:700px){.toc{columns:1}}
+.toc a{display:block;padding:5px 0;border-bottom:1px dotted var(--line);text-decoration:none;color:var(--ink);break-inside:avoid}
+.toc a:hover{color:var(--nl)}
+.toc .part{font-weight:800;color:var(--gold);letter-spacing:.1em;text-transform:uppercase;font-size:.8rem;
+  margin-top:14px;border-bottom:2px solid var(--ink)}
+.toc .n{color:var(--gold);font-weight:700;margin-right:8px;font-family:Georgia,serif}
+
+/* ---------- misc ---------- */
+.flagrow{display:flex;gap:10px;align-items:center;font-size:1.5rem}
+.kbd{background:#fff;border:1.5px solid var(--ink);border-bottom-width:3px;border-radius:6px;padding:1px 8px;font-weight:700;font-size:.85rem}
+.divider{border:none;border-top:2px dashed var(--line);margin:28px 0}
+.backtop{font-size:.8rem;text-align:right;margin-top:18px}
+.recipe-step{display:flex;gap:12px;margin:10px 0;page-break-inside:avoid}
+.recipe-step .num{flex:0 0 34px;height:34px;border-radius:50%;background:var(--ink);color:#fff;
+  display:flex;align-items:center;justify-content:center;font-weight:800}
+.recipe-step .txt p{margin:.2em 0}
+.timeline{border-left:4px solid var(--gold);margin:14px 0 14px 8px;padding-left:20px}
+.timeline .tstep{margin-bottom:16px;position:relative;page-break-inside:avoid}
+.timeline .tstep::before{content:"";position:absolute;left:-31px;top:4px;width:14px;height:14px;border-radius:50%;
+  background:var(--gold);border:3px solid var(--paper)}
+.timeline .tstep h4{margin-bottom:2px}
+
+@media print{
+  body{font-size:11.5pt;background:#fff}
+  .page{max-width:100%;padding:0}
+  .infocard,.convo{box-shadow:none}
+  .cover{min-height:auto;padding:80px 0}
+  a{color:inherit;text-decoration:none}
+  .noprint{display:none}
+}
+</style>
+</head>
+<body>
+<div class="page">
+
+<!-- ============================ CAPA ============================ -->
+<header class="cover">
+  <div class="flags">🇧🇷 → 🇧🇪</div>
+  <h1>Nederlands voor Brazilianen</h1>
+  <p class="sub"><strong>O Livro Infográfico de Neerlandês (Flamengo)</strong><br>
+  Guia completo para brasileiros na Flandres: infográficos, conversas reais, listas de palavras
+  decompostas peça por peça, e checklists do A1 ao C2.</p>
+  <div class="meta">
+    <span class="badge">📊 30+ infográficos</span>
+    <span class="badge">🗣️ 12 conversas NL ↔ PT</span>
+    <span class="badge">🧩 300+ palavras decompostas</span>
+    <span class="badge">✅ Checklists A1 · A2 · B1 · B2 · C1 · C2</span>
+  </div>
+  <p style="margin-top:40px"><small>Baseado no manual de integração belga original, ampliado e transformado em livro visual de estudo.
+  Variante: neerlandês da Flandres (Vlaams). Traduções: português do Brasil.</small></p>
+</header>
+
+<!-- ============================ COMO USAR ============================ -->
+<section class="chapter" id="como-usar">
+  <div class="chapkicker">Antes de começar</div>
+  <h2>Como usar este livro</h2>
+  <div class="grid3">
+    <div class="infocard">
+      <h4>🎨 O código de cores</h4>
+      <p><span class="nl-chip">azul = neerlandês</span><br>
+      <span class="pt-chip">verde = português</span><br>
+      <span class="art-de">de</span> palavras com artigo <strong>de</strong><br>
+      <span class="art-het">het</span> palavras com artigo <strong>het</strong></p>
+      <p><small>Sempre aprenda a palavra JUNTO com o artigo. "Huis" não existe: existe <strong>het huis</strong>.</small></p>
+    </div>
+    <div class="infocard">
+      <h4>🧩 A quebra de palavras</h4>
+      <p>Toda palavra composta aparece assim:<br>
+      <strong class="nl-word">zieken<span class="mdot">·</span>huis</strong><br>
+      <small>zieken (doentes) + huis (casa) = hospital, "a casa dos doentes"</small></p>
+      <p><small>O ponto dourado <span class="mdot">·</span> mostra onde a palavra se divide. Entender as peças faz você decifrar milhares de palavras novas sozinho(a).</small></p>
+    </div>
+    <div class="infocard">
+      <h4>🗺️ O caminho sugerido</h4>
+      <p><strong>1.</strong> Parte I: fundamentos (leia na ordem)<br>
+      <strong>2.</strong> Parte II: encontre seu nível e siga o checklist<br>
+      <strong>3.</strong> Parte III: use como dicionário temático do dia a dia</p>
+      <p><small>Imprima com <span class="kbd">Ctrl</span>+<span class="kbd">P</span>: o livro foi desenhado para papel também.</small></p>
+    </div>
+  </div>
+
+  <h3 style="margin-top:26px">Sumário (Inhoudsopgave)</h3>
+  <nav class="toc">
+    <div class="part">Parte I · Fundamentos</div>
+    <a href="#c01"><span class="n">1</span>Os sons do neerlandês</a>
+    <a href="#c02"><span class="n">2</span>De, Het, Een: os artigos</a>
+    <a href="#c03"><span class="n">3</span>Plural e diminutivos (-je = -inho!)</a>
+    <a href="#c04"><span class="n">4</span>A ordem das palavras (V2 e a "pinça")</a>
+    <a href="#c05"><span class="n">5</span>Verbos: presente, passado e 't kofschip</a>
+    <a href="#c06"><span class="n">6</span>Verbos separáveis</a>
+    <a href="#c07"><span class="n">7</span>Negação: niet vs geen</a>
+    <a href="#c08"><span class="n">8</span>A palavrinha "er"</a>
+    <a href="#c09"><span class="n">9</span>Números, horas e datas: as armadilhas</a>
+    <a href="#c10"><span class="n">10</span>Palavras LEGO: os compostos</a>
+    <a href="#c11"><span class="n">11</span>Prefixos e sufixos: o decodificador</a>
+    <a href="#c12"><span class="n">12</span>Falsos amigos PT ↔ NL</a>
+    <a href="#c13"><span class="n">13</span>Frases: as 10 grandes diferenças com o português</a>
+    <a href="#c14"><span class="n">14</span>Hábitos: Flandres vs Brasil</a>
+    <div class="part">Parte II · Os 6 níveis</div>
+    <a href="#a1"><span class="n">15</span>Nível A1: sobrevivência</a>
+    <a href="#a2"><span class="n">16</span>Nível A2: autonomia (nível da inburgering)</a>
+    <a href="#b1"><span class="n">17</span>Nível B1: independência</a>
+    <a href="#b2"><span class="n">18</span>Nível B2: fluência funcional</a>
+    <a href="#c1"><span class="n">19</span>Nível C1: proficiência</a>
+    <a href="#c2"><span class="n">20</span>Nível C2: maestria</a>
+    <a href="#nt2"><span class="n">21</span>O trajeto NT2 na Flandres</a>
+    <div class="part">Parte III · Guia temático do dia a dia</div>
+    <a href="#t-admin"><span class="n">22</span>Administração &amp; moradia</a>
+    <a href="#t-mobil"><span class="n">23</span>Transporte público</a>
+    <a href="#t-saude"><span class="n">24</span>Saúde &amp; ziekenkas</a>
+    <a href="#t-social"><span class="n">25</span>Hábitos sociais belgas</a>
+    <a href="#t-comida"><span class="n">26</span>Cozinha belga: 2 receitas bilíngues</a>
+    <a href="#t-wafel"><span class="n">27</span>O grande dilema dos waffles</a>
+    <a href="#t-super"><span class="n">28</span>Supermercado &amp; compras</a>
+    <a href="#t-trabalho"><span class="n">29</span>Trabalho &amp; VDAB</a>
+    <a href="#t-kids"><span class="n">30</span>Bebês, crianças &amp; escola</a>
+    <a href="#t-banco"><span class="n">31</span>Banco &amp; dinheiro</a>
+    <a href="#t-emerg"><span class="n">32</span>Emergências</a>
+    <a href="#recursos"><span class="n">33</span>Onde e como estudar (recursos)</a>
+  </nav>
+</section>
+
+<!-- ============================ CAP 1: SONS ============================ -->
+<section class="chapter" id="c01">
+  <span class="chapnum">1</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🔊 Os sons do neerlandês (para ouvidos brasileiros)</h2>
+  <p class="lead">A boa notícia: o neerlandês se escreve quase como se fala. Depois de aprender estas cartas de som,
+  você consegue ler qualquer palavra em voz alta. A regra de ouro: <strong>vogal dobrada = som longo</strong>,
+  vogal simples fechada por consoante = som curto.</p>
+
+  <h3>As vogais que o português já tem</h3>
+  <div class="grid4">
+    <div class="soundcard"><span class="snd">a</span><span class="ipa">[ɑ]</span>
+      <p class="like">como "a" curto e fechado, quase "ó" de garganta</p>
+      <p class="ex"><span class="nl-word">man</span> (homem), <span class="nl-word">kat</span> (gato)</p></div>
+    <div class="soundcard"><span class="snd">aa</span><span class="ipa">[aː]</span>
+      <p class="like">como o "a" de "casa", mas beeem longo</p>
+      <p class="ex"><span class="nl-word">maan</span> (lua), <span class="nl-word">kaart</span> (cartão)</p></div>
+    <div class="soundcard"><span class="snd">e</span><span class="ipa">[ɛ]</span>
+      <p class="like">como "é" de "pé"</p>
+      <p class="ex"><span class="nl-word">bed</span> (cama), <span class="nl-word">weg</span> (caminho)</p></div>
+    <div class="soundcard"><span class="snd">ee</span><span class="ipa">[eː]</span>
+      <p class="like">como "ê" de "você", longo</p>
+      <p class="ex"><span class="nl-word">been</span> (perna), <span class="nl-word">twee</span> (dois)</p></div>
+    <div class="soundcard"><span class="snd">o</span><span class="ipa">[ɔ]</span>
+      <p class="like">como "ó" de "avó"</p>
+      <p class="ex"><span class="nl-word">bos</span> (floresta), <span class="nl-word">kop</span> (cabeça)</p></div>
+    <div class="soundcard"><span class="snd">oo</span><span class="ipa">[oː]</span>
+      <p class="like">como "ô" de "avô", longo</p>
+      <p class="ex"><span class="nl-word">boom</span> (árvore), <span class="nl-word">rood</span> (vermelho)</p></div>
+    <div class="soundcard"><span class="snd">i</span><span class="ipa">[ɪ]</span>
+      <p class="like">entre "i" e "ê", curto (como no inglês "bit")</p>
+      <p class="ex"><span class="nl-word">ik</span> (eu), <span class="nl-word">dit</span> (isto)</p></div>
+    <div class="soundcard"><span class="snd">oe</span><span class="ipa">[u]</span>
+      <p class="like">como "u" de "tudo". ATENÇÃO: escreve-se OE!</p>
+      <p class="ex"><span class="nl-word">boek</span> (livro), <span class="nl-word">goed</span> (bom)</p></div>
+  </div>
+
+  <h3 style="margin-top:22px">As vogais novas (treine na frente do espelho)</h3>
+  <div class="grid3">
+    <div class="soundcard"><span class="snd">u / uu</span><span class="ipa">[ʏ]/[y]</span>
+      <p class="like">Diga "i" mas com os lábios em bico de "u" (como o "u" francês)</p>
+      <p class="ex"><span class="nl-word">bus</span> (ônibus), <span class="nl-word">muur</span> (parede), <span class="nl-word">minuut</span> (minuto)</p></div>
+    <div class="soundcard"><span class="snd">eu</span><span class="ipa">[øː]</span>
+      <p class="like">Diga "ê" mas com os lábios em bico de "ô"</p>
+      <p class="ex"><span class="nl-word">deur</span> (porta), <span class="nl-word">keuken</span> (cozinha)</p></div>
+    <div class="soundcard"><span class="snd">ui</span><span class="ipa">[œy]</span>
+      <p class="like">O som mais difícil! Comece em "á" aberto e deslize para "ü", tudo com lábios arredondados: "âü"</p>
+      <p class="ex"><span class="nl-word">huis</span> (casa), <span class="nl-word">uit</span> (fora de), <span class="nl-word">tuin</span> (jardim)</p></div>
+    <div class="soundcard"><span class="snd">ij / ei</span><span class="ipa">[ɛi]</span>
+      <p class="like">Como "ei" de "lei". IJ e EI têm o MESMO som (só a escrita muda)</p>
+      <p class="ex"><span class="nl-word">wijn</span> (vinho), <span class="nl-word">trein</span> (trem), <span class="nl-word">ijs</span> (sorvete/gelo)</p></div>
+    <div class="soundcard"><span class="snd">ou / au</span><span class="ipa">[ʌu]</span>
+      <p class="like">Como "au" de "mau". OU e AU têm o mesmo som</p>
+      <p class="ex"><span class="nl-word">koud</span> (frio), <span class="nl-word">blauw</span> (azul)</p></div>
+    <div class="soundcard"><span class="snd">e final</span><span class="ipa">[ə]</span>
+      <p class="like">O "e" átono vira um som neutro, tipo "â" preguiçoso (schwa)</p>
+      <p class="ex"><span class="nl-word">de</span> = "dâ", <span class="nl-word">lopen</span> = "LÔ-pân"</p></div>
+  </div>
+
+  <h3 style="margin-top:22px">As consoantes que pegam brasileiros</h3>
+  <div class="grid2">
+    <div class="soundcard"><span class="snd">g / ch</span><span class="ipa">[x]/[ç]</span>
+      <p class="like">O famoso som de garganta. Segredo brasileiro: é quase o <strong>"rr" carioca</strong> de "carro"!
+      Na Flandres usa-se a versão suave ("zachte g"), mais leve que na Holanda.</p>
+      <p class="ex"><span class="nl-word">goed</span> ("rrut"), <span class="nl-word">gracht</span>, <span class="nl-word">lachen</span> (rir)</p></div>
+    <div class="soundcard"><span class="snd">sch</span><span class="ipa">[sx]</span>
+      <p class="like">"s" + o som de garganta, em sequência rápida. No fim da palavra, <strong>-isch</strong> soa só "is"</p>
+      <p class="ex"><span class="nl-word">school</span> ("s-rrôl"), <span class="nl-word">logisch</span> ("lôrris")</p></div>
+    <div class="soundcard"><span class="snd">w</span><span class="ipa">[ʋ]</span>
+      <p class="like">Entre o "v" e o "u". Lábio inferior encosta de leve nos dentes, sem vibrar forte</p>
+      <p class="ex"><span class="nl-word">water</span>, <span class="nl-word">wonen</span> (morar)</p></div>
+    <div class="soundcard"><span class="snd">v</span><span class="ipa">[v/f]</span>
+      <p class="like">Entre "v" e "f", mais soprado que o "v" brasileiro</p>
+      <p class="ex"><span class="nl-word">vader</span> (pai), <span class="nl-word">vis</span> (peixe)</p></div>
+    <div class="soundcard"><span class="snd">r</span><span class="ipa">[r/ʀ]</span>
+      <p class="like">R vibrado (como "caro" em português, ou R de garganta: os dois existem na Flandres). Nunca o R "americano"</p>
+      <p class="ex"><span class="nl-word">rood</span>, <span class="nl-word">brood</span> (pão)</p></div>
+    <div class="soundcard"><span class="snd">j</span><span class="ipa">[j]</span>
+      <p class="like">Como o "i" de "iate". NUNCA como o "j" de "janela"!</p>
+      <p class="ex"><span class="nl-word">ja</span> ("iá"), <span class="nl-word">jaar</span> (ano)</p></div>
+  </div>
+
+  <div class="warn"><strong>As 4 armadilhas do brasileiro:</strong>
+    <ol style="margin:.4em 0 .2em">
+      <li><strong>Não coloque "e" antes de S:</strong> <span class="nl-word">school</span> é "s-rrôl", não "eschool". <span class="nl-word">straat</span> (rua), não "estraat".</li>
+      <li><strong>Consoante final fica surda:</strong> <span class="nl-word">goed</span> termina em som de T, <span class="nl-word">web</span> em som de P.</li>
+      <li><strong>Não nasalize:</strong> <span class="nl-word">man</span> não é "mã". Pronuncie o N de verdade.</li>
+      <li><strong>Acento quase sempre na 1ª sílaba:</strong> <span class="nl-word">TAfel</span>, <span class="nl-word">WOnen</span>, <span class="nl-word">ZIEkenhuis</span>.</li>
+    </ol>
+  </div>
+
+  <div class="tip">Treine com esta frase que contém quase todos os sons difíceis:
+  <span class="nl-word">"Acht grachten bij het huis van de scheve schilder"</span>
+  <small>(oito canais perto da casa do pintor torto)</small></div>
+</section>
+
+<!-- ============================ CAP 2: ARTIGOS ============================ -->
+<section class="chapter" id="c02">
+  <span class="chapnum">2</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🏷️ De, Het, Een: os artigos</h2>
+  <p class="lead">O português tem o/a. O neerlandês tem <span class="art-de">de</span> e <span class="art-het">het</span>,
+  mas atenção: <strong>não tem nada a ver com masculino/feminino do português!</strong> "A casa" é
+  <span class="nl-word">het huis</span>, "o homem" é <span class="nl-word">de man</span>. Cada palavra precisa ser decorada com seu artigo.</p>
+
+  <div class="grid2">
+    <div class="infocard" style="border-color:var(--de)">
+      <h3 style="color:var(--de)">DE <small style="font-size:.9rem">(± 75% das palavras)</small></h3>
+      <ul class="checklist">
+        <li><strong>Todos os plurais</strong>, sempre: de huizen, de kinderen</li>
+        <li>Pessoas e profissões: de man, de vrouw, de dokter</li>
+        <li>Frutas, legumes e árvores: de appel, de boom</li>
+        <li>Palavras em <strong>-ing</strong>: de rekening, de regering</li>
+        <li>Palavras em <strong>-heid</strong>: de waarheid, de gezondheid</li>
+        <li>Palavras em <strong>-ie / -tie</strong>: de familie, de informatie</li>
+      </ul>
+    </div>
+    <div class="infocard" style="border-color:var(--het)">
+      <h3 style="color:var(--het)">HET <small style="font-size:.9rem">(± 25% das palavras)</small></h3>
+      <ul class="checklist">
+        <li><strong>TODOS os diminutivos -je:</strong> het huisje, het biertje</li>
+        <li>Idiomas: het Nederlands, het Portugees</li>
+        <li>Metais: het goud (ouro), het ijzer (ferro)</li>
+        <li>Palavras em <strong>-um / -isme</strong>: het museum, het toerisme</li>
+        <li>Verbos usados como substantivo: het eten (a comida)</li>
+        <li>Duas sílabas começando com be-, ge-, ver-, ont-: het begin, het gesprek</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="infocard">
+    <h4>O truque do "een" e o efeito dominó</h4>
+    <p>O artigo indefinido é sempre <span class="nl-chip">een</span> (= um/uma, pronuncia-se "ân") para os dois grupos. Mas o grupo DE/HET muda outras palavras:</p>
+    <table class="wordlist">
+      <tr><th></th><th>palavra DE</th><th>palavra HET</th></tr>
+      <tr><td>este/esta (perto)</td><td><span class="nl-word">deze</span> man</td><td><span class="nl-word">dit</span> huis</td></tr>
+      <tr><td>aquele/aquela (longe)</td><td><span class="nl-word">die</span> man</td><td><span class="nl-word">dat</span> huis</td></tr>
+      <tr><td>adjetivo com "een"</td><td>een grote man <small>(com -e)</small></td><td>een groot huis <small>(SEM -e!)</small></td></tr>
+      <tr><td>pronome relativo</td><td>de man <span class="nl-word">die</span>...</td><td>het huis <span class="nl-word">dat</span>...</td></tr>
+    </table>
+    <p><small>Regra do adjetivo: o adjetivo sempre ganha <strong>-e</strong> (de grote man, het grote huis, een grote man),
+    EXCETO com een + palavra het: een groot huis.</small></p>
+  </div>
+
+  <div class="tip"><strong>Estratégia prática:</strong> na dúvida, chute <span class="art-de">de</span> (acerta 3 em 4).
+  Mas anote sempre o artigo junto da palavra nova. Neste livro, toda lista de palavras mostra o artigo em cor.</div>
+</section>
+
+<!-- ============================ CAP 3: PLURAL E DIMINUTIVO ============================ -->
+<section class="chapter" id="c03">
+  <span class="chapnum">3</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🐣 Plural e diminutivos (-je = -inho!)</h2>
+  <p class="lead">Duas ferramentas que você vai usar todo dia. E uma ponte cultural: o belga usa o diminutivo
+  <strong>-je</strong> com o mesmo carinho que o brasileiro usa <strong>-inho</strong>. Um "biertje" é exatamente uma "cervejinha".</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h3>Plural: -EN ou -S?</h3>
+      <p><strong>Regra padrão: +en</strong> (a maioria)</p>
+      <div class="lego"><span class="piece">boek<small>livro</small></span><span class="op">→</span><span class="piece result">boeken<small>livros</small></span></div>
+      <p><strong>+s</strong> quando a palavra termina em sílaba átona -el, -em, -en, -er, -je, ou em vogal:</p>
+      <div class="lego"><span class="piece">tafel<small>mesa</small></span><span class="op">→</span><span class="piece result">tafels<small>mesas</small></span></div>
+      <div class="lego"><span class="piece">auto<small>carro</small></span><span class="op">→</span><span class="piece result">auto's<small>carros (com apóstrofo!)</small></span></div>
+      <p><small>Irregulares importantes: het kind → de kind<strong>eren</strong> (crianças), het ei → de ei<strong>eren</strong> (ovos), de stad → de st<strong>e</strong>den (cidades).</small></p>
+      <p><small>Ortografia: vogal longa dobrada perde uma letra ao ganhar -en, mas o som continua longo: m<strong>aa</strong>n → m<strong>a</strong>nen (luas). Após vogal curta, a consoante dobra: kat → ka<strong>tt</strong>en (gatos).</small></p>
+    </div>
+    <div class="infocard">
+      <h3>Diminutivo: o -inho belga</h3>
+      <p>Adicione <strong>-je</strong> (ou -tje, -pje conforme o som final). O resultado é SEMPRE <span class="art-het">het</span>:</p>
+      <table class="wordlist">
+        <tr><th>base</th><th>diminutivo</th><th>português</th></tr>
+        <tr><td>het bier</td><td class="w-nl">het biertje</td><td>a cervejinha</td></tr>
+        <tr><td>het huis</td><td class="w-nl">het huisje</td><td>a casinha</td></tr>
+        <tr><td>de kop</td><td class="w-nl">het kopje</td><td>a xicrinha</td></tr>
+        <tr><td>de boom</td><td class="w-nl">het boompje</td><td>a arvorezinha</td></tr>
+        <tr><td>de bloem</td><td class="w-nl">het bloemetje</td><td>a florzinha</td></tr>
+      </table>
+      <p><small>Na Flandres também se ouve <strong>-ke</strong> (dialeto): "een pintje/pintke" = uma cervejinha de pressão.
+      Igual ao Brasil, o diminutivo suaviza pedidos: "een momentje" = um momentinho.</small></p>
+    </div>
+  </div>
+
+  <div class="culture">O belga pede "een pintje" no bar, come "een frietje" e espera "een minuutje".
+  Se você já fala "cafezinho, rapidinho, agorinha", você já entende a alma do diminutivo flamengo.</div>
+</section>
+
+<!-- ============================ CAP 4: ORDEM DAS PALAVRAS ============================ -->
+<section class="chapter" id="c04">
+  <span class="chapnum">4</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🧱 A ordem das palavras: a regra V2 e a "pinça"</h2>
+  <p class="lead">Esta é a diferença nº 1 entre o português e o neerlandês. No português a ordem é flexível.
+  No neerlandês ela é <strong>rígida como um trilho de trem</strong>, e o verbo tem lugar marcado.</p>
+
+  <div class="infocard">
+    <h3>Regra 1: o verbo SEMPRE em 2º lugar (V2)</h3>
+    <p>Na frase principal, o verbo conjugado ocupa a posição 2, não importa o que venha antes:</p>
+    <div class="sentence">
+      <span class="blok b-sub">Ik<small>1 · sujeito</small></span>
+      <span class="blok b-verb">koop<small>2 · VERBO</small></span>
+      <span class="blok b-time">morgen<small>tempo</small></span>
+      <span class="blok b-obj">brood<small>objeto</small></span>
+    </div>
+    <p class="pt-word">Eu compro pão amanhã.</p>
+    <p>Se você começar com "amanhã", o sujeito PULA para depois do verbo (inversão):</p>
+    <div class="sentence">
+      <span class="blok b-time">Morgen<small>1 · tempo</small></span>
+      <span class="blok b-verb">koop<small>2 · VERBO</small></span>
+      <span class="blok b-sub">ik<small>3 · sujeito</small></span>
+      <span class="blok b-obj">brood<small>objeto</small></span>
+    </div>
+    <p class="pt-word">Amanhã compro eu pão. <small>(literal: soa estranho em português, é a regra em neerlandês!)</small></p>
+    <div class="warn">Erro clássico de brasileiro: <em>"Morgen ik koop brood"</em> ❌. O verbo NUNCA cai para o 3º lugar.</div>
+  </div>
+
+  <div class="infocard">
+    <h3>Regra 2: a "pinça" (tangconstructie): o resto do verbo vai pro FIM</h3>
+    <p>Quando há dois verbos (perfeito, modal, futuro), o conjugado fica na posição 2 e o outro vai lá no fim.
+    Eles formam uma pinça que abraça a frase inteira:</p>
+    <div class="sentence">
+      <span class="blok b-sub">Ik<small>sujeito</small></span>
+      <span class="blok b-verb">heb<small>verbo 1</small></span>
+      <span class="blok b-time">gisteren<small>tempo</small></span>
+      <span class="blok b-place">in Antwerpen<small>lugar</small></span>
+      <span class="blok b-obj">een brood<small>objeto</small></span>
+      <span class="blok b-verb2">gekocht<small>verbo 2 → FIM</small></span>
+    </div>
+    <p class="pt-word">Eu comprei um pão ontem em Antuérpia. <small>(literal: "Eu tenho ontem em Antuérpia um pão comprado")</small></p>
+    <div class="sentence">
+      <span class="blok b-sub">Wij<small>sujeito</small></span>
+      <span class="blok b-verb">moeten<small>modal</small></span>
+      <span class="blok b-time">vandaag<small>tempo</small></span>
+      <span class="blok b-obj">Nederlands<small>objeto</small></span>
+      <span class="blok b-verb2">leren<small>infinitivo → FIM</small></span>
+    </div>
+    <p class="pt-word">Nós temos que aprender neerlandês hoje.</p>
+  </div>
+
+  <div class="infocard">
+    <h3>Regra 3: na oração subordinada, TODOS os verbos vão pro fim (SOV)</h3>
+    <p>Depois de palavras como <span class="nl-chip">omdat</span> (porque), <span class="nl-chip">als</span> (se/quando),
+    <span class="nl-chip">dat</span> (que), <span class="nl-chip">terwijl</span> (enquanto), o verbo abandona a posição 2:</p>
+    <div class="sentence">
+      <span class="blok b-rest">Ik blijf thuis,<small>frase principal (V2 normal)</small></span>
+      <span class="blok b-rest">omdat<small>conjunção</small></span>
+      <span class="blok b-sub">mijn dochter<small>sujeito</small></span>
+      <span class="blok b-obj">koorts<small>objeto</small></span>
+      <span class="blok b-verb2">heeft<small>VERBO → FIM</small></span>
+    </div>
+    <p class="pt-word">Eu fico em casa porque minha filha tem febre. <small>(literal: "...porque minha filha febre tem")</small></p>
+  </div>
+
+  <div class="infocard">
+    <h3>Regra 4: Tempo, Modo, Lugar (nesta ordem)</h3>
+    <p>Os complementos seguem a ordem <strong>QUANDO → COMO → ONDE</strong> (em português costumamos fazer o contrário):</p>
+    <div class="sentence">
+      <span class="blok b-sub">Ik</span>
+      <span class="blok b-verb">ga</span>
+      <span class="blok b-time">morgen<small>quando</small></span>
+      <span class="blok b-rest">met de fiets<small>como</small></span>
+      <span class="blok b-place">naar school<small>onde</small></span>
+    </div>
+    <p class="pt-word">Vou à escola de bicicleta amanhã. <small>(PT: onde → como → quando; NL: quando → como → onde!)</small></p>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>Pergunta = inversão</h4>
+      <p><span class="nl-word">Jij spreekt Portugees.</span> → <span class="nl-word">Spreek jij Portugees?</span></p>
+      <p><small>Sem "do/does", sem mudar entonação apenas: o verbo vai pra frente. Com palavra interrogativa: <span class="nl-word">Waar woon jij?</span> (Onde você mora?)</small></p>
+      <p><small>Palavras-chave: wie (quem), wat (o quê), waar (onde), wanneer (quando), waarom (por quê), hoe (como), welke (qual), hoeveel (quanto).</small></p>
+    </div>
+    <div class="infocard">
+      <h4>Ordem de comando = verbo primeiro</h4>
+      <p><span class="nl-word">Kom binnen!</span> (Entre!) · <span class="nl-word">Ga zitten!</span> (Sente-se!) ·
+      <span class="nl-word">Let op!</span> (Preste atenção!)</p>
+      <p><small>Igual ao português: o imperativo lidera a frase.</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CAP 5: VERBOS ============================ -->
+<section class="chapter" id="c05">
+  <span class="chapnum">5</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>⚙️ Verbos: presente, passado e o navio 't kofschip</h2>
+  <p class="lead">Respire fundo: o verbo neerlandês é MUITO mais simples que o português.
+  Nada de "eu compraria, tu comprarias, vós comprásseis". São poucas formas, e o passado do dia a dia usa quase sempre um único truque.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h3>Presente: 3 formas, só isso</h3>
+      <table class="wordlist">
+        <tr><th>pessoa</th><th>werken (trabalhar)</th><th>regra</th></tr>
+        <tr><td>ik</td><td class="w-nl">werk</td><td>radical puro</td></tr>
+        <tr><td>jij / u / hij / zij</td><td class="w-nl">werkt</td><td>radical + t</td></tr>
+        <tr><td>wij / jullie / zij (pl.)</td><td class="w-nl">werken</td><td>infinitivo inteiro</td></tr>
+      </table>
+      <p><small>Detalhe: na pergunta com jij, o -t cai: <span class="nl-word">Werk jij?</span></small></p>
+    </div>
+    <div class="infocard">
+      <h3>Os 2 verbos que você usa 100x por dia</h3>
+      <table class="wordlist">
+        <tr><th></th><th>zijn (ser/estar)</th><th>hebben (ter)</th></tr>
+        <tr><td>ik</td><td class="w-nl">ben</td><td class="w-nl">heb</td></tr>
+        <tr><td>jij</td><td class="w-nl">bent</td><td class="w-nl">hebt</td></tr>
+        <tr><td>hij/zij</td><td class="w-nl">is</td><td class="w-nl">heeft</td></tr>
+        <tr><td>wij/jullie/zij</td><td class="w-nl">zijn</td><td class="w-nl">hebben</td></tr>
+      </table>
+      <p><small><strong>Não existe ser vs estar!</strong> "Ik ben Braziliaanse" (sou brasileira) e "Ik ben moe" (estou cansada) usam o mesmo verbo.</small></p>
+    </div>
+  </div>
+
+  <div class="infocard">
+    <h3>O passado falado: perfectum (heb/ben + ge...d/t)</h3>
+    <p>No dia a dia, o belga conta o passado quase sempre com o <strong>perfectum</strong> (como "eu tenho comprado", mas com sentido de "comprei"):</p>
+    <div class="lego">
+      <span class="piece">ge-<small>prefixo</small></span><span class="op">+</span>
+      <span class="piece">werk<small>radical</small></span><span class="op">+</span>
+      <span class="piece">-t<small>final</small></span><span class="op">=</span>
+      <span class="piece result">gewerkt<small>trabalhado</small></span>
+    </div>
+    <p><span class="nl-word">Ik heb gisteren gewerkt.</span> = <span class="pt-word">Eu trabalhei ontem.</span></p>
+    <h4>Termina em -t ou -d? Pergunte ao navio: 'T KOFSCHIP ⛵</h4>
+    <p>Se o radical do verbo termina em uma das consoantes de <strong>'T KOFSCHIP</strong> (t, k, o f, s, ch, p: as consoantes surdas), o final é <strong>-t</strong>. Senão, <strong>-d</strong>:</p>
+    <table class="wordlist">
+      <tr><th>verbo</th><th>radical</th><th>termina em...</th><th>particípio</th></tr>
+      <tr><td>werken (trabalhar)</td><td>werk</td><td>k ∈ 't kofschip</td><td class="w-nl">gewerkt</td></tr>
+      <tr><td>fietsen (pedalar)</td><td>fiets</td><td>s ∈ 't kofschip</td><td class="w-nl">gefietst</td></tr>
+      <tr><td>wonen (morar)</td><td>woon</td><td>n ∉ 't kofschip</td><td class="w-nl">gewoond</td></tr>
+      <tr><td>bellen (ligar/telefonar)</td><td>bel</td><td>l ∉ 't kofschip</td><td class="w-nl">gebeld</td></tr>
+    </table>
+    <p><small>Para brasileiros: 't kofschip são as consoantes SURDAS (sem vibração das cordas vocais), como p/t/k/f/s. Ponha a mão na garganta: se não vibra, é -t.</small></p>
+    <div class="warn"><strong>Sem ge-:</strong> verbos que começam com be-, ge-, er-, her-, ont-, ver- não ganham o prefixo:
+    betalen → <span class="nl-word">betaald</span> (pago), verstaan → <span class="nl-word">verstaan</span> (entendido).</div>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>hebben ou zijn no perfectum?</h4>
+      <p><strong>90% usa hebben.</strong> Use <strong>zijn</strong> com movimento/mudança de estado:</p>
+      <ul class="checklist">
+        <li>Ik <strong>ben</strong> naar Brazilië <strong>gegaan</strong> (fui ao Brasil)</li>
+        <li>Zij <strong>is</strong> in 1995 <strong>geboren</strong> (ela nasceu em 1995)</li>
+        <li>Wij <strong>zijn</strong> verhuisd (nós nos mudamos)</li>
+        <li>Hij <strong>is</strong> gebleven (ele ficou)</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>Os irregulares mais urgentes</h4>
+      <table class="wordlist">
+        <tr><th>infinitivo</th><th>perfectum</th><th>português</th></tr>
+        <tr><td>gaan</td><td class="w-nl">is gegaan</td><td>ir → foi</td></tr>
+        <tr><td>komen</td><td class="w-nl">is gekomen</td><td>vir → veio</td></tr>
+        <tr><td>doen</td><td class="w-nl">heeft gedaan</td><td>fazer → fez</td></tr>
+        <tr><td>eten</td><td class="w-nl">heeft gegeten</td><td>comer → comeu</td></tr>
+        <tr><td>drinken</td><td class="w-nl">heeft gedronken</td><td>beber → bebeu</td></tr>
+        <tr><td>kopen</td><td class="w-nl">heeft gekocht</td><td>comprar → comprou</td></tr>
+        <tr><td>zien</td><td class="w-nl">heeft gezien</td><td>ver → viu</td></tr>
+        <tr><td>zeggen</td><td class="w-nl">heeft gezegd</td><td>dizer → disse</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>Futuro: 2 jeitos fáceis</h4>
+      <p><strong>1. Presente + palavra de tempo</strong> (o mais comum!):<br>
+      <span class="nl-word">Ik werk morgen.</span> = Trabalho amanhã.</p>
+      <p><strong>2. gaan + infinitivo</strong> (como "vou trabalhar"):<br>
+      <span class="nl-word">Ik ga morgen werken.</span></p>
+      <p><small>Existe também "zullen" (ik zal werken), mais formal ou para promessas.</small></p>
+    </div>
+    <div class="infocard">
+      <h4>Os 5 modais (sempre + infinitivo no fim)</h4>
+      <table class="wordlist">
+        <tr><td class="w-nl">kunnen</td><td>poder (capacidade)</td><td><small>Ik kan zwemmen</small></td></tr>
+        <tr><td class="w-nl">mogen</td><td>poder (permissão)</td><td><small>Mag ik binnenkomen?</small></td></tr>
+        <tr><td class="w-nl">moeten</td><td>ter que / dever</td><td><small>Ik moet werken</small></td></tr>
+        <tr><td class="w-nl">willen</td><td>querer</td><td><small>Ik wil koffie drinken</small></td></tr>
+        <tr><td class="w-nl">zullen</td><td>futuro / proposta</td><td><small>Zullen we gaan?</small></td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="tip"><strong>O gerúndio brasileiro:</strong> "estou trabalhando" = <span class="nl-word">Ik ben <strong>aan het</strong> werken</span>.
+  A fórmula é sempre: zijn + <strong>aan het</strong> + infinitivo. "Ela está cozinhando" = Zij is aan het koken.</div>
+</section>
+
+<!-- ============================ CAP 6: VERBOS SEPARÁVEIS ============================ -->
+<section class="chapter" id="c06">
+  <span class="chapnum">6</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>✂️ Verbos separáveis: o verbo que se parte em dois</h2>
+  <p class="lead">Não existe nada parecido em português. Alguns verbos têm um prefixo (op-, aan-, uit-, mee-...)
+  que <strong>se solta e voa para o fim da frase</strong> quando o verbo é conjugado.</p>
+
+  <div class="infocard">
+    <h3>Anatomia: opbellen (telefonar)</h3>
+    <div class="lego">
+      <span class="piece">op<small>prefixo</small></span><span class="op">+</span>
+      <span class="piece">bellen<small>ligar</small></span><span class="op">=</span>
+      <span class="piece result">opbellen<small>telefonar para alguém</small></span>
+    </div>
+    <div class="sentence">
+      <span class="blok b-sub">Ik</span>
+      <span class="blok b-verb">bel<small>verbo</small></span>
+      <span class="blok b-obj">mijn moeder</span>
+      <span class="blok b-time">elke zondag</span>
+      <span class="blok b-verb2">op<small>prefixo → FIM</small></span>
+    </div>
+    <p class="pt-word">Eu ligo para a minha mãe todo domingo.</p>
+    <table class="wordlist">
+      <tr><th>situação</th><th>exemplo</th><th>o que acontece</th></tr>
+      <tr><td>frase principal</td><td class="w-nl">Ik bel je morgen <strong>op</strong>.</td><td>prefixo vai pro fim</td></tr>
+      <tr><td>subordinada</td><td class="w-nl">...omdat ik je morgen <strong>opbel</strong>.</td><td>gruda de novo!</td></tr>
+      <tr><td>perfectum</td><td class="w-nl">Ik heb je <strong>opge</strong>beld.</td><td>ge- entra NO MEIO</td></tr>
+      <tr><td>com modal</td><td class="w-nl">Ik wil je <strong>opbellen</strong>.</td><td>fica inteiro no fim</td></tr>
+    </table>
+  </div>
+
+  <div class="infocard">
+    <h4>Os 12 separáveis que você mais vai ouvir</h4>
+    <table class="wordlist">
+      <tr><th>verbo</th><th>quebra</th><th>significado</th></tr>
+      <tr><td class="w-nl">opstaan</td><td class="w-split">op <small>(para cima)</small> + staan <small>(ficar de pé)</small></td><td>levantar-se</td></tr>
+      <tr><td class="w-nl">aankomen</td><td class="w-split">aan <small>(junto/em)</small> + komen <small>(vir)</small></td><td>chegar</td></tr>
+      <tr><td class="w-nl">meenemen</td><td class="w-split">mee <small>(junto)</small> + nemen <small>(pegar)</small></td><td>levar consigo</td></tr>
+      <tr><td class="w-nl">uitnodigen</td><td class="w-split">uit <small>(para fora)</small> + nodigen <small>(convidar)</small></td><td>convidar</td></tr>
+      <tr><td class="w-nl">terugkomen</td><td class="w-split">terug <small>(de volta)</small> + komen <small>(vir)</small></td><td>voltar</td></tr>
+      <tr><td class="w-nl">binnenkomen</td><td class="w-split">binnen <small>(dentro)</small> + komen <small>(vir)</small></td><td>entrar</td></tr>
+      <tr><td class="w-nl">afspreken</td><td class="w-split">af <small>(fechado/combinado)</small> + spreken <small>(falar)</small></td><td>marcar/combinar</td></tr>
+      <tr><td class="w-nl">inschrijven</td><td class="w-split">in <small>(dentro)</small> + schrijven <small>(escrever)</small></td><td>inscrever(-se)</td></tr>
+      <tr><td class="w-nl">invullen</td><td class="w-split">in <small>(dentro)</small> + vullen <small>(encher)</small></td><td>preencher (formulário)</td></tr>
+      <tr><td class="w-nl">ophalen</td><td class="w-split">op <small>(para cima)</small> + halen <small>(buscar)</small></td><td>ir buscar / retirar</td></tr>
+      <tr><td class="w-nl">uitleggen</td><td class="w-split">uit <small>(para fora)</small> + leggen <small>(pôr)</small></td><td>explicar</td></tr>
+      <tr><td class="w-nl">aansluiten</td><td class="w-split">aan <small>(em)</small> + sluiten <small>(fechar)</small></td><td>conectar / afiliar-se</td></tr>
+    </table>
+    <div class="warn">Ao ouvir uma frase, <strong>espere até o fim</strong> antes de entender o verbo!
+    "Ik kom..." pode virar "Ik kom <strong>aan</strong>" (chego), "Ik kom <strong>terug</strong>" (volto) ou "Ik kom <strong>binnen</strong>" (entro).
+    O belga só revela o sentido na última palavra.</div>
+  </div>
+</section>
+
+<!-- ============================ CAP 7: NEGAÇÃO ============================ -->
+<section class="chapter" id="c07">
+  <span class="chapnum">7</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🚫 Negação: niet vs geen</h2>
+  <p class="lead">O português nega tudo com "não". O neerlandês tem duas palavras, e escolher a errada
+  denuncia o estrangeiro na hora. A decisão é simples se você seguir este fluxo:</p>
+
+  <div class="infocard">
+    <h3>O fluxograma da negação</h3>
+    <div class="sentence" style="align-items:center">
+      <span class="blok b-rest">Você está negando um substantivo<br>com "een" ou sem artigo?<small>ex.: uma casa, dinheiro, filhos</small></span>
+      <span class="op" style="font-size:1.6rem">→</span>
+      <div>
+        <div class="sentence" style="margin:4px 0"><span class="blok b-obj">SIM → use GEEN<small>geen = nenhum(a)</small></span></div>
+        <div class="sentence" style="margin:4px 0"><span class="blok b-verb">NÃO → use NIET<small>tudo o resto</small></span></div>
+      </div>
+    </div>
+    <div class="grid2">
+      <div>
+        <h4 style="color:var(--pt)">GEEN</h4>
+        <p><span class="nl-word">Ik heb <strong>geen</strong> auto.</span><br><span class="pt-word">Não tenho carro.</span></p>
+        <p><span class="nl-word">Er is <strong>geen</strong> melk.</span><br><span class="pt-word">Não tem leite.</span></p>
+        <p><span class="nl-word">Wij hebben <strong>geen</strong> tijd.</span><br><span class="pt-word">Não temos tempo.</span></p>
+      </div>
+      <div>
+        <h4 style="color:var(--de)">NIET</h4>
+        <p><span class="nl-word">Ik werk <strong>niet</strong>.</span><br><span class="pt-word">Não trabalho.</span> <small>(nega o verbo)</small></p>
+        <p><span class="nl-word">Het huis is <strong>niet</strong> groot.</span><br><span class="pt-word">A casa não é grande.</span> <small>(nega o adjetivo)</small></p>
+        <p><span class="nl-word">Dat is <strong>niet</strong> mijn tas.</span><br><span class="pt-word">Essa não é a minha bolsa.</span> <small>(nega algo definido)</small></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="warn"><strong>Adeus, dupla negação!</strong> O português adora: "NÃO vi NADA", "NÃO tem NINGUÉM".
+  Em neerlandês, uma negação só: <span class="nl-word">Ik heb <strong>niets</strong> gezien</span> (vi nada),
+  <span class="nl-word">Er is <strong>niemand</strong></span> (há ninguém). Duas negações viram afirmação!</div>
+
+  <div class="infocard">
+    <h4>A família da negação</h4>
+    <table class="wordlist">
+      <tr><th>neerlandês</th><th>português</th><th>exemplo</th></tr>
+      <tr><td class="w-nl">niets / niks</td><td>nada</td><td><small>Ik zie niets. (Não vejo nada.)</small></td></tr>
+      <tr><td class="w-nl">niemand</td><td>ninguém</td><td><small>Niemand weet het. (Ninguém sabe.)</small></td></tr>
+      <tr><td class="w-nl">nooit</td><td>nunca</td><td><small>Ik rook nooit. (Nunca fumo.)</small></td></tr>
+      <tr><td class="w-nl">nergens</td><td>em lugar nenhum</td><td><small>Ik kan het nergens vinden. (Não acho em lugar nenhum.)</small></td></tr>
+      <tr><td class="w-nl">nog niet</td><td>ainda não</td><td><small>Ik ben nog niet klaar. (Ainda não terminei.)</small></td></tr>
+      <tr><td class="w-nl">niet meer</td><td>não... mais</td><td><small>Hij woont hier niet meer. (Ele não mora mais aqui.)</small></td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============================ CAP 8: ER ============================ -->
+<section class="chapter" id="c08">
+  <span class="chapnum">8</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>👻 A palavrinha "er": pequena, invisível, obrigatória</h2>
+  <p class="lead">"Er" é a palavra mais belga de todas: aparece em toda parte e não tem tradução fixa.
+  São 4 usos principais. Domine os 2 primeiros no A1-A2 e os outros virão com o tempo.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>1. "Er is / er zijn" = tem / há</h4>
+      <p><span class="nl-word">Er is een probleem.</span><br><span class="pt-word">Tem um problema.</span></p>
+      <p><span class="nl-word">Er zijn veel Brazilianen in Antwerpen.</span><br><span class="pt-word">Há muitos brasileiros em Antuérpia.</span></p>
+      <p><small>Como o "tem" existencial do português. Singular: er is. Plural: er zijn.</small></p>
+    </div>
+    <div class="infocard">
+      <h4>2. "Er" = lá (lugar já mencionado)</h4>
+      <p><span class="nl-word">Ken je Gent? Ik woon <strong>er</strong> al twee jaar.</span><br>
+      <span class="pt-word">Conhece Ghent? Moro lá já há dois anos.</span></p>
+      <p><small>Substitui o lugar para não repetir, como o nosso "lá".</small></p>
+    </div>
+    <div class="infocard">
+      <h4>3. "Er" + número = "deles/delas"</h4>
+      <p><span class="nl-word">Hoeveel kinderen heb je? Ik heb <strong>er</strong> twee.</span><br>
+      <span class="pt-word">Quantos filhos você tem? Tenho dois (deles).</span></p>
+      <p><small>Obrigatório com quantidades quando o substantivo não é repetido. Sem o "er" a frase fica errada!</small></p>
+    </div>
+    <div class="infocard">
+      <h4>4. "Er" + preposição = "disso/nisso"</h4>
+      <p><span class="nl-word">Denk je aan de afspraak? Ja, ik denk <strong>eraan</strong>.</span><br>
+      <span class="pt-word">Você lembra do compromisso? Sim, lembro disso.</span></p>
+      <p><small>er + over = sobre isso (erover), er + van = disso (ervan), er + mee = com isso (ermee).</small></p>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CAP 9: NÚMEROS E HORAS ============================ -->
+<section class="chapter" id="c09">
+  <span class="chapnum">9</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🕐 Números, horas e datas: as 3 grandes armadilhas</h2>
+  <p class="lead">Aqui moram os erros que causam consultas perdidas e ônibus que já partiram. Leia duas vezes.</p>
+
+  <div class="infocard">
+    <h3>Armadilha 1: números de trás pra frente</h3>
+    <p>A partir de 21, o neerlandês fala a unidade ANTES da dezena:</p>
+    <div class="lego">
+      <span class="piece">een<small>1</small></span><span class="op">+</span>
+      <span class="piece">en<small>e</small></span><span class="op">+</span>
+      <span class="piece">twintig<small>20</small></span><span class="op">=</span>
+      <span class="piece result">eenentwintig<small>21 ("um-e-vinte")</small></span>
+    </div>
+    <table class="wordlist">
+      <tr><td>34</td><td class="w-nl">vierendertig</td><td><small>"quatro-e-trinta"</small></td>
+          <td>78</td><td class="w-nl">achtenzeventig</td><td><small>"oito-e-setenta"</small></td></tr>
+      <tr><td>95</td><td class="w-nl">vijfennegentig</td><td><small>"cinco-e-noventa"</small></td>
+          <td>2026</td><td class="w-nl">tweeduizend zesentwintig</td><td><small>"dois mil seis-e-vinte"</small></td></tr>
+    </table>
+    <p><small>Base: 0 nul · 1 een · 2 twee · 3 drie · 4 vier · 5 vijf · 6 zes · 7 zeven · 8 acht · 9 negen · 10 tien ·
+    11 elf · 12 twaalf · 13 dertien · 14 veertien · 20 twintig · 30 dertig · 40 veertig · 50 vijftig ·
+    60 zestig · 70 zeventig · 80 tachtig · 90 negentig · 100 honderd · 1000 duizend.</small></p>
+  </div>
+
+  <div class="infocard">
+    <h3>Armadilha 2: "half drie" NÃO é 3:30!</h3>
+    <p>O neerlandês conta a meia hora em direção à hora SEGUINTE:</p>
+    <table class="wordlist">
+      <tr><th>relógio</th><th>neerlandês</th><th>lógica</th></tr>
+      <tr><td><strong>14:00</strong></td><td class="w-nl">twee uur</td><td>duas horas</td></tr>
+      <tr><td><strong>14:15</strong></td><td class="w-nl">kwart na twee <small>(BE)</small> / kwart over twee</td><td>um quarto depois das duas</td></tr>
+      <tr><td><strong>14:30</strong></td><td class="w-nl">half drie ⚠️</td><td>"metade do caminho até as TRÊS"</td></tr>
+      <tr><td><strong>14:45</strong></td><td class="w-nl">kwart voor drie</td><td>um quarto antes das três</td></tr>
+      <tr><td><strong>14:20</strong></td><td class="w-nl">tien voor half drie 🤯</td><td>"dez antes da metade das três"</td></tr>
+      <tr><td><strong>14:40</strong></td><td class="w-nl">tien na half drie 🤯</td><td>"dez depois da metade das três"</td></tr>
+    </table>
+    <div class="warn">Se um belga marcar algo às <span class="nl-word">"half acht"</span>, é às <strong>7:30</strong>, não às 8:30.
+    Errar isso uma vez basta para nunca mais esquecer... mas melhor não errar na consulta do pediatra.</div>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>Dias e meses (sem maiúscula!)</h4>
+      <p><small><strong>Dias:</strong> maandag (seg), dinsdag (ter), woensdag (qua), donderdag (qui), vrijdag (sex), zaterdag (sáb), zondag (dom).</small></p>
+      <p><small><strong>Meses:</strong> januari, februari, maart, april, mei, juni, juli, augustus, september, oktober, november, december.</small></p>
+      <p><small>Data belga: <strong>dia/mês/ano</strong>, igual ao Brasil: 07/07/2026. Ufa!</small></p>
+    </div>
+    <div class="infocard">
+      <h4>Momentos do dia</h4>
+      <table class="wordlist">
+        <tr><td class="w-nl">'s ochtends / 's morgens</td><td>de manhã</td></tr>
+        <tr><td class="w-nl">'s middags</td><td>à tarde (12h-18h)</td></tr>
+        <tr><td class="w-nl">'s avonds</td><td>à noite (18h-24h)</td></tr>
+        <tr><td class="w-nl">'s nachts</td><td>de madrugada</td></tr>
+        <tr><td class="w-nl">vandaag / morgen / gisteren</td><td>hoje / amanhã / ontem</td></tr>
+        <tr><td class="w-nl">overmorgen / eergisteren</td><td>depois de amanhã / anteontem</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <div class="tip"><strong>Armadilha 3, a vírgula e o ponto invertidos:</strong> na Bélgica, € 1.500,50 =
+  mil e quinhentos euros e cinquenta cents. O ponto separa milhares, a vírgula separa os centavos, igual ao Brasil.
+  Mas em sites em inglês é o contrário; confira sempre duas vezes num contrato de aluguel.</div>
+</section>
+
+<!-- ============================ CAP 10: PALAVRAS LEGO ============================ -->
+<section class="chapter" id="c10">
+  <span class="chapnum">10</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🧩 Palavras LEGO: os compostos (samenstellingen)</h2>
+  <p class="lead">O superpoder do neerlandês: colar palavras para criar palavras novas. Onde o português usa
+  "escova <em>de</em> dentes", o neerlandês cola tudo: <span class="nl-word">tandenborstel</span>.
+  Quem aprende as peças pequenas decifra palavras gigantes de graça.</p>
+
+  <div class="infocard">
+    <h3>A regra de ouro: a ÚLTIMA peça manda</h3>
+    <p>A última palavra define o que a coisa É (e qual artigo ela usa). As peças anteriores só descrevem:</p>
+    <div class="lego">
+      <span class="piece">zieken<small>doentes</small></span><span class="op">+</span>
+      <span class="piece">huis<small>casa</small></span><span class="op">=</span>
+      <span class="piece result">het ziekenhuis<small>hospital: "casa de doentes"</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">hand<small>mão</small></span><span class="op">+</span>
+      <span class="piece">schoen<small>sapato</small></span><span class="op">=</span>
+      <span class="piece result">de handschoen<small>luva: "sapato de mão"! 🧤</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">stof<small>poeira</small></span><span class="op">+</span>
+      <span class="piece">zuiger<small>sugador</small></span><span class="op">=</span>
+      <span class="piece result">de stofzuiger<small>aspirador: "sugador de poeira"</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">koel<small>fresco</small></span><span class="op">+</span>
+      <span class="piece">kast<small>armário</small></span><span class="op">=</span>
+      <span class="piece result">de koelkast<small>geladeira: "armário fresco"</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">spiegel<small>espelho</small></span><span class="op">+</span>
+      <span class="piece">ei<small>ovo</small></span><span class="op">=</span>
+      <span class="piece result">het spiegelei<small>ovo frito: "ovo espelho" 🍳</small></span>
+    </div>
+    <p><small>Note: hand + schoen = <strong>de</strong> handschoen porque schoen é palavra "de". A última peça decide o artigo.</small></p>
+  </div>
+
+  <div class="infocard">
+    <h3>Compostos de 3+ peças: leia de trás pra frente</h3>
+    <div class="lego">
+      <span class="piece">verjaardag<small>aniversário</small></span><span class="op">+</span>
+      <span class="piece">s<small>cola</small></span><span class="op">+</span>
+      <span class="piece">feest<small>festa</small></span><span class="op">=</span>
+      <span class="piece result">het verjaardagsfeest<small>festa de aniversário</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">kinder<small>crianças</small></span><span class="op">+</span>
+      <span class="piece">dag<small>dia</small></span><span class="op">+</span>
+      <span class="piece">verblijf<small>estadia</small></span><span class="op">=</span>
+      <span class="piece result">het kinderdagverblijf<small>creche: "estadia diurna de crianças"</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">boodschappen<small>compras</small></span><span class="op">+</span>
+      <span class="piece">lijst<small>lista</small></span><span class="op">+</span>
+      <span class="piece">je<small>-inho</small></span><span class="op">=</span>
+      <span class="piece result">het boodschappenlijstje<small>listinha de compras</small></span>
+    </div>
+    <p><small>As "colas" -s- e -en- aparecem entre peças para facilitar a pronúncia: verjaardag<strong>s</strong>feest, zieke<strong>n</strong>huis.</small></p>
+  </div>
+
+  <div class="tip">Quando encontrar uma palavra assustadora tipo
+  <span class="nl-word">huurwaarborgrekening</span>, não entre em pânico: corte de trás pra frente.
+  rekening (conta) ← waarborg (garantia) ← huur (aluguel) = conta da caução do aluguel. Toda palavra gigante é só um trenzinho de palavras pequenas.</div>
+</section>
+
+<!-- ============================ CAP 11: PREFIXOS E SUFIXOS ============================ -->
+<section class="chapter" id="c11">
+  <span class="chapnum">11</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🔍 Prefixos e sufixos: o decodificador universal</h2>
+  <p class="lead">Estas peças pequenas aparecem em milhares de palavras. Aprenda a tabela e você "lê" palavras que nunca viu.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>Sufixos (o fim da palavra)</h4>
+      <table class="wordlist">
+        <tr><th>sufixo</th><th>equivale a</th><th>exemplo</th></tr>
+        <tr><td class="w-nl">-heid</td><td>-dade</td><td><small>vrijheid = liberdade, gezondheid = saúde</small></td></tr>
+        <tr><td class="w-nl">-baar</td><td>-ável / -ível</td><td><small>betaalbaar = pagável, houdbaar = conservável</small></td></tr>
+        <tr><td class="w-nl">-loos</td><td>sem- (-less)</td><td><small>werkloos = desempregado, draadloos = sem fio</small></td></tr>
+        <tr><td class="w-nl">-ing</td><td>-ção / -mento</td><td><small>betaling = pagamento, verzekering = seguro</small></td></tr>
+        <tr><td class="w-nl">-er / -aar</td><td>-or / -eiro (quem faz)</td><td><small>bakker = padeiro, werker = trabalhador</small></td></tr>
+        <tr><td class="w-nl">-lijk</td><td>-vel / -mente</td><td><small>mogelijk = possível, vriendelijk = gentil</small></td></tr>
+        <tr><td class="w-nl">-ig</td><td>adjetivador</td><td><small>zonnig = ensolarado, rustig = tranquilo</small></td></tr>
+        <tr><td class="w-nl">-je</td><td>-inho / -inha</td><td><small>huisje = casinha (sempre HET)</small></td></tr>
+      </table>
+    </div>
+    <div class="infocard">
+      <h4>Prefixos (o começo da palavra)</h4>
+      <table class="wordlist">
+        <tr><th>prefixo</th><th>ideia</th><th>exemplo</th></tr>
+        <tr><td class="w-nl">ont-</td><td>des- (remover/começar)</td><td><small>ontbijt = desjejum, ontdekken = descobrir</small></td></tr>
+        <tr><td class="w-nl">ver-</td><td>mudança/transformação</td><td><small>verhuizen = mudar de casa, verkopen = vender</small></td></tr>
+        <tr><td class="w-nl">be-</td><td>tornar transitivo</td><td><small>betalen = pagar, bekijken = examinar</small></td></tr>
+        <tr><td class="w-nl">her-</td><td>re- (de novo)</td><td><small>herhalen = repetir, herkennen = reconhecer</small></td></tr>
+        <tr><td class="w-nl">on-</td><td>in-/não (negativo)</td><td><small>onmogelijk = impossível, ongezond = não saudável</small></td></tr>
+        <tr><td class="w-nl">samen-</td><td>junto (com-)</td><td><small>samenwonen = morar junto, samenwerken = colaborar</small></td></tr>
+      </table>
+      <p><small>⚠️ Palavras com be-, ge-, er-, her-, ont-, ver- NÃO são separáveis e não ganham ge- no particípio.</small></p>
+    </div>
+  </div>
+
+  <div class="infocard">
+    <h4>Decodificando ao vivo</h4>
+    <div class="lego">
+      <span class="piece">on<small>não</small></span><span class="op">+</span>
+      <span class="piece">betaal<small>pagar</small></span><span class="op">+</span>
+      <span class="piece">baar<small>-ável</small></span><span class="op">=</span>
+      <span class="piece result">onbetaalbaar<small>impagável / caríssimo</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">werk<small>trabalho</small></span><span class="op">+</span>
+      <span class="piece">loos<small>sem</small></span><span class="op">+</span>
+      <span class="piece">heid<small>-dade</small></span><span class="op">=</span>
+      <span class="piece result">de werkloosheid<small>o desemprego</small></span>
+    </div>
+    <div class="lego">
+      <span class="piece">samen<small>junto</small></span><span class="op">+</span>
+      <span class="piece">woon<small>morar</small></span><span class="op">+</span>
+      <span class="piece">st<small>cola</small></span><span class="op">+</span>
+      <span class="piece">contract<small>contrato</small></span><span class="op">=</span>
+      <span class="piece result">het samenwoonstcontract<small>contrato de coabitação</small></span>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CAP 12: FALSOS AMIGOS ============================ -->
+<section class="chapter" id="c12">
+  <span class="chapnum">12</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🎭 Falsos amigos PT ↔ NL (e alguns amigos de verdade)</h2>
+  <p class="lead">Palavras que SOAM como português mas significam outra coisa. Ótimas para rir, perigosas para errar.</p>
+
+  <div class="infocard">
+    <h4>Os falsos amigos clássicos</h4>
+    <table class="wordlist">
+      <tr><th>palavra NL</th><th>parece</th><th>mas significa</th><th>como se diz o que você pensou</th></tr>
+      <tr><td class="w-nl">prima</td><td>prima (parente)</td><td><strong>ótimo! excelente!</strong></td><td>prima = de nicht</td></tr>
+      <tr><td class="w-nl">lente</td><td>lente (óculos)</td><td><strong>primavera</strong></td><td>lente = de lens</td></tr>
+      <tr><td class="w-nl">nu</td><td>nu (pelado)</td><td><strong>agora</strong></td><td>nu/pelado = naakt</td></tr>
+      <tr><td class="w-nl">meer</td><td>mar</td><td><strong>lago</strong> (ou "mais")</td><td>mar = de zee</td></tr>
+      <tr><td class="w-nl">maïs</td><td>mais</td><td><strong>milho</strong></td><td>mais = meer 🤯</td></tr>
+      <tr><td class="w-nl">boos</td><td>boa</td><td><strong>bravo / com raiva</strong></td><td>boa = goed</td></tr>
+      <tr><td class="w-nl">brutaal</td><td>brutal</td><td><strong>atrevido, malcriado</strong></td><td>brutal = wreed</td></tr>
+      <tr><td class="w-nl">vaas</td><td>vaso (privada)</td><td><strong>vaso de flores</strong></td><td>privada = het toilet / de wc</td></tr>
+      <tr><td class="w-nl">sala(de)</td><td>sala</td><td><strong>salada</strong> (salade)</td><td>sala = de woonkamer</td></tr>
+      <tr><td class="w-nl">ja</td><td>já</td><td><strong>sim</strong></td><td>já = al ("Ik ben al klaar")</td></tr>
+    </table>
+    <p><small>Bônus flamengo vs holandês: na Flandres, <span class="nl-word">schoon</span> = bonito ("een schoon huis"),
+    mas na Holanda schoon = limpo! E <span class="nl-word">poepen</span> significa coisas MUITO diferentes nos dois países.
+    Na dúvida na Flandres: bonito = schoon/mooi, limpo = proper.</small></p>
+  </div>
+
+  <div class="infocard">
+    <h4>Amigos verdadeiros (importados do francês, iguais ao português)</h4>
+    <p><span class="nl-chip">het bureau</span> escritório/mesa · <span class="nl-chip">het toilet</span> banheiro ·
+    <span class="nl-chip">de garage</span> garagem · <span class="nl-chip">het restaurant</span> restaurante ·
+    <span class="nl-chip">de tas</span> (BE: xícara! "een tas koffie") · <span class="nl-chip">het perron</span> plataforma ·
+    <span class="nl-chip">de crème</span> creme · <span class="nl-chip">de familie</span> família ·
+    <span class="nl-chip">de muziek</span> música · <span class="nl-chip">de natuur</span> natureza ·
+    <span class="nl-chip">de cultuur</span> cultura · <span class="nl-chip">het idee</span> ideia</p>
+    <p><small>O flamengo adora palavras francesas que o brasileiro reconhece: de camion (caminhão), de frigo (geladeira, informal),
+    het tapijt (tapete), de valies (mala). Vantagem Brasil!</small></p>
+  </div>
+</section>
+
+<!-- ============================ CAP 13: AS 10 DIFERENÇAS ============================ -->
+<section class="chapter" id="c13">
+  <span class="chapnum">13</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>⚖️ Frases: as 10 grandes diferenças com o português</h2>
+  <p class="lead">O resumo definitivo. Se o seu cérebro brasileiro entender estas 10 trocas, 80% da gramática está dominada.</p>
+
+  <div class="infocard">
+    <table class="wordlist">
+      <tr><th>#</th><th>português faz assim</th><th>neerlandês faz assim</th><th>exemplo</th></tr>
+      <tr><td>1</td><td>Ordem flexível</td><td><strong>Verbo sempre em 2º lugar</strong> (V2)</td>
+        <td><small>Amanhã eu trabalho → Morgen werk <strong>ik</strong></small></td></tr>
+      <tr><td>2</td><td>Pode omitir o sujeito ("Falo português")</td><td><strong>Sujeito obrigatório</strong>, sempre</td>
+        <td><small>Falo português → <strong>Ik</strong> spreek Portugees</small></td></tr>
+      <tr><td>3</td><td>Adjetivo depois do substantivo</td><td><strong>Adjetivo ANTES</strong> do substantivo</td>
+        <td><small>uma casa grande → een <strong>groot</strong> huis</small></td></tr>
+      <tr><td>4</td><td>ser ≠ estar</td><td><strong>Um verbo só: zijn</strong></td>
+        <td><small>sou/estou → ik <strong>ben</strong></small></td></tr>
+      <tr><td>5</td><td>Dupla negação (não vi nada)</td><td><strong>Uma negação só</strong></td>
+        <td><small>Ik heb <strong>niets</strong> gezien</small></td></tr>
+      <tr><td>6</td><td>o/a pelo gênero</td><td><strong>de/het</strong> (decorar por palavra)</td>
+        <td><small>a casa → <strong>het</strong> huis; o homem → <strong>de</strong> man</small></td></tr>
+      <tr><td>7</td><td>vinte e um</td><td><strong>um-e-vinte</strong> (invertido)</td>
+        <td><small>21 → een<strong>en</strong>twintig</small></td></tr>
+      <tr><td>8</td><td>"de" para ligar (escova de dentes)</td><td><strong>Cola tudo numa palavra</strong></td>
+        <td><small>tanden + borstel → tandenborstel</small></td></tr>
+      <tr><td>9</td><td>estou fazendo (gerúndio)</td><td><strong>zijn + aan het + infinitivo</strong></td>
+        <td><small>Ik ben <strong>aan het</strong> koken</small></td></tr>
+      <tr><td>10</td><td>verbo inteiro</td><td><strong>Verbos que se partem</strong> (separáveis)</td>
+        <td><small>opbellen → Ik bel je <strong>op</strong></small></td></tr>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>O que é MAIS FÁCIL que o português 🎉</h4>
+      <ul class="checklist">
+        <li>Só 3 formas verbais no presente (PT tem 6)</li>
+        <li>Sem subjuntivo do dia a dia ("que eu faça, se eu fizesse")</li>
+        <li>Sem conjugação futura complexa: "ga" + infinitivo resolve</li>
+        <li>Escrita quase 100% fonética: leu, falou</li>
+        <li>Sem acentos gráficos para decorar</li>
+        <li>"Você/tu/senhor" = só je e u</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>Onde investir energia 🎯</h4>
+      <ul class="checklist">
+        <li>Ordem das palavras (cap. 4): treine até virar reflexo</li>
+        <li>Artigos de/het: decore junto com cada palavra</li>
+        <li>Sons ui / uu / g: 10 minutos de espelho por dia</li>
+        <li>Verbos separáveis: ouça até o FIM da frase</li>
+        <li>Horas ("half drie" = 2:30!)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ CAP 14: HÁBITOS ============================ -->
+<section class="chapter" id="c14">
+  <span class="chapnum">14</span>
+  <div class="chapkicker">Parte I · Fundamentos</div>
+  <h2>🤝 Hábitos: Flandres vs Brasil (o choque cultural mapeado)</h2>
+  <p class="lead">Língua é só metade da integração. Estes contrastes culturais evitam mal-entendidos que nenhuma gramática resolve.
+  Nenhum lado está "certo": são só sistemas diferentes.</p>
+
+  <div class="infocard">
+    <table class="wordlist">
+      <tr><th>situação</th><th>🇧🇷 no Brasil</th><th>🇧🇪 na Flandres</th></tr>
+      <tr><td><strong>Visitar amigos</strong></td><td>"Aparece lá em casa!" (e pode aparecer)</td>
+        <td>SEMPRE com hora marcada (een afspraak), às vezes semanas antes. Aparecer sem avisar é invasivo.</td></tr>
+      <tr><td><strong>Horário</strong></td><td>15 min de atraso = normal</td>
+        <td>Pontualidade britânica. 19h = 19h00. Atrasou 5 min? Mande mensagem.</td></tr>
+      <tr><td><strong>Comunicação</strong></td><td>Indireta, "vou ver, talvez", evita o "não"</td>
+        <td>Direta. "Nee" significa não e ninguém se ofende. "Talvez" belga geralmente significa não.</td></tr>
+      <tr><td><strong>Beijo no rosto</strong></td><td>1, 2 ou 3 conforme a região, abraço fácil</td>
+        <td>1 beijo só, e apenas entre conhecidos. Colegas de trabalho: aperto de mão. Abraço é íntimo.</td></tr>
+      <tr><td><strong>Seu aniversário</strong></td><td>Os outros pagam/organizam pra você</td>
+        <td>VOCÊ leva bolo/koffiekoeken para os colegas. Quem faz anos, trakteert (paga a rodada)!</td></tr>
+      <tr><td><strong>Almoço</strong></td><td>Refeição quente, a principal do dia</td>
+        <td>Boterhammen (pão com frios) na brooddoos. A refeição quente é à noite (± 18h!).</td></tr>
+      <tr><td><strong>Conta no restaurante</strong></td><td>Um paga, ou "racha" informal</td>
+        <td>Cada um paga o seu, calculado ao cent. Normal e educado.</td></tr>
+      <tr><td><strong>Domingo</strong></td><td>Comércio aberto, dia de shopping</td>
+        <td>Quase tudo FECHADO. É dia da bakkersronde (padaria de manhã) e família. Planeje as compras no sábado!</td></tr>
+      <tr><td><strong>Vizinhos</strong></td><td>Música alta tolerada, festa é festa</td>
+        <td>Silêncio após 22h é lei social (e às vezes legal). Furadeira no domingo = guerra declarada.</td></tr>
+      <tr><td><strong>Elogios / status</strong></td><td>Mostrar sucesso é ok</td>
+        <td>"Doe maar gewoon" (seja normal). Modéstia é virtude, ostentação é mal vista.</td></tr>
+      <tr><td><strong>Presente ao ser convidado</strong></td><td>Opcional, informal</td>
+        <td>Obrigatório: flores, vinho ou chocolates para a anfitriã. Sempre.</td></tr>
+      <tr><td><strong>Small talk</strong></td><td>Futebol, família, tudo</td>
+        <td>O TEMPO (het weer). Reclamar da chuva é o abraço social flamengo.</td></tr>
+    </table>
+  </div>
+
+  <div class="grid2">
+    <div class="culture">
+      <strong>A agenda é sagrada.</strong> O flamengo vive de agenda: consultas, visitas, até ligações são marcadas.
+      A palavra <span class="nl-word">de afspraak</span> (af + spraak, "o falado/combinado") é talvez a palavra mais importante
+      da cultura belga. Uma afspraak é um contrato moral: quem cancela em cima da hora perde crédito.
+    </div>
+    <div class="culture">
+      <strong>Frieten são identidade nacional.</strong> A ida ao <span class="nl-word">frituur / frietkot</span> é ritual:
+      frieten com maionese (não ketchup!), um <span class="nl-word">frikandel</span> ou <span class="nl-word">bicky burger</span>.
+      Pedir "uma porção pequena de fritas no McDonald's" dói no coração belga.
+    </div>
+  </div>
+
+  <div class="infocard">
+    <h4>Flamenguismos que você vai ouvir no primeiro dia (e não estão no dicionário da escola)</h4>
+    <table class="wordlist">
+      <tr><th>flamengo</th><th>significa</th><th>contexto</th></tr>
+      <tr><td class="w-nl">Amai!</td><td>Nossa! / Caramba!</td><td>surpresa, admiração</td></tr>
+      <tr><td class="w-nl">Allee / Allez</td><td>vamos lá / então / tá bom</td><td>preenche qualquer pausa, do francês</td></tr>
+      <tr><td class="w-nl">goesting</td><td>vontade, desejo</td><td>"Ik heb goesting in friet" = tô com vontade de fritas</td></tr>
+      <tr><td class="w-nl">plezant</td><td>divertido, agradável</td><td>= leuk (NL). "Da's plezant!"</td></tr>
+      <tr><td class="w-nl">een tas koffie</td><td>uma xícara de café</td><td>tas = xícara na Flandres (na Holanda = bolsa!)</td></tr>
+      <tr><td class="w-nl">proper</td><td>limpo</td><td>"'t Is hier proper" = está limpo aqui</td></tr>
+      <tr><td class="w-nl">kuisen</td><td>limpar, fazer faxina</td><td>= schoonmaken (NL)</td></tr>
+      <tr><td class="w-nl">gij / ge</td><td>você (informal flamengo)</td><td>em vez de jij/je; "Wat zegt ge?"</td></tr>
+      <tr><td class="w-nl">salu / salukes</td><td>tchau</td><td>despedida informal</td></tr>
+      <tr><td class="w-nl">santé!</td><td>saúde! (brinde)</td><td>ao levantar o copo, olhando nos olhos</td></tr>
+    </table>
+    <p><small>Na escola você aprende o padrão (Algemeen Nederlands). Na rua ouve "tussentaal" (língua intermediária flamenga).
+    Entenda as duas, fale o padrão: todo mundo vai te entender.</small></p>
+  </div>
+</section>
+
+<!-- ============================ PARTE II INTRO ============================ -->
+<section class="chapter" id="parte2">
+  <div class="chapkicker">Parte II · Os 6 níveis</div>
+  <h2>🎯 O mapa dos níveis (CEFR / ERK)</h2>
+  <p class="lead">A Europa mede idiomas na escala CEFR (em neerlandês: ERK). Cada nível abaixo tem
+  <strong>checklist para imprimir e marcar</strong>, uma conversa modelo e vocabulário decomposto.
+  Marque honestamente: só avance quando quase tudo estiver ✓.</p>
+  <div class="levelband">
+    <div class="lvl a1">A1<small>sobrevivência<br>± 80-120h de estudo</small></div>
+    <div class="lvl a2">A2<small>autonomia básica<br>± 180-250h ⭐ inburgering</small></div>
+    <div class="lvl b1">B1<small>independência<br>± 350-450h</small></div>
+    <div class="lvl b2">B2<small>fluência funcional<br>± 500-650h · ITNA/universidade</small></div>
+    <div class="lvl c1">C1<small>proficiência<br>± 800-1000h</small></div>
+    <div class="lvl c2">C2<small>maestria<br>vida + curiosidade</small></div>
+  </div>
+  <p><small>As horas são estimativas para quem fala português (língua distante do neerlandês, mas com o francês emprestando muitas palavras à Flandres).
+  Morar no país e falar em casa acelera TUDO.</small></p>
+</section>
+
+<!-- ============================ NÍVEL A1 ============================ -->
+<section class="chapter" id="a1">
+  <span class="chapnum">15</span>
+  <div class="chapkicker">Parte II · Nível 1 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--a1)">A1</span>
+    <div><h2 style="margin:0">Sobrevivência</h2><small>NT2 richtgraad 1.1 · "Consigo existir em neerlandês"</small></div>
+  </div>
+  <p class="lead">Você se apresenta, faz compras simples, entende placas e frases lentas.
+  É o nível do primeiro sorriso: quando o padeiro te entende na primeira tentativa.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo... (can-do)</h4>
+      <ul class="checklist">
+        <li>Me apresentar: nome, país, endereço, telefone</li>
+        <li>Cumprimentar e me despedir (goedemorgen → tot ziens)</li>
+        <li>Contar até 100 e entender preços</li>
+        <li>Fazer um pedido simples: "Ik wil graag... / Mag ik...?"</li>
+        <li>Dizer o que entendo e o que não: "Ik begrijp het niet"</li>
+        <li>Pedir para repetir devagar: "Kan u dat herhalen, alstublieft?"</li>
+        <li>Preencher um formulário simples (naam, adres, geboortedatum)</li>
+        <li>Entender dias, horas inteiras e placas comuns</li>
+        <li>Responder perguntas sim/não sobre mim</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>📐 Checklist: gramática do A1</h4>
+      <ul class="checklist">
+        <li>Presente dos verbos regulares (3 formas)</li>
+        <li>zijn e hebben de cor</li>
+        <li>Pronomes: ik, jij/je, u, hij, zij/ze, wij/we, jullie, zij</li>
+        <li>de/het/een (noção; erros ainda ok)</li>
+        <li>Plural em -en e -s</li>
+        <li>Negação básica com niet e geen</li>
+        <li>Perguntas com wie/wat/waar/wanneer/hoe</li>
+        <li>V2: verbo em segundo lugar nas frases simples</li>
+        <li>Números 0-1000, dias, meses</li>
+      </ul>
+      <p><small><strong>Vocabulário-alvo:</strong> ± 500-800 palavras dos temas: casa, família, comida, números, tempo, corpo, transporte.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa A1: Conhecendo a vizinha (Kennismaken met de buurvrouw)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Buurvrouw</td><td class="nl">Hallo! Ik ben Els. Ik woon hiernaast.</td><td class="pt">Olá! Eu sou a Els. Moro aqui do lado.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Hallo Els. Ik heet Sofia. Aangenaam!</td><td class="pt">Olá Els. Me chamo Sofia. Prazer!</td></tr>
+      <tr><td class="who">Els</td><td class="nl">Waar kom je vandaan, Sofia?</td><td class="pt">De onde você vem, Sofia?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ik kom uit Brazilië. Ik woon nu in België.</td><td class="pt">Venho do Brasil. Agora moro na Bélgica.</td></tr>
+      <tr><td class="who">Els</td><td class="nl">Leuk! Spreek je al een beetje Nederlands?</td><td class="pt">Que legal! Você já fala um pouco de neerlandês?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Een beetje. Ik leer Nederlands. Kan je traag spreken, alsjeblieft?</td><td class="pt">Um pouco. Estou aprendendo neerlandês. Pode falar devagar, por favor?</td></tr>
+      <tr><td class="who">Els</td><td class="nl">Natuurlijk! Heb je kinderen?</td><td class="pt">Claro! Você tem filhos?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ja, ik heb een dochter. Zij is twee jaar oud.</td><td class="pt">Sim, tenho uma filha. Ela tem dois anos.</td></tr>
+      <tr><td class="who">Els</td><td class="nl">Wat schattig! Welkom in de straat. Tot ziens!</td><td class="pt">Que fofa! Bem-vinda à rua. Até logo!</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dank je wel. Tot morgen!</td><td class="pt">Muito obrigada. Até amanhã!</td></tr>
+    </table>
+  </div>
+
+  <h3>🧩 Vocabulário A1 com quebra de palavras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">voornaam</td><td class="w-split">voor <small>(antes)</small> + naam <small>(nome)</small></td><td>primeiro nome, "nome da frente"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">achternaam</td><td class="w-split">achter <small>(atrás)</small> + naam <small>(nome)</small></td><td>sobrenome, "nome de trás"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">buurvrouw</td><td class="w-split">buur <small>(vizinho)</small> + vrouw <small>(mulher)</small></td><td>vizinha</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">huisnummer</td><td class="w-split">huis <small>(casa)</small> + nummer <small>(número)</small></td><td>número da casa</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">geboortedatum</td><td class="w-split">geboorte <small>(nascimento)</small> + datum <small>(data)</small></td><td>data de nascimento</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">woonplaats</td><td class="w-split">woon <small>(morar)</small> + plaats <small>(lugar)</small></td><td>cidade onde mora</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">ontbijt</td><td class="w-split">ont- <small>(des-)</small> + bijt <small>(mordida)</small></td><td>café da manhã ("desjejum", igualzinho!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">boterham</td><td class="w-split">boter <small>(manteiga)</small> + ham <small>(presunto)</small></td><td>fatia de pão / sanduíche</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">middageten</td><td class="w-split">middag <small>(meio-dia)</small> + eten <small>(comer)</small></td><td>almoço</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">avondeten</td><td class="w-split">avond <small>(noite)</small> + eten <small>(comer)</small></td><td>jantar</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verjaardag</td><td class="w-split">ver- <small>(mudança)</small> + jaar <small>(ano)</small> + dag <small>(dia)</small></td><td>aniversário, "o dia que muda o ano"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">weekdag</td><td class="w-split">week <small>(semana)</small> + dag <small>(dia)</small></td><td>dia útil</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">weekend</td><td class="w-split">week <small>(semana)</small> + end <small>(fim)</small></td><td>fim de semana</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">slaapkamer</td><td class="w-split">slaap <small>(sono)</small> + kamer <small>(quarto)</small></td><td>quarto de dormir</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">badkamer</td><td class="w-split">bad <small>(banho)</small> + kamer <small>(quarto)</small></td><td>banheiro</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">woonkamer</td><td class="w-split">woon <small>(morar/viver)</small> + kamer <small>(quarto)</small></td><td>sala de estar</td></tr>
+  </table>
+
+  <div class="tip"><strong>Frases-salva-vidas do A1</strong> (decore hoje):
+  <span class="nl-word">Ik spreek nog niet goed Nederlands</span> (ainda não falo bem neerlandês) ·
+  <span class="nl-word">Kan u dat herhalen?</span> (pode repetir?) ·
+  <span class="nl-word">Wat betekent dat?</span> (o que isso significa?) ·
+  <span class="nl-word">Hoe zeg je ... in het Nederlands?</span> (como se diz ... em neerlandês?) ·
+  <span class="nl-word">Ik begrijp het (niet)</span> (eu (não) entendo).</div>
+</section>
+
+<!-- ============================ NÍVEL A2 ============================ -->
+<section class="chapter" id="a2">
+  <span class="chapnum">16</span>
+  <div class="chapkicker">Parte II · Nível 2 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--a2)">A2</span>
+    <div><h2 style="margin:0">Autonomia básica ⭐</h2><small>NT2 richtgraad 1.2 · o nível exigido pela inburgering na Flandres</small></div>
+  </div>
+  <p class="lead">O nível mais importante da sua vida administrativa belga: é o exigido no trajeto de integração (inburgering)
+  e um dos requisitos linguísticos para residência de longa duração e nacionalidade. Você resolve a vida cotidiana sozinho(a):
+  correios, médico, escola, compras, conversa de portão.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo...</h4>
+      <ul class="checklist">
+        <li>Contar o que fiz ontem/semana passada (perfectum!)</li>
+        <li>Marcar, mudar e cancelar uma afspraak por telefone</li>
+        <li>Explicar sintomas ao médico ("Ik heb hoofdpijn sinds...")</li>
+        <li>Fazer compras perguntando preço, tamanho, alternativa</li>
+        <li>Entender cartas simples da gemeente e da escola</li>
+        <li>Descrever minha família, trabalho e rotina</li>
+        <li>Pedir e dar direções ("Ga rechtdoor, sla linksaf...")</li>
+        <li>Escrever mensagens curtas (WhatsApp, e-mail simples)</li>
+        <li>Falar de planos: "Volgende week ga ik..."</li>
+        <li>Conversar 10 minutos sobre assuntos do dia a dia</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>📐 Checklist: gramática do A2</h4>
+      <ul class="checklist">
+        <li>Perfectum com hebben/zijn + 't kofschip</li>
+        <li>Verbos separáveis nas frases principais</li>
+        <li>Os 5 modais (kunnen, mogen, moeten, willen, zullen)</li>
+        <li>Inversão após tempo ("Morgen ga ik...")</li>
+        <li>Comparativo e superlativo (groter, grootst)</li>
+        <li>Futuro com gaan + infinitivo</li>
+        <li>omdat/want (porque) com a ordem certa</li>
+        <li>Adjetivo com/sem -e (een groot huis / het grote huis)</li>
+        <li>Horas completas, incluindo "half drie" = 2:30</li>
+        <li>er is / er zijn</li>
+      </ul>
+      <p><small><strong>Vocabulário-alvo:</strong> ± 1500-2000 palavras. Todos os temas da Parte III deste livro.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa A2: Domingo de manhã na padaria (Bij de bakker)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Bakker</td><td class="nl">Goedemorgen! Zeg het maar.</td><td class="pt">Bom dia! Pode falar. (= o que vai ser?)</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Goedemorgen. Ik wil graag vier pistolets en een half grijs brood, gesneden alstublieft.</td><td class="pt">Bom dia. Eu queria quatro pãezinhos e meio pão integral, fatiado por favor.</td></tr>
+      <tr><td class="who">Bakker</td><td class="nl">Komt in orde. Nog iets anders?</td><td class="pt">Pode deixar. Mais alguma coisa?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ja, twee koffiekoeken met chocolade. Mijn dochter is er gek op.</td><td class="pt">Sim, dois doces folhados com chocolate. Minha filha é louca por eles.</td></tr>
+      <tr><td class="who">Bakker</td><td class="nl">Haha, gelijk heeft ze! Dat is dan zeven euro vijftig samen.</td><td class="pt">Haha, ela tem razão! Deu sete euros e cinquenta no total.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Kan ik met de kaart betalen?</td><td class="pt">Posso pagar com cartão?</td></tr>
+      <tr><td class="who">Bakker</td><td class="nl">Natuurlijk. Steek de kaart er maar in... voilà. Smakelijk en nog een fijne zondag!</td><td class="pt">Claro. Pode inserir o cartão... pronto. Bom apetite e um ótimo domingo!</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dank u wel, u ook. Tot volgende week!</td><td class="pt">Muito obrigada, para o senhor também. Até semana que vem!</td></tr>
+    </table>
+  </div>
+
+  <h3>🧩 Vocabulário A2 com quebra de palavras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">afspraak</td><td class="w-split">af <small>(fechado)</small> + spraak <small>(fala)</small></td><td>compromisso marcado, "fala fechada"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">koffiekoek</td><td class="w-split">koffie <small>(café)</small> + koek <small>(bolo/biscoito)</small></td><td>doce folhado de padaria, "bolo de café"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">boodschappen (pl.)</td><td class="w-split">bood <small>(mensagem, de bieden)</small> + schappen</td><td>compras do mercado; boodschappen doen = fazer compras</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">hoofdpijn</td><td class="w-split">hoofd <small>(cabeça)</small> + pijn <small>(dor)</small></td><td>dor de cabeça</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">huisarts</td><td class="w-split">huis <small>(casa)</small> + arts <small>(médico)</small></td><td>clínico geral, "médico de casa/família"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">stadhuis</td><td class="w-split">stad <small>(cidade)</small> + huis <small>(casa)</small></td><td>prefeitura, "casa da cidade"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">wachtzaal</td><td class="w-split">wacht <small>(espera)</small> + zaal <small>(salão)</small></td><td>sala de espera</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">omleiding</td><td class="w-split">om <small>(em volta)</small> + leiding <small>(condução, de leiden)</small></td><td>desvio (de trânsito)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bushalte</td><td class="w-split">bus <small>(ônibus)</small> + halte <small>(parada)</small></td><td>ponto de ônibus</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">retourtje</td><td class="w-split">retour <small>(volta, francês)</small> + -tje <small>(-inho)</small></td><td>passagem de ida e volta</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">openingsuren (pl.)</td><td class="w-split">opening <small>(abertura)</small> + s + uren <small>(horas)</small></td><td>horário de funcionamento</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">solden (pl.)</td><td class="w-split">do francês "soldes"</td><td>liquidações (jan + jul, reguladas por lei!)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">proefje / paskamer</td><td class="w-split">pas <small>(experimentar)</small> + kamer <small>(quarto)</small></td><td>provador de roupa</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">spoedgeval</td><td class="w-split">spoed <small>(urgência)</small> + geval <small>(caso)</small></td><td>emergência, caso urgente</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">ziekenwagen</td><td class="w-split">zieken <small>(doentes)</small> + wagen <small>(carro)</small></td><td>ambulância, "carro de doentes"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">rijbewijs</td><td class="w-split">rij <small>(dirigir)</small> + bewijs <small>(prova)</small></td><td>carteira de motorista, "prova de dirigir"</td></tr>
+  </table>
+
+  <div class="warn"><strong>Meta oficial:</strong> para o trajeto de integração flamengo (inburgering), você precisa
+  do certificado NT2 nível A2 (richtgraad 1.2) das habilidades orais. Comprove no CVO ou Ligo (cap. 21).
+  Guarde TODOS os certificados: eles valem para a residência permanente e a nacionalidade.</div>
+</section>
+
+<!-- ============================ NÍVEL B1 ============================ -->
+<section class="chapter" id="b1">
+  <span class="chapnum">17</span>
+  <div class="chapkicker">Parte II · Nível 3 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--b1)">B1</span>
+    <div><h2 style="margin:0">Independência</h2><small>NT2 richtgraad 2 · o nível do mercado de trabalho</small></div>
+  </div>
+  <p class="lead">Você conta histórias, dá opinião, resolve problemas por telefone e entende o essencial do noticiário.
+  É o nível pedido em muitas vagas de emprego, no VDAB e para conversar de igual para igual com a professora da creche.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo...</h4>
+      <ul class="checklist">
+        <li>Contar uma história com começo, meio e fim</li>
+        <li>Explicar POR QUE penso algo ("Ik vind dat..., omdat...")</li>
+        <li>Resolver um problema por telefone (operadora, síndico)</li>
+        <li>Entender o jornal Wablieft e o essencial do VRT NWS</li>
+        <li>Escrever um e-mail formal curto (para a escola, o senhorio)</li>
+        <li>Participar de uma reunião de pais e entender 80%</li>
+        <li>Descrever sentimentos, esperanças e planos de vida</li>
+        <li>Entender um contrato simples com ajuda de dicionário</li>
+        <li>Reagir a imprevistos: reclamar, negociar, remarcar</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>📐 Checklist: gramática do B1</h4>
+      <ul class="checklist">
+        <li>Subordinadas com verbo no fim (omdat, als, terwijl, hoewel, nadat...)</li>
+        <li>Pronomes relativos die/dat ("de man die...", "het huis dat...")</li>
+        <li>Todos os usos de "er" (cap. 8)</li>
+        <li>Imperfectum (werkte/werkten) vs perfectum: quando cada um</li>
+        <li>Passiva no presente e perfeito (wordt gebouwd / is gebouwd)</li>
+        <li>om ... te + infinitivo ("om Nederlands te leren")</li>
+        <li>Verbos reflexivos (zich wassen, zich inschrijven)</li>
+        <li>Condicional com zou ("Ik zou graag...")</li>
+        <li>Discurso indireto simples ("Hij zegt dat hij komt")</li>
+      </ul>
+      <p><small><strong>Vocabulário-alvo:</strong> ± 3500-4000 palavras, incluindo linguagem de trabalho e escola.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa B1: Buscando a filha na creche (In het kinderdagverblijf)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Begeleidster</td><td class="nl">Ah, daar is de mama van Alice! Ze heeft vandaag heel goed gespeeld.</td><td class="pt">Ah, chegou a mamãe da Alice! Ela brincou muito bem hoje.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Fijn om te horen! Heeft ze goed gegeten? Vanochtend wilde ze haar boterham niet opeten.</td><td class="pt">Que bom ouvir isso! Ela comeu direito? Hoje de manhã ela não quis comer o pão dela.</td></tr>
+      <tr><td class="who">Begeleidster</td><td class="nl">Hier heeft ze alles opgegeten, hoor. Maar ik wilde iets vragen: we hebben gemerkt dat ze een beetje verkouden is. Ze heeft geen koorts, maar hou het in de gaten.</td><td class="pt">Aqui ela comeu tudo, viu. Mas eu queria perguntar uma coisa: notamos que ela está um pouco resfriada. Não tem febre, mas fique de olho.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dank je. Als ze koorts krijgt, hou ik haar morgen thuis en verwittig ik jullie via de app.</td><td class="pt">Obrigada. Se ela tiver febre, deixo ela em casa amanhã e aviso vocês pelo aplicativo.</td></tr>
+      <tr><td class="who">Begeleidster</td><td class="nl">Perfect. O ja, vergeet niet dat we vrijdag gesloten zijn wegens een pedagogische studiedag.</td><td class="pt">Perfeito. Ah sim, não esqueça que sexta estamos fechados por causa de um dia de estudo pedagógico.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Goed dat je het zegt! Dan vraag ik aan mijn man of hij vrijdag kan thuiswerken.</td><td class="pt">Ainda bem que você falou! Então vou perguntar ao meu marido se ele pode trabalhar de casa na sexta.</td></tr>
+      <tr><td class="who">Begeleidster</td><td class="nl">Tot morgen, Sofia. Dag Alice, zwaai maar naar mama!</td><td class="pt">Até amanhã, Sofia. Tchau Alice, dá tchauzinho pra mamãe!</td></tr>
+    </table>
+  </div>
+
+  <h3>🧩 Vocabulário B1 com quebra de palavras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">oudercontact</td><td class="w-split">ouder <small>(pai/mãe)</small> + contact <small>(contato)</small></td><td>reunião de pais</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">studiedag</td><td class="w-split">studie <small>(estudo)</small> + dag <small>(dia)</small></td><td>dia de formação (escola fecha!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">opvoeding</td><td class="w-split">op <small>(para cima)</small> + voeding <small>(alimentação)</small></td><td>educação/criação, "alimentar para cima"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verkoudheid</td><td class="w-split">ver- + koud <small>(frio)</small> + -heid <small>(-dade)</small></td><td>resfriado, "enfriadade"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bijwerking</td><td class="w-split">bij <small>(ao lado)</small> + werking <small>(funcionamento)</small></td><td>efeito colateral</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">opzegtermijn</td><td class="w-split">op·zeg <small>(cancelar, de opzeggen)</small> + termijn <small>(prazo)</small></td><td>prazo de aviso prévio</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">huurovereenkomst</td><td class="w-split">huur <small>(aluguel)</small> + overeenkomst <small>(acordo, de overeenkomen)</small></td><td>contrato de aluguel</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verzekering</td><td class="w-split">ver- + zeker <small>(certo/seguro)</small> + -ing <small>(-ção)</small></td><td>seguro, "certificação"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">brandverzekering</td><td class="w-split">brand <small>(incêndio)</small> + verzekering <small>(seguro)</small></td><td>seguro residencial (obrigatório ao alugar)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">klantendienst</td><td class="w-split">klanten <small>(clientes)</small> + dienst <small>(serviço)</small></td><td>atendimento ao cliente / SAC</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">storing</td><td class="w-split">stoor <small>(perturbar)</small> + -ing</td><td>falha/pane (internet, luz)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">vergadering</td><td class="w-split">vergader <small>(reunir)</small> + -ing</td><td>reunião</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">verslag</td><td class="w-split">ver- + slag <small>(golpe)</small></td><td>relatório, ata</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bijlage</td><td class="w-split">bij <small>(junto)</small> + lage <small>(de leggen, pôr)</small></td><td>anexo (de e-mail)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">aanvraag</td><td class="w-split">aan <small>(a)</small> + vraag <small>(pergunta/pedido)</small></td><td>solicitação, requerimento</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">voorwaarde</td><td class="w-split">voor <small>(antes)</small> + waarde <small>(valor)</small></td><td>condição, requisito</td></tr>
+  </table>
+
+  <div class="tip"><strong>Conectores que fazem você soar B1:</strong>
+  <span class="nl-word">eerst</span> (primeiro) · <span class="nl-word">daarna</span> (depois) · <span class="nl-word">daarom</span> (por isso) ·
+  <span class="nl-word">eigenlijk</span> (na verdade) · <span class="nl-word">trouwens</span> (aliás) · <span class="nl-word">toch</span> (mesmo assim) ·
+  <span class="nl-word">dus</span> (então) · <span class="nl-word">hoewel</span> (embora) · <span class="nl-word">tenzij</span> (a menos que) ·
+  <span class="nl-word">zodra</span> (assim que).</div>
+</section>
+
+<!-- ============================ NÍVEL B2 ============================ -->
+<section class="chapter" id="b2">
+  <span class="chapnum">18</span>
+  <div class="chapkicker">Parte II · Nível 4 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--b2)">B2</span>
+    <div><h2 style="margin:0">Fluência funcional</h2><small>NT2 richtgraad 3 · nível ITNA para estudos superiores</small></div>
+  </div>
+  <p class="lead">Você discute, argumenta e trabalha inteiramente em neerlandês. Entende humor, lê jornal de verdade
+  (De Standaard, HLN) e defende seu ponto de vista numa reunião. É o nível exigido para a universidade (teste ITNA)
+  e para profissões com contato intenso com público.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo...</h4>
+      <ul class="checklist">
+        <li>Fazer uma entrevista de emprego inteira em neerlandês</li>
+        <li>Argumentar prós e contras com nuance ("aan de ene kant... aan de andere kant")</li>
+        <li>Entender reuniões de trabalho rápidas, com sotaques</li>
+        <li>Escrever e-mails formais impecáveis e uma carta de motivação</li>
+        <li>Ler notícias sem dicionário e resumir para alguém</li>
+        <li>Acompanhar séries/filmes flamengos com legenda NL</li>
+        <li>Discordar educadamente e negociar (salário, contrato)</li>
+        <li>Explicar assuntos complexos da minha área profissional</li>
+        <li>Perceber ironia e piadas simples em conversas</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>📐 Checklist: gramática do B2</h4>
+      <ul class="checklist">
+        <li>Todas as conjunções e a ordem em subordinadas encadeadas</li>
+        <li>Passiva completa (em todos os tempos, com door)</li>
+        <li>Condicional irreal ("Als ik rijk was, zou ik...")</li>
+        <li>Particípio como adjetivo ("de gesloten deur")</li>
+        <li>Preposições fixas dos verbos (wachten OP, denken AAN)</li>
+        <li>zou: cortesia, hipótese, boato (3 usos)</li>
+        <li>Ordem dos verbos no fim: "...dat ik heb kunnen werken"</li>
+        <li>Nominalização ("het aanvragen van...")</li>
+        <li>Registro: formal vs informal vs tussentaal</li>
+      </ul>
+      <p><small><strong>Vocabulário-alvo:</strong> ± 6000-8000 palavras, incluindo sua área profissional.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa B2: Entrevista de emprego (Het sollicitatiegesprek)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Interviewer</td><td class="nl">Welkom, Sofia. Vertel eens: waarom heb je op deze vacature gesolliciteerd?</td><td class="pt">Bem-vinda, Sofia. Conte: por que você se candidatou a esta vaga?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Bedankt voor de uitnodiging. In Brazilië heb ik vijf jaar ervaring opgebouwd in de klantendienst. Toen ik jullie vacature zag, viel het me op dat jullie veel belang hechten aan meertaligheid, en dat is precies mijn sterkte: ik spreek Portugees, Engels en ondertussen ook vlot Nederlands.</td><td class="pt">Obrigada pelo convite. No Brasil acumulei cinco anos de experiência em atendimento ao cliente. Quando vi a vaga de vocês, me chamou a atenção que valorizam o multilinguismo, e essa é exatamente a minha força: falo português, inglês e, a esta altura, também neerlandês com fluência.</td></tr>
+      <tr><td class="who">Interviewer</td><td class="nl">Indrukwekkend, zeker omdat je nog niet zo lang in België woont. Hoe zou je omgaan met een ontevreden klant die begint te roepen?</td><td class="pt">Impressionante, ainda mais porque você não mora há tanto tempo na Bélgica. Como você lidaria com um cliente insatisfeito que começa a gritar?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Eerst zou ik rustig blijven en actief luisteren, zodat de klant zich gehoord voelt. Daarna zou ik het probleem samenvatten om te tonen dat ik het begrepen heb, en een concrete oplossing voorstellen. Als het echt uit de hand loopt, schakel ik mijn leidinggevende in.</td><td class="pt">Primeiro eu manteria a calma e escutaria ativamente, para que o cliente se sinta ouvido. Depois resumiria o problema para mostrar que entendi, e proporia uma solução concreta. Se sair mesmo do controle, envolvo meu gestor.</td></tr>
+      <tr><td class="who">Interviewer</td><td class="nl">Mooi antwoord. Wat zijn je verwachtingen qua loon en uurrooster?</td><td class="pt">Bela resposta. Quais são suas expectativas de salário e horário?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Op basis van de barema's in deze sector denk ik aan een brutoloon tussen de 2800 en 3000 euro. Wat het uurrooster betreft ben ik flexibel, al zou ik op woensdagmiddag graag vrij zijn voor mijn dochter.</td><td class="pt">Com base nas tabelas salariais do setor, penso num salário bruto entre 2800 e 3000 euros. Quanto ao horário sou flexível, embora quisesse a quarta à tarde livre pela minha filha.</td></tr>
+      <tr><td class="who">Interviewer</td><td class="nl">Dat lijkt me haalbaar. We laten je ten laatste vrijdag iets weten. Bedankt voor het aangename gesprek!</td><td class="pt">Isso me parece viável. Te damos uma resposta até sexta no mais tardar. Obrigado pela conversa agradável!</td></tr>
+    </table>
+  </div>
+
+  <h3>🧩 Vocabulário B2 com quebra de palavras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">sollicitatiegesprek</td><td class="w-split">sollicitatie <small>(candidatura)</small> + gesprek <small>(conversa)</small></td><td>entrevista de emprego</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">meertaligheid</td><td class="w-split">meer <small>(mais)</small> + talig <small>(de taal, língua)</small> + -heid</td><td>multilinguismo</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">leidinggevende</td><td class="w-split">leiding <small>(liderança)</small> + gevende <small>(que dá)</small></td><td>gestor, "quem dá direção"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">brutoloon</td><td class="w-split">bruto + loon <small>(salário)</small></td><td>salário bruto (netto = líquido)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">uurrooster</td><td class="w-split">uur <small>(hora)</small> + rooster <small>(grade)</small></td><td>grade de horários</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verantwoordelijkheid</td><td class="w-split">ver+antwoord <small>(resposta)</small>+elijk+heid</td><td>responsabilidade, "respondabilidade"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">arbeidsovereenkomst</td><td class="w-split">arbeid <small>(trabalho)</small> + s + overeenkomst <small>(acordo)</small></td><td>contrato de trabalho</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">vakantiegeld</td><td class="w-split">vakantie <small>(férias)</small> + geld <small>(dinheiro)</small></td><td>abono de férias (pago em maio/junho)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">eindejaarspremie</td><td class="w-split">einde <small>(fim)</small> + jaar + s + premie <small>(prêmio)</small></td><td>13º salário belga</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">maaltijdcheques (pl.)</td><td class="w-split">maaltijd <small>(refeição)</small> + cheques</td><td>vale-refeição</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">opleiding</td><td class="w-split">op + leiding <small>(condução)</small></td><td>formação, curso, "conduzir para cima"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">werkervaring</td><td class="w-split">werk <small>(trabalho)</small> + ervaring <small>(experiência)</small></td><td>experiência profissional</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">proefperiode</td><td class="w-split">proef <small>(teste)</small> + periode</td><td>período de experiência</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">overleg</td><td class="w-split">over <small>(sobre)</small> + leg <small>(de leggen, pôr)</small></td><td>deliberação conjunta, alinhamento (palavra-fetiche belga!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">deadline / uiterste datum</td><td class="w-split">uiterste <small>(extremo)</small> + datum</td><td>prazo final</td></tr>
+  </table>
+
+  <div class="tip"><strong>Expressões que fazem você soar B2:</strong>
+  <span class="nl-word">het valt me op dat...</span> (me chama a atenção que) ·
+  <span class="nl-word">daar staat tegenover dat...</span> (por outro lado) ·
+  <span class="nl-word">uit de hand lopen</span> (sair do controle) ·
+  <span class="nl-word">iets in de gaten houden</span> (ficar de olho) ·
+  <span class="nl-word">belang hechten aan</span> (dar importância a) ·
+  <span class="nl-word">ten laatste</span> (no mais tardar).</div>
+</section>
+
+<!-- ============================ NÍVEL C1 ============================ -->
+<section class="chapter" id="c1">
+  <span class="chapnum">19</span>
+  <div class="chapkicker">Parte II · Nível 5 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--c1)">C1</span>
+    <div><h2 style="margin:0">Proficiência</h2><small>NT2 richtgraad 4 · o nível acadêmico e profissional pleno</small></div>
+  </div>
+  <p class="lead">O neerlandês deixou de ser esforço. Você improvisa, brinca com as palavras, escreve relatórios,
+  faz apresentações e briga (educadamente) com a operadora de telefone. Poucos estrangeiros chegam aqui; quem chega
+  nunca mais é tratado como "de buitenlander".</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo...</h4>
+      <ul class="checklist">
+        <li>Dar uma apresentação profissional de 20 minutos sem notas</li>
+        <li>Escrever textos longos e bem estruturados (relatório, carta formal de reclamação)</li>
+        <li>Acompanhar debates rápidos entre vários belgas falando ao mesmo tempo</li>
+        <li>Ler literatura e jornal de opinião sem esforço</li>
+        <li>Adaptar meu registro: formal no banco, tussentaal no churrasco</li>
+        <li>Expressar nuances finas: hedging, ironia, eufemismo</li>
+        <li>Ajudar OUTROS estrangeiros com o neerlandês deles</li>
+        <li>Entender o essencial de um texto jurídico ou médico</li>
+        <li>Discutir política belga (e sobreviver para contar)</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>📐 Foco do C1 (a gramática acabou; agora é lapidação)</h4>
+      <ul class="checklist">
+        <li>Partículas modais: wel, toch, maar, even, eens, nou (o tempero da fala nativa)</li>
+        <li>Colocações fixas: "een beslissing nemen" (não "maken"!)</li>
+        <li>Expressões idiomáticas e provérbios</li>
+        <li>Estilo escrito: nominalização, conectores acadêmicos</li>
+        <li>Velocidade e sotaques: limburguês, antuerpiano, gantês</li>
+        <li>Voz passiva impessoal ("Er wordt gefeest" = "festeja-se")</li>
+      </ul>
+      <p><small><strong>Vocabulário-alvo:</strong> 10.000+ palavras. Neste nível, você aprende palavras novas como um nativo: pelo contexto.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa C1: Reclamação formal por telefone (Een klacht indienen)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Medewerker</td><td class="nl">Klantendienst Energiplus, goedemiddag, u spreekt met Tom.</td><td class="pt">Atendimento Energiplus, boa tarde, quem fala é o Tom.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Goedemiddag Tom. Ik bel in verband met mijn jaarafrekening. Er is me een bedrag van 480 euro aangerekend dat volgens mij niet klopt: mijn voorschotten dekten het verbruik ruimschoots.</td><td class="pt">Boa tarde, Tom. Ligo a respeito da minha fatura anual. Me cobraram um valor de 480 euros que, na minha opinião, não confere: minhas parcelas mensais cobriam o consumo com folga.</td></tr>
+      <tr><td class="who">Tom</td><td class="nl">Ik begrijp uw bezorgdheid. Ik zie hier inderdaad dat de meterstand geschat werd in plaats van opgenomen. Zou dat het verschil kunnen verklaren?</td><td class="pt">Entendo sua preocupação. Vejo aqui que de fato a leitura do medidor foi estimada em vez de coletada. Será que isso explicaria a diferença?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dat vermoedde ik al. Ik heb de werkelijke meterstand vorige week nog doorgegeven via de app, mét foto. Ik zou dan ook willen vragen dat de afrekening herberekend wordt op basis van die cijfers, en dat de aanmaningskosten geannuleerd worden, aangezien de fout niet bij mij ligt.</td><td class="pt">Era o que eu suspeitava. Enviei a leitura real na semana passada pelo aplicativo, com foto. Peço portanto que a fatura seja recalculada com base nesses números, e que as taxas de cobrança sejam canceladas, visto que o erro não é meu.</td></tr>
+      <tr><td class="who">Tom</td><td class="nl">Dat lijkt me een redelijk verzoek. Ik maak meteen een dossier aan. U ontvangt binnen de tien werkdagen een rechtzetting. Kan ik nog iets anders voor u doen?</td><td class="pt">Me parece um pedido razoável. Vou abrir um chamado agora mesmo. A senhora recebe uma retificação em até dez dias úteis. Posso ajudar em mais alguma coisa?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Graag een bevestiging per e-mail, zodat ik alles zwart op wit heb. Voor de rest ben ik geholpen, dank u.</td><td class="pt">Gostaria de uma confirmação por e-mail, para ter tudo preto no branco. De resto estou atendida, obrigada.</td></tr>
+    </table>
+  </div>
+
+  <h3>🧩 Vocabulário C1 com quebra de palavras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">jaarafrekening</td><td class="w-split">jaar <small>(ano)</small> + af <small>(final)</small> + rekening <small>(conta)</small></td><td>fatura de acerto anual (luz/gás)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">voorschot</td><td class="w-split">voor <small>(antes)</small> + schot <small>(de schieten, atirar)</small></td><td>adiantamento, parcela mensal</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">meterstand</td><td class="w-split">meter <small>(medidor)</small> + stand <small>(posição)</small></td><td>leitura do medidor</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">aanmaningskosten (pl.)</td><td class="w-split">aanmaning <small>(cobrança)</small> + s + kosten <small>(custos)</small></td><td>taxas de cobrança/mora</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">rechtzetting</td><td class="w-split">recht <small>(direito/reto)</small> + zetting <small>(colocação)</small></td><td>retificação, "pôr no lugar certo"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bezorgdheid</td><td class="w-split">bezorgd <small>(preocupado)</small> + -heid</td><td>preocupação</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">vermoeden</td><td class="w-split">ver- <small>(prefixo)</small> + moeden <small>(pressentir)</small></td><td>suspeita, palpite</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">tegemoetkoming</td><td class="w-split">tegemoet <small>(ao encontro)</small> + koming <small>(vinda)</small></td><td>subsídio/compensação, "vir ao encontro"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verzachtende omstandigheid</td><td class="w-split">verzachtend <small>(que suaviza)</small> + omstandigheid <small>(circunstância)</small></td><td>circunstância atenuante</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">nalatigheid</td><td class="w-split">nalatig <small>(negligente, de nalaten)</small> + -heid</td><td>negligência</td></tr>
+  </table>
+
+  <div class="tip"><strong>Idiomatismos C1 para brilhar:</strong>
+  <span class="nl-word">zwart op wit</span> (preto no branco) ·
+  <span class="nl-word">de knoop doorhakken</span> (bater o martelo, "cortar o nó") ·
+  <span class="nl-word">met twee woorden spreken</span> (ser educado) ·
+  <span class="nl-word">door de bomen het bos niet meer zien</span> (não ver a floresta por causa das árvores) ·
+  <span class="nl-word">de kat uit de boom kijken</span> (esperar pra ver, "olhar o gato descer da árvore": a cautela flamenga em uma frase).</div>
+</section>
+
+<!-- ============================ NÍVEL C2 ============================ -->
+<section class="chapter" id="c2">
+  <span class="chapnum">20</span>
+  <div class="chapkicker">Parte II · Nível 6 de 6</div>
+  <div class="levelhead"><span class="big" style="background:var(--c2)">C2</span>
+    <div><h2 style="margin:0">Maestria</h2><small>Acima de qualquer diploma: o nível "sonhar em neerlandês"</small></div>
+  </div>
+  <p class="lead">C2 não se estuda num curso (o NT2 formal termina no richtgraad 4/C1): se vive. É entender a avó
+  de Limburgo E o adolescente de Antuérpia, pegar a piada do De Ideale Wereld, ler poesia e discutir
+  em pé de igualdade com qualquer nativo, sobre qualquer assunto.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>✅ Checklist: eu consigo...</h4>
+      <ul class="checklist">
+        <li>Entender dialetos fortes com contexto (West-Vlaams dá pra rir junto)</li>
+        <li>Pegar ironia, sarcasmo e humor absurdo belga em tempo real</li>
+        <li>Escrever com estilo pessoal: persuasivo, poético, afiado</li>
+        <li>Ler De Standaard E Humo E um romance de Lize Spit</li>
+        <li>Traduzir mentalmente cultura, não palavras ("saudade" explicada em NL!)</li>
+        <li>Mudar de dialeto social sem pensar: reunião → bar → escola</li>
+        <li>Discutir, emocionar-me e sonhar em neerlandês</li>
+        <li>Corrigir nativos (com tato) quando escrevem "me auto" em vez de "mijn auto"</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>🎓 O caminho do C2 (não há sala de aula)</h4>
+      <ul class="checklist">
+        <li>Viver em neerlandês: pensar, listas de compras, diário</li>
+        <li>Ler 20+ livros: comece com juvenis, termine com Hugo Claus</li>
+        <li>Podcasts e TV flamenga diariamente (não holandesa: o ouvido é outro)</li>
+        <li>Amizades profundas com nativos (o filtro definitivo)</li>
+        <li>Escrever e receber correção: fóruns, cartas de leitores</li>
+        <li>Se envolver: clube, vrijwilligerswerk, comitê de pais</li>
+      </ul>
+      <p><small><strong>TV/áudio flamengo recomendado:</strong> Het Journaal, Thuis (novela nacional!), De Ideale Wereld,
+      podcasts do De Standaard, rádio Studio Brussel / Radio 2.</small></p>
+    </div>
+  </div>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa C2: No churrasco, sobrevivendo ao humor belga (Op de barbecue)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands (com tussentaal!)</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Jef</td><td class="nl">Amai Sofia, gij spreekt ondertussen beter Nederlands dan onze Kevin, en die heeft hier nog school gelopen!</td><td class="pt">Caramba Sofia, você já fala neerlandês melhor que o nosso Kevin, e olha que ele estudou aqui!</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Allee Jef, ge moet niet overdrijven. Al moet ik toegeven: sinds ik in 't Nederlands droom, reken ik mezelf stiekem bij de Vlamingen.</td><td class="pt">Ah Jef, não precisa exagerar. Embora eu tenha que admitir: desde que sonho em neerlandês, secretamente me conto entre os flamengos.</td></tr>
+      <tr><td class="who">Jef</td><td class="nl">Oei, oplettten hé, straks begint ge nog te klagen over 't weer en de politiek tegelijk.</td><td class="pt">Opa, cuidado, hein, daqui a pouco você começa a reclamar do tempo e da política ao mesmo tempo.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Te laat! Zes regeringen voor tien miljoen mensen en dan nog altijd geen zomer in juli: ik ben volledig geïntegreerd, vrees ik.</td><td class="pt">Tarde demais! Seis governos para dez milhões de pessoas e ainda assim nenhum verão em julho: estou completamente integrada, receio.</td></tr>
+      <tr><td class="who">Jef</td><td class="nl">Ha, ge zijt er! Hier, pak nog een pintje. En zeg eens eerlijk: missen de Brazilianen ons bier of onze frieten het meest?</td><td class="pt">Ha, você chegou lá! Toma, pega mais uma cervejinha. E fala sério: os brasileiros sentem mais falta da nossa cerveja ou das nossas fritas?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Eerlijk? Van de saudade hebben jullie geen woord, maar van gezelligheid ook niet in 't Portugees. We staan quitte.</td><td class="pt">Sinceramente? Para "saudade" vocês não têm palavra, mas para "gezelligheid" nós também não temos em português. Estamos quites.</td></tr>
+    </table>
+  </div>
+
+  <div class="culture"><strong>As palavras intraduzíveis:</strong> o neerlandês tem <span class="nl-word">gezellig</span>
+  (aquele aconchego social de estar bem juntos) e o português tem <strong>saudade</strong>. Quando você conseguir explicar
+  uma usando a outra, parabéns: você chegou ao C2. E ao coração das duas culturas.</div>
+</section>
+
+<!-- ============================ CAP 21: TRAJETO NT2 ============================ -->
+<section class="chapter" id="nt2">
+  <span class="chapnum">21</span>
+  <div class="chapkicker">Parte II · O caminho oficial</div>
+  <h2>🗺️ O trajeto NT2 na Flandres: onde estudar, o que provar</h2>
+  <p class="lead">"NT2" = Nederlands als Tweede Taal (neerlandês como segunda língua). O ensino oficial é barato,
+  de qualidade e dá os certificados que a administração pede. Este é o mapa.</p>
+
+  <div class="timeline">
+    <div class="tstep"><h4>1. Agentschap Integratie &amp; Inburgering (em Antuérpia: Atlas)</h4>
+      <p>Primeira parada. Fazem um teste de posicionamento gratuito (cognitief vaardigheidsonderzoek) e te
+      encaminham para a escola certa do seu perfil. Em Antuérpia: <strong>Atlas, Carnotstraat 110</strong>.
+      Lá também se combina o <span class="nl-word">inburgeringstraject</span> (curso de orientação social MO + NT2).</p></div>
+    <div class="tstep"><h4>2. A escola: CVO ou Ligo (ou universidade)</h4>
+      <p><strong>CVO</strong> (Centrum voor Volwassenenonderwijs) = ensino de adultos, ritmo normal a intensivo.
+      <strong>Ligo</strong> = para quem precisa de ritmo mais calmo ou alfabetização.
+      <strong>Universitaire talencentra</strong> (Linguapolis/UAntwerpen, ILT/KU Leuven, UCT/Gent) = ritmo turbo acadêmico.</p></div>
+    <div class="tstep"><h4>3. Os módulos (richtgraden)</h4>
+      <p>Richtgraad 1 = 1.1 (A1) + 1.2 (A2) ⭐ · Richtgraad 2 = 2.1 a 2.4 (B1) ·
+      Richtgraad 3 = B2 · Richtgraad 4 = C1. Cada módulo fecha com prova e certificado (deelcertificaat). Guarde todos!</p></div>
+    <div class="tstep"><h4>4. As metas administrativas</h4>
+      <p><strong>Inburgering:</strong> NT2 A2 oral (richtgraad 1.2) + curso MO + inscrição no VDAB + participação.
+      <strong>Nacionalidade belga / residência de longa duração:</strong> prova de língua A2 + integração social.
+      <strong>Universidade:</strong> ITNA B2/C1 ou certificado richtgraad 3.
+      <strong>Nota:</strong> regras mudam; confira sempre em <strong>integratie-inburgering.be</strong> e na sua gemeente.</p></div>
+  </div>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>💶 Custos (ordem de grandeza)</h4>
+      <ul class="checklist">
+        <li>CVO: ± €1,50/hora de aula (módulo de 120h ≈ €180) + material</li>
+        <li>Inburgeraar oficial: NT2 até A2 com forte desconto ou de graça (conforme estatuto)</li>
+        <li>Ligo: gratuito para a maioria dos perfis</li>
+        <li>Universidade: mais caro (€300-600/módulo), mas 4x mais rápido</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>⚡ Acelere de graça</h4>
+      <ul class="checklist">
+        <li><strong>nedbox.be</strong> (KU Leuven): exercícios com vídeos da TV flamenga</li>
+        <li><strong>Wablieft</strong>: jornal em neerlandês simples</li>
+        <li><strong>Karrewiet</strong> (Ketnet): jornal infantil, perfeito para A2-B1</li>
+        <li><strong>Praattafels / conversatietafels</strong>: mesas de conversa gratuitas na biblioteca (em Antuérpia via Atlas)</li>
+        <li><strong>Taalpunt</strong> na biblioteca: livros por nível de leitura</li>
+        <li>Novela <strong>Thuis</strong> com legendas (T888): o ouvido flamengo definitivo</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============================ PARTE III INTRO + CAP 22: ADMIN ============================ -->
+<section class="chapter" id="t-admin">
+  <span class="chapnum">22</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🏢 Administração &amp; moradia (Administração e Habitação)</h2>
+  <p class="lead">A primeira parada de quem chega é o <span class="nl-word">gemeentehuis</span> (prefeitura).
+  A administração belga é rigorosa e cheia de procedimentos próprios, como a famosa conta bloqueada da caução do aluguel.
+  Este capítulo te arma com as palavras e o roteiro.</p>
+
+  <div class="infocard">
+    <h4>📋 Infográfico: o fluxo da chegada</h4>
+    <div class="timeline">
+      <div class="tstep"><h4>1. Inschrijving na gemeente</h4><p>Leve passaporte, contrato de aluguel e certidões brasileiras com apostila. Taxa ± €20.</p></div>
+      <div class="tstep"><h4>2. Woonstcontrole</h4><p>O policial de bairro (wijkagent) passa na sua casa nas semanas seguintes para confirmar que você mora lá. Sem hora marcada!</p></div>
+      <div class="tstep"><h4>3. Verblijfskaart + rijksregisternummer</h4><p>Depois da checagem, você retira o cartão de residência. O rijksregisternummer é o seu "CPF belga" para tudo.</p></div>
+      <div class="tstep"><h4>4. Itsme + eID</h4><p>Com o cartão eletrônico, ative o app itsme: é a assinatura digital que abre TODOS os portais do governo.</p></div>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: administração &amp; moradia</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">gemeentehuis</td><td class="w-split">gemeente <small>(município)</small> + huis <small>(casa)</small></td><td>prefeitura; onde você se registra e resolve documentos</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">dienst vreemdelingenzaken</td><td class="w-split">dienst <small>(serviço)</small> + vreemdelingen <small>(estrangeiros)</small> + zaken <small>(assuntos)</small></td><td>departamento de imigração, guichê para não-belgas</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verblijfskaart</td><td class="w-split">verblijf <small>(estadia, de ver+blijven, ficar)</small> + s + kaart <small>(cartão)</small></td><td>cartão de residência (A-kaart, EU-kaart...)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">rijksregisternummer</td><td class="w-split">rijk <small>(reino/Estado)</small> + s + register <small>(registro)</small> + nummer <small>(número)</small></td><td>número de registro nacional (o "CPF" belga)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">huurcontract</td><td class="w-split">huur <small>(aluguel)</small> + contract <small>(contrato)</small></td><td>contrato de aluguel</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">huurwaarborg</td><td class="w-split">huur <small>(aluguel)</small> + waarborg <small>(garantia)</small></td><td>caução (2-3 meses) em conta bloqueada</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">plaatsbeschrijving</td><td class="w-split">plaats <small>(lugar)</small> + beschrijving <small>(descrição, de be+schrijven, escrever)</small></td><td>vistoria obrigatória do imóvel na entrada</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">syndicus</td><td class="w-split">do latim, igual ao português!</td><td>síndico do prédio</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">huisbaas / verhuurder</td><td class="w-split">huis + baas <small>(chefe)</small> / ver+huur+der <small>(quem aluga para fora)</small></td><td>proprietário, senhorio</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">woonstcontrole</td><td class="w-split">woonst <small>(moradia, flamengo)</small> + controle</td><td>checagem de residência pelo wijkagent</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">wijkagent</td><td class="w-split">wijk <small>(bairro)</small> + agent <small>(policial)</small></td><td>policial de bairro</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">geboorteakte</td><td class="w-split">geboorte <small>(nascimento)</small> + akte <small>(ata/certidão)</small></td><td>certidão de nascimento</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">uittreksel</td><td class="w-split">uit <small>(fora)</small> + treksel <small>(de trekken, puxar)</small></td><td>extrato/certidão ("puxado para fora" do registro)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">domicilie</td><td class="w-split">do latim, como "domicílio"</td><td>endereço oficial registrado</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: Inscrevendo-se na prefeitura (Inschrijven op het gemeentehuis)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Ambtenaar</td><td class="nl">Goedemorgen, hoe kan ik u helpen?</td><td class="pt">Bom dia, como posso ajudá-la?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Goedemorgen. Ik ben net verhuisd naar Antwerpen en ik wil me graag inschrijven in de gemeente.</td><td class="pt">Bom dia. Acabei de me mudar para Antuérpia e gostaria de me registrar no município.</td></tr>
+      <tr><td class="who">Ambtenaar</td><td class="nl">Welkom! Heb je je paspoort, je huurcontract en je geboorteakte bij je?</td><td class="pt">Bem-vinda! Você trouxe seu passaporte, contrato de aluguel e certidão de nascimento?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ja, ik heb alle documenten hier in deze map. Ook de Braziliaanse documenten met apostille.</td><td class="pt">Sim, tenho todos os documentos aqui nesta pasta. Inclusive os documentos brasileiros apostilados.</td></tr>
+      <tr><td class="who">Ambtenaar</td><td class="nl">Uitstekend. Ik ga je gegevens invoeren. Binnen een paar weken komt de wijkagent langs voor de woonstcontrole. Daarna krijg je je definitieve verblijfskaart.</td><td class="pt">Excelente. Vou inserir seus dados. Dentro de algumas semanas o policial do bairro passa para a checagem de residência. Depois disso você recebe seu cartão de residência definitivo.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Perfect. Moet ik nu al betalen voor de aanvraag?</td><td class="pt">Perfeito. Preciso pagar pela solicitação agora?</td></tr>
+      <tr><td class="who">Ambtenaar</td><td class="nl">Ja, dat kan hier aan het loket met de bankkaart. Dat is twintig euro.</td><td class="pt">Sim, pode pagar aqui no balcão com o cartão de débito. São vinte euros.</td></tr>
+    </table>
+  </div>
+
+  <div class="warn"><strong>A caução (huurwaarborg):</strong> nunca entregue dinheiro vivo ao senhorio.
+  A lei flamenga manda depositar em <strong>conta bloqueada</strong> no seu nome (ou via e-DEPO/Korfine).
+  E exija a <strong>plaatsbeschrijving</strong> assinada com fotos: é ela que devolve seu dinheiro na saída.</div>
+</section>
+
+<!-- ============================ CAP 23: MOBILIDADE ============================ -->
+<section class="chapter" id="t-mobil">
+  <span class="chapnum">23</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🚌 Transporte público (De Lijn &amp; NMBS)</h2>
+  <p class="lead">Na Flandres, ônibus e bonde são da <strong>De Lijn</strong>; trens são da <strong>NMBS</strong>.
+  O sistema usa o cartão eletrônico <strong>MOBIB</strong>. Regra sagrada: escaneie ao ENTRAR (não precisa ao sair).</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>📋 Infográfico: como pagar o bonde</h4>
+      <ul class="checklist">
+        <li><strong>Mais barato:</strong> app da De Lijn (m-ticket) ou MOBIB com abonnement</li>
+        <li><strong>Fácil:</strong> cartão de débito contactless no leitor da porta</li>
+        <li><strong>Evite:</strong> dinheiro vivo: nem sempre aceito e mais caro</li>
+        <li>Entre, encoste o cartão no leitor amarelo/branco, pronto</li>
+        <li>Fiscais (controleurs) passam à paisana; multa se não escaneou</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>🚄 No trem (NMBS)</h4>
+      <ul class="checklist">
+        <li>Compre no app NMBS ou na máquina ANTES de embarcar</li>
+        <li>Weekendticket: ida-volta com 50% no fim de semana</li>
+        <li>Crianças menores de 12 viajam grátis acompanhadas (até 4 por adulto)</li>
+        <li>"Spoor 4" = plataforma/linha 4; confira o painel: mudanças são comuns</li>
+        <li>Greve (staking) é quase tradição: cheque o app no dia</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: transporte</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">MOBIB-kaart</td><td class="w-split">MOBIB <small>(marca)</small> + kaart</td><td>cartão recarregável de transporte</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">abonnement</td><td class="w-split">do francês</td><td>passe mensal/anual ilimitado</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">dienstregeling</td><td class="w-split">dienst <small>(serviço)</small> + regeling <small>(regulação)</small></td><td>tabela de horários</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">perron</td><td class="w-split">do francês</td><td>plataforma da estação</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">spoor</td><td class="w-split">spoor <small>(trilho/rastro)</small></td><td>linha do trem ("Spoor 4")</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">overstap</td><td class="w-split">over <small>(sobre/através)</small> + stap <small>(passo)</small></td><td>baldeação, "passo por cima"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">rittenkaart / Lijnkaart</td><td class="w-split">ritten <small>(viagens)</small> + kaart</td><td>cartela de 10 viagens</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">conducteur</td><td class="w-split">do francês</td><td>fiscal de bilhetes no trem</td></tr>
+    <tr><td>-</td><td class="w-nl">scannen / ontwaarden</td><td class="w-split">ont- <small>(des-)</small> + waarde <small>(valor)</small> + -en</td><td>validar o cartão ("des-valorar" o crédito)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">eindhalte</td><td class="w-split">eind <small>(fim)</small> + halte <small>(parada)</small></td><td>ponto final</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">vertraging</td><td class="w-split">ver- + traag <small>(lento)</small> + -ing</td><td>atraso ("enlentecimento")</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">staking</td><td class="w-split">staken <small>(parar)</small> + -ing</td><td>greve</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">fietspad</td><td class="w-split">fiets <small>(bicicleta)</small> + pad <small>(caminho)</small></td><td>ciclovia (respeite: a bike manda na Flandres!)</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: Viajando de bonde (Reizen met de tram)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Reiziger</td><td class="nl">Pardon, stopt deze tram aan het Universitair Ziekenhuis?</td><td class="pt">Com licença, este bonde para no Hospital Universitário?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ja, tram 15 rijdt rechtstreeks naar het ziekenhuis. Je moet blijven zitten tot de eindhalte.</td><td class="pt">Sim, o bonde 15 vai direto para o hospital. Você deve ficar sentado até o ponto final.</td></tr>
+      <tr><td class="who">Reiziger</td><td class="nl">Dank je. Moet ik mijn ticket vooraf kopen of kan ik betalen op de tram?</td><td class="pt">Obrigado. Preciso comprar o bilhete antes ou posso pagar no bonde?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Je kunt het beste vooraf een ticket kopen via de app van De Lijn, of contactloos betalen aan de gele terminal in de tram zelf. Dat is goedkoper dan contant geld.</td><td class="pt">O melhor é comprar antes pelo app da De Lijn, ou pagar por aproximação no terminal amarelo dentro do próprio bonde. É mais barato que dinheiro.</td></tr>
+      <tr><td class="who">Reiziger</td><td class="nl">Oké, ik scan mijn bankkaart wel aan de witte terminal. Moet ik ook uitscannen?</td><td class="pt">Ok, então passo meu cartão no terminal branco. Preciso validar na saída também?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Nee, in België hoef je bij De Lijn alleen maar in te scannen als je instapt. Uitscannen is niet nodig.</td><td class="pt">Não, na Bélgica, na De Lijn, você só valida ao entrar. Validar na saída não é necessário.</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============================ CAP 24: SAÚDE ============================ -->
+<section class="chapter" id="t-saude">
+  <span class="chapnum">24</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🏥 Saúde &amp; a ziekenkas (Saúde e Assistência Médica)</h2>
+  <p class="lead">Na Bélgica, TODOS devem se filiar a uma <span class="nl-word">mutualiteit</span> (popularmente: ziekenkas,
+  ex.: CM, Helan). Sem filiação, nada de reembolso. Fenômeno único belga: os <span class="nl-word">klevertjes</span>,
+  adesivos com seus dados que você cola em documentos médicos.</p>
+
+  <div class="infocard">
+    <h4>📋 Infográfico: como funciona o dinheiro da saúde</h4>
+    <div class="timeline">
+      <div class="tstep"><h4>1. Você paga a consulta</h4><p>Clínico geral ± €30-35. Peça o <span class="nl-word">getuigschrift</span> (recibo) se não houver sistema eletrônico.</p></div>
+      <div class="tstep"><h4>2. A ziekenkas devolve a maior parte</h4><p>O reembolso cai na sua conta. Com eAttest, tudo automático.</p></div>
+      <div class="tstep"><h4>3. Sobra só o remgeld</h4><p>remgeld = rem (freio) + geld (dinheiro): a parte simbólica sua, "dinheiro de freio" para evitar consumo desnecessário. ± €4-6 no clínico.</p></div>
+      <div class="tstep"><h4>4. GMD: fixe seu huisarts</h4><p>Registre-se com um clínico fixo (Globaal Medisch Dossier): remgeld menor e histórico centralizado. Com criança: escolha já um huisarts e um pediatra.</p></div>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: saúde</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">mutualiteit / ziekenkas</td><td class="w-split">zieken <small>(doentes)</small> + kas <small>(caixa)</small></td><td>plano/caixa de saúde (CM, Helan...), "caixa dos doentes"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">klevertje</td><td class="w-split">klever <small>(que cola, de kleven)</small> + -tje <small>(-inho)</small></td><td>adesivo do plano com seus dados, "coladinho"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">getuigschrift</td><td class="w-split">getuig <small>(testemunha)</small> + schrift <small>(escrito)</small></td><td>recibo médico para reembolso, "escrito-testemunho"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">apotheker</td><td class="w-split">apotheek <small>(farmácia)</small> + -er <small>(quem faz)</small></td><td>farmacêutico</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">wachtdienst</td><td class="w-split">wacht <small>(plantão/espera)</small> + dienst <small>(serviço)</small></td><td>plantão médico (noites, fins de semana)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">terugbetaling</td><td class="w-split">terug <small>(de volta)</small> + betaling <small>(pagamento)</small></td><td>reembolso, "pagamento de volta"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">remgeld</td><td class="w-split">rem <small>(freio)</small> + geld <small>(dinheiro)</small></td><td>coparticipação, "dinheiro de freio"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">spoedafdeling / de spoed</td><td class="w-split">spoed <small>(urgência)</small> + afdeling <small>(departamento)</small></td><td>pronto-socorro</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">voorschrift / recept</td><td class="w-split">voor <small>(antes)</small> + schrift <small>(escrito)</small></td><td>receita médica, "pré-escrito" (igual "prescrição"!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">derdebetalersregeling</td><td class="w-split">derde <small>(terceiro)</small> + betaler <small>(pagador)</small> + s + regeling</td><td>desconto direto na farmácia/consulta (o plano paga na hora)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kinderarts</td><td class="w-split">kinder <small>(crianças)</small> + arts <small>(médico)</small></td><td>pediatra</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">vroedvrouw</td><td class="w-split">vroed <small>(sábia, arcaico)</small> + vrouw <small>(mulher)</small></td><td>parteira ("mulher sábia": acompanha gravidez e pós-parto em casa!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">koorts</td><td class="w-split">palavra própria</td><td>febre</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">griep / verkoudheid</td><td class="w-split">ver+koud <small>(frio)</small>+heid</td><td>gripe / resfriado</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: Na farmácia com receita eletrônica (Naar de apotheek)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Apotheker</td><td class="nl">Goedemiddag, kan ik u helpen?</td><td class="pt">Boa tarde, posso ajudar?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Goedemiddag. De huisarts heeft een recept voor antibiotica op mijn identiteitskaart gezet.</td><td class="pt">Boa tarde. O clínico geral colocou uma receita de antibióticos no meu cartão de identidade.</td></tr>
+      <tr><td class="who">Apotheker</td><td class="nl">Ja, ik zie het hier in het systeem. Mag ik uw elektronische identiteitskaart (eID) even?</td><td class="pt">Sim, estou vendo aqui no sistema. Pode me dar seu cartão de identidade eletrônico (eID)?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Alstublieft.</td><td class="pt">Aqui está.</td></tr>
+      <tr><td class="who">Apotheker</td><td class="nl">Dank u. Hier is de medicatie. U moet twee keer per dag één tablet innemen, 's ochtends en 's avonds tijdens het eten.</td><td class="pt">Obrigado. Aqui está a medicação. Deve tomar um comprimido duas vezes ao dia, de manhã e à noite, durante as refeições.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Moet ik de volle prijs betalen of is de korting van de ziekenkas er al af?</td><td class="pt">Preciso pagar o valor cheio ou o desconto do plano já está aplicado?</td></tr>
+      <tr><td class="who">Apotheker</td><td class="nl">De korting is er via de derdebetalersregeling al direct afgetrokken. U betaalt zelf enkel het remgeld: dat is vier euro tachtig.</td><td class="pt">O desconto já foi deduzido direto pelo sistema do pagador terceiro. A senhora paga só a coparticipação: quatro euros e oitenta.</td></tr>
+    </table>
+  </div>
+
+  <div class="warn"><strong>Números que salvam:</strong> emergência médica <strong>112</strong> ·
+  médico de plantão <strong>1733</strong> · farmácia de plantão: <strong>apotheek.be</strong>.
+  Com bebê em casa, cole estes três na geladeira hoje.</div>
+</section>
+
+<!-- ============================ CAP 25: HÁBITOS SOCIAIS ============================ -->
+<section class="chapter" id="t-social">
+  <span class="chapnum">25</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🥐 Hábitos sociais belgas (Hábitos Sociais e Tradições)</h2>
+  <p class="lead">A cultura flamenga é "bourgondisch" (ama comer e beber bem) mas reservada. Alguns rituais são
+  sagrados, como a ida dominical à padaria para buscar koffiekoeken. Quem participa deles "pertence".</p>
+
+  <h3>🧩 Vocabulário: cultura &amp; tradições</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português / fenômeno</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">koffiekoek</td><td class="w-split">koffie <small>(café)</small> + koek <small>(bolo)</small></td><td>folhado doce de padaria (boterkoek, chocoladekoek...) do domingo de manhã</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bakkersronde</td><td class="w-split">bakker <small>(padeiro)</small> + s + ronde <small>(volta/rodada)</small></td><td>a ida cedinho à padaria no domingo: pistolets fresquinhos + koffiekoeken</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">pistolet</td><td class="w-split">do francês, "pistolinha"</td><td>pãozinho redondo belga de casca crocante</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">receptie</td><td class="w-split">do francês</td><td>recepção/coquetel com bebidas e salgadinhos após um evento</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">Gentse Feesten</td><td class="w-split">Gent <small>(cidade)</small> + se + feesten <small>(festas)</small></td><td>um dos maiores festivais populares da Europa: 10 dias em julho, em Ghent</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">braderie</td><td class="w-split">do francês</td><td>feira de rua onde os lojistas vendem com desconto na calçada</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">cadeautje / geschenk</td><td class="w-split">cadeau <small>(francês)</small> + -tje <small>(-inho)</small></td><td>presentinho: OBRIGATÓRIO ao jantar na casa de belgas (+ vinho ou flores)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">nieuwjaarsbrief</td><td class="w-split">nieuw <small>(novo)</small> + jaar <small>(ano)</small> + s + brief <small>(carta)</small></td><td>carta de Ano Novo que as crianças leem em voz alta para os padrinhos (1º de janeiro!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">Sinterklaas</td><td class="w-split">Sint <small>(São)</small> + Nicolaas</td><td>6 de dezembro: o "Papai Noel belga" traz doces e brinquedos às crianças (sapatinho na lareira!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kerstmarkt</td><td class="w-split">kerst <small>(Natal)</small> + markt <small>(mercado)</small></td><td>mercado de Natal: glühwein, patinação e luzinhas</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">terrasje (doen)</td><td class="w-split">terras <small>(varanda/terraço)</small> + -je</td><td>"fazer um terracinho": sentar num café ao ar livre ao primeiro raio de sol</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">gezelligheid</td><td class="w-split">gezel <small>(companheiro)</small> + -ig + -heid</td><td>o aconchego de estar bem juntos (intraduzível; cap. 20)</td></tr>
+  </table>
+
+  <div class="culture"><strong>O calendário emocional flamengo:</strong> janeiro = nieuwjaarsbrieven e votos de "gelukkig Nieuwjaar";
+  julho = Gentse Feesten e 21/7 (feriado nacional); 6/12 = Sinterklaas para as crianças; dezembro = kerstmarkt.
+  E o ano todo: terrasje ao primeiro sol, porque sol na Bélgica é evento.</div>
+</section>
+
+<!-- ============================ CAP 26: COZINHA BELGA ============================ -->
+<section class="chapter" id="t-comida">
+  <span class="chapnum">26</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🍲 Cozinha belga: 2 receitas bilíngues (Pratos Belgas)</h2>
+  <p class="lead">A Flandres tem cozinha rica e "pesada" no melhor sentido: cerveja, queijo e manteiga nos papéis principais.
+  Cozinhar as receitas EM neerlandês é um truque de estudo: você aprende imperativo, medidas e vocabulário de cozinha de graça.</p>
+
+  <div class="infocard">
+    <h3>🦪 Receita 1: Mosselen-friet (Mexilhões com fritas)</h3>
+    <p>O prato nacional não-oficial. Servido na panela preta oval (mosselpan) com uma cumbuca funda de fritas belgas.</p>
+    <h4>Boodschappenlijstje (listinha de compras)</h4>
+    <table class="wordlist">
+      <tr><th>art.</th><th>ingrediente</th><th>quebra</th><th>português</th><th>quantidade</th></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">mosselen (vers)</td><td class="w-split">-</td><td>mexilhões frescos</td><td>2 kg</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">selder</td><td class="w-split">flamengo (NL: selderij)</td><td>aipo/salsão</td><td>2 talos</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">ui</td><td class="w-split">-</td><td>cebola</td><td>1 grande</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">prei</td><td class="w-split">-</td><td>alho-poró</td><td>1 talo</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">roomboter</td><td class="w-split">room <small>(nata)</small> + boter <small>(manteiga)</small></td><td>manteiga</td><td>1 klontje (uma noz)</td></tr>
+      <tr><td><span class="art-het">het</span></td><td class="w-nl">witbier</td><td class="w-split">wit <small>(branca)</small> + bier <small>(cerveja)</small></td><td>cerveja de trigo (ou vinho branco seco)</td><td>1 scheutje (um respingo)</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">peper</td><td class="w-split">-</td><td>pimenta-do-reino</td><td>naar smaak (a gosto)</td></tr>
+    </table>
+    <h4>Bereidingswijze (modo de preparo)</h4>
+    <div class="recipe-step"><div class="num">1</div><div class="txt">
+      <p><span class="nl-word">Was de mosselen grondig in koud water. Gooi kapotte of openstaande mosselen direct weg.</span></p>
+      <p class="pt-word">Lave os mexilhões minuciosamente em água fria. Descarte na hora os quebrados ou os que ficarem abertos após uma batidinha na bancada.</p></div></div>
+    <div class="recipe-step"><div class="num">2</div><div class="txt">
+      <p><span class="nl-word">Snijd de ui, de prei en de selder in grove stukken.</span></p>
+      <p class="pt-word">Corte a cebola, o alho-poró e o aipo em pedaços grossos.</p></div></div>
+    <div class="recipe-step"><div class="num">3</div><div class="txt">
+      <p><span class="nl-word">Smelt een klontje boter in een grote mosselpan en stoof de groenten enkele minuten op middelhoog vuur.</span></p>
+      <p class="pt-word">Derreta uma noz de manteiga numa panela grande e refogue os legumes alguns minutos em fogo médio.</p></div></div>
+    <div class="recipe-step"><div class="num">4</div><div class="txt">
+      <p><span class="nl-word">Voeg de mosselen toe, giet er een scheutje witbier bij en kruid met veel peper. Deksel erop, vuur hoog.</span></p>
+      <p class="pt-word">Adicione os mexilhões, despeje um respingo de cerveja de trigo e tempere com bastante pimenta. Tampa na panela, fogo alto.</p></div></div>
+    <div class="recipe-step"><div class="num">5</div><div class="txt">
+      <p><span class="nl-word">Schud de pan twee keer goed op. Zodra alle mosselen openstaan (5 tot 8 minuten) zijn ze klaar. Serveer met warme frieten.</span></p>
+      <p class="pt-word">Sacuda bem a panela duas vezes. Assim que todos os mexilhões abrirem (5 a 8 minutos), estão prontos. Sirva com fritas quentes.</p></div></div>
+  </div>
+
+  <div class="infocard">
+    <h3>🥬 Receita 2: Witloof in de oven (Endívia gratinada com presunto e queijo)</h3>
+    <p><span class="nl-word">Witloof</span> = wit (branca) + loof (folhagem): "folha branca". Endívia belga amarga,
+    enrolada em presunto e coberta de molho de queijo: o prato de inverno das avós flamengas.</p>
+    <h4>Boodschappenlijstje</h4>
+    <table class="wordlist">
+      <tr><th>art.</th><th>ingrediente</th><th>quebra</th><th>português</th><th>quantidade</th></tr>
+      <tr><td><span class="art-het">het</span></td><td class="w-nl">witloof</td><td class="w-split">wit <small>(branca)</small> + loof <small>(folhagem)</small></td><td>endívia/chicória</td><td>4 unidades (stronken)</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">gekookte ham</td><td class="w-split">gekookt <small>(cozido)</small> + ham</td><td>presunto cozido</td><td>4 fatias (plakken)</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">gemalen kaas</td><td class="w-split">gemalen <small>(moído/ralado)</small> + kaas</td><td>queijo ralado (ex.: Emmental)</td><td>150 g</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">bloem</td><td class="w-split">também significa "flor"!</td><td>farinha de trigo</td><td>30 g</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">boter</td><td class="w-split">-</td><td>manteiga</td><td>30 g</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">melk</td><td class="w-split">-</td><td>leite</td><td>500 ml</td></tr>
+      <tr><td><span class="art-de">de</span></td><td class="w-nl">muskaatnoot</td><td class="w-split">muskaat + noot <small>(noz)</small></td><td>noz-moscada</td><td>1 snuifje (uma pitada)</td></tr>
+    </table>
+    <h4>Bereidingswijze</h4>
+    <div class="recipe-step"><div class="num">1</div><div class="txt">
+      <p><span class="nl-word">Snijd de harde kegel onderaan het witloof weg (minder bitter). Stoof de stronken zacht in boter met een beetje water (± 15 min) en laat ze zeer goed uitlekken.</span></p>
+      <p class="pt-word">Corte o miolo duro da base da endívia (reduz o amargor). Cozinhe as cabeças na manteiga com um pouco de água até amaciarem (± 15 min) e deixe escorrer MUITO bem.</p></div></div>
+    <div class="recipe-step"><div class="num">2</div><div class="txt">
+      <p><span class="nl-word">Wikkel elke stronk in een plak ham en leg de rolletjes in een ingevette ovenschotel.</span></p>
+      <p class="pt-word">Enrole cada endívia numa fatia de presunto e disponha os rolinhos num refratário untado.</p></div></div>
+    <div class="recipe-step"><div class="num">3</div><div class="txt">
+      <p><span class="nl-word">Maak een roux met boter en bloem, giet er geleidelijk koude melk bij en roer tot de saus indikt. Meng de helft van de kaas erdoor en kruid met peper, zout en muskaatnoot.</span></p>
+      <p class="pt-word">Faça um roux com manteiga e farinha, adicione o leite frio aos poucos e mexa até engrossar. Misture metade do queijo e tempere com pimenta, sal e noz-moscada.</p></div></div>
+    <div class="recipe-step"><div class="num">4</div><div class="txt">
+      <p><span class="nl-word">Giet de saus over de rolletjes, strooi de rest van de kaas erover en bak 20-25 minuten op 200°C tot er een goudbruin korstje op zit.</span></p>
+      <p class="pt-word">Despeje o molho sobre os rolinhos, salpique o resto do queijo e asse 20-25 minutos a 200°C até dourar uma crosta.</p></div></div>
+  </div>
+
+  <div class="tip"><strong>Gramática de bônus:</strong> receitas usam o imperativo (was! snijd! voeg toe!) e são o melhor
+  treino dos verbos separáveis: <span class="nl-word">toevoegen</span> (voeg... toe), <span class="nl-word">opschudden</span>
+  (schud... op), <span class="nl-word">uitlekken</span> (laat... uitlekken). Cozinhou, aprendeu.</div>
+</section>
+
+<!-- ============================ CAP 27: WAFELS ============================ -->
+<section class="chapter" id="t-wafel">
+  <span class="chapnum">27</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🧇 O grande dilema dos waffles (Het Grote Wafeldilemma)</h2>
+  <p class="lead">Na Bélgica, "waffle belga" não existe: existem DOIS waffles totalmente diferentes, e confundi-los
+  é gafe nacional. Regra de ouro: nunca compre em barraca de turista soterrado de chantilly e morango.
+  O belga come puro ou com açúcar de confeiteiro.</p>
+
+  <div class="grid2">
+    <div class="infocard" style="border-color:var(--nl)">
+      <h3>De Brusselse wafel <small>(o de Bruxelas)</small></h3>
+      <div class="lego"><span class="piece">Brussel<small>Bruxelas</small></span><span class="op">+</span><span class="piece">se + wafel<small>waffle</small></span></div>
+      <ul class="checklist">
+        <li><strong>Forma:</strong> retangular, cantos perfeitos</li>
+        <li><strong>Textura:</strong> levíssimo, aerado, crocante</li>
+        <li><strong>Massa:</strong> SEM açúcar na massa (massa líquida)</li>
+        <li><strong>Como comer:</strong> quente, com uma camada fina de poedersuiker (açúcar de confeiteiro)</li>
+        <li><strong>Onde:</strong> sentado, de prato e garfo, num salão de chá</li>
+      </ul>
+    </div>
+    <div class="infocard" style="border-color:var(--de)">
+      <h3>De Luikse wafel <small>(o de Liège)</small></h3>
+      <div class="lego"><span class="piece">Luik<small>Liège</small></span><span class="op">+</span><span class="piece">se + wafel<small>waffle</small></span></div>
+      <ul class="checklist">
+        <li><strong>Forma:</strong> oval/losango, bordas irregulares</li>
+        <li><strong>Textura:</strong> denso, mastigável, tipo massa de pão</li>
+        <li><strong>Segredo:</strong> parelsuiker (açúcar pérola) na massa, que carameliza ao assar</li>
+        <li><strong>Como comer:</strong> quente ou frio, NA MÃO, andando na rua</li>
+        <li><strong>Doçura:</strong> já é doce por si só: não precisa de nada em cima</li>
+      </ul>
+    </div>
+  </div>
+
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">poedersuiker</td><td class="w-split">poeder <small>(pó)</small> + suiker <small>(açúcar)</small></td><td>açúcar de confeiteiro, "açúcar em pó"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">parelsuiker</td><td class="w-split">parel <small>(pérola)</small> + suiker</td><td>açúcar pérola (cristais grandes que caramelizam)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">wafelijzer</td><td class="w-split">wafel + ijzer <small>(ferro)</small></td><td>máquina de waffle, "ferro de waffle"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">slagroom</td><td class="w-split">slag <small>(batida)</small> + room <small>(nata)</small></td><td>chantilly, "nata batida" (só turista pede no waffle!)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">deeg</td><td class="w-split">-</td><td>massa (de pão/waffle)</td></tr>
+  </table>
+
+  <div class="culture"><strong>Teste de integração nível waffle:</strong> se te oferecerem "een Luikse wafel, nog warm van
+  het ijzer" (ainda quente do ferro) e você recusar chantilly por instinto, parabéns: seu paladar naturalizou-se belga.</div>
+</section>
+
+<!-- ============================ CAP 28: SUPERMERCADO ============================ -->
+<section class="chapter" id="t-super">
+  <span class="chapnum">28</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🛒 Supermercado &amp; compras (Boodschappen doen)</h2>
+  <p class="lead">Colruyt (barato), Delhaize (qualidade), Albert Heijn (holandês), Aldi/Lidl (descontão), Carrefour.
+  Duas surpresas para brasileiros: o carrinho precisa de moeda de €1 e você mesmo empacota (RÁPIDO, o caixa não espera).</p>
+
+  <h3>🧩 Vocabulário: compras</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">winkelwagen</td><td class="w-split">winkel <small>(loja)</small> + wagen <small>(carro)</small></td><td>carrinho de compras, "carro de loja"</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">winkelmandje</td><td class="w-split">winkel + mand <small>(cesta)</small> + -je</td><td>cestinha</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kassa</td><td class="w-split">-</td><td>caixa</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">zelfscan</td><td class="w-split">zelf <small>(próprio)</small> + scan</td><td>caixa de autoatendimento</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">aanbieding / promotie</td><td class="w-split">aan+bieding <small>(de aanbieden, oferecer)</small></td><td>oferta, promoção</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">klantenkaart</td><td class="w-split">klanten <small>(clientes)</small> + kaart</td><td>cartão fidelidade (Xtra, SuperPlus...)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">statiegeld</td><td class="w-split">statie <small>(estação/depósito)</small> + geld <small>(dinheiro)</small></td><td>valor de retorno de garrafas: devolva na máquina e recupere!</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">houdbaarheidsdatum</td><td class="w-split">houd <small>(manter)</small> + baar <small>(-ável)</small> + heid <small>(-dade)</small> + s + datum</td><td>data de validade: "data da mantenibilidade" (4 peças numa palavra!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">diepvries</td><td class="w-split">diep <small>(profundo)</small> + vries <small>(congelar)</small></td><td>congelados, "congelamento profundo"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">zuivel</td><td class="w-split">-</td><td>laticínios</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">wisselgeld</td><td class="w-split">wissel <small>(troca)</small> + geld</td><td>troco</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">kasticket</td><td class="w-split">kas <small>(caixa)</small> + ticket</td><td>cupom fiscal (guarde para trocas)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">draagtas</td><td class="w-split">draag <small>(carregar)</small> + tas <small>(sacola)</small></td><td>sacola: é PAGA, leve a sua!</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">versmarkt</td><td class="w-split">vers <small>(fresco)</small> + markt</td><td>feira/seção de frescos</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: No açougue do mercado (Bij de slager)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Slager</td><td class="nl">Wie is er aan de beurt?</td><td class="pt">Quem é o próximo? (de quem é a vez?)</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ik, denk ik. Mag ik 500 gram gehakt en vier kipfilets?</td><td class="pt">Eu, acho. Me vê 500 gramas de carne moída e quatro filés de frango?</td></tr>
+      <tr><td class="who">Slager</td><td class="nl">Zeker. Het gehakt is vandaag in promotie: twee pakken voor de prijs van één.</td><td class="pt">Claro. A carne moída hoje está em promoção: dois pacotes pelo preço de um.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ah, doe dan maar twee pakken. Vriezen die goed in?</td><td class="pt">Ah, então me dá dois pacotes. Eles congelam bem?</td></tr>
+      <tr><td class="who">Slager</td><td class="nl">Perfect. Let wel op de houdbaarheidsdatum als je ze in de frigo laat liggen. Anders nog iets?</td><td class="pt">Perfeitamente. Só preste atenção na validade se deixar na geladeira. Mais alguma coisa?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Nee, dat was het. Oh ja, heeft u een zakje? Ik ben mijn draagtas vergeten.</td><td class="pt">Não, era isso. Ah sim, tem uma sacolinha? Esqueci minha sacola.</td></tr>
+      <tr><td class="who">Slager</td><td class="nl">Tuurlijk, vijf cent. Smakelijk vanavond!</td><td class="pt">Claro, cinco centavos. Bom apetite hoje à noite!</td></tr>
+    </table>
+  </div>
+
+  <div class="tip"><strong>Etiquetas decifradas:</strong> <span class="nl-word">tenminste houdbaar tot (THT)</span> = "válido no mínimo até"
+  (pode consumir um pouco depois se cheirar bem) · <span class="nl-word">te gebruiken tot (TGT)</span> = validade DURA, não passe do dia ·
+  <span class="nl-word">per stuk</span> = por unidade · <span class="nl-word">per kilo</span> = por quilo ·
+  <span class="nl-word">1+1 gratis</span> = leve 2 pague 1.</div>
+</section>
+
+<!-- ============================ CAP 29: TRABALHO ============================ -->
+<section class="chapter" id="t-trabalho">
+  <span class="chapnum">29</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>💼 Trabalho &amp; VDAB (Werk zoeken)</h2>
+  <p class="lead">O <strong>VDAB</strong> é a agência flamenga de emprego: cadastro gratuito, cursos, orientação
+  e vagas. Para quem faz inburgering, o cadastro costuma ser parte do trajeto. Os <span class="nl-word">interimkantoren</span>
+  (agências de trabalho temporário) são a porta de entrada mais rápida do mercado belga.</p>
+
+  <div class="infocard">
+    <h4>📋 Infográfico: o pacote salarial belga (muito além do salário!)</h4>
+    <div class="grid3">
+      <div><h4>💶 Todo mês</h4><p><small><span class="nl-word">brutoloon</span> (bruto) vira <span class="nl-word">nettoloon</span>
+      (líquido) após impostos e RSZ (INSS belga). Espere ± 55-70% do bruto.</small></p></div>
+      <div><h4>🎁 Extras comuns</h4><p><small><span class="nl-word">maaltijdcheques</span> (vale-refeição ± €8/dia),
+      <span class="nl-word">ecocheques</span>, <span class="nl-word">hospitalisatieverzekering</span> (plano hospitalar),
+      abono de transporte ou carro da empresa.</small></p></div>
+      <div><h4>📅 Duas vezes por ano</h4><p><small><span class="nl-word">vakantiegeld</span> (dobro de férias, ± maio) e
+      <span class="nl-word">eindejaarspremie</span> ("13º", dezembro). Sim, os dois!</small></p></div>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: trabalho</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">sollicitatie</td><td class="w-split">do latim, como "solicitação"</td><td>candidatura a emprego</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">sollicitatiebrief</td><td class="w-split">sollicitatie + brief <small>(carta)</small></td><td>carta de apresentação</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">cv / curriculum vitae</td><td class="w-split">latim</td><td>currículo</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">vacature</td><td class="w-split">como "vaga/vacância"</td><td>vaga de emprego</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">interimkantoor</td><td class="w-split">interim <small>(temporário)</small> + kantoor <small>(escritório)</small></td><td>agência de trabalho temporário (Randstad, Adecco...)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">uitzendkracht</td><td class="w-split">uit+zend <small>(enviar para fora)</small> + kracht <small>(força)</small></td><td>trabalhador temporário, "força enviada"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">werkgever</td><td class="w-split">werk <small>(trabalho)</small> + gever <small>(quem dá)</small></td><td>empregador, "dador de trabalho"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">werknemer</td><td class="w-split">werk + nemer <small>(quem pega)</small></td><td>empregado, "tomador de trabalho"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">loonfiche</td><td class="w-split">loon <small>(salário)</small> + fiche <small>(ficha)</small></td><td>holerite</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">ziekte-uitkering</td><td class="w-split">ziekte <small>(doença)</small> + uit+kering <small>(pagamento para fora)</small></td><td>auxílio-doença</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">ziektebriefje</td><td class="w-split">ziekte + brief + -je</td><td>atestado médico ("cartinha de doença")</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">vakbond</td><td class="w-split">vak <small>(ofício)</small> + bond <small>(liga/união)</small></td><td>sindicato (fortíssimos na Bélgica; pagam o seguro-desemprego!)</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">verlof</td><td class="w-split">ver- + lof</td><td>licença/folga; ouderschapsverlof = licença parental</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">deeltijds / voltijds</td><td class="w-split">deel <small>(parte)</small> / vol <small>(cheio)</small> + tijd <small>(tempo)</small> + s</td><td>meio período / período integral</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">ploegendienst</td><td class="w-split">ploegen <small>(turmas)</small> + dienst</td><td>trabalho em turnos</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: No interimkantoor (Bij het uitzendbureau)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Consulent</td><td class="nl">Dag Sofia, kom binnen. Je hebt je online ingeschreven, zag ik. Wat voor werk zoek je?</td><td class="pt">Olá Sofia, entre. Vi que você se cadastrou online. Que tipo de trabalho procura?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ik zoek iets in de logistiek of administratie, het liefst deeltijds, want mijn dochter gaat nog niet voltijds naar school.</td><td class="pt">Procuro algo em logística ou administração, de preferência meio período, porque minha filha ainda não vai à escola em tempo integral.</td></tr>
+      <tr><td class="who">Consulent</td><td class="nl">Begrepen. Er is een vacature bij een e-commercebedrijf in Wilrijk: orderpicking, van negen tot één. Ze zoeken iemand die nauwkeurig werkt.</td><td class="pt">Entendi. Tem uma vaga numa empresa de e-commerce em Wilrijk: separação de pedidos, das nove à uma. Procuram alguém que trabalhe com precisão.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dat klinkt goed! Welk loon staat daar tegenover?</td><td class="pt">Isso soa bem! Qual é o salário correspondente?</td></tr>
+      <tr><td class="who">Consulent</td><td class="nl">Veertien euro bruto per uur, plus maaltijdcheques van acht euro per gewerkte dag. Als het van beide kanten bevalt, kan het een vast contract worden.</td><td class="pt">Catorze euros brutos por hora, mais vale-refeição de oito euros por dia trabalhado. Se os dois lados gostarem, pode virar contrato fixo.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Super. Wanneer kan ik starten? En moet ik nog documenten binnenbrengen?</td><td class="pt">Ótimo. Quando posso começar? E preciso entregar mais documentos?</td></tr>
+      <tr><td class="who">Consulent</td><td class="nl">Alleen je verblijfskaart en je bankrekeningnummer. Als de klant akkoord gaat, start je maandag al!</td><td class="pt">Só seu cartão de residência e o número da sua conta bancária. Se o cliente aprovar, você já começa segunda!</td></tr>
+    </table>
+  </div>
+</section>
+
+<!-- ============================ CAP 30: CRIANÇAS E ESCOLA ============================ -->
+<section class="chapter" id="t-kids">
+  <span class="chapnum">30</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>👶 Bebês, crianças &amp; escola (Kinderen en school)</h2>
+  <p class="lead">O capítulo mais importante para famílias. A Flandres cuida bem das crianças: acompanhamento gratuito
+  do bebê (Kind en Gezin / Opgroeien), mesada estatal mensal (Groeipakket) e escola a partir dos 2,5 anos.
+  E a escola é a maior escola de neerlandês da família inteira.</p>
+
+  <div class="infocard">
+    <h4>📋 Infográfico: a linha do tempo da criança belga</h4>
+    <div class="timeline">
+      <div class="tstep"><h4>Nascimento: geboorteaangifte</h4><p>Declare o nascimento na gemeente em até 15 dias. Direito ao
+      <span class="nl-word">startbedrag</span> (valor único de boas-vindas do Groeipakket, ± €1.288).</p></div>
+      <div class="tstep"><h4>0-3 anos: Kind en Gezin (Opgroeien) + crèche</h4><p>Consultas GRATUITAS de acompanhamento (peso, vacinas,
+      desenvolvimento) no consultatiebureau. Creche (kinderopvang) tem lista de espera: inscreva-se na gravidez!
+      Preço muitas vezes por renda (inkomenstarief).</p></div>
+      <div class="tstep"><h4>2,5 anos: kleuterschool</h4><p>Educação infantil quase gratuita a partir dos 2 anos e meio.
+      Não obrigatória até os 5, mas TODOS vão: é onde a criança vira nativa em neerlandês em meses.</p></div>
+      <div class="tstep"><h4>6-12: lagere school · 12-18: secundair</h4><p>Ensino fundamental e médio. Todo mês cai o
+      <span class="nl-word">Groeipakket</span> (± €176+/mês por filho, com suplementos por renda).</p></div>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: bebê &amp; escola</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">geboorteaangifte</td><td class="w-split">geboorte <small>(nascimento)</small> + aan+gifte <small>(declaração, de aangeven)</small></td><td>registro de nascimento</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">Groeipakket</td><td class="w-split">groei <small>(crescimento)</small> + pakket <small>(pacote)</small></td><td>"pacote de crescimento": o salário-família flamengo mensal</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kinderopvang</td><td class="w-split">kinder <small>(crianças)</small> + op+vang <small>(acolhimento, de opvangen, "pegar no ar")</small></td><td>creche / cuidado infantil</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">kinderdagverblijf</td><td class="w-split">kinder + dag <small>(dia)</small> + verblijf <small>(estadia)</small></td><td>creche (formal), "estadia diurna de crianças"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">onthaalouder</td><td class="w-split">onthaal <small>(acolhida)</small> + ouder <small>(pai/mãe)</small></td><td>"mãe crecheira": cuida de poucas crianças em casa</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kleuterschool</td><td class="w-split">kleuter <small>(criança de 2,5-6 anos)</small> + school</td><td>educação infantil</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">lagere school</td><td class="w-split">lagere <small>(mais baixa)</small> + school</td><td>ensino fundamental (6-12)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">boekentas</td><td class="w-split">boeken <small>(livros)</small> + tas <small>(bolsa)</small></td><td>mochila escolar</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">brooddoos</td><td class="w-split">brood <small>(pão)</small> + doos <small>(caixa)</small></td><td>marmita de pão: TODA criança belga leva uma</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">luier</td><td class="w-split">-</td><td>fralda</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">fopspeen / tut</td><td class="w-split">fop <small>(enganar)</small> + speen <small>(bico)</small></td><td>chupeta, "bico enganador" (na Flandres: tut/tutje!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kinderwagen / buggy</td><td class="w-split">kinder + wagen</td><td>carrinho de bebê</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">consultatiebureau</td><td class="w-split">consultatie + bureau</td><td>posto do Kind en Gezin (pesagem, vacinas, conselhos)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">zwemles</td><td class="w-split">zwem <small>(nadar)</small> + les <small>(aula)</small></td><td>aula de natação (obrigatória na escola!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">rapport / het rapport</td><td class="w-split">do francês</td><td>boletim escolar</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">naschoolse opvang</td><td class="w-split">na <small>(depois)</small> + school + se + opvang</td><td>contraturno, cuidado pós-escola</td></tr>
+  </table>
+
+  <div class="convo">
+    <div class="title">🗣️ Conversa: No consultatiebureau (Kind en Gezin)</div>
+    <table>
+      <thead><tr><td class="who"></td><td class="nl">🇧🇪 Nederlands</td><td class="pt">🇧🇷 Português</td></tr></thead>
+      <tr><td class="who">Verpleegkundige</td><td class="nl">Dag Sofia, dag Alice! Kom maar binnen. Vandaag wegen we haar en krijgt ze een vaccinatie.</td><td class="pt">Olá Sofia, olá Alice! Podem entrar. Hoje vamos pesá-la e ela recebe uma vacina.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Dag! Ze is de laatste weken heel goed aan het eten, dus ik ben benieuwd.</td><td class="pt">Olá! Ela está comendo muito bem nas últimas semanas, então estou curiosa.</td></tr>
+      <tr><td class="who">Verpleegkundige</td><td class="nl">Kijk eens aan: twaalf kilo tweehonderd. Mooi op de groeicurve! Heb je nog vragen over voeding of slapen?</td><td class="pt">Olha só: doze quilos e duzentos. Certinho na curva de crescimento! Tem alguma pergunta sobre alimentação ou sono?</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">Ja, eigenlijk wel. Ze wordt 's nachts nog vaak wakker. Is dat normaal op deze leeftijd?</td><td class="pt">Sim, na verdade tenho. Ela ainda acorda muitas vezes de noite. Isso é normal nessa idade?</td></tr>
+      <tr><td class="who">Verpleegkundige</td><td class="nl">Heel normaal, zeker met alle indrukken van de crèche. Een vast slaapritueel helpt: badje, boekje, bedje.</td><td class="pt">Muito normal, ainda mais com todas as novidades da creche. Uma rotina fixa de sono ajuda: banhinho, livrinho, caminha.</td></tr>
+      <tr><td class="who">Sofia</td><td class="nl">"Badje, boekje, bedje", dat kan ik onthouden! En de vaccinatie van vandaag, kan ze daar koorts van krijgen?</td><td class="pt">"Banhinho, livrinho, caminha", isso eu consigo lembrar! E a vacina de hoje, ela pode ter febre por causa dela?</td></tr>
+      <tr><td class="who">Verpleegkundige</td><td class="nl">Een lichte verhoging kan, vandaag of morgen. Geef dan een siroopje paracetamol volgens het gewicht. Als het boven de 39 gaat, bel je de huisarts.</td><td class="pt">Uma febrinha leve pode acontecer, hoje ou amanhã. Nesse caso dê um xaropinho de paracetamol conforme o peso. Se passar de 39, ligue para o clínico.</td></tr>
+    </table>
+  </div>
+
+  <div class="tip"><strong>Truque de ouro para os pais:</strong> leia os livrinhos infantis da biblioteca JUNTO com a criança.
+  Nível de língua perfeito, repetição natural, vocabulário do cotidiano e vínculo em dobro. A bib é gratuita para crianças,
+  e o "voorleesuurtje" (horinha de leitura em voz alta) é grátis e treina o ouvido dos dois.</div>
+</section>
+
+<!-- ============================ CAP 31: BANCO ============================ -->
+<section class="chapter" id="t-banco">
+  <span class="chapnum">31</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🏦 Banco &amp; dinheiro (Bank en geld)</h2>
+  <p class="lead">Bancos comuns: KBC, Belfius, BNP Paribas Fortis, Argenta, ING. Quase tudo é feito no app,
+  com o itsme como chave. O sistema de pagamento do dia a dia: <strong>Bancontact</strong> (débito) e o app
+  <strong>Wero</strong> 💶 (o sucessor europeu do antigo Payconiq: pagar amigos e comerciantes pelo celular).</p>
+
+  <h3>🧩 Vocabulário: banco</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">zichtrekening</td><td class="w-split">zicht <small>(vista)</small> + rekening <small>(conta)</small></td><td>conta corrente, "conta à vista"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">spaarrekening</td><td class="w-split">spaar <small>(poupar)</small> + rekening</td><td>poupança</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">overschrijving</td><td class="w-split">over <small>(por cima)</small> + schrijving <small>(escrita)</small></td><td>transferência bancária, "escrever por cima"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">domiciliëring</td><td class="w-split">de domicilie</td><td>débito automático (luz, aluguel, creche)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">bankkaart</td><td class="w-split">bank + kaart</td><td>cartão de débito (Bancontact)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">kredietkaart</td><td class="w-split">krediet + kaart</td><td>cartão de crédito (bem menos usado que no Brasil!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">geldautomaat</td><td class="w-split">geld <small>(dinheiro)</small> + automaat</td><td>caixa eletrônico (procure "Bancontact CASH")</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">rekeningnummer / IBAN</td><td class="w-split">rekening + nummer</td><td>número da conta (BE68 5390 0754 7034)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">mededeling</td><td class="w-split">mede <small>(junto)</small> + deling <small>(partilha)</small></td><td>descrição/referência da transferência (a "gestructureerde mededeling" +++000/0000/00000+++ é sagrada em boletos!)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">afschrift</td><td class="w-split">af + schrift <small>(escrito)</small></td><td>extrato bancário</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">lening</td><td class="w-split">leen <small>(emprestar)</small> + -ing</td><td>empréstimo; hypothecaire lening = financiamento imobiliário</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">rente</td><td class="w-split">-</td><td>juros</td></tr>
+  </table>
+
+  <div class="warn"><strong>Fraude comum com recém-chegados:</strong> NINGUÉM legítimo (banco, polícia, Card Stop) pede
+  seu código PIN ou para "transferir o dinheiro para uma conta segura" por telefone. Desligue e ligue você mesmo(a) para o banco.
+  Cartão perdido/roubado: <strong>Card Stop 078 170 170</strong>.</div>
+</section>
+
+<!-- ============================ CAP 32: EMERGÊNCIAS ============================ -->
+<section class="chapter" id="t-emerg">
+  <span class="chapnum">32</span>
+  <div class="chapkicker">Parte III · Guia temático</div>
+  <h2>🚨 Emergências (Noodgevallen)</h2>
+  <p class="lead">O capítulo que a gente espera nunca usar. Leia uma vez com atenção, cole os números na geladeira
+  e durma tranquilo(a).</p>
+
+  <div class="grid3">
+    <div class="infocard" style="text-align:center;border-color:var(--de)">
+      <h3 style="color:var(--de);font-size:2.4rem;margin:0">112</h3>
+      <p><strong>Ambulância &amp; bombeiros</strong><br><small>(funciona em toda a Europa, atendem em inglês também)</small></p>
+    </div>
+    <div class="infocard" style="text-align:center;border-color:var(--nl)">
+      <h3 style="color:var(--nl);font-size:2.4rem;margin:0">101</h3>
+      <p><strong>Polícia (urgente)</strong><br><small>crime em andamento, acidente com feridos</small></p>
+    </div>
+    <div class="infocard" style="text-align:center;border-color:var(--pt)">
+      <h3 style="color:var(--pt);font-size:2.4rem;margin:0">1733</h3>
+      <p><strong>Médico de plantão</strong><br><small>doença fora do horário, não mortal</small></p>
+    </div>
+  </div>
+
+  <h3>🧩 Vocabulário: emergência</h3>
+  <table class="wordlist">
+    <tr><th>art.</th><th>palavra</th><th>quebra + lógica</th><th>português</th></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">brandweer</td><td class="w-split">brand <small>(incêndio)</small> + weer <small>(defesa)</small></td><td>bombeiros, "defesa contra fogo"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">ziekenwagen / ambulance</td><td class="w-split">zieken <small>(doentes)</small> + wagen <small>(carro)</small></td><td>ambulância</td></tr>
+    <tr><td><span class="art-het">het</span></td><td class="w-nl">noodgeval</td><td class="w-split">nood <small>(necessidade/perigo)</small> + geval <small>(caso)</small></td><td>emergência</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">nooduitgang</td><td class="w-split">nood + uit+gang <small>(saída, "ida para fora")</small></td><td>saída de emergência</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">EHBO</td><td class="w-split">Eerste Hulp Bij Ongevallen</td><td>primeiros socorros ("primeira ajuda em acidentes")</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verpleegkundige</td><td class="w-split">verpleeg <small>(cuidar de doente)</small> + kundige <small>(especialista)</small></td><td>enfermeiro(a)</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">inbraak</td><td class="w-split">in <small>(dentro)</small> + braak <small>(de breken, quebrar)</small></td><td>arrombamento, "quebra para dentro"</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">aangifte (doen)</td><td class="w-split">aan + gifte <small>(de geven)</small></td><td>boletim de ocorrência ("fazer declaração")</td></tr>
+    <tr><td><span class="art-de">de</span></td><td class="w-nl">verzekeringsattest</td><td class="w-split">verzekering <small>(seguro)</small> + s + attest</td><td>comprovante do seguro</td></tr>
+    <tr><td>-</td><td class="w-nl">Help! / Brand! / Pas op!</td><td class="w-split">-</td><td>Socorro! / Fogo! / Cuidado!</td></tr>
+  </table>
+
+  <div class="infocard">
+    <h4>🗣️ Mini-script: ligando para o 112</h4>
+    <p><span class="nl-word">"Hallo, ik heb een ambulance nodig. Mijn dochter is gevallen en ze is buiten bewustzijn.
+    Wij wonen in de Lange Leemstraat 25 in Antwerpen. Mijn naam is Sofia. Mijn telefoonnummer is..."</span></p>
+    <p class="pt-word">"Alô, preciso de uma ambulância. Minha filha caiu e está inconsciente.
+    Moramos na Lange Leemstraat 25, em Antuérpia. Meu nome é Sofia. Meu telefone é..."</p>
+    <p><small>Estrutura que a central espera: O QUE aconteceu → ONDE (endereço completo) → QUEM fala. Se o neerlandês travar,
+    diga <span class="nl-word">"Mag ik in het Engels spreken?"</span>: pode SIM falar inglês no 112.</small></p>
+  </div>
+</section>
+
+<!-- ============================ CAP 33: RECURSOS ============================ -->
+<section class="chapter" id="recursos">
+  <span class="chapnum">33</span>
+  <div class="chapkicker">Apêndice</div>
+  <h2>📚 Onde e como estudar: o plano de ataque</h2>
+  <p class="lead">Ferramentas testadas e aprovadas por milhares de recém-chegados na Flandres, organizadas por nível.</p>
+
+  <div class="grid2">
+    <div class="infocard">
+      <h4>🌱 A1-A2</h4>
+      <ul class="checklist">
+        <li><strong>Curso NT2 no CVO/Ligo</strong> (cap. 21): a espinha dorsal</li>
+        <li><strong>nedbox.be</strong>: grátis, da KU Leuven, com vídeos reais</li>
+        <li><strong>Duolingo NL</strong>: 15 min/dia no bonde (é holandês, mas serve)</li>
+        <li><strong>Etiquetas na casa</strong>: post-its com "de koelkast", "het raam"...</li>
+        <li><strong>Karrewiet</strong> (jornal infantil da Ketnet): notícias em NL simples</li>
+        <li>Mude o celular para neerlandês (imersão grátis)</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>🌳 B1-B2</h4>
+      <ul class="checklist">
+        <li><strong>Wablieft</strong>: jornal semanal em neerlandês claro</li>
+        <li><strong>Praattafels</strong>: mesas de conversa gratuitas (bib/Atlas)</li>
+        <li><strong>Thuis</strong> (novela da VRT) com legenda T888</li>
+        <li><strong>Het Journaal</strong> (19h): 15 min de escuta por dia</li>
+        <li>Leia livrinhos infantis para o(a) filho(a): estudo em dose dupla</li>
+        <li>Peça aos belgas: "Verbeter mij alsjeblieft!" (me corrija!)</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>🌲 C1-C2</h4>
+      <ul class="checklist">
+        <li>Jornal de verdade: De Standaard, De Morgen, HLN</li>
+        <li>Podcasts flamengos + rádio (Radio 2, StuBru)</li>
+        <li>Romances: comece juvenil, suba para Lize Spit, Stefan Hertmans</li>
+        <li>Vrijwilligerswerk (voluntariado): língua + rede + coração</li>
+        <li>Humor: De Ideale Wereld, stand-up flamengo</li>
+      </ul>
+    </div>
+    <div class="infocard">
+      <h4>👨‍👩‍👧 Para a família bilíngue</h4>
+      <ul class="checklist">
+        <li><strong>Uma pessoa, uma língua:</strong> mãe fala português, escola fala neerlandês: o cérebro infantil dá conta (e agradece)</li>
+        <li>O português de casa é um PRESENTE, não um atraso: mantenha!</li>
+        <li>Biblioteca: seção infantil bilíngue + voorleesuurtje grátis</li>
+        <li>Desenhos em NL (Ketnet) em vez de dublados</li>
+        <li>Pais que estudam NT2 na frente dos filhos ensinam o dobro</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="infocard">
+    <h4>🗓️ O plano semanal realista (para quem tem casa, filho e cansaço)</h4>
+    <table class="wordlist">
+      <tr><th>quando</th><th>o quê</th><th>tempo</th></tr>
+      <tr><td>seg + qua (ou o ritmo do seu CVO)</td><td>Aula NT2</td><td>3h/aula</td></tr>
+      <tr><td>todo dia, no transporte</td><td>Duolingo/NedBox + revisão das palavras do livro</td><td>15 min</td></tr>
+      <tr><td>todo dia, 19h</td><td>Het Journaal ou Karrewiet (com o jantar)</td><td>15 min</td></tr>
+      <tr><td>hora de dormir da criança</td><td>Livrinho em NL em voz alta</td><td>10 min</td></tr>
+      <tr><td>sábado</td><td>Praattafel ou conversa com vizinhos/padaria</td><td>1h</td></tr>
+      <tr><td>domingo</td><td>1 capítulo deste livro + marcar os checklists</td><td>30 min</td></tr>
+    </table>
+    <p><small>Total: ± 10h/semana. Nesse ritmo, A2 chega em 6-9 meses e B1 em mais um ano. Constância vence intensidade.</small></p>
+  </div>
+</section>
+
+<!-- ============================ FECHO ============================ -->
+<section class="chapter" style="border-top:6px double var(--ink);text-align:center;padding:60px 0">
+  <h2 style="font-size:2.2rem">Veel succes! 🍀 Boa sorte!</h2>
+  <p class="lead" style="margin:0 auto;max-width:56ch">Aprender neerlandês não é um talento, é uma rotina.
+  Cada palavra deste livro que virar sua é um pedaço de casa nova construído.
+  <br><br><span class="nl-word">Stap voor stap kom je er wel.</span><br>
+  <span class="pt-word">Passo a passo você chega lá.</span></p>
+  <p style="margin-top:30px"><small>Nederlands voor Brazilianen · O Livro Infográfico · Flandres, 2026<br>
+  Feito com carinho para uma família que fala português no coração e neerlandês no futuro.</small></p>
+  <p class="backtop noprint"><a href="#como-usar">↑ Voltar ao sumário</a></p>
+</section>
+
+</div><!-- /page -->
+</body>
+</html>

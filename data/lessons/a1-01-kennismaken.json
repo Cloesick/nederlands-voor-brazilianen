@@ -1,0 +1,225 @@
+{
+  "id": "a1-01-kennismaken",
+  "unit": "A1",
+  "title": "Se apresentar · Kennismaken",
+  "emoji": "👋",
+  "teaching": [
+    {
+      "emoji": "🎯",
+      "title": "🎯 Três verbos para existir: zijn, heten, wonen",
+      "html": "<p>Para se apresentar em neerlandês você só precisa de <b>três verbos</b>. Compare com o português:</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th><th>uso</th></tr><tr><td><b>Ik ben</b> Sofia.</td><td>Eu <b>sou</b> a Sofia.</td><td>quem você é (zijn = ser)</td></tr><tr><td><b>Ik heet</b> Sofia.</td><td>Eu <b>me chamo</b> Sofia.</td><td>seu nome (heten = chamar-se, sem pronome extra!)</td></tr><tr><td><b>Ik woon</b> in Antwerpen.</td><td>Eu <b>moro</b> em Antuérpia.</td><td>onde você mora (wonen = morar)</td></tr></table><p>💡 <b>heten</b> já significa <i>chamar-se</i> sozinho: nada de \"me\" antes. E a origem usa <b>komen uit</b>: <i>Ik kom uit Brazilië</i> = venho <b>de dentro</b> do Brasil. 🇧🇷</p>"
+    },
+    {
+      "emoji": "🙋",
+      "title": "🙋 Je, u... e o famoso gij da Flandres",
+      "html": "<p>O neerlandês tem <b>dois níveis</b> de \"você\", parecido com você/senhor(a):</p><ul><li><b>je / jij</b> 😊 informal: vizinhos da mesma idade, colegas, crianças. <i>Waar kom je vandaan?</i></li><li><b>u</b> 🎩 educado: pessoas mais velhas, balcões, médicos, desconhecidos. <i>Kan u dat herhalen, alstublieft?</i></li></ul><p>Na Flandres você ainda vai ouvir <b>gij / ge</b> na rua (<i>Hoe heet gij?</i>). É o \"você\" coloquial flamengo: <b>entenda</b>, sorria, mas responda com je ou u. 😉</p><p><small>🇧🇪 <b>alstublieft</b> (com u) é o \"por favor\" educado padrão na Flandres; entre amigos vira <b>alsjeblieft</b>.</small></p>"
+    },
+    {
+      "emoji": "🔄",
+      "title": "🔄 V2: o verbo mora na posição 2",
+      "html": "<p>Regra de ouro do neerlandês: na frase afirmativa, o <b>verbo conjugado fica sempre no 2º lugar</b>.</p><ul><li><i>Ik woon <b>nu</b> in België.</i> = Agora moro na Bélgica. (Ik na posição 1, woon na 2)</li><li>Se algo pula para a frente, o sujeito vai para depois do verbo: <i><b>Nu</b> woon ik in België.</i> 🔀</li></ul><p>Nas <b>perguntas sim/não</b>, o verbo assume a posição 1 e o sujeito vem em seguida, sem nenhum \"do\" auxiliar do inglês:</p><ul><li><i><b>Spreek</b> je Nederlands?</i> = Você fala neerlandês?</li><li><i><b>Heb</b> je kinderen?</i> = Você tem filhos?</li></ul><p>💡 Em português a ordem quase não muda (\"Você fala...?\"); em neerlandês a <b>inversão é obrigatória</b>. Ouça a melodia da pergunta e deixe o verbo abrir a frase.</p>"
+    },
+    {
+      "emoji": "🆘",
+      "title": "🆘 Frases salva-vidas: decore hoje",
+      "html": "<p>Cinco frases que salvam <b>qualquer</b> conversa no primeiro ano. Cole na geladeira (no <i>frigo</i> 🧊):</p><ul><li>🔁 <b>Kan u dat herhalen, alstublieft?</b> = Pode repetir, por favor?</li><li>🐢 <b>Kan u traag spreken?</b> = Pode falar devagar?</li><li>🤷 <b>Ik begrijp het niet.</b> = Eu não entendo.</li><li>❓ <b>Wat betekent dat?</b> = O que isso significa?</li><li>🗣️ <b>Hoe zeg je ... in het Nederlands?</b> = Como se diz ... em neerlandês?</li></ul><p>E a mais honesta de todas: <b>Ik spreek nog niet goed Nederlands</b> (ainda não falo bem neerlandês). Os flamengos adoram quem tenta! 💪</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Hallo","r":"x"},{"t":"!","r":"punc"},{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"Els","r":"noun"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"woon","r":"verb"},{"t":"hiernaast","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Olá","r":"x"},{"t":"!","r":"punc"},{"t":"Eu","r":"pron"},{"t":"sou","r":"verb"},{"t":"a","r":"art"},{"t":"Els","r":"noun"},{"t":".","r":"punc"},{"t":"Moro","r":"verb"},{"t":"aqui","r":"adv"},{"t":"do","r":"prep"},{"t":"lado","r":"noun"},{"t":".","r":"punc"}],
+      "note": "hiernaast = hier (aqui) + naast (ao lado): uma palavra só para \"aqui do lado\". A vizinha Els se apresenta assim na porta. 🚪"
+    },
+    {
+      "nl": [{"t":"Hallo","r":"x"},{"t":"Els","r":"noun"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"heet","r":"verb"},{"t":"Sofia","r":"noun"},{"t":".","r":"punc"},{"t":"Aangenaam","r":"x"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Olá","r":"x"},{"t":"Els","r":"noun"},{"t":".","r":"punc"},{"t":"Me","r":"pron"},{"t":"chamo","r":"verb"},{"t":"Sofia","r":"noun"},{"t":".","r":"punc"},{"t":"Prazer","r":"x"},{"t":"!","r":"punc"}],
+      "note": "heet vem de heten (chamar-se): o \"me\" já está embutido no verbo. Aangenaam! é o \"Prazer!\" ao conhecer alguém. 🤝"
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"kom","r":"verb"},{"t":"je","r":"pron"},{"t":"vandaan","r":"prep"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"De","r":"prep"},{"t":"onde","r":"qw"},{"t":"você","r":"pron"},{"t":"vem","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "onde vem você de-lá",
+      "note": "O \"de\" do português vira vandaan e é jogado para o FIM da frase. O neerlandês adora guardar pedacinhos para o final. 🎬"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"kom","r":"verb"},{"t":"uit","r":"prep"},{"t":"Brazilië","r":"noun"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"woon","r":"verb"},{"t":"nu","r":"adv"},{"t":"in","r":"prep"},{"t":"België","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Venho","r":"verb"},{"t":"do","r":"prep"},{"t":"Brasil","r":"noun"},{"t":".","r":"punc"},{"t":"Agora","r":"adv"},{"t":"moro","r":"verb"},{"t":"na","r":"prep"},{"t":"Bélgica","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu venho de-dentro-de Brasil. eu moro agora em Bélgica",
+      "note": "uit = de dentro de: origem usa uit, o lugar onde você mora usa in. E note o V2: \"nu\" fica DEPOIS do verbo (Ik woon nu...). 🇧🇷➡️🇧🇪"
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"is","r":"verb"},{"t":"jouw","r":"pron"},{"t":"naam","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Qual","r":"qw"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"seu","r":"pron"},{"t":"nome","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "O neerlandês pergunta com Wat (o quê) onde o português usa Qual. Alternativa muito comum: Hoe heet jij? (literalmente: como se chama você?). 🏷️"
+    },
+    {
+      "nl": [{"t":"Spreek","r":"verb"},{"t":"je","r":"pron"},{"t":"al","r":"adv"},{"t":"een","r":"art"},{"t":"beetje","r":"noun"},{"t":"Nederlands","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"já","r":"adv"},{"t":"fala","r":"verb"},{"t":"um","r":"art"},{"t":"pouco","r":"noun"},{"t":"de","r":"prep"},{"t":"neerlandês","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "fala você já um pouquinho neerlandês",
+      "note": "Pergunta sim/não: o verbo pula para a posição 1 e o sujeito vem depois. Sem auxiliar, sem \"do\": só a inversão. 🔄"
+    },
+    {
+      "nl": [{"t":"Een","r":"art"},{"t":"beetje","r":"noun"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"leer","r":"verb"},{"t":"Nederlands","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Um","r":"art"},{"t":"pouco","r":"noun"},{"t":".","r":"punc"},{"t":"Eu","r":"pron"},{"t":"estou","r":"verb"},{"t":"aprendendo","r":"verb"},{"t":"neerlandês","r":"noun"},{"t":".","r":"punc"}],
+      "note": "O presente simples do neerlandês cobre o nosso gerúndio: Ik leer = eu aprendo E eu estou aprendendo. Um tempo verbal a menos para decorar! 🎉"
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"kinderen","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"tem","r":"verb"},{"t":"filhos","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem você filhos",
+      "note": "Pergunta clássica de conversa de portão. kinderen é o plural de het kind (a criança). 👶"
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"dochter","r":"noun"},{"t":".","r":"punc"},{"t":"Zij","r":"pron"},{"t":"is","r":"verb"},{"t":"twee","r":"num"},{"t":"jaar","r":"noun"},{"t":"oud","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"tenho","r":"verb"},{"t":"uma","r":"art"},{"t":"filha","r":"noun"},{"t":".","r":"punc"},{"t":"Ela","r":"pron"},{"t":"tem","r":"verb"},{"t":"dois","r":"num"},{"t":"anos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "sim, eu tenho uma filha. ela É dois ano velha",
+      "note": "Idade em neerlandês usa zijn + oud (ser + velho), nunca hebben: Zij is twee jaar oud. E jaar fica no singular depois de número! 🎂"
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"u","r":"pron"},{"t":"dat","r":"pron"},{"t":"herhalen","r":"verb"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Pode","r":"verb"},{"t":"repetir","r":"verb"},{"t":"isso","r":"pron"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":"?","r":"punc"}],
+      "lit": "pode o senhor isso repetir, por favor",
+      "note": "A pinça neerlandesa: o modal kan segura a posição 2 e o infinitivo herhalen vai lá para o fim. Frase salva-vidas número 1! 🆘"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"spreek","r":"verb"},{"t":"nog","r":"adv"},{"t":"niet","r":"neg"},{"t":"goed","r":"adv"},{"t":"Nederlands","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"ainda","r":"adv"},{"t":"não","r":"neg"},{"t":"falo","r":"verb"},{"t":"bem","r":"adv"},{"t":"neerlandês","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu falo ainda não bem neerlandês",
+      "note": "Em português o \"não\" vem ANTES do verbo; o niet vem DEPOIS. Diga essa frase e todo flamengo vai desacelerar com um sorriso. 😊"
+    },
+    {
+      "nl": [{"t":"Tot","r":"prep"},{"t":"ziens","r":"adv"},{"t":"!","r":"punc"},{"t":"Tot","r":"prep"},{"t":"morgen","r":"adv"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Até","r":"prep"},{"t":"logo","r":"adv"},{"t":"!","r":"punc"},{"t":"Até","r":"prep"},{"t":"amanhã","r":"adv"},{"t":"!","r":"punc"}],
+      "note": "Fórmula mágica de despedida: tot + qualquer coisa. Tot ziens (até logo), tot morgen (até amanhã), tot straks (até já), tot volgende week (até semana que vem). 👋"
+    }
+  ],
+  "vocab": [
+    { "nl": "de naam", "art": "de", "split": null, "pt": "o nome", "emoji": "🏷️" },
+    { "nl": "de voornaam", "art": "de", "split": "voor (antes) + naam (nome)", "pt": "primeiro nome, o \"nome da frente\"", "emoji": "🪪" },
+    { "nl": "de achternaam", "art": "de", "split": "achter (atrás) + naam (nome)", "pt": "sobrenome, o \"nome de trás\"", "emoji": "📛" },
+    { "nl": "de buurvrouw", "art": "de", "split": "buur (vizinho) + vrouw (mulher)", "pt": "a vizinha", "emoji": "👩" },
+    { "nl": "de buurman", "art": "de", "split": "buur (vizinho) + man (homem)", "pt": "o vizinho", "emoji": "👨" },
+    { "nl": "de woonplaats", "art": "de", "split": "woon (morar) + plaats (lugar)", "pt": "cidade onde mora", "emoji": "📍" },
+    { "nl": "het huisnummer", "art": "het", "split": "huis (casa) + nummer (número)", "pt": "número da casa", "emoji": "🔢" },
+    { "nl": "de geboortedatum", "art": "de", "split": "geboorte (nascimento) + datum (data)", "pt": "data de nascimento", "emoji": "🎂" },
+    { "nl": "het land", "art": "het", "split": null, "pt": "o país", "emoji": "🌍" },
+    { "nl": "de dochter", "art": "de", "split": null, "pt": "a filha", "emoji": "👧" },
+    { "nl": "de zoon", "art": "de", "split": null, "pt": "o filho", "emoji": "👦" },
+    { "nl": "het kind", "art": "het", "split": null, "pt": "a criança (plural: de kinderen)", "emoji": "👶" },
+    { "nl": "wonen", "art": null, "split": null, "pt": "morar", "emoji": "🏡" },
+    { "nl": "heten", "art": null, "split": null, "pt": "chamar-se (Ik heet... = me chamo...)", "emoji": "🗣️" },
+    { "nl": "herhalen", "art": null, "split": "her- (de novo) + halen (buscar)", "pt": "repetir, \"buscar de novo\"", "emoji": "🔁" },
+    { "nl": "Aangenaam!", "art": null, "split": null, "pt": "Prazer (em conhecer)!", "emoji": "🤝" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Como você diz \"Me chamo Sofia\" em neerlandês? 🤔",
+      "options": ["Ik heet Sofia.", "Ik woon Sofia.", "Ik heb Sofia.", "Jij bent Sofia."],
+      "answer": 0,
+      "explain": "heten = chamar-se, com o \"me\" já embutido: Ik heet Sofia. wonen é morar, hebben é ter, e Jij bent Sofia diz que VOCÊ é a Sofia."
+    },
+    {
+      "type": "mc",
+      "q": "Você quer dizer que vem do Brasil. Qual é a frase certa? 🇧🇷",
+      "options": ["Ik kom uit Brazilië.", "Ik kom in Brazilië.", "Ik kom naar Brazilië.", "Ik woon uit Brazilië."],
+      "answer": 0,
+      "explain": "Origem usa uit (de dentro de): Ik kom uit Brazilië. in é para onde você mora agora, naar é direção (para o Brasil)."
+    },
+    {
+      "type": "mc",
+      "q": "A vizinha Els fala rápido demais. Qual frase salva-vidas você usa? 🆘",
+      "options": ["Kan u dat herhalen, alstublieft?", "Tot ziens!", "Ik heb een dochter.", "Welkom in de straat!"],
+      "answer": 0,
+      "explain": "Kan u dat herhalen, alstublieft? = Pode repetir, por favor? As outras são despedida, informação de família e boas-vindas: educadas, mas não salvam a conversa."
+    },
+    {
+      "type": "mc",
+      "q": "O que significa \"Zij is twee jaar oud\"? 🎂",
+      "options": ["Ela tem dois anos.", "Ela é velha demais.", "Ela tem duas filhas.", "Ela mora lá há dois anos."],
+      "answer": 0,
+      "explain": "Idade em neerlandês usa zijn + oud (literalmente: ela é dois anos velha). O português usa TER anos; o neerlandês usa SER velho."
+    },
+    {
+      "type": "listen",
+      "nl": "Waar kom je vandaan?",
+      "options": ["De onde você vem?", "Onde você mora?", "Como você se chama?", "Para onde você vai?"],
+      "answer": 0,
+      "explain": "Waar kom je vandaan? pergunta a ORIGEM. O vandaan no fim é o \"de\" do português que viajou para o final da frase."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik woon hiernaast.",
+      "options": ["Eu moro aqui do lado.", "Eu moro longe daqui.", "Eu venho de longe.", "Eu trabalho aqui perto."],
+      "answer": 0,
+      "explain": "hiernaast = hier (aqui) + naast (ao lado). É assim que a vizinha Els se apresenta: Ik woon hiernaast."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik begrijp het niet.",
+      "options": ["Eu não entendo.", "Eu não repito.", "Eu entendo tudo."],
+      "answer": 0,
+      "explain": "begrijpen = entender; o niet no fim nega a frase. Sem o niet seria \"Ik begrijp het\" = eu entendo. Frase salva-vidas essencial!"
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "Sofia.",
+      "answer": "heet",
+      "alt": ["ben"],
+      "hint": "chamar-se",
+      "explain": "Ik heet Sofia = me chamo Sofia (heten já traz o \"me\" embutido). Ik ben Sofia também funciona, como \"eu sou a Sofia\"."
+    },
+    {
+      "type": "fill",
+      "before": "Ik kom",
+      "after": "Brazilië.",
+      "answer": "uit",
+      "alt": [],
+      "hint": "de (origem, \"de dentro de\")",
+      "explain": "Origem = uit: Ik kom uit Brazilië. Pense em uit como \"de dentro de\": você saiu de dentro do Brasil."
+    },
+    {
+      "type": "fill",
+      "before": "Ik woon",
+      "after": "België.",
+      "answer": "in",
+      "alt": [],
+      "hint": "em",
+      "explain": "O lugar onde você mora usa in: Ik woon in België. Compare: kom UIT Brazilië (origem), woon IN België (moradia atual)."
+    },
+    {
+      "type": "order",
+      "pt": "Eu moro em Antuérpia.",
+      "tokens": ["Ik", "woon", "in", "Antwerpen"],
+      "answer": "Ik woon in Antwerpen",
+      "explain": "Ordem igualzinha ao português: sujeito + verbo (posição 2!) + lugar. Ik woon in Antwerpen."
+    },
+    {
+      "type": "order",
+      "pt": "De onde você vem?",
+      "tokens": ["Waar", "kom", "je", "vandaan"],
+      "answer": "Waar kom je vandaan",
+      "explain": "Waar abre a pergunta, o verbo kom fica na posição 2, o sujeito je vem depois, e o vandaan (o nosso \"de\") vai para o fim."
+    },
+    {
+      "type": "order",
+      "pt": "Você já fala um pouco de neerlandês?",
+      "tokens": ["Spreek", "je", "al", "een", "beetje", "Nederlands"],
+      "answer": "Spreek je al een beetje Nederlands",
+      "explain": "Pergunta sim/não: o verbo Spreek pula para a posição 1 e o sujeito je vem logo depois. Sem auxiliar, só inversão."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["de voornaam", "o primeiro nome"],
+        ["de achternaam", "o sobrenome"],
+        ["de buurvrouw", "a vizinha"],
+        ["de woonplaats", "a cidade onde mora"],
+        ["de geboortedatum", "a data de nascimento"]
+      ],
+      "explain": "Todas são palavras de formulário e de conversa de portão: voor (antes) + naam, achter (atrás) + naam, buur (vizinho) + vrouw (mulher), woon (morar) + plaats (lugar), geboorte (nascimento) + datum (data)."
+    }
+  ]
+}

@@ -1,0 +1,223 @@
+{
+  "id": "a2-02-perfectum",
+  "unit": "A2",
+  "title": "O passado: perfectum · Perfectum",
+  "emoji": "⏮️",
+  "infographic": "assets/infographics/tang.svg",
+  "teaching": [
+    {
+      "emoji": "🧩",
+      "title": "A fórmula do passado falado",
+      "html": "<p>No dia a dia, o belga conta o passado quase sempre com o <b>perfectum</b>: <b>hebben/zijn + particípio</b>. Parece o nosso \"tenho trabalhado\", mas o sentido é o passado simples: <i>trabalhei</i>.</p><p><b>Ik heb gisteren gewerkt.</b> = Eu trabalhei ontem. <small>(literal: \"eu tenho ontem trabalhado\")</small></p><p>O particípio regular é um lego de 3 peças: <b>ge-</b> + radical + <b>-t/-d</b>:</p><ul><li>ge + werk + t = <b>gewerkt</b> (trabalhado) 💼</li><li>ge + woon + d = <b>gewoond</b> (morado) 🏠</li><li>ge + bel + d = <b>gebeld</b> (ligado) 📞</li></ul><p><small>🗣️ Na Flandres você também vai ouvir <b>gij/ge</b> no lugar de jij: <i>Wat hebt ge gedaan?</i> (O que você fez?). Entenda, mas responda com jij/je que está sempre certo.</small></p>"
+    },
+    {
+      "emoji": "⛵",
+      "title": "'t kofschip: termina em -t ou -d?",
+      "html": "<p>Olhe a <b>última letra do radical</b>. Se ela está no navio <b>'T KOFSCHIP</b> (t, k, f, s, ch, p: as consoantes <b>surdas</b>), o final é <b>-t</b>. Todo o resto: <b>-d</b>.</p><table class=\"vocab\"><tr><th>verbo</th><th>radical</th><th>termina em...</th><th>particípio</th></tr><tr><td>werken (trabalhar)</td><td>werk</td><td>k está no navio ⛵</td><td><b>gewerkt</b></td></tr><tr><td>fietsen (pedalar)</td><td>fiets</td><td>s está no navio ⛵</td><td><b>gefietst</b></td></tr><tr><td>wonen (morar)</td><td>woon</td><td>n não está 🌊</td><td><b>gewoond</b></td></tr><tr><td>bellen (ligar)</td><td>bel</td><td>l não está 🌊</td><td><b>gebeld</b></td></tr></table><p><small>🖐️ Truque para brasileiro: ponha a mão na garganta e fale a consoante. Não vibra (como p, t, k, f, s)? Então é surda: <b>-t</b>. Vibra? <b>-d</b>.</small></p><p><small>🚫 <b>Sem ge-:</b> verbos que começam com be-, ge-, er-, her-, ont-, ver- não ganham o prefixo: betalen → <b>betaald</b> (pago), verhuizen → <b>verhuisd</b> (mudado de casa).</small></p>"
+    },
+    {
+      "emoji": "🥢",
+      "title": "A pinça: heb ... gekocht",
+      "html": "<p>O auxiliar fica na <b>posição 2</b> e o particípio vai <b>lá no fim</b>. Juntos eles formam uma pinça (<i>de tang</i>) que abraça a frase inteira:</p><p><b>Ik</b> <b>heb</b> gisteren in Antwerpen een brood <b>gekocht</b>.<br><small>eu TENHO ontem em Antuérpia um pão COMPRADO = Comprei um pão ontem em Antuérpia.</small></p><ul><li>❌ <i>Ik heb gekocht een brood</i> (erro clássico de brasileiro: soltar a pinça)</li><li>✅ <i>Ik heb een brood gekocht</i> (tudo dentro da pinça)</li></ul><p>Se a frase começa com tempo, o sujeito pula para depois do verbo (V2): <b>Gisteren heb ik gewerkt.</b> <small>(Ontem trabalhei eu, literal)</small></p>"
+    },
+    {
+      "emoji": "🚗",
+      "title": "hebben ou zijn? E os irregulares urgentes",
+      "html": "<p><b>90% dos verbos usam hebben.</b> Use <b>zijn</b> com movimento ou mudança de estado:</p><ul><li>Ik <b>ben</b> naar Brazilië <b>gegaan</b> (fui ao Brasil ✈️)</li><li>Zij <b>is</b> in 1995 <b>geboren</b> (ela nasceu em 1995 👶)</li><li>Wij <b>zijn</b> naar Gent <b>verhuisd</b> (nós nos mudamos para Gent 📦)</li></ul><p>Decore estes irregulares como dupla infinitivo + particípio:</p><table class=\"vocab\"><tr><th>infinitivo</th><th>perfectum</th><th>português</th></tr><tr><td>gaan</td><td><b>is gegaan</b></td><td>ir → foi</td></tr><tr><td>komen</td><td><b>is gekomen</b></td><td>vir → veio</td></tr><tr><td>doen</td><td><b>heeft gedaan</b></td><td>fazer → fez</td></tr><tr><td>eten</td><td><b>heeft gegeten</b></td><td>comer → comeu</td></tr><tr><td>drinken</td><td><b>heeft gedronken</b></td><td>beber → bebeu</td></tr><tr><td>kopen</td><td><b>heeft gekocht</b></td><td>comprar → comprou</td></tr><tr><td>zien</td><td><b>heeft gezien</b></td><td>ver → viu</td></tr><tr><td>zeggen</td><td><b>heeft gezegd</b></td><td>dizer → disse</td></tr></table>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"gisteren","r":"adv"},{"t":"gewerkt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"trabalhei","r":"verb"},{"t":"ontem","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu tenho ontem trabalhado",
+      "note": "A pinça: heb na posição 2, gewerkt no fim. Em português um verbo só (trabalhei), em neerlandês sempre dois."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"brood","r":"noun"},{"t":"gekocht","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"comprei","r":"verb"},{"t":"um","r":"art"},{"t":"pão","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu tenho um pão comprado",
+      "note": "O objeto (een brood) fica DENTRO da pinça, nunca depois do particípio."
+    },
+    {
+      "nl": [{"t":"Wij","r":"pron"},{"t":"zijn","r":"verb"},{"t":"naar","r":"prep"},{"t":"Gent","r":"noun"},{"t":"gegaan","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nós","r":"pron"},{"t":"fomos","r":"verb"},{"t":"a","r":"prep"},{"t":"Gent","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "nós somos para Gent idos",
+      "note": "gaan é movimento, então o auxiliar é zijn, não hebben."
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"heb","r":"verb"},{"t":"je","r":"pron"},{"t":"gisteren","r":"adv"},{"t":"gedaan","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"qw"},{"t":"que","r":"qw"},{"t":"você","r":"pron"},{"t":"fez","r":"verb"},{"t":"ontem","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "que tens tu ontem feito",
+      "note": "💬 Início do diálogo: segunda de manhã, na pausa do café. A pergunta clássica sobre o fim de semana."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"boodschappen","r":"noun"},{"t":"gedaan","r":"verb"},{"t":"en","r":"conj"},{"t":"frietjes","r":"noun"},{"t":"gegeten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"fiz","r":"verb"},{"t":"compras","r":"noun"},{"t":"e","r":"conj"},{"t":"comi","r":"verb"},{"t":"batata","r":"noun"},{"t":"frita","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu tenho compras feito e batatas-fritas comido",
+      "note": "boodschappen doen = fazer as compras do supermercado. E frietjes no frituur é programa de fim de semana na Flandres 🍟."
+    },
+    {
+      "nl": [{"t":"En","r":"conj"},{"t":"daarna","r":"adv"},{"t":"zijn","r":"verb"},{"t":"we","r":"pron"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"cinema","r":"noun"},{"t":"gegaan","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"E","r":"conj"},{"t":"depois","r":"adv"},{"t":"nós","r":"pron"},{"t":"fomos","r":"verb"},{"t":"ao","r":"prep"},{"t":"cinema","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "e depois somos nós para o cinema idos",
+      "note": "Começou com daarna? Inversão V2: zijn vem ANTES de we. E cinema é como o flamengo fala (NL: bioscoop)."
+    },
+    {
+      "nl": [{"t":"Leuk","r":"adj"},{"t":"!","r":"punc"},{"t":"Wat","r":"qw"},{"t":"heb","r":"verb"},{"t":"je","r":"pron"},{"t":"gezien","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Legal","r":"adj"},{"t":"!","r":"punc"},{"t":"O","r":"qw"},{"t":"que","r":"qw"},{"t":"você","r":"pron"},{"t":"viu","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "que tens tu visto",
+      "note": "zien → gezien: irregular, mas a pinça continua igual."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"al","r":"adv"},{"t":"betaald","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"já","r":"adv"},{"t":"pagou","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "tens tu já pagado",
+      "note": "Pergunta sim/não: o verbo lidera. E betalen começa com be-, então o particípio NÃO ganha ge-."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"met","r":"prep"},{"t":"mijn","r":"pron"},{"t":"gsm","r":"noun"},{"t":"betaald","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"paguei","r":"verb"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"meu","r":"pron"},{"t":"celular","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "sim, eu tenho com meu gsm pagado",
+      "note": "Na Flandres celular é gsm 📱, e pagar entre amigos se faz pelo app Wero (uns 12 euros pelo cinema, por exemplo)."
+    },
+    {
+      "nl": [{"t":"Gisteren","r":"adv"},{"t":"heb","r":"verb"},{"t":"ik","r":"pron"},{"t":"veel","r":"adv"},{"t":"koffie","r":"noun"},{"t":"gedronken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ontem","r":"adv"},{"t":"eu","r":"pron"},{"t":"bebi","r":"verb"},{"t":"muito","r":"adv"},{"t":"café","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ontem tenho eu muito café bebido",
+      "note": "Frase começa com Gisteren: inversão V2 (heb ik). E na Flandres você pede een tas koffie, uma xícara ☕."
+    },
+    {
+      "nl": [{"t":"Wij","r":"pron"},{"t":"zijn","r":"verb"},{"t":"vorig","r":"adj"},{"t":"jaar","r":"noun"},{"t":"naar","r":"prep"},{"t":"Antwerpen","r":"noun"},{"t":"verhuisd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nós","r":"pron"},{"t":"nos","r":"pron"},{"t":"mudamos","r":"verb"},{"t":"para","r":"prep"},{"t":"Antuérpia","r":"noun"},{"t":"no","r":"prep"},{"t":"ano","r":"noun"},{"t":"passado","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "nós somos ano passado para Antuérpia mudados",
+      "note": "verhuizen = mudança de estado, então zijn. E com ver- no início, nada de ge-."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"in","r":"prep"},{"t":"1995","r":"num"},{"t":"in","r":"prep"},{"t":"Brazilië","r":"noun"},{"t":"geboren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"nasci","r":"verb"},{"t":"no","r":"prep"},{"t":"Brasil","r":"noun"},{"t":"em","r":"prep"},{"t":"1995","r":"num"},{"t":".","r":"punc"}],
+      "lit": "eu sou em 1995 em Brasil nascido",
+      "note": "geboren zijn = nascer. Repare a ordem neerlandesa: tempo (in 1995) antes de lugar (in Brazilië), o contrário do português."
+    }
+  ],
+  "vocab": [
+    { "nl": "gewerkt", "art": null, "split": "ge- (marca de particípio) + werk (trabalhar) + -t ('t kofschip)", "pt": "trabalhado", "emoji": "💼" },
+    { "nl": "gekocht", "art": null, "split": "ge- + kocht (forma irregular de kopen, comprar)", "pt": "comprado", "emoji": "🛒" },
+    { "nl": "gegaan", "art": null, "split": "ge- + gaan (ir)", "pt": "ido (com zijn: fui, foi)", "emoji": "🚶" },
+    { "nl": "gedaan", "art": null, "split": "ge- + daan (forma irregular de doen, fazer)", "pt": "feito", "emoji": "✅" },
+    { "nl": "gegeten", "art": null, "split": "ge- + geten (forma irregular de eten, comer)", "pt": "comido", "emoji": "🍽️" },
+    { "nl": "gedronken", "art": null, "split": "ge- + dronken (forma irregular de drinken, beber)", "pt": "bebido", "emoji": "☕" },
+    { "nl": "gezien", "art": null, "split": "ge- + zien (ver)", "pt": "visto", "emoji": "👀" },
+    { "nl": "betaald", "art": null, "split": "betaal (pagar) + -d (sem ge-: o verbo começa com be-)", "pt": "pago", "emoji": "💶" },
+    { "nl": "verhuisd", "art": null, "split": "ver- (mudança) + huis (casa) + -d (sem ge-, com zijn)", "pt": "mudado de casa", "emoji": "📦" },
+    { "nl": "gisteren", "art": null, "pt": "ontem", "emoji": "⏮️" },
+    { "nl": "vandaag", "art": null, "split": "van (de) + daag (dia)", "pt": "hoje", "emoji": "📅" },
+    { "nl": "het weekend", "art": "het", "split": "week (semana) + end (fim, do inglês)", "pt": "o fim de semana", "emoji": "🎉" },
+    { "nl": "boodschappen doen", "art": null, "split": "boodschappen (compras) + doen (fazer)", "pt": "fazer as compras do supermercado", "emoji": "🛍️" },
+    { "nl": "de frietjes", "art": "de", "split": "friet (batata frita) + -jes (diminutivo carinhoso)", "pt": "as batatas fritas", "emoji": "🍟" },
+    { "nl": "het stoofvlees", "art": "het", "split": "stoof (cozido lento, de stoven) + vlees (carne)", "pt": "o ensopado flamengo de carne", "emoji": "🍲" },
+    { "nl": "een tas koffie", "art": null, "split": "tas (xícara, na Flandres; na Holanda seria bolsa!) + koffie (café)", "pt": "uma xícara de café", "emoji": "🫖" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual é o particípio de werken (trabalhar)? 🤔",
+      "options": ["gewerkt", "gewerkd", "gewerken", "werkte"],
+      "answer": 0,
+      "explain": "O radical werk termina em k, que está no navio 't kofschip (t, k, f, s, ch, p). Consoante surda = final -t: gewerkt."
+    },
+    {
+      "type": "mc",
+      "q": "Ik ___ naar Brussel gegaan. Qual auxiliar? 🚆",
+      "options": ["ben", "heb", "is", "word"],
+      "answer": 0,
+      "explain": "gaan é movimento, então o auxiliar é zijn. Com ik, a forma é ben: Ik ben naar Brussel gegaan."
+    },
+    {
+      "type": "mc",
+      "q": "Por que o particípio de wonen (morar) é gewoond, com -d? ⛵",
+      "options": ["porque n não está no 't kofschip", "porque o verbo é irregular", "porque termina em vogal longa", "porque woon tem duas letras o"],
+      "answer": 0,
+      "explain": "Só as consoantes surdas do 't kofschip (t, k, f, s, ch, p) pedem -t. O n é sonoro (vibra na garganta), então o final é -d: gewoond."
+    },
+    {
+      "type": "mc",
+      "q": "Qual destes particípios NÃO leva o prefixo ge-? 🚫",
+      "options": ["betaald", "gewerkt", "gegeten", "gekocht"],
+      "answer": 0,
+      "explain": "Verbos que começam com be-, ge-, er-, her-, ont-, ver- não ganham ge-. betalen → betaald (pago), direto."
+    },
+    {
+      "type": "listen",
+      "nl": "Wat heb jij gisteren gedaan?",
+      "options": ["O que você fez ontem?", "O que você vai fazer amanhã?", "Onde você trabalhou ontem?", "O que você comeu ontem?"],
+      "answer": 0,
+      "explain": "gedaan é o particípio de doen (fazer) e gisteren é ontem. A pinça: heb ... gedaan."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb met mijn gsm betaald.",
+      "options": ["Eu paguei com o meu celular.", "Eu comprei um celular novo.", "Eu liguei para a minha mãe."],
+      "answer": 0,
+      "explain": "betaald = pago e gsm = celular na Flandres. Sem ge-, porque betalen começa com be-. Entre amigos, o pagamento sai pelo app Wero."
+    },
+    {
+      "type": "listen",
+      "nl": "Wij zijn gisteren naar de markt gegaan.",
+      "options": ["Nós fomos ao mercado ontem.", "Nós vamos ao mercado amanhã.", "Nós trabalhamos no mercado ontem."],
+      "answer": 0,
+      "explain": "zijn ... gegaan = fomos (movimento usa zijn) e gisteren = ontem. Se fosse amanhã, seria morgen."
+    },
+    {
+      "type": "fill",
+      "before": "Ik heb gisteren een brood",
+      "after": ".",
+      "answer": "gekocht",
+      "alt": [],
+      "hint": "comprar (irregular!)",
+      "explain": "kopen é irregular: o particípio é gekocht, não gekoopt. Ele fecha a pinça no fim da frase."
+    },
+    {
+      "type": "fill",
+      "before": "Wij",
+      "after": "vorig jaar naar Antwerpen verhuisd.",
+      "answer": "zijn",
+      "alt": [],
+      "hint": "mudança de estado: hebben ou zijn?",
+      "explain": "verhuizen (mudar de casa) é mudança de estado, então o auxiliar é zijn: Wij zijn ... verhuisd."
+    },
+    {
+      "type": "fill",
+      "before": "Zij is in 1995",
+      "after": ".",
+      "answer": "geboren",
+      "alt": [],
+      "hint": "nascer",
+      "explain": "geboren zijn = nascer: Zij is in 1995 geboren (ela nasceu em 1995). Sempre com zijn."
+    },
+    {
+      "type": "order",
+      "pt": "Eu comprei um pão ontem.",
+      "tokens": ["Ik", "heb", "gisteren", "een", "brood", "gekocht"],
+      "answer": "Ik heb gisteren een brood gekocht",
+      "explain": "A pinça: heb na posição 2, gekocht no fim. Tempo (gisteren) e objeto (een brood) ficam dentro dela."
+    },
+    {
+      "type": "order",
+      "pt": "Ontem nós fomos a Gent.",
+      "tokens": ["Gisteren", "zijn", "we", "naar", "Gent", "gegaan"],
+      "answer": "Gisteren zijn we naar Gent gegaan",
+      "explain": "Começou com Gisteren? O verbo continua em 2º lugar (V2), então o sujeito we pula para depois de zijn. E gegaan fecha a pinça no fim."
+    },
+    {
+      "type": "match",
+      "pairs": [["gaan", "gegaan"], ["doen", "gedaan"], ["eten", "gegeten"], ["kopen", "gekocht"], ["drinken", "gedronken"]],
+      "explain": "Os irregulares urgentes: decore sempre a dupla infinitivo + particípio, como quem decora pôr/posto em português."
+    },
+    {
+      "type": "match",
+      "pairs": [["gisteren", "ontem"], ["vandaag", "hoje"], ["de frietjes", "as batatas fritas"], ["een tas koffie", "uma xícara de café"]],
+      "explain": "Palavras para contar o seu dia. Lembre: na Flandres tas é xícara; na Holanda a mesma palavra é bolsa!"
+    }
+  ]
+}

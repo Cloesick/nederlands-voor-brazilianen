@@ -1,0 +1,229 @@
+{
+  "id": "a2-03-winkelen",
+  "unit": "A2",
+  "title": "Padaria e supermercado · Winkelen",
+  "emoji": "🛒",
+  "teaching": [
+    {
+      "emoji": "🥖",
+      "title": "O ritual do domingo: bij de bakker",
+      "html": "<p>Na Flandres, domingo de manhã tem fila na padaria. A família inteira come <b>pistolets</b> (pãezinhos brancos crocantes) e <b>koffiekoeken</b> (doces folhados) no café da manhã. É o equivalente belga do pãozinho quentinho do Brasil.</p><ul><li>O padeiro abre com <b>Zeg het maar</b> (pode pedir!)</li><li>Você responde com <b>Ik wil graag...</b> ou <b>Mag ik...?</b></li><li><b>Gesneden?</b> = fatiado? Responda <i>ja, graag</i> (sim, por favor)</li></ul><p><small>💡 <b>Grijs brood</b> (pão cinza) é o semi-integral belga: fica entre o <i>wit</i> (branco) e o <i>volkoren</i> (integral).</small></p>"
+    },
+    {
+      "emoji": "🙏",
+      "title": "Ik wil graag & Mag ik: a educação embutida",
+      "html": "<p>Em português você suaviza o pedido com o imperfeito: eu <i>queria</i>. O neerlandês suaviza com a palavrinha <b>graag</b> (com prazer):</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th></tr><tr><td><b>Ik wil graag</b> twee pistolets</td><td>Eu <i>queria</i> dois pãezinhos</td></tr><tr><td><b>Mag ik</b> een koffiekoek?</td><td><i>Posso levar</i> um folhado?</td></tr><tr><td><b>Doe maar</b> twee pakken</td><td>Pode ser dois pacotes, então</td></tr></table><p><small>🎩 Com estranhos use <b>u</b> + <b>alstublieft</b>; com amigos <b>je</b> + <b>alsjeblieft</b>. Na rua flamenga você ainda vai ouvir <b>gij/ge</b> no lugar de <i>jij</i>: é informal e 100% local.</small></p>"
+    },
+    {
+      "emoji": "🛒",
+      "title": "Supermercado belga: as 4 surpresas",
+      "html": "<p>Colruyt (barato), Delhaize (qualidade), Aldi e Lidl (descontão), Albert Heijn, Carrefour. Quatro coisas que pegam todo brasileiro de surpresa:</p><ul><li>🪙 O <b>winkelwagen</b> (carrinho) só destrava com uma <b>moeda de 1 euro</b> (você recupera na devolução)</li><li>🛍️ A <b>draagtas</b> (sacola) é <b>paga</b>: leve sempre a sua de casa</li><li>♻️ Garrafas com <b>statiegeld</b>: devolva na máquina e o valor volta para você</li><li>📦 Você mesmo empacota as compras, e RÁPIDO: o caixa não espera</li></ul><p><small>💳 Faça a <b>klantenkaart</b> (cartão fidelidade): Xtra no Colruyt, SuperPlus no Delhaize. E pague com cartão (Bancontact) ou com o app <b>Wero</b> no gsm.</small></p>"
+    },
+    {
+      "emoji": "🏷️",
+      "title": "Etiquetas decifradas: THT vs TGT",
+      "html": "<p>Duas siglas na embalagem decidem se você ainda pode comer:</p><table class=\"vocab\"><tr><th>etiqueta</th><th>significado</th><th>na prática</th></tr><tr><td><b>THT</b><br><small>tenminste houdbaar tot</small></td><td>válido NO MÍNIMO até</td><td>pode consumir um pouco depois, se cheirar e parecer bem 👃</td></tr><tr><td><b>TGT</b><br><small>te gebruiken tot</small></td><td>usar ATÉ</td><td>validade dura: não passe do dia ⛔</td></tr></table><p>Promoções: <b>1+1 gratis</b> = leve 2, pague 1 · <b>per stuk</b> = por unidade · <b>per kilo</b> = por quilo · <b>aanbieding / promotie</b> = oferta.</p><p><small>🧠 <b>houdbaarheidsdatum</b> = houd (manter) + baar (-ável) + heid (-dade) + s + datum (data): quatro peças de Lego numa palavra só!</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Zeg","r":"verb"},{"t":"het","r":"pron"},{"t":"maar","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Pode","r":"verb"},{"t":"falar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "diga isso aí",
+      "note": "A fórmula de abertura de todo vendedor belga: significa 'pode fazer o seu pedido'. O maar aqui não é 'mas', é uma partícula que deixa a ordem simpática."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"graag","r":"adv"},{"t":"vier","r":"num"},{"t":"pistolets","r":"noun"},{"t":"en","r":"conj"},{"t":"een","r":"art"},{"t":"half","r":"adj"},{"t":"grijs","r":"adj"},{"t":"brood","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"queria","r":"verb"},{"t":"quatro","r":"num"},{"t":"pãezinhos","r":"noun"},{"t":"e","r":"conj"},{"t":"meio","r":"adj"},{"t":"pão","r":"noun"},{"t":"semi-integral","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu quero com-prazer quatro pistolets e um meio cinza pão",
+      "note": "graag (com prazer) transforma 'quero' em 'queria': é a educação embutida do neerlandês. E o adjetivo vem ANTES do substantivo: grijs brood."
+    },
+    {
+      "nl": [{"t":"Mag","r":"verb"},{"t":"ik","r":"pron"},{"t":"twee","r":"num"},{"t":"koffiekoeken","r":"noun"},{"t":"met","r":"prep"},{"t":"chocolade","r":"noun"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"levar","r":"verb"},{"t":"dois","r":"num"},{"t":"folhados","r":"noun"},{"t":"com","r":"prep"},{"t":"chocolate","r":"noun"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":"?","r":"punc"}],
+      "lit": "posso eu dois folhados com chocolate, por favor?",
+      "note": "Mag ik...? é o outro jeito educado de pedir. Com u fala-se alstublieft; com je, alsjeblieft."
+    },
+    {
+      "nl": [{"t":"Nog","r":"adv"},{"t":"iets","r":"pron"},{"t":"anders","r":"adv"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Mais","r":"adv"},{"t":"alguma","r":"pron"},{"t":"coisa","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "ainda algo de-outro?",
+      "note": "Pergunta padrão do vendedor. Para encerrar, responda: Nee, dat was het (não, era isso)."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"dan","r":"adv"},{"t":"zeven","r":"num"},{"t":"euro","r":"noun"},{"t":"vijftig","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Então","r":"adv"},{"t":"são","r":"verb"},{"t":"sete","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":".","r":"punc"}],
+      "lit": "isso é então sete euro cinquenta",
+      "note": "Preço falado: euro fica no singular e os centavos vêm direto, sem 'e'. Zeven euro vijftig = 7,50 euros."
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"kaart","r":"noun"},{"t":"betalen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"pagar","r":"verb"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"cartão","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "posso eu com o cartão pagar?",
+      "note": "A pinça: o segundo verbo (betalen) vai para o FIM da frase. Na Bélgica quase tudo se paga com cartão ou com o app Wero."
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"staan","r":"verb"},{"t":"de","r":"art"},{"t":"winkelwagentjes","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"ficam","r":"noun"},{"t":"os","r":"art"},{"t":"carrinhos","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "staan = literalmente 'estar em pé'. Objetos verticais ou sobre rodas 'staan' em neerlandês; coisas deitadas 'liggen'."
+    },
+    {
+      "nl": [{"t":"Hebt","r":"verb"},{"t":"u","r":"pron"},{"t":"een","r":"art"},{"t":"klantenkaart","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"tem","r":"verb"},{"t":"um","r":"art"},{"t":"cartão","r":"noun"},{"t":"de","r":"prep"},{"t":"cliente","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem você um cartão-de-clientes?",
+      "note": "Pergunta sim/não: o verbo abre a frase (inversão). Na Flandres o caixa usa u com você, e entre colegas você ouvirá gij/ge."
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"de","r":"art"},{"t":"lege","r":"adj"},{"t":"flessen","r":"noun"},{"t":"terugbrengen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"posso","r":"verb"},{"t":"devolver","r":"verb"},{"t":"as","r":"art"},{"t":"garrafas","r":"noun"},{"t":"vazias","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "onde posso eu as vazias garrafas trazer-de-volta?",
+      "note": "Garrafas com statiegeld voltam para a máquina do mercado e o depósito volta para o seu bolso. O verbo principal fecha a frase."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"draagtassen","r":"noun"},{"t":"zijn","r":"verb"},{"t":"niet","r":"neg"},{"t":"gratis","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"As","r":"art"},{"t":"sacolas","r":"noun"},{"t":"não","r":"neg"},{"t":"são","r":"verb"},{"t":"gratuitas","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "as sacolas são não gratuitas",
+      "note": "niet vem DEPOIS do verbo; em português o 'não' vem antes. E sim: a sacola é paga, leve a sua!"
+    },
+    {
+      "nl": [{"t":"Deze","r":"pron"},{"t":"yoghurt","r":"noun"},{"t":"is","r":"verb"},{"t":"in","r":"prep"},{"t":"promotie","r":"noun"},{"t":":","r":"punc"},{"t":"één","r":"num"},{"t":"plus","r":"conj"},{"t":"één","r":"num"},{"t":"gratis","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Este","r":"pron"},{"t":"iogurte","r":"noun"},{"t":"está","r":"verb"},{"t":"em","r":"prep"},{"t":"promoção","r":"noun"},{"t":":","r":"punc"},{"t":"um","r":"num"},{"t":"mais","r":"conj"},{"t":"um","r":"num"},{"t":"grátis","r":"adj"},{"t":".","r":"punc"}],
+      "note": "1+1 gratis = leve dois, pague um. Oferta também aparece como aanbieding. E confira a houdbaarheidsdatum antes de estocar!"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"mijn","r":"pron"},{"t":"draagtas","r":"noun"},{"t":"vergeten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Esqueci","r":"verb"},{"t":"a","r":"art"},{"t":"minha","r":"pron"},{"t":"sacola","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu sou minha sacola esquecido",
+      "note": "Perfectum do A2: vergeten faz o passado com zijn (ik ben vergeten) e o particípio fecha a frase. Solução na hora: Heeft u een zakje? (tem uma sacolinha?)"
+    }
+  ],
+  "vocab": [
+    { "nl": "de bakker", "art": "de", "split": null, "pt": "padeiro; a padaria (bij de bakker)", "emoji": "👨‍🍳" },
+    { "nl": "de pistolet", "art": "de", "split": null, "pt": "pãozinho branco crocante do domingo (palavra do francês)", "emoji": "🥖" },
+    { "nl": "de koffiekoek", "art": "de", "split": "koffie (café) + koek (bolo)", "pt": "doce folhado de padaria, 'bolo de café'", "emoji": "🥐" },
+    { "nl": "het brood", "art": "het", "split": null, "pt": "pão; grijs brood = pão semi-integral belga", "emoji": "🍞" },
+    { "nl": "boodschappen doen", "art": null, "split": "boodschappen (compras/recados) + doen (fazer)", "pt": "fazer as compras do mercado", "emoji": "🧺" },
+    { "nl": "de winkelwagen", "art": "de", "split": "winkel (loja) + wagen (carro)", "pt": "carrinho de compras (destrava com moeda de 1 euro)", "emoji": "🛒" },
+    { "nl": "het statiegeld", "art": "het", "split": "statie (depósito) + geld (dinheiro)", "pt": "valor de retorno das garrafas: devolva e recupere", "emoji": "♻️" },
+    { "nl": "de houdbaarheidsdatum", "art": "de", "split": "houd (manter) + baar (-ável) + heid (-dade) + s + datum (data)", "pt": "data de validade, 'data da mantenibilidade'", "emoji": "📅" },
+    { "nl": "de diepvries", "art": "de", "split": "diep (profundo) + vries (congelar)", "pt": "congelados; freezer", "emoji": "🧊" },
+    { "nl": "de draagtas", "art": "de", "split": "draag (carregar) + tas (sacola)", "pt": "sacola de compras: é PAGA, leve a sua", "emoji": "🛍️" },
+    { "nl": "de aanbieding", "art": "de", "split": "aan + bieding (de aanbieden, oferecer)", "pt": "oferta, promoção", "emoji": "🏷️" },
+    { "nl": "de klantenkaart", "art": "de", "split": "klanten (clientes) + kaart (cartão)", "pt": "cartão fidelidade (Xtra, SuperPlus...)", "emoji": "💳" },
+    { "nl": "de kassa", "art": "de", "split": null, "pt": "o caixa do mercado", "emoji": "🧾" },
+    { "nl": "het wisselgeld", "art": "het", "split": "wissel (troca) + geld (dinheiro)", "pt": "troco", "emoji": "🪙" },
+    { "nl": "de zelfscan", "art": "de", "split": "zelf (você mesmo) + scan (escanear)", "pt": "caixa de autoatendimento", "emoji": "📲" },
+    { "nl": "betalen", "art": null, "split": null, "pt": "pagar", "emoji": "💶" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Na padaria, o padeiro diz: 'Zeg het maar.' O que ele quer dizer? 🥖",
+      "options": ["Fale mais alto, por favor", "Pode pedir! O que vai ser?", "Estamos fechando", "Repita, eu não entendi"],
+      "answer": 1,
+      "explain": "Zeg het maar (literalmente 'diga isso aí') é a fórmula padrão do vendedor belga para abrir o atendimento: 'pode fazer o seu pedido'."
+    },
+    {
+      "type": "mc",
+      "q": "No rótulo do iogurte: 'tenminste houdbaar tot 12/08' (THT). O que significa? 🏷️",
+      "options": ["Data de fabricação", "Validade dura: jogue fora dia 12/08", "Válido NO MÍNIMO até 12/08: pode consumir um pouco depois se estiver bom", "Data do fim da promoção"],
+      "answer": 2,
+      "explain": "THT = tenminste houdbaar tot = 'válido no mínimo até'. Depois da data o produto pode perder qualidade, mas ainda pode estar bom: use o nariz e os olhos."
+    },
+    {
+      "type": "mc",
+      "q": "E 'te gebruiken tot' (TGT) numa bandeja de frango? 🍗",
+      "options": ["Validade DURA: não consuma depois da data", "Pode comer até uma semana depois", "Preço por quilo", "Produto congelado"],
+      "answer": 0,
+      "explain": "TGT = te gebruiken tot = 'usar até'. É a validade rígida de produtos frescos e perecíveis: depois do dia, não arrisque."
+    },
+    {
+      "type": "mc",
+      "q": "Você chega no Colruyt e quer pegar um winkelwagen. O que você precisa? 🛒",
+      "options": ["Nada, é só pegar", "Um cartão fidelidade", "Pagar 5 euros na kassa", "Uma moeda de 1 euro"],
+      "answer": 3,
+      "explain": "O carrinho belga fica preso por corrente: você destrava com uma moeda de 1 euro e a recupera quando devolve o carrinho no lugar."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik wil graag vier pistolets, alstublieft.",
+      "options": ["Eu queria quatro pãezinhos, por favor.", "Eu quero quatro croissants, por favor.", "Posso pagar quatro euros, por favor?"],
+      "answer": 0,
+      "explain": "Ik wil graag = 'eu queria' (pedido educado); pistolets são os pãezinhos brancos do domingo; alstublieft = por favor (formal)."
+    },
+    {
+      "type": "listen",
+      "nl": "Dat is dan zeven euro vijftig.",
+      "options": ["Fica em setenta e cinco euros.", "Fica em sete euros e cinquenta.", "Fica em cinco euros e setenta."],
+      "answer": 1,
+      "explain": "zeven euro vijftig = 7,50 euros. No preço falado, euro fica no singular e os centavos vêm direto depois, sem 'e'."
+    },
+    {
+      "type": "listen",
+      "nl": "De draagtassen zijn niet gratis.",
+      "options": ["Os carrinhos não são de graça.", "As sacolas são de graça hoje.", "As sacolas não são de graça."],
+      "answer": 2,
+      "explain": "draagtas = sacola (draag = carregar + tas = sacola); niet = não. Na Bélgica a sacola do mercado é sempre paga."
+    },
+    {
+      "type": "fill",
+      "before": "Ik wil",
+      "after": "een grijs brood, alstublieft.",
+      "answer": "graag",
+      "alt": [],
+      "hint": "a palavrinha da educação",
+      "explain": "graag (com prazer) é o que transforma 'ik wil' (eu quero, seco) em 'eu queria' (educado). Sem graag o pedido soa rude."
+    },
+    {
+      "type": "fill",
+      "before": "Kan ik met de kaart",
+      "after": "?",
+      "answer": "betalen",
+      "alt": [],
+      "hint": "pagar (vai para o fim!)",
+      "explain": "A pinça do neerlandês: kan abre a pergunta e o segundo verbo (betalen) fecha a frase, lá no fim."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ben mijn draagtas",
+      "after": ".",
+      "answer": "vergeten",
+      "alt": [],
+      "hint": "particípio de esquecer",
+      "explain": "Perfectum: 'esqueci a minha sacola'. vergeten usa zijn como auxiliar (ik ben vergeten) e o particípio fica no fim da frase."
+    },
+    {
+      "type": "order",
+      "pt": "Posso pagar com o cartão?",
+      "tokens": ["Kan", "ik", "met", "de", "kaart", "betalen"],
+      "answer": "Kan ik met de kaart betalen",
+      "explain": "Pergunta sim/não: o verbo conjugado (kan) abre a frase, o sujeito (ik) vem em seguida e o infinitivo (betalen) fecha a pinça no fim."
+    },
+    {
+      "type": "order",
+      "pt": "Onde posso devolver as garrafas vazias?",
+      "tokens": ["Waar", "kan", "ik", "de", "lege", "flessen", "terugbrengen"],
+      "answer": "Waar kan ik de lege flessen terugbrengen",
+      "explain": "Palavra interrogativa (Waar) + verbo (kan) + sujeito (ik); o adjetivo lege vem antes de flessen e o verbo principal terugbrengen fecha a frase."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["de winkelwagen", "o carrinho de compras"],
+        ["het statiegeld", "o depósito das garrafas"],
+        ["de draagtas", "a sacola"],
+        ["de aanbieding", "a promoção"],
+        ["het wisselgeld", "o troco"],
+        ["de houdbaarheidsdatum", "a data de validade"]
+      ],
+      "explain": "Repare como as palavras compostas se montam: winkel+wagen (carro de loja), draag+tas (sacola de carregar), wissel+geld (dinheiro de troca)."
+    },
+    {
+      "type": "mc",
+      "q": "Você está sem dinheiro vivo no mercado. Como os belgas pagam? 💶",
+      "options": ["Com Pix", "Com cheque", "Com cartão (Bancontact) ou com o app Wero", "Só aceitam dinheiro"],
+      "answer": 2,
+      "explain": "O cartão com Bancontact é rei na Bélgica, e o app de pagamento pelo gsm é o Wero. Pix não existe na Europa, mas o Wero cumpre o mesmo papel."
+    }
+  ]
+}

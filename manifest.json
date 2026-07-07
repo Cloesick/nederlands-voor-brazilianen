@@ -1,0 +1,12 @@
+{
+  "name": "Nederlands! Curso de neerlandês para brasileiros",
+  "short_name": "Nederlands!",
+  "description": "Curso completo de neerlandês (flamengo) para brasileiros: lições A1-C1, exercícios, flashcards e áudio.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FBF7F0",
+  "theme_color": "#23201B",
+  "icons": [
+    { "src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

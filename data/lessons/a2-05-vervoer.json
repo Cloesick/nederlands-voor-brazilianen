@@ -1,0 +1,219 @@
+{
+  "id": "a2-05-vervoer",
+  "unit": "A2",
+  "title": "Bonde, ônibus e trem · Openbaar vervoer",
+  "emoji": "🚌",
+  "teaching": [
+    {
+      "emoji": "🚌",
+      "title": "🚌 Quem é quem: De Lijn e NMBS",
+      "html": "<p>Na Flandres, o transporte público tem dois donos:</p><table class=\"vocab\"><tr><th>Empresa</th><th>O que opera</th><th>App</th></tr><tr><td><b>De Lijn</b></td><td>ônibus e bonde (tram) em toda a Flandres</td><td>De Lijn (m-ticket)</td></tr><tr><td><b>NMBS</b></td><td>trens em toda a Bélgica</td><td>NMBS/SNCB</td></tr></table><p>Diferente do Brasil, onde cada cidade tem sua empresa de ônibus, aqui <b>uma</b> empresa regional cobre a Flandres inteira. Seu cartão <b>MOBIB</b> funciona em qualquer bonde ou ônibus da região. 💳</p>"
+    },
+    {
+      "emoji": "💳",
+      "title": "💳 A regra sagrada: escaneie ao ENTRAR",
+      "html": "<p>No bonde ou ônibus da De Lijn:</p><ul><li>📲 <b>Mais barato:</b> m-ticket no app da De Lijn ou MOBIB com abonnement</li><li>💳 <b>Fácil:</b> cartão de débito contactless no leitor amarelo ou branco da porta</li><li>💶 <b>Evite dinheiro vivo:</b> nem sempre aceito e mais caro</li></ul><p>Você escaneia <b>só ao entrar</b> (instappen). Ao sair, nada: <i>uitscannen is niet nodig</i>. Fiscais (<b>controleurs</b>) circulam à paisana; se você não escaneou, a multa passa de €100. 👮</p>"
+    },
+    {
+      "emoji": "🚆",
+      "title": "🚆 No trem da NMBS: spoor, weekendticket e staking",
+      "html": "<ul><li>🎫 Compre o bilhete no app ou na máquina <b>antes</b> de embarcar; a bordo sai bem mais caro</li><li>🚉 <b>Spoor 4</b> = linha/plataforma 4. Confira o painel: mudanças de última hora são comuns</li><li>🌞 <b>Weekendticket:</b> ida e volta com 50% de desconto no fim de semana</li><li>👶 Crianças <b>menores de 12</b> viajam grátis acompanhadas (até 4 por adulto!)</li><li>✊ <b>Staking</b> (greve) é quase tradição belga: cheque o app no dia da viagem</li><li>⏳ <b>Vertraging</b> (atraso): em neerlandês o trem TEM atraso, <i>de trein heeft vertraging</i></li></ul>"
+    },
+    {
+      "emoji": "🌉",
+      "title": "🌉 Gramática de bolso: a pinça e o verbo no fim",
+      "html": "<p>Duas estruturas que aparecem o tempo todo no transporte:</p><ul><li><b>A pinça (modal + infinitivo):</b> <i>Moet ik mijn ticket vooraf <b>kopen</b>?</i> O modal (moet) abre e o infinitivo (kopen) fecha a frase. Em português os verbos ficam juntos: \"Preciso comprar...\".</li><li><b>Verbo no fim depois de als:</b> <i>Je moet scannen als je <b>instapt</b>.</i> Na oração com \"als\" (quando), o verbo vai para o fim.</li></ul><p>💡 E repare nas palavras LEGO: <i>eind+halte</i>, <i>dienst+regeling</i>, <i>over+stap</i>. Quebrar a palavra é entender a palavra.</p><p><small>Na rua, um flamengo informal vai dizer <i>gij/ge</i> em vez de <i>je</i>: \"Ge moet scannen, hè!\" Entenda, mas responda com je/u que está sempre certo. 😉</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"is","r":"verb"},{"t":"de","r":"art"},{"t":"tramhalte","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"ponto","r":"noun"},{"t":"de","r":"prep"},{"t":"bonde","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "tramhalte = tram + halte (parada): o neerlandês cola as palavras em vez de usar \"de\"."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"tram","r":"noun"},{"t":"komt","r":"verb"},{"t":"om","r":"prep"},{"t":"half","r":"num"},{"t":"drie","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"bonde","r":"noun"},{"t":"chega","r":"verb"},{"t":"às","r":"prep"},{"t":"duas","r":"num"},{"t":"e","r":"conj"},{"t":"meia","r":"num"},{"t":".","r":"punc"}],
+      "lit": "o bonde vem em metade três",
+      "note": "half drie = 2:30, meia hora ANTES das três, não depois! Pense: a caminho das três."
+    },
+    {
+      "nl": [{"t":"Kinderen","r":"noun"},{"t":"onder","r":"prep"},{"t":"de","r":"art"},{"t":"twaalf","r":"num"},{"t":"reizen","r":"verb"},{"t":"gratis","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Crianças","r":"noun"},{"t":"menores","r":"adj"},{"t":"de","r":"prep"},{"t":"doze","r":"num"},{"t":"viajam","r":"verb"},{"t":"grátis","r":"adv"},{"t":".","r":"punc"}],
+      "note": "Na NMBS: até 4 crianças menores de 12 grátis por adulto. onder = sob/abaixo de."
+    },
+    {
+      "nl": [{"t":"Op","r":"prep"},{"t":"welk","r":"qw"},{"t":"spoor","r":"noun"},{"t":"vertrekt","r":"verb"},{"t":"de","r":"art"},{"t":"trein","r":"noun"},{"t":"naar","r":"prep"},{"t":"Gent","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"De","r":"prep"},{"t":"qual","r":"qw"},{"t":"linha","r":"noun"},{"t":"parte","r":"verb"},{"t":"o","r":"art"},{"t":"trem","r":"noun"},{"t":"para","r":"prep"},{"t":"Gante","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "spoor = trilho/rastro. Spoor 4 no painel = plataforma 4. Pergunta essencial na estação!"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"trein","r":"noun"},{"t":"heeft","r":"verb"},{"t":"tien","r":"num"},{"t":"minuten","r":"noun"},{"t":"vertraging","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"trem","r":"noun"},{"t":"está","r":"verb"},{"t":"com","r":"prep"},{"t":"dez","r":"num"},{"t":"minutos","r":"noun"},{"t":"de","r":"prep"},{"t":"atraso","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o trem tem dez minutos atraso",
+      "note": "Em neerlandês o trem TEM atraso (hebben), não está atrasado. vertraging = ver + traag (lento) + ing."
+    },
+    {
+      "nl": [{"t":"Is","r":"verb"},{"t":"er","r":"adv"},{"t":"morgen","r":"adv"},{"t":"een","r":"art"},{"t":"staking","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Tem","r":"verb"},{"t":"greve","r":"noun"},{"t":"amanhã","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "é aí amanhã uma greve?",
+      "note": "er is = tem/há. Na pergunta o verbo pula para a frente: Is er...? Greve é quase tradição belga."
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"moet","r":"verb"},{"t":"ik","r":"pron"},{"t":"overstappen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"preciso","r":"verb"},{"t":"fazer","r":"verb"},{"t":"baldeação","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "onde devo eu sobre-passar?",
+      "note": "overstappen = over (por cima) + stappen (dar passos): passar de um veículo para outro. O infinitivo fecha a frase."
+    },
+    {
+      "nl": [{"t":"Pardon","r":"x"},{"t":",","r":"punc"},{"t":"stopt","r":"verb"},{"t":"deze","r":"pron"},{"t":"tram","r":"noun"},{"t":"aan","r":"prep"},{"t":"het","r":"art"},{"t":"ziekenhuis","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Com","r":"x"},{"t":"licença","r":"x"},{"t":",","r":"punc"},{"t":"este","r":"pron"},{"t":"bonde","r":"noun"},{"t":"para","r":"verb"},{"t":"no","r":"prep"},{"t":"hospital","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "pardon, para este bonde no hospital?",
+      "note": "Pergunta sim/não: o verbo vem ANTES do sujeito (stopt deze tram). ziekenhuis = zieken (doentes) + huis (casa)."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"tram","r":"noun"},{"t":"vijftien","r":"num"},{"t":"rijdt","r":"verb"},{"t":"rechtstreeks","r":"adv"},{"t":"naar","r":"prep"},{"t":"het","r":"art"},{"t":"ziekenhuis","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"bonde","r":"noun"},{"t":"quinze","r":"num"},{"t":"vai","r":"verb"},{"t":"direto","r":"adv"},{"t":"para","r":"prep"},{"t":"o","r":"art"},{"t":"hospital","r":"noun"},{"t":".","r":"punc"}],
+      "note": "V2: o verbo rijdt fica na segunda posição. vijftien = vijf + tien, quinze."
+    },
+    {
+      "nl": [{"t":"Moet","r":"verb"},{"t":"ik","r":"pron"},{"t":"mijn","r":"pron"},{"t":"ticket","r":"noun"},{"t":"vooraf","r":"adv"},{"t":"kopen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Preciso","r":"verb"},{"t":"comprar","r":"verb"},{"t":"meu","r":"pron"},{"t":"bilhete","r":"noun"},{"t":"antes","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "devo eu meu bilhete antes comprar?",
+      "note": "A pinça: o modal (moet) abre e o infinitivo (kopen) fecha a frase. Em PT os dois verbos ficam juntos."
+    },
+    {
+      "nl": [{"t":"Je","r":"pron"},{"t":"moet","r":"verb"},{"t":"scannen","r":"verb"},{"t":"als","r":"conj"},{"t":"je","r":"pron"},{"t":"instapt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"deve","r":"verb"},{"t":"escanear","r":"verb"},{"t":"quando","r":"conj"},{"t":"você","r":"pron"},{"t":"entra","r":"verb"},{"t":".","r":"punc"}],
+      "note": "Depois de als (quando), o verbo vai para o FIM da oração: als je instapt. instappen = in + stappen, embarcar."
+    },
+    {
+      "nl": [{"t":"Uitscannen","r":"verb"},{"t":"is","r":"verb"},{"t":"niet","r":"neg"},{"t":"nodig","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Escanear","r":"verb"},{"t":"na","r":"prep"},{"t":"saída","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"necessário","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "fora-escanear é não necessário",
+      "note": "uitscannen = uit (fora) + scannen. Na De Lijn você só valida ao ENTRAR. niet vem antes do adjetivo: is niet nodig."
+    }
+  ],
+  "vocab": [
+    { "nl": "de MOBIB-kaart", "art": "de", "split": "MOBIB (marca) + kaart (cartão)", "pt": "cartão recarregável de transporte", "emoji": "💳" },
+    { "nl": "het abonnement", "art": "het", "split": "do francês, como \"assinatura\"", "pt": "passe mensal ou anual ilimitado", "emoji": "🎫" },
+    { "nl": "de dienstregeling", "art": "de", "split": "dienst (serviço) + regeling (regulação)", "pt": "tabela de horários", "emoji": "🕐" },
+    { "nl": "het spoor", "art": "het", "split": "spoor (trilho, rastro)", "pt": "linha do trem (Spoor 4 = linha 4)", "emoji": "🛤️" },
+    { "nl": "het perron", "art": "het", "split": "do francês", "pt": "plataforma da estação", "emoji": "🚉" },
+    { "nl": "de overstap", "art": "de", "split": "over (por cima) + stap (passo)", "pt": "baldeação", "emoji": "🔄" },
+    { "nl": "de Lijnkaart", "art": "de", "split": "Lijn (a empresa De Lijn) + kaart (cartão)", "pt": "cartela de 10 viagens da De Lijn", "emoji": "🎟️" },
+    { "nl": "de conducteur", "art": "de", "split": "do francês", "pt": "fiscal de bilhetes no trem", "emoji": "👮" },
+    { "nl": "scannen", "art": null, "split": "do inglês \"to scan\"", "pt": "escanear, validar o cartão", "emoji": "📲" },
+    { "nl": "de eindhalte", "art": "de", "split": "eind (fim) + halte (parada)", "pt": "ponto final", "emoji": "🏁" },
+    { "nl": "de vertraging", "art": "de", "split": "ver- + traag (lento) + -ing", "pt": "atraso (o trem \"enlentecido\")", "emoji": "⏳" },
+    { "nl": "de staking", "art": "de", "split": "staken (parar o trabalho) + -ing", "pt": "greve", "emoji": "✊" },
+    { "nl": "het weekendticket", "art": "het", "split": "weekend (fim de semana) + ticket (bilhete)", "pt": "ida e volta com 50% de desconto no fim de semana", "emoji": "🌞" },
+    { "nl": "de trein", "art": "de", "split": "cognato de \"train\"", "pt": "trem", "emoji": "🚆" },
+    { "nl": "instappen", "art": null, "split": "in (dentro) + stappen (dar passos)", "pt": "embarcar, entrar no veículo", "emoji": "🚪" },
+    { "nl": "uitstappen", "art": null, "split": "uit (fora) + stappen (dar passos)", "pt": "desembarcar, descer do veículo", "emoji": "🚶" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Você sobe no bonde 15 com seu cartão MOBIB. O que fazer? 🚊",
+      "options": ["Escanear ao entrar e ao sair", "Escanear só ao entrar", "Escanear só ao sair", "Nada, o MOBIB é automático"],
+      "answer": 1,
+      "explain": "Regra sagrada da De Lijn: escaneie ao ENTRAR (instappen). Uitscannen is niet nodig: validar na saída não existe aqui."
+    },
+    {
+      "type": "mc",
+      "q": "No painel da estação aparece \"Spoor 4\". O que significa? 🚉",
+      "options": ["Trem número 4", "Plataforma/linha 4", "Atraso de 4 minutos", "Vagão 4"],
+      "answer": 1,
+      "explain": "spoor (trilho) é a linha onde o trem para: Spoor 4 = plataforma 4. Fique de olho no painel, mudanças de spoor são comuns."
+    },
+    {
+      "type": "mc",
+      "q": "Quantas crianças menores de 12 anos viajam grátis no trem com um adulto? 👶",
+      "options": ["Nenhuma", "Uma", "Até quatro", "Quantas quiser"],
+      "answer": 2,
+      "explain": "Na NMBS, crianças menores de 12 viajam grátis acompanhadas, até 4 por adulto. Passeio de família no fim de semana fica bem barato!"
+    },
+    {
+      "type": "mc",
+      "q": "O trem parte om \"half drie\". Que horas você precisa estar no perron? ⏰",
+      "options": ["15:30", "14:30", "15:00", "12:30"],
+      "answer": 1,
+      "explain": "half drie = metade do caminho PARA as três = 2:30. Pegadinha clássica: é meia hora ANTES da hora cheia, não depois."
+    },
+    {
+      "type": "mc",
+      "q": "O que é o weekendticket da NMBS? 🌞",
+      "options": ["Bilhete só de ida aos sábados", "Ida e volta com 50% de desconto no fim de semana", "Passe ilimitado de fim de semana", "Viagem grátis aos domingos"],
+      "answer": 1,
+      "explain": "O weekendticket dá ida e volta com 50% de desconto no fim de semana. Perfeito para conhecer Gent, Brugge ou a costa. 🏖️"
+    },
+    {
+      "type": "listen",
+      "nl": "De trein naar Gent heeft twintig minuten vertraging.",
+      "options": ["O trem para Gante está com vinte minutos de atraso", "O trem para Gante parte em vinte minutos", "O trem para Gante foi cancelado"],
+      "answer": 0,
+      "explain": "vertraging = atraso (ver- + traag, lento). Em neerlandês o trem TEM atraso: heeft vertraging."
+    },
+    {
+      "type": "listen",
+      "nl": "Je moet scannen als je instapt.",
+      "options": ["Você deve escanear quando entra", "Você deve escanear quando sai", "Você pode pagar em dinheiro ao motorista"],
+      "answer": 0,
+      "explain": "instappen = in + stappen, entrar no veículo. Depois de als, o verbo vai para o fim: als je instapt."
+    },
+    {
+      "type": "listen",
+      "nl": "Op welk spoor vertrekt de trein naar Brussel?",
+      "options": ["De qual linha parte o trem para Bruxelas?", "Quando parte o trem para Bruxelas?", "O trem para Bruxelas está atrasado?"],
+      "answer": 0,
+      "explain": "welk spoor = qual linha/plataforma; vertrekken = partir. A pergunta mais útil da estação!"
+    },
+    {
+      "type": "fill",
+      "before": "De tram stopt",
+      "after": "de eindhalte.",
+      "answer": "aan",
+      "alt": ["bij"],
+      "hint": "preposição de lugar (parada)",
+      "explain": "Em flamengo se diz stoppen aan de halte: o bonde para NA parada. eindhalte = eind (fim) + halte (parada), o ponto final."
+    },
+    {
+      "type": "fill",
+      "before": "Ik moet in Mechelen",
+      "after": ".",
+      "answer": "overstappen",
+      "alt": [],
+      "hint": "fazer baldeação (over + stap)",
+      "explain": "overstappen = over (por cima) + stappen (dar passos): passar de um trem para outro. O infinitivo fecha a frase, pinça com moet."
+    },
+    {
+      "type": "fill",
+      "before": "Is er morgen een",
+      "after": "bij De Lijn?",
+      "answer": "staking",
+      "alt": [],
+      "hint": "greve (de staken, parar)",
+      "explain": "staking = staken (parar o trabalho) + -ing. Greve é quase tradição na Bélgica: sempre cheque o app antes de sair. ✊"
+    },
+    {
+      "type": "order",
+      "pt": "Preciso comprar meu bilhete antes?",
+      "tokens": ["Moet", "ik", "mijn", "ticket", "vooraf", "kopen"],
+      "answer": "Moet ik mijn ticket vooraf kopen",
+      "explain": "Pergunta sim/não: o modal (Moet) vem primeiro, o sujeito depois, e o infinitivo (kopen) fecha a frase. A pinça em ação!"
+    },
+    {
+      "type": "order",
+      "pt": "O bonde quinze vai direto para o hospital.",
+      "tokens": ["Tram", "vijftien", "rijdt", "rechtstreeks", "naar", "het", "ziekenhuis"],
+      "answer": "Tram vijftien rijdt rechtstreeks naar het ziekenhuis",
+      "explain": "V2: o verbo (rijdt) ocupa a segunda posição, depois do sujeito \"tram vijftien\". rechtstreeks = direto, sem baldeação."
+    },
+    {
+      "type": "match",
+      "pairs": [["de vertraging", "o atraso"], ["de staking", "a greve"], ["het spoor", "a linha do trem"], ["de overstap", "a baldeação"], ["de eindhalte", "o ponto final"]],
+      "explain": "Quase todas são palavras LEGO ou derivadas: ver+traag+ing, staken+ing, over+stap, eind+halte. Quebrar o composto revela o sentido."
+    }
+  ]
+}
