@@ -13,7 +13,35 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="Nederlands!">
+<link rel="canonical" href="https://nederlands-voor-brazilianen.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://nederlands-voor-brazilianen.vercel.app/">
+<meta property="og:title" content="Nederlands! Curso de neerlandês para brasileiros 🇧🇷→🇧🇪">
+<meta property="og:description" content="Curso gratuito de neerlandês (flamengo) com frases alinhadas por cores, jogos de arrastar e soltar, exercícios estilo Babbel e flashcards inteligentes.">
+<meta property="og:image" content="https://nederlands-voor-brazilianen.vercel.app/assets/og-banner.png">
+<meta property="og:locale" content="pt_BR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Nederlands! Curso de neerlandês para brasileiros 🇧🇷→🇧🇪">
+<meta name="twitter:description" content="Curso gratuito de neerlandês (flamengo) com frases alinhadas por cores, jogos de arrastar e soltar e flashcards inteligentes.">
+<meta name="twitter:image" content="https://nederlands-voor-brazilianen.vercel.app/assets/og-banner.png">
 <link rel="stylesheet" href="styles.css">
+<script>
+  // Production-only error monitoring (Sentry). Skips localhost/dev to avoid noise.
+  // DSN is a public key by design (Sentry client SDKs always ship it in frontend code).
+  if (location.hostname !== 'localhost' && location.hostname !== '127.0.0.1') {
+    var s = document.createElement('script');
+    s.src = 'https://browser.sentry-cdn.com/8.55.0/bundle.min.js';
+    s.crossOrigin = 'anonymous';
+    s.onload = function () {
+      Sentry.init({
+        dsn: 'https://c64fea4aeda87f083db705e3a2ed34bc@o4511688081539072.ingest.de.sentry.io/4511698980307024',
+        environment: location.hostname.includes('vercel.app') ? 'production' : 'github-pages',
+        tracesSampleRate: 0,
+      });
+    };
+    document.head.appendChild(s);
+  }
+</script>
 </head>
 <body>
 <header class="topbar">
