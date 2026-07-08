@@ -10,8 +10,7 @@ Coisas pendentes, organizadas por quem precisa agir. Atualizado em 2026-07-08.
 - [ ] **Apple Developer Program** — criar conta (US$ 99/ano) → precisa de Mac/CI pra compilar → empacotar via PWABuilder/Capacitor → enviar review (~24-48h). Guia: [STORES.md](STORES.md)
 - [ ] **Microsoft Partner Center** — criar conta (grátis) → empacotar `.msix` via PWABuilder → enviar. O mais rápido dos três.
 - [ ] **Conta Stripe** — criar produto "Premium" (sugestão € 4,99 único) → copiar Price ID + Secret key → configurar webhook. Guia: [MONETIZATION.md](MONETIZATION.md)
-- [ ] **Rodar `db/entitlements.sql` no Supabase** — projeto escolhido: **"Cloesick's Project"** (`wvojkskfuvknisxymowy`). Meu conector Supabase está em modo somente-leitura, então isso precisa ser colado manualmente: [abrir o SQL Editor](https://supabase.com/dashboard/project/wvojkskfuvknisxymowy/sql/new) → colar o conteúdo de `db/entitlements.sql` → Run. 30 segundos.
-- [ ] **4 variáveis de ambiente na Vercel** (`STRIPE_SECRET_KEY`, `STRIPE_PRICE_ID`, `STRIPE_WEBHOOK_SECRET`, `SUPABASE_URL`, `SUPABASE_SERVICE_KEY` — os dois últimos vêm do projeto acima) → depois mudar `PREMIUM_ENABLED: false → true` em `config.js`
+- [ ] **4 variáveis de ambiente na Vercel** (`STRIPE_SECRET_KEY`, `STRIPE_PRICE_ID`, `STRIPE_WEBHOOK_SECRET`, `SUPABASE_SERVICE_KEY` — a service_role key, NÃO a anon key, do projeto abaixo) → depois mudar `PREMIUM_ENABLED: false → true` em `config.js`. `SUPABASE_URL` = `https://etrkpxutyzwjnxidzojo.supabase.co`
 - [ ] **Conta Google AdSense** — cadastrar o site, aguardar aprovação (dias a semanas), depois preencher `ADSENSE_CLIENT`/`ADSENSE_SLOT` em `config.js`
 
 Quando tiver qualquer uma dessas contas prontas, me chame — eu termino a configuração técnica (variáveis, testes) na hora.
@@ -32,6 +31,8 @@ Quando tiver qualquer uma dessas contas prontas, me chame — eu termino a confi
 - [x] Open Graph + Twitter Card (com banner `assets/og-banner.png`) — link vira preview bonito no WhatsApp/redes
 - [x] Tópicos do repositório no GitHub (dutch, portuguese, language-learning, pwa...) — descoberta
 - [x] **Monitoramento de erros (Sentry)** — projeto `saspire/nederlands-voor-brazilianen` criado, DSN já embutido em `index.html`, ativo só em produção (não no localhost). Painel: https://saspire.sentry.io/projects/nederlands-voor-brazilianen/
+- [x] **Tabela do Supabase (`entitlements`)** — criada e verificada num projeto **novo**, `nederlands-voor-brazilianen` (ref `etrkpxutyzwjnxidzojo`, plano Free, região eu-central-1). O "Cloesick's Project" antigo (`wvojkskfuvknisxymowy`) ficou pausado 90+ dias e é considerado perdido; não usar mais.
+- [x] **Proteção contra auto-pausa** — `.github/workflows/supabase-keepalive.yml` pinga a API do Supabase 2x/semana (segunda e quinta) pra esse projeto novo nunca ficar 7 dias sem tráfego e ser pausado como o anterior. Usa a anon key (pública por design, sem risco).
 
 ## 🟢 Autônomo (nada a fazer, só monitorar de vez em quando)
 

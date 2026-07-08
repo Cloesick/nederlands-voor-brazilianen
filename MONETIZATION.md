@@ -13,10 +13,12 @@ contas pessoais já está pronto no código; faltam só os 4 passos abaixo, que 
 - Espaço de anúncio (`adSlotHTML`) que só aparece se você configurar o AdSense E o usuário não for Premium
 - `config.js` — as 2-3 linhas que você edita quando tiver as contas
 
-## 🔲 Passo 1 — Supabase (armazenar quem é Premium)
-1. Escolha um projeto Supabase (você já tem 3: MaisonJulie, Agents, Cloesick's Project) ou crie um novo
-2. No SQL Editor do projeto, cole e rode o conteúdo de `db/entitlements.sql`
-3. Em Project Settings → API, copie a **Project URL** e a **service_role key** (não a anon key!)
+## ✅ Passo 1 — Supabase (armazenar quem é Premium) — JÁ FEITO
+Projeto dedicado criado: **`nederlands-voor-brazilianen`** (ref `etrkpxutyzwjnxidzojo`, plano Free, eu-central-1).
+A tabela `entitlements` já está criada e verificada (veja `db/entitlements.sql`).
+`SUPABASE_URL` = `https://etrkpxutyzwjnxidzojo.supabase.co`. Falta só copiar a **service_role key**
+(Project Settings → API no [dashboard](https://supabase.com/dashboard/project/etrkpxutyzwjnxidzojo/settings/api) —
+não a anon key!) pro passo 3 abaixo.
 
 ## 🔲 Passo 2 — Stripe (receber o pagamento)
 1. Crie a conta em [dashboard.stripe.com/register](https://dashboard.stripe.com/register)

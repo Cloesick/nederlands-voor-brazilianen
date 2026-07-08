@@ -1,0 +1,22 @@
+name: Supabase keep-alive
+
+# Free-tier Supabase projects auto-pause after 7 days with no API traffic
+# (this is exactly what happened to a sibling project — 90+ days paused
+# became unrecoverable). This makes one harmless read every few days so
+# the entitlements project never goes quiet, at zero cost.
+
+on:
+  schedule:
+    - cron: "0 5 * * 1,4" # Mondays and Thursdays, 07:00 CEST
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase REST API
+        run: |
+          curl -sf -o /dev/null -w "HTTP %{http_code}\n" \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/entitlements?select=device_id&limit=1" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
+            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
