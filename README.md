@@ -4,6 +4,8 @@ Curso web completo e gratuito de **neerlandês (flamengo)** para falantes de **p
 
 **➡️ Estude agora: https://cloesick.github.io/nederlands-voor-brazilianen/**
 
+📋 Pendências e próximos passos: [TODO.md](TODO.md) · Lojas de app: [STORES.md](STORES.md) · Monetização: [MONETIZATION.md](MONETIZATION.md)
+
 ## 🎨 O diferencial: frases-ponte com alinhamento de cores
 
 Cada frase traduzida marca **o mesmo tipo de palavra com o mesmo estilo nas duas línguas**:
