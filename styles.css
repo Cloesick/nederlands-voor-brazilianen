@@ -147,6 +147,10 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
 .feedback small{display:block;font-weight:400;color:var(--ink);margin-top:4px}
 .ex-nav{margin-top:16px;display:flex;gap:10px;justify-content:flex-end}
 .big-audio{font-size:2.6rem;background:none;border:none;cursor:pointer}
+.pronounce-phrase{font-size:1.4rem;font-weight:800;color:var(--nl);text-align:center;margin:6px 0}
+.pronounce-rec{margin:14px 0}
+.pronounce-rec audio{width:100%;max-width:320px;margin-top:10px}
+#recStatus{font-weight:700}
 .endscreen{text-align:center;padding:30px 10px}
 .endscreen .big{font-size:3.4rem}
 
