@@ -48,11 +48,13 @@ os comandos, só preciso que você cole os valores.)
 
 ## 🔲 Passo 4 — Google AdSense (anúncios no plano gratuito) — Client ID já configurado
 `ADSENSE_CLIENT` já está preenchido em `config.js` (reaproveitado da conta já aprovada, mesma usada no
-Onbudsman). Falta só:
-1. No [dashboard do AdSense](https://www.google.com/adsense/), adicione o site
-   `nederlands-voor-brazilianen.vercel.app` (ou seu domínio próprio) como propriedade e aguarde aprovação
-   *deste site específico* (sites novos sob uma conta já aprovada ainda passam por revisão própria)
-2. Depois de aprovado, crie um bloco de anúncio e copie o **Slot ID**
+Onbudsman) e `ads.txt` já está publicado na raiz do site (obrigatório pro AdSense verificar que você é o
+vendedor autorizado). Falta só:
+1. No [dashboard do AdSense](https://www.google.com/adsense/) → Sites → Adicionar site, use
+   `nederlands-voor-brazilianen.vercel.app` e aguarde aprovação *deste site específico* (sites novos sob
+   uma conta já aprovada ainda passam por revisão própria, geralmente mais rápida que a primeira vez)
+2. Depois de aprovado, Anúncios → Por bloco de anúncios → Criar novo bloco (tipo "Display", responsivo) e
+   copie o **Slot ID**
 3. Edite `config.js`: `ADSENSE_SLOT: "..."`, commit e push
 
 Anúncios não-personalizados aparecem para todo mundo assim que isso estiver configurado (não exigem
@@ -60,12 +62,18 @@ consentimento). Anúncios personalizados (CPM maior) só ativam para visitantes 
 explicitamente no aviso de cookies — ver Passo 5.
 
 ## 🔲 Passo 5 — Google Analytics 4 (estatísticas de uso, opcional)
-1. Em [analytics.google.com](https://analytics.google.com/), crie uma **propriedade nova** especificamente
-   para este site (não reaproveite a propriedade de outro projeto — mistura tráfego não relacionado e
-   quebra os relatórios de ambos)
-2. Crie um fluxo de dados do tipo "Web", aponte para `nederlands-voor-brazilianen.vercel.app`
-3. Copie o **Measurement ID** (`G-XXXXXXXXXX`)
-4. Edite `config.js`: `GA4_MEASUREMENT_ID: "G-..."`, commit e push
+1. Em [analytics.google.com](https://analytics.google.com/), Admin → Criar propriedade, com estes valores:
+   - **Nome da propriedade:** `Nederlands! (nederlands-voor-brazilianen.vercel.app)`
+   - **Fuso horário:** Bruxelas (GMT+1) — combina com o público-alvo (Flandres)
+   - **Moeda:** EUR
+   - Categoria do setor: Educação
+2. Crie um fluxo de dados **Web**, URL `https://nederlands-voor-brazilianen.vercel.app`, nome
+   "Nederlands! - Web"
+3. **Retenção de dados** (Admin → Configurações de dados → Retenção): mude de 14 meses (padrão) para
+   **2 meses** — minimiza dados guardados, alinhado ao princípio de minimização do GDPR e desnecessário
+   pra esse tipo de app (não precisamos de histórico longo por usuário)
+4. Copie o **Measurement ID** (`G-XXXXXXXXXX`) do fluxo de dados
+5. Edite `config.js`: `GA4_MEASUREMENT_ID: "G-..."`, commit e push
 
 O script do GA4 só é carregado para visitantes que ativarem "estatísticas" no aviso de cookies
 (Google Consent Mode v2, ver `assets/consent-init.js`) — nada é enviado ao Google antes disso.
