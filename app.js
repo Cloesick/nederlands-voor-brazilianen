@@ -78,10 +78,38 @@ async function checkPremiumStatus() {
   } catch { /* offline or api not ready: keep last known state */ }
 }
 function isPremium() { return !!S.premium; }
+/* Loads the AdSense script once, flagged non-personalized (no consent banner required under
+   Google's EU User Consent Policy - personalized ads would need a CMP/consent flow instead). */
+function initAdsense() {
+  const cfg = window.NL_CONFIG;
+  if (!cfg || !cfg.ADSENSE_CLIENT || !cfg.ADSENSE_SLOT) return; // both required or we render nothing
+  window.adsbygoogle = window.adsbygoogle || [];
+  if (cfg.ADSENSE_NONPERSONALIZED) window.adsbygoogle.requestNonPersonalizedAds = 1;
+  const s = document.createElement('script');
+  s.async = true;
+  s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(cfg.ADSENSE_CLIENT);
+  s.crossOrigin = 'anonymous';
+  document.head.appendChild(s);
+}
 function adSlotHTML(id) {
-  if (isPremium() || !window.NL_CONFIG || !window.NL_CONFIG.ADSENSE_CLIENT) return '';
-  return `<div class="ad-slot" id="${id}"><small class="muted">📢 espaço reservado ·
-    <a href="#/premium">remova anúncios com o Premium ⭐</a></small></div>`;
+  const cfg = window.NL_CONFIG;
+  if (isPremium() || !cfg || !cfg.ADSENSE_CLIENT) return '';
+  if (!cfg.ADSENSE_SLOT) {
+    return `<div class="ad-slot" id="${id}"><small class="muted">📢 espaço reservado ·
+      <a href="#/premium">remova anúncios com o Premium ⭐</a></small></div>`;
+  }
+  return `<div class="ad-slot" id="${id}">
+    <ins class="adsbygoogle" style="display:block" data-ad-client="${esc(cfg.ADSENSE_CLIENT)}"
+      data-ad-slot="${esc(cfg.ADSENSE_SLOT)}" data-ad-format="auto" data-full-width-responsive="true"></ins>
+    <small class="muted"><a href="#/premium">remova anúncios com o Premium ⭐</a></small></div>`;
+}
+/* Each <ins class="adsbygoogle"> needs its own push() call once inserted into the DOM. */
+function pushAds(root) {
+  const cfg = window.NL_CONFIG;
+  if (!cfg || !cfg.ADSENSE_SLOT) return;
+  root.querySelectorAll('ins.adsbygoogle:not([data-ad-status])').forEach(() => {
+    try { (window.adsbygoogle = window.adsbygoogle || []).push({}); } catch { /* blocked by adblock etc. */ }
+  });
 }
 /* ---------- mistakes quicklist: every wrong answer gets extra attention ---------- */
 function recordMistake(m) {
@@ -198,7 +226,7 @@ function legendStrip(phrases) {
 
 /* ---------- router ---------- */
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); });
+window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); initAdsense(); });
 
 async function route() {
   const app = $('#app');
@@ -280,6 +308,7 @@ async function renderHome(app) {
     bindPhraseEvents(daily);
     daily.querySelectorAll('.speak,.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
   }
+  pushAds(app);
 }
 function unitTitle(u) {
   return { A1:'Sobrevivência 🌱', A2:'Autonomia básica ⭐ (inburgering)', B1:'Independência 🌳',
@@ -331,6 +360,7 @@ function showTab(t, L) {
       <p class="center"><button class="btn primary" id="goPractice">🏋️ Praticar agora →</button></p>`;
     bindPhraseEvents(body);
     body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    pushAds(body);
     $('#goPractice').addEventListener('click', () => {
       body.closest('#app').querySelector('[data-t="pr"]').click();
     });
