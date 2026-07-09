@@ -3,6 +3,14 @@
    Requires env vars: STRIPE_SECRET_KEY, STRIPE_PRICE_ID (set in Vercel project settings). */
 const Stripe = require('stripe');
 
+// Pinned allowlist, not derived from request headers: req.headers.origin/host are
+// attacker-controlled when this endpoint is hit directly (not through the browser UI),
+// so trusting them to build the Stripe redirect URL would be an open redirect.
+const ALLOWED_ORIGINS = [
+  'https://nederlands-voor-brazilianen.vercel.app',
+  'https://cloesick.github.io',
+];
+
 module.exports = async (req, res) => {
   if (req.method !== 'POST') { res.status(405).json({ error: 'method not allowed' }); return; }
   if (!process.env.STRIPE_SECRET_KEY || !process.env.STRIPE_PRICE_ID) {
@@ -14,7 +22,8 @@ module.exports = async (req, res) => {
 
   try {
     const stripe = Stripe(process.env.STRIPE_SECRET_KEY);
-    const origin = req.headers.origin || `https://${req.headers.host}`;
+    const requestedOrigin = req.headers.origin || '';
+    const origin = ALLOWED_ORIGINS.includes(requestedOrigin) ? requestedOrigin : ALLOWED_ORIGINS[0];
     const session = await stripe.checkout.sessions.create({
       mode: 'payment',
       line_items: [{ price: process.env.STRIPE_PRICE_ID, quantity: 1 }],

@@ -1,0 +1,156 @@
+{
+  "intro": "Esta seção é um convite para descobrir a música flamenga de verdade, não uma aula de letras. Ouvimos, sentimos o som do neerlandês cantado e aprendemos algumas palavras novas no processo. Para conhecer a letra completa, clique no link oficial do YouTube ou da fonte de letras, sempre fora do nosso app.",
+  "songs": [
+    {
+      "artist": "Clouseau",
+      "title": "Daar Gaat Ze",
+      "year": "1990",
+      "emoji": "🎸",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OSDV7IGNmwI",
+      "lyricsUrl": "https://songteksten.net/lyric/83/3341/clouseau/daar-gaat-ze.html",
+      "descriptionPt": "Uma das músicas que lançou a dupla Clouseau ao estrelato na Flandres, com um refrão contagiante sobre ver alguém especial se afastando. É considerada um marco pop dos anos 90 belgas, ainda tocada em festas e casamentos até hoje.",
+      "vocab": [
+        { "nl": "gaan", "art": "", "pt": "ir", "emoji": "🚶" },
+        { "nl": "het gevoel", "art": "het", "pt": "o sentimento", "emoji": "💭" },
+        { "nl": "de afstand", "art": "de", "pt": "a distância", "emoji": "📏" },
+        { "nl": "kijken", "art": "", "pt": "olhar", "emoji": "👀" }
+      ]
+    },
+    {
+      "artist": "Clouseau",
+      "title": "Anne",
+      "year": "1989",
+      "emoji": "💛",
+      "youtubeUrl": "https://www.youtube.com/watch?v=nRhcPmL2fLU",
+      "lyricsUrl": "https://songteksten.net/lyric/83/3333/clouseau/anne.html",
+      "descriptionPt": "Um clássico absoluto da música flamenga, uma balada romântica sobre uma paixão intensa por uma mulher chamada Anne. É provavelmente a música mais conhecida da carreira do Clouseau e um hino de verão tocado há mais de três décadas na Bélgica.",
+      "vocab": [
+        { "nl": "de naam", "art": "de", "pt": "o nome", "emoji": "🏷️" },
+        { "nl": "verliefd", "art": "", "pt": "apaixonado", "emoji": "❤️" },
+        { "nl": "de zomer", "art": "de", "pt": "o verão", "emoji": "☀️" },
+        { "nl": "dromen", "art": "", "pt": "sonhar", "emoji": "💤" },
+        { "nl": "het moment", "art": "het", "pt": "o momento", "emoji": "⏱️" }
+      ]
+    },
+    {
+      "artist": "Will Tura",
+      "title": "Viva La Vida",
+      "year": "2015",
+      "emoji": "🎤",
+      "youtubeUrl": "https://www.youtube.com/watch?v=WMvSOlNaeVY",
+      "lyricsUrl": "https://www.songtexte.com/songtext/will-tura/viva-la-vida-g33b1f495.html",
+      "descriptionPt": "Will Tura é considerado o maior cantor flamengo de todos os tempos, uma verdadeira lenda viva na Bélgica. Esta música, lançada já na fase tardia de sua carreira, celebra o amor pela vida com uma energia festiva e otimista, típica do seu estilo caloroso.",
+      "vocab": [
+        { "nl": "het leven", "art": "het", "pt": "a vida", "emoji": "🌱" },
+        { "nl": "de liefde", "art": "de", "pt": "o amor", "emoji": "❤️" },
+        { "nl": "vieren", "art": "", "pt": "celebrar", "emoji": "🎉" },
+        { "nl": "de wolk", "art": "de", "pt": "a nuvem", "emoji": "☁️" }
+      ]
+    },
+    {
+      "artist": "Bazart",
+      "title": "Goud",
+      "year": "2015",
+      "emoji": "✨",
+      "youtubeUrl": "https://www.youtube.com/watch?v=pew1rERKHMo",
+      "lyricsUrl": "https://songteksten.net/lyric/8679/99060/bazart/goud.html",
+      "descriptionPt": "Música que colocou a banda gantense Bazart no mapa da música pop flamenga moderna. Fala sobre valorizar algo precioso, como o título sugere (goud significa ouro), com um som indie-pop leve e otimista que se tornou marca registrada da banda.",
+      "vocab": [
+        { "nl": "het goud", "art": "het", "pt": "o ouro", "emoji": "🥇" },
+        { "nl": "waardevol", "art": "", "pt": "valioso", "emoji": "💎" },
+        { "nl": "vasthouden", "art": "", "pt": "segurar/manter", "emoji": "🤲" },
+        { "nl": "de schat", "art": "de", "pt": "o tesouro", "emoji": "🪙" }
+      ]
+    },
+    {
+      "artist": "K3",
+      "title": "Alle Kleuren",
+      "year": "2000",
+      "emoji": "🌈",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZRMTC9Tzj2c",
+      "lyricsUrl": "https://songteksten.net/lyric/162/4871/k3/alle-kleuren.html",
+      "descriptionPt": "K3 é o trio pop infantil mais famoso da Flandres, um verdadeiro fenômeno cultural desde o ano 2000. Esta música, uma de suas mais célebres, fala sobre a alegria de ver o mundo cheio de cores diferentes, uma metáfora divertida sobre positividade e diversidade.",
+      "vocab": [
+        { "nl": "de kleur", "art": "de", "pt": "a cor", "emoji": "🎨" },
+        { "nl": "geel", "art": "", "pt": "amarelo", "emoji": "💛" },
+        { "nl": "blij", "art": "", "pt": "feliz", "emoji": "😄" },
+        { "nl": "de regenboog", "art": "de", "pt": "o arco-íris", "emoji": "🌈" }
+      ]
+    },
+    {
+      "artist": "Milk Inc.",
+      "title": "Sunrise",
+      "year": "2009",
+      "emoji": "🌅",
+      "youtubeUrl": "https://www.youtube.com/watch?v=IuKSXR48OwM",
+      "lyricsUrl": "https://songteksten.net/lyric/895/66565/milk-inc/sunrise.html",
+      "descriptionPt": "Milk Inc. foi um dos maiores nomes da música dance/eletrônica belga nos anos 2000 e 2010. Esta faixa mistura batidas eletrônicas com uma melodia emocional sobre a chegada do amanhecer, um momento carregado de despedida e saudade.",
+      "vocab": [
+        { "nl": "de zon", "art": "de", "pt": "o sol", "emoji": "☀️" },
+        { "nl": "opkomen", "art": "", "pt": "nascer (sol)", "emoji": "🌄" },
+        { "nl": "de nacht", "art": "de", "pt": "a noite", "emoji": "🌙" },
+        { "nl": "afscheid nemen", "art": "", "pt": "se despedir", "emoji": "👋" }
+      ]
+    },
+    {
+      "artist": "Metejoor feat. Babet",
+      "title": "1 Op Een Miljoen",
+      "year": "2021",
+      "emoji": "🎯",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TH1BcuOjKes",
+      "lyricsUrl": "https://songteksten.net/lyric/9649/104299/metejoor/1-op-een-miljoen.html",
+      "descriptionPt": "Metejoor é um dos maiores fenômenos recentes da música flamenga, e este dueto com a cantora Babet foi um dos maiores sucessos radiofônicos da Bélgica em 2021. A música reflete sobre um relacionamento especial que parecia único entre um milhão.",
+      "vocab": [
+        { "nl": "het miljoen", "art": "het", "pt": "o milhão", "emoji": "🔢" },
+        { "nl": "uniek", "art": "", "pt": "único", "emoji": "🌟" },
+        { "nl": "samen", "art": "", "pt": "juntos", "emoji": "🤝" },
+        { "nl": "twijfelen", "art": "", "pt": "duvidar/hesitar", "emoji": "🤔" }
+      ]
+    },
+    {
+      "artist": "Camille Dhont",
+      "title": "Rihanna",
+      "year": "2023",
+      "emoji": "💃",
+      "youtubeUrl": "https://www.youtube.com/watch?v=E3Q9U6InsQo",
+      "lyricsUrl": "https://songteksten.net/lyric/5559/109009/camille-dhont/rihanna.html",
+      "descriptionPt": "Camille Dhont é uma jovem atriz e cantora belga que se tornou um sucesso pop na Flandres. Esta música é uma homenagem animada e dançante à sua ídola, a cantora Rihanna, celebrando a vontade de se soltar e dançar sem se preocupar com o que os outros pensam.",
+      "vocab": [
+        { "nl": "dansen", "art": "", "pt": "dançar", "emoji": "💃" },
+        { "nl": "het idool", "art": "het", "pt": "o ídolo", "emoji": "⭐" },
+        { "nl": "de muziek", "art": "de", "pt": "a música", "emoji": "🎵" },
+        { "nl": "los gaan", "art": "", "pt": "se soltar", "emoji": "🕺" }
+      ]
+    },
+    {
+      "artist": "Stan Van Samang",
+      "title": "Scars",
+      "year": "2007",
+      "emoji": "🩹",
+      "youtubeUrl": "https://www.youtube.com/watch?v=iWUjCzSkkDE",
+      "lyricsUrl": "https://songteksten.net/lyric/6993/72289/stan-van-samang/scars.html",
+      "descriptionPt": "Este foi o single de estreia de Stan Van Samang, cantor e ator flamengo, e ficou semanas no topo das paradas belgas em 2007. A música fala sobre cicatrizes emocionais deixadas por experiências difíceis do passado.",
+      "vocab": [
+        { "nl": "het litteken", "art": "het", "pt": "a cicatriz", "emoji": "🩹" },
+        { "nl": "de pijn", "art": "de", "pt": "a dor", "emoji": "😣" },
+        { "nl": "genezen", "art": "", "pt": "curar/sarar", "emoji": "🩺" },
+        { "nl": "het verleden", "art": "het", "pt": "o passado", "emoji": "⏳" }
+      ]
+    },
+    {
+      "artist": "Niels Destadsbader",
+      "title": "Wat Zou Ik Zonder Jou",
+      "year": "2018",
+      "emoji": "💞",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lf5DCOcbCFo",
+      "lyricsUrl": "https://songteksten.net/lyric/7419/102651/niels-destadsbader/wat-zou-ik-zonder-jou.html",
+      "descriptionPt": "Niels Destadsbader é um dos artistas pop mais queridos da Flandres atualmente, também conhecido como apresentador de TV. Esta balada emotiva questiona o que seria da vida sem a pessoa amada, e se tornou um hino popular em casamentos e festas familiares belgas.",
+      "vocab": [
+        { "nl": "zonder", "art": "", "pt": "sem", "emoji": "🚫" },
+        { "nl": "de steun", "art": "de", "pt": "o apoio", "emoji": "🤲" },
+        { "nl": "dankbaar", "art": "", "pt": "grato", "emoji": "🙏" },
+        { "nl": "het hart", "art": "het", "pt": "o coração", "emoji": "❤️" }
+      ]
+    }
+  ]
+}

@@ -61,7 +61,12 @@ function load() {
 
 /* ---------- premium: device id + entitlement check (see api/premium-status.js) ---------- */
 function deviceId() {
-  if (!S.deviceId) { S.deviceId = 'd_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10); save(); }
+  if (!S.deviceId) {
+    S.deviceId = (window.crypto && crypto.randomUUID)
+      ? 'd_' + crypto.randomUUID()
+      : 'd_' + Date.now().toString(36) + Math.random().toString(36).slice(2, 10);
+    save();
+  }
   return S.deviceId;
 }
 async function checkPremiumStatus() {
@@ -207,6 +212,7 @@ async function route() {
     if (h === 'woordenboek') return renderWoordenboek(app);
     if (h === 'klanken') return renderKlanken(app);
     if (h === 'belgie') return renderBelgie(app);
+    if (h === 'muziek') return renderMuziek(app);
     if (h === 'decks') return renderDecks(app);
     if (h === 'dificuldades') return renderMistakes(app);
     if (h === 'spelletjes') return renderGamesHub(app);
@@ -254,6 +260,7 @@ async function renderHome(app) {
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
     <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
     <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
+    <a class="home-tile" href="#/muziek">🎵<b>Vlaamse muziek</b><small>Clouseau e outros</small></a>
     <a class="home-tile" href="#/woordenboek">🔎<b>Woordenboek</b><small>dicionário + emojis</small></a>
     <a class="home-tile" href="#/dificuldades">🎯<b>Dificuldades</b><small>seus erros, juntos</small></a>
     <a class="home-tile" href="#/revisao">🧠<b>Revisão</b><small>repetição espaçada</small></a>
@@ -789,6 +796,31 @@ async function renderBelgie(app) {
   }
   app.querySelectorAll('#belnav .chip').forEach(c => c.addEventListener('click', () => showSec(+c.dataset.i)));
   showSec(0);
+}
+
+/* ---------- MUZIEK: Flemish music discovery (no lyrics reproduced; links to YouTube/lyrics sites) ---------- */
+async function renderMuziek(app) {
+  app.innerHTML = `<h1>🎵 Vlaamse muziek</h1><div class="loading">⏳...</div>`;
+  let M; try { M = await (await fetch('data/muziek.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <h1>🎵 Vlaamse muziek <span class="muted" style="font-size:1rem">Música flamenga: cultura pelo ouvido</span></h1>
+    <p class="muted">${esc(M.intro || '')}</p>
+    <div class="song-grid">${M.songs.map((s, i) => `
+      <div class="card song-card">
+        <div class="song-head"><span class="song-em">${s.emoji || '🎵'}</span>
+          <div><h3 style="margin:0">${esc(s.title)}</h3>
+          <span class="muted">${esc(s.artist)} · ${esc(s.year || '')}</span></div></div>
+        <p>${esc(s.descriptionPt || '')}</p>
+        <div class="song-links">
+          <a class="btn small" href="${esc(s.youtubeUrl)}" target="_blank" rel="noopener">▶️ Ouvir no YouTube</a>
+          ${s.lyricsUrl ? `<a class="btn small" href="${esc(s.lyricsUrl)}" target="_blank" rel="noopener">📄 Letra original</a>` : ''}
+        </div>
+        ${(s.vocab && s.vocab.length) ? `<h4 style="margin:12px 0 4px">🧩 Palavras da música</h4>${vocabTableHTML(s.vocab)}` : ''}
+      </div>`).join('')}</div>
+    <div class="card" style="margin-top:18px"><small class="muted">💡 Por respeito aos direitos autorais, não reproduzimos letras de música aqui —
+    só descrições originais, vocabulário e links para o YouTube e para fontes oficiais de letras.</small></div>`;
+  bindVspeak(app);
 }
 
 /* ---------- DECKS: open-source style flashcard decks ---------- */

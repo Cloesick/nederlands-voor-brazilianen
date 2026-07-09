@@ -226,6 +226,13 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
 .fact-emoji{font-size:1.5rem;flex:0 0 30px}
 #belnav .chip.sel{background:var(--c2);color:#fff;border-color:var(--c2)}
 
+/* ===== vlaamse muziek ===== */
+.song-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.song-card{margin:0}
+.song-head{display:flex;align-items:center;gap:10px;margin-bottom:4px}
+.song-em{font-size:2rem}
+.song-links{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+
 /* ===== mistakes ===== */
 .mistake-list{display:grid;gap:10px}
 .mistake{padding:12px 14px;margin:0}
