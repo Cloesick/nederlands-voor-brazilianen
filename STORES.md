@@ -97,3 +97,73 @@ Conta de desenvolvedor individual: **grátis** (empresa paga uma taxa única peq
 
 Quando tiver as contas criadas, me chame — eu preparo os textos da ficha da loja, categorias,
 palavras-chave de ASO e reviso o pacote gerado antes do envio.
+
+---
+
+## 📝 Ficha da loja — Google Play (pronta pra copiar e colar)
+
+**Nome do app** (máx. 30 caracteres): `Nederlands! Curso de Holandês`
+
+**Descrição curta** (máx. 80 caracteres):
+`Neerlandês (flamengo) do zero ao avançado, grátis, feito pra brasileiros`
+
+**Descrição completa** (máx. 4000 caracteres):
+```
+🧇 Nederlands! é um curso completo e 100% gratuito de neerlandês (holandês
+falado na Bélgica/Flandres), feito especificamente para brasileiros que
+vivem ou estão se mudando pra Flandres.
+
+🎨 O QUE TORNA ESSE CURSO DIFERENTE
+Cada frase mostra o português e o neerlandês lado a lado, com cada tipo de
+palavra (verbo, substantivo, artigo...) na mesma cor nas duas línguas. Seu
+cérebro aprende a "ver" a estrutura da frase antes mesmo de entender cada
+palavra — muito mais rápido que decorar frases soltas.
+
+📚 TUDO QUE VOCÊ PRECISA, DO A1 AO C2
+- Todos os níveis do CEFR, do "oi, tudo bem?" (A1) até discutir política e
+  ironia em neerlandês (C1/C2) — 37 lições e crescendo
+- Exercícios estilo Babbel: múltipla escolha, ouvir e escrever, montar
+  frases, associar pares
+- Flashcards com repetição espaçada (SRS) — revisa só o que você esquece
+- Dicionário rápido (Woordenboek) pra busca instantânea
+- Jogos de arrastar e soltar, treino de sons, seção de cultura flamenga
+  (música, história, curiosidades de Bruxelas/Antuérpia/Gante)
+- Funciona offline depois da primeira visita
+
+🇧🇪 FEITO PRA VIDA REAL NA FLANDRES
+Vocabulário de inburgering, NT2, banco, aluguel, médico, escola dos
+filhos — não só "frases de turista".
+
+🆓 GRATUITO E DE CÓDIGO ABERTO
+Sem cadastro, sem cartão de crédito pra começar. Seu progresso fica só no
+seu aparelho. Código aberto no GitHub — qualquer um pode ver exatamente
+como funciona.
+
+⚡ Criado por brasileiros que passaram pelo mesmo processo de imigração,
+pra ajudar quem vem depois.
+```
+
+**Categoria:** Educação
+**Classificação de conteúdo:** Livre (sem violência, sem conteúdo gerado por usuário)
+**Palavras-chave/ASO:** neerlandês, holandês, flamengo, curso de idiomas, brasileiros na bélgica,
+inburgering, NT2, aprender holandês, flandres, antuérpia, bruxelas, gante
+
+**Screenshots:** só temos 2 prontos (`assets/screenshots/home.png`, `games.png`). A Play Store aceita
+mínimo 2, mas recomenda 4-8 — vale capturar também a tela de lição (frases coloridas), flashcards, e
+Woordenboek antes de submeter, pra ficha ficar mais convincente.
+
+### 🔒 Formulário "Segurança dos dados" (Data Safety) — respostas exatas
+A Play Console exige esse formulário e ele é checado contra o comportamento real do app (respostas
+erradas podem suspender o app depois). Baseado no que está implementado agora:
+
+| Pergunta | Resposta |
+|---|---|
+| O app coleta ou compartilha algum dos tipos de dados de usuário? | Sim |
+| Dados coletados | Nenhum obrigatório. Opcionalmente (com consentimento explícito no app): dados de uso/analytics (Google Analytics) e dados de publicidade (Google AdSense) |
+| Esses dados são compartilhados com terceiros? | Sim, apenas com o Google (Analytics/AdSense), apenas se o usuário consentir |
+| Os dados são criptografados em trânsito? | Sim (HTTPS/TLS em todo o site) |
+| O usuário pode pedir a exclusão dos dados? | Sim — não precisa nem pedir: o progresso fica só no aparelho e pode ser apagado limpando os dados do site no navegador; consentimento de cookies pode ser revogado a qualquer momento no app |
+| Finalidade da coleta | Analytics: melhorar o curso. Publicidade: manter o app gratuito |
+| Coleta é obrigatória para usar o app? | Não — o app funciona 100% sem consentir nada |
+
+Link obrigatório no formulário: `https://nederlands-voor-brazilianen.vercel.app/privacy.html`
