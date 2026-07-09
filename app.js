@@ -78,15 +78,104 @@ async function checkPremiumStatus() {
   } catch { /* offline or api not ready: keep last known state */ }
 }
 function isPremium() { return !!S.premium; }
-/* Loads the AdSense script once, flagged non-personalized (no consent banner required under
-   Google's EU User Consent Policy - personalized ads would need a CMP/consent flow instead). */
-function initAdsense() {
+
+/* ---------- cookie consent (Google Consent Mode v2) ---------- */
+// "Basic" Consent Mode: we simply don't load gtag.js/adsbygoogle.js at all until the visitor
+// makes a choice. Non-personalized ads don't legally require consent (Google's EU User Consent
+// Policy), so they load for any choice that isn't a full opt-out; GA4 and ad personalization only
+// ever load if explicitly granted. consent-init.js already pushed the safe 'denied' default before
+// this file runs, so nothing reaches Google before a choice is made either way.
+const CONSENT_KEY = 'nlcurso.consent.v1';
+function getConsent() {
+  try { return JSON.parse(localStorage.getItem(CONSENT_KEY)); } catch { return null; }
+}
+function saveConsent(c) {
+  localStorage.setItem(CONSENT_KEY, JSON.stringify({ ...c, ts: Date.now() }));
+}
+function applyConsent(c) {
+  gtag('consent', 'update', {
+    ad_storage: c.ads ? 'granted' : 'denied',
+    ad_user_data: c.ads ? 'granted' : 'denied',
+    ad_personalization: c.ads ? 'granted' : 'denied',
+    analytics_storage: c.analytics ? 'granted' : 'denied',
+  });
+  if (c.analytics) initGA4();
+  initAdsense(c.ads); // non-personalized ads load regardless; c.ads only controls personalization
+}
+function consentBannerHTML(prefill) {
+  const p = prefill || { analytics: true, ads: true };
+  return `<div class="consent-banner" id="consentBanner">
+    <div class="consent-card">
+      <p>🍪 Usamos cookies opcionais para <b>estatísticas de uso (Google Analytics)</b> e
+      <b>anúncios personalizados</b>, além de anúncios não-personalizados (que não exigem consentimento).
+      Seu progresso no curso nunca sai do seu aparelho. Veja a <a href="privacy.html" target="_blank" rel="noopener">política de privacidade</a>.</p>
+      <div class="consent-toggles" id="consentToggles" hidden>
+        <label><input type="checkbox" id="ctAnalytics" ${p.analytics ? 'checked' : ''}> 📊 Estatísticas de uso (Google Analytics)</label>
+        <label><input type="checkbox" id="ctAds" ${p.ads ? 'checked' : ''}> 🎯 Anúncios personalizados</label>
+      </div>
+      <div class="consent-actions">
+        <button class="btn" id="ctCustomize">⚙️ Personalizar</button>
+        <button class="btn" id="ctRejectAll">🚫 Só o essencial</button>
+        <button class="btn primary" id="ctAcceptAll">✅ Aceitar tudo</button>
+      </div>
+    </div>
+  </div>`;
+}
+function showConsentBanner() {
+  const old = document.getElementById('consentBanner');
+  if (old) old.remove();
+  const prefill = getConsent() || undefined;
+  document.body.insertAdjacentHTML('beforeend', consentBannerHTML(prefill));
+  const banner = document.getElementById('consentBanner');
+  document.getElementById('ctCustomize').addEventListener('click', () => {
+    document.getElementById('consentToggles').hidden = false;
+  });
+  document.getElementById('ctRejectAll').addEventListener('click', () => {
+    saveConsent({ analytics: false, ads: false }); location.reload();
+  });
+  document.getElementById('ctAcceptAll').addEventListener('click', () => {
+    saveConsent({ analytics: true, ads: true }); location.reload();
+  });
+  banner.querySelector('.consent-toggles').insertAdjacentHTML('beforeend',
+    '<button class="btn small" id="ctSave">💾 Salvar preferências</button>');
+  document.getElementById('ctSave').addEventListener('click', () => {
+    saveConsent({
+      analytics: document.getElementById('ctAnalytics').checked,
+      ads: document.getElementById('ctAds').checked,
+    });
+    location.reload();
+  });
+}
+function initConsent() {
+  const c = getConsent();
+  if (c) applyConsent(c);
+  else showConsentBanner();
+  const link = document.getElementById('cookiePrefsBtn');
+  if (link) link.addEventListener('click', showConsentBanner);
+}
+
+/* ---------- Google Analytics 4 ---------- */
+function initGA4() {
+  const cfg = window.NL_CONFIG;
+  if (!cfg || !cfg.GA4_MEASUREMENT_ID || document.getElementById('ga4Script')) return;
+  const s = document.createElement('script');
+  s.id = 'ga4Script'; s.async = true;
+  s.src = 'https://www.googletagmanager.com/gtag/js?id=' + encodeURIComponent(cfg.GA4_MEASUREMENT_ID);
+  document.head.appendChild(s);
+  gtag('js', new Date());
+  gtag('config', cfg.GA4_MEASUREMENT_ID);
+}
+
+/* ---------- AdSense: non-personalized always eligible, personalized only if consented ---------- */
+function initAdsense(personalized) {
   const cfg = window.NL_CONFIG;
   if (!cfg || !cfg.ADSENSE_CLIENT || !cfg.ADSENSE_SLOT) return; // both required or we render nothing
   window.adsbygoogle = window.adsbygoogle || [];
-  if (cfg.ADSENSE_NONPERSONALIZED) window.adsbygoogle.requestNonPersonalizedAds = 1;
+  // Belt-and-suspenders alongside Consent Mode: explicit flag AdSense also respects directly.
+  window.adsbygoogle.requestNonPersonalizedAds = personalized ? 0 : 1;
+  if (document.getElementById('adsenseScript')) return;
   const s = document.createElement('script');
-  s.async = true;
+  s.id = 'adsenseScript'; s.async = true;
   s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=' + encodeURIComponent(cfg.ADSENSE_CLIENT);
   s.crossOrigin = 'anonymous';
   document.head.appendChild(s);
@@ -226,7 +315,7 @@ function legendStrip(phrases) {
 
 /* ---------- router ---------- */
 window.addEventListener('hashchange', route);
-window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); initAdsense(); });
+window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); initConsent(); });
 
 async function route() {
   const app = $('#app');

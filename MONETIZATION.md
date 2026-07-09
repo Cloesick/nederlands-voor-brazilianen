@@ -11,6 +11,8 @@ contas pessoais já está pronto no código; faltam só os 4 passos abaixo, que 
 - `api/premium-status.js` — o app consulta isso para saber se é Premium
 - Tela `#/premium` no app com a lista de benefícios e botão de compra
 - Espaço de anúncio (`adSlotHTML`) que só aparece se você configurar o AdSense E o usuário não for Premium
+- Aviso de cookies com Google Consent Mode v2 (`assets/consent-init.js` + `initConsent()` em `app.js`) —
+  aceitar tudo / só o essencial / personalizar, com link "Preferências de cookies" no rodapé pra mudar depois
 - `config.js` — as 2-3 linhas que você edita quando tiver as contas
 
 ## ✅ Passo 1 — Supabase (armazenar quem é Premium) — JÁ FEITO
@@ -44,12 +46,29 @@ Depois disso, edite `config.js`: mude `PREMIUM_ENABLED: false` para `true`, faç
 (Também dá pra fazer via CLI: `vercel env add STRIPE_SECRET_KEY production`, etc. — me chame que eu rodo
 os comandos, só preciso que você cole os valores.)
 
-## 🔲 Passo 4 — Google AdSense (anúncios no plano gratuito)
-1. Crie a conta em [adsense.google.com](https://www.google.com/adsense/)
-2. Adicione o site `nederlands-voor-brazilianen.vercel.app` (ou seu domínio próprio) para revisão
-3. Aguarde a aprovação do Google (pode levar dias/semanas — precisa de conteúdo suficiente, que já temos)
-4. Depois de aprovado, copie o **Publisher ID** (`ca-pub-...`) e o **Slot ID** do bloco de anúncio criado
-5. Edite `config.js`: `ADSENSE_CLIENT: "ca-pub-..."` e `ADSENSE_SLOT: "..."`, commit e push
+## 🔲 Passo 4 — Google AdSense (anúncios no plano gratuito) — Client ID já configurado
+`ADSENSE_CLIENT` já está preenchido em `config.js` (reaproveitado da conta já aprovada, mesma usada no
+Onbudsman). Falta só:
+1. No [dashboard do AdSense](https://www.google.com/adsense/), adicione o site
+   `nederlands-voor-brazilianen.vercel.app` (ou seu domínio próprio) como propriedade e aguarde aprovação
+   *deste site específico* (sites novos sob uma conta já aprovada ainda passam por revisão própria)
+2. Depois de aprovado, crie um bloco de anúncio e copie o **Slot ID**
+3. Edite `config.js`: `ADSENSE_SLOT: "..."`, commit e push
+
+Anúncios não-personalizados aparecem para todo mundo assim que isso estiver configurado (não exigem
+consentimento). Anúncios personalizados (CPM maior) só ativam para visitantes que escolherem isso
+explicitamente no aviso de cookies — ver Passo 5.
+
+## 🔲 Passo 5 — Google Analytics 4 (estatísticas de uso, opcional)
+1. Em [analytics.google.com](https://analytics.google.com/), crie uma **propriedade nova** especificamente
+   para este site (não reaproveite a propriedade de outro projeto — mistura tráfego não relacionado e
+   quebra os relatórios de ambos)
+2. Crie um fluxo de dados do tipo "Web", aponte para `nederlands-voor-brazilianen.vercel.app`
+3. Copie o **Measurement ID** (`G-XXXXXXXXXX`)
+4. Edite `config.js`: `GA4_MEASUREMENT_ID: "G-..."`, commit e push
+
+O script do GA4 só é carregado para visitantes que ativarem "estatísticas" no aviso de cookies
+(Google Consent Mode v2, ver `assets/consent-init.js`) — nada é enviado ao Google antes disso.
 
 ## 📊 Conta do break-even
 - Custo fixo: **US$ 124** (Google Play $25 + Apple $99/ano). Windows e Vercel/GitHub Pages são grátis.

@@ -311,3 +311,21 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
   .topnav{gap:8px;font-size:.9rem}
   .brand-sub{display:none}
 }
+
+/* ===== cookie consent banner ===== */
+.link-btn{background:none;border:none;color:var(--soft);text-decoration:underline;cursor:pointer;
+  font-size:inherit;font-family:inherit;padding:0}
+.link-btn:hover{color:var(--ink)}
+.consent-banner{position:fixed;left:0;right:0;bottom:0;z-index:100;padding:12px;
+  display:flex;justify-content:center}
+.consent-card{background:var(--card);border:2px solid var(--ink);border-radius:14px;padding:16px 18px;
+  max-width:640px;box-shadow:4px 4px 0 rgba(35,32,27,.18)}
+.consent-card p{margin:0 0 10px;font-size:.92rem}
+.consent-toggles{display:flex;flex-direction:column;gap:8px;margin:0 0 12px;padding:10px;
+  border:1.5px dashed var(--line);border-radius:10px}
+.consent-toggles label{display:flex;align-items:center;gap:8px;font-size:.9rem}
+.consent-actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+@media (max-width:520px){
+  .consent-actions{justify-content:stretch}
+  .consent-actions .btn{flex:1}
+}
