@@ -6,6 +6,9 @@ o PWA existente para cada loja. Tudo abaixo usa a URL de produção:
 
 **URL de produção:** `https://nederlands-voor-brazilianen.vercel.app`
 
+**URL da política de privacidade** (as 3 lojas pedem esse campo no formulário de submissão, sem exceção):
+`https://nederlands-voor-brazilianen.vercel.app/privacy.html`
+
 ---
 
 ## 🤖 Android · Google Play (mais fácil, mais barato)
