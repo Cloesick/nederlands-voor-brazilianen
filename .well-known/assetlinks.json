@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.saspire.nederlands",
+    "sha256_cert_fingerprints": [
+      "29:D8:3A:CA:7A:B5:C0:DC:F2:F7:43:7E:F8:CA:CC:C6:EF:2C:0F:C2:3B:A9:44:B1:0E:9F:23:FB:BD:52:D1:38"
+    ]
+  }
+}]

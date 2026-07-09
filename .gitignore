@@ -4,3 +4,6 @@ Thumbs.db
 __pycache__/
 
 .vercel
+
+# Android packaging (local build output, never publish the keystore or its password)
+android-package/
