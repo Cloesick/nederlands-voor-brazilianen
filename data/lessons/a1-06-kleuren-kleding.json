@@ -1,0 +1,123 @@
+{
+  "id": "a1-06-kleuren-kleding",
+  "unit": "A1",
+  "title": "Cores e roupas · Kleuren en kleding",
+  "emoji": "🎨",
+  "teaching": [
+    {
+      "emoji": "🎨",
+      "title": "As 15 cores básicas",
+      "html": "<p><b>De kleur</b> = a cor. Em neerlandês as cores são palavras curtas e a maioria não muda de forma (nada de masculino/feminino como em português). Decore esta paleta:</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>rood</td><td>vermelho</td></tr><tr><td>oranje</td><td>laranja</td></tr><tr><td>geel</td><td>amarelo</td></tr><tr><td>groen</td><td>verde</td></tr><tr><td>blauw</td><td>azul</td></tr><tr><td>paars</td><td>roxo</td></tr><tr><td>roze</td><td>rosa</td></tr><tr><td>bruin</td><td>marrom</td></tr><tr><td>zwart</td><td>preto</td></tr><tr><td>wit</td><td>branco</td></tr><tr><td>grijs</td><td>cinza</td></tr><tr><td>lichtblauw</td><td>azul claro</td></tr><tr><td>donkergroen</td><td>verde escuro</td></tr><tr><td>beige</td><td>bege</td></tr><tr><td>goud</td><td>dourado</td></tr></table><p><small><b>licht</b> (claro) e <b>donker</b> (escuro) se colam na frente de qualquer cor: <i>lichtroze</i> = rosa claro, <i>donkerblauw</i> = azul escuro. 🖌️</small></p>"
+    },
+    {
+      "emoji": "🧥",
+      "title": "Peças de roupa: o guarda-roupa básico",
+      "html": "<p><b>De kleren</b> = as roupas. Cada peça tem seu próprio artigo, sem lógica óbvia: é só decorar.</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>de broek</td><td>a calça</td></tr><tr><td>het hemd</td><td>a camisa</td></tr><tr><td>de jas</td><td>o casaco, a jaqueta</td></tr><tr><td>de trui</td><td>o suéter</td></tr><tr><td>de jurk</td><td>o vestido</td></tr><tr><td>de rok</td><td>a saia</td></tr><tr><td>de schoenen</td><td>os sapatos</td></tr></table><p><small><b>de schoenen</b> já está no plural (um sapato só = <i>de schoen</i>). E cuidado: <b>de rok</b> é saia, não tem nada a ver com \"roupa\" em geral. 👗</small></p>"
+    },
+    {
+      "emoji": "👗",
+      "title": "Adjetivo de cor + substantivo: a regra do -e",
+      "html": "<p>Quando a cor vem <b>antes</b> do substantivo, ela quase sempre ganha um <b>-e</b> no final: <i>rood</i> vira <i>rode</i>, <i>blauw</i> vira <i>blauwe</i>, <i>groen</i> vira <i>groene</i>.</p><ul><li><b>een rode jas</b> = um casaco vermelho (jas é palavra \"de\")</li><li><b>een blauwe broek</b> = uma calça azul (broek é palavra \"de\")</li><li><b>een geel hemd</b> = uma camisa amarela <i>(sem -e!)</i></li></ul><p><small><b>A única exceção:</b> substantivo \"het\" + artigo indefinido <i>een</i> = a cor fica pura, sem -e. Por isso <i>een geel hemd</i>, mas se o hemd já for conhecido (com o artigo <i>het</i>), o -e volta: <b>het gele hemd</b> = a camisa amarela (aquela específica). Depois do verbo <i>zijn</i> (predicativo), a cor NUNCA leva -e: <i>Het hemd is geel.</i> 🎯</small></p>"
+    },
+    {
+      "emoji": "🛍️",
+      "title": "Na loja de roupas: frases para comprar",
+      "html": "<p><b>Dragen</b> = vestir, usar (roupa). <i>Ik draag, jij draagt, hij/zij draagt, wij dragen.</i></p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>Welke maat heeft u?</td><td>Qual tamanho você tem?</td></tr><tr><td>Mag ik dit passen?</td><td>Posso experimentar isto?</td></tr><tr><td>Heeft u dit in het blauw?</td><td>Você tem isto em azul?</td></tr><tr><td>Ik draag maat achtendertig.</td><td>Eu uso tamanho trinta e oito.</td></tr></table><p><small><b>in het + cor</b> é a expressão fixa da loja: <i>in het zwart</i> = \"na cor preta\". Aqui a cor vira um substantivo, por isso o artigo <b>het</b> aparece mesmo com cores que normalmente são \"de\". Formal na Bélgica: trate o vendedor de <b>u</b>, não <i>jij</i>. 🙂</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"trui","r":"noun"},{"t":"is","r":"verb"},{"t":"blauw","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"suéter","r":"noun"},{"t":"é","r":"verb"},{"t":"azul","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Cor depois do verbo (predicativo) nunca leva -e: blauw, nunca blauwe. O -e só aparece quando a cor vem ANTES do substantivo."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"rode","r":"adj"},{"t":"jas","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"um","r":"art"},{"t":"casaco","r":"noun"},{"t":"vermelho","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu tenho um vermelho casaco",
+      "note": "jas é palavra \"de\", então o adjetivo antes dela ganha -e: rood vira rode. Repare a ordem também: em neerlandês o adjetivo vem ANTES do substantivo."
+    },
+    {
+      "nl": [{"t":"Zij","r":"pron"},{"t":"draagt","r":"verb"},{"t":"een","r":"art"},{"t":"groene","r":"adj"},{"t":"rok","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ela","r":"pron"},{"t":"usa","r":"verb"},{"t":"uma","r":"art"},{"t":"saia","r":"noun"},{"t":"verde","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "ela usa uma verde saia",
+      "note": "draagt = ela usa/veste (dragen). rok é palavra \"de\": groen vira groene antes dela."
+    },
+    {
+      "nl": [{"t":"Hij","r":"pron"},{"t":"draagt","r":"verb"},{"t":"een","r":"art"},{"t":"geel","r":"adj"},{"t":"hemd","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ele","r":"pron"},{"t":"usa","r":"verb"},{"t":"uma","r":"art"},{"t":"camisa","r":"noun"},{"t":"amarela","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "ele usa uma amarelo camisa",
+      "note": "Atenção: hemd é palavra \"het\". Com een + palavra het, o adjetivo NÃO ganha -e: geel, não gele. Compare com rode jas e groene rok."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"schoenen","r":"noun"},{"t":"zijn","r":"verb"},{"t":"zwart","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"sapatos","r":"noun"},{"t":"são","r":"verb"},{"t":"pretos","r":"adj"},{"t":".","r":"punc"}],
+      "note": "schoenen já é plural (schoen = um sapato). Predicativo (depois de zijn) nunca leva -e, mesmo no plural: zwart, não zwarte."
+    },
+    {
+      "nl": [{"t":"Zoekt","r":"verb"},{"t":"u","r":"pron"},{"t":"iets","r":"pron"},{"t":"speciaals","r":"adj"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"procura","r":"verb"},{"t":"algo","r":"pron"},{"t":"especial","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "procura você algo especial?",
+      "note": "Frase clássica de vendedor. Pergunta sim/não: o verbo vem no início, antes do sujeito u."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"zoek","r":"verb"},{"t":"een","r":"art"},{"t":"blauwe","r":"adj"},{"t":"broek","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"procuro","r":"verb"},{"t":"uma","r":"art"},{"t":"calça","r":"noun"},{"t":"azul","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "sim, eu procuro uma azul calça",
+      "note": "broek é palavra \"de\": blauw vira blauwe antes dela. zoeken = procurar."
+    },
+    {
+      "nl": [{"t":"Welke","r":"qw"},{"t":"maat","r":"noun"},{"t":"heeft","r":"verb"},{"t":"u","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Qual","r":"qw"},{"t":"tamanho","r":"noun"},{"t":"tem","r":"verb"},{"t":"você","r":"pron"},{"t":"?","r":"punc"}],
+      "note": "welke = qual (para escolher entre opções). A ordem NL e PT bate quase palavra por palavra aqui."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"maat","r":"noun"},{"t":"achtendertig","r":"num"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"tamanho","r":"noun"},{"t":"trinta e oito","r":"num"},{"t":".","r":"punc"}]
+    },
+    {
+      "nl": [{"t":"Mag","r":"verb"},{"t":"ik","r":"pron"},{"t":"dit","r":"pron"},{"t":"passen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"experimentar","r":"verb"},{"t":"isto","r":"pron"},{"t":"?","r":"punc"}],
+      "lit": "posso eu isto experimentar?",
+      "note": "Verbo modal (mag) + infinitivo (passen) no fim da frase: o \"verbo-caixote\" clássico do neerlandês."
+    },
+    {
+      "nl": [{"t":"Heeft","r":"verb"},{"t":"u","r":"pron"},{"t":"dit","r":"pron"},{"t":"ook","r":"adv"},{"t":"in","r":"prep"},{"t":"het","r":"art"},{"t":"zwart","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"senhor","r":"noun"},{"t":"tem","r":"verb"},{"t":"isto","r":"pron"},{"t":"também","r":"adv"},{"t":"em","r":"prep"},{"t":"preto","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem o senhor isto também em preto?",
+      "note": "in het + cor = expressão fixa da loja. Aqui a cor funciona como substantivo, por isso o artigo het aparece, mesmo com zwart."
+    }
+  ],
+  "vocab": [
+    { "nl": "rood", "art": null, "pt": "vermelho", "emoji": "🔴" },
+    { "nl": "oranje", "art": null, "pt": "laranja", "emoji": "🟠" },
+    { "nl": "geel", "art": null, "pt": "amarelo", "emoji": "🟡" },
+    { "nl": "groen", "art": null, "pt": "verde", "emoji": "🟢" },
+    { "nl": "blauw", "art": null, "pt": "azul", "emoji": "🔵" },
+    { "nl": "paars", "art": null, "pt": "roxo", "emoji": "🟣" },
+    { "nl": "zwart", "art": null, "pt": "preto", "emoji": "⚫" },
+    { "nl": "wit", "art": null, "pt": "branco", "emoji": "⚪" },
+    { "nl": "bruin", "art": null, "pt": "marrom", "emoji": "🟤" },
+    { "nl": "de broek", "art": "de", "pt": "a calça", "emoji": "👖" },
+    { "nl": "het hemd", "art": "het", "pt": "a camisa", "emoji": "👔" },
+    { "nl": "de jas", "art": "de", "pt": "o casaco, a jaqueta", "emoji": "🧥" },
+    { "nl": "de schoenen", "art": "de", "pt": "os sapatos (plural; um sapato = de schoen)", "emoji": "👟" },
+    { "nl": "dragen", "art": null, "pt": "vestir, usar (roupa)", "emoji": "👕" },
+    { "nl": "de maat", "art": "de", "pt": "o tamanho, o número (roupa/sapato)", "emoji": "📏" },
+    { "nl": "passen", "art": null, "pt": "experimentar, provar (roupa)", "emoji": "🪞" }
+  ],
+  "exercises": [
+    { "type": "mc", "q": "Qual é a cor \"blauw\" em português? 🔵", "options": ["verde", "azul", "roxo", "preto"], "answer": 1, "explain": "blauw = azul. groen é verde, paars é roxo e zwart é preto." },
+    { "type": "mc", "q": "Como se diz \"sapatos\" em neerlandês? 👟", "options": ["de schoen", "de schoenen", "het schoen", "de broeken"], "answer": 1, "explain": "de schoenen já é o plural natural. de schoen seria só UM sapato, e o artigo de schoen é sempre \"de\", nunca \"het\"." },
+    { "type": "mc", "q": "\"Een geel hemd\", não \"een gele hemd\". Por quê?", "options": ["hemd é palavra \"het\" e vem com o artigo indefinido een", "geel está errado, o certo seria sempre gele", "hemd é uma palavra plural", "cores nunca mudam de forma em neerlandês"], "answer": 0, "explain": "A única exceção da regra do -e: substantivo \"het\" + een = a cor fica pura. Com rode jas e groene rok (palavras \"de\") o -e aparece normalmente." },
+    { "type": "listen", "nl": "Ik draag een blauwe broek.", "options": ["Eu visto uma calça azul.", "Eu visto um casaco azul.", "Eu compro uma calça azul."], "answer": 0, "explain": "dragen = vestir/usar roupa (não comprar, que seria kopen). broek = calça, blauwe = azul (com -e porque broek é \"de\")." },
+    { "type": "listen", "nl": "Heeft u dit in het zwart?", "options": ["Você tem isto em branco?", "Você tem isto em preto?", "Você quer isto em preto?"], "answer": 1, "explain": "zwart = preto, wit = branco. E o verbo é heeft (ter), não willen (querer)." },
+    { "type": "listen", "nl": "Welke maat heeft u?", "options": ["Qual é o seu nome?", "Qual tamanho você tem?", "Onde você mora?"], "answer": 1, "explain": "welke = qual, maat = tamanho. Nome seria naam e onde seria waar." },
+    { "type": "fill", "before": "Ik heb een rode", "after": ".", "answer": "jas", "hint": "peça de roupa: casaco/jaqueta", "explain": "jas = casaco. Como jas é palavra \"de\", o adjetivo antes dela leva -e: rode, não rood." },
+    { "type": "fill", "before": "De schoenen zijn", "after": ".", "answer": "zwart", "hint": "cor, depois do verbo zijn", "explain": "Predicativo (depois de zijn) nunca leva -e, mesmo no plural: zwart, não zwarte." },
+    { "type": "order", "pt": "Eu tenho um casaco vermelho.", "tokens": ["Ik", "heb", "een", "rode", "jas"], "answer": "Ik heb een rode jas", "explain": "Ordem NL: sujeito, verbo, artigo, adjetivo (com -e, porque jas é \"de\"), substantivo." },
+    { "type": "order", "pt": "Você tem isto em azul?", "tokens": ["Heeft", "u", "dit", "in", "het", "blauw"], "answer": "Heeft u dit in het blauw", "explain": "Pergunta sim/não: o verbo heeft abre a frase. in het blauw é a expressão fixa \"na cor azul\"." },
+    { "type": "match", "pairs": [["rood", "vermelho"], ["groen", "verde"], ["blauw", "azul"], ["geel", "amarelo"], ["zwart", "preto"]], "explain": "As cinco cores mais usadas no dia a dia. Todas ficam sem -e quando estão sozinhas, fora de uma frase." },
+    { "type": "match", "pairs": [["de broek", "a calça"], ["het hemd", "a camisa"], ["de jas", "o casaco"], ["de schoenen", "os sapatos"]], "explain": "Três das quatro peças são palavras \"de\"; só het hemd é \"het\". Por isso hemd é a exceção na regra do -e." }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "a1-08-weer-kleinpraat",
+  "unit": "A1",
+  "title": "O tempo e conversa fiada · Weer en kleinpraat",
+  "emoji": "🌦️",
+  "teaching": [
+    {
+      "emoji": "🌦️",
+      "title": "Het weer: assunto sagrado da Bélgica",
+      "html": "<p>Na Bélgica, falar sobre o tempo não é só papo furado, é o <b>cimento social</b> número um. A estrutura básica é sempre a mesma:</p><p><b>Het is + adjetivo.</b> 🌦️</p><table class=\"vocab\"><tr><th>neerlandês</th><th>português</th></tr><tr><td>Het is koud.</td><td><small>Está frio.</small></td></tr><tr><td>Het is warm.</td><td><small>Está quente.</small></td></tr><tr><td>Het is zonnig.</td><td><small>Está ensolarado.</small></td></tr><tr><td>Het is bewolkt.</td><td><small>Está nublado.</small></td></tr><tr><td>Het is guur.</td><td><small>Está um tempo horrível (frio e ventoso, bem típico da Flandres). 🌬️</small></td></tr></table><p>Repare no sujeito fantasma <i>het</i> de novo, igual em \"Het is twee uur\". O neerlandês sempre precisa desse \"het\" antes do verbo <b>zijn</b> (ser/estar) quando o assunto é o tempo.</p>"
+    },
+    {
+      "emoji": "💬",
+      "title": "Puxar conversa: as frases mágicas",
+      "html": "<p>Belgas não perguntam \"Hoe gaat het?\" toda hora, eles comentam o tempo. Três frases pra decorar de cor:</p><ul><li><b>\"Wat een weer, hé!\"</b> <small>(Que tempo, hein!)</small>: exclamação genérica, funciona com qualquer clima 🌦️</li><li><b>\"Lekker weertje, hé?\"</b> <small>(Tempo bom, né?)</small>: só quando está bom mesmo ☀️</li><li><b>\"Het regent alweer.\"</b> <small>(Já está chovendo de novo.)</small>: a reclamação nacional 🌧️</li></ul><p>💡 O <b>\"hé\"</b> no fim é o tique flamengo pra puxar concordância, tipo o nosso \"né?\" ou \"viu?\". Sem ele, a frase soa fria demais.</p>"
+    },
+    {
+      "emoji": "🇧🇪",
+      "title": "Cultura: falar do tempo é a cola social (cap. 25 do livro)",
+      "html": "<p>Assim como o capítulo 25 do livro explica sobre pequenas conversas, na Bélgica o tempo é o assunto neutro perfeito: funciona com o vizinho, o carteiro, o caixa do supermercado. Ninguém quer saber sua opinião política na fila do pão, mas todo mundo tem uma opinião sobre a chuva. ☔</p><p>Regra de ouro: <b>reclamar do tempo é permitido, elogiar demais soa estranho.</b> Um \"Het is wel oké\" (está meio ok) já é um elogio e tanto. Guarde o entusiasmo tipo \"What a beautiful day!\" pra outra ocasião. 😄</p><p>No ponto de ônibus, na fila do padeiro, esperando o filho na escola: o tempo é sempre o quebra-gelo seguro. Use isso a seu favor pra praticar neerlandês com estranhos sem constrangimento!</p>"
+    },
+    {
+      "emoji": "😤",
+      "title": "Reagir como um belga: Wat vervelend! / Gelukkig maar!",
+      "html": "<p>Depois de comentar o tempo, o belga reage. Duas reações cobrem 90% das situações:</p><table class=\"vocab\"><tr><th>situação</th><th>reação</th></tr><tr><td>Tempo ruim 🌧️</td><td><b>Wat vervelend!</b> <small>(Que chato!)</small></td></tr><tr><td>Sorte / melhorou 🍀</td><td><b>Gelukkig maar!</b> <small>(Ainda bem!)</small></td></tr></table><p>E se alguém perguntar se vai continuar chovendo, a resposta clássica e prudente de quem mora na Bélgica há anos é: <i>\"Voorlopig niet, hé!\"</i> (Por enquanto não, hein!). Nunca prometa sol, o céu belga muda de ideia toda hora. ⛅</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"een","r":"art"},{"t":"weer","r":"noun"},{"t":",","r":"punc"},{"t":"hé","r":"x"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Que","r":"qw"},{"t":"tempo","r":"noun"},{"t":",","r":"punc"},{"t":"hein","r":"x"},{"t":"!","r":"punc"}],
+      "lit": "que um tempo, hé!",
+      "note": "Exclamação genérica pra abrir conversa, funciona com qualquer clima. O \"hé\" no fim é o tique flamengo tipo \"né\"."
+    },
+    {
+      "nl": [{"t":"Lekker","r":"adj"},{"t":"weertje","r":"noun"},{"t":",","r":"punc"},{"t":"hé","r":"x"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Tempo","r":"noun"},{"t":"bom","r":"adj"},{"t":",","r":"punc"},{"t":"hein","r":"x"},{"t":"?","r":"punc"}],
+      "lit": "gostosinho tempinho, hé?",
+      "note": "weertje é o diminutivo carinhoso de weer, muito usado no small talk quando o clima está bom. A ordem adjetivo+substantivo inverte no português."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"regent","r":"verb"},{"t":"alweer","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Chove","r":"verb"},{"t":"de","r":"prep"},{"t":"novo","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "isso chove já-de-novo",
+      "note": "alweer = já de novo, reforça a frustração. É a reclamação clássica de quem mora na Bélgica. 🌧️"
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"vervelend","r":"adj"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Que","r":"qw"},{"t":"chato","r":"adj"},{"t":"!","r":"punc"}],
+      "note": "Reação padrão de irritação leve, cabe em qualquer contratempo, não só no clima."
+    },
+    {
+      "nl": [{"t":"Gelukkig","r":"adv"},{"t":"maar","r":"adv"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Ainda","r":"adv"},{"t":"bem","r":"adv"},{"t":"!","r":"punc"}],
+      "note": "Reação padrão de alívio, muito usada em conversas de rua. \"maar\" aqui reforça o sentido, não é \"mas\"."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"is","r":"verb"},{"t":"koud","r":"adj"},{"t":"vandaag","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Está","r":"verb"},{"t":"frio","r":"adj"},{"t":"hoje","r":"adv"},{"t":".","r":"punc"}],
+      "note": "Estrutura-base de tudo nessa lição: Het is + adjetivo. Sujeito fantasma \"het\" obrigatório."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"wordt","r":"verb"},{"t":"morgen","r":"adv"},{"t":"zonnig","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Amanhã","r":"adv"},{"t":"vai","r":"verb"},{"t":"ficar","r":"verb"},{"t":"ensolarado","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "isso se-torna amanhã ensolarado",
+      "note": "wordt (de worden = ficar/tornar-se) é o verbo pra previsão do tempo, diferente de \"is\" que descreve o agora."
+    },
+    {
+      "nl": [{"t":"Zeg","r":"x"},{"t":",","r":"punc"},{"t":"wat","r":"qw"},{"t":"een","r":"art"},{"t":"guur","r":"adj"},{"t":"weertje","r":"noun"},{"t":",","r":"punc"},{"t":"hé","r":"x"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Diga","r":"x"},{"t":"lá","r":"x"},{"t":",","r":"punc"},{"t":"que","r":"qw"},{"t":"tempo","r":"noun"},{"t":"horrível","r":"adj"},{"t":",","r":"punc"},{"t":"hein","r":"x"},{"t":"!","r":"punc"}],
+      "note": "Cena do ponto de ônibus, parte 1 (o vizinho puxa assunto). \"Zeg\" no início = \"escuta/diga\", bem típico flamengo pra chamar atenção."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":"hé","r":"x"},{"t":",","r":"punc"},{"t":"en","r":"conj"},{"t":"het","r":"pron"},{"t":"waait","r":"verb"},{"t":"ook","r":"adv"},{"t":"nog","r":"adv"},{"t":"hard","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"É","r":"x"},{"t":"mesmo","r":"x"},{"t":",","r":"punc"},{"t":"e","r":"conj"},{"t":"também","r":"adv"},{"t":"está","r":"verb"},{"t":"ventando","r":"verb"},{"t":"forte","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "sim hé, e isso venta também ainda forte",
+      "note": "Parte 2 (a vizinha responde). waaien = ventar; \"ook nog\" reforça \"e além disso ainda\"."
+    },
+    {
+      "nl": [{"t":"Gelukkig","r":"adv"},{"t":"regent","r":"verb"},{"t":"het","r":"pron"},{"t":"niet","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ainda","r":"adv"},{"t":"bem","r":"adv"},{"t":"que","r":"conj"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"chovendo","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "felizmente chove isso não",
+      "note": "Parte 3. Regra V2: \"Gelukkig\" na frente empurra o verbo pra 2ª posição, e o sujeito \"het\" pula pra depois dele."
+    },
+    {
+      "nl": [{"t":"Voorlopig","r":"adv"},{"t":"niet","r":"neg"},{"t":",","r":"punc"},{"t":"hé","r":"x"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Por","r":"x"},{"t":"enquanto","r":"x"},{"t":"não","r":"neg"},{"t":",","r":"punc"},{"t":"né","r":"x"},{"t":"!","r":"punc"}],
+      "note": "Parte 4, o fecho prudente do diálogo. O belga nunca promete sol, o céu muda de ideia toda hora. ⛅"
+    }
+  ],
+  "vocab": [
+    { "nl": "het weer", "art": "het", "split": null, "pt": "o tempo (clima)", "emoji": "🌦️" },
+    { "nl": "de regen", "art": "de", "split": null, "pt": "a chuva", "emoji": "🌧️" },
+    { "nl": "regenen", "art": null, "split": null, "pt": "chover", "emoji": "🌧️" },
+    { "nl": "de zon", "art": "de", "split": null, "pt": "o sol", "emoji": "☀️" },
+    { "nl": "de wind", "art": "de", "split": null, "pt": "o vento", "emoji": "💨" },
+    { "nl": "de sneeuw", "art": "de", "split": null, "pt": "a neve", "emoji": "❄️" },
+    { "nl": "de wolk", "art": "de", "split": null, "pt": "a nuvem", "emoji": "☁️" },
+    { "nl": "de mist", "art": "de", "split": null, "pt": "a neblina", "emoji": "🌫️" },
+    { "nl": "de storm", "art": "de", "split": null, "pt": "a tempestade", "emoji": "⛈️" },
+    { "nl": "koud", "art": null, "split": null, "pt": "frio", "emoji": "🥶" },
+    { "nl": "warm", "art": null, "split": null, "pt": "quente", "emoji": "🥵" },
+    { "nl": "zonnig", "art": null, "split": "zon (sol) + nig (sufixo -oso)", "pt": "ensolarado", "emoji": "☀️" },
+    { "nl": "bewolkt", "art": null, "split": "be- (prefixo) + wolk (nuvem) + t (particípio, \"coberto de nuvens\")", "pt": "nublado", "emoji": "☁️" },
+    { "nl": "guur", "art": null, "split": null, "pt": "frio e ventoso, tempo horrível (bem belga)", "emoji": "🌬️" },
+    { "nl": "vervelend", "art": null, "split": "vervelen (aborrecer) + d (sufixo -ante)", "pt": "chato, irritante", "emoji": "😤" },
+    { "nl": "gelukkig", "art": null, "split": "geluk (sorte/felicidade) + ig (sufixo -oso)", "pt": "felizmente, ainda bem", "emoji": "🍀" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual é a estrutura básica pra descrever o tempo em neerlandês? 🌦️",
+      "options": ["Weer is het...", "Het is + adjetivo", "Ik ben + adjetivo", "Er is weer"],
+      "answer": 1,
+      "explain": "Het is + adjetivo é o molde fixo: Het is koud, Het is zonnig, Het is guur. O \"het\" é sujeito fantasma obrigatório."
+    },
+    {
+      "type": "mc",
+      "q": "O que significa \"guur\"? 🌬️",
+      "options": ["Ensolarado", "Quente", "Frio e ventoso, tempo desagradável", "Levemente nublado"],
+      "answer": 2,
+      "explain": "guur descreve aquele tempo tipicamente flamengo: frio, ventoso e cinza. Não tem tradução direta, é só \"tempo horrível\"."
+    },
+    {
+      "type": "listen",
+      "nl": "Het is vandaag erg bewolkt.",
+      "options": ["Hoje está muito frio", "Hoje está muito ensolarado", "Hoje está muito nublado"],
+      "answer": 2,
+      "explain": "bewolkt = nublado (be- + wolk \"nuvem\" + t). erg = muito."
+    },
+    {
+      "type": "listen",
+      "nl": "Zeg, wat een guur weertje, hé!",
+      "options": ["Nossa, que tempo agradável, hein!", "Diga, que tempo horrível, hein!", "Amanhã vai chover, hein!"],
+      "answer": 1,
+      "explain": "\"Zeg\" abre a frase pra chamar atenção do vizinho, e guur weertje = tempo horrível. Fala clássica de ponto de ônibus."
+    },
+    {
+      "type": "fill",
+      "before": "Het regent",
+      "after": ". (já, de novo)",
+      "answer": "alweer",
+      "alt": ["weer"],
+      "hint": "advérbio de repetição/frustração",
+      "explain": "alweer = já de novo, reforça a reclamação. \"weer\" sozinho também funciona mas alweer é mais idiomático aqui."
+    },
+    {
+      "type": "fill",
+      "before": "Gelukkig",
+      "after": "het niet. (chove)",
+      "answer": "regent",
+      "hint": "verbo \"chover\" conjugado com het",
+      "explain": "V2: \"Gelukkig\" no início empurra o verbo (regent) pra 2ª posição, e o sujeito \"het\" vem depois dele."
+    },
+    {
+      "type": "order",
+      "pt": "O tempo vai ficar ensolarado amanhã.",
+      "tokens": ["Het", "wordt", "morgen", "zonnig"],
+      "answer": "Het wordt morgen zonnig",
+      "explain": "wordt (ficar/tornar-se) é o verbo certo pra previsão do tempo, não \"is\". Ordem V2: Het + wordt + resto."
+    },
+    {
+      "type": "order",
+      "pt": "Hoje também está ventando forte.",
+      "tokens": ["Vandaag", "waait", "het", "ook", "hard"],
+      "answer": "Vandaag waait het ook hard",
+      "explain": "V2 de novo: \"Vandaag\" abre a frase, o verbo waait vem em 2º lugar, e o sujeito \"het\" pula pra depois dele."
+    },
+    {
+      "type": "match",
+      "pairs": [["de zon", "o sol"], ["de regen", "a chuva"], ["de sneeuw", "a neve"], ["de mist", "a neblina"], ["de storm", "a tempestade"]],
+      "explain": "Vocabulário básico do tempo: zon (sol), regen (chuva), sneeuw (neve), mist (neblina), storm (tempestade). Todos levam \"de\"."
+    },
+    {
+      "type": "match",
+      "pairs": [["Wat vervelend!", "Que chato!"], ["Gelukkig maar!", "Ainda bem!"], ["Lekker weertje, hé?", "Tempo bom, né?"], ["Het is guur.", "Está um tempo horrível."]],
+      "explain": "As reações e aberturas mais usadas no small talk belga sobre o tempo."
+    },
+    {
+      "type": "mc",
+      "q": "No diálogo do ponto de ônibus, a vizinha diz \"en het waait ook nog hard.\" O que ela quis dizer? 💨",
+      "options": ["E também está ventando forte", "E também está chovendo forte", "E também está nevando forte"],
+      "answer": 0,
+      "explain": "waaien = ventar. \"ook nog\" reforça \"e além disso ainda\": e além de guur, ainda está ventando forte."
+    },
+    {
+      "type": "listen",
+      "nl": "De hemel is helemaal bewolkt vandaag, geen zonnetje te zien.",
+      "options": ["O céu está totalmente limpo hoje, sol à vista", "O céu está totalmente nublado hoje, nenhum sol à vista", "Vai nevar hoje, sem sol"],
+      "answer": 1,
+      "explain": "helemaal bewolkt = totalmente nublado; geen zonnetje te zien = nenhum solzinho à vista. hemel = céu."
+    }
+  ]
+}

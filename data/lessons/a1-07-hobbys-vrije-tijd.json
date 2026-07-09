@@ -1,0 +1,118 @@
+{
+  "id": "a1-07-hobbys-vrije-tijd",
+  "unit": "A1",
+  "title": "Hobbies e tempo livre · Hobby's en vrije tijd",
+  "emoji": "⚽",
+  "teaching": [
+    {
+      "emoji": "⚽",
+      "title": "Hobby's: os verbos do tempo livre",
+      "html": "<p>Em neerlandês, a maioria dos hobbies vira um <b>verbo</b>, não um substantivo. Em português dizemos \"eu faço natação\"; em neerlandês é só um verbo: <b>zwemmen</b> (nadar).</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>zwemmen</td><td>nadar</td></tr><tr><td>lezen</td><td>ler</td></tr><tr><td>koken</td><td>cozinhar</td></tr><tr><td>fietsen</td><td>andar de bicicleta</td></tr><tr><td>tekenen</td><td>desenhar</td></tr><tr><td>wandelen</td><td>caminhar, passear</td></tr><tr><td>gamen</td><td>jogar videogame</td></tr></table><p><small>Esses verbos são todos regulares: <i>ik zwem, jij zwemt, wij zwemmen</i>. E <b>voetbal</b> (futebol) é uma exceção: é substantivo, não verbo. Para jogar futebol usamos outro verbo: <i>voetballen</i> ou <i>spelen</i> (jogar).</small></p>"
+    },
+    {
+      "emoji": "❤️",
+      "title": "Houden van + gostar de fazer algo",
+      "html": "<p><b>Houden van</b> é a forma mais forte de dizer que você gosta de algo. <i>Houden</i> sozinho significa \"segurar\", mas com <b>van</b> vira \"gostar de\":</p><p><b>Ik hou van lezen.</b><br><small>Eu gosto de ler.</small></p><p><b>Ik hou van muziek.</b><br><small>Eu gosto de música.</small></p><ul><li>Depois de <b>houden van</b> pode vir um infinitivo (<i>lezen</i>) ou um substantivo (<i>muziek</i>).</li><li>Repare que <i>hou</i>, não <i>houd</i>: com <b>ik</b> a maioria dos verbos perde o -t final, mas <i>houden</i> perde ainda a última letra da raiz.</li></ul><p><small>Cuidado: <b>van</b> nunca desaparece. Nunca diga <i>ik hou lezen</i>: a preposição é obrigatória.</small></p>"
+    },
+    {
+      "emoji": "😊",
+      "title": "Graag: a palavrinha do gosto no nível A1",
+      "html": "<p>Para o dia a dia, os holandeses usam muito mais <b>graag</b> do que houden van. A regra é simples: <b>graag vem logo depois do verbo principal</b>, sem preposição nenhuma:</p><p><b>Ik speel graag voetbal.</b><br><small>Eu gosto de jogar futebol. (literalmente: eu jogo com-gosto futebol)</small></p><table class=\"vocab\"><tr><th>Frase</th><th>Padrão</th></tr><tr><td>Ik lees graag.</td><td>verbo + graag</td></tr><tr><td>Ik kook graag.</td><td>verbo + graag</td></tr><tr><td>Ik maak graag muziek.</td><td>verbo + graag + substantivo</td></tr></table><p><small>Quer intensificar? Use <b>heel graag</b> (adoro) ou o superlativo <b>het liefst</b> (o que eu mais gosto de fazer) mais para frente. Por enquanto, <i>graag</i> sozinho já resolve 90% das frases A1.</small></p>"
+    },
+    {
+      "emoji": "🔁",
+      "title": "altijd, soms, nooit: a régua da frequência",
+      "html": "<p>Três advérbios simples cobrem quase toda conversa sobre hobbies:</p><ul><li><b>altijd</b> = sempre</li><li><b>soms</b> = às vezes</li><li><b>nooit</b> = nunca</li></ul><p>Eles ficam <b>depois do verbo</b>, igual o <i>niet</i> que você já viu:</p><p><b>Ik fiets altijd op zondag.</b> <small>Eu sempre ando de bicicleta no domingo.</small><br><b>Hij tekent nooit.</b> <small>Ele nunca desenha.</small></p><p><small>E para dizer \"toda semana\", junte <b>elke</b> (cada) com o substantivo: <i>elke week</i>, <i>elke dag</i> (todo dia). Nada de preposição extra, diferente do português \"toda a semana\".</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"doe","r":"verb"},{"t":"je","r":"pron"},{"t":"graag","r":"adv"},{"t":"in","r":"prep"},{"t":"je","r":"pron"},{"t":"vrije","r":"adj"},{"t":"tijd","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"x"},{"t":"que","r":"qw"},{"t":"você","r":"pron"},{"t":"gosta","r":"verb"},{"t":"de","r":"prep"},{"t":"fazer","r":"verb"},{"t":"no","r":"prep"},{"t":"seu","r":"pron"},{"t":"tempo","r":"noun"},{"t":"livre","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "o que fazes tu com-gosto no teu tempo livre?",
+      "note": "graag depois do verbo principal (doe) é a marca A1 do gosto. Em PT natural isso vira \"gosta de fazer\", por isso a frase em PT tem mais palavras."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"hou","r":"verb"},{"t":"van","r":"prep"},{"t":"lezen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gosto","r":"verb"},{"t":"de","r":"prep"},{"t":"ler","r":"verb"},{"t":".","r":"punc"}],
+      "note": "houden van + infinitivo = gostar de + infinitivo. Ik hou, não ik houd: a raiz perde a última letra com 'ik'."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"speel","r":"verb"},{"t":"graag","r":"adv"},{"t":"voetbal","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gosto","r":"verb"},{"t":"de","r":"prep"},{"t":"jogar","r":"verb"},{"t":"futebol","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu jogo com-gosto futebol",
+      "note": "graag não tem tradução literal em português; vira 'gosto de' na frase natural. Mas o lugar dele no neerlandês é sempre logo depois do verbo."
+    },
+    {
+      "nl": [{"t":"Zij","r":"pron"},{"t":"zwemt","r":"verb"},{"t":"elke","r":"adj"},{"t":"week","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ela","r":"pron"},{"t":"nada","r":"verb"},{"t":"toda","r":"adj"},{"t":"semana","r":"noun"},{"t":".","r":"punc"}],
+      "note": "zwemt é a forma zij/hij de zwemmen. elke = cada/todo(a), sem preposição extra como em português."
+    },
+    {
+      "nl": [{"t":"Wij","r":"pron"},{"t":"fietsen","r":"verb"},{"t":"soms","r":"adv"},{"t":"samen","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nós","r":"pron"},{"t":"pedalamos","r":"verb"},{"t":"às vezes","r":"adv"},{"t":"juntos","r":"adv"},{"t":".","r":"punc"}],
+      "note": "fietsen = andar de bicicleta / pedalar, um verbo só. No dia a dia também se ouve 'wij fietsen soms samen' entre amigos que moram perto."
+    },
+    {
+      "nl": [{"t":"Hij","r":"pron"},{"t":"tekent","r":"verb"},{"t":"nooit","r":"neg"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ele","r":"pron"},{"t":"nunca","r":"neg"},{"t":"desenha","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "ele desenha nunca",
+      "note": "nooit fica depois do verbo em neerlandês, igual niet. O português coloca 'nunca' antes do verbo: ordem invertida."
+    },
+    {
+      "nl": [{"t":"Kook","r":"verb"},{"t":"je","r":"pron"},{"t":"graag","r":"adv"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"gosta","r":"verb"},{"t":"de","r":"prep"},{"t":"cozinhar","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "cozinhas tu com-gosto?",
+      "note": "Pergunta sim/não começa direto com o verbo (V1), sem palavra interrogativa. koken no infinitivo aqui vira 'gosta de cozinhar' em PT."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"kook","r":"verb"},{"t":"heel","r":"adv"},{"t":"graag","r":"adv"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"adoro","r":"verb"},{"t":"cozinhar","r":"verb"},{"t":"!","r":"punc"}],
+      "note": "heel graag intensifica o graag simples: vira 'adorar' em vez de só 'gostar'. Combinação muito comum no dia a dia."
+    },
+    {
+      "nl": [{"t":"Speel","r":"verb"},{"t":"je","r":"pron"},{"t":"een","r":"art"},{"t":"instrument","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"toca","r":"verb"},{"t":"algum","r":"art"},{"t":"instrumento","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "spelen também significa 'tocar (um instrumento)', além de 'jogar' e 'brincar'. O contexto resolve qual sentido é."
+    },
+    {
+      "nl": [{"t":"Nee","r":"x"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"ik","r":"pron"},{"t":"maak","r":"verb"},{"t":"graag","r":"adv"},{"t":"muziek","r":"noun"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"computer","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"x"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"eu","r":"pron"},{"t":"gosto","r":"verb"},{"t":"de","r":"prep"},{"t":"fazer","r":"verb"},{"t":"música","r":"noun"},{"t":"no","r":"prep"},{"t":"computador","r":"noun"},{"t":".","r":"punc"}],
+      "note": "muziek maken = fazer música/tocar em geral, sem especificar instrumento. graag continua logo depois do verbo maak."
+    }
+  ],
+  "vocab": [
+    { "nl": "het voetbal", "art": "het", "pt": "futebol (o esporte ou a bola)", "emoji": "⚽" },
+    { "nl": "zwemmen", "art": null, "pt": "nadar", "emoji": "🏊" },
+    { "nl": "lezen", "art": null, "pt": "ler", "emoji": "📚" },
+    { "nl": "koken", "art": null, "pt": "cozinhar", "emoji": "🍳" },
+    { "nl": "fietsen", "art": null, "pt": "andar de bicicleta, pedalar", "emoji": "🚲" },
+    { "nl": "tekenen", "art": null, "pt": "desenhar", "emoji": "🎨" },
+    { "nl": "muziek maken", "art": null, "split": "muziek (música) + maken (fazer)", "pt": "fazer música, tocar (em geral)", "emoji": "🎵" },
+    { "nl": "gamen", "art": null, "pt": "jogar videogame", "emoji": "🎮" },
+    { "nl": "wandelen", "art": null, "pt": "caminhar, passear", "emoji": "🚶" },
+    { "nl": "de vrije tijd", "art": "de", "split": "vrij (livre) + tijd (tempo)", "pt": "tempo livre", "emoji": "🕒" },
+    { "nl": "houden van", "art": null, "split": "houden (segurar/gostar) + van (de)", "pt": "gostar de", "emoji": "❤️" },
+    { "nl": "graag", "art": null, "pt": "com gosto, de bom grado (vira \"gostar de\" + verbo)", "emoji": "😊" },
+    { "nl": "altijd", "art": null, "pt": "sempre", "emoji": "🔁" },
+    { "nl": "soms", "art": null, "pt": "às vezes", "emoji": "🔄" },
+    { "nl": "nooit", "art": null, "pt": "nunca", "emoji": "🚫" },
+    { "nl": "elke week", "art": null, "split": "elke (cada) + week (semana)", "pt": "toda semana", "emoji": "📅" }
+  ],
+  "exercises": [
+    { "type": "mc", "q": "Como se diz \"Eu gosto de ler\" com houden van? 📚", "options": ["Ik hou van lezen.", "Ik lees graag hou.", "Ik ben lezen.", "Ik hou lezen van."], "answer": 0, "explain": "houden van + infinitivo = gostar de + infinitivo. A preposição van nunca some: Ik hou van lezen." },
+    { "type": "mc", "q": "Onde fica \"graag\" na frase \"Ik speel ___ voetbal\" (eu gosto de jogar futebol)? ⚽", "options": ["No início da frase", "Antes do verbo", "Depois do verbo principal", "No fim, depois do substantivo"], "answer": 2, "explain": "graag vem logo depois do verbo principal: Ik speel graag voetbal. Nunca antes do verbo nem no fim da frase." },
+    { "type": "mc", "q": "Qual advérbio significa \"nunca\"? 🚫", "options": ["altijd", "soms", "elke week", "nooit"], "answer": 3, "explain": "nooit = nunca. altijd = sempre, soms = às vezes, elke week = toda semana." },
+    { "type": "listen", "nl": "Ik zwem elke week.", "options": ["Eu nado às vezes.", "Eu nado toda semana.", "Eu nunca nado."], "answer": 1, "explain": "elke week = toda semana. soms seria às vezes e nooit seria nunca. Ouça o elke week no final." },
+    { "type": "listen", "nl": "Wij fietsen soms samen.", "options": ["Nós pedalamos às vezes juntos.", "Nós sempre pedalamos sozinhos.", "Nós nunca pedalamos."], "answer": 0, "explain": "soms = às vezes e samen = juntos. Sozinho seria alleen, e a frase não tem negação nenhuma." },
+    { "type": "listen", "nl": "Kook je graag?", "options": ["Você sabe cozinhar?", "Você gosta de cozinhar?", "Você cozinhou ontem?"], "answer": 1, "explain": "É uma pergunta sim/não (verbo no início) usando graag: gosta de cozinhar? Não pergunta sobre habilidade nem sobre o passado." },
+    { "type": "fill", "before": "Ik hou", "after": "lezen.", "answer": "van", "hint": "preposição fixa depois de houden", "explain": "houden é sempre seguido de van quando significa gostar de: Ik hou van lezen. Sem o van, a frase não faz sentido." },
+    { "type": "fill", "before": "Ik speel", "after": "voetbal.", "answer": "graag", "hint": "advérbio de gosto, logo depois do verbo", "explain": "graag entra logo depois do verbo principal (speel) para dizer que você gosta de fazer algo: Ik speel graag voetbal." },
+    { "type": "fill", "before": "Hij tekent", "after": ".", "answer": "nooit", "hint": "advérbio de frequência = nunca", "explain": "nooit (nunca) fica depois do verbo, igual niet: Hij tekent nooit. É a negação total de frequência." },
+    { "type": "order", "pt": "O que você gosta de fazer no seu tempo livre?", "tokens": ["Wat", "doe", "je", "graag", "in", "je", "vrije", "tijd"], "answer": "Wat doe je graag in je vrije tijd", "explain": "Regra V2: a palavra interrogativa Wat vem primeiro, depois o verbo doe, depois o sujeito je. graag fica logo após o verbo." },
+    { "type": "order", "pt": "Ele nunca desenha.", "tokens": ["Ik", "teken", "nooit"], "altAnswers": ["Ik teken nooit"], "answer": "Ik teken nooit", "explain": "Praticando na primeira pessoa: Ik teken nooit. O advérbio nooit vai depois do verbo, nunca antes, diferente do português." },
+    { "type": "order", "pt": "Nós pedalamos às vezes juntos.", "tokens": ["Wij", "fietsen", "soms", "samen"], "answer": "Wij fietsen soms samen", "explain": "Sujeito, verbo, advérbio de frequência (soms) e depois samen (juntos): a ordem padrão de uma frase afirmativa simples." },
+    { "type": "match", "pairs": [["zwemmen", "nadar"], ["lezen", "ler"], ["koken", "cozinhar"], ["fietsen", "andar de bicicleta"], ["tekenen", "desenhar"], ["wandelen", "caminhar, passear"]], "explain": "Seis verbos de hobby bem comuns, todos regulares no presente: ik zwem, ik lees, ik kook, ik fiets, ik teken, ik wandel." },
+    { "type": "match", "pairs": [["altijd", "sempre"], ["soms", "às vezes"], ["nooit", "nunca"], ["elke week", "toda semana"]], "explain": "A régua de frequência do A1: de altijd (100%) até nooit (0%), sempre colocada depois do verbo." }
+  ]
+}

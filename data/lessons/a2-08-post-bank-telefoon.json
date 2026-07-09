@@ -1,0 +1,222 @@
+{
+  "id": "a2-08-post-bank-telefoon",
+  "unit": "A2",
+  "title": "Correios, banco e telefone · Post, bank en telefoon",
+  "emoji": "📮",
+  "teaching": [
+    {
+      "emoji": "📮",
+      "title": "📮 Na bpost: pacote, selo e aangetekend",
+      "html": "<p>A <b>bpost</b> é o correio nacional belga. Você pode ir a um <i>postkantoor</i> (agência) ou a um ponto <b>bpost punt</b> (dentro de uma loja de bairro, aberto até mais tarde). Para enviar algo:</p><ul><li>📦 <b>Ik wil graag een pakket versturen.</b> = Eu queria enviar um pacote.</li><li>✉️ <b>Ik wil graag een postzegel kopen.</b> = Eu queria comprar um selo.</li><li>📋 Para documentos importantes (contrato, passaporte), peça <b>aangetekend versturen</b>: registrado, com comprovante de entrega e rastreamento.</li></ul><p><small>aangetekend = aan (a) + getekend (assinado, de tekenen): literalmente \"com assinatura\", porque o destinatário assina o recebimento.</small></p>"
+    },
+    {
+      "emoji": "🏦",
+      "title": "🏦 No banco: retirar, transferir, bloqueado",
+      "html": "<p>Tarefas bancárias simples resolvem-se no app ou no balcão. Frases-chave:</p><table class=\"vocab\"><tr><th>neerlandês</th><th>português</th></tr><tr><td>Ik wil geld afhalen.</td><td>Eu quero retirar dinheiro.</td></tr><tr><td>Ik wil een overschrijving doen.</td><td>Eu quero fazer uma transferência.</td></tr><tr><td>Mijn kaart is geblokkeerd.</td><td>Meu cartão está bloqueado.</td></tr></table><p><b>afhalen</b> = af (fora) + halen (buscar): \"buscar para fora\", tirar dinheiro do caixa (geldautomaat). <b>overschrijving</b> = over (por cima) + schrijving (escrita): literalmente \"escrever por cima\", o jeito belga de dizer transferência bancária.</p>"
+    },
+    {
+      "emoji": "💶",
+      "title": "💶 Wero: pagar um amigo em segundos",
+      "html": "<p>Para mandar dinheiro rápido a um amigo ou pagar um comerciante pelo celular, os belgas usam o app <b>Wero</b>: <i>\"Ik stuur het je via Wero.\"</i> (Eu te mando pelo Wero.)</p><ul><li>💳 No dia a dia, o cartão físico mais usado é o <b>Bancontact</b> (débito), não o crédito.</li><li>🆔 Login no app do banco costuma pedir o <b>itsme</b>, o app de identidade digital belga.</li></ul><p><small>⚠️ Wero é o app europeu atual para pagamentos entre pessoas. O antigo Payconiq foi substituído: hoje, ninguém mais fala \"Payconiq\" no dia a dia, é sempre Wero.</small></p>"
+    },
+    {
+      "emoji": "☎️",
+      "title": "☎️ Ao telefone: marcar um horário",
+      "html": "<p>Ligar para marcar ou remarcar um compromisso segue um roteiro previsível:</p><ul><li>📞 <b>Ik bel om een afspraak te maken.</b> = Estou ligando para marcar um horário.</li><li>🙋 <b>Met wie spreek ik?</b> = Com quem eu falo? (pergunta do atendente)</li><li>🔁 <b>Kan ik u terugbellen?</b> = Posso te ligar de volta?</li></ul><p>Uma secretária eletrônica típica diz: <i>\"U bent verbonden met... Wij zijn momenteel niet bereikbaar. Laat een bericht na na de piep.\"</i> (Você está conectado com... No momento não podemos atender. Deixe uma mensagem após o sinal.)</p><p><small>Ao atender, o padrão flamengo é dizer o nome da empresa/pessoa primeiro: \"Met Sofia, goedemiddag.\" (Aqui é a Sofia, boa tarde.)</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"graag","r":"adv"},{"t":"een","r":"art"},{"t":"pakket","r":"noun"},{"t":"versturen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"queria","r":"verb"},{"t":"enviar","r":"verb"},{"t":"um","r":"art"},{"t":"pacote","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero com-prazer um pacote enviar",
+      "note": "wil graag ... versturen: a pinça verbal, igual em qualquer pedido educado no correio."
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"dit","r":"pron"},{"t":"aangetekend","r":"adj"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Isso","r":"pron"},{"t":"pode","r":"verb"},{"t":"ser","r":"verb"},{"t":"registrado","r":"adj"},{"t":"?","r":"punc"}],
+      "note": "aangetekend = aan + getekend (assinado): envio registrado, com comprovante de entrega assinado."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"geld","r":"noun"},{"t":"afhalen","r":"verb"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"geldautomaat","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"quero","r":"verb"},{"t":"retirar","r":"verb"},{"t":"dinheiro","r":"noun"},{"t":"no","r":"prep"},{"t":"caixa","r":"noun"},{"t":"eletrônico","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu quero dinheiro para-fora-buscar no caixa eletrônico",
+      "note": "afhalen (af + halen) é separável: neste caso o infinitivo fica junto no fim porque wil já é o verbo modal."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"kaart","r":"noun"},{"t":"is","r":"verb"},{"t":"geblokkeerd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"cartão","r":"noun"},{"t":"está","r":"verb"},{"t":"bloqueado","r":"verb"},{"t":".","r":"punc"}],
+      "note": "geblokkeerd é particípio usado como adjetivo, com zijn: exatamente como o \"está bloqueado\" do português."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"een","r":"art"},{"t":"overschrijving","r":"noun"},{"t":"doen","r":"verb"},{"t":"naar","r":"prep"},{"t":"mijn","r":"pron"},{"t":"huisbaas","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"quero","r":"verb"},{"t":"fazer","r":"verb"},{"t":"uma","r":"art"},{"t":"transferência","r":"noun"},{"t":"para","r":"prep"},{"t":"o","r":"art"},{"t":"meu","r":"pron"},{"t":"senhorio","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero uma transferência fazer para meu senhorio",
+      "note": "overschrijving = over (por cima) + schrijving (escrita): \"escrever por cima\" do saldo, a transferência bancária."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"stuur","r":"verb"},{"t":"het","r":"pron"},{"t":"je","r":"pron"},{"t":"via","r":"prep"},{"t":"Wero","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"te","r":"pron"},{"t":"mando","r":"verb"},{"t":"isso","r":"pron"},{"t":"pelo","r":"prep"},{"t":"Wero","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu mando o (isso) para-ti via Wero",
+      "note": "Wero é o app atual de pagamento rápido entre pessoas na Bélgica: substituiu o antigo Payconiq por completo."
+    },
+    {
+      "nl": [{"t":"Met","r":"prep"},{"t":"wie","r":"qw"},{"t":"spreek","r":"verb"},{"t":"ik","r":"pron"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Com","r":"prep"},{"t":"quem","r":"qw"},{"t":"eu","r":"pron"},{"t":"estou","r":"verb"},{"t":"falando","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "com quem falo eu?",
+      "note": "Fórmula fixa que o atendente usa para confirmar quem está do outro lado da linha."
+    },
+    {
+      "nl": [{"t":"Kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"u","r":"pron"},{"t":"terugbellen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Posso","r":"verb"},{"t":"te","r":"pron"},{"t":"ligar","r":"verb"},{"t":"de","r":"prep"},{"t":"volta","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "posso eu o-senhor de-volta-ligar?",
+      "note": "terugbellen = terug (de volta) + bellen (ligar): verbo separável, aqui junto porque kan já carrega a conjugação."
+    },
+    {
+      "nl": [{"t":"U","r":"pron"},{"t":"bent","r":"verb"},{"t":"verbonden","r":"verb"},{"t":"met","r":"prep"},{"t":"de","r":"art"},{"t":"praktijk","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"está","r":"verb"},{"t":"conectado","r":"verb"},{"t":"com","r":"prep"},{"t":"o","r":"art"},{"t":"consultório","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Frase típica de secretária eletrônica: verbonden (particípio de verbinden, conectar) + met."
+    },
+    {
+      "nl": [{"t":"Laat","r":"verb"},{"t":"een","r":"art"},{"t":"bericht","r":"noun"},{"t":"na","r":"part"},{"t":"na","r":"prep"},{"t":"de","r":"art"},{"t":"piep","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Deixe","r":"verb"},{"t":"uma","r":"art"},{"t":"mensagem","r":"noun"},{"t":"após","r":"prep"},{"t":"o","r":"art"},{"t":"sinal","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "deixe uma mensagem para-trás após o bipe",
+      "note": "nalaten (deixar registrado) é separável: laat ... na. Não confunda o na partícula com o na preposição da frase seguinte."
+    },
+    {
+      "nl": [{"t":"Goedemiddag","r":"x"},{"t":",","r":"punc"},{"t":"met","r":"prep"},{"t":"Sofia","r":"noun"},{"t":",","r":"punc"},{"t":"waarmee","r":"qw"},{"t":"kan","r":"verb"},{"t":"ik","r":"pron"},{"t":"u","r":"pron"},{"t":"helpen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Boa","r":"x"},{"t":"tarde","r":"x"},{"t":",","r":"punc"},{"t":"aqui","r":"adv"},{"t":"é","r":"verb"},{"t":"a","r":"art"},{"t":"Sofia","r":"noun"},{"t":",","r":"punc"},{"t":"em","r":"prep"},{"t":"que","r":"qw"},{"t":"posso","r":"verb"},{"t":"ajudar","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "boa-tarde, com Sofia, com-quê posso eu o-senhor ajudar?",
+      "note": "met + nome próprio é como belgas se apresentam ao telefone: \"met Sofia\" = \"aqui é a Sofia\"."
+    },
+    {
+      "nl": [{"t":"Sofia","r":"noun"},{"t":",","r":"punc"},{"t":"goedemiddag","r":"x"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"bel","r":"verb"},{"t":"om","r":"prep"},{"t":"mijn","r":"pron"},{"t":"afspraak","r":"noun"},{"t":"te","r":"part"},{"t":"verzetten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Sofia","r":"noun"},{"t":",","r":"punc"},{"t":"boa","r":"x"},{"t":"tarde","r":"x"},{"t":".","r":"punc"},{"t":"Estou","r":"verb"},{"t":"ligando","r":"verb"},{"t":"para","r":"prep"},{"t":"remarcar","r":"verb"},{"t":"meu","r":"pron"},{"t":"horário","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "Sofia, boa-tarde. eu ligo para meu compromisso mudar",
+      "note": "verzetten (mudar/remarcar) usa a mesma estrutura om ... te + infinitivo da frase anterior."
+    }
+  ],
+  "vocab": [
+    { "nl": "het pakket", "art": "het", "split": "do latim pacchetum, prima do nosso \"pacote\"", "pt": "pacote", "emoji": "📦" },
+    { "nl": "de postzegel", "art": "de", "split": "post (correio) + zegel (selo, carimbo)", "pt": "selo postal", "emoji": "✉️" },
+    { "nl": "aangetekend", "art": null, "split": "aan (a) + getekend (assinado, de tekenen): \"com assinatura\"", "pt": "registrado (envio com comprovante de entrega)", "emoji": "📋" },
+    { "nl": "het postkantoor", "art": "het", "split": "post (correio) + kantoor (escritório)", "pt": "agência dos correios", "emoji": "🏤" },
+    { "nl": "de bpost punt", "art": "de", "split": "bpost + punt (ponto): um \"ponto bpost\" dentro de outra loja", "pt": "ponto de coleta/entrega dos correios belgas", "emoji": "📍" },
+    { "nl": "afhalen", "art": null, "split": "af (para fora) + halen (buscar): verbo separável", "pt": "retirar, buscar (dinheiro, encomenda)", "emoji": "💵" },
+    { "nl": "de overschrijving", "art": "de", "split": "over (por cima) + schrijving (escrita): \"escrever por cima\"", "pt": "transferência bancária", "emoji": "🔁" },
+    { "nl": "geblokkeerd", "art": null, "split": "ge- + blokkeren (bloquear) + -d: particípio", "pt": "bloqueado (cartão, conta)", "emoji": "🚫" },
+    { "nl": "de geldautomaat", "art": "de", "split": "geld (dinheiro) + automaat (máquina)", "pt": "caixa eletrônico", "emoji": "🏧" },
+    { "nl": "de bankkaart", "art": "de", "split": "bank + kaart", "pt": "cartão de débito (Bancontact)", "emoji": "💳" },
+    { "nl": "de afspraak", "art": "de", "split": "af (fechado, combinado) + spraak (fala)", "pt": "compromisso, horário marcado", "emoji": "📅" },
+    { "nl": "terugbellen", "art": null, "split": "terug (de volta) + bellen (ligar): verbo separável", "pt": "retornar uma ligação", "emoji": "📱" },
+    { "nl": "het antwoordapparaat", "art": "het", "split": "antwoord (resposta) + apparaat (aparelho)", "pt": "secretária eletrônica", "emoji": "☎️" },
+    { "nl": "het bericht", "art": "het", "split": "be- + richt (de richten, dirigir): algo \"direcionado\" a você", "pt": "mensagem, recado", "emoji": "💬" },
+    { "nl": "verzetten (een afspraak)", "art": null, "split": "ver- (mudança) + zetten (colocar): \"colocar de outro jeito\"", "pt": "remarcar (um horário)", "emoji": "🔄" },
+    { "nl": "Wero", "art": null, "split": "nome próprio do app europeu de pagamentos, sucessor do antigo Payconiq", "pt": "app para pagar/receber dinheiro pelo celular", "emoji": "💶" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que significa \"aangetekend versturen\"? 📋",
+      "options": ["Enviar com desconto", "Enviar registrado, com comprovante de entrega", "Enviar por avião", "Enviar sem selo"],
+      "answer": 1,
+      "explain": "aangetekend = aan + getekend (assinado): o destinatário assina o recebimento, então você tem comprovante e rastreamento do envio."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é o app atual para pagar um amigo rapidamente pelo celular na Bélgica? 💶",
+      "options": ["Payconiq", "itsme", "Wero", "Bancontact app"],
+      "answer": 2,
+      "explain": "Wero é o sucessor europeu do antigo Payconiq. Hoje ninguém mais usa o nome Payconiq no dia a dia: é sempre Wero."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik wil graag een pakket versturen.",
+      "options": ["Eu queria comprar um selo", "Eu queria enviar um pacote", "Eu queria retirar um pacote"],
+      "answer": 1,
+      "explain": "wil graag ... versturen = \"queria enviar\": a fórmula educada com o infinitivo no fim da frase."
+    },
+    {
+      "type": "listen",
+      "nl": "Mijn kaart is geblokkeerd.",
+      "options": ["Meu cartão expirou", "Meu cartão está bloqueado", "Meu cartão foi roubado"],
+      "answer": 1,
+      "explain": "geblokkeerd é o particípio de blokkeren (bloquear), usado com is (zijn), igual ao \"está bloqueado\" do português."
+    },
+    {
+      "type": "listen",
+      "nl": "Kan ik u terugbellen?",
+      "options": ["Posso te ligar de volta?", "Você pode me ligar agora?", "Com quem eu falo?"],
+      "answer": 0,
+      "explain": "terugbellen = terug (de volta) + bellen (ligar): \"posso ligar de volta pra você?\""
+    },
+    {
+      "type": "fill",
+      "before": "Ik wil geld",
+      "after": "aan de geldautomaat.",
+      "answer": "afhalen",
+      "alt": [],
+      "hint": "verbo separável: af + halen",
+      "explain": "afhalen (af + halen, \"buscar para fora\") é o verbo padrão para retirar dinheiro no caixa eletrônico."
+    },
+    {
+      "type": "fill",
+      "before": "Ik bel om een afspraak te",
+      "after": ".",
+      "answer": "maken",
+      "alt": [],
+      "hint": "fazer (uma consulta/compromisso)",
+      "explain": "om ... te maken = \"para fazer\": a estrutura de finalidade om + te + infinitivo é muito usada ao telefone."
+    },
+    {
+      "type": "fill",
+      "before": "Ik stuur het je via",
+      "after": ".",
+      "answer": "Wero",
+      "alt": [],
+      "hint": "o app atual, nunca mais Payconiq",
+      "explain": "Wero é o app europeu atual para mandar dinheiro a alguém pelo celular; o antigo Payconiq não existe mais."
+    },
+    {
+      "type": "order",
+      "pt": "Eu quero fazer uma transferência.",
+      "tokens": ["Ik", "wil", "een", "overschrijving", "doen"],
+      "answer": "Ik wil een overschrijving doen",
+      "explain": "wil na posição 2, doen no fim: a pinça verbal. overschrijving é o nome belga para transferência bancária."
+    },
+    {
+      "type": "order",
+      "pt": "Com quem eu falo?",
+      "tokens": ["Met", "wie", "spreek", "ik"],
+      "answer": "Met wie spreek ik",
+      "altAnswers": ["Met wie spreek ik?"],
+      "explain": "Pergunta com palavra interrogativa: Met wie (com quem) abre a frase, seguida do verbo spreek e depois ik."
+    },
+    {
+      "type": "order",
+      "pt": "Deixe uma mensagem após o sinal.",
+      "tokens": ["Laat", "een", "bericht", "na", "na", "de", "piep"],
+      "answer": "Laat een bericht na na de piep",
+      "explain": "nalaten (deixar registrado) é separável: Laat ... na. O segundo \"na\" é a preposição \"após\" antes de \"de piep\"."
+    },
+    {
+      "type": "match",
+      "pairs": [["de overschrijving", "a transferência bancária"], ["het pakket", "o pacote"], ["de bankkaart", "o cartão de débito"], ["de afspraak", "o compromisso marcado"], ["geblokkeerd", "bloqueado"], ["terugbellen", "retornar a ligação"]],
+      "explain": "Repare nos compostos: over + schrijving (escrever por cima), bank + kaart, terug + bellen (ligar de volta)."
+    },
+    {
+      "type": "mc",
+      "q": "Você quer enviar um documento importante e quer garantia de entrega. O que você pede na bpost? 📮",
+      "options": ["Een postzegel kopen", "Een pakket aangetekend versturen", "Geld afhalen", "Een afspraak maken"],
+      "answer": 1,
+      "explain": "Para documentos importantes, peça o envio aangetekend (registrado): você recebe comprovante e o pacote pode ser rastreado."
+    },
+    {
+      "type": "mc",
+      "q": "Ao atender o telefone no estilo flamengo, o que a pessoa costuma dizer primeiro? ☎️",
+      "options": ["Hallo, wie is dit?", "Met + nome próprio, seguido de uma saudação", "Waarom belt u?", "Tot ziens!"],
+      "answer": 1,
+      "explain": "O padrão é \"Met Sofia, goedemiddag\" (aqui é a Sofia, boa tarde): a pessoa se identifica com met + nome antes de mais nada."
+    }
+  ]
+}

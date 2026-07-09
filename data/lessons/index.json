@@ -46,6 +46,33 @@
    "vocab": 16
   },
   {
+   "id": "a1-06-kleuren-kleding",
+   "unit": "A1",
+   "title": "Cores e roupas · Kleuren en kleding",
+   "emoji": "🎨",
+   "phrases": 11,
+   "exercises": 12,
+   "vocab": 16
+  },
+  {
+   "id": "a1-07-hobbys-vrije-tijd",
+   "unit": "A1",
+   "title": "Hobbies e tempo livre · Hobby's en vrije tijd",
+   "emoji": "⚽",
+   "phrases": 10,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a1-08-weer-kleinpraat",
+   "unit": "A1",
+   "title": "O tempo e conversa fiada · Weer en kleinpraat",
+   "emoji": "🌦️",
+   "phrases": 11,
+   "exercises": 12,
+   "vocab": 16
+  },
+  {
    "id": "a2-01-v2-vragen",
    "unit": "A2",
    "title": "A ordem V2 e perguntas · Woordvolgorde",
@@ -86,6 +113,33 @@
    "unit": "A2",
    "title": "Bonde, ônibus e trem · Openbaar vervoer",
    "emoji": "🚌",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-06-restaurant",
+   "unit": "A2",
+   "title": "No restaurante · In het restaurant",
+   "emoji": "🍽️",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "a2-07-richtingen-stad",
+   "unit": "A2",
+   "title": "Direções pela cidade · Richtingen in de stad",
+   "emoji": "🧭",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "a2-08-post-bank-telefoon",
+   "unit": "A2",
+   "title": "Correios, banco e telefone · Post, bank en telefoon",
+   "emoji": "📮",
    "phrases": 12,
    "exercises": 14,
    "vocab": 16

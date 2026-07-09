@@ -1,0 +1,213 @@
+{
+  "id": "a2-07-richtingen-stad",
+  "unit": "A2",
+  "title": "Direções pela cidade · Richtingen in de stad",
+  "emoji": "🧭",
+  "teaching": [
+    {
+      "emoji": "🧭",
+      "title": "🧭 Pedindo e entendendo direções",
+      "html": "<p>Para pedir uma direção em neerlandês, a pergunta clássica é:</p><table class=\"vocab\"><tr><th>Neerlandês</th><th>Português</th></tr><tr><td><b>Hoe kom ik bij...?</b></td><td>Como eu chego a...?</td></tr><tr><td><b>Waar is de dichtstbijzijnde...?</b></td><td>Onde fica o/a ... mais próximo(a)?</td></tr></table><p>Repare que <i>dichtstbijzijnde</i> é uma palavra gigante, mas é só o superlativo de <b>dichtbij</b> (perto): <i>dichtst</i> (mais perto) + <i>bij</i> (perto) + <i>zijnde</i> (sendo). Quem responde geralmente usa <b>vlakbij</b> (bem pertinho) ou <b>het is vijf minuten lopen</b> (são cinco minutos a pé). 🚶</p>"
+    },
+    {
+      "emoji": "🚦",
+      "title": "🚦 Virar, atravessar, seguir: o imperativo",
+      "html": "<p>Quem dá a direção usa o <b>imperativo</b>, a forma jij/je do verbo sem pronome:</p><ul><li>🔺 <b>Ga rechtdoor</b> = Vá reto / siga em frente</li><li>↩️ <b>Sla linksaf</b> / <b>Sla rechtsaf</b> = Vire à esquerda / à direita (slaan = bater, mas aqui significa \"virar\")</li><li>🌉 <b>Steek de brug over</b> = Atravesse a ponte</li></ul><p>Note o verbo separável <i>oversteken</i>: no imperativo ele se parte em dois pedaços, <b>Steek</b> ... <b>over</b>, com o objeto (<i>de brug</i>) no meio. É a mesma lógica de <i>instappen</i> → <i>Stap in!</i> que você já viu no transporte público.</p>"
+    },
+    {
+      "emoji": "📍",
+      "title": "📍 Onde fica? Preposições de lugar",
+      "html": "<p>Para descrever a posição de um lugar, use estas preposições:</p><table class=\"vocab\"><tr><th>Preposição</th><th>Significado</th></tr><tr><td><b>naast</b></td><td>ao lado de</td></tr><tr><td><b>tegenover</b></td><td>em frente a, do outro lado de</td></tr><tr><td><b>achter</b></td><td>atrás de</td></tr><tr><td><b>voor</b></td><td>na frente de</td></tr><tr><td><b>tussen</b></td><td>entre</td></tr><tr><td><b>om de hoek</b></td><td>ali na esquina, dobrando a esquina</td></tr></table><p><small>Cuidado com o falso amigo: <i>voor</i> parece \"por\", mas aqui significa \"na frente de\". E <i>achter</i> não tem nada a ver com \"acertar\": é \"atrás\".</small></p>"
+    },
+    {
+      "emoji": "🏛️",
+      "title": "🏛️ Pontos de referência em uma cidade flamenga",
+      "html": "<p>Toda cidade belga tem os mesmos marcos para se orientar:</p><ul><li>⛪ <b>de kerk</b> (a igreja, quase sempre no centro)</li><li>🏪 <b>het marktplein</b> (a praça do mercado, coração da cidade)</li><li>🏛️ <b>het gemeentehuis</b> (a prefeitura, geralmente na praça principal)</li><li>🚉 <b>het station</b> (a estação de trem)</li><li>📚 <b>de bibliotheek</b> (a biblioteca)</li></ul><p>💡 Palavra LEGO do dia: <i>gemeente+huis</i> (município + casa) e <i>markt+plein</i> (mercado + praça). Quebrar a palavra composta é entender a cidade inteira.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Hoe","r":"qw"},{"t":"kom","r":"verb"},{"t":"ik","r":"pron"},{"t":"bij","r":"prep"},{"t":"het","r":"art"},{"t":"station","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Como","r":"qw"},{"t":"chego","r":"verb"},{"t":"até","r":"prep"},{"t":"a","r":"art"},{"t":"estação","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "Hoe kom ik bij...? é a pergunta padrão para pedir direção: literalmente \"como venho eu junto a...?\""
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"is","r":"verb"},{"t":"de","r":"art"},{"t":"dichtstbijzijnde","r":"adj"},{"t":"bibliotheek","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"fica","r":"verb"},{"t":"a","r":"art"},{"t":"biblioteca","r":"noun"},{"t":"mais","r":"adv"},{"t":"próxima","r":"adj"},{"t":"?","r":"punc"}],
+      "note": "dichtstbijzijnde = dichtst (mais perto) + bij (perto) + zijnde (sendo): o superlativo vem ANTES do substantivo, diferente do português."
+    },
+    {
+      "nl": [{"t":"Ga","r":"verb"},{"t":"rechtdoor","r":"adv"},{"t":"tot","r":"prep"},{"t":"aan","r":"prep"},{"t":"het","r":"art"},{"t":"kruispunt","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Vá","r":"verb"},{"t":"reto","r":"adv"},{"t":"até","r":"prep"},{"t":"o","r":"art"},{"t":"cruzamento","r":"noun"},{"t":".","r":"punc"}],
+      "note": "tot aan = \"até junto a\", uma preposição dupla comum para marcar o ponto final de um trajeto. kruispunt = kruis (cruz) + punt (ponto)."
+    },
+    {
+      "nl": [{"t":"Sla","r":"verb"},{"t":"linksaf","r":"adv"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"kerk","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Vire","r":"verb"},{"t":"à","r":"prep"},{"t":"esquerda","r":"adv"},{"t":"na","r":"prep"},{"t":"igreja","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "vire esquerda-para-fora junto à igreja",
+      "note": "linksaf = links (esquerda) + af (partícula de movimento para fora). Sla é o imperativo de slaan (bater/virar)."
+    },
+    {
+      "nl": [{"t":"Steek","r":"verb"},{"t":"de","r":"art"},{"t":"brug","r":"noun"},{"t":"over","r":"part"},{"t":"en","r":"conj"},{"t":"ga","r":"verb"},{"t":"dan","r":"adv"},{"t":"rechtdoor","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Atravesse","r":"verb"},{"t":"a","r":"art"},{"t":"ponte","r":"noun"},{"t":"e","r":"conj"},{"t":"depois","r":"adv"},{"t":"siga","r":"verb"},{"t":"reto","r":"adv"},{"t":".","r":"punc"}],
+      "note": "oversteken é separável: no imperativo, Steek abre a frase e over fecha, com o objeto (de brug) no meio."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"gemeentehuis","r":"noun"},{"t":"is","r":"verb"},{"t":"tegenover","r":"prep"},{"t":"de","r":"art"},{"t":"bibliotheek","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"prefeitura","r":"noun"},{"t":"fica","r":"verb"},{"t":"em","r":"prep"},{"t":"frente","r":"noun"},{"t":"a","r":"prep"},{"t":"a","r":"art"},{"t":"biblioteca","r":"noun"},{"t":".","r":"punc"}],
+      "note": "tegenover = tegen (contra) + over (por cima): em frente a, do outro lado da rua. gemeentehuis = gemeente (município) + huis (casa)."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"kerk","r":"noun"},{"t":"staat","r":"verb"},{"t":"naast","r":"prep"},{"t":"het","r":"art"},{"t":"station","r":"noun"},{"t":",","r":"punc"},{"t":"niet","r":"neg"},{"t":"ver","r":"adj"},{"t":"van","r":"prep"},{"t":"hier","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"igreja","r":"noun"},{"t":"fica","r":"verb"},{"t":"ao","r":"prep"},{"t":"lado","r":"noun"},{"t":"da","r":"prep"},{"t":"estação","r":"noun"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"muito","r":"adv"},{"t":"longe","r":"adj"},{"t":"daqui","r":"adv"},{"t":".","r":"punc"}],
+      "note": "Em neerlandês, prédios \"ficam de pé\": staan (estar em pé) é usado onde o português usaria simplesmente \"ficar\"."
+    },
+    {
+      "nl": [{"t":"Neem","r":"verb"},{"t":"de","r":"art"},{"t":"eerste","r":"num"},{"t":"straat","r":"noun"},{"t":"rechts","r":"adv"},{"t":",","r":"punc"},{"t":"aan","r":"prep"},{"t":"het","r":"art"},{"t":"einde","r":"noun"},{"t":"vindt","r":"verb"},{"t":"u","r":"pron"},{"t":"het","r":"art"},{"t":"marktplein","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Pegue","r":"verb"},{"t":"a","r":"art"},{"t":"primeira","r":"num"},{"t":"rua","r":"noun"},{"t":"à","r":"prep"},{"t":"direita","r":"adv"},{"t":",","r":"punc"},{"t":"no","r":"prep"},{"t":"final","r":"noun"},{"t":"você","r":"pron"},{"t":"encontra","r":"verb"},{"t":"a","r":"art"},{"t":"praça","r":"noun"},{"t":"do","r":"prep"},{"t":"mercado","r":"noun"},{"t":".","r":"punc"}],
+      "note": "aan het einde vindt u = \"no final você encontra\": pergunta com u (formal) vem invertido depois do complemento, padrão V2."
+    },
+    {
+      "nl": [{"t":"Is","r":"verb"},{"t":"het","r":"pron"},{"t":"ver","r":"adj"},{"t":"lopen","r":"verb"},{"t":"naar","r":"prep"},{"t":"het","r":"art"},{"t":"station","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"É","r":"verb"},{"t":"longe","r":"adj"},{"t":"a","r":"prep"},{"t":"pé","r":"noun"},{"t":"até","r":"prep"},{"t":"a","r":"art"},{"t":"estação","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "é isso longe caminhar até a estação?",
+      "note": "het aqui é um sujeito \"vazio\", igual ao het/er de \"het regent\" (chove). lopen = caminhar/andar a pé."
+    },
+    {
+      "nl": [{"t":"Nee","r":"x"},{"t":",","r":"punc"},{"t":"het","r":"pron"},{"t":"is","r":"verb"},{"t":"maar","r":"adv"},{"t":"vijf","r":"num"},{"t":"minuten","r":"noun"},{"t":"lopen","r":"verb"},{"t":",","r":"punc"},{"t":"vlakbij","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"x"},{"t":",","r":"punc"},{"t":"são","r":"verb"},{"t":"só","r":"adv"},{"t":"cinco","r":"num"},{"t":"minutos","r":"noun"},{"t":"a","r":"prep"},{"t":"pé","r":"noun"},{"t":",","r":"punc"},{"t":"bem","r":"adv"},{"t":"perto","r":"adv"},{"t":".","r":"punc"}],
+      "note": "vlakbij = vlak (bem) + bij (perto): bem pertinho. maar aqui não é \"mas\", significa \"apenas, só\"."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"bibliotheek","r":"noun"},{"t":"is","r":"verb"},{"t":"achter","r":"prep"},{"t":"het","r":"art"},{"t":"gemeentehuis","r":"noun"},{"t":",","r":"punc"},{"t":"niet","r":"neg"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"kerk","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"biblioteca","r":"noun"},{"t":"fica","r":"verb"},{"t":"atrás","r":"prep"},{"t":"da","r":"prep"},{"t":"prefeitura","r":"noun"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"na","r":"prep"},{"t":"frente","r":"noun"},{"t":"da","r":"prep"},{"t":"igreja","r":"noun"},{"t":".","r":"punc"}],
+      "note": "achter x voor: opostos essenciais. achter = atrás de; voor = na frente de."
+    },
+    {
+      "nl": [{"t":"Om","r":"prep"},{"t":"de","r":"art"},{"t":"hoek","r":"noun"},{"t":"vindt","r":"verb"},{"t":"u","r":"pron"},{"t":"het","r":"art"},{"t":"marktplein","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ao","r":"prep"},{"t":"virar","r":"verb"},{"t":"a","r":"art"},{"t":"esquina","r":"noun"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"encontra","r":"verb"},{"t":"a","r":"art"},{"t":"praça","r":"noun"},{"t":"do","r":"prep"},{"t":"mercado","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ao redor do canto encontra você a praça do mercado",
+      "note": "om de hoek = \"em volta da esquina\": dobrando a esquina. hoek = canto/esquina/ângulo."
+    }
+  ],
+  "vocab": [
+    { "nl": "de richting", "art": "de", "split": "richten (apontar) + -ing", "pt": "direção", "emoji": "🧭" },
+    { "nl": "rechtdoor", "art": null, "split": "recht (reto) + door (por/através)", "pt": "em frente, reto", "emoji": "➡️" },
+    { "nl": "linksaf", "art": null, "split": "links (esquerda) + af (para fora/movimento)", "pt": "à esquerda (ao virar)", "emoji": "⬅️" },
+    { "nl": "rechtsaf", "art": null, "split": "rechts (direita) + af (para fora/movimento)", "pt": "à direita (ao virar)", "emoji": "↪️" },
+    { "nl": "oversteken", "art": null, "split": "over (por cima) + steken (atravessar, picar)", "pt": "atravessar (uma rua, ponte)", "emoji": "🚸" },
+    { "nl": "het kruispunt", "art": "het", "split": "kruis (cruz) + punt (ponto)", "pt": "cruzamento, encruzilhada", "emoji": "🚦" },
+    { "nl": "de brug", "art": "de", "split": "cognato antigo de \"bridge\"", "pt": "ponte", "emoji": "🌉" },
+    { "nl": "het marktplein", "art": "het", "split": "markt (mercado) + plein (praça)", "pt": "praça do mercado", "emoji": "🏪" },
+    { "nl": "het gemeentehuis", "art": "het", "split": "gemeente (município) + huis (casa)", "pt": "prefeitura, câmara municipal", "emoji": "🏛️" },
+    { "nl": "de kerk", "art": "de", "split": "palavra simples, sem composição", "pt": "igreja", "emoji": "⛪" },
+    { "nl": "het station", "art": "het", "split": "cognato de \"station\"", "pt": "estação", "emoji": "🚉" },
+    { "nl": "de bibliotheek", "art": "de", "split": "do grego biblion (livro) + theek (depósito)", "pt": "biblioteca", "emoji": "📚" },
+    { "nl": "tegenover", "art": null, "split": "tegen (contra) + over (por cima)", "pt": "em frente a, do outro lado de", "emoji": "🔀" },
+    { "nl": "naast", "art": null, "split": "relacionado a na (perto, junto)", "pt": "ao lado de", "emoji": "👉" },
+    { "nl": "dichtstbijzijnde", "art": null, "split": "dichtst (mais perto) + bij (perto) + zijnde (sendo)", "pt": "mais próximo(a)", "emoji": "📌" },
+    { "nl": "vlakbij", "art": null, "split": "vlak (bem, exatamente) + bij (perto)", "pt": "bem perto, pertinho", "emoji": "🤏" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Você quer saber como chegar à estação de trem. O que você pergunta? 🚉",
+      "options": ["Hoe laat is het?", "Hoe kom ik bij het station?", "Wat kost een kaartje?", "Is er een staking?"],
+      "answer": 1,
+      "explain": "Hoe kom ik bij...? é a pergunta padrão para pedir direção: literalmente \"como venho eu junto a...?\""
+    },
+    {
+      "type": "mc",
+      "q": "Alguém diz \"Sla bij de kerk linksaf.\" O que você deve fazer? ⛪",
+      "options": ["Seguir reto até a igreja", "Virar à direita na igreja", "Virar à esquerda na igreja", "Atravessar a igreja"],
+      "answer": 2,
+      "explain": "linksaf = links (esquerda) + af (partícula de movimento). Sla é o imperativo de slaan (virar/bater)."
+    },
+    {
+      "type": "mc",
+      "q": "O que significa \"het is niet ver, vlakbij\"? 📍",
+      "options": ["É muito longe daqui", "É pertinho, não é longe", "Está fechado agora", "Fica no centro da cidade"],
+      "answer": 1,
+      "explain": "vlakbij = vlak (bem) + bij (perto): bem pertinho. niet ver = não é longe."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a diferença entre \"voor\" e \"achter\" ao descrever um prédio? 🏛️",
+      "options": ["voor = atrás, achter = na frente", "voor = na frente, achter = atrás", "voor = ao lado, achter = em frente", "não há diferença, são sinônimos"],
+      "answer": 1,
+      "explain": "voor = na frente de algo; achter = atrás de algo. São opostos usados para descrever a posição de um prédio em relação a outro."
+    },
+    {
+      "type": "listen",
+      "nl": "Ga rechtdoor tot aan het kruispunt.",
+      "options": ["Vá reto até o cruzamento", "Vire à esquerda no cruzamento", "Atravesse a ponte agora"],
+      "answer": 0,
+      "explain": "rechtdoor = em frente/reto; tot aan = até (chegar em). kruispunt = kruis (cruz) + punt (ponto): cruzamento."
+    },
+    {
+      "type": "listen",
+      "nl": "Waar is de dichtstbijzijnde bibliotheek?",
+      "options": ["Onde fica a biblioteca mais próxima?", "Onde fica o cruzamento mais próximo?", "A que horas abre a biblioteca?"],
+      "answer": 0,
+      "explain": "dichtstbijzijnde = superlativo de dichtbij (perto): mais próximo(a). bibliotheek = biblioteca."
+    },
+    {
+      "type": "listen",
+      "nl": "Steek de brug over en ga dan rechtdoor.",
+      "options": ["Vire à esquerda na ponte", "Atravesse a ponte e depois siga reto", "Pare antes da ponte"],
+      "answer": 1,
+      "explain": "oversteken é um verbo separável: Steek ... over. Aqui vem o comando para atravessar a ponte e continuar em frente."
+    },
+    {
+      "type": "fill",
+      "before": "Ga",
+      "after": "tot aan het kruispunt.",
+      "answer": "rechtdoor",
+      "alt": [],
+      "hint": "em frente, reto",
+      "explain": "rechtdoor = reto/direto em frente. É a forma mais comum de indicar \"siga em frente\" em neerlandês."
+    },
+    {
+      "type": "fill",
+      "before": "Sla bij de bibliotheek",
+      "after": ".",
+      "answer": "rechtsaf",
+      "alt": [],
+      "hint": "vire à direita (rechts + af)",
+      "explain": "rechtsaf = rechts (direita) + af: vire à direita. Sla é o imperativo de slaan (virar/bater)."
+    },
+    {
+      "type": "fill",
+      "before": "Het gemeentehuis is",
+      "after": "de bibliotheek.",
+      "answer": "tegenover",
+      "alt": [],
+      "hint": "em frente a, do outro lado de",
+      "explain": "tegenover = tegen (contra) + over (por cima): em frente a, do outro lado da rua."
+    },
+    {
+      "type": "order",
+      "pt": "Como chego à estação?",
+      "tokens": ["Hoe", "kom", "ik", "bij", "het", "station"],
+      "answer": "Hoe kom ik bij het station",
+      "explain": "Pergunta com qw (Hoe): o verbo (kom) vem logo depois, seguido do sujeito (ik). bij het station = na/perto da estação."
+    },
+    {
+      "type": "order",
+      "pt": "A prefeitura fica atrás da igreja.",
+      "tokens": ["Het", "gemeentehuis", "staat", "achter", "de", "kerk"],
+      "answer": "Het gemeentehuis staat achter de kerk",
+      "explain": "V2: o verbo (staat) fica na segunda posição, logo após o sujeito. achter = atrás de. Prédios \"staan\" (ficam de pé) em neerlandês."
+    },
+    {
+      "type": "match",
+      "pairs": [["rechtdoor", "reto, em frente"], ["linksaf", "à esquerda"], ["rechtsaf", "à direita"], ["tegenover", "em frente a"], ["naast", "ao lado de"], ["achter", "atrás de"]],
+      "explain": "Essas são as preposições e advérbios essenciais para dar direções em neerlandês. Decore o par direção + preposição."
+    },
+    {
+      "type": "match",
+      "pairs": [["het kruispunt", "o cruzamento"], ["de brug", "a ponte"], ["het marktplein", "a praça do mercado"], ["het gemeentehuis", "a prefeitura"], ["de bibliotheek", "a biblioteca"]],
+      "explain": "Pontos de referência (landmarks) comuns em qualquer cidade belga. Reconhecer esses substantivos ajuda a entender direções rapidamente."
+    }
+  ]
+}
