@@ -962,6 +962,12 @@ async function renderGameDomain(app, domId) {
 }
 
 /* ---------- universal pointer-based drag helper ---------- */
+// Auto-scrolls the page when dragging near the top/bottom edge of the viewport.
+// Without this, mobile users can get stuck: touchAction:'none' on the dragged chip
+// blocks native scroll gestures for the whole drag, so if the drop target is off-screen
+// there was previously no way at all to reach it (reported: exercises unfinishable on phone).
+const EDGE_ZONE = 70; // px from top/bottom edge that triggers auto-scroll
+const EDGE_SPEED = 14; // px scrolled per animation frame at max
 function makeDraggable(el, onDrop) {
   el.style.touchAction = 'none';
   el.addEventListener('pointerdown', ev => {
@@ -975,10 +981,25 @@ function makeDraggable(el, onDrop) {
     document.body.appendChild(el);
     el.classList.add('dragging');
     el.style.width = startRect.width + 'px';
-    const move = e => { el.style.left = (e.clientX - offX) + 'px'; el.style.top = (e.clientY - offY) + 'px'; };
+    // setInterval (not requestAnimationFrame): must keep scrolling reliably during an
+    // active touch-hold near the edge even if the browser deprioritizes rAF for the tab.
+    let scrollDir = 0;
+    const scrollTimer = setInterval(() => {
+      if (scrollDir !== 0) window.scrollBy(0, scrollDir * EDGE_SPEED);
+      // el is position:fixed (viewport-relative), so it visually stays under the
+      // finger automatically as the page scrolls beneath it - no reposition needed.
+    }, 16);
+    const move = e => {
+      el.style.left = (e.clientX - offX) + 'px'; el.style.top = (e.clientY - offY) + 'px';
+      const vh = window.innerHeight;
+      if (e.clientY < EDGE_ZONE) scrollDir = -1 * (1 - e.clientY / EDGE_ZONE);
+      else if (e.clientY > vh - EDGE_ZONE) scrollDir = (1 - (vh - e.clientY) / EDGE_ZONE);
+      else scrollDir = 0;
+    };
     move(ev);
     const up = e => {
       window.removeEventListener('pointermove', move); window.removeEventListener('pointerup', up);
+      clearInterval(scrollTimer); scrollDir = 0;
       el.classList.remove('dragging');
       el.style.position = ''; el.style.left = ''; el.style.top = ''; el.style.width = '';
       const under = document.elementFromPoint(e.clientX, e.clientY);
