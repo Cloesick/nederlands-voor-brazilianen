@@ -1,0 +1,206 @@
+{
+  "id": "b1-05-auto-verkeer",
+  "unit": "B1",
+  "title": "Carro e trânsito · Auto en verkeer",
+  "emoji": "🚗",
+  "teaching": [
+    {
+      "emoji": "🪪",
+      "title": "Rijbewijs omwisselen: o que muda ao chegar",
+      "html": "<p>Quem se muda para a Flandres com carro precisa resolver o <b>rijbewijs</b> (carteira de motorista) mais cedo do que imagina:</p><ul><li>🇪🇺 <b>Rijbewijs da UE/EEE</b>: pode ser trocado direto por um belga (<b>omwisselen</b>), sem exame, num prazo tranquilo depois da inschrijving.</li><li>🇧🇷 <b>Rijbewijs brasileiro</b>: o Brasil não tem acordo bilateral com a Bélgica. Isso significa que a troca direta (omwisselen) não existe para brasileiros.</li><li>⏳ Depois de fazer a <b>inschrijving</b> na gemeente, você ainda pode dirigir com a carteira brasileira por até <b>185 dagen</b> (cerca de 6 meses).</li><li>📝 Dentro desse prazo, é preciso prestar o <b>theorie-examen</b> (exame teórico, sobre as regras de trânsito) e o <b>praktijkexamen</b> (exame prático de direção) para tirar um rijbewijs belga categorie B.</li></ul><p><small>💡 Levar a Carteira Nacional de Habilitação junto com uma Permissão Internacional de Dirigir ajuda enquanto os 185 dias não acabam, mas não substitui o exame belga.</small></p>"
+    },
+    {
+      "emoji": "⛽",
+      "title": "Benzine, diesel of elektrisch: o carro em neerlandês",
+      "html": "<p>Na hora de abastecer <b>de tank</b> (o tanque), errar de combustível é caro:</p><table class=\"vocab\"><tr><th>bico da bomba</th><th>combustível</th></tr><tr><td>🟢 verde</td><td><b>de benzine</b>: gasolina, para motores a gasolina</td></tr><tr><td>⚫ preto</td><td><b>de diesel</b>: para motores a diesel</td></tr></table><p>Cada vez mais carros são <b>elektrisch</b> (elétricos) e carregam numa <b>laadpaal</b> (ponto de recarga) em vez de tanken. Se o carro faz um <b>raar geluid</b> (som estranho) ou <b>de remmen werken niet goed</b> (os freios não funcionam bem), é hora de ir à garage.</p>"
+    },
+    {
+      "emoji": "🚦",
+      "title": "File, boete en ongeval: sobrevivendo no trânsito",
+      "html": "<p>O vocabulário do trânsito flamengo, quase sempre com a pinça dos verbos separáveis:</p><ul><li>🚗🚗 <b>de file</b>: engarrafamento. <i>Ik sta al een uur in de file.</i></li><li>🧾 <b>de boete</b>: multa. <i>Ik heb een boete gekregen.</i></li><li>📸 <b>geflitst worden</b>: ser flagrado pelo radar (de flitspaal). <i>Als u te snel rijdt, kunt u geflitst worden.</i></li><li>💥 <b>het ongeval</b>: acidente. <i>Er was een ongeval op de snelweg.</i></li></ul><p>No mecânico, use frases simples: <i>Mijn auto maakt een raar geluid</i> (meu carro está fazendo um som estranho) ou <i>De remmen werken niet goed</i> (os freios não funcionam bem). O garagist (mecânico) costuma responder com <i>Ik moet eerst de motor controleren</i> (primeiro preciso verificar o motor).</p>"
+    },
+    {
+      "emoji": "🅿️",
+      "title": "Betaald parkeren: blauwe zone en parkeerschijf",
+      "html": "<p>Estacionar na cidade tem regras próprias:</p><ul><li>🅿️ <b>betaald parkeren</b>: estacionamento pago, geralmente por parquímetro ou app.</li><li>🔵 <b>de blauwe zone</b>: zona azul, estacionamento grátis mas limitado no tempo (normalmente 1 a 2 horas).</li><li>🕐 <b>de parkeerschijf</b>: disco de estacionamento. Coloque-o atrás do para-brisa marcando a hora de chegada.</li></ul><p><small>💡 Sem a parkeerschijf visível numa blauwe zone, o risco é a mesma boete de quem estacionou errado. Fique de olho nos verkeersborden (placas de trânsito) azuis com um P.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"mijn","r":"pron"},{"t":"rijbewijs","r":"noun"},{"t":"graag","r":"adv"},{"t":"omwisselen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"trocar","r":"verb"},{"t":"minha","r":"pron"},{"t":"carteira","r":"noun"},{"t":"de","r":"prep"},{"t":"motorista","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero minha carteira-de-motorista de-bom-grado trocar",
+      "note": "wil + graag suaviza o pedido, como 'gostaria'. Pinça: wil em 2º lugar, omwisselen no fim."
+    },
+    {
+      "nl": [{"t":"Omdat","r":"conj"},{"t":"Brazilië","r":"noun"},{"t":"geen","r":"neg"},{"t":"overeenkomst","r":"noun"},{"t":"met","r":"prep"},{"t":"België","r":"noun"},{"t":"heeft","r":"verb"},{"t":",","r":"punc"},{"t":"moet","r":"verb"},{"t":"u","r":"pron"},{"t":"examen","r":"noun"},{"t":"doen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Como","r":"conj"},{"t":"o","r":"art"},{"t":"Brasil","r":"noun"},{"t":"não","r":"neg"},{"t":"tem","r":"verb"},{"t":"acordo","r":"noun"},{"t":"com","r":"prep"},{"t":"a","r":"art"},{"t":"Bélgica","r":"noun"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"precisa","r":"verb"},{"t":"fazer","r":"verb"},{"t":"o","r":"art"},{"t":"exame","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "porque Brazilië nenhum acordo com België tem, deve u exame fazer",
+      "note": "Oração com omdat manda o verbo para o fim (heeft). Depois da vírgula, a oração principal começa com moet (regra V2)."
+    },
+    {
+      "nl": [{"t":"Goedemorgen","r":"x"},{"t":",","r":"punc"},{"t":"mijn","r":"pron"},{"t":"auto","r":"noun"},{"t":"maakt","r":"verb"},{"t":"een","r":"art"},{"t":"raar","r":"adj"},{"t":"geluid","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Bom","r":"adj"},{"t":"dia","r":"noun"},{"t":",","r":"punc"},{"t":"meu","r":"pron"},{"t":"carro","r":"noun"},{"t":"está","r":"verb"},{"t":"fazendo","r":"verb"},{"t":"um","r":"art"},{"t":"barulho","r":"noun"},{"t":"estranho","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "bom-dia, meu carro maakt um estranho som",
+      "note": "O adjetivo vem ANTES do substantivo em neerlandês (raar geluid), depois em português (barulho estranho)."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"remmen","r":"noun"},{"t":"werken","r":"verb"},{"t":"ook","r":"adv"},{"t":"niet","r":"neg"},{"t":"goed","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"freios","r":"noun"},{"t":"também","r":"adv"},{"t":"não","r":"neg"},{"t":"estão","r":"verb"},{"t":"funcionando","r":"verb"},{"t":"bem","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "de remmen werken também niet bem",
+      "note": "niet vem perto do fim da frase, depois de ook, não antes do verbo como o 'não' português."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"moet","r":"verb"},{"t":"eerst","r":"adv"},{"t":"de","r":"art"},{"t":"motor","r":"noun"},{"t":"controleren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Primeiro","r":"adv"},{"t":"eu","r":"pron"},{"t":"preciso","r":"verb"},{"t":"verificar","r":"verb"},{"t":"o","r":"art"},{"t":"motor","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu moet primeiro de motor controleren",
+      "note": "Pinça: moet em 2º lugar, controleren (verificar) lá no fim da frase."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"denk","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"auto","r":"noun"},{"t":"een","r":"art"},{"t":"nieuwe","r":"adj"},{"t":"accu","r":"noun"},{"t":"nodig","r":"adj"},{"t":"heeft","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"acho","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"carro","r":"noun"},{"t":"precisa","r":"verb"},{"t":"de","r":"prep"},{"t":"uma","r":"art"},{"t":"bateria","r":"noun"},{"t":"nova","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu acho dat de auto uma nova bateria nodig heeft",
+      "note": "Oração com dat manda o verbo conjugado (heeft) para o fim. nodig hebben = precisar de algo."
+    },
+    {
+      "nl": [{"t":"Tankt","r":"verb"},{"t":"u","r":"pron"},{"t":"liever","r":"adv"},{"t":"benzine","r":"noun"},{"t":"of","r":"conj"},{"t":"diesel","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"senhor","r":"pron"},{"t":"prefere","r":"verb"},{"t":"abastecer","r":"verb"},{"t":"com","r":"prep"},{"t":"gasolina","r":"noun"},{"t":"ou","r":"conj"},{"t":"diesel","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tankt u de-preferência benzine of diesel?",
+      "note": "Pergunta de sim ou não: o verbo pula para a 1ª posição (Tankt u...), sem 'será que'."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"u","r":"pron"},{"t":"te","r":"adv"},{"t":"snel","r":"adj"},{"t":"rijdt","r":"verb"},{"t":",","r":"punc"},{"t":"kunt","r":"verb"},{"t":"u","r":"pron"},{"t":"geflitst","r":"verb"},{"t":"worden","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"você","r":"pron"},{"t":"dirigir","r":"verb"},{"t":"rápido","r":"adj"},{"t":"demais","r":"adv"},{"t":",","r":"punc"},{"t":"pode","r":"verb"},{"t":"ser","r":"verb"},{"t":"flagrado","r":"verb"},{"t":"pelo","r":"prep"},{"t":"radar","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "se u te snel rijdt, kunt u geflitst worden",
+      "note": "A oração com als manda o verbo (rijdt) para o fim; depois da vírgula, a oração principal começa com o verbo kunt (regra V2)."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"sta","r":"verb"},{"t":"al","r":"adv"},{"t":"een","r":"art"},{"t":"half","r":"num"},{"t":"uur","r":"noun"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"file","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"já","r":"adv"},{"t":"estou","r":"verb"},{"t":"há","r":"prep"},{"t":"meia","r":"num"},{"t":"hora","r":"noun"},{"t":"no","r":"prep"},{"t":"engarrafamento","r":"noun"},{"t":".","r":"punc"}],
+      "note": "staan (estar em pé, parado) descreve estar preso no trânsito. 'in de file staan' é uma expressão fixa."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"boete","r":"noun"},{"t":"gekregen","r":"verb"},{"t":"omdat","r":"conj"},{"t":"ik","r":"pron"},{"t":"fout","r":"adv"},{"t":"geparkeerd","r":"verb"},{"t":"stond","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"recebi","r":"verb"},{"t":"uma","r":"art"},{"t":"multa","r":"noun"},{"t":"porque","r":"conj"},{"t":"estacionei","r":"verb"},{"t":"errado","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu heb uma boete gekregen omdat ik fout geparkeerd stond",
+      "note": "Na oração com omdat, o verbo conjugado (stond) vai para o fim. 'fout geparkeerd staan' = estar mal estacionado."
+    },
+    {
+      "nl": [{"t":"Leg","r":"verb"},{"t":"de","r":"art"},{"t":"parkeerschijf","r":"noun"},{"t":"achter","r":"prep"},{"t":"de","r":"art"},{"t":"voorruit","r":"noun"},{"t":",","r":"punc"},{"t":"anders","r":"conj"},{"t":"krijgt","r":"verb"},{"t":"u","r":"pron"},{"t":"een","r":"art"},{"t":"boete","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Coloque","r":"verb"},{"t":"o","r":"art"},{"t":"disco","r":"noun"},{"t":"de","r":"prep"},{"t":"estacionamento","r":"noun"},{"t":"atrás","r":"prep"},{"t":"do","r":"prep"},{"t":"para-brisa","r":"noun"},{"t":",","r":"punc"},{"t":"senão","r":"conj"},{"t":"você","r":"pron"},{"t":"recebe","r":"verb"},{"t":"uma","r":"art"},{"t":"multa","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "leg de parkeerschijf achter de voorruit, anders krijgt u een boete",
+      "note": "Leg é o imperativo de leggen (colocar deitado). anders também dispara a inversão V2: krijgt vem antes de u."
+    }
+  ],
+  "vocab": [
+    { "nl": "het rijbewijs", "art": "het", "split": "rij (de rijden, dirigir) + bewijs (comprovante)", "pt": "carteira de motorista", "emoji": "🪪" },
+    { "nl": "omwisselen", "art": null, "split": "om (transformar) + wisselen (trocar)", "pt": "trocar/converter uma carteira de motorista", "emoji": "🔄" },
+    { "nl": "het theorie-examen", "art": "het", "split": "theorie (teoria) + examen (exame)", "pt": "exame teórico das regras de trânsito", "emoji": "📝" },
+    { "nl": "het praktijkexamen", "art": "het", "split": "praktijk (prática) + examen (exame)", "pt": "exame prático de direção", "emoji": "🚘" },
+    { "nl": "de tank", "art": "de", "split": "do inglês tank", "pt": "tanque de combustível", "emoji": "⛽" },
+    { "nl": "de benzine", "art": "de", "split": "do francês essence/benzine", "pt": "gasolina", "emoji": "🟢" },
+    { "nl": "de diesel", "art": "de", "split": "do nome Rudolf Diesel", "pt": "diesel", "emoji": "⚫" },
+    { "nl": "elektrisch", "art": null, "split": "adjetivo, de elektriciteit (eletricidade)", "pt": "elétrico", "emoji": "🔋" },
+    { "nl": "de file", "art": "de", "split": "palavra flamenga sem tradução direta", "pt": "engarrafamento", "emoji": "🚦" },
+    { "nl": "de boete", "art": "de", "split": "palavra única, sem composição", "pt": "multa", "emoji": "🧾" },
+    { "nl": "geflitst worden", "art": null, "split": "ge + flitsen (disparar o flash) + worden (ficar/ser)", "pt": "ser flagrado pelo radar", "emoji": "📸" },
+    { "nl": "het ongeval", "art": "het", "split": "on (des) + geval (caso)", "pt": "acidente de trânsito", "emoji": "💥" },
+    { "nl": "de remmen", "art": "de", "split": "de rem (freio), no plural", "pt": "os freios", "emoji": "🛑" },
+    { "nl": "betaald parkeren", "art": null, "split": "betaald (pago) + parkeren (estacionar)", "pt": "estacionamento pago", "emoji": "🅿️" },
+    { "nl": "de parkeerschijf", "art": "de", "split": "parkeer (de parkeren, estacionar) + schijf (disco)", "pt": "disco de estacionamento", "emoji": "🕐" },
+    { "nl": "de blauwe zone", "art": "de", "split": "blauw (azul) + zone (zona)", "pt": "zona azul, estacionamento grátis por tempo limitado", "emoji": "🔵" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Quantos dias após a inschrijving um brasileiro pode dirigir com a carteira brasileira antes de precisar prestar os exames belgas? 🪪",
+      "options": ["30 dias", "90 dias", "185 dias", "365 dias"],
+      "answer": 2,
+      "explain": "Sem acordo bilateral entre Brasil e Bélgica, o titular de um rijbewijs brasileiro pode dirigir por até 185 dias (cerca de 6 meses) depois da inschrijving. Depois disso, precisa prestar o theorie-examen e o praktijkexamen."
+    },
+    {
+      "type": "mc",
+      "q": "O que é o praktijkexamen? 🚘",
+      "options": ["O exame prático de direção", "O exame teórico sobre as leis de trânsito", "A vistoria anual do carro", "O pagamento da multa"],
+      "answer": 0,
+      "explain": "praktijk = prática. É o exame de direção em si, diferente do theorie-examen (exame escrito sobre as regras de trânsito)."
+    },
+    {
+      "type": "mc",
+      "q": "Qual a diferença entre de benzine e de diesel na hora de abastecer? ⛽",
+      "options": ["São a mesma coisa, só muda o nome", "Motos usam benzine, carros usam diesel", "São combustíveis diferentes; colocar o errado pode danificar o motor", "Diesel só existe em postos elétricos"],
+      "answer": 2,
+      "explain": "de benzine (gasolina) e de diesel são combustíveis diferentes: colocar o combustível errado no tanque (de tank) danifica seriamente o motor."
+    },
+    {
+      "type": "mc",
+      "q": "O que você deve fazer com de parkeerschijf numa blauwe zone? 🕐",
+      "options": ["Pagar no parquímetro e guardar o recibo", "Deixá-la no porta-luvas", "Enviá-la pelo correio à prefeitura", "Colocá-la atrás do para-brisa, marcando a hora de chegada"],
+      "answer": 3,
+      "explain": "Na blauwe zone o estacionamento é grátis mas limitado no tempo. Sem a parkeerschijf visível atrás do para-brisa, o risco é o mesmo de quem estacionou errado: uma boete."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik wil mijn rijbewijs graag omwisselen.",
+      "options": ["Eu gostaria de trocar minha carteira de motorista.", "Eu perdi minha carteira de motorista.", "Eu preciso pagar uma multa de trânsito."],
+      "answer": 0,
+      "explain": "omwisselen = trocar/converter. wil + graag suaviza o pedido, como o nosso 'gostaria'."
+    },
+    {
+      "type": "listen",
+      "nl": "De remmen werken ook niet goed.",
+      "options": ["O motor não liga de jeito nenhum.", "Os freios também não estão funcionando bem.", "O tanque está quase vazio."],
+      "answer": 1,
+      "explain": "de remmen = os freios; niet goed werken = não funcionar bem. ook = também."
+    },
+    {
+      "type": "listen",
+      "nl": "Als u te snel rijdt, kunt u geflitst worden.",
+      "options": ["Se você estacionar errado, recebe uma multa.", "Se o carro quebrar, ligue para o guincho.", "Se você dirigir rápido demais, pode ser flagrado pelo radar."],
+      "answer": 2,
+      "explain": "geflitst worden = ser flagrado pelo radar (flitsen = disparar o flash). A oração com als manda o verbo (rijdt) para o fim."
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "mijn rijbewijs omwisselen.",
+      "answer": "moet",
+      "alt": ["wil"],
+      "hint": "dever/precisar",
+      "explain": "moet (dever) + omwisselen no fim da frase é a pinça verbal típica. wil também funciona, mudando o sentido para 'querer'."
+    },
+    {
+      "type": "fill",
+      "before": "Mijn auto maakt een raar",
+      "after": ".",
+      "answer": "geluid",
+      "alt": [],
+      "hint": "som",
+      "explain": "geluid = som. 'een raar geluid maken' (fazer um som estranho) é a frase clássica para descrever um problema à garagist."
+    },
+    {
+      "type": "order",
+      "pt": "Os freios também não estão funcionando bem.",
+      "tokens": ["De", "remmen", "werken", "ook", "niet", "goed"],
+      "answer": "De remmen werken ook niet goed",
+      "explain": "Ordem neutra: sujeito (de remmen), verbo (werken), advérbios (ook, niet) e o adjetivo (goed) no fim da frase."
+    },
+    {
+      "type": "order",
+      "pt": "Eu já estou há meia hora no engarrafamento.",
+      "tokens": ["Ik", "sta", "al", "een", "half", "uur", "in", "de", "file"],
+      "answer": "Ik sta al een half uur in de file",
+      "explain": "'in de file staan' é a expressão fixa para 'estar parado no engarrafamento'; al indica que já dura esse tempo."
+    },
+    {
+      "type": "match",
+      "pairs": [["het rijbewijs", "a carteira de motorista"], ["de boete", "a multa"], ["de file", "o engarrafamento"], ["het ongeval", "o acidente"], ["geflitst worden", "ser flagrado pelo radar"]],
+      "explain": "Vocabulário essencial do trânsito: rijbewijs, boete, file, ongeval e geflitst worden aparecem o tempo todo nas notícias e nas conversas sobre carro."
+    },
+    {
+      "type": "match",
+      "pairs": [["de benzine", "a gasolina"], ["de diesel", "o diesel"], ["elektrisch", "elétrico"], ["de tank", "o tanque"], ["de parkeerschijf", "o disco de estacionamento"], ["de blauwe zone", "a zona azul"]],
+      "explain": "Combustíveis e estacionamento: benzine e diesel não se misturam, elektrisch é a alternativa sem combustível, e na blauwe zone você usa a parkeerschijf."
+    }
+  ]
+}

@@ -1,0 +1,206 @@
+{
+  "id": "b2-05-vastgoed",
+  "unit": "B2",
+  "title": "Imóveis: comprar uma casa · Vastgoed: een huis kopen",
+  "emoji": "🏡",
+  "teaching": [
+    {
+      "emoji": "🏡",
+      "title": "Bezichtiging tot akte: o trajeto de comprar uma casa",
+      "html": "<p>Comprar um imóvel na Flandres segue um roteiro bem definido, quase sempre com um <b>makelaar</b> (corretor de imóveis) no meio do processo:</p><ul><li>1️⃣ <b>De bezichtiging</b>: a visita à casa, sozinho ou com o makelaar. Pergunte sempre pelo <b>EPC-attest</b> e pela <b>bewoonbare oppervlakte</b> (área habitável real).</li><li>2️⃣ <b>Een bod uitbrengen</b>: você faz uma oferta de preço, geralmente por e-mail ou formulário do makelaar. Nada é oficial ainda.</li><li>3️⃣ <b>Het compromis</b>: assim que o preço é aceito, assina-se o compromis (também chamado <b>onderhandse verkoopovereenkomst</b>). A partir daqui, o negócio é juridicamente vinculante para os dois lados.</li><li>4️⃣ <b>De akte</b>: dentro de +/- 4 meses, comprador e vendedor vão ao cartório assinar a <b>notariële akte</b> perante o <b>notaris</b>, o documento que realmente transfere a propriedade.</li></ul><p><small>💡 Diferente do Brasil: na Flandres o compromis já prende as duas partes, muito antes da escritura final.</small></p>"
+    },
+    {
+      "emoji": "🧾",
+      "title": "Compromis, voorschot e a proteção da opschortende voorwaarde",
+      "html": "<p>O <b>compromis</b> não é um pré-contrato qualquer: para a lei belga, ele já É a venda. Por isso três detalhes protegem o comprador:</p><table class=\"vocab\"><tr><th>termo</th><th>o que é</th></tr><tr><td><b>het voorschot</b></td><td>o sinal, normalmente 10% do preço, pago depois de assinar o compromis. Fica retido pelo notário, não vai direto para o vendedor.</td></tr><tr><td><b>de opschortende voorwaarde</b></td><td>a condição suspensiva: se o seu financiamento (hypotheek) não for aprovado dentro do prazo, você pode desistir e recuperar o voorschot.</td></tr><tr><td><b>de notaris</b></td><td>é obrigatório na Bélgica: verifica a titularidade do imóvel, redige a akte e recolhe os impostos de registro para o Estado.</td></tr></table><p><small>⚠️ Sem opschortende voorwaarde no compromis, desistir depois de assinar geralmente custa o voorschot inteiro.</small></p>"
+    },
+    {
+      "emoji": "💶",
+      "title": "Registratierechten: quanto de imposto sobre a compra?",
+      "html": "<p>O imposto sobre a transferência de imóveis na Flandres se chama <b>registratierechten</b>, calculado sobre o preço de compra:</p><table class=\"vocab\"><tr><th>situação</th><th>alíquota</th></tr><tr><td>segunda casa, investimento (niet je enige woning)</td><td><b>12%</b> (tarief normal)</td></tr><tr><td><b>enige eigen woning</b> (sua única e própria casa)</td><td><b>3%</b> (klein beschrijf reformado em 2022)</td></tr><tr><td>enige eigen woning + compromisso de reforma energética</td><td><b>1%</b> (se o EPC-label for E ou F e você renovar até label D em 5 anos)</td></tr></table><p><small>💡 \"Enige eigen woning\" significa que essa é a única casa em seu nome e onde você vai morar de fato, não um imóvel de investimento.</small></p>"
+    },
+    {
+      "emoji": "🔋",
+      "title": "EPC-attest e renovatieplicht: o check-up energético",
+      "html": "<p>Toda casa ou apartamento à venda na Flandres precisa exibir seu <b>EPC-attest</b> (energieprestatiecertificaat), com um selo de A++ (excelente) até F (péssimo), calculado em kWh/m² por ano. É informação obrigatória em qualquer anúncio.</p><p>Desde novembro de 2022 existe a <b>renovatieplicht</b>: quem compra um imóvel residencial com <b>EPC-label E ou F</b> é obrigado por lei a renová-lo até pelo menos label D dentro de <b>5 anos</b> após a compra (isolamento do telhado, vidros duplos, etc.). <small>Vale tanto para quem vai morar quanto para quem aluga o imóvel depois.</small></p><p>E na hora de comparar imóveis, cuidado com dois números diferentes: <b>de bewoonbare oppervlakte</b> (área habitável, o que realmente conta) e a área total do terreno. Um anúncio bonito pode misturar os dois. 📐</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Welkom","r":"x"},{"t":",","r":"punc"},{"t":"dit","r":"pron"},{"t":"is","r":"verb"},{"t":"een","r":"art"},{"t":"ruime","r":"adj"},{"t":"woning","r":"noun"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"bewoonbare","r":"adj"},{"t":"oppervlakte","r":"noun"},{"t":"van","r":"prep"},{"t":"140","r":"num"},{"t":"vierkante","r":"adj"},{"t":"meter","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Bem-vindo","r":"x"},{"t":",","r":"punc"},{"t":"esta","r":"pron"},{"t":"é","r":"verb"},{"t":"uma","r":"art"},{"t":"espaçosa","r":"adj"},{"t":"casa","r":"noun"},{"t":"com","r":"prep"},{"t":"uma","r":"art"},{"t":"habitável","r":"adj"},{"t":"área","r":"noun"},{"t":"de","r":"prep"},{"t":"140","r":"num"},{"t":"metros","r":"noun"},{"t":"quadrados","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "bem-vindo, isto é uma espaçosa casa com uma habitável área de 140 quadrados metro",
+      "note": "O makelaar abre a bezichtiging. Repare: em NL o adjetivo vem ANTES (bewoonbare oppervlakte), em PT costuma vir depois (área habitável)."
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"is","r":"verb"},{"t":"het","r":"art"},{"t":"energielabel","r":"noun"},{"t":"van","r":"prep"},{"t":"dit","r":"pron"},{"t":"huis","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Qual","r":"qw"},{"t":"é","r":"verb"},{"t":"o","r":"art"},{"t":"selo","r":"noun"},{"t":"energético","r":"adj"},{"t":"desta","r":"pron"},{"t":"casa","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "\"desta\" já embute o \"de\" (van), igual ao \"nesta\" de outras lições. Pergunta essencial em toda bezichtiging."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"EPC-attest","r":"noun"},{"t":"toont","r":"verb"},{"t":"label","r":"noun"},{"t":"C","r":"x"},{"t":",","r":"punc"},{"t":"dus","r":"conj"},{"t":"is","r":"verb"},{"t":"er","r":"adv"},{"t":"geen","r":"neg"},{"t":"renovatieplicht","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"certificado","r":"noun"},{"t":"EPC","r":"x"},{"t":"mostra","r":"verb"},{"t":"o","r":"art"},{"t":"selo","r":"noun"},{"t":"C","r":"x"},{"t":",","r":"punc"},{"t":"portanto","r":"conj"},{"t":"não","r":"neg"},{"t":"há","r":"verb"},{"t":"obrigação","r":"noun"},{"t":"de","r":"prep"},{"t":"renovação","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o EPC-atestado mostra selo C, então é lá nenhuma renovação-obrigação",
+      "note": "Contraste de negação: neerlandês nega o substantivo (geen renovatieplicht), português nega o verbo (não há). Só label E ou F ativa a renovatieplicht."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"wil","r":"verb"},{"t":"graag","r":"adv"},{"t":"een","r":"art"},{"t":"bod","r":"noun"},{"t":"uitbrengen","r":"verb"},{"t":"op","r":"prep"},{"t":"deze","r":"pron"},{"t":"woning","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"fazer","r":"verb"},{"t":"uma","r":"art"},{"t":"oferta","r":"noun"},{"t":"por","r":"prep"},{"t":"esta","r":"pron"},{"t":"casa","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu quero de-bom-grado um lance lançar sobre esta moradia",
+      "note": "A pinça de novo: wil segura o início, uitbrengen (bod + uitbrengen = fazer uma oferta) fecha a frase no fim."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"uw","r":"pron"},{"t":"bod","r":"noun"},{"t":"aanvaard","r":"verb"},{"t":"wordt","r":"verb"},{"t":",","r":"punc"},{"t":"ondertekenen","r":"verb"},{"t":"we","r":"pron"},{"t":"het","r":"art"},{"t":"compromis","r":"noun"},{"t":"binnen","r":"prep"},{"t":"enkele","r":"adj"},{"t":"dagen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"a","r":"art"},{"t":"sua","r":"pron"},{"t":"oferta","r":"noun"},{"t":"for","r":"verb"},{"t":"aceita","r":"verb"},{"t":",","r":"punc"},{"t":"assinamos","r":"verb"},{"t":"o","r":"art"},{"t":"compromisso","r":"noun"},{"t":"dentro","r":"prep"},{"t":"de","r":"prep"},{"t":"alguns","r":"adj"},{"t":"dias","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "se seu lance aceito é (wordt = torna-se), assinamos nós o compromisso dentro alguns dias",
+      "note": "Voz passiva com worden: aanvaard wordt = \"é aceito\". Em PT o equivalente natural é o subjuntivo passivo \"for aceita\"."
+    },
+    {
+      "nl": [{"t":"Na","r":"prep"},{"t":"de","r":"art"},{"t":"ondertekening","r":"noun"},{"t":"van","r":"prep"},{"t":"het","r":"art"},{"t":"compromis","r":"noun"},{"t":"betaalt","r":"verb"},{"t":"u","r":"pron"},{"t":"een","r":"art"},{"t":"voorschot","r":"noun"},{"t":"van","r":"prep"},{"t":"tien","r":"num"},{"t":"procent","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Após","r":"prep"},{"t":"a","r":"art"},{"t":"assinatura","r":"noun"},{"t":"do","r":"prep"},{"t":"compromisso","r":"noun"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"paga","r":"verb"},{"t":"um","r":"art"},{"t":"sinal","r":"noun"},{"t":"de","r":"prep"},{"t":"dez","r":"num"},{"t":"por","r":"prep"},{"t":"cento","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "após a assinatura de o compromisso paga o senhor um adiantamento de dez por-cento",
+      "note": "Nominalização: ondertekenen (assinar) vira o substantivo de ondertekening, exatamente como assinar vira a assinatura em português."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"compromis","r":"noun"},{"t":"bevat","r":"verb"},{"t":"een","r":"art"},{"t":"opschortende","r":"adj"},{"t":"voorwaarde","r":"noun"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"hypotheek","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"compromisso","r":"noun"},{"t":"contém","r":"verb"},{"t":"uma","r":"art"},{"t":"condição","r":"noun"},{"t":"suspensiva","r":"adj"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"hipoteca","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o compromisso contém uma suspensiva condição para a hipoteca",
+      "note": "opschortende voorwaarde é a sua rede de segurança: se o banco recusar a hypotheek, você não perde o voorschot."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"dit","r":"pron"},{"t":"uw","r":"pron"},{"t":"enige","r":"adj"},{"t":"eigen","r":"adj"},{"t":"woning","r":"noun"},{"t":"is","r":"verb"},{"t":",","r":"punc"},{"t":"betaalt","r":"verb"},{"t":"u","r":"pron"},{"t":"slechts","r":"adv"},{"t":"drie","r":"num"},{"t":"procent","r":"noun"},{"t":"registratierechten","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"esta","r":"pron"},{"t":"for","r":"verb"},{"t":"a","r":"art"},{"t":"sua","r":"pron"},{"t":"única","r":"adj"},{"t":"casa","r":"noun"},{"t":"própria","r":"adj"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"paga","r":"verb"},{"t":"apenas","r":"adv"},{"t":"três","r":"num"},{"t":"por","r":"prep"},{"t":"cento","r":"noun"},{"t":"de","r":"prep"},{"t":"imposto","r":"noun"},{"t":"de","r":"prep"},{"t":"registro","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "se isto sua única própria moradia é, paga o senhor apenas três por-cento registro-direitos",
+      "note": "3% é a alíquota reduzida (2022) para quem compra a ÚNICA casa própria; para uma segunda casa ou investimento, sobe para 12%."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"notariële","r":"adj"},{"t":"akte","r":"noun"},{"t":"wordt","r":"verb"},{"t":"meestal","r":"adv"},{"t":"binnen","r":"prep"},{"t":"vier","r":"num"},{"t":"maanden","r":"noun"},{"t":"verleden","r":"verb"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"notaris","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"escritura","r":"noun"},{"t":"notarial","r":"adj"},{"t":"costuma","r":"verb"},{"t":"ser","r":"verb"},{"t":"lavrada","r":"verb"},{"t":"perante","r":"prep"},{"t":"o","r":"art"},{"t":"notário","r":"noun"},{"t":"dentro","r":"prep"},{"t":"de","r":"prep"},{"t":"quatro","r":"num"},{"t":"meses","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "a notarial escritura é geralmente dentro quatro meses lavrada perante o notário",
+      "note": "\"Verlijden\" é o verbo jurídico exato para lavrar uma escritura, igual ao \"lavrar\" cartorário do português. Voz passiva: wordt ... verleden."
+    },
+    {
+      "nl": [{"t":"Onze","r":"pron"},{"t":"hypotheekaanvraag","r":"noun"},{"t":"werd","r":"verb"},{"t":"deze","r":"pron"},{"t":"week","r":"noun"},{"t":"goedgekeurd","r":"verb"},{"t":"door","r":"prep"},{"t":"de","r":"art"},{"t":"bank","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Nosso","r":"pron"},{"t":"pedido","r":"noun"},{"t":"de","r":"prep"},{"t":"hipoteca","r":"noun"},{"t":"foi","r":"verb"},{"t":"aprovado","r":"verb"},{"t":"pelo","r":"prep"},{"t":"banco","r":"noun"},{"t":"esta","r":"pron"},{"t":"semana","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "nosso hipoteca-pedido foi esta semana goedgekeurd (aprovado) por o banco",
+      "note": "Passiva no passado: werd ... goedgekeurd = foi aprovado. \"Door de bank\" marca quem praticou a ação, igual ao \"pelo banco\" em PT."
+    },
+    {
+      "nl": [{"t":"Woningen","r":"noun"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"slecht","r":"adj"},{"t":"energielabel","r":"noun"},{"t":"moeten","r":"verb"},{"t":"binnen","r":"prep"},{"t":"vijf","r":"num"},{"t":"jaar","r":"noun"},{"t":"gerenoveerd","r":"verb"},{"t":"worden","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Casas","r":"noun"},{"t":"com","r":"prep"},{"t":"um","r":"art"},{"t":"selo","r":"noun"},{"t":"energético","r":"adj"},{"t":"ruim","r":"adj"},{"t":"precisam","r":"verb"},{"t":"ser","r":"verb"},{"t":"reformadas","r":"verb"},{"t":"dentro","r":"prep"},{"t":"de","r":"prep"},{"t":"cinco","r":"num"},{"t":"anos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "moradias com um mau selo-energia devem dentro cinco ano renovadas ser",
+      "note": "Passiva com modal: moeten ... gerenoveerd worden empilha DOIS verbos no fim da pinça. É a frase da renovatieplicht, o dever legal de reformar."
+    }
+  ],
+  "vocab": [
+    { "nl": "de makelaar", "art": "de", "split": "makel (mediar, do verbo makelen) + aar (quem faz)", "pt": "corretor de imóveis", "emoji": "🧑‍💼" },
+    { "nl": "de bezichtiging", "art": "de", "split": "bezichtig(en) (visitar, inspecionar) + ing (ação)", "pt": "visita ao imóvel", "emoji": "🔎" },
+    { "nl": "een bod uitbrengen", "art": null, "split": "bod (lance, oferta) + uitbrengen (lançar, emitir)", "pt": "fazer uma oferta de preço", "emoji": "💰" },
+    { "nl": "het compromis", "art": "het", "split": "do francês \"compromis\", já usado assim em neerlandês", "pt": "compromisso de venda, o contrato preliminar vinculante", "emoji": "🤝" },
+    { "nl": "de onderhandse verkoopovereenkomst", "art": "de", "split": "onderhands (particular) + verkoop (venda) + overeenkomst (acordo)", "pt": "contrato particular de compra e venda (nome formal do compromis)", "emoji": "📄" },
+    { "nl": "het voorschot", "art": "het", "split": "voor (antes) + schot (adiantamento, de schieten)", "pt": "sinal, entrada (normalmente 10% do preço)", "emoji": "💶" },
+    { "nl": "de opschortende voorwaarde", "art": "de", "split": "opschortend (suspensivo, de opschorten, suspender) + voorwaarde (condição)", "pt": "condição suspensiva (ex: aprovação do financiamento)", "emoji": "⏸️" },
+    { "nl": "de notaris", "art": "de", "split": null, "pt": "tabelião, notário", "emoji": "⚖️" },
+    { "nl": "de notariële akte", "art": "de", "split": "notarieel (notarial) + akte (escritura)", "pt": "escritura pública que transfere a propriedade", "emoji": "📜" },
+    { "nl": "de registratierechten", "art": "de", "split": "registratie (registro) + rechten (direitos, taxas)", "pt": "imposto de registro sobre a compra do imóvel", "emoji": "🧾" },
+    { "nl": "de hypotheek", "art": "de", "split": null, "pt": "hipoteca, financiamento imobiliário", "emoji": "🏦" },
+    { "nl": "de hypothecaire lening", "art": "de", "split": "hypothecair (hipotecário) + lening (empréstimo)", "pt": "empréstimo hipotecário", "emoji": "📈" },
+    { "nl": "het EPC-attest", "art": "het", "split": "EPC (energieprestatiecertificaat) + attest (certificado)", "pt": "certificado de desempenho energético (selo A++ a F)", "emoji": "🔋" },
+    { "nl": "de renovatieplicht", "art": "de", "split": "renovatie (reforma) + plicht (obrigação, dever)", "pt": "obrigação legal de reformar (imóveis com label E ou F)", "emoji": "🛠️" },
+    { "nl": "de bewoonbare oppervlakte", "art": "de", "split": "bewoonbaar (habitável, de wonen, morar) + oppervlakte (área)", "pt": "área habitável real do imóvel", "emoji": "📐" },
+    { "nl": "het kadastraal inkomen", "art": "het", "split": "kadastraal (cadastral) + inkomen (renda)", "pt": "renda cadastral, a base do IPTU belga (onroerende voorheffing)", "emoji": "🏘️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Você já assinou o compromis, mas quer desistir da compra por causa de dinheiro. O que acontece? 📝",
+      "options": ["Nada, o compromis não tem valor legal ainda", "O notaris cancela tudo sem custo algum", "Você perde o voorschot, pois o compromis já é juridicamente vinculante", "Você só paga os registratierechten e nada mais"],
+      "answer": 2,
+      "explain": "Na Bélgica o compromis já É a venda para efeitos legais. Sem uma opschortende voorwaarde que cubra o seu caso, desistir depois de assinar geralmente custa o voorschot inteiro."
+    },
+    {
+      "type": "mc",
+      "q": "Você compra a sua ÚNICA e própria casa (enige eigen woning) na Flandres. Quanto paga de registratierechten no regime padrão? 💶",
+      "options": ["21% (BTW)", "6%", "12%", "3%"],
+      "answer": 3,
+      "explain": "Desde a reforma de 2022, a compra da única casa própria paga apenas 3% de registratierechten. O tarief normal de 12% vale para segunda casa ou investimento."
+    },
+    {
+      "type": "mc",
+      "q": "Quem 'verlijdt' (lavra) oficialmente a escritura de compra e venda de um imóvel na Bélgica? ⚖️",
+      "options": ["O notaris", "O makelaar", "A gemeente", "O verhuurder"],
+      "answer": 0,
+      "explain": "Só o notaris pode verlijden (lavrar) a notariële akte: ele confere a titularidade, redige o documento público e recolhe os impostos de registro para o Estado."
+    },
+    {
+      "type": "mc",
+      "q": "Sua casa tem EPC-label F. Em quantos anos você é obrigado a chegar a pelo menos label D (renovatieplicht)? ⏳",
+      "options": ["1 ano", "5 anos", "10 anos", "Nunca, é só uma recomendação"],
+      "answer": 1,
+      "explain": "Desde novembro de 2022, quem compra um imóvel residencial com EPC-label E ou F na Flandres tem 5 anos para renová-lo até pelo menos label D."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik wil graag een bod uitbrengen op deze woning.",
+      "options": ["Eu gostaria de visitar esta casa.", "Eu gostaria de fazer uma oferta por esta casa.", "Eu já paguei o voorschot.", "Eu preciso de um empréstimo hipotecário."],
+      "answer": 1,
+      "explain": "bod uitbrengen = fazer/lançar uma oferta de preço. Ainda não é vinculante: só o compromis torna a venda oficial."
+    },
+    {
+      "type": "listen",
+      "nl": "Als uw bod aanvaard wordt, ondertekenen we het compromis binnen enkele dagen.",
+      "options": ["O compromisso já foi assinado ontem.", "Se sua oferta for recusada, você recebe o voorschot de volta.", "Se sua oferta for aceita, assinamos o compromisso dentro de alguns dias.", "A escritura será lavrada amanhã."],
+      "answer": 2,
+      "explain": "aanvaard wordt é voz passiva (worden + particípio) = \"é aceita\". Assim que o preço fecha, o compromis é assinado em poucos dias."
+    },
+    {
+      "type": "listen",
+      "nl": "De notariële akte wordt meestal binnen vier maanden verleden voor de notaris.",
+      "options": ["A escritura notarial costuma ser lavrada perante o notário dentro de quatro meses.", "O compromisso deve ser assinado em quatro dias.", "O EPC-attest é válido por quatro meses.", "O voorschot é de quatro por cento."],
+      "answer": 0,
+      "explain": "verlijden é o verbo jurídico para \"lavrar\" uma escritura. Entre o compromis e a akte final passam, em média, uns quatro meses."
+    },
+    {
+      "type": "fill",
+      "before": "Na de ondertekening van het compromis betaalt u een",
+      "after": "van tien procent.",
+      "answer": "voorschot",
+      "alt": [],
+      "hint": "sinal, entrada",
+      "explain": "voorschot = o sinal (normalmente 10% do preço), pago logo após a assinatura do compromis e retido pelo notaris até a akte final."
+    },
+    {
+      "type": "fill",
+      "before": "Als dit uw enige eigen woning is, betaalt u slechts drie procent",
+      "after": ".",
+      "answer": "registratierechten",
+      "alt": ["registratiebelasting"],
+      "hint": "imposto de registro sobre a compra",
+      "explain": "registratie (registro) + rechten (taxas): o imposto que incide sobre a compra do imóvel. 3% para a única casa própria, 12% para as demais situações."
+    },
+    {
+      "type": "order",
+      "pt": "Nosso pedido de hipoteca foi aprovado pelo banco esta semana.",
+      "tokens": ["Onze", "hypotheekaanvraag", "werd", "deze", "week", "goedgekeurd", "door", "de", "bank"],
+      "answer": "Onze hypotheekaanvraag werd deze week goedgekeurd door de bank",
+      "explain": "Voz passiva no passado: werd ... goedgekeurd = foi aprovado. \"Door de bank\" indica quem praticou a ação, como o \"pelo banco\" em português."
+    },
+    {
+      "type": "order",
+      "pt": "Casas com um selo energético ruim precisam ser reformadas dentro de cinco anos.",
+      "tokens": ["Woningen", "met", "een", "slecht", "energielabel", "moeten", "binnen", "vijf", "jaar", "gerenoveerd", "worden"],
+      "answer": "Woningen met een slecht energielabel moeten binnen vijf jaar gerenoveerd worden",
+      "explain": "Passiva com modal: moeten ... gerenoveerd worden empilha dois verbos no fim da pinça. É a frase-chave da renovatieplicht."
+    },
+    {
+      "type": "match",
+      "pairs": [["de notaris", "o tabelião/notário"], ["het compromis", "o compromisso de venda"], ["het voorschot", "o sinal (10%)"], ["de registratierechten", "o imposto de registro"], ["het EPC-attest", "o certificado energético"]],
+      "explain": "O kit jurídico da compra: o compromis prende as partes, o voorschot garante o negócio, o EPC-attest mostra a eficiência energética e o notaris lavra tudo na akte, cobrando os registratierechten."
+    },
+    {
+      "type": "match",
+      "pairs": [["de bezichtiging", "a visita ao imóvel"], ["de hypotheek", "a hipoteca"], ["de renovatieplicht", "a obrigação de reformar"], ["de bewoonbare oppervlakte", "a área habitável"]],
+      "explain": "O kit da caça ao imóvel: você faz a bezichtiging, confere a bewoonbare oppervlakte, pede uma hypotheek e verifica se há renovatieplicht pelo EPC-label."
+    }
+  ]
+}

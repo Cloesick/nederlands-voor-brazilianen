@@ -1,0 +1,206 @@
+{
+  "id": "c1-02-nieuws-politiek",
+  "unit": "C1",
+  "title": "Notícias e política · Nieuws en politiek",
+  "emoji": "📰",
+  "teaching": [
+    {
+      "emoji": "📰",
+      "title": "📰 VRT NWS: hoe klinkt het nieuws?",
+      "html": "<p>De taal van het nieuws is anders dan de spreektaal: korter, formeler, en vol <b>nominalisaties</b> (werkwoorden die zelfstandige naamwoorden worden) 📰. Een VRT NWS-titel laat vaak het lidwoord en soms zelfs het werkwoord weg, voor maximale compactheid.</p><table class=\"vocab\"><tr><th>volledige zin</th><th>krantenkop (headline)</th><th>português</th></tr><tr><td>De regering heeft een akkoord bereikt over de begroting.</td><td><b>Regering bereikt akkoord over begroting</b></td><td>Governo chega a acordo sobre o orçamento</td></tr><tr><td>Er komt een nieuwe verkiezing.</td><td><b>Nieuwe verkiezing op komst</b></td><td>Nova eleição a caminho</td></tr><tr><td>De minister heeft dit ontkend.</td><td><b>Minister ontkent</b></td><td>Ministro nega</td></tr></table><p><small>💡 Truque: headlines gebruiken vaak de tegenwoordige tijd (bereikt, ontkent) zelfs voor iets dat al gebeurd is. Net als in het Portugees van manchetes: \"Governo anuncia...\" in plaats van \"anunciou\".</small></p>"
+    },
+    {
+      "emoji": "🏛️",
+      "title": "🏛️ Een regering vormen: het politieke vocabulaire",
+      "html": "<p>Je kent al de basis: <b>Gewesten</b> (Vlaams, Waals, Brussels) beheren grondgebied-gebonden zaken (economie, milieu, huisvesting), <b>Gemeenschappen</b> (Vlaamse, Franse, Duitstalige) beheren taalgebonden zaken (onderwijs, cultuur), en <b>koning Filip</b> is ceremonieel staatshoofd zonder echte politieke macht 👑. Nu het politieke vocabulaire op C1-niveau: 🏛️</p><ul><li><b>een regering vormen</b> = formar um governo (in België duurt dit soms extreem lang: het record staat op 541 dagen!)</li><li><b>een coalitie sluiten</b> = fechar uma coalizão (meerdere partijen die samen regeren)</li><li><b>een wetsvoorstel indienen</b> = apresentar um projeto de lei (indienen is scheidbaar: ik dien in, hij diende in)</li><li><b>de oppositie</b> = a oposição (partijen die niet in de regering zitten)</li><li><b>een verkiezing uitschrijven</b> = convocar uma eleição</li></ul><p><small>⚠️ De <b>informateur</b> is een typisch Belgische functie: iemand die na de verkiezingen sondeert welke coalities mogelijk zijn, vóór de echte onderhandelingen beginnen.</small></p>"
+    },
+    {
+      "emoji": "🗣️",
+      "title": "🗣️ Werkwoorden van de journalist",
+      "html": "<p>Journalisten rapporteren zelden hun eigen mening: ze melden wat anderen zeggen. Vier werkwoorden die je overal in het nieuws tegenkomt, meestal gevolgd door <b>dat</b> + bijzin: 🗣️</p><ul><li><b>aankondigen</b> = anunciar. \"De premier kondigt nieuwe maatregelen aan.\"</li><li><b>bevestigen</b> = confirmar. \"Bronnen bevestigen dat het akkoord rond is.\"</li><li><b>ontkennen</b> = negar. \"De minister ontkent dat hij ontslag neemt.\"</li><li><b>melden</b> = informar, relatar. \"VRT NWS meldt dat de onderhandelingen hervat zijn.\"</li></ul><p><small>🎯 Let op de pincet-structuur: aankondigen is scheidbaar (kondigt... aan), maar bevestigen, ontkennen en melden zijn dat niet.</small></p>"
+    },
+    {
+      "emoji": "📖",
+      "title": "📖 Een fictief nieuwsbericht ontleden",
+      "html": "<p>Lees dit fictieve nieuwsbericht (verzonnen, geen echte gebeurtenis) en let op het vetgedrukte vocabulaire: 📖</p><p><i>\"Na maandenlange onderhandelingen <b>kondigde</b> de informateur gisteren <b>aan</b> dat er een akkoord is over <b>het vormen van een regering</b>. Volgens ingewijden <b>bevestigen</b> de vier partijen dat ze <b>een coalitie sluiten</b>, zowel op federaal als op Vlaams niveau. <b>De oppositie ontkent</b> dat ze buitenspel gezet is en <b>meldt</b> dat ze <b>het wetsvoorstel</b> over de begroting kritisch zal opvolgen. Een nieuwe <b>verkiezing</b> wordt voorlopig niet verwacht.\"</i></p><p><small>🎯 Tradução: \"Após meses de negociações, o informateur anunciou ontem que há um acordo sobre a formação de um governo. Segundo fontes internas, os quatro partidos confirmam que vão fechar uma coalizão, tanto a nível federal quanto flamengo. A oposição nega ter sido colocada de lado e informa que vai acompanhar de forma crítica o projeto de lei sobre o orçamento. Não se espera, por ora, uma nova eleição.\"</small></p><p><small>💡 Exercício mental: quantos fatos consegue extrair sem reler? Quem anunciou o quê, quem confirma o quê, quem nega o quê.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"minister","r":"noun"},{"t":"kondigt","r":"verb"},{"t":"vandaag","r":"adv"},{"t":"nieuwe","r":"adj"},{"t":"maatregelen","r":"noun"},{"t":"aan","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"ministro","r":"noun"},{"t":"anuncia","r":"verb"},{"t":"hoje","r":"adv"},{"t":"novas","r":"adj"},{"t":"medidas","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "de minister kondigt vandaag nieuwe maatregelen aan",
+      "note": "Aankondigen is scheidbaar: kondigt blijft op de 2de plaats, aan valt naar het einde van de zin."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"partijen","r":"noun"},{"t":"bevestigen","r":"verb"},{"t":"dat","r":"conj"},{"t":"ze","r":"pron"},{"t":"een","r":"art"},{"t":"coalitie","r":"noun"},{"t":"sluiten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"partidos","r":"noun"},{"t":"confirmam","r":"verb"},{"t":"que","r":"conj"},{"t":"fecham","r":"verb"},{"t":"uma","r":"art"},{"t":"coalizão","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "de partijen bevestigen dat ze een coalitie sluiten",
+      "note": "In de bijzin (na dat) staat het werkwoord sluiten helemaal op het einde: klassieke pincet-structuur van een bijzin."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"oppositie","r":"noun"},{"t":"ontkent","r":"verb"},{"t":"het","r":"art"},{"t":"nieuws","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"oposição","r":"noun"},{"t":"nega","r":"verb"},{"t":"a","r":"art"},{"t":"notícia","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Ontkennen (negar) heeft een lijdend voorwerp zonder dat-zin nodig, net als in het Portugees."
+    },
+    {
+      "nl": [{"t":"VRT","r":"x"},{"t":"NWS","r":"x"},{"t":"meldt","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"regering","r":"noun"},{"t":"gevormd","r":"verb"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"VRT","r":"x"},{"t":"NWS","r":"x"},{"t":"informa","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"governo","r":"noun"},{"t":"foi","r":"verb"},{"t":"formado","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "VRT NWS meldt dat de regering gevormd is",
+      "note": "Passieve zin in de bijzin: gevormd is (particípio + is) komt overeen met 'foi formado' in het Portugees."
+    },
+    {
+      "nl": [{"t":"Een","r":"art"},{"t":"regering","r":"noun"},{"t":"vormen","r":"verb"},{"t":"kostte","r":"verb"},{"t":"maanden","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Formar","r":"verb"},{"t":"um","r":"art"},{"t":"governo","r":"noun"},{"t":"custou","r":"verb"},{"t":"meses","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "een regering vormen kostte maanden",
+      "note": "In het Nederlands kan een infinitief-zin (een regering vormen) als onderwerp dienen, net als 'formar um governo' in het Portugees."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"regering","r":"noun"},{"t":"dient","r":"verb"},{"t":"een","r":"art"},{"t":"wetsvoorstel","r":"noun"},{"t":"in","r":"part"},{"t":"over","r":"prep"},{"t":"de","r":"art"},{"t":"begroting","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"governo","r":"noun"},{"t":"apresenta","r":"verb"},{"t":"um","r":"art"},{"t":"projeto","r":"noun"},{"t":"de","r":"prep"},{"t":"lei","r":"noun"},{"t":"sobre","r":"prep"},{"t":"o","r":"art"},{"t":"orçamento","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "de regering dient een wetsvoorstel in over de begroting",
+      "note": "Indienen is scheidbaar: dient blijft op de 2de plaats, in valt naar het einde. Wetsvoorstel = projeto de lei, twee woorden in het Portugees."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"oppositie","r":"noun"},{"t":"stemt","r":"verb"},{"t":"tegen","r":"prep"},{"t":"het","r":"art"},{"t":"voorstel","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"oposição","r":"noun"},{"t":"vota","r":"verb"},{"t":"contra","r":"prep"},{"t":"a","r":"art"},{"t":"proposta","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Tegen stemmen = votar contra, het spiegelbeeld van vóór stemmen (votar a favor)."
+    },
+    {
+      "nl": [{"t":"Er","r":"pron"},{"t":"komt","r":"verb"},{"t":"voorlopig","r":"adv"},{"t":"geen","r":"neg"},{"t":"nieuwe","r":"adj"},{"t":"verkiezing","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"enquanto","r":"adv"},{"t":"não","r":"neg"},{"t":"haverá","r":"verb"},{"t":"nova","r":"adj"},{"t":"eleição","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "er komt voorlopig geen nieuwe verkiezing",
+      "note": "Geen negeert het zelfstandig naamwoord (verkiezing) rechtstreeks, in plaats van niet + een."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"het","r":"art"},{"t":"nieuws","r":"noun"},{"t":"al","r":"adv"},{"t":"gehoord","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"já","r":"adv"},{"t":"ouviu","r":"verb"},{"t":"a","r":"art"},{"t":"notícia","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "heb jij het nieuws al gehoord",
+      "note": "Begin van het dialoogje over het nieuws. In een ja/nee-vraag springt het hulpwerkwoord (heb) naar de 1ste plaats."
+    },
+    {
+      "nl": [{"t":"Er","r":"pron"},{"t":"is","r":"verb"},{"t":"eindelijk","r":"adv"},{"t":"een","r":"art"},{"t":"akkoord","r":"noun"},{"t":"over","r":"prep"},{"t":"de","r":"art"},{"t":"regering","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Finalmente","r":"adv"},{"t":"há","r":"verb"},{"t":"um","r":"art"},{"t":"acordo","r":"noun"},{"t":"sobre","r":"prep"},{"t":"o","r":"art"},{"t":"governo","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Vervolg van het dialoogje. Er is = há, het onpersoonlijke 'er' dat in het Portugees geen equivalent heeft."
+    },
+    {
+      "nl": [{"t":"Denk","r":"verb"},{"t":"je","r":"pron"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"coalitie","r":"noun"},{"t":"standhoudt","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"acha","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"coalizão","r":"noun"},{"t":"vai","r":"verb"},{"t":"se","r":"pron"},{"t":"manter","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "denk jij dat de coalitie standhoudt",
+      "note": "Slot van het dialoogje. Standhouden = manter-se firme; het Portugees gebruikt hier 'vai se manter', twee woorden voor één werkwoord."
+    }
+  ],
+  "vocab": [
+    { "nl": "de regering", "art": "de", "split": "regeren (governar) + ing (sufixo)", "pt": "o governo", "emoji": "🏛️" },
+    { "nl": "de coalitie", "art": "de", "pt": "a coalizão (aliança entre partidos para governar juntos)", "emoji": "🤝" },
+    { "nl": "het wetsvoorstel", "art": "het", "split": "wet (lei) + voorstel (proposta)", "pt": "o projeto de lei", "emoji": "📜" },
+    { "nl": "de oppositie", "art": "de", "pt": "a oposição (partidos fora do governo)", "emoji": "⚔️" },
+    { "nl": "de verkiezing", "art": "de", "split": "ver (prefixo) + kiezen (escolher) + ing (sufixo)", "pt": "a eleição", "emoji": "🗳️" },
+    { "nl": "het Gewest", "art": "het", "pt": "a Região (federada; competências territoriais: economia, meio ambiente)", "emoji": "🗺️" },
+    { "nl": "de Gemeenschap", "art": "de", "pt": "a Comunidade (federada; competências linguísticas: ensino, cultura)", "emoji": "🏘️" },
+    { "nl": "aankondigen", "art": null, "split": "aan (partícula) + kondigen (anunciar)", "pt": "anunciar", "emoji": "📢" },
+    { "nl": "bevestigen", "art": null, "split": "be (prefixo) + vestigen (fixar, estabelecer)", "pt": "confirmar", "emoji": "✅" },
+    { "nl": "ontkennen", "art": null, "split": "ont (des-) + kennen (conhecer, admitir)", "pt": "negar", "emoji": "🙅" },
+    { "nl": "melden", "art": null, "pt": "informar, relatar (em tom jornalístico)", "emoji": "📰" },
+    { "nl": "de informateur", "art": "de", "pt": "o informateur (figura política belga que sonda quais coalizões são possíveis, antes das negociações formais)", "emoji": "🕵️" },
+    { "nl": "de premier", "art": "de", "pt": "o primeiro-ministro (também: de eerste minister)", "emoji": "👔" },
+    { "nl": "het akkoord", "art": "het", "pt": "o acordo", "emoji": "✍️" },
+    { "nl": "de begroting", "art": "de", "split": "begroten (orçar) + ing (sufixo)", "pt": "o orçamento", "emoji": "💰" },
+    { "nl": "buitenspel gezet worden", "art": null, "split": "buitenspel (impedimento, termo de futebol) + gezet worden (ser colocado)", "pt": "ser colocado de lado, ser excluído (expressão do futebol usada na política)", "emoji": "⚽" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual é uma característica típica das manchetes (headlines) estilo VRT NWS? 📰",
+      "options": ["Frases longas e coloquiais, cheias de tussentaal", "Estilo telegráfico e compacto, muitas vezes sem artigo", "Sempre escritas em forma de pergunta", "Uso extensivo de gírias de rua"],
+      "answer": 1,
+      "explain": "Manchetes jornalísticas cortam artigos e usam o presente do indicativo para compactar a informação: 'Regering bereikt akkoord' em vez de 'De regering heeft een akkoord bereikt'."
+    },
+    {
+      "type": "mc",
+      "q": "O que significa o verbo separável 'aankondigen'? 📢",
+      "options": ["Negar", "Confirmar", "Anunciar", "Informar, relatar"],
+      "answer": 2,
+      "explain": "Aankondigen = anunciar. É scheidbaar (separável): 'De minister kondigt maatregelen aan', com 'aan' no final da frase."
+    },
+    {
+      "type": "mc",
+      "q": "Qual afirmação sobre a estrutura política belga está correta? 🏛️",
+      "options": ["A Bélgica só tem um único nível de governo, o federal", "Os Gewesten (Regiões) e as Gemeenschappen (Comunidades) têm competências próprias, além do nível federal", "O rei Filipe governa sozinho e decide as leis", "Não existem eleições regionais na Bélgica"],
+      "answer": 1,
+      "explain": "A Bélgica é um estado federal com três níveis: federal, Gewesten (território: economia, meio ambiente) e Gemeenschappen (língua: ensino, cultura)."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é o papel do rei Filipe no sistema político belga? 👑",
+      "options": ["Chefe de Estado cerimonial, sem poder executivo direto", "Chefe de governo que escolhe os ministros sozinho", "Presidente eleito a cada quatro anos", "Líder oficial do maior partido da oposição"],
+      "answer": 0,
+      "explain": "O rei é um chefe de Estado cerimonial (staatshoofd); quem governa de fato é a coalizão de partidos liderada pelo primeiro-ministro (de premier)."
+    },
+    {
+      "type": "mc",
+      "q": "No texto de exemplo (o nieuwsbericht fictício), o que a oposição nega? ⚖️",
+      "options": ["Que existe uma nova regering", "Que foi colocada de lado (buitenspel gezet)", "Que o orçamento (begroting) existe", "Que houve eleições recentemente"],
+      "answer": 1,
+      "explain": "O texto diz: 'De oppositie ontkent dat ze buitenspel gezet is', ou seja, a oposição nega ter sido excluída do processo, e ainda informa que vai acompanhar o wetsvoorstel de perto."
+    },
+    {
+      "type": "listen",
+      "nl": "De partijen bevestigen dat ze een coalitie sluiten.",
+      "options": ["Os partidos confirmam que vão fechar uma coalizão.", "Os partidos negam que houve uma coalizão.", "Os partidos anunciam novas eleições.", "Os partidos discutem apenas o orçamento."],
+      "answer": 0,
+      "explain": "Bevestigen dat = confirmar que. A oração com 'dat' empurra o verbo 'sluiten' para o final: pincet-structuur clássica."
+    },
+    {
+      "type": "listen",
+      "nl": "De oppositie ontkent dat ze buitenspel gezet is.",
+      "options": ["A oposição confirma que está no poder.", "A oposição nega que foi colocada de lado.", "A oposição anuncia uma nova lei.", "A oposição forma uma coalizão."],
+      "answer": 1,
+      "explain": "Buitenspel gezet worden é uma expressão do futebol (estar em impedimento) usada figurativamente em política para 'ser excluído/deixado de lado'."
+    },
+    {
+      "type": "listen",
+      "nl": "Er komt voorlopig geen nieuwe verkiezing.",
+      "options": ["Por enquanto não haverá nova eleição.", "Uma nova eleição começa amanhã.", "O governo caiu ontem.", "A oposição venceu a eleição."],
+      "answer": 0,
+      "explain": "Voorlopig geen = por enquanto nenhuma/nenhum. Geen nega diretamente o substantivo verkiezing."
+    },
+    {
+      "type": "fill",
+      "before": "Het duurde maanden om een regering te",
+      "after": ".",
+      "answer": "vormen",
+      "alt": [],
+      "hint": "formar (infinitivo)",
+      "explain": "Vormen = formar. A construção 'om ... te vormen' equivale a 'para formar' em português, com o infinitivo no final da frase."
+    },
+    {
+      "type": "fill",
+      "before": "De regering",
+      "after": "een wetsvoorstel in over de begroting.",
+      "answer": "dient",
+      "alt": [],
+      "hint": "verbo separável: apresentar (indienen)",
+      "explain": "Indienen (apresentar um projeto de lei) é separável: 'dient' fica na 2ª posição da frase e 'in' vai para o final."
+    },
+    {
+      "type": "order",
+      "pt": "Os partidos confirmam que vão fechar uma coalizão.",
+      "tokens": ["De", "partijen", "bevestigen", "dat", "ze", "een", "coalitie", "sluiten"],
+      "answer": "De partijen bevestigen dat ze een coalitie sluiten",
+      "explain": "Oração principal (De partijen bevestigen) seguida de oração subordinada com 'dat', onde o verbo sluiten vai para o final."
+    },
+    {
+      "type": "order",
+      "pt": "A oposição vota contra a proposta.",
+      "tokens": ["De", "oppositie", "stemt", "tegen", "het", "voorstel"],
+      "answer": "De oppositie stemt tegen het voorstel",
+      "explain": "Ordem V2 padrão: sujeito (De oppositie), verbo (stemt) na 2ª posição, depois preposição + objeto."
+    },
+    {
+      "type": "match",
+      "pairs": [["aankondigen", "anunciar"], ["bevestigen", "confirmar"], ["ontkennen", "negar"], ["melden", "informar, relatar"], ["de coalitie", "a coalizão"], ["de verkiezing", "a eleição"]],
+      "explain": "Estes são os verbos e substantivos-chave do registro jornalístico e político flamengo. Confundir aankondigen com ontkennen inverte completamente o sentido de uma notícia!"
+    }
+  ]
+}

@@ -181,6 +181,33 @@
    "vocab": 16
   },
   {
+   "id": "b1-05-auto-verkeer",
+   "unit": "B1",
+   "title": "Carro e trânsito · Auto en verkeer",
+   "emoji": "🚗",
+   "phrases": 11,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "b1-06-welzijn",
+   "unit": "B1",
+   "title": "Bem-estar e saúde mental · Welzijn en mentale gezondheid",
+   "emoji": "🧘",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
+   "id": "b1-07-uitjes-cultuur",
+   "unit": "B1",
+   "title": "Cinema, museus e saídas · Uitjes en cultuur",
+   "emoji": "🎬",
+   "phrases": 11,
+   "exercises": 14,
+   "vocab": 15
+  },
+  {
    "id": "b2-01-solliciteren",
    "unit": "B2",
    "title": "Entrevista de emprego · Solliciteren",
@@ -208,11 +235,56 @@
    "vocab": 16
   },
   {
+   "id": "b2-04-debatteren",
+   "unit": "B2",
+   "title": "Debater e dar opinião · Debatteren en meningen geven",
+   "emoji": "🗣️",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "b2-05-vastgoed",
+   "unit": "B2",
+   "title": "Imóveis: comprar uma casa · Vastgoed: een huis kopen",
+   "emoji": "🏡",
+   "phrases": 11,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "b2-06-technologie",
+   "unit": "B2",
+   "title": "Tecnologia e redes sociais · Technologie en sociale media",
+   "emoji": "💻",
+   "phrases": 12,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
    "id": "c1-01-tussentaal",
    "unit": "C1",
    "title": "Flamengo de rua · Tussentaal",
    "emoji": "🍺",
    "phrases": 10,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "c1-02-nieuws-politiek",
+   "unit": "C1",
+   "title": "Notícias e política · Nieuws en politiek",
+   "emoji": "📰",
+   "phrases": 11,
+   "exercises": 13,
+   "vocab": 16
+  },
+  {
+   "id": "c1-03-onderhandelen",
+   "unit": "C1",
+   "title": "Negociação profissional · Professioneel onderhandelen",
+   "emoji": "🤝",
+   "phrases": 12,
    "exercises": 13,
    "vocab": 16
   },

@@ -4,7 +4,7 @@ Curso web completo e gratuito de **neerlandês (flamengo)** para falantes de **p
 
 **➡️ Estude agora: https://cloesick.github.io/nederlands-voor-brazilianen/**
 
-📋 Pendências e próximos passos: [TODO.md](TODO.md) · Lojas de app: [STORES.md](STORES.md) · Monetização: [MONETIZATION.md](MONETIZATION.md)
+📋 Pendências e próximos passos: [TODO.md](TODO.md) · 🚀 Plano de lançamento: [ROLLOUT.md](ROLLOUT.md) · Lojas de app: [STORES.md](STORES.md) · Monetização: [MONETIZATION.md](MONETIZATION.md)
 
 ## 🎨 O diferencial: frases-ponte com alinhamento de cores
 

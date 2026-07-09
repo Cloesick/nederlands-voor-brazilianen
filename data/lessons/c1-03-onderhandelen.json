@@ -1,0 +1,215 @@
+{
+  "id": "c1-03-onderhandelen",
+  "unit": "C1",
+  "title": "Negociação profissional · Professioneel onderhandelen",
+  "emoji": "🤝",
+  "teaching": [
+    {
+      "emoji": "🎩",
+      "title": "🎩 O registro de sala de reunião",
+      "html": "<p>No C1, você já domina a gramática. O que falta é o <b>registro</b>: como suavizar uma discordância sem parecer fraco, e como ser firme sem parecer grosseiro. Isso é a essência do <b>onderhandelen</b> (negociar) em ambiente profissional belga-flamengo. 🇧🇪</p><ul><li>O tom é <i>zakelijk</i> (formal/comercial), sempre com <b>u</b>, nunca com je.</li><li>Discordar diretamente (\"Nee, dat kan niet\") soa agressivo. O flamengo profissional prefere <b>hedging</b>: suavizadores que abrem espaço para negociar.</li><li>Firmeza também tem fórmula própria: você pode ser categórico sem ser rude.</li></ul><p><small>Pense nisso como o oposto do tussentaal do churrasco: aqui cada palavra é calculada. 🧮</small></p>"
+    },
+    {
+      "emoji": "🌫️",
+      "title": "🌫️ Hedging: suavizar sem enfraquecer",
+      "html": "<p>O segredo do C1 é a construção <b>zou + geneigd zijn om</b> (estaria inclinado a) e variantes com <b>lijken</b> (parecer):</p><table class=\"vocab\"><tr><th>direto (soa cru)</th><th>suavizado (C1)</th><th>português</th></tr><tr><td>Ik wil 3200 euro.</td><td><b>Ik zou eerder geneigd zijn om aan 3200 euro te denken.</b></td><td>Eu estaria mais inclinado a pensar em 3200 euros.</td></tr><tr><td>Dat is te weinig.</td><td><b>Het lijkt me niet onredelijk dat...</b></td><td>Não me parece descabido que...</td></tr><tr><td>Nee.</td><td><b>Ik vrees dat dat voor ons moeilijk ligt.</b></td><td>Temo que isso seja difícil para nós.</td></tr></table><p>Repare: <i>niet onredelijk</i> (não descabido) é uma <b>dupla negação diplomática</b> muito flamenga: em vez de afirmar \"é razoável\", você nega o extremo oposto. Soa menos impositivo. 🌫️</p>"
+    },
+    {
+      "emoji": "⚖️",
+      "title": "⚖️ Contraproposta e limites: flexível vs. inegociável",
+      "html": "<p>Para propor algo novo com elegância, use <b>Wat als we... voorstellen?</b> (E se propuséssemos...?). É um convite, não uma exigência.</p><ul><li>🟢 <b>Flexível</b>: <i>Daar kunnen we over praten.</i> = Podemos conversar sobre isso. (sinal verde, ainda sem compromisso)</li><li>🟡 <b>Talvez, com condição</b>: <i>Dat zou kunnen, op voorwaarde dat...</i> = Isso poderia ser, com a condição de que...</li><li>🔴 <b>Linha vermelha</b>: <i>Dat is voor ons geen optie.</i> = Isso não é uma opção para nós. (firme, mas impessoal: \"voor ons\", não \"eu não quero\")</li></ul><p><small>Note que até o limite firme evita o \"ik\" (eu): despersonalizar o não é uma tática de cortesia profissional. 🛡️</small></p>"
+    },
+    {
+      "emoji": "🖋️",
+      "title": "🖋️ Fechando o acordo formalmente",
+      "html": "<p>Quando as duas partes chegam a um consenso, o negociador flamengo <b>resume em voz alta</b> antes de encerrar, para confirmar que não há mal-entendido:</p><ul><li><b>Als ik het goed samenvat, komen we overeen dat...</b> = Se eu resumir bem, ficamos de acordo em que...</li><li><b>Dan zijn we het daarover eens.</b> = Então estamos de acordo sobre isso.</li><li><b>Ik stel voor dat we dit schriftelijk bevestigen.</b> = Proponho que confirmemos isso por escrito.</li></ul><p>E o fechamento educado: <i>Het was een aangenaam gesprek. Ik kijk uit naar de samenwerking.</i> (Foi uma conversa agradável. Aguardo a colaboração com expectativa.) 🤝</p><p><small>Compare com o B2 da entrevista de emprego: lá você ainda pedia (\"ik zou graag...\"); aqui você negocia de igual para igual. É o salto de registro do C1. 📈</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Goedemiddag","r":"x"},{"t":",","r":"punc"},{"t":"fijn","r":"adj"},{"t":"dat","r":"conj"},{"t":"we","r":"pron"},{"t":"dit","r":"pron"},{"t":"kunnen","r":"verb"},{"t":"bespreken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Boa","r":"adj"},{"t":"tarde","r":"noun"},{"t":",","r":"punc"},{"t":"que","r":"conj"},{"t":"bom","r":"adj"},{"t":"que","r":"conj"},{"t":"podemos","r":"verb"},{"t":"discutir","r":"verb"},{"t":"isso","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "boa-tarde, bom que nós podemos isto discutir",
+      "note": "Abertura formal padrão de negociação. Note a pinça: kunnen na posição 2 do subordinado empurra bespreken para o fim."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zou","r":"verb"},{"t":"eerder","r":"adv"},{"t":"geneigd","r":"adj"},{"t":"zijn","r":"verb"},{"t":"om","r":"conj"},{"t":"aan","r":"prep"},{"t":"3200","r":"num"},{"t":"euro","r":"noun"},{"t":"te","r":"part"},{"t":"denken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"estaria","r":"verb"},{"t":"mais","r":"adv"},{"t":"inclinado","r":"adj"},{"t":"a","r":"prep"},{"t":"pensar","r":"verb"},{"t":"em","r":"prep"},{"t":"3200","r":"num"},{"t":"euros","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu iria antes inclinado ser para em 3200 euro te pensar",
+      "note": "geneigd zijn om + te + infinitivo: a construção de hedging por excelência do C1. eerder (mais/antes) suaviza ainda mais, sugerindo que há espaço para negociar."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"lijkt","r":"verb"},{"t":"me","r":"pron"},{"t":"niet","r":"neg"},{"t":"onredelijk","r":"adj"},{"t":"dat","r":"conj"},{"t":"we","r":"pron"},{"t":"een","r":"art"},{"t":"signing","r":"noun"},{"t":"bonus","r":"noun"},{"t":"bespreken","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"me","r":"pron"},{"t":"parece","r":"verb"},{"t":"descabido","r":"adj"},{"t":"que","r":"conj"},{"t":"discutamos","r":"verb"},{"t":"um","r":"art"},{"t":"bônus","r":"noun"},{"t":"de","r":"prep"},{"t":"contratação","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "isso parece-me não descabido que nós um assinatura bônus discutimos",
+      "note": "Dupla negação diplomática: niet onredelijk (não descabido) em vez de redelijk (razoável). Menos impositivo, típico do registro flamengo formal."
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"als","r":"conj"},{"t":"we","r":"pron"},{"t":"het","r":"art"},{"t":"volgende","r":"adj"},{"t":"voorstellen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"E","r":"conj"},{"t":"se","r":"conj"},{"t":"propuséssemos","r":"verb"},{"t":"o","r":"art"},{"t":"seguinte","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "o-que se nós o seguinte propor",
+      "note": "Fórmula fixa para introduzir uma contraproposta com educação: Wat als we... voorstellen? O infinitivo voorstellen fecha a pinça."
+    },
+    {
+      "nl": [{"t":"Daar","r":"adv"},{"t":"kunnen","r":"verb"},{"t":"we","r":"pron"},{"t":"zeker","r":"adv"},{"t":"over","r":"prep"},{"t":"praten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Podemos","r":"verb"},{"t":"certamente","r":"adv"},{"t":"conversar","r":"verb"},{"t":"sobre","r":"prep"},{"t":"isso","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "aí podemos nós certamente sobre falar",
+      "note": "Sinal verde flexível, sem compromisso. Daar...over praten = falar sobre isso, com daar/over separados pela pinça verbal (V2)."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"zou","r":"verb"},{"t":"kunnen","r":"verb"},{"t":",","r":"punc"},{"t":"op","r":"prep"},{"t":"voorwaarde","r":"noun"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"startdatum","r":"noun"},{"t":"behouden","r":"verb"},{"t":"blijft","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Isso","r":"pron"},{"t":"poderia","r":"verb"},{"t":"ser","r":"verb"},{"t":",","r":"punc"},{"t":"com","r":"prep"},{"t":"a","r":"prep"},{"t":"condição","r":"noun"},{"t":"de","r":"prep"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"data","r":"noun"},{"t":"de","r":"prep"},{"t":"início","r":"noun"},{"t":"seja","r":"verb"},{"t":"mantida","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "isso iria poder, sob condição que a data-de-início mantida fica",
+      "note": "Flexibilidade condicionada: o meio-termo entre o sim e o não. op voorwaarde dat = com a condição de que (preposição fixa)."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"voor","r":"prep"},{"t":"ons","r":"pron"},{"t":"helaas","r":"adv"},{"t":"geen","r":"neg"},{"t":"optie","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Infelizmente","r":"adv"},{"t":"isso","r":"pron"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"uma","r":"art"},{"t":"opção","r":"noun"},{"t":"para","r":"prep"},{"t":"nós","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "isso é para nós infelizmente nenhuma opção",
+      "note": "Limite firme, mas despersonalizado: voor ons (para nós), não ik wil niet (eu não quero). geen nega o substantivo optie. helaas suaviza o tom sem enfraquecer o conteúdo."
+    },
+    {
+      "nl": [{"t":"Mogen","r":"verb"},{"t":"we","r":"pron"},{"t":"dan","r":"adv"},{"t":"denken","r":"verb"},{"t":"aan","r":"prep"},{"t":"een","r":"art"},{"t":"extra","r":"adj"},{"t":"opleidingsbudget","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Podemos","r":"verb"},{"t":"então","r":"adv"},{"t":"pensar","r":"verb"},{"t":"em","r":"prep"},{"t":"um","r":"art"},{"t":"orçamento","r":"noun"},{"t":"extra","r":"adj"},{"t":"de","r":"prep"},{"t":"formação","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "podemos nós então pensar em um extra formação-orçamento",
+      "note": "Mogen (poder, com permissão) é mais educado que kunnen aqui: pede espaço, não apenas capacidade. Boa alternativa quando o salário travou."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"ik","r":"pron"},{"t":"het","r":"pron"},{"t":"goed","r":"adv"},{"t":"samenvat","r":"verb"},{"t":",","r":"punc"},{"t":"komen","r":"verb"},{"t":"we","r":"pron"},{"t":"overeen","r":"part"},{"t":"dat","r":"conj"},{"t":"u","r":"pron"},{"t":"op","r":"num"},{"t":"1","r":"num"},{"t":"september","r":"noun"},{"t":"start","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"eu","r":"pron"},{"t":"resumir","r":"verb"},{"t":"bem","r":"adv"},{"t":",","r":"punc"},{"t":"ficamos","r":"verb"},{"t":"de","r":"prep"},{"t":"acordo","r":"noun"},{"t":"em","r":"prep"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"começa","r":"verb"},{"t":"em","r":"prep"},{"t":"1º","r":"num"},{"t":"de","r":"prep"},{"t":"setembro","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "se eu isso bem resumo, vêm nós de-acordo que o-senhor em 1 setembro começa",
+      "note": "overeenkomen (chegar a um acordo) é separável: komen...overeen. Fórmula de fechamento formal, usada para confirmar em voz alta antes de encerrar."
+    },
+    {
+      "nl": [{"t":"Dan","r":"adv"},{"t":"zijn","r":"verb"},{"t":"we","r":"pron"},{"t":"het","r":"pron"},{"t":"daarover","r":"adv"},{"t":"eens","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Então","r":"adv"},{"t":"estamos","r":"verb"},{"t":"de","r":"prep"},{"t":"acordo","r":"noun"},{"t":"sobre","r":"prep"},{"t":"isso","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "então somos nós isso sobre-isso concorde",
+      "note": "het eens zijn (over) = estar de acordo (sobre). Frase curta de confirmação, muito usada logo antes de passar para o papel."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"stel","r":"verb"},{"t":"voor","r":"part"},{"t":"dat","r":"conj"},{"t":"we","r":"pron"},{"t":"dit","r":"pron"},{"t":"schriftelijk","r":"adv"},{"t":"bevestigen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Proponho","r":"verb"},{"t":"que","r":"conj"},{"t":"confirmemos","r":"verb"},{"t":"isso","r":"pron"},{"t":"por","r":"prep"},{"t":"escrito","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu proponho que nós isto por-escrito confirmamos",
+      "note": "voorstellen (propor) é separável: stel...voor. schriftelijk = por escrito. Encerrar assim protege as duas partes: nada fica só na palavra."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"was","r":"verb"},{"t":"een","r":"art"},{"t":"aangenaam","r":"adj"},{"t":"gesprek","r":"noun"},{"t":".","r":"punc"},{"t":"Ik","r":"pron"},{"t":"kijk","r":"verb"},{"t":"uit","r":"part"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"samenwerking","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Foi","r":"verb"},{"t":"uma","r":"art"},{"t":"conversa","r":"noun"},{"t":"agradável","r":"adj"},{"t":".","r":"punc"},{"t":"Aguardo","r":"verb"},{"t":"a","r":"art"},{"t":"colaboração","r":"noun"},{"t":"com","r":"prep"},{"t":"expectativa","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "isso foi uma agradável conversa. eu olho para-fora para a colaboração",
+      "note": "Fechamento cordial padrão. uitkijken naar = aguardar com expectativa, separável (kijk...uit). O tom fecha exatamente como abriu: formal e caloroso."
+    }
+  ],
+  "vocab": [
+    { "nl": "onderhandelen", "art": null, "split": "onder (sob) + handelen (agir, negociar)", "pt": "negociar", "emoji": "🤝" },
+    { "nl": "het onderhandelingsvoorstel", "art": "het", "split": "onderhandeling (negociação) + s + voorstel (proposta)", "pt": "proposta de negociação", "emoji": "📄" },
+    { "nl": "geneigd zijn om", "art": null, "split": "geneigd (inclinado) + zijn (ser) + om (para)", "pt": "estar inclinado a, ser propenso a", "emoji": "🌫️" },
+    { "nl": "onredelijk", "art": null, "split": "on (não) + redelijk (razoável)", "pt": "descabido, não razoável", "emoji": "⚖️" },
+    { "nl": "de voorwaarde", "art": "de", "split": "voor (antes) + waarde (valor/condição)", "pt": "condição, requisito", "emoji": "📋" },
+    { "nl": "de optie", "art": "de", "split": null, "pt": "opção", "emoji": "🔀" },
+    { "nl": "overeenkomen", "art": null, "split": "overeen (de acordo) + komen (vir)", "pt": "chegar a um acordo, concordar", "emoji": "✅" },
+    { "nl": "de overeenkomst", "art": "de", "split": "overeen (de acordo) + komst (vinda)", "pt": "o acordo, o contrato", "emoji": "📜" },
+    { "nl": "samenvatten", "art": null, "split": "samen (junto) + vatten (agarrar, resumir)", "pt": "resumir", "emoji": "🗒️" },
+    { "nl": "schriftelijk", "art": null, "split": "schrift (escrita) + elijk (sufixo adjetival)", "pt": "por escrito, escrito", "emoji": "🖋️" },
+    { "nl": "bevestigen", "art": null, "split": "be + vestigen (estabelecer)", "pt": "confirmar", "emoji": "☑️" },
+    { "nl": "het compromis", "art": "het", "split": null, "pt": "o meio-termo, a solução conciliatória", "emoji": "⚖️" },
+    { "nl": "de marge", "art": "de", "split": null, "pt": "a margem (de negociação)", "emoji": "📐" },
+    { "nl": "toegeven", "art": null, "split": "toe (em direção a) + geven (dar)", "pt": "ceder, fazer uma concessão", "emoji": "🤲" },
+    { "nl": "vasthouden aan", "art": null, "split": "vast (firme) + houden (segurar) + aan (a)", "pt": "manter-se firme em, insistir em", "emoji": "🔒" },
+    { "nl": "de samenwerking", "art": "de", "split": "samen (junto) + werking (funcionamento)", "pt": "a colaboração, o trabalho conjunto", "emoji": "🧩" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual frase soa mais diplomática ao propor um valor numa negociação? 🌫️",
+      "options": ["Geef me 3200 euro.", "3200 euro, punt uit.", "Ik zou eerder geneigd zijn om aan 3200 euro te denken.", "Ik wil 3200 euro."],
+      "answer": 2,
+      "explain": "zou + geneigd zijn om + te + infinitivo é a fórmula de hedging por excelência do registro profissional C1: suaviza sem enfraquecer o conteúdo da proposta."
+    },
+    {
+      "type": "listen",
+      "nl": "Het lijkt me niet onredelijk dat we een signing bonus bespreken.",
+      "options": ["Não me parece descabido que discutamos um bônus de contratação", "O bônus já foi decidido", "Acho totalmente descabido discutir um bônus", "Nunca vamos discutir um bônus"],
+      "answer": 0,
+      "explain": "niet onredelijk = dupla negação diplomática, típica do flamengo formal: nega o extremo oposto em vez de afirmar diretamente."
+    },
+    {
+      "type": "mc",
+      "q": "Como se introduz uma contraproposta com elegância em neerlandês profissional? ⚖️",
+      "options": ["Nee, dat werkt niet.", "Ik ben het er niet mee eens.", "Dat is fout.", "Wat als we het volgende voorstellen?"],
+      "answer": 3,
+      "explain": "Wat als we... voorstellen? convida a outra parte a considerar uma alternativa, em vez de rejeitar diretamente o que foi dito."
+    },
+    {
+      "type": "listen",
+      "nl": "Daar kunnen we zeker over praten.",
+      "options": ["Isso está totalmente fora de questão", "Podemos certamente conversar sobre isso", "Já decidimos que não", "Precisamos de mais tempo para decidir"],
+      "answer": 1,
+      "explain": "Daar kunnen we over praten = sinal verde de flexibilidade, sem compromisso ainda. É o oposto do limite firme (geen optie)."
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase marca um limite INEGOCIÁVEL, mas de forma impessoal e educada? 🔴",
+      "options": ["Dat is voor ons helaas geen optie.", "Nooit!", "Dat is stom.", "Ik wil dat niet."],
+      "answer": 0,
+      "explain": "voor ons (para nós) despersonaliza a recusa, e helaas (infelizmente) suaviza o tom, mesmo mantendo o conteúdo firme: geen optie."
+    },
+    {
+      "type": "listen",
+      "nl": "Dat zou kunnen, op voorwaarde dat de startdatum behouden blijft.",
+      "options": ["Isso é impossível", "A data de início vai mudar com certeza", "Não aceitamos nenhuma condição", "Isso poderia ser, com a condição de que a data de início seja mantida"],
+      "answer": 3,
+      "explain": "op voorwaarde dat = com a condição de que: o meio-termo entre sim e não, muito comum em negociações profissionais."
+    },
+    {
+      "type": "fill",
+      "before": "Als ik het goed",
+      "after": ", komen we overeen dat u op 1 september start.",
+      "answer": "samenvat",
+      "alt": ["samenvat,"],
+      "hint": "resumir, no presente (eu resumo)",
+      "explain": "samenvatten é separável: samenvat na oração subordinada fica junto (o prefixo samen- gruda no verbo aqui porque é oração com 'als')."
+    },
+    {
+      "type": "fill",
+      "before": "Ik stel voor dat we dit",
+      "after": "bevestigen.",
+      "answer": "schriftelijk",
+      "alt": [],
+      "hint": "por escrito",
+      "explain": "schriftelijk bevestigen = confirmar por escrito. Fechar um acordo assim protege as duas partes: nada fica só na palavra falada."
+    },
+    {
+      "type": "order",
+      "pt": "E se propuséssemos o seguinte?",
+      "tokens": ["Wat", "als", "we", "het", "volgende", "voorstellen"],
+      "answer": "Wat als we het volgende voorstellen",
+      "explain": "Fórmula fixa de contraproposta educada. O infinitivo voorstellen fecha a pinça verbal no fim da oração."
+    },
+    {
+      "type": "order",
+      "pt": "Então estamos de acordo sobre isso.",
+      "tokens": ["Dan", "zijn", "we", "het", "daarover", "eens"],
+      "answer": "Dan zijn we het daarover eens",
+      "explain": "V2: Dan ocupa a posição 1, o verbo zijn fica em 2º e o sujeito we vem logo depois. het eens zijn over = estar de acordo sobre."
+    },
+    {
+      "type": "order",
+      "pt": "Proponho que confirmemos isso por escrito.",
+      "tokens": ["Ik", "stel", "voor", "dat", "we", "dit", "schriftelijk", "bevestigen"],
+      "answer": "Ik stel voor dat we dit schriftelijk bevestigen",
+      "explain": "voorstellen é separável: stel...voor. Depois de dat, o verbo bevestigen vai para o fim da oração subordinada."
+    },
+    {
+      "type": "match",
+      "pairs": [["overeenkomen", "chegar a um acordo"], ["toegeven", "ceder, fazer concessão"], ["vasthouden aan", "manter-se firme em"], ["samenvatten", "resumir"], ["de voorwaarde", "a condição"], ["schriftelijk", "por escrito"]],
+      "explain": "Vocabulário-chave do fechamento de negociações: do meio-termo (toegeven) à firmeza (vasthouden aan) até a confirmação formal (schriftelijk bevestigen)."
+    },
+    {
+      "type": "mc",
+      "q": "Como pedir espaço extra de forma educada quando o salário já travou? 💡",
+      "options": ["Ik eis een extra opleidingsbudget.", "Geef me meer geld of ik vertrek.", "Mogen we dan denken aan een extra opleidingsbudget?", "Het maakt me niet uit."],
+      "answer": 2,
+      "explain": "Mogen (pedir permissão) soa mais educado que kunnen aqui: é um convite a considerar uma alternativa, não uma exigência (eisen)."
+    }
+  ]
+}

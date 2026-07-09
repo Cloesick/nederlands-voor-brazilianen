@@ -1,0 +1,217 @@
+{
+  "id": "b2-04-debatteren",
+  "unit": "B2",
+  "title": "Debater e dar opinião · Debatteren en meningen geven",
+  "emoji": "🗣️",
+  "teaching": [
+    {
+      "emoji": "🗣️",
+      "title": "🗣️ Estruturar um argumento: enerzijds... anderzijds...",
+      "html": "<p>No B2, opinar não basta: você precisa <b>estruturar</b> o argumento como num debate de verdade. O par clássico é <b>enerzijds... anderzijds...</b> (\"por um lado... por outro lado...\"), formal e muito usado em texto e em discurso: <i>Enerzijds is thuiswerken flexibel, anderzijds mis je het contact met collega's.</i> 📊</p><ul><li>🔁 Versão mais falada, igual em significado: <b>aan de ene kant... aan de andere kant...</b> <i>Aan de ene kant bespaar je reistijd, aan de andere kant werk je soms te veel.</i></li><li>➕ <b>Bovendien</b> (além disso) soma um argumento novo: <i>Bovendien leer je meer van collega's.</i></li><li>🔀 <b>Daarentegen</b> (por outro lado, em contraste) opõe uma ideia à anterior, geralmente entre frases diferentes: <i>Thuiswerken bespaart tijd. Daarentegen mis je het teamgevoel.</i></li></ul><p>💡 Todos esses conectores ocupam a posição 1 e empurram o verbo para a posição 2 (V2): <b>Bovendien</b> <u>leer</u> je meer... Decore o conector JUNTO com essa inversão!</p>"
+    },
+    {
+      "emoji": "🤝",
+      "title": "🤝 Discordar com educação",
+      "html": "<p>Discordar em neerlandês formal segue um roteiro: primeiro você <b>reconhece</b> o ponto do outro, só depois discorda. Isso soa muito mais B2 do que um \"nee\" seco. 🎩</p><ul><li>✅ <b>Ik begrijp uw punt, maar...</b> = Eu entendo seu ponto, mas... O \"mas\" introduz sua contra-opinião sem ser rude.</li><li>❌ <b>Daar ben ik het niet mee eens.</b> = Eu discordo disso. (literalmente: \"disso não estou eu de acordo\") Frase fixa, sempre nessa ordem.</li><li>👍 O oposto, para concordar: <b>Daar ben ik het mee eens.</b> = Eu concordo com isso.</li></ul><p>💡 Repare que <i>het</i> e <i>mee</i> (de <b>mee</b>+eens) ficam colados: <b>het</b> ... <b>mee</b> eens. Não dá para separar essas duas palavrinhas da expressão!</p>"
+    },
+    {
+      "emoji": "⚖️",
+      "title": "⚖️ Pesar prós e contras",
+      "html": "<p>Para comparar vantagens e desvantagens de forma clara, o B2 tem uma fórmula fixa: <b>het voordeel/nadeel is dat...</b> (a vantagem/desvantagem é que...). 🔍</p><table class=\"vocab\"><tr><th>frase</th><th>tradução</th></tr><tr><td>Het voordeel van thuiswerken is dat je je eigen uren kiest.</td><td>A vantagem do trabalho em casa é que você escolhe seus próprios horários.</td></tr><tr><td>Het nadeel is dat de grens tussen werk en privé vervaagt.</td><td>A desvantagem é que a fronteira entre trabalho e vida pessoal se apaga.</td></tr></table><p>💡 Depois de <b>dat</b>, o verbo vai para o FIM da oração (ordem subordinada): <i>...dat je je eigen uren <b>kiest</b></i>. É a mesma regra do B1, mas agora dentro de frases mais longas e formais.</p>"
+    },
+    {
+      "emoji": "🎭",
+      "title": "🎭 Opinião com nuance e ceder um ponto",
+      "html": "<p>O verdadeiro nível B2 aparece quando você mostra <b>dúvida</b> ou <b>concede</b> um ponto sem perder sua posição. Três estruturas essenciais: 🎯</p><ul><li>💬 <b>Ik ben van mening dat...</b> = Eu sou da opinião de que... (mais formal que \"ik denk dat\", ótimo para debates e redações)</li><li>🤔 <b>Ik twijfel of...</b> = Eu duvido que.../Não tenho certeza se... (note: <i>of</i> aqui = \"se\", não \"ou\"!) <i>Ik twijfel of iedereen zich thuis kan concentreren.</i></li><li>🙋 <b>Ik geef toe dat..., maar toch...</b> = Eu admito que..., mas mesmo assim... A fórmula perfeita para ceder um ponto e continuar discordando: <i>Ik geef toe dat thuiswerken voordelen heeft, maar toch verkies ik het kantoor.</i></li></ul><p>💡 <b>Toegeven</b> é separável: <i>geef</i> ... <i>toe</i>. E fechar um debate com <b>al met al</b> (\"no fim das contas\", \"considerando tudo\") mostra que você sabe concluir como um adulto! 🏁</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Enerzijds","r":"adv"},{"t":"is","r":"verb"},{"t":"thuiswerken","r":"noun"},{"t":"flexibel","r":"adj"},{"t":",","r":"punc"},{"t":"anderzijds","r":"adv"},{"t":"mis","r":"verb"},{"t":"je","r":"pron"},{"t":"het","r":"art"},{"t":"contact","r":"noun"},{"t":"met","r":"prep"},{"t":"collega's","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"um","r":"art"},{"t":"lado","r":"noun"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"trabalho","r":"noun"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"é","r":"verb"},{"t":"flexível","r":"adj"},{"t":",","r":"punc"},{"t":"por","r":"prep"},{"t":"outro","r":"art"},{"t":"lado","r":"noun"},{"t":"você","r":"pron"},{"t":"perde","r":"verb"},{"t":"o","r":"art"},{"t":"contato","r":"noun"},{"t":"com","r":"prep"},{"t":"os","r":"art"},{"t":"colegas","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "por-um-lado é trabalho-de-casa flexível, por-outro-lado perco eu o contato com colegas",
+      "note": "Enerzijds/anderzijds é o par mais formal do B2. Ambos ocupam a posição 1 e empurram o verbo para a posição 2: is thuiswerken, mis je. 📊"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"begrijp","r":"verb"},{"t":"uw","r":"pron"},{"t":"punt","r":"noun"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"ik","r":"pron"},{"t":"denk","r":"verb"},{"t":"dat","r":"conj"},{"t":"kantoorwerk","r":"noun"},{"t":"toch","r":"adv"},{"t":"beter","r":"adj"},{"t":"is","r":"verb"},{"t":"voor","r":"prep"},{"t":"samenwerking","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"entendo","r":"verb"},{"t":"seu","r":"pron"},{"t":"ponto","r":"noun"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"eu","r":"pron"},{"t":"acho","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"trabalho","r":"noun"},{"t":"de","r":"prep"},{"t":"escritório","r":"noun"},{"t":"ainda","r":"adv"},{"t":"assim","r":"adv"},{"t":"é","r":"verb"},{"t":"melhor","r":"adj"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"colaboração","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu entendo seu ponto, mas eu acho que escritório-trabalho ainda-assim melhor é para samenwerking",
+      "note": "Fórmula de discordância educada: reconheça primeiro (Ik begrijp uw punt), depois discorde com maar. toch aqui = \"mesmo assim/ainda\", reforça a contra-opinião. 🤝"
+    },
+    {
+      "nl": [{"t":"Daar","r":"pron"},{"t":"ben","r":"verb"},{"t":"ik","r":"pron"},{"t":"het","r":"art"},{"t":"niet","r":"neg"},{"t":"mee","r":"adv"},{"t":"eens","r":"adj"},{"t":":","r":"punc"},{"t":"thuiswerken","r":"noun"},{"t":"verhoogt","r":"verb"},{"t":"juist","r":"adv"},{"t":"de","r":"art"},{"t":"productiviteit","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"discordo","r":"verb"},{"t":"disso","r":"pron"},{"t":":","r":"punc"},{"t":"o","r":"art"},{"t":"trabalho","r":"noun"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"aumenta","r":"verb"},{"t":"justamente","r":"adv"},{"t":"a","r":"art"},{"t":"produtividade","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "disso estou eu isso não com de-acordo: trabalho-de-casa aumenta justamente a produtividade",
+      "note": "Daar ben ik het niet mee eens = frase fixa para discordar formalmente. juist aqui = \"justamente/pelo contrário\", reforça que é o oposto do que foi dito. ❌"
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"voordeel","r":"noun"},{"t":"van","r":"prep"},{"t":"thuiswerken","r":"noun"},{"t":"is","r":"verb"},{"t":"dat","r":"conj"},{"t":"je","r":"pron"},{"t":"je","r":"pron"},{"t":"eigen","r":"adj"},{"t":"uren","r":"noun"},{"t":"kiest","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"vantagem","r":"noun"},{"t":"do","r":"prep"},{"t":"trabalho","r":"noun"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"é","r":"verb"},{"t":"que","r":"conj"},{"t":"você","r":"pron"},{"t":"escolhe","r":"verb"},{"t":"seus","r":"pron"},{"t":"próprios","r":"adj"},{"t":"horários","r":"noun"}],
+      "lit": "o voordeel de trabalho-de-casa é que tu teu próprio horas escolhes",
+      "note": "het voordeel is dat... = fórmula fixa para introduzir uma vantagem. Depois de dat, o verbo kiest vai para o FIM (ordem subordinada). ➕"
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"nadeel","r":"noun"},{"t":"is","r":"verb"},{"t":"dat","r":"conj"},{"t":"de","r":"art"},{"t":"grens","r":"noun"},{"t":"tussen","r":"prep"},{"t":"werk","r":"noun"},{"t":"en","r":"conj"},{"t":"privé","r":"noun"},{"t":"vervaagt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"desvantagem","r":"noun"},{"t":"é","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"fronteira","r":"noun"},{"t":"entre","r":"prep"},{"t":"trabalho","r":"noun"},{"t":"e","r":"conj"},{"t":"vida","r":"noun"},{"t":"pessoal","r":"adj"},{"t":"se","r":"pron"},{"t":"apaga","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "o nadeel é que a fronteira entre trabalho e privé se-apaga",
+      "note": "het nadeel is dat... é o par negativo de het voordeel is dat. vervagen = desbotar/apagar-se: ótimo verbo B2 para descrever algo que perde nitidez. ➖"
+    },
+    {
+      "nl": [{"t":"Aan","r":"prep"},{"t":"de","r":"art"},{"t":"ene","r":"adj"},{"t":"kant","r":"noun"},{"t":"bespaart","r":"verb"},{"t":"de","r":"art"},{"t":"werkgever","r":"noun"},{"t":"kosten","r":"noun"},{"t":",","r":"punc"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"andere","r":"adj"},{"t":"kant","r":"noun"},{"t":"voelen","r":"verb"},{"t":"werknemers","r":"noun"},{"t":"zich","r":"pron"},{"t":"soms","r":"adv"},{"t":"geïsoleerd","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"De","r":"prep"},{"t":"um","r":"art"},{"t":"lado","r":"noun"},{"t":"o","r":"art"},{"t":"empregador","r":"noun"},{"t":"economiza","r":"verb"},{"t":"custos","r":"noun"},{"t":",","r":"punc"},{"t":"do","r":"prep"},{"t":"outro","r":"art"},{"t":"lado","r":"noun"},{"t":"os","r":"art"},{"t":"funcionários","r":"noun"},{"t":"às","r":"prep"},{"t":"vezes","r":"noun"},{"t":"se","r":"pron"},{"t":"sentem","r":"verb"},{"t":"isolados","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "a-o um lado poupa o werkgever custos, a-o outro lado sentem werknemers se às-vezes isolados",
+      "note": "aan de ene kant... aan de andere kant... é a versão mais falada de enerzijds/anderzijds, com o mesmo efeito V2: bespaart, voelen logo após o conector. 🔁"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"van","r":"prep"},{"t":"mening","r":"noun"},{"t":"dat","r":"conj"},{"t":"een","r":"art"},{"t":"hybride","r":"adj"},{"t":"model","r":"noun"},{"t":"de","r":"art"},{"t":"beste","r":"adj"},{"t":"oplossing","r":"noun"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"sou","r":"verb"},{"t":"da","r":"prep"},{"t":"opinião","r":"noun"},{"t":"de","r":"prep"},{"t":"que","r":"conj"},{"t":"um","r":"art"},{"t":"modelo","r":"noun"},{"t":"híbrido","r":"adj"},{"t":"é","r":"verb"},{"t":"a","r":"art"},{"t":"melhor","r":"adj"},{"t":"solução","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu sou de opinião que um híbrido modelo o melhor solução é",
+      "note": "ik ben van mening dat = registro mais formal que ik denk dat, ótimo em debates e redações. Repare o verbo is no FIM, depois de dat. 💬"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"twijfel","r":"verb"},{"t":"of","r":"conj"},{"t":"iedereen","r":"pron"},{"t":"zich","r":"pron"},{"t":"thuis","r":"adv"},{"t":"wel","r":"adv"},{"t":"kan","r":"verb"},{"t":"concentreren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"duvido","r":"verb"},{"t":"que","r":"conj"},{"t":"todo","r":"pron"},{"t":"mundo","r":"noun"},{"t":"consiga","r":"verb"},{"t":"se","r":"pron"},{"t":"concentrar","r":"verb"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu duvido se todo-mundo se em-casa bem pode concentrar",
+      "note": "Cuidado: of aqui significa \"se\" (não \"ou\"). twijfelen of = duvidar se. O trenzinho kan concentreren fecha a oração no fim. 🤔"
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"geef","r":"verb"},{"t":"toe","r":"part"},{"t":"dat","r":"conj"},{"t":"thuiswerken","r":"noun"},{"t":"voordelen","r":"noun"},{"t":"heeft","r":"verb"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"toch","r":"adv"},{"t":"verkies","r":"verb"},{"t":"ik","r":"pron"},{"t":"het","r":"art"},{"t":"kantoor","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"admito","r":"verb"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"trabalho","r":"noun"},{"t":"em","r":"prep"},{"t":"casa","r":"noun"},{"t":"tem","r":"verb"},{"t":"vantagens","r":"noun"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"mesmo","r":"adv"},{"t":"assim","r":"adv"},{"t":"eu","r":"pron"},{"t":"prefiro","r":"verb"},{"t":"o","r":"art"},{"t":"escritório","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu dou-para-fora que trabalho-de-casa vantagens tem, mas mesmo-assim prefiro eu o escritório",
+      "note": "toegeven dat..., maar toch... = a fórmula perfeita para ceder um ponto sem mudar de posição. toegeven é separável: geef ... toe. 🙋"
+    },
+    {
+      "nl": [{"t":"Bovendien","r":"adv"},{"t":"leer","r":"verb"},{"t":"je","r":"pron"},{"t":"meer","r":"adv"},{"t":"van","r":"prep"},{"t":"collega's","r":"noun"},{"t":"als","r":"conj"},{"t":"je","r":"pron"},{"t":"samen","r":"adv"},{"t":"werkt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Além","r":"adv"},{"t":"disso","r":"pron"},{"t":",","r":"punc"},{"t":"você","r":"pron"},{"t":"aprende","r":"verb"},{"t":"mais","r":"adv"},{"t":"com","r":"prep"},{"t":"os","r":"art"},{"t":"colegas","r":"noun"},{"t":"quando","r":"conj"},{"t":"trabalha","r":"verb"},{"t":"junto","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "além-disso aprendes tu mais de colegas quando tu junto trabalhas",
+      "note": "Bovendien soma um argumento novo e força a inversão V2: leer je. Note também: depois de als, o verbo werkt vai para o fim. ➕"
+    },
+    {
+      "nl": [{"t":"Daarentegen","r":"adv"},{"t":"bespaart","r":"verb"},{"t":"de","r":"art"},{"t":"werknemer","r":"noun"},{"t":"veel","r":"adj"},{"t":"reistijd","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"outro","r":"art"},{"t":"lado","r":"noun"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"funcionário","r":"noun"},{"t":"economiza","r":"verb"},{"t":"muito","r":"adj"},{"t":"tempo","r":"noun"},{"t":"de","r":"prep"},{"t":"deslocamento","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "em-contraste poupa o werknemer muito reistijd",
+      "note": "daarentegen (em contraste, por outro lado) costuma abrir uma frase NOVA, opondo-a à anterior, diferente de anderzijds que anda em par na mesma frase. 🔀"
+    },
+    {
+      "nl": [{"t":"Al","r":"adv"},{"t":"met","r":"prep"},{"t":"al","r":"pron"},{"t":"denken","r":"verb"},{"t":"we","r":"pron"},{"t":"dat","r":"conj"},{"t":"een","r":"art"},{"t":"compromis","r":"noun"},{"t":"de","r":"art"},{"t":"beste","r":"adj"},{"t":"keuze","r":"noun"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"No","r":"prep"},{"t":"fim","r":"noun"},{"t":"das","r":"prep"},{"t":"contas","r":"noun"},{"t":",","r":"punc"},{"t":"achamos","r":"verb"},{"t":"que","r":"conj"},{"t":"um","r":"art"},{"t":"compromisso","r":"noun"},{"t":"é","r":"verb"},{"t":"a","r":"art"},{"t":"melhor","r":"adj"},{"t":"escolha","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "tudo com tudo pensamos nós que um compromis o melhor keuze é",
+      "note": "al met al = \"no fim das contas/considerando tudo\": expressão perfeita para fechar um debate com elegância. 🏁"
+    }
+  ],
+  "vocab": [
+    { "nl": "het debat", "art": "het", "split": null, "pt": "o debate", "emoji": "🎙️" },
+    { "nl": "de mening", "art": "de", "split": null, "pt": "a opinião", "emoji": "💭" },
+    { "nl": "het argument", "art": "het", "split": null, "pt": "o argumento", "emoji": "📢" },
+    { "nl": "het voordeel", "art": "het", "split": "voor (na frente/pró) + deel (parte)", "pt": "a vantagem", "emoji": "➕" },
+    { "nl": "het nadeel", "art": "het", "split": "na (depois/contra) + deel (parte)", "pt": "a desvantagem", "emoji": "➖" },
+    { "nl": "de samenwerking", "art": "de", "split": "samen (juntos) + werking (funcionamento)", "pt": "a colaboração, o trabalho em conjunto", "emoji": "🤝" },
+    { "nl": "het standpunt", "art": "het", "split": "stand (posição) + punt (ponto)", "pt": "o ponto de vista, a posição", "emoji": "📍" },
+    { "nl": "de tegenstelling", "art": "de", "split": "tegen (contra) + stelling (colocação/tese)", "pt": "o contraste, a oposição", "emoji": "⚖️" },
+    { "nl": "het compromis", "art": "het", "split": null, "pt": "o compromisso, o meio-termo", "emoji": "🤲" },
+    { "nl": "de productiviteit", "art": "de", "split": null, "pt": "a produtividade", "emoji": "📈" },
+    { "nl": "enerzijds", "art": null, "split": "ener (de-um) + zijds (do-lado)", "pt": "por um lado (conector, sempre com anderzijds)", "emoji": "👈" },
+    { "nl": "anderzijds", "art": null, "split": "ander (outro) + zijds (do-lado)", "pt": "por outro lado (conector, sempre com enerzijds)", "emoji": "👉" },
+    { "nl": "toch", "art": null, "split": null, "pt": "mesmo assim, ainda assim (reforça uma contra-opinião)", "emoji": "🔄" },
+    { "nl": "daarentegen", "art": null, "split": "daar (ali) + entegen (contra)", "pt": "em contrapartida, por outro lado", "emoji": "🔀" },
+    { "nl": "bovendien", "art": null, "split": "boven (acima) + dien (disso)", "pt": "além disso", "emoji": "📌" },
+    { "nl": "toegeven", "art": null, "split": "toe (para) + geven (dar)", "pt": "admitir, conceder um ponto (verbo separável: geef ... toe)", "emoji": "🙋" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que significa o par enerzijds... anderzijds...? 📊",
+      "options": ["primeiro... depois...", "porque... portanto...", "por um lado... por outro lado...", "nem... nem..."],
+      "answer": 2,
+      "explain": "Enerzijds/anderzijds é o par formal para apresentar dois lados de um argumento, equivalente a aan de ene kant / aan de andere kant. 📊"
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase é a forma correta e educada de discordar de alguém num debate? 🤝",
+      "options": ["Nee, dat klopt niet.", "Dat is fout.", "U hebt geen gelijk.", "Ik begrijp uw punt, maar ik denk dat..."],
+      "answer": 3,
+      "explain": "No B2, discordar começa reconhecendo o ponto do outro (Ik begrijp uw punt) antes de introduzir a contra-opinião com maar. As outras opções soam bruscas demais para um debate formal. 🎩"
+    },
+    {
+      "type": "listen",
+      "nl": "Ik begrijp uw punt, maar ik denk dat kantoorwerk toch beter is voor samenwerking.",
+      "options": ["Eu não entendo o que você quer dizer.", "Eu entendo seu ponto, mas acho que o trabalho de escritório ainda assim é melhor para a colaboração.", "O escritório é obrigatório para todos os funcionários.", "Eu concordo totalmente com você."],
+      "answer": 1,
+      "explain": "begrijpen = entender, maar = mas, toch reforça a contra-opinião (mesmo assim/ainda). Uma discordância educada e completa. 🤝"
+    },
+    {
+      "type": "listen",
+      "nl": "Het voordeel van thuiswerken is dat je je eigen uren kiest.",
+      "options": ["A desvantagem do trabalho em casa é o isolamento.", "A vantagem do trabalho em casa é que você escolhe seus próprios horários.", "O escritório fica aberto até tarde.", "Nem todos podem trabalhar em casa."],
+      "answer": 1,
+      "explain": "het voordeel is dat... introduz uma vantagem; kiezen = escolher. Note o verbo kiest no fim da oração, depois de dat. ➕"
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "van mening dat een hybride model de beste oplossing is.",
+      "answer": "ben",
+      "alt": [],
+      "hint": "ik ben van mening dat... (eu sou da opinião de que...)",
+      "explain": "ik ben van mening dat = registro formal de \"eu acho que\", ótimo em debates e redações B2. 💬"
+    },
+    {
+      "type": "fill",
+      "before": "Ik geef",
+      "after": "dat thuiswerken voordelen heeft, maar toch verkies ik het kantoor.",
+      "answer": "toe",
+      "alt": [],
+      "hint": "toegeven é separável: geef ... toe",
+      "explain": "toegeven (admitir/ceder um ponto) é um verbo separável: o prefixo toe vai para o fim da oração principal. 🙋"
+    },
+    {
+      "type": "fill",
+      "before": "Het",
+      "after": "is dat de grens tussen werk en privé vervaagt.",
+      "answer": "nadeel",
+      "alt": [],
+      "hint": "o oposto de voordeel",
+      "explain": "het nadeel is dat... = a desvantagem é que... É o par negativo de het voordeel is dat. ➖"
+    },
+    {
+      "type": "order",
+      "pt": "Além disso, você aprende mais com os colegas quando trabalha junto.",
+      "tokens": ["Bovendien", "leer", "je", "meer", "van", "collega's", "als", "je", "samen", "werkt"],
+      "answer": "Bovendien leer je meer van collega's als je samen werkt",
+      "explain": "Bovendien na posição 1 força a inversão V2: leer je. E depois de als, o verbo werkt vai para o fim da oração subordinada. ➕"
+    },
+    {
+      "type": "order",
+      "pt": "Eu discordo disso.",
+      "tokens": ["Daar", "ben", "ik", "het", "niet", "mee", "eens"],
+      "answer": "Daar ben ik het niet mee eens",
+      "explain": "Frase fixa para discordar formalmente: Daar (posição 1) empurra ben para a posição 2 e ik para a 3. het...mee eens não se separa. ❌"
+    },
+    {
+      "type": "match",
+      "pairs": [["het voordeel", "a vantagem"], ["het nadeel", "a desvantagem"], ["het standpunt", "o ponto de vista"], ["de tegenstelling", "o contraste"], ["het compromis", "o compromisso"]],
+      "explain": "Vocabulário-chave do debate B2: voordeel/nadeel para pesar prós e contras, standpunt para defender uma posição, tegenstelling para opor ideias e compromis para fechar a discussão. ⚖️"
+    },
+    {
+      "type": "mc",
+      "q": "O que significa of na frase \"Ik twijfel of iedereen zich thuis kan concentreren\"? 🤔",
+      "options": ["ou", "se", "onde", "quando"],
+      "answer": 1,
+      "explain": "Cuidado com o falso amigo: aqui of significa \"se\" (dúvida), não \"ou\". twijfelen of = duvidar se algo é verdade. 🤔"
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase usa daarentegen corretamente para opor uma ideia à anterior? 🔀",
+      "options": ["Thuiswerken bespaart tijd. Daarentegen mis je het teamgevoel.", "Ik denk daarentegen dat het waar is.", "Daarentegen, hallo!", "Ik ga daarentegen naar huis."],
+      "answer": 0,
+      "explain": "Daarentegen costuma abrir uma frase nova que contrasta com a anterior: uma ideia positiva seguida de um contraponto. As outras opções não fazem esse contraste lógico. 🔀"
+    },
+    {
+      "type": "listen",
+      "nl": "Al met al denken we dat een compromis de beste keuze is.",
+      "options": ["No fim das contas, achamos que um compromisso é a melhor escolha.", "Nunca vamos chegar a um acordo.", "O debate ainda não começou.", "Cada um tem sua própria opinião."],
+      "answer": 0,
+      "explain": "al met al = \"no fim das contas/considerando tudo\": a expressão perfeita para encerrar um debate com uma conclusão equilibrada. 🏁"
+    }
+  ]
+}

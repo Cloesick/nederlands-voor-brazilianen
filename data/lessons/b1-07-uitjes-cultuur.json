@@ -1,0 +1,214 @@
+{
+  "id": "b1-07-uitjes-cultuur",
+  "unit": "B1",
+  "title": "Cinema, museus e saídas · Uitjes en cultuur",
+  "emoji": "🎬",
+  "teaching": [
+    {
+      "emoji": "🎬",
+      "title": "Convites e sessões: zullen we... / heb je zin om...?",
+      "html": "<p>Para combinar uma saída em neerlandês, duas fórmulas dominam:</p><p>🎬 <b>Zullen we naar de bioscoop gaan?</b> <small>(Vamos ao cinema?)</small><br>😊 <b>Heb je zin om een film te zien?</b> <small>(Você tem vontade de ver um filme?)</small></p><p>Repare no \"sanduíche verbal\": <b>zullen...gaan</b> e <b>zin hebben om...te</b> colocam o segundo verbo lá no fim da frase, igual às orações com omdat que você já viu.</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>het kaartje</td><td>bilhete, ingresso</td></tr><tr><td>de rij</td><td>fila</td></tr><tr><td>gereserveerd</td><td>reservado</td></tr><tr><td>de voorstelling</td><td>sessão, espetáculo</td></tr></table><p>💡 \"Twee kaartjes voor de voorstelling van acht uur, alstublieft\" já resolve a bilheteria de qualquer cinema ou teatro flamengo.</p>"
+    },
+    {
+      "emoji": "🖼️",
+      "title": "No museu: tentoonstelling, rondleiding e horários",
+      "html": "<p>No museu, três palavras abrem todas as portas:</p><ul><li>🖼️ <b>de tentoonstelling</b> <small>(exposição)</small>: o que está em cartaz.</li><li>🧭 <b>de rondleiding</b> <small>(visita guiada)</small>: alguém te explica as obras.</li><li>🕐 <b>de openingsuren</b> <small>(horário de funcionamento)</small>: sempre no plural, sempre com \"de\".</li></ul><p>Pergunta útil: <i>\"Is er een tentoonstelling die je wil zien?\"</i> <small>(Há uma exposição que você quer ver?)</small> Repare que \"die\" (que) puxa o verbo \"wil zien\" para o fim, como qualquer bijzin do nível B1.</p><p>⚠️ Museus belgas costumam fechar às segundas-feiras (gesloten op maandag): sempre confira as openingsuren antes de ir!</p>"
+    },
+    {
+      "emoji": "🎭",
+      "title": "No cinema e no teatro: ondertiteld, nagesynchroniseerd, applaus",
+      "html": "<p>No cinema, a primeira pergunta na bilheteria é sempre:</p><p>❓ <b>Is deze film ondertiteld of nagesynchroniseerd?</b> <small>(Esse filme é legendado ou dublado?)</small></p><table class=\"vocab\"><tr><th>morfema</th><th>ideia</th></tr><tr><td>onder- (embaixo) + titeld</td><td>ondertiteld = legendado</td></tr><tr><td>na- (depois) + gesynchroniseerd</td><td>nagesynchroniseerd = dublado</td></tr></table><p>No teatro ou concerto, você <b>een voorstelling bijwoont</b> <small>(assiste a um espetáculo)</small>, e no final vem <b>het applaus</b> 👏. Se o show foi muito bom, os belgas às vezes ainda gritam \"bravo!\" como em qualquer lugar do mundo.</p>"
+    },
+    {
+      "emoji": "💬",
+      "title": "Dando sua opinião: wat vond je ervan?",
+      "html": "<p>Depois da saída, alguém sempre pergunta: <b>\"Wat vond je van de voorstelling?\"</b> <small>(O que você achou do espetáculo?)</small></p><p>Para responder, use <b>vinden</b> (achar) no passado (<i>vond</i>):</p><ul><li>😍 Ik vond het geweldig! <small>(Achei ótimo!)</small></li><li>👍 Het was de moeite waard. <small>(Valeu a pena.)</small></li><li>😐 Het viel een beetje tegen. <small>(Não correspondeu às expectativas.)</small></li></ul><p>💡 <b>de moeite waard zijn</b> é uma expressão fixa (literalmente \"valer o esforço\"): guarde ela inteira, não tente traduzir palavra por palavra.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Zullen","r":"verb"},{"t":"we","r":"pron"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"bioscoop","r":"noun"},{"t":"gaan","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Vamos","r":"verb"},{"t":"ao","r":"prep"},{"t":"cinema","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "vamos nós para o cinema ir?",
+      "note": "zullen...gaan formam um sanduíche verbal para convites; em português basta \"vamos\"."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"zin","r":"noun"},{"t":"om","r":"conj"},{"t":"een","r":"art"},{"t":"film","r":"noun"},{"t":"te","r":"part"},{"t":"zien","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"tem","r":"verb"},{"t":"vontade","r":"noun"},{"t":"de","r":"prep"},{"t":"ver","r":"verb"},{"t":"um","r":"art"},{"t":"filme","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "\"zin hebben om + te + infinitivo\" = \"ter vontade de + infinitivo\"."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"zin","r":"noun"},{"t":"om","r":"conj"},{"t":"op","r":"prep"},{"t":"zaterdag","r":"noun"},{"t":"naar","r":"prep"},{"t":"het","r":"art"},{"t":"museum","r":"noun"},{"t":"te","r":"part"},{"t":"gaan","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"tem","r":"verb"},{"t":"vontade","r":"noun"},{"t":"de","r":"prep"},{"t":"ir","r":"verb"},{"t":"ao","r":"prep"},{"t":"museu","r":"noun"},{"t":"no","r":"prep"},{"t":"sábado","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tem tu vontade de no sábado para o museu ir?",
+      "note": "🎬 Mini-diálogo saída ao museu (1/4): convite com om...te no fim."
+    },
+    {
+      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"leuk","r":"adj"},{"t":"!","r":"punc"},{"t":"Is","r":"verb"},{"t":"er","r":"adv"},{"t":"een","r":"art"},{"t":"tentoonstelling","r":"noun"},{"t":"die","r":"pron"},{"t":"je","r":"pron"},{"t":"wil","r":"verb"},{"t":"zien","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"legal","r":"adj"},{"t":"!","r":"punc"},{"t":"Tem","r":"verb"},{"t":"uma","r":"art"},{"t":"exposição","r":"noun"},{"t":"que","r":"pron"},{"t":"você","r":"pron"},{"t":"quer","r":"verb"},{"t":"ver","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "sim, legal! está lá uma exposição que tu queres ver?",
+      "note": "🎬 Mini-diálogo (2/4): \"die\" introduz a oração relativa, igual a \"que\" em português."
+    },
+    {
+      "nl": [{"t":"Er","r":"adv"},{"t":"is","r":"verb"},{"t":"een","r":"art"},{"t":"rondleiding","r":"noun"},{"t":"om","r":"prep"},{"t":"drie","r":"num"},{"t":"uur","r":"noun"},{"t":",","r":"punc"},{"t":"maar","r":"conj"},{"t":"we","r":"pron"},{"t":"moeten","r":"verb"},{"t":"kaartjes","r":"noun"},{"t":"reserveren","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Tem","r":"verb"},{"t":"uma","r":"art"},{"t":"visita","r":"noun"},{"t":"guiada","r":"adj"},{"t":"às","r":"prep"},{"t":"três","r":"num"},{"t":"horas","r":"noun"},{"t":",","r":"punc"},{"t":"mas","r":"conj"},{"t":"precisamos","r":"verb"},{"t":"reservar","r":"verb"},{"t":"ingressos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "está lá uma visita-guiada às três horas, mas nós devemos bilhetes reservar",
+      "note": "🎬 Mini-diálogo (3/4): moeten (dever/precisar) + infinitivo no fim, típico do neerlandês."
+    },
+    {
+      "nl": [{"t":"Goed","r":"adj"},{"t":"idee","r":"noun"},{"t":",","r":"punc"},{"t":"dan","r":"adv"},{"t":"staan","r":"verb"},{"t":"we","r":"pron"},{"t":"niet","r":"neg"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"rij","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Boa","r":"adj"},{"t":"ideia","r":"noun"},{"t":",","r":"punc"},{"t":"assim","r":"adv"},{"t":"não","r":"neg"},{"t":"ficamos","r":"verb"},{"t":"na","r":"prep"},{"t":"fila","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "boa ideia, então ficamos nós não na fila",
+      "note": "🎬 Mini-diálogo (4/4): \"in de rij staan\" = \"estar na fila\" (literalmente \"ficar na fila\")."
+    },
+    {
+      "nl": [{"t":"Twee","r":"num"},{"t":"kaartjes","r":"noun"},{"t":"voor","r":"prep"},{"t":"de","r":"art"},{"t":"voorstelling","r":"noun"},{"t":"van","r":"prep"},{"t":"acht","r":"num"},{"t":"uur","r":"noun"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"}],
+      "pt": [{"t":"Dois","r":"num"},{"t":"ingressos","r":"noun"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"sessão","r":"noun"},{"t":"das","r":"prep"},{"t":"oito","r":"num"},{"t":"horas","r":"noun"},{"t":",","r":"punc"},{"t":"por favor","r":"x"}],
+      "lit": "dois bilhetes para a sessão de oito horas, por favor",
+      "note": "\"van acht uur\" = \"das oito horas\": indica o horário da sessão."
+    },
+    {
+      "nl": [{"t":"Is","r":"verb"},{"t":"deze","r":"pron"},{"t":"film","r":"noun"},{"t":"ondertiteld","r":"adj"},{"t":"of","r":"conj"},{"t":"nagesynchroniseerd","r":"adj"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Esse","r":"pron"},{"t":"filme","r":"noun"},{"t":"é","r":"verb"},{"t":"legendado","r":"adj"},{"t":"ou","r":"conj"},{"t":"dublado","r":"adj"},{"t":"?","r":"punc"}],
+      "lit": "é este filme legendado ou dublado?",
+      "note": "ondertiteld = legendado, nagesynchroniseerd = dublado; palavras longas mas fáceis de decompor (onder = embaixo, na = depois)."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"vond","r":"verb"},{"t":"de","r":"art"},{"t":"tentoonstelling","r":"noun"},{"t":"echt","r":"adv"},{"t":"de moeite waard","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"achei","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"exposição","r":"noun"},{"t":"realmente","r":"adv"},{"t":"valeu a pena","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "eu achei a exposição realmente a pena valia",
+      "note": "\"de moeite waard zijn\" = \"valer a pena\", expressão fixa para dar opinião positiva."
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"vond","r":"verb"},{"t":"je","r":"pron"},{"t":"van","r":"prep"},{"t":"de","r":"art"},{"t":"voorstelling","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O que","r":"qw"},{"t":"você","r":"pron"},{"t":"achou","r":"verb"},{"t":"do","r":"prep"},{"t":"espetáculo","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "o que achaste tu da apresentação?",
+      "note": "\"wat vinden van\" = \"achar de\", pergunta clássica para pedir opinião."
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"applaus","r":"noun"},{"t":"duurde","r":"verb"},{"t":"wel","r":"adv"},{"t":"vijf","r":"num"},{"t":"minuten","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"aplauso","r":"noun"},{"t":"durou","r":"verb"},{"t":"uns","r":"adv"},{"t":"cinco","r":"num"},{"t":"minutos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o aplauso durou bem cinco minutos",
+      "note": "\"wel\" aqui funciona como intensificador (\"nada menos que\"), não como \"bem\"."
+    }
+  ],
+  "vocab": [
+    { "nl": "het kaartje", "art": "het", "split": "kaart (carta, bilhete) + -je (diminutivo)", "pt": "bilhete, ingresso", "emoji": "🎫" },
+    { "nl": "de rij", "art": "de", "split": null, "pt": "fila", "emoji": "🚶‍♀️" },
+    { "nl": "de voorstelling", "art": "de", "split": "voor (à frente) + stelling (colocação, de stellen)", "pt": "sessão, espetáculo", "emoji": "🎭" },
+    { "nl": "ondertiteld", "art": null, "split": "onder (embaixo) + titeld (titulado)", "pt": "legendado", "emoji": "💬" },
+    { "nl": "nagesynchroniseerd", "art": null, "split": "na (depois) + gesynchroniseerd (sincronizado)", "pt": "dublado", "emoji": "🗣️" },
+    { "nl": "de tentoonstelling", "art": "de", "split": "tentoon (à mostra) + stelling (colocação)", "pt": "exposição", "emoji": "🖼️" },
+    { "nl": "de rondleiding", "art": "de", "split": "rond (ao redor) + leiding (condução, de leiden)", "pt": "visita guiada", "emoji": "🧭" },
+    { "nl": "de openingsuren", "art": "de", "split": "opening (abertura) + uren (horas)", "pt": "horário de funcionamento", "emoji": "🕐" },
+    { "nl": "het applaus", "art": "het", "split": null, "pt": "aplauso", "emoji": "👏" },
+    { "nl": "bijwonen", "art": null, "split": "bij (junto) + wonen (permanecer, de wonen)", "pt": "assistir a, comparecer a", "emoji": "✅" },
+    { "nl": "gereserveerd", "art": null, "split": "ge- + reserveerd (de reserveren, reservar)", "pt": "reservado", "emoji": "🔖" },
+    { "nl": "de moeite waard", "art": null, "split": "de moeite (o esforço) + waard (valendo)", "pt": "que vale a pena", "emoji": "👍" },
+    { "nl": "de bioscoop", "art": "de", "split": null, "pt": "cinema (o prédio)", "emoji": "🎬" },
+    { "nl": "het museum", "art": "het", "split": null, "pt": "museu", "emoji": "🏛️" },
+    { "nl": "de pauze", "art": "de", "split": null, "pt": "intervalo, pausa", "emoji": "⏸️" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual frase é o convite correto para ir ao cinema? 🎬",
+      "options": ["Zullen we naar de bioscoop gaan?", "Wij zullen naar de bioscoop.", "Gaan we bioscoop zullen?", "We zullen bioscoop gaan naar?"],
+      "answer": 0,
+      "explain": "zullen...gaan formam um sanduíche verbal para convites: zullen logo no início, gaan lá no fim da frase."
+    },
+    {
+      "type": "mc",
+      "q": "Um filme sem legendas, com voz traduzida, está...",
+      "options": ["ondertiteld", "nagesynchroniseerd", "gereserveerd", "bijgewoond"],
+      "answer": 1,
+      "explain": "nagesynchroniseerd = dublado (a voz original foi substituída); ondertiteld = legendado."
+    },
+    {
+      "type": "listen",
+      "nl": "Heb je zin om zaterdag naar het museum te gaan?",
+      "options": ["Você tem vontade de ir ao museu no sábado?", "Você foi ao museu ontem?", "Você trabalha no museu aos sábados?"],
+      "answer": 0,
+      "explain": "zin hebben om + te + infinitivo = ter vontade de + infinitivo; zaterdag = sábado."
+    },
+    {
+      "type": "fill",
+      "before": "Is er een tentoonstelling die je wil",
+      "after": "?",
+      "answer": "zien",
+      "alt": [],
+      "hint": "ver (infinitivo, no fim!)",
+      "explain": "Depois de \"die\" (que), a oração vira subordinada: o verbo conjugado (wil) fica antes do infinitivo, que fecha a frase (zien)."
+    },
+    {
+      "type": "order",
+      "pt": "Duas passagens para a sessão de oito horas, por favor.",
+      "tokens": ["Twee", "kaartjes", "voor", "de", "voorstelling", "van", "acht", "uur", "alstublieft"],
+      "answer": "Twee kaartjes voor de voorstelling van acht uur alstublieft",
+      "explain": "Ordem fixa para pedidos na bilheteria: número + kaartjes + voor + de voorstelling + horário + alstublieft."
+    },
+    {
+      "type": "listen",
+      "nl": "Er is een rondleiding om drie uur, maar we moeten kaartjes reserveren.",
+      "options": ["A visita guiada já terminou às três horas.", "Tem uma visita guiada às três horas, mas precisamos reservar ingressos.", "Não há mais ingressos para a visita guiada."],
+      "answer": 1,
+      "explain": "rondleiding = visita guiada; moeten + infinitivo no fim (reserveren) = precisar/dever fazer algo."
+    },
+    {
+      "type": "mc",
+      "q": "Complete: \"Is de film ondertiteld ___ nagesynchroniseerd?\" (escolha entre duas opções)",
+      "options": ["en", "maar", "of", "dat"],
+      "answer": 2,
+      "explain": "of = ou (indica escolha entre opções); en = e; maar = mas; dat = que."
+    },
+    {
+      "type": "order",
+      "pt": "Boa ideia, assim não ficamos na fila.",
+      "tokens": ["Goed", "idee", "dan", "staan", "we", "niet", "in", "de", "rij"],
+      "answer": "Goed idee dan staan we niet in de rij",
+      "explain": "\"dan\" (então) abre a segunda oração e a inverte: dan staan we, com o verbo antes do sujeito."
+    },
+    {
+      "type": "fill",
+      "before": "Ik vond de tentoonstelling echt",
+      "after": ".",
+      "answer": "de moeite waard",
+      "alt": [],
+      "hint": "expressão fixa: valer a pena",
+      "explain": "\"de moeite waard zijn\" = valer a pena; aqui funciona como predicado depois de \"vond\" (achei)."
+    },
+    {
+      "type": "match",
+      "pairs": [["de rij", "fila"], ["het kaartje", "bilhete, ingresso"], ["de tentoonstelling", "exposição"], ["de rondleiding", "visita guiada"], ["het applaus", "aplauso"], ["de openingsuren", "horário de funcionamento"]],
+      "explain": "Vocabulário de saídas culturais: cinema, museu e teatro compartilham muitas dessas palavras."
+    },
+    {
+      "type": "listen",
+      "nl": "Wat vond je van de voorstelling?",
+      "options": ["Quando começa o espetáculo?", "Onde fica o espetáculo?", "O que você achou do espetáculo?"],
+      "answer": 2,
+      "explain": "\"wat vinden van\" = \"achar de\"; é a pergunta clássica para pedir opinião sobre algo que se viu."
+    },
+    {
+      "type": "mc",
+      "q": "Complete com o artigo certo: \"___ openingsuren van het museum\"",
+      "options": ["het", "een", "geen", "de"],
+      "answer": 3,
+      "explain": "de openingsuren é plural, e substantivos plurais em neerlandês sempre usam \"de\"."
+    },
+    {
+      "type": "order",
+      "pt": "O aplauso durou uns cinco minutos.",
+      "tokens": ["Het", "applaus", "duurde", "wel", "vijf", "minuten"],
+      "answer": "Het applaus duurde wel vijf minuten",
+      "explain": "\"wel\" aqui intensifica (\"nada menos que cinco minutos\"), não significa \"bem\"."
+    },
+    {
+      "type": "mc",
+      "q": "Complete: \"We ___ kaartjes reserveren voor de voorstelling.\" (temos essa obrigação)",
+      "options": ["willen", "kunnen", "moeten", "mogen"],
+      "answer": 2,
+      "explain": "moeten = dever/precisar (obrigação); willen = querer; kunnen = poder/conseguir; mogen = ter permissão."
+    }
+  ]
+}

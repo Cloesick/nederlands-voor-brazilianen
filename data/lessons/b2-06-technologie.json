@@ -1,0 +1,214 @@
+{
+  "id": "b2-06-technologie",
+  "unit": "B2",
+  "title": "Tecnologia e redes sociais · Technologie en sociale media",
+  "emoji": "💻",
+  "teaching": [
+    {
+      "emoji": "💻",
+      "title": "💻 A identidade digital: accounts, wachtwoorden en apps",
+      "html": "<p>Todo imigrante passa por isso: criar <b>accounts</b> (contas) para tudo na Flandres: banco, escola, Itsme, DPD... e cada um pede uma senha diferente. Vamos organizar o vocabulário essencial da vida digital.</p><ul><li>👤 <b>Een account aanmaken</b> = \"criar uma conta\": aan (para) + maken (fazer).</li><li>🔑 <b>Het wachtwoord</b> = wacht (de wachten, vigiar) + woord (palavra): literalmente a \"palavra de guarda\" que protege sua conta.</li><li>📲 <b>Een app downloaden</b> = baixar um aplicativo. Downloaden é um verbo emprestado do inglês, super comum no neerlandês do dia a dia.</li><li>📶 <b>De wifi-verbinding</b> = a conexão wifi. Se ela <i>valt weg</i> (cai, some), você está perdido numa reunião online.</li></ul><p>💡 Frase de sobrevivência: <b>Ik ben mijn wachtwoord vergeten.</b> (\"Esqueci minha senha.\") Vai te salvar em praticamente todo balcão de atendimento na Bélgica.</p>"
+    },
+    {
+      "emoji": "📱",
+      "title": "📱 Scrollen zonder einde: hábitos e opiniões sobre redes sociais",
+      "html": "<p>Os flamengos também têm uma relação de amor e ódio com o celular. <i>Scrollen</i> virou verbo neerlandês oficial, e admitir o vício é quase um esporte nacional.</p><table class=\"vocab\"><tr><th>🇧🇪 Frase</th><th>O que ela expressa</th></tr><tr><td><b>Ik scrol te veel.</b></td><td>autocrítica leve: \"eu rolo demais [a tela]\"</td></tr><tr><td><b>Het beïnvloedt mijn concentratie.</b></td><td>consequência: \"isso afeta minha concentração\"</td></tr><tr><td><b>Ik vind dat sociale media...</b></td><td>abre uma opinião pessoal: \"eu acho que as redes sociais...\"</td></tr><tr><td><b>Volgens mij overdrijven mensen soms.</b></td><td>opinião com distância educada: \"na minha opinião, as pessoas às vezes exageram\"</td></tr></table><p>🎯 Gramática B2: repare no <b>het</b> impessoal em \"Het beïnvloedt mijn concentratie\": het aqui não se refere a nada específico, é o sujeito genérico \"isso\".</p>"
+    },
+    {
+      "emoji": "🔐",
+      "title": "🔐 Phishing, wachtwoorden en tweestapsverificatie",
+      "html": "<p>Segurança digital não é paranoia, é sobrevivência. Golpes de <b>phishing</b> (e-mails ou SMS fingindo ser seu banco, a Itsme ou até a Bpost) são constantes na Bélgica.</p><ul><li>🎣 <b>Phishing herkennen</b> = reconhecer phishing: desconfie de links estranhos, erros de idioma e urgência artificial (\"clique agora ou sua conta será bloqueada!\").</li><li>🔐 <b>Tweestapsverificatie</b> = twee (duas) + stap (etapas) + verificatie (verificação): depois da senha, um código extra no celular. Ative sempre que possível.</li><li>🪪 <b>Persoonsgegevens beschermen</b> = proteger dados pessoais: nunca envie seu rijksregisternummer (número de registro nacional) por e-mail sem confirmar o remetente.</li></ul><p>⚠️ Regra de ouro: nenhum banco, nenhuma repartição pública pede sua senha por e-mail ou telefone. Se pedirem, é <b>phishing</b>, sem exceção.</p>"
+    },
+    {
+      "emoji": "🏠",
+      "title": "🏠 Thuiswerken 2.0: videobellen, scherm delen en de IT-dienst",
+      "html": "<p>O trabalho remoto trouxe seu próprio vocabulário técnico neerlandês. Dominar essas frases evita mal-entendidos em reuniões online e chamados de suporte.</p><ul><li>📹 <b>Videobellen</b> = video (vídeo) + bellen (ligar): fazer uma videochamada. \"Zullen we videobellen?\" = \"Vamos fazer uma videochamada?\"</li><li>🖥️ <b>Het scherm delen</b> = compartilhar a tela: essencial em toda reunião de trabalho.</li><li>🛠️ <b>Een technisch probleem melden aan de IT-dienst</b> = relatar um problema técnico ao departamento de TI. Melden (relatar) é mais formal que zeggen (dizer).</li></ul><p>💬 Frase-chave para qualquer chamado de suporte: <b>Ik moet dit technische probleem melden aan de IT-dienst.</b> Comece assim, descreva o sintoma (o laptop não liga, a wifi cai) e peça ajuda com calma, no melhor estilo flamengo.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"scrol","r":"verb"},{"t":"te","r":"adv"},{"t":"veel","r":"adv"},{"t":"op","r":"prep"},{"t":"mijn","r":"pron"},{"t":"telefoon","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"rolo","r":"verb"},{"t":"demais","r":"adv"},{"t":"no","r":"prep"},{"t":"meu","r":"pron"},{"t":"celular","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Scrollen é verbo emprestado do inglês, totalmente naturalizado no neerlandês. Te veel = 'demais', sempre depois do verbo."
+    },
+    {
+      "nl": [{"t":"Het","r":"pron"},{"t":"beïnvloedt","r":"verb"},{"t":"mijn","r":"pron"},{"t":"concentratie","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Isso","r":"pron"},{"t":"afeta","r":"verb"},{"t":"minha","r":"pron"},{"t":"concentração","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Het aqui é o 'isso' genérico, sem referente específico: um het impessoal muito comum ao falar de consequências."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"wifi-verbinding","r":"noun"},{"t":"valt","r":"verb"},{"t":"steeds","r":"adv"},{"t":"weg","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"A","r":"art"},{"t":"conexão","r":"noun"},{"t":"wifi","r":"noun"},{"t":"cai","r":"verb"},{"t":"o","r":"art"},{"t":"tempo","r":"noun"},{"t":"todo","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "a wifi-conexão cai continuamente para-fora",
+      "note": "Wegvallen é verbo separável: weg (embora) se solta do verbo e vai para o fim da frase principal."
+    },
+    {
+      "nl": [{"t":"Herken","r":"verb"},{"t":"je","r":"pron"},{"t":"deze","r":"pron"},{"t":"phishing-mail","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"reconhece","r":"verb"},{"t":"esse","r":"pron"},{"t":"e-mail","r":"noun"},{"t":"de","r":"prep"},{"t":"phishing","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "Herkennen = reconhecer. Pergunta clássica de conscientização digital em empresas e bancos belgas."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"gebruik","r":"verb"},{"t":"altijd","r":"adv"},{"t":"tweestapsverificatie","r":"noun"},{"t":"voor","r":"prep"},{"t":"mijn","r":"pron"},{"t":"accounts","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"sempre","r":"adv"},{"t":"uso","r":"verb"},{"t":"verificação","r":"noun"},{"t":"em","r":"prep"},{"t":"duas","r":"num"},{"t":"etapas","r":"noun"},{"t":"para","r":"prep"},{"t":"minhas","r":"pron"},{"t":"contas","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Tweestapsverificatie = twee (duas) + stap (etapa) + verificatie: uma camada extra além da senha."
+    },
+    {
+      "nl": [{"t":"Bescherm","r":"verb"},{"t":"je","r":"pron"},{"t":"persoonsgegevens","r":"noun"},{"t":"goed","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Proteja","r":"verb"},{"t":"bem","r":"adv"},{"t":"os","r":"art"},{"t":"seus","r":"pron"},{"t":"dados","r":"noun"},{"t":"pessoais","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Imperativo direto: Bescherm (protege) + je (seus, possessivo sem artigo) + persoonsgegevens (dados pessoais)."
+    },
+    {
+      "nl": [{"t":"Goedemiddag","r":"x"},{"t":",","r":"punc"},{"t":"ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"een","r":"art"},{"t":"technisch","r":"adj"},{"t":"probleem","r":"noun"},{"t":"met","r":"prep"},{"t":"mijn","r":"pron"},{"t":"laptop","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Boa","r":"x"},{"t":"tarde","r":"x"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"um","r":"art"},{"t":"problema","r":"noun"},{"t":"técnico","r":"adj"},{"t":"com","r":"prep"},{"t":"meu","r":"pron"},{"t":"laptop","r":"noun"},{"t":".","r":"punc"}],
+      "note": "🎬 Começa o diálogo com a IT-dienst! Abertura formal e neutra, igual em qualquer ligação de suporte técnico."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"laptop","r":"noun"},{"t":"wil","r":"verb"},{"t":"niet","r":"neg"},{"t":"meer","r":"adv"},{"t":"opstarten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"laptop","r":"noun"},{"t":"não","r":"neg"},{"t":"quer","r":"verb"},{"t":"mais","r":"adv"},{"t":"ligar","r":"verb"},{"t":".","r":"punc"}],
+      "note": "Opstarten = op (para cima) + starten (iniciar): ligar/inicializar um aparelho. Niet meer = 'não mais'."
+    },
+    {
+      "nl": [{"t":"Heb","r":"verb"},{"t":"je","r":"pron"},{"t":"geprobeerd","r":"verb"},{"t":"in","r":"part"},{"t":"te","r":"x"},{"t":"loggen","r":"verb"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"ander","r":"adj"},{"t":"wachtwoord","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"já","r":"adv"},{"t":"tentou","r":"verb"},{"t":"fazer","r":"verb"},{"t":"login","r":"noun"},{"t":"com","r":"prep"},{"t":"outra","r":"adj"},{"t":"senha","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "tens tu tentado in te logar com uma outra senha",
+      "note": "O atendente pergunta. 'In te loggen' é o infinitivo separável inloggen com 'te' no meio: padrão depois de geprobeerd (tentado)."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"ben","r":"verb"},{"t":"mijn","r":"pron"},{"t":"wachtwoord","r":"noun"},{"t":"vergeten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Esqueci","r":"verb"},{"t":"minha","r":"pron"},{"t":"senha","r":"noun"},{"t":".","r":"punc"}],
+      "note": "Vergeten usa 'zijn' (ben) como auxiliar do perfeito, não 'hebben': descreve um estado resultante, não uma ação."
+    },
+    {
+      "nl": [{"t":"Kunt","r":"verb"},{"t":"u","r":"pron"},{"t":"het","r":"art"},{"t":"scherm","r":"noun"},{"t":"delen","r":"verb"},{"t":"zodat","r":"conj"},{"t":"ik","r":"pron"},{"t":"kan","r":"verb"},{"t":"meekijken","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"senhor","r":"pron"},{"t":"pode","r":"verb"},{"t":"compartilhar","r":"verb"},{"t":"a","r":"art"},{"t":"tela","r":"noun"},{"t":",","r":"punc"},{"t":"para","r":"conj"},{"t":"que","r":"conj"},{"t":"eu","r":"pron"},{"t":"possa","r":"verb"},{"t":"acompanhar","r":"verb"},{"t":"?","r":"punc"}],
+      "lit": "pode o senhor a tela dividir de-modo-que eu posso junto-olhar",
+      "note": "Meekijken = mee (junto) + kijken (olhar): acompanhar visualmente. Depois de zodat, kan meekijken forma uma pinça verbal no fim."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zal","r":"verb"},{"t":"dit","r":"pron"},{"t":"probleem","r":"noun"},{"t":"meteen","r":"adv"},{"t":"doorgeven","r":"verb"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"technische","r":"adj"},{"t":"dienst","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"vou","r":"verb"},{"t":"repassar","r":"verb"},{"t":"esse","r":"pron"},{"t":"problema","r":"noun"},{"t":"imediatamente","r":"adv"},{"t":"ao","r":"prep"},{"t":"setor","r":"noun"},{"t":"técnico","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Fecho do atendimento. Zal (auxiliar do futuro) na posição 2, doorgeven (door + geven, 'dar adiante') no fim: a pinça verbal do futuro."
+    }
+  ],
+  "vocab": [
+    { "nl": "het account", "art": "het", "split": null, "pt": "a conta (digital)", "emoji": "👤" },
+    { "nl": "het wachtwoord", "art": "het", "split": "wacht (de wachten, vigiar) + woord (palavra)", "pt": "a senha", "emoji": "🔑" },
+    { "nl": "de app", "art": "de", "split": null, "pt": "o aplicativo", "emoji": "📱" },
+    { "nl": "de wifi-verbinding", "art": "de", "split": "wifi + verbinding (conexão, ligação)", "pt": "a conexão wifi", "emoji": "📶" },
+    { "nl": "inloggen", "art": null, "split": "in (para dentro) + loggen (registrar-se)", "pt": "fazer login, entrar", "emoji": "🔓" },
+    { "nl": "uitloggen", "art": null, "split": "uit (para fora) + loggen (registrar-se)", "pt": "fazer logout, sair", "emoji": "🔒" },
+    { "nl": "downloaden", "art": null, "split": null, "pt": "baixar, fazer download", "emoji": "⬇️" },
+    { "nl": "scrollen", "art": null, "split": null, "pt": "rolar a tela", "emoji": "👆" },
+    { "nl": "de concentratie", "art": "de", "split": null, "pt": "a concentração", "emoji": "🧠" },
+    { "nl": "phishing herkennen", "art": null, "split": "phishing (pesca de dados falsa) + herkennen (reconhecer)", "pt": "reconhecer uma tentativa de phishing", "emoji": "🎣" },
+    { "nl": "de tweestapsverificatie", "art": "de", "split": "twee (dois) + stap (passo) + s + verificatie (verificação)", "pt": "a verificação em duas etapas", "emoji": "🔐" },
+    { "nl": "de persoonsgegevens", "art": "de", "split": "persoon (pessoa) + s + gegevens (dados)", "pt": "os dados pessoais", "emoji": "🪪" },
+    { "nl": "videobellen", "art": null, "split": "video (vídeo) + bellen (ligar, telefonar)", "pt": "fazer uma videochamada", "emoji": "📹" },
+    { "nl": "het scherm delen", "art": null, "split": "scherm (tela) + delen (dividir, compartilhar)", "pt": "compartilhar a tela", "emoji": "🖥️" },
+    { "nl": "de IT-dienst", "art": "de", "split": "IT + dienst (serviço, departamento)", "pt": "o departamento de TI", "emoji": "🛠️" },
+    { "nl": "een technisch probleem melden", "art": null, "split": "technisch (técnico) + probleem (problema) + melden (relatar, informar)", "pt": "relatar um problema técnico", "emoji": "🚨" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Você esqueceu sua senha e precisa avisar o colega. Qual frase está correta? 🔑",
+      "options": ["Ik ben mijn account vergeten.", "Ik heb mijn wachtwoord gedownload.", "Ik ben mijn wachtwoord vergeten.", "Ik scrol mijn wachtwoord."],
+      "answer": 2,
+      "explain": "Wachtwoord = senha. 'Ik ben... vergeten' usa 'zijn' como auxiliar, porque vergeten descreve um estado, não uma ação sobre a senha (que não se baixa nem se rola). 🔑"
+    },
+    {
+      "type": "listen",
+      "nl": "Ik scrol te veel op mijn telefoon.",
+      "options": ["Eu rolo demais no meu celular.", "Eu baixei um aplicativo novo.", "Minha internet caiu de novo."],
+      "answer": 0,
+      "explain": "Scrollen = rolar a tela (passar o dedo). Te veel = demais. Frase clássica de autoconfissão sobre hábitos digitais. 📱"
+    },
+    {
+      "type": "fill",
+      "before": "Ik ben mijn",
+      "after": "vergeten.",
+      "answer": "wachtwoord",
+      "alt": [],
+      "hint": "senha 🔑",
+      "explain": "Wachtwoord = wacht (vigiar) + woord (palavra): a 'palavra de guarda' que protege sua conta. 'Ik ben... vergeten' = esqueci."
+    },
+    {
+      "type": "order",
+      "pt": "O senhor pode compartilhar a tela, para que eu possa acompanhar?",
+      "tokens": ["Kunt", "u", "het", "scherm", "delen", "zodat", "ik", "kan", "meekijken"],
+      "answer": "Kunt u het scherm delen zodat ik kan meekijken",
+      "explain": "Kunt abre a pergunta modal, meekijken (mee + kijken, 'olhar junto') fecha no fim: a pinça verbal clássica. Depois de zodat, os verbos se agrupam no fim da oração. 🖥️"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["het wachtwoord", "a senha"],
+        ["de tweestapsverificatie", "a verificação em duas etapas"],
+        ["phishing herkennen", "reconhecer phishing"],
+        ["het scherm delen", "compartilhar a tela"],
+        ["de IT-dienst", "o departamento de TI"]
+      ],
+      "explain": "O kit essencial de segurança e trabalho digital: o wachtwoord protege a conta, a tweestapsverificatie adiciona uma camada extra, você aprende a phishing herkennen, compartilha het scherm em reuniões e liga para de IT-dienst quando algo quebra. 🔐"
+    },
+    {
+      "type": "mc",
+      "q": "Qual é o principal objetivo da tweestapsverificatie? 🔐",
+      "options": ["Deixar o login mais rápido", "Adicionar uma camada extra de segurança além da senha", "Substituir completamente a senha", "Bloquear o wifi de estranhos"],
+      "answer": 1,
+      "explain": "Tweestapsverificatie = twee (duas) + stap (etapas) + verificatie (verificação): depois da senha, você confirma sua identidade de outra forma (código, app). Não substitui a senha, adiciona uma segunda camada."
+    },
+    {
+      "type": "listen",
+      "nl": "Herken je deze phishing-mail?",
+      "options": ["Você baixou esse aplicativo?", "Você reconhece esse e-mail de phishing?", "Você compartilhou a tela comigo?"],
+      "answer": 1,
+      "explain": "Herkennen = reconhecer, phishing-mail = e-mail de phishing (tentativa de roubar dados fingindo ser uma empresa confiável). Pergunta clássica de conscientização digital. 🎣"
+    },
+    {
+      "type": "fill",
+      "before": "De wifi-verbinding valt steeds",
+      "after": ".",
+      "answer": "weg",
+      "alt": [],
+      "hint": "cai, desaparece (verbo separável) 📶",
+      "explain": "Wegvallen é verbo separável: weg (embora, fora) se solta e vai para o fim da frase. Valt steeds weg = 'cai o tempo todo'."
+    },
+    {
+      "type": "order",
+      "pt": "Vou repassar esse problema imediatamente ao setor técnico.",
+      "tokens": ["Ik", "zal", "dit", "probleem", "meteen", "doorgeven", "aan", "de", "technische", "dienst"],
+      "answer": "Ik zal dit probleem meteen doorgeven aan de technische dienst",
+      "explain": "Outra pinça verbal: zal (auxiliar do futuro) na posição 2, doorgeven (door + geven, 'dar adiante') no fim. Tudo o resto fica preso no meio. 🔁"
+    },
+    {
+      "type": "mc",
+      "q": "Seu laptop trava durante uma reunião online. Qual frase mostra a atitude mais eficaz? 💻",
+      "options": ["Ik doe niets en wacht rustig af.", "Ik scrol gewoon verder op mijn telefoon.", "Ik verander snel mijn wifi-wachtwoord.", "Ik moet dit technische probleem melden aan de IT-dienst."],
+      "answer": 3,
+      "explain": "Melden aan de IT-dienst = relatar ao departamento de TI: é o procedimento correto para problemas técnicos no trabalho remoto. As outras opções ignoram o problema ou tentam soluções aleatórias."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik gebruik altijd tweestapsverificatie voor mijn accounts.",
+      "options": ["Eu esqueci minha senha de novo.", "Eu nunca baixo aplicativos desconhecidos.", "Eu sempre uso verificação em duas etapas para minhas contas."],
+      "answer": 2,
+      "explain": "Gebruik = uso, altijd = sempre, accounts = contas. Hábito de segurança digital recomendado para qualquer app importante (banco, e-mail, trabalho). 🔐"
+    },
+    {
+      "type": "fill",
+      "before": "Bescherm je",
+      "after": "goed.",
+      "answer": "persoonsgegevens",
+      "alt": [],
+      "hint": "dados pessoais 🪪",
+      "explain": "Persoonsgegevens = persoon (pessoa) + s + gegevens (dados): tudo que identifica você (nome, endereço, número de conta). Bescherm = protege (imperativo)."
+    },
+    {
+      "type": "mc",
+      "q": "Durante o home office, qual frase você usa para pedir a um colega para ver a tela dele? 🖥️",
+      "options": ["Kun je het scherm delen?", "Kun je mijn wachtwoord downloaden?", "Herken je mijn account?", "Val je steeds weg?"],
+      "answer": 0,
+      "explain": "Het scherm delen = compartilhar a tela: expressão essencial de videobellen (videochamadas) no trabalho remoto. As outras misturam vocabulário de segurança digital fora de contexto."
+    }
+  ]
+}

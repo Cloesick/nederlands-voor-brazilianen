@@ -1,0 +1,209 @@
+{
+  "id": "b1-06-welzijn",
+  "unit": "B1",
+  "title": "Bem-estar e saúde mental · Welzijn en mentale gezondheid",
+  "emoji": "🧘",
+  "teaching": [
+    {
+      "emoji": "🧭",
+      "title": "Falar sobre como você está, de verdade",
+      "html": "<p>No A1 você aprendeu <i>Ik ben moe</i> (estou cansado). No B1, a conversa fica mais nuançada: dá para descrever <b>por que</b> você está assim, e não só <b>que</b> você está assim.</p><table class=\"vocab\"><tr><th>Frase</th><th>Uso</th></tr><tr><td><i>Ik voel me gestresseerd.</i></td><td>Descreve um estado emocional específico, não só cansaço físico.</td></tr><tr><td><i>Ik heb het gevoel dat...</i></td><td>Introduz uma percepção ou preocupação: <i>ik heb het gevoel dat ik alles alleen moet doen</i>.</td></tr><tr><td><i>Het valt me zwaar.</i></td><td>Literalmente 'cai pesado em mim': algo está sendo difícil de carregar.</td></tr></table><p><small>Flamengos costumam perguntar <i>Hoe gaat het écht met je?</i> (Como você está de verdade?) quando percebem que algo não vai bem. Responder com honestidade, mesmo que brevemente, é bem visto: não é falta de educação admitir um dia ruim.</small></p>"
+    },
+    {
+      "emoji": "😮‍💨",
+      "title": "Quando o estresse vira demais: overspannen e opgebrand",
+      "html": "<p>Duas palavras que todo adulto na Flandres conhece:</p><ul><li><b>overspannen zijn</b> 😵 = estar 'sobre-tensionado', em crise de estresse. É um termo médico reconhecido: o <i>huisarts</i> pode dar atestado (<i>ziekteverlof</i>) por causa disso.</li><li><b>opgebrand zijn / een burn-out hebben</b> 🔥 = estar em burnout, esgotado a ponto de não conseguir mais trabalhar.</li></ul><p>A expressão <b>tot rust komen</b> (chegar ao descanso, se acalmar) descreve o processo de se recuperar: <i>Na de zomer kwam ze eindelijk tot rust</i> (depois do verão ela finalmente se acalmou).</p><p><small>Diferente do Brasil, falar abertamente sobre estar <i>overspannen</i> no trabalho não é tabu na Bélgica: colegas costumam perguntar e o RH tem procedimentos claros para afastamento. É visto como um problema de saúde, não de fraqueza.</small></p>"
+    },
+    {
+      "emoji": "🩺",
+      "title": "Pedir ajuda: huisarts, psycholoog e CLB",
+      "html": "<p>O sistema belga tem uma porta de entrada clara para cuidar da mente:</p><ul><li><b>de huisarts</b> 🩺 = o médico de família, o primeiro contato. Ele pode <b>doorverwijzen naar</b> (encaminhar para) um especialista.</li><li><b>de psycholoog</b> 🧠 = o psicólogo. Desde a reforma da <i>eerstelijnspsychologische zorg</i>, algumas sessões são parcialmente reembolsadas pela <i>mutualiteit</i> (o convênio de saúde).</li><li><b>het CLB</b> 🏫 (<i>Centrum voor Leerlingenbegeleiding</i>) = o centro de apoio ao aluno, ligado às escolas: ajuda gratuita para crianças e adolescentes com dificuldades emocionais, sociais ou de aprendizagem.</li></ul><p>Frase-chave: <i>Zou het niet goed zijn om er met iemand over te praten?</i> (Não seria bom conversar com alguém sobre isso?) É uma forma gentil de sugerir ajuda profissional sem soar alarmante.</p>"
+    },
+    {
+      "emoji": "🌿",
+      "title": "Cuidar de si: ontspannen, wandelen, in balans blijven",
+      "html": "<p>Autocuidado no dia a dia tem um vocabulário simples e prático:</p><ul><li><b>ontspannen</b> 🌊 = relaxar. <i>Neem de tijd om te ontspannen</i> (tire um tempo para relaxar).</li><li><b>een wandeling maken</b> 🚶 = dar uma caminhada, o remédio nacional belga contra o estresse.</li><li><b>aan mindfulness doen</b> 🧘‍♀️ = praticar mindfulness, cada vez mais comum inclusive em empresas flamengas.</li><li><b>de werk-privébalans</b> ⚖️ = o equilíbrio entre trabalho e vida pessoal, tema recorrente em conversas de RH.</li></ul><p><small>Não é preciso esperar uma crise para usar esse vocabulário: check-ins emocionais leves, tipo <i>Hoe voel je je deze week?</i> (Como você está se sentindo essa semana?), fazem parte da cultura de cuidado cotidiano na Flandres, entre amigos, colegas e em casa.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"heb","r":"verb"},{"t":"het","r":"art"},{"t":"gevoel","r":"noun"},{"t":"dat","r":"conj"},{"t":"ik","r":"pron"},{"t":"alles","r":"pron"},{"t":"alleen","r":"adv"},{"t":"moet","r":"verb"},{"t":"doen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"tenho","r":"verb"},{"t":"a","r":"art"},{"t":"sensação","r":"noun"},{"t":"de","r":"prep"},{"t":"que","r":"conj"},{"t":"preciso","r":"verb"},{"t":"fazer","r":"verb"},{"t":"tudo","r":"pron"},{"t":"sozinho","r":"adv"},{"t":".","r":"punc"}],
+      "note": "het gevoel hebben dat... é a fórmula padrão para introduzir uma percepção ou preocupação, mais suave do que afirmar algo como fato."
+    },
+    {
+      "nl": [{"t":"Misschien","r":"adv"},{"t":"moet","r":"verb"},{"t":"je","r":"pron"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"huisarts","r":"noun"},{"t":"gaan","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Talvez","r":"adv"},{"t":"você","r":"pron"},{"t":"devesse","r":"verb"},{"t":"ir","r":"verb"},{"t":"ao","r":"prep"},{"t":"médico","r":"noun"},{"t":"de","r":"prep"},{"t":"família","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "talvez deves tu para o médico-de-casa ir",
+      "note": "Pinça modal: moet ocupa a segunda posição e o infinitivo gaan fecha a frase, como sempre com verbos modais."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"huisarts","r":"noun"},{"t":"kan","r":"verb"},{"t":"je","r":"pron"},{"t":"doorverwijzen","r":"verb"},{"t":"naar","r":"prep"},{"t":"een","r":"art"},{"t":"psycholoog","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"médico","r":"noun"},{"t":"de","r":"prep"},{"t":"família","r":"noun"},{"t":"pode","r":"verb"},{"t":"te","r":"pron"},{"t":"encaminhar","r":"verb"},{"t":"para","r":"prep"},{"t":"um","r":"art"},{"t":"psicólogo","r":"noun"},{"t":".","r":"punc"}],
+      "note": "doorverwijzen = door (através) + verwijzen (indicar, remeter): o huisarts é sempre a porta de entrada do sistema de saúde belga."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"je","r":"pron"},{"t":"je","r":"pron"},{"t":"overspannen","r":"adj"},{"t":"voelt","r":"verb"},{"t":",","r":"punc"},{"t":"praat","r":"verb"},{"t":"er","r":"adv"},{"t":"dan","r":"adv"},{"t":"over","r":"prep"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"você","r":"pron"},{"t":"se","r":"pron"},{"t":"sentir","r":"verb"},{"t":"esgotado","r":"adj"},{"t":",","r":"punc"},{"t":"fale","r":"verb"},{"t":"sobre","r":"prep"},{"t":"isso","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "se tu te esgotado sentes, fala aí sobre isso",
+      "note": "Oração com als manda o verbo voelt para o fim; depois da vírgula o verbo praat vem primeiro (a oração inteira conta como posição um)."
+    },
+    {
+      "nl": [{"t":"Mijn","r":"pron"},{"t":"zoon","r":"noun"},{"t":"heeft","r":"verb"},{"t":"moeite","r":"noun"},{"t":"op","r":"prep"},{"t":"school","r":"noun"},{"t":";","r":"punc"},{"t":"het","r":"art"},{"t":"CLB","r":"noun"},{"t":"helpt","r":"verb"},{"t":"ons","r":"pron"},{"t":"verder","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Meu","r":"pron"},{"t":"filho","r":"noun"},{"t":"tem","r":"verb"},{"t":"dificuldades","r":"noun"},{"t":"na","r":"prep"},{"t":"escola","r":"noun"},{"t":";","r":"punc"},{"t":"o","r":"art"},{"t":"CLB","r":"noun"},{"t":"nos","r":"pron"},{"t":"ajuda","r":"verb"},{"t":".","r":"punc"}],
+      "note": "het CLB é sempre het, mesmo sendo uma sigla: Centrum voor Leerlingenbegeleiding, o apoio escolar gratuito ligado a toda escola flamenga."
+    },
+    {
+      "nl": [{"t":"Hoe","r":"qw"},{"t":"gaat","r":"verb"},{"t":"het","r":"pron"},{"t":"met","r":"prep"},{"t":"jou","r":"pron"},{"t":"de","r":"art"},{"t":"laatste","r":"adj"},{"t":"tijd","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Como","r":"qw"},{"t":"você","r":"pron"},{"t":"tem","r":"verb"},{"t":"passado","r":"verb"},{"t":"ultimamente","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "como vai isso com tu, a última tempo",
+      "note": "de laatste tijd = ultimamente. Perguntar isso com atenção genuína é o gatilho social para abrir uma conversa sobre bem-estar."
+    },
+    {
+      "nl": [{"t":"Eerlijk","r":"adv"},{"t":"gezegd","r":"verb"},{"t":"gaat","r":"verb"},{"t":"het","r":"pron"},{"t":"niet","r":"neg"},{"t":"zo","r":"adv"},{"t":"goed","r":"adj"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Para","r":"prep"},{"t":"ser","r":"verb"},{"t":"sincero","r":"adj"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"estou","r":"verb"},{"t":"muito","r":"adv"},{"t":"bem","r":"adj"},{"t":".","r":"punc"}],
+      "note": "Eerlijk gezegd = 'dito honestamente', a forma flamenga de admitir que algo não vai bem antes de explicar por quê."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"kom","r":"verb"},{"t":"de","r":"art"},{"t":"laatste","r":"adj"},{"t":"tijd","r":"noun"},{"t":"niet","r":"neg"},{"t":"meer","r":"adv"},{"t":"tot","r":"prep"},{"t":"rust","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ultimamente","r":"adv"},{"t":"eu","r":"pron"},{"t":"não","r":"neg"},{"t":"consigo","r":"verb"},{"t":"mais","r":"adv"},{"t":"relaxar","r":"verb"},{"t":".","r":"punc"}],
+      "lit": "eu venho a última tempo não mais até descanso",
+      "note": "tot rust komen = chegar ao descanso, se acalmar. niet meer (não mais) fica perto do fim, empurrando o resto da frase."
+    },
+    {
+      "nl": [{"t":"Wil","r":"verb"},{"t":"je","r":"pron"},{"t":"erover","r":"adv"},{"t":"praten","r":"verb"},{"t":"?","r":"punc"},{"t":"Ik","r":"pron"},{"t":"luister","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"quer","r":"verb"},{"t":"falar","r":"verb"},{"t":"sobre","r":"prep"},{"t":"isso","r":"pron"},{"t":"?","r":"punc"},{"t":"Eu","r":"pron"},{"t":"escuto","r":"verb"},{"t":".","r":"punc"}],
+      "note": "erover = er (aí/disso) + over (sobre): junta as duas palavrinhas numa só quando o assunto já foi mencionado antes."
+    },
+    {
+      "nl": [{"t":"Een","r":"art"},{"t":"wandeling","r":"noun"},{"t":"in","r":"prep"},{"t":"de","r":"art"},{"t":"natuur","r":"noun"},{"t":"helpt","r":"verb"},{"t":"me","r":"pron"},{"t":"ontspannen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Dar","r":"verb"},{"t":"uma","r":"art"},{"t":"caminhada","r":"noun"},{"t":"na","r":"prep"},{"t":"natureza","r":"noun"},{"t":"me","r":"pron"},{"t":"ajuda","r":"verb"},{"t":"a","r":"prep"},{"t":"relaxar","r":"verb"},{"t":".","r":"punc"}],
+      "note": "wandeling vem de wandelen (caminhar): o remédio nacional belga contra o estresse é simples e gratuito."
+    },
+    {
+      "nl": [{"t":"Maak","r":"verb"},{"t":"je","r":"pron"},{"t":"geen","r":"neg"},{"t":"zorgen","r":"noun"},{"t":",","r":"punc"},{"t":"opgebrand","r":"adj"},{"t":"raken","r":"verb"},{"t":"kan","r":"verb"},{"t":"iedereen","r":"pron"},{"t":"overkomen","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"se","r":"pron"},{"t":"preocupe","r":"verb"},{"t":",","r":"punc"},{"t":"entrar","r":"verb"},{"t":"em","r":"prep"},{"t":"burnout","r":"noun"},{"t":"pode","r":"verb"},{"t":"acontecer","r":"verb"},{"t":"com","r":"prep"},{"t":"qualquer","r":"pron"},{"t":"um","r":"pron"},{"t":".","r":"punc"}],
+      "note": "geen zorgen maken = não se preocupar; zorgen (substantivo, preocupações) é negado com geen, não com niet."
+    }
+  ],
+  "vocab": [
+    { "nl": "het gevoel", "art": "het", "split": "ge- (prefixo coletivo) + voel (sentir, de voelen)", "pt": "sentimento, sensação", "emoji": "💭" },
+    { "nl": "gestresseerd zijn", "art": null, "split": "ge- (particípio) + stress (do inglês) + -eerd", "pt": "estar estressado(a)", "emoji": "😣" },
+    { "nl": "overspannen zijn", "art": null, "split": "over (demais) + spannen (tensionar, esticar)", "pt": "estar esgotado(a), em crise de estresse", "emoji": "😵" },
+    { "nl": "opgebrand zijn", "art": null, "split": "op (partícula: até o fim) + gebrand (queimado, de branden)", "pt": "estar em burnout, totalmente esgotado(a)", "emoji": "🔥" },
+    { "nl": "tot rust komen", "art": null, "split": "tot (até) + rust (descanso, sossego) + komen (vir, chegar)", "pt": "se acalmar, encontrar sossego", "emoji": "🌊" },
+    { "nl": "de huisarts", "art": "de", "split": "huis (casa) + arts (médico)", "pt": "médico de família", "emoji": "🩺" },
+    { "nl": "doorverwijzen naar", "art": null, "split": "door (através) + verwijzen (remeter, indicar)", "pt": "encaminhar para (um especialista)", "emoji": "➡️" },
+    { "nl": "de psycholoog", "art": "de", "split": null, "pt": "psicólogo(a)", "emoji": "🧠" },
+    { "nl": "het CLB", "art": "het", "split": "Centrum (centro) + Leerlingen (alunos) + Begeleiding (acompanhamento)", "pt": "centro de apoio ao aluno nas escolas flamengas", "emoji": "🏫" },
+    { "nl": "piekeren", "art": null, "split": null, "pt": "ruminar pensamentos, dar voltas na cabeça", "emoji": "🌀" },
+    { "nl": "slecht slapen", "art": null, "split": null, "pt": "dormir mal", "emoji": "😴" },
+    { "nl": "ontspannen", "art": null, "split": null, "pt": "relaxar, relaxado(a)", "emoji": "🌿" },
+    { "nl": "een wandeling maken", "art": null, "split": "wandeling (caminhada, de wandelen) + maken (fazer)", "pt": "dar uma caminhada", "emoji": "🚶" },
+    { "nl": "de werk-privébalans", "art": "de", "split": "werk (trabalho) + privé (vida privada) + balans (equilíbrio)", "pt": "equilíbrio entre trabalho e vida pessoal", "emoji": "⚖️" },
+    { "nl": "zich zorgen maken (over)", "art": null, "split": "zorgen (preocupações, de zorgen) + maken (fazer)", "pt": "preocupar-se (com)", "emoji": "😟" },
+    { "nl": "de vermoeidheid", "art": "de", "split": "vermoeid (cansado) + -heid (sufixo: substantivo abstrato)", "pt": "cansaço, fadiga", "emoji": "🥱" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "O que significa 'zich gestresseerd voelen'? 😣",
+      "options": ["Sentir-se com fome", "Sentir-se relaxado", "Sentir-se estressado", "Sentir-se cansado fisicamente"],
+      "answer": 2,
+      "explain": "gestresseerd é o particípio adaptado da palavra inglesa 'stress' (ge- + stress + -eerd), muito comum no neerlandês falado para descrever um estado emocional específico."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik voel me de laatste tijd erg gestresseerd.",
+      "options": ["Estou muito feliz ultimamente", "Eu me sinto muito estressado(a) ultimamente", "Estou dormindo muito bem"],
+      "answer": 1,
+      "explain": "voel me = me sinto; gestresseerd = estressado(a); de laatste tijd = ultimamente. Frase-modelo para descrever seu estado emocional com mais nuance que só 'ben moe'."
+    },
+    {
+      "type": "fill",
+      "before": "Misschien moet je naar de",
+      "after": "gaan.",
+      "answer": "huisarts",
+      "alt": [],
+      "hint": "o médico de família, primeiro contato do sistema de saúde belga",
+      "explain": "huisarts = huis (casa) + arts (médico): é sempre o primeiro passo antes de qualquer encaminhamento especializado na Bélgica."
+    },
+    {
+      "type": "order",
+      "pt": "O médico de família pode te encaminhar para um psicólogo.",
+      "tokens": ["De", "huisarts", "kan", "je", "doorverwijzen", "naar", "een", "psycholoog"],
+      "answer": "De huisarts kan je doorverwijzen naar een psycholoog",
+      "explain": "Pinça modal: kan ocupa a segunda posição e o infinitivo doorverwijzen fecha a frase, como em todo verbo modal neerlandês."
+    },
+    {
+      "type": "match",
+      "pairs": [["het gevoel", "o sentimento"], ["de huisarts", "o médico de família"], ["de psycholoog", "o psicólogo"], ["opgebrand zijn", "estar em burnout"], ["tot rust komen", "se acalmar"]],
+      "explain": "O vocabulário essencial para pedir ajuda: um sentimento (gevoel), a porta de entrada (huisarts), o especialista (psycholoog) e os dois extremos do estresse (opgebrand zijn e tot rust komen)."
+    },
+    {
+      "type": "mc",
+      "q": "O que é o CLB na Flandres? 🏫",
+      "options": ["Um hospital psiquiátrico", "Uma linha de ajuda anônima por telefone", "O centro de apoio ao aluno ligado às escolas", "Um plano de saúde privado"],
+      "answer": 2,
+      "explain": "CLB = Centrum voor Leerlingenbegeleiding: apoio gratuito para crianças e adolescentes com dificuldades emocionais, sociais ou de aprendizagem, ligado a toda escola flamenga."
+    },
+    {
+      "type": "listen",
+      "nl": "Als je je overspannen voelt, praat er dan over.",
+      "options": ["Se você se sentir esgotado(a), fale sobre isso", "Se você estiver com febre, vá ao médico", "Se você dormir mal, tome um remédio"],
+      "answer": 0,
+      "explain": "overspannen zijn/voelen = estar/sentir-se esgotado(a), em crise de estresse. Oração com als manda o verbo (voelt) para o fim."
+    },
+    {
+      "type": "fill",
+      "before": "Een wandeling in de natuur helpt me",
+      "after": ".",
+      "answer": "ontspannen",
+      "alt": [],
+      "hint": "relaxar",
+      "explain": "ontspannen = relaxar. Uma caminhada na natureza é o autocuidado mais recomendado no dia a dia belga: simples, gratuito e eficaz."
+    },
+    {
+      "type": "order",
+      "pt": "Ultimamente eu não consigo mais relaxar.",
+      "tokens": ["Ik", "kom", "de", "laatste", "tijd", "niet", "meer", "tot", "rust"],
+      "answer": "Ik kom de laatste tijd niet meer tot rust",
+      "explain": "tot rust komen = chegar ao descanso, se acalmar. niet meer (não mais) fica perto do fim da frase, empurrando 'tot rust' para o final."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a diferença entre 'niet' e 'geen' na negação? 🚫",
+      "options": ["niet nega substantivos e geen nega o resto da frase", "são sinônimos perfeitos, tanto faz qual usar", "geen nega substantivos indefinidos e niet nega o resto", "niet só é usado em perguntas"],
+      "answer": 2,
+      "explain": "geen grudou em substantivo indefinido: geen zorgen = nenhuma preocupação. niet nega verbos, adjetivos e advérbios, e costuma correr para o fim da frase."
+    },
+    {
+      "type": "listen",
+      "nl": "Maak je geen zorgen, opgebrand raken kan iedereen overkomen.",
+      "options": ["Fique preocupado(a), isso é muito raro", "Não se preocupe, entrar em burnout pode acontecer com qualquer um", "Não se preocupe, você nunca vai ficar doente"],
+      "answer": 1,
+      "explain": "geen zorgen maken = não se preocupar; opgebrand raken = entrar em burnout; iedereen overkomen = acontecer com qualquer um. Uma frase de acolhimento, não de alarme."
+    },
+    {
+      "type": "match",
+      "pairs": [["piekeren", "ruminar pensamentos"], ["de werk-privébalans", "equilíbrio trabalho-vida"], ["slecht slapen", "dormir mal"], ["zich zorgen maken", "preocupar-se"]],
+      "explain": "Vocabulário do dia a dia para nomear o que está pesando: pensamentos em looping (piekeren), noites ruins (slecht slapen), preocupação (zorgen maken) e o equilíbrio que se busca (werk-privébalans)."
+    },
+    {
+      "type": "fill",
+      "before": "Wil je erover praten? Ik",
+      "after": ".",
+      "answer": "luister",
+      "alt": [],
+      "hint": "verbo: prestar atenção ao que alguém diz",
+      "explain": "luister (de luisteren, escutar) é a resposta acolhedora quando alguém pergunta se você quer conversar sobre algo difícil."
+    },
+    {
+      "type": "mc",
+      "q": "Um amigo parece estressado ultimamente. Qual frase é uma forma empática de puxar assunto? 💬",
+      "options": ["Hoe gaat het écht met je de laatste tijd?", "Doe niet zo moeilijk!", "Dat is jouw probleem.", "Ik heb nu even geen tijd."],
+      "answer": 0,
+      "explain": "Hoe gaat het écht met je? (Como você está de verdade?) é o gatilho social flamengo para abrir espaço para uma conversa honesta sobre bem-estar, sem parecer intrusivo."
+    }
+  ]
+}
