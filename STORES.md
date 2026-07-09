@@ -11,6 +11,28 @@ o PWA existente para cada loja. Tudo abaixo usa a URL de produção:
 
 ---
 
+## ✅ Android: o `.aab` já está pronto e assinado (2026-07-09)
+
+Não precisa mais rodar PWABuilder/Bubblewrap para Android — já foi gerado e testado localmente:
+
+| O quê | Onde |
+|---|---|
+| **Arquivo pra subir na Play Console** | `android-package/app/build/outputs/bundle/release/app-release.aab` (1,4 MB) |
+| **Keystore de assinatura** (⚠️ backup manual obrigatório, sem isso nunca mais dá pra atualizar o app) | `android-package/android.keystore` |
+| **Senha da keystore/chave** | `NederlandsApp2026` |
+| **Package ID** | `com.saspire.nederlands` |
+| **Digital Asset Links** | já publicado em produção: `https://nederlands-voor-brazilianen.vercel.app/.well-known/assetlinks.json` |
+
+**A pasta `android-package/` está no `.gitignore` de propósito** — o keystore nunca deve ir pro GitHub público.
+Faça backup manual do arquivo `android.keystore` + a senha acima (ex.: num gerenciador de senhas) antes de
+qualquer coisa. Se perder os dois, você não consegue mais publicar atualizações do app, só um app novo do zero.
+
+**Próximo passo real:** criar a conta em [play.google.com/console](https://play.google.com/console) (US$ 25),
+criar o app novo, e fazer upload direto do `app-release.aab` acima na aba de release. Nada de empacotamento
+técnico sobrando.
+
+---
+
 ## 🤖 Android · Google Play (mais fácil, mais barato)
 
 Taxa única: **US$ 25** (conta de desenvolvedor Google Play, vitalícia).

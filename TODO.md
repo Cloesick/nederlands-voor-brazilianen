@@ -8,7 +8,7 @@ Coisas pendentes, organizadas por quem precisa agir. Atualizado em 2026-07-09.
 
 ## 🔴 Bloqueado em você (contas pessoais/pagamento — não posso criar por você)
 
-- [ ] **Google Play Console** — criar conta (US$ 25 único) → verificação de identidade (2-3 dias) → empacotar PWA via [PWABuilder](https://www.pwabuilder.com/) → enviar `.aab`. Guia: [STORES.md](STORES.md)
+- [ ] **Google Play Console** — criar conta (US$ 25 único) → verificação de identidade (2-3 dias) → fazer upload do `.aab` **já pronto e assinado** (gerado em 2026-07-09, veja [STORES.md](STORES.md) pra localização exata + a senha da keystore). Empacotamento técnico já feito, não precisa mais do PWABuilder pra Android.
 - [ ] **Apple Developer Program** — criar conta (US$ 99/ano) → precisa de Mac/CI pra compilar → empacotar via PWABuilder/Capacitor → enviar review (~24-48h). Guia: [STORES.md](STORES.md)
 - [ ] **Microsoft Partner Center** — criar conta (grátis) → empacotar `.msix` via PWABuilder → enviar. O mais rápido dos três.
 - [ ] **Conta Stripe** — criar produto "Premium" (sugestão € 4,99 único) → copiar Price ID + Secret key → configurar webhook. Guia: [MONETIZATION.md](MONETIZATION.md)
