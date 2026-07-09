@@ -1,0 +1,222 @@
+{
+  "id": "c1-05-presentaties",
+  "unit": "C1",
+  "title": "Apresentações e discursos formais · Presentaties en formele toespraken",
+  "emoji": "🎤",
+  "teaching": [
+    {
+      "emoji": "🎩",
+      "title": "🎩 O registro do púlpito",
+      "html": "<p>Uma apresentação formal em neerlandês não é uma conversa: é um <b>texto construído</b> que o público precisa conseguir seguir só de ouvido, sem reler. Por isso a estrutura conta mais do que em qualquer outro registro do C1. 🎯</p><ul><li>O tom é sempre <i>u</i>, mesmo diante de colegas que você tutearia noutro contexto.</li><li>Cada seção começa com um <b>sinalizador</b> (Ten eerste, Vervolgens, Tot slot) que avisa ao público onde vocês estão na estrutura.</li><li>Perguntas retóricas substituem afirmações diretas para prender a atenção: em vez de \"Dit is een probleem\", pergunte <i>Waarom is dit eigenlijk een probleem?</i></li></ul><p><small>Pense nisso como um mapa em voz alta: o público nunca deve se perguntar \"onde estamos agora?\". 🗺️</small></p>"
+    },
+    {
+      "emoji": "🚪",
+      "title": "🚪 Abrir com gancho e agenda",
+      "html": "<p>A abertura formal tem duas partes fixas: o <b>gancho</b> (hook) que capta atenção, seguido da <b>agenda</b> que anuncia a estrutura.</p><table class=\"vocab\"><tr><th>função</th><th>fórmula</th><th>português</th></tr><tr><td>gancho</td><td><b>Graag wil ik het vandaag hebben over...</b></td><td>Hoje eu gostaria de falar sobre...</td></tr><tr><td>pergunta retórica</td><td><b>Wat zou er gebeuren als...?</b></td><td>O que aconteceria se...?</td></tr><tr><td>agenda</td><td><b>Ik zal eerst ingaan op..., daarna...</b></td><td>Primeiro vou abordar..., depois...</td></tr></table><p>Repare em <i>ingaan op</i> (abordar, entrar em): separável, <b>ga...in</b> na oração principal. Anunciar a agenda logo no início é o que diferencia uma apresentação C1 de uma fala improvisada. 🧭</p>"
+    },
+    {
+      "emoji": "🧱",
+      "title": "🧱 Sinalizar a estrutura: os tijolos do discurso",
+      "html": "<p>Sinalizadores (signposting) são os <b>tijolos</b> que mantêm a apresentação de pé. Eles ficam sempre na posição 1, empurrando o verbo para a posição 2 (V2):</p><ul><li>🥇 <b>Ten eerste</b> (em primeiro lugar) → <i>Ten eerste <u>wil</u> ik het hebben over de cijfers.</i></li><li>➡️ <b>Vervolgens / Daarnaast</b> (em seguida / além disso) → <i>Vervolgens <u>bekijken</u> we de resultaten.</i></li><li>🌉 <b>Dit brengt ons bij...</b> (isso nos traz a...) → uma ponte elegante entre seções, sem soar abrupto.</li><li>🔚 <b>Daarmee kom ik tot...</b> (com isso chego a...) → sinaliza que a seção está fechando e a próxima começa.</li><li>🏁 <b>Tot slot</b> (por fim) → introduz a conclusão.</li></ul><p><small>Decore os sinalizadores JUNTO com a inversão V2: é esse padrão que faz a apresentação soar organizada, não decorada. 📐</small></p>"
+    },
+    {
+      "emoji": "🎙️",
+      "title": "🎙️ Perguntas e fechamento",
+      "html": "<p>Numa sessão de perguntas (Q&A), o registro formal exige <b>ganhar tempo com elegância</b> antes de responder, e nunca dizer \"eu não sei\" sem oferecer algo em troca:</p><ul><li>👍 <b>Dat is een goede vraag.</b> = Essa é uma boa pergunta. (reconhece antes de responder)</li><li>⏳ <b>Daar kom ik zo op terug.</b> = Vou voltar a isso já já. (adia sem descartar)</li><li>🤝 <b>Als ik u goed begrijp, bedoelt u...?</b> = Se eu entendi bem, o senhor quer dizer...? (confirma antes de responder)</li></ul><p>O fechamento formal combina <b>agradecimento</b> + <b>convite às perguntas</b>: <i>Ik dank u voor uw aandacht. Zijn er nog vragen?</i> (Agradeço a atenção de vocês. Há mais perguntas?) Esse par fecha o círculo aberto na saudação inicial. 🎬</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Graag","r":"adv"},{"t":"wil","r":"verb"},{"t":"ik","r":"pron"},{"t":"het","r":"pron"},{"t":"vandaag","r":"adv"},{"t":"hebben","r":"verb"},{"t":"over","r":"prep"},{"t":"de","r":"art"},{"t":"toekomst","r":"noun"},{"t":"van","r":"prep"},{"t":"ons","r":"pron"},{"t":"team","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Hoje","r":"adv"},{"t":"eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"falar","r":"verb"},{"t":"sobre","r":"prep"},{"t":"o","r":"art"},{"t":"futuro","r":"noun"},{"t":"da","r":"prep"},{"t":"nossa","r":"pron"},{"t":"equipe","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "com-gosto quero eu isso hoje ter sobre a futuro de nosso time",
+      "note": "Gancho de abertura padrão de apresentação formal. Graag na posição 1 empurra wil para a posição 2 (V2). het hebben over = falar sobre, expressão fixa que não se traduz literalmente."
+    },
+    {
+      "nl": [{"t":"Wat","r":"qw"},{"t":"zou","r":"verb"},{"t":"er","r":"pron"},{"t":"gebeuren","r":"verb"},{"t":"als","r":"conj"},{"t":"we","r":"pron"},{"t":"niets","r":"pron"},{"t":"veranderen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"que","r":"qw"},{"t":"aconteceria","r":"verb"},{"t":"se","r":"conj"},{"t":"não","r":"neg"},{"t":"mudássemos","r":"verb"},{"t":"nada","r":"pron"},{"t":".","r":"punc"}],
+      "lit": "o-que iria ali acontecer se nós nada mudar",
+      "note": "Pergunta retórica clássica de abertura para prender a atenção do público antes de expor o problema. Note que niets já carrega a negação em neerlandês, por isso não precisa de niet extra."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zal","r":"verb"},{"t":"eerst","r":"adv"},{"t":"ingaan","r":"verb"},{"t":"op","r":"prep"},{"t":"de","r":"art"},{"t":"cijfers","r":"noun"},{"t":",","r":"punc"},{"t":"daarna","r":"adv"},{"t":"op","r":"prep"},{"t":"de","r":"art"},{"t":"gevolgen","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Primeiro","r":"adv"},{"t":"vou","r":"verb"},{"t":"abordar","r":"verb"},{"t":"os","r":"art"},{"t":"números","r":"noun"},{"t":",","r":"punc"},{"t":"depois","r":"adv"},{"t":"as","r":"art"},{"t":"consequências","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu vou primeiro entrar-em sobre os números, depois sobre as consequências",
+      "note": "ingaan op (abordar, aprofundar em) é separável: zal ingaan mantém-se junto no futuro perifrástico com zal, mas em presente simples seria ga...in. Fórmula fixa de agenda no início do discurso."
+    },
+    {
+      "nl": [{"t":"Ten","r":"adv"},{"t":"eerste","r":"adv"},{"t":"wil","r":"verb"},{"t":"ik","r":"pron"},{"t":"het","r":"pron"},{"t":"hebben","r":"verb"},{"t":"over","r":"prep"},{"t":"de","r":"art"},{"t":"huidige","r":"adj"},{"t":"situatie","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Em","r":"prep"},{"t":"primeiro","r":"adj"},{"t":"lugar","r":"noun"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"falar","r":"verb"},{"t":"sobre","r":"prep"},{"t":"a","r":"art"},{"t":"situação","r":"noun"},{"t":"atual","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "em-primeiro quero eu isso ter sobre a atual situação",
+      "note": "Ten eerste é o sinalizador de estrutura mais formal (equivalente a 'em primeiro lugar'). Ocupa a posição 1 e empurra wil para a posição 2: é a mesma regra V2 de enerzijds no B2, mas aqui aplicada à arquitetura de um discurso inteiro."
+    },
+    {
+      "nl": [{"t":"Vervolgens","r":"adv"},{"t":"bekijken","r":"verb"},{"t":"we","r":"pron"},{"t":"de","r":"art"},{"t":"resultaten","r":"noun"},{"t":"van","r":"prep"},{"t":"het","r":"art"},{"t":"afgelopen","r":"adj"},{"t":"kwartaal","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Em","r":"prep"},{"t":"seguida","r":"noun"},{"t":",","r":"punc"},{"t":"analisamos","r":"verb"},{"t":"os","r":"art"},{"t":"resultados","r":"noun"},{"t":"do","r":"prep"},{"t":"trimestre","r":"noun"},{"t":"passado","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "em-seguida contemplamos nós os resultados de o passado trimestre",
+      "note": "Vervolgens marca a transição para a segunda seção. É mais formal que daarna e típico de apresentações estruturadas em passos numerados."
+    },
+    {
+      "nl": [{"t":"Dit","r":"pron"},{"t":"brengt","r":"verb"},{"t":"ons","r":"pron"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"volgende","r":"adj"},{"t":"vraag","r":"noun"},{"t":":","r":"punc"},{"t":"hoe","r":"qw"},{"t":"gaan","r":"verb"},{"t":"we","r":"pron"},{"t":"verder","r":"adv"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Isso","r":"pron"},{"t":"nos","r":"pron"},{"t":"traz","r":"verb"},{"t":"à","r":"prep"},{"t":"próxima","r":"adj"},{"t":"pergunta","r":"noun"},{"t":":","r":"punc"},{"t":"como","r":"qw"},{"t":"seguimos","r":"verb"},{"t":"em","r":"prep"},{"t":"frente","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "isso traz nos junto-a a seguinte pergunta: como vamos nós mais-longe",
+      "note": "Dit brengt ons bij... é a ponte elegante entre seções, evitando um corte abrupto. Repare que bij aqui não é 'perto de' literal, mas parte da expressão fixa de transição."
+    },
+    {
+      "nl": [{"t":"Daarmee","r":"adv"},{"t":"kom","r":"verb"},{"t":"ik","r":"pron"},{"t":"tot","r":"prep"},{"t":"mijn","r":"pron"},{"t":"tweede","r":"num"},{"t":"punt","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Com","r":"prep"},{"t":"isso","r":"pron"},{"t":"chego","r":"verb"},{"t":"ao","r":"prep"},{"t":"meu","r":"pron"},{"t":"segundo","r":"num"},{"t":"ponto","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "com-isso chego eu até meu segundo ponto",
+      "note": "Daarmee kom ik tot... fecha uma seção e abre a próxima na mesma frase: é a versão mais compacta de sinalização de transição, útil quando o tempo é curto."
+    },
+    {
+      "nl": [{"t":"Tot","r":"prep"},{"t":"slot","r":"noun"},{"t":"wil","r":"verb"},{"t":"ik","r":"pron"},{"t":"benadrukken","r":"verb"},{"t":"dat","r":"conj"},{"t":"snelheid","r":"noun"},{"t":"cruciaal","r":"adj"},{"t":"is","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Por","r":"prep"},{"t":"fim","r":"noun"},{"t":",","r":"punc"},{"t":"eu","r":"pron"},{"t":"gostaria","r":"verb"},{"t":"de","r":"prep"},{"t":"enfatizar","r":"verb"},{"t":"que","r":"conj"},{"t":"a","r":"art"},{"t":"velocidade","r":"noun"},{"t":"é","r":"verb"},{"t":"crucial","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "até-fim quero eu enfatizar que velocidade crucial é",
+      "note": "Tot slot introduz a conclusão. Depois de dat, o verbo is vai para o fim da oração subordinada: cruciaal is, ordem obrigatória em neerlandês formal."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"een","r":"art"},{"t":"goede","r":"adj"},{"t":"vraag","r":"noun"},{"t":".","r":"punc"},{"t":"Daar","r":"adv"},{"t":"kom","r":"verb"},{"t":"ik","r":"pron"},{"t":"zo","r":"adv"},{"t":"op","r":"part"},{"t":"terug","r":"part"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Essa","r":"pron"},{"t":"é","r":"verb"},{"t":"uma","r":"art"},{"t":"boa","r":"adj"},{"t":"pergunta","r":"noun"},{"t":".","r":"punc"},{"t":"Vou","r":"verb"},{"t":"voltar","r":"verb"},{"t":"a","r":"prep"},{"t":"isso","r":"pron"},{"t":"já","r":"adv"},{"t":"já","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "isso é uma boa pergunta. aí volto eu já em-volta",
+      "note": "Fórmula dupla de Q&A: reconhecer a pergunta antes de adiar a resposta com elegância. terugkomen op (voltar a) é separável: kom...op...terug, com dois prefixos que sempre ficam juntos no fim."
+    },
+    {
+      "nl": [{"t":"Als","r":"conj"},{"t":"ik","r":"pron"},{"t":"u","r":"pron"},{"t":"goed","r":"adv"},{"t":"begrijp","r":"verb"},{"t":",","r":"punc"},{"t":"bedoelt","r":"verb"},{"t":"u","r":"pron"},{"t":"dat","r":"conj"},{"t":"we","r":"pron"},{"t":"trager","r":"adv"},{"t":"moeten","r":"verb"},{"t":"beginnen","r":"verb"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Se","r":"conj"},{"t":"eu","r":"pron"},{"t":"entendi","r":"verb"},{"t":"bem","r":"adv"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"quer","r":"verb"},{"t":"dizer","r":"verb"},{"t":"que","r":"conj"},{"t":"devemos","r":"verb"},{"t":"começar","r":"verb"},{"t":"mais","r":"adv"},{"t":"devagar","r":"adv"},{"t":"?","r":"punc"}],
+      "lit": "se eu o-senhor bem entendo, quer-dizer o-senhor que nós mais-devagar devemos começar",
+      "note": "Confirmar antes de responder é tática de Q&A formal: ganha tempo e evita mal-entendidos em público. Note a ordem final: trager moeten beginnen, verbo modal + infinitivo juntos no fim da oração subordinada."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"dank","r":"verb"},{"t":"u","r":"pron"},{"t":"voor","r":"prep"},{"t":"uw","r":"pron"},{"t":"aandacht","r":"noun"},{"t":".","r":"punc"},{"t":"Zijn","r":"verb"},{"t":"er","r":"pron"},{"t":"nog","r":"adv"},{"t":"vragen","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Agradeço","r":"verb"},{"t":"a","r":"art"},{"t":"atenção","r":"noun"},{"t":"de","r":"prep"},{"t":"vocês","r":"pron"},{"t":".","r":"punc"},{"t":"Há","r":"verb"},{"t":"mais","r":"adv"},{"t":"perguntas","r":"noun"},{"t":"?","r":"punc"}],
+      "lit": "eu agradeço o-senhor por sua atenção. são ali ainda perguntas",
+      "note": "Fechamento cordial padrão de qualquer apresentação formal. Zijn er nog vragen? inverte o verbo (Zijn) para a posição 1, típico de perguntas sim/não em neerlandês."
+    },
+    {
+      "nl": [{"t":"Daarnaast","r":"adv"},{"t":"is","r":"verb"},{"t":"het","r":"pron"},{"t":"belangrijk","r":"adj"},{"t":"om","r":"conj"},{"t":"de","r":"art"},{"t":"risico's","r":"noun"},{"t":"niet","r":"neg"},{"t":"te","r":"part"},{"t":"onderschatten","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Além","r":"adv"},{"t":"disso","r":"pron"},{"t":",","r":"punc"},{"t":"é","r":"verb"},{"t":"importante","r":"adj"},{"t":"não","r":"neg"},{"t":"subestimar","r":"verb"},{"t":"os","r":"art"},{"t":"riscos","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "além-disso é isso importante para os riscos não te subestimar",
+      "note": "Daarnaast (além disso) soma um argumento sem interromper a progressão numerada de Ten eerste / Vervolgens. om...te + infinitivo introduz a oração final, com niet colado ao infinitivo."
+    }
+  ],
+  "vocab": [
+    { "nl": "de toespraak", "art": "de", "split": "toe (em direção a) + spraak (fala)", "pt": "o discurso, a fala formal", "emoji": "🎤" },
+    { "nl": "ingaan op", "art": null, "split": "in (para dentro) + gaan (ir) + op (sobre)", "pt": "abordar, aprofundar-se em", "emoji": "🔍" },
+    { "nl": "de agenda", "art": "de", "split": null, "pt": "a agenda, o roteiro da apresentação", "emoji": "🗂️" },
+    { "nl": "de retorische vraag", "art": "de", "split": "retorisch (retórico) + vraag (pergunta)", "pt": "a pergunta retórica", "emoji": "❓" },
+    { "nl": "vervolgens", "art": null, "split": "ver (afastamento) + volgen (seguir) + s", "pt": "em seguida, a seguir", "emoji": "➡️" },
+    { "nl": "tot slot", "art": null, "split": "tot (até) + slot (fecho, fim)", "pt": "por fim, para concluir", "emoji": "🏁" },
+    { "nl": "benadrukken", "art": null, "split": "be + nadruk (ênfase) + ken", "pt": "enfatizar, ressaltar", "emoji": "❗" },
+    { "nl": "de overgang", "art": "de", "split": "over (por cima) + gang (passagem)", "pt": "a transição", "emoji": "🌉" },
+    { "nl": "terugkomen op", "art": null, "split": "terug (de volta) + komen (vir) + op (sobre)", "pt": "voltar a (um assunto)", "emoji": "🔁" },
+    { "nl": "onderschatten", "art": null, "split": "onder (sob) + schatten (avaliar)", "pt": "subestimar", "emoji": "📉" },
+    { "nl": "het publiek", "art": "het", "split": null, "pt": "o público, a audiência", "emoji": "👥" },
+    { "nl": "de aandacht", "art": "de", "split": "aan (a) + dacht (pensamento)", "pt": "a atenção", "emoji": "👀" },
+    { "nl": "samenvatten", "art": null, "split": "samen (junto) + vatten (agarrar, resumir)", "pt": "resumir, recapitular", "emoji": "🗒️" },
+    { "nl": "de dia", "art": "de", "split": null, "pt": "o slide, a lâmina de apresentação", "emoji": "🖥️" },
+    { "nl": "onderbouwen", "art": null, "split": "onder (sob) + bouwen (construir)", "pt": "fundamentar, embasar", "emoji": "🧱" },
+    { "nl": "afronden", "art": null, "split": "af (acabado) + ronden (arredondar)", "pt": "encerrar, arrematar (um discurso)", "emoji": "✅" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual frase é o gancho de abertura mais típico de uma apresentação formal? 🚪",
+      "options": ["Graag wil ik het vandaag hebben over de toekomst van ons team.", "Ik denk dat ik iets ga zeggen.", "Luister allemaal even.", "Ik weet niet goed waar ik moet beginnen."],
+      "answer": 0,
+      "explain": "Graag wil ik het vandaag hebben over... é a fórmula fixa de abertura formal em neerlandês: sinaliza imediatamente o tema e o registro do discurso."
+    },
+    {
+      "type": "listen",
+      "nl": "Wat zou er gebeuren als we niets veranderen?",
+      "options": ["Nada vai mudar de qualquer forma", "O que aconteceria se não mudássemos nada?", "Vamos mudar tudo agora mesmo", "Isso já mudou completamente"],
+      "answer": 1,
+      "explain": "Pergunta retórica clássica usada para engajar o público antes de expor um problema, típica de aberturas de apresentação C1."
+    },
+    {
+      "type": "mc",
+      "q": "Qual sinalizador introduz o PRIMEIRO ponto de uma apresentação estruturada? ⚖️",
+      "options": ["Daarmee kom ik tot...", "Tot slot", "Ten eerste", "Dit brengt ons bij..."],
+      "answer": 2,
+      "explain": "Ten eerste (em primeiro lugar) abre a sequência de sinalizadores estruturais; vervolgens/daarnaast vêm no meio e tot slot fecha."
+    },
+    {
+      "type": "listen",
+      "nl": "Vervolgens bekijken we de resultaten van het afgelopen kwartaal.",
+      "options": ["Já analisamos todos os resultados no passado", "Nunca vamos analisar esses resultados", "Os resultados ainda não existem", "Em seguida, analisamos os resultados do trimestre passado"],
+      "answer": 3,
+      "explain": "Vervolgens marca a transição formal para a segunda seção do discurso, mais elevado em registro que daarna."
+    },
+    {
+      "type": "mc",
+      "q": "Como fazer uma transição elegante entre duas seções de um discurso, sem soar abrupto? 🌉",
+      "options": ["Dit brengt ons bij de volgende vraag: hoe gaan we verder?", "En nu iets anders.", "Volgende dia.", "Klaar met dit deel."],
+      "answer": 0,
+      "explain": "Dit brengt ons bij... é a ponte formal padrão entre seções: conecta o que foi dito à próxima pergunta ou tópico sem interromper o fluxo."
+    },
+    {
+      "type": "listen",
+      "nl": "Daarmee kom ik tot mijn tweede punt.",
+      "options": ["Não tenho mais nenhum ponto a fazer", "Com isso chego ao meu segundo ponto", "Esse foi meu único ponto", "Vou repetir o primeiro ponto"],
+      "answer": 1,
+      "explain": "Daarmee kom ik tot... fecha uma seção e abre a seguinte na mesma frase, útil quando o tempo de apresentação é limitado."
+    },
+    {
+      "type": "fill",
+      "before": "Tot",
+      "after": "wil ik benadrukken dat snelheid cruciaal is.",
+      "answer": "slot",
+      "alt": [],
+      "hint": "por fim, para concluir",
+      "explain": "Tot slot (por fim) introduz a conclusão de uma apresentação formal, sempre na posição 1, empurrando wil para a posição 2."
+    },
+    {
+      "type": "fill",
+      "before": "Dat is een goede vraag. Daar kom ik zo",
+      "after": ".",
+      "answer": "op terug",
+      "alt": ["opterug"],
+      "hint": "voltar a isso (verbo separável terugkomen op)",
+      "explain": "terugkomen op é separável com dois prefixos (op...terug) que ficam juntos no fim da frase: adia a resposta com elegância sem ignorá-la."
+    },
+    {
+      "type": "order",
+      "pt": "Primeiro vou abordar os números, depois as consequências.",
+      "tokens": ["Ik", "zal", "eerst", "ingaan", "op", "de", "cijfers", "daarna", "op", "de", "gevolgen"],
+      "answer": "Ik zal eerst ingaan op de cijfers daarna op de gevolgen",
+      "explain": "ingaan op é separável; com o verbo modal zal, o infinitivo composto ingaan fica junto no fim da primeira parte da frase."
+    },
+    {
+      "type": "order",
+      "pt": "Em primeiro lugar, eu gostaria de falar sobre a situação atual.",
+      "tokens": ["Ten", "eerste", "wil", "ik", "het", "hebben", "over", "de", "huidige", "situatie"],
+      "answer": "Ten eerste wil ik het hebben over de huidige situatie",
+      "explain": "Ten eerste ocupa a posição 1 e empurra wil para a posição 2 (V2), a mesma regra de qualquer conector inicial em neerlandês."
+    },
+    {
+      "type": "order",
+      "pt": "Agradeço a atenção de vocês. Há mais perguntas?",
+      "tokens": ["Ik", "dank", "u", "voor", "uw", "aandacht", "Zijn", "er", "nog", "vragen"],
+      "answer": "Ik dank u voor uw aandacht Zijn er nog vragen",
+      "explain": "Fechamento cordial padrão: agradecimento seguido do convite às perguntas, com inversão verbal (Zijn er...) típica de perguntas sim/não."
+    },
+    {
+      "type": "match",
+      "pairs": [["ingaan op", "abordar, aprofundar-se em"], ["benadrukken", "enfatizar"], ["terugkomen op", "voltar a um assunto"], ["onderschatten", "subestimar"], ["samenvatten", "resumir"], ["afronden", "encerrar"]],
+      "explain": "Vocabulário-chave da estrutura de um discurso formal: da introdução dos pontos (ingaan op) até o fechamento (afronden)."
+    },
+    {
+      "type": "mc",
+      "q": "Como confirmar educadamente uma pergunta do público antes de responder? 🎙️",
+      "options": ["Wat bedoelt u nou weer?", "Dat snap ik niet.", "Als ik u goed begrijp, bedoelt u dat we trager moeten beginnen?", "Volgende vraag."],
+      "answer": 2,
+      "explain": "Als ik u goed begrijp, bedoelt u...? confirma a interpretação da pergunta antes de responder, evitando mal-entendidos em público de forma cortês."
+    },
+    {
+      "type": "listen",
+      "nl": "Daarnaast is het belangrijk om de risico's niet te onderschatten.",
+      "options": ["Os riscos não existem", "Os riscos são irrelevantes aqui", "Já subestimamos todos os riscos", "Além disso, é importante não subestimar os riscos"],
+      "answer": 3,
+      "explain": "Daarnaast soma um argumento novo à estrutura numerada (Ten eerste / Vervolgens), mantendo a progressão lógica do discurso."
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "id": "c1-04-ironie-humor",
+  "unit": "C1",
+  "title": "Ironia e humor sutil · Ironie en subtiele humor",
+  "emoji": "😏",
+  "teaching": [
+    {
+      "emoji": "😏",
+      "title": "😏 Ironie zonder ironieteken",
+      "html": "<p>O português tem o tom de voz, o neerlandês também, mas o neerlandês <b>não tem nenhum marcador gramatical</b> para ironia: nenhuma partícula, nenhum sinal de pontuação especial. Você reconhece a ironia só pelo <b>tom</b>, pelo <b>contexto</b> e por pequenas etiquetas verbais como <b>hoor</b>, <b>zeg</b> e <b>hé</b> no fim da frase.</p><ul><li>Dizer <b>\"Heerlijk weer vandaag, hoor\"</b> enquanto chove há horas: o tom neutro e a etiqueta <i>hoor</i> sinalizam que é o oposto do que a frase diz.</li><li>Sem esse tom, a mesma frase seria só um comentário sincero sobre o tempo.</li><li>Diferente da tussentaal (que é sobre <i>registro</i> regional), este tema é sobre <i>intenção</i>: dizer uma coisa para comunicar outra.</li></ul><p><small>Regra de ouro do C1: se a frase soa exageradamente positiva sobre algo claramente ruim, é ironia. 🎭</small></p>"
+    },
+    {
+      "emoji": "📉",
+      "title": "📉 Onderdrijven: o understatement flamengo",
+      "html": "<p>O contrário de exagerar (<i>overdrijven</i>) é <b>onderdrijven</b>: minimizar de propósito algo impressionante. É a marca registrada do humor flamengo, bem diferente do exagero expressivo brasileiro.</p><table class=\"vocab\"><tr><th>o que aconteceu 🎉</th><th>o que um flamengo diz 😏</th><th>português</th></tr><tr><td>ganhou na loteria</td><td><b>\"Niet slecht, hé.\"</b></td><td>\"Nada mal, hein.\"</td></tr><tr><td>viagem incrível</td><td><b>\"Het was oké.\"</b></td><td>\"Foi ok.\"</td></tr><tr><td>promoção no trabalho</td><td><b>\"Het gaat vooruit.\"</b></td><td>\"As coisas estão andando.\"</td></tr></table><p><small>Quanto maior o acontecimento, menor a reação esperada. É o oposto do \"AAAH que emoção!\" brasileiro. 😌</small></p>"
+    },
+    {
+      "emoji": "🙃",
+      "title": "🙃 Zelfspot: rir de si mesmo primeiro",
+      "html": "<p><b>Zelfspot</b> (autozombaria) é rir dos próprios defeitos antes que alguém o faça. É extremamente valorizado socialmente na Flandres: mostra que você não se leva a sério demais.</p><ul><li><b>Ik kook zo slecht dat mijn rookmelder een leven redt.</b> = Eu cozinho tão mal que meu detector de fumaça salva vidas.</li><li>Contar essa piada sobre si mesmo antes que outro comente é uma tática social: tira a arma do adversário. 🛡️</li><li>Reagir bem à zelfspot de outra pessoa: rir junto, nunca com pena.</li></ul><p><small>No Brasil o humor autodepreciativo também existe, mas costuma vir com mais teatralidade. Na Flandres, quanto mais seco o tom, mais engraçado. 🏜️</small></p>"
+    },
+    {
+      "emoji": "😄",
+      "title": "😄 Woordgrapjes, dubbele bodems e reagir a uma piada",
+      "html": "<p>O flamengo adora <b>woordgrapjes</b> (trocadilhos) baseados em palavras com <b>dubbele betekenis</b> (duplo sentido): <i>\"Ik zat op de bank, letterlijk en financieel\"</i> (bank = sofá E banco). A entrega ideal é com <b>stalen gezicht</b> (cara de pau, sem sorrir).</p><ul><li>Reagir com dúvida/surpresa divertida: <b>\"Dat meen je niet!\"</b> (Você não está falando sério!)</li><li>Reagir concordando com a piada, continuando a brincadeira: <b>\"Zeg dat nog eens!\"</b> (literalmente \"diga isso de novo\", = \"nem me fale!\")</li><li>Um <b>knipoogje</b> (piscadela) no fim confirma: foi de propósito, era <b>voor de grap</b> (de brincadeira).</li></ul><p><small>Comparado ao humor brasileiro, mais expressivo e caloroso, o humor flamengo é mais seco, mais contido e depende muito mais do contexto compartilhado. Nenhum dos dois é \"mais engraçado\": são só registros culturais diferentes. 🤝</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"Ironie","r":"noun"},{"t":"hoor","r":"verb"},{"t":"je","r":"pron"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"toon","r":"noun"},{"t":",","r":"punc"},{"t":"niet","r":"neg"},{"t":"aan","r":"prep"},{"t":"de","r":"art"},{"t":"grammatica","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"reconhece","r":"verb"},{"t":"a","r":"art"},{"t":"ironia","r":"noun"},{"t":"pelo","r":"prep"},{"t":"tom","r":"noun"},{"t":",","r":"punc"},{"t":"não","r":"neg"},{"t":"pela","r":"prep"},{"t":"gramática","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ironia ouve você a-o tom, não a-a gramática",
+      "note": "Não existe marcador gramatical de ironia em neerlandês: pelo/pela em português combinam preposição + artigo, mas o conceito é o mesmo dos dois lados."
+    },
+    {
+      "nl": [{"t":"Heerlijk","r":"adj"},{"t":"weer","r":"noun"},{"t":"vandaag","r":"adv"},{"t":",","r":"punc"},{"t":"hoor","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Tempo","r":"noun"},{"t":"maravilhoso","r":"adj"},{"t":"hoje","r":"adv"},{"t":",","r":"punc"},{"t":"viu","r":"x"},{"t":".","r":"punc"}],
+      "lit": "encantador tempo hoje, ouviu",
+      "note": "Dito enquanto chove há horas. hoor no fim é a etiqueta que sinaliza tom irônico, o equivalente flamengo do 'viu' brasileiro sarcástico."
+    },
+    {
+      "nl": [{"t":"Dat","r":"pron"},{"t":"meen","r":"verb"},{"t":"je","r":"pron"},{"t":"niet","r":"neg"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Não","r":"neg"},{"t":"pode","r":"verb"},{"t":"ser","r":"verb"},{"t":"sério","r":"adj"},{"t":"!","r":"punc"}],
+      "lit": "isso quer-dizer você não",
+      "note": "Reação de dúvida/surpresa divertida a uma piada ou ironia. Literalmente 'você não quer dizer isso', usado como 'você tá de brincadeira!'."
+    },
+    {
+      "nl": [{"t":"Zeg","r":"verb"},{"t":"dat","r":"pron"},{"t":"nog","r":"adv"},{"t":"eens","r":"adv"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Aí","r":"adv"},{"t":"você","r":"pron"},{"t":"disse","r":"verb"},{"t":"tudo","r":"pron"},{"t":"!","r":"punc"}],
+      "lit": "diga isso ainda uma-vez",
+      "note": "Reação de concordância animada com uma piada, continuando a brincadeira. Literalmente 'diga isso de novo', equivale ao 'nem me fale!' brasileiro."
+    },
+    {
+      "nl": [{"t":"Die","r":"pron"},{"t":"vakantie","r":"noun"},{"t":"was","r":"verb"},{"t":"niet","r":"neg"},{"t":"slecht","r":"adj"},{"t":",","r":"punc"},{"t":"hoor","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Aquelas","r":"pron"},{"t":"férias","r":"noun"},{"t":"não","r":"neg"},{"t":"foram","r":"verb"},{"t":"nada","r":"neg"},{"t":"mal","r":"adj"},{"t":",","r":"punc"},{"t":"viu","r":"x"},{"t":".","r":"punc"}],
+      "lit": "aquela férias foi não mal, ouviu",
+      "note": "Onderdrijven clássico: dito sobre uma viagem espetacular. Quanto mais incrível o fato, menor a reação, ao contrário do exagero brasileiro."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"kook","r":"verb"},{"t":"zo","r":"adv"},{"t":"slecht","r":"adv"},{"t":"dat","r":"conj"},{"t":"mijn","r":"pron"},{"t":"rookmelder","r":"noun"},{"t":"een","r":"art"},{"t":"leven","r":"noun"},{"t":"redt","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"cozinho","r":"verb"},{"t":"tão","r":"adv"},{"t":"mal","r":"adv"},{"t":"que","r":"conj"},{"t":"meu","r":"pron"},{"t":"detector","r":"noun"},{"t":"de","r":"prep"},{"t":"fumaça","r":"noun"},{"t":"salva","r":"verb"},{"t":"vidas","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "eu cozinho tão mal que meu detector-de-fumaça uma vida salva",
+      "note": "Zelfspot exemplar: rir dos próprios defeitos antes que outra pessoa o faça é uma tática social muito valorizada na Flandres."
+    },
+    {
+      "nl": [{"t":"Ik","r":"pron"},{"t":"zat","r":"verb"},{"t":"op","r":"prep"},{"t":"de","r":"art"},{"t":"bank","r":"noun"},{"t":",","r":"punc"},{"t":"letterlijk","r":"adv"},{"t":"en","r":"conj"},{"t":"financieel","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Eu","r":"pron"},{"t":"estava","r":"verb"},{"t":"no","r":"prep"},{"t":"banco","r":"noun"},{"t":",","r":"punc"},{"t":"literalmente","r":"adv"},{"t":"e","r":"conj"},{"t":"financeiramente","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "eu sentava em-o banco, literalmente e financeiramente",
+      "note": "Woordgrapje com dubbele betekenis: bank em neerlandês significa tanto 'sofá' quanto 'banco (instituição)', igual em português com 'banco'."
+    },
+    {
+      "nl": [{"t":"Ha","r":"x"},{"t":",","r":"punc"},{"t":"goeie","r":"adj"},{"t":",","r":"punc"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"knipoog","r":"noun"},{"t":"gezegd","r":"verb"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ha","r":"x"},{"t":",","r":"punc"},{"t":"essa","r":"pron"},{"t":"foi","r":"verb"},{"t":"boa","r":"adj"},{"t":",","r":"punc"},{"t":"dita","r":"verb"},{"t":"com","r":"prep"},{"t":"uma","r":"art"},{"t":"piscadela","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "ha, boa, com uma piscadela dita",
+      "note": "knipoog (piscadela) confirma que a frase foi voor de grap, de propósito: um sinal cúmplice entre quem fala e quem escuta."
+    },
+    {
+      "nl": [{"t":"Woordgrapjes","r":"noun"},{"t":"werken","r":"verb"},{"t":"het","r":"adv"},{"t":"best","r":"adv"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"stalen","r":"adj"},{"t":"gezicht","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Trocadilhos","r":"noun"},{"t":"funcionam","r":"verb"},{"t":"melhor","r":"adv"},{"t":"com","r":"prep"},{"t":"cara","r":"noun"},{"t":"séria","r":"adj"},{"t":".","r":"punc"}],
+      "lit": "trocadilhos funcionam o melhor com um de-aço rosto",
+      "note": "stalen gezicht (rosto de aço) = cara de pau, entrega sem sorrir. É a técnica de delivery essencial do humor seco flamengo."
+    },
+    {
+      "nl": [{"t":"Vlamingen","r":"noun"},{"t":"lachen","r":"verb"},{"t":"zacht","r":"adv"},{"t":",","r":"punc"},{"t":"Brazilianen","r":"noun"},{"t":"lachen","r":"verb"},{"t":"luid","r":"adv"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Os","r":"art"},{"t":"flamengos","r":"noun"},{"t":"riem","r":"verb"},{"t":"baixinho","r":"adv"},{"t":",","r":"punc"},{"t":"os","r":"art"},{"t":"brasileiros","r":"noun"},{"t":"riem","r":"verb"},{"t":"alto","r":"adv"},{"t":".","r":"punc"}],
+      "lit": "flamengos riem baixinho, brasileiros riem alto",
+      "note": "Contraste cultural gentil: humor seco e contido vs. humor expressivo e caloroso. Nenhum dos dois é melhor, só diferente registro."
+    }
+  ],
+  "vocab": [
+    { "nl": "de ironie", "art": "de", "split": null, "pt": "a ironia", "emoji": "😏" },
+    { "nl": "het sarcasme", "art": "het", "split": null, "pt": "o sarcasmo", "emoji": "😒" },
+    { "nl": "onderdrijven", "art": null, "split": "onder (embaixo) + drijven (flutuar, levar)", "pt": "subestimar de propósito, minimizar (o oposto de overdrijven)", "emoji": "📉" },
+    { "nl": "de dubbele bodem", "art": "de", "split": "dubbele (dupla) + bodem (fundo)", "pt": "fundo falso, sentido escondido numa frase", "emoji": "🎭" },
+    { "nl": "het woordgrapje", "art": "het", "split": "woord (palavra) + grapje (piadinha)", "pt": "trocadilho", "emoji": "😄" },
+    { "nl": "de dubbele betekenis", "art": "de", "split": "dubbele (dupla) + betekenis (significado)", "pt": "duplo sentido", "emoji": "🔀" },
+    { "nl": "zelfspot", "art": null, "split": "zelf (auto) + spot (zombaria)", "pt": "autozombaria, humor autodepreciativo", "emoji": "🙃" },
+    { "nl": "droog", "art": null, "split": null, "pt": "seco (humor seco, tom neutro que esconde a piada)", "emoji": "🏜️" },
+    { "nl": "de grap", "art": "de", "split": null, "pt": "a piada", "emoji": "😂" },
+    { "nl": "grappen maken", "art": null, "split": "grappen (piadas) + maken (fazer)", "pt": "fazer piadas, brincar", "emoji": "🤹" },
+    { "nl": "het knipoogje", "art": "het", "split": "knip (piscada) + oogje (olhinho)", "pt": "piscadela, sinal cúmplice", "emoji": "😉" },
+    { "nl": "spottend", "art": null, "split": "spot (zombaria) + end (sufixo -ando)", "pt": "zombeteiro, em tom de deboche", "emoji": "🙄" },
+    { "nl": "de plaagstoot", "art": "de", "split": "plagen (provocar) + stoot (cutucada)", "pt": "cutucada de brincadeira, provocação afetuosa", "emoji": "👉" },
+    { "nl": "voor de grap", "art": null, "split": "voor (por) + de (a) + grap (piada)", "pt": "de brincadeira, só por diversão", "emoji": "😜" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Como você reconhece ironia em neerlandês, já que não existe um marcador gramatical fixo? 😏",
+      "options": ["Pelo tom de voz e pelo contexto", "Por um til especial na frase", "Por uma letra maiúscula extra", "Por uma palavra mágica chamada 'ironie'"],
+      "answer": 0,
+      "explain": "O neerlandês não tem nenhuma partícula ou sinal de pontuação para ironia. Tudo depende do tom e do contexto compartilhado, junto com etiquetas como hoor, zeg, hé."
+    },
+    {
+      "type": "listen",
+      "nl": "Heerlijk weer vandaag, hoor.",
+      "options": ["Um elogio sincero ao sol", "Um comentário irônico, provavelmente dito enquanto chove", "Um convite para sair", "Uma previsão do tempo oficial"],
+      "answer": 1,
+      "explain": "O tom neutro somado à etiqueta hoor sinaliza que a frase quer dizer o oposto do que afirma: um clássico de humor seco flamengo."
+    },
+    {
+      "type": "mc",
+      "q": "Um flamengo ganhou na loteria e diz apenas 'Niet slecht, hé.' O que isso demonstra? 📉",
+      "options": ["Ele não gostou do prêmio", "Onderdrijven: understatement deliberado sobre algo incrível", "Ele está sendo literal e o prêmio foi pequeno", "Um erro de gramática"],
+      "answer": 1,
+      "explain": "Onderdrijven é minimizar de propósito algo impressionante. Quanto maior o acontecimento, menor costuma ser a reação verbal na Flandres."
+    },
+    {
+      "type": "listen",
+      "nl": "Die vakantie was niet slecht, hoor.",
+      "options": ["A viagem foi péssima", "A viagem foi só razoável", "Understatement: a viagem provavelmente foi espetacular", "Ele nunca viajou"],
+      "answer": 2,
+      "explain": "niet slecht dito com esse tom é onderdrijven clássico: usado justamente para descrever algo excelente, ao contrário do exagero brasileiro."
+    },
+    {
+      "type": "mc",
+      "q": "O que é zelfspot? 🙃",
+      "options": ["Rir dos defeitos dos outros", "Rir dos próprios defeitos antes que alguém o faça", "Nunca fazer piadas", "Um tipo de trocadilho sobre esportes"],
+      "answer": 1,
+      "explain": "Zelfspot (auto + zombaria) é o humor autodepreciativo: contar a piada sobre si mesmo primeiro tira a arma de quem tentaria zoar você."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik zat op de bank, letterlijk en financieel.",
+      "options": ["Uma frase sobre exercício físico", "Um trocadilho: bank significa tanto sofá quanto banco (instituição)", "Uma reclamação sobre transporte público", "Um erro de tradução"],
+      "answer": 1,
+      "explain": "Woordgrapje com dubbele betekenis: bank tem duplo sentido em neerlandês, igual à palavra 'banco' em português."
+    },
+    {
+      "type": "fill",
+      "before": "Ik kook zo",
+      "after": "dat mijn rookmelder een leven redt.",
+      "answer": "slecht",
+      "alt": [],
+      "hint": "mal, em tom de zelfspot",
+      "explain": "zelfspot exemplar: exagerar o próprio defeito (cozinhar mal) de forma cômica e seca, sem se levar a sério."
+    },
+    {
+      "type": "fill",
+      "before": "Zeg dat nog",
+      "after": "!",
+      "answer": "eens",
+      "alt": [],
+      "hint": "mais uma vez",
+      "explain": "Zeg dat nog eens! = reação de concordância animada a uma piada, equivale a 'nem me fale!' em português."
+    },
+    {
+      "type": "order",
+      "pt": "Você não está falando sério!",
+      "tokens": ["Dat", "meen", "je", "niet"],
+      "answer": "Dat meen je niet",
+      "explain": "Reação de dúvida divertida a uma piada ou ironia: literalmente 'isso você não quer dizer'."
+    },
+    {
+      "type": "order",
+      "pt": "Aquelas férias não foram nada mal, ouviu.",
+      "tokens": ["Die", "vakantie", "was", "niet", "slecht", "hoor"],
+      "answer": "Die vakantie was niet slecht hoor",
+      "explain": "V2 simples com etiqueta hoor no fim: a marca sonora do understatement flamengo, dita sobre algo que na verdade foi ótimo."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a melhor forma de entregar um woordgrapje (trocadilho), segundo o humor flamengo? 😄",
+      "options": ["Rindo alto antes de terminar a frase", "Com stalen gezicht: cara séria, sem sorrir", "Explicando a piada logo em seguida", "Gritando a última palavra"],
+      "answer": 1,
+      "explain": "stalen gezicht (rosto de aço) = cara de pau. A entrega seca e sem expressão é o que torna o trocadilho mais engraçado nesse registro."
+    },
+    {
+      "type": "match",
+      "pairs": [["de ironie", "a ironia"], ["zelfspot", "autozombaria"], ["onderdrijven", "subestimar de propósito"], ["het woordgrapje", "o trocadilho"], ["droog", "seco (humor)"], ["voor de grap", "de brincadeira"]],
+      "explain": "Vocabulário-chave do humor flamengo: da ironia sem marcador gramatical ao understatement (onderdrijven) e ao trocadilho entregue com cara séria."
+    }
+  ]
+}

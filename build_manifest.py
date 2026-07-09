@@ -11,6 +11,7 @@ ORDER = [
     "b2-01-solliciteren", "b2-02-bank-wero", "b2-03-klachten",
     "b2-04-debatteren", "b2-05-vastgoed", "b2-06-technologie",
     "c1-01-tussentaal", "c1-02-nieuws-politiek", "c1-03-onderhandelen",
+    "c1-04-ironie-humor", "c1-05-presentaties",
     "c2-01-idiomatiek", "c2-02-schrijfstijl", "c2-03-dialect-humor",
 ]
 

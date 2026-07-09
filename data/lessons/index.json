@@ -289,6 +289,24 @@
    "vocab": 16
   },
   {
+   "id": "c1-04-ironie-humor",
+   "unit": "C1",
+   "title": "Ironia e humor sutil · Ironie en subtiele humor",
+   "emoji": "😏",
+   "phrases": 10,
+   "exercises": 12,
+   "vocab": 14
+  },
+  {
+   "id": "c1-05-presentaties",
+   "unit": "C1",
+   "title": "Apresentações e discursos formais · Presentaties en formele toespraken",
+   "emoji": "🎤",
+   "phrases": 12,
+   "exercises": 14,
+   "vocab": 16
+  },
+  {
    "id": "c2-01-idiomatiek",
    "unit": "C2",
    "title": "Idiomatismos e o tempero da fala nativa · Idiomatiek",
