@@ -748,7 +748,7 @@ async function renderWoordenboek(app) {
     <h1>🔎 Woordenboek <small class="muted" style="font-size:1rem">dicionário + busca rápida</small></h1>
     <div class="card">
       <input class="fill-input" id="dictQ" style="max-width:100%" autocomplete="off"
-        placeholder="🔍 digite em neerlandês OU português... (ex: huis, casa, afspraak, médico)">
+        placeholder="🔍 neerlandês ou português...">
       <p class="muted" style="margin:.5em 0 0"><small>💡 Busca nas palavras do curso (com a quebra 🧩), no banco de
       <b>1900+ emojis bilíngues</b> 😀 e oferece atalhos para dicionários externos.</small></p>
     </div>
