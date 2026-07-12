@@ -365,6 +365,11 @@ async function renderHome(app) {
     <a href="livro.html">Livro Infográfico 📖</a>.</p>
     ${next ? `<a class="btn primary" href="#/les/${next.id}">▶️ Continuar: ${next.emoji} ${esc(next.title)}</a>` : '<p>🏆 Curso completo!</p>'}
     <img src="assets/infographics/cefr-ladder.svg" alt="A escada de níveis A1 a C2" loading="lazy">
+    <p class="muted" style="font-size:.82rem;margin:.3em 0 0"><small>ℹ️ O inburgering hoje pede A2 pra tirar o
+    certificado, mas quem começou o percurso a partir de 1º de março de 2022 também precisa comprovar
+    <b>B1 falado</b> em até 2 anos depois — e o governo flamengo estuda subir a meta do próprio percurso
+    para B1. Fonte: <a href="https://www.integratie-inburgering.be/nl/inburgeringstraject" target="_blank" rel="noopener">integratie-inburgering.be</a>.
+    Vale conferir a página oficial antes de qualquer decisão real.</small></p>
     ${dailyHTML}
     <p><a class="btn small" href="#/maandelijst">🗓️ Woordenlijst do mês</a></p>
     <p class="muted" style="margin:.6em 0 .2em"><b>👉 Escolha um nível</b> para ver TUDO dele (lições, frases e vocabulário):</p>
