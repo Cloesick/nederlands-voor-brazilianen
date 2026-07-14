@@ -536,6 +536,17 @@ function runExercises(body, L) {
         <div class="match-col" id="mright">${shuffle(ex.pairs.map((p, k) => ({ t: p[1], k }))).map(o =>
           `<button class="mitem" data-k="${o.k}">🇧🇷 ${esc(o.t)}</button>`).join('')}</div>
       </div>`;
+    if (ex.type === 'pronounce') inner = `
+      <p class="ex-q">🗣️ Pronuncie em voz alta:</p>
+      <p class="pronounce-phrase">${esc(ex.nl)}</p>
+      ${ex.pt ? `<p class="muted">🇧🇷 ${esc(ex.pt)}</p>` : ''}
+      <p class="center"><button class="big-audio" id="playRef" title="Ouvir referência">🔊</button></p>
+      <div class="pronounce-rec center">
+        <button class="btn" id="recBtn">🎙️ Gravar minha voz</button>
+        <p class="muted" id="recStatus" hidden></p>
+        <div id="recPlayback" hidden></div>
+      </div>
+      <p class="center"><button class="btn primary" id="pronounceDone" hidden>Já pratiquei, continuar →</button></p>`;
     body.innerHTML = header() + `<div class="card exwrap">${inner}</div>`;
 
     if (ex.type === 'mc' || ex.type === 'listen') {
@@ -593,6 +604,48 @@ function runExercises(body, L) {
           it.classList.add('done'); selL.classList.add('done'); selL.classList.remove('sel'); selL = null;
           if (++doneCount === ex.pairs.length) feedback(true, ex.explain);
         } else { firstTry = false; it.classList.add('flash'); setTimeout(() => it.classList.remove('flash'), 500); }
+      });
+    }
+    if (ex.type === 'pronounce') {
+      $('#playRef').addEventListener('click', () => speak(ex.nl));
+      const recBtn = $('#recBtn'), status = $('#recStatus'), playback = $('#recPlayback'), doneBtn = $('#pronounceDone');
+      const canRecord = !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder);
+      let mediaRecorder = null, chunks = [], stream = null, recording = false;
+
+      function offerContinue(msg) {
+        recBtn.hidden = true;
+        status.hidden = false;
+        status.textContent = msg;
+        doneBtn.hidden = false;
+      }
+      if (!canRecord) {
+        offerContinue('🎙️ Gravação de voz não disponível neste navegador. Ouça a referência e repita em voz alta.');
+      } else {
+        recBtn.addEventListener('click', async () => {
+          if (recording) { mediaRecorder.stop(); recording = false; status.hidden = true; return; }
+          try { stream = await navigator.mediaDevices.getUserMedia({ audio: true }); }
+          catch (e) { offerContinue('🎙️ Microfone não autorizado. Ouça a referência e repita em voz alta.'); return; }
+          chunks = [];
+          mediaRecorder = new MediaRecorder(stream);
+          mediaRecorder.ondataavailable = e => chunks.push(e.data);
+          mediaRecorder.onstop = () => {
+            const blob = new Blob(chunks, { type: mediaRecorder.mimeType || 'audio/webm' });
+            playback.hidden = false;
+            playback.innerHTML = `<audio controls src="${URL.createObjectURL(blob)}"></audio>`;
+            stream.getTracks().forEach(t => t.stop());
+            recBtn.textContent = '🎙️ Gravar de novo';
+            doneBtn.hidden = false;
+          };
+          mediaRecorder.start();
+          recording = true;
+          recBtn.textContent = '⏹️ Parar gravação';
+          status.hidden = false;
+          status.textContent = '🔴 Gravando...';
+        });
+      }
+      doneBtn.addEventListener('click', () => {
+        recBtn.disabled = true; doneBtn.disabled = true;
+        feedback(true, ex.explain);
       });
     }
   }
