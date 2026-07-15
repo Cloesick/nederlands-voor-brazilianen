@@ -279,8 +279,9 @@ function lessonProgress(id, exCount) {
 
 /* ---------- aligned phrase renderer (the bridge) ---------- */
 function tokHTML(tokens, phraseId, side) {
+  const langAttr = side === 'nl' ? ' lang="nl"' : '';
   return tokens.map((tk, i) =>
-    `<span class="tok r-${esc(tk.r || 'x')}" data-p="${phraseId}" data-r="${esc(tk.r || 'x')}"
+    `<span class="tok r-${esc(tk.r || 'x')}" data-p="${phraseId}" data-r="${esc(tk.r || 'x')}"${langAttr}
       title="${esc((ROLES[tk.r] || ROLES.x).emoji + ' ' + (ROLES[tk.r] || ROLES.x).label)}">${esc(tk.t)}</span>`
   ).join(' ');
 }
@@ -304,6 +305,20 @@ function bindPhraseEvents(root) {
     });
   });
   root.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say); }));
+}
+// teaching[].html sometimes embeds a comparison table with a "🇧🇪 Nederlands" column
+// (raw HTML from lesson data): mark just that column's cells as Dutch, PT-BR column untouched.
+function markDutchTableColumns(root) {
+  root.querySelectorAll('table').forEach(table => {
+    const headerCells = table.querySelectorAll('tr:first-child th');
+    let nlCol = -1;
+    headerCells.forEach((th, i) => { if (/🇧🇪/.test(th.textContent)) nlCol = i; });
+    if (nlCol === -1) return;
+    [...table.querySelectorAll('tr')].slice(1).forEach(tr => {
+      const td = tr.children[nlCol];
+      if (td) td.lang = 'nl';
+    });
+  });
 }
 function legendStrip(phrases) {
   const used = new Set();
@@ -446,13 +461,14 @@ function showTab(t, L) {
       <table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th></tr>
       ${L.vocab.map(v => `<tr>
         <td>${v.art ? `<span class="pill art-${v.art}">${v.art}</span>` : ''}</td>
-        <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
+        <td class="v-nl" lang="nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
         <td class="v-split">${esc(v.split || '')}</td>
         <td>${v.emoji || ''} ${esc(v.pt)}</td></tr>`).join('')}</table>
       <div id="socialCard"></div>
       ${adSlotHTML('adLesson')}
       <p class="center"><button class="btn primary" id="goPractice">🏋️ Praticar agora →</button></p>`;
     bindPhraseEvents(body);
+    markDutchTableColumns(body);
     body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
     pushAds(body);
     $('#goPractice').addEventListener('click', () => {
@@ -467,12 +483,13 @@ function showTab(t, L) {
 /* ---------- turn any exercise into a reviewable mistake card ---------- */
 function mistakeFromEx(ex, L) {
   const base = { lesson: L.id, lessonTitle: L.title, lessonEmoji: L.emoji, unit: L.unit, type: ex.type };
-  if (ex.type === 'mc')     return { ...base, q: ex.q, nl: ex.options[ex.answer], pt: ex.q, answer: ex.options[ex.answer] };
-  if (ex.type === 'listen') return { ...base, q: 'Ouça: ' + ex.nl, nl: ex.nl, pt: ex.options[ex.answer], answer: ex.nl };
-  if (ex.type === 'fill')   return { ...base, q: `${ex.before} ___ ${ex.after || ''}`, nl: ex.answer, pt: ex.hint || '', answer: ex.answer };
-  if (ex.type === 'order')  return { ...base, q: ex.pt, nl: ex.answer, pt: ex.pt, answer: ex.answer };
-  if (ex.type === 'match')  return { ...base, q: 'Pares: ' + ex.pairs.map(p => p[0]).join(', '), nl: ex.pairs.map(p => p[0]).join(' · '), pt: ex.pairs.map(p => p[1]).join(' · '), answer: ex.pairs.map(p => p[0] + '=' + p[1]).join(', ') };
-  return { ...base, q: '(exercício)', nl: '', pt: '', answer: '' };
+  // nlLang: whether `nl` is reliably Dutch text (mc options can be PT-BR too, so skip those)
+  if (ex.type === 'mc')     return { ...base, q: ex.q, nl: ex.options[ex.answer], pt: ex.q, answer: ex.options[ex.answer], nlLang: false };
+  if (ex.type === 'listen') return { ...base, q: 'Ouça: ' + ex.nl, nl: ex.nl, pt: ex.options[ex.answer], answer: ex.nl, nlLang: true };
+  if (ex.type === 'fill')   return { ...base, q: `${ex.before} ___ ${ex.after || ''}`, nl: ex.answer, pt: ex.hint || '', answer: ex.answer, nlLang: true };
+  if (ex.type === 'order')  return { ...base, q: ex.pt, nl: ex.answer, pt: ex.pt, answer: ex.answer, nlLang: true };
+  if (ex.type === 'match')  return { ...base, q: 'Pares: ' + ex.pairs.map(p => p[0]).join(', '), nl: ex.pairs.map(p => p[0]).join(' · '), pt: ex.pairs.map(p => p[1]).join(' · '), answer: ex.pairs.map(p => p[0] + '=' + p[1]).join(', '), nlLang: true };
+  return { ...base, q: '(exercício)', nl: '', pt: '', answer: '', nlLang: false };
 }
 
 /* ---------- exercise runner ---------- */
@@ -492,10 +509,10 @@ function runExercises(body, L) {
     firstTry = true;
     i < exs.length ? show() : end();
   }
-  function feedback(ok, explain, answerText) {
+  function feedback(ok, explain, answerText, answerIsNL) {
     const el = document.createElement('div');
     el.className = 'feedback ' + (ok ? 'ok' : 'bad');
-    el.innerHTML = (ok ? '✅ Juist! (Certo!)' : `❌ Quase! Resposta: <b>${esc(answerText || '')}</b>`) +
+    el.innerHTML = (ok ? '✅ Juist! (Certo!)' : `❌ Quase! Resposta: <b${answerIsNL ? ' lang="nl"' : ''}>${esc(answerText || '')}</b>`) +
       (explain ? `<small>💡 ${esc(explain)}</small>` : '');
     body.querySelector('.exwrap').appendChild(el);
     const nav = document.createElement('div');
@@ -518,21 +535,21 @@ function runExercises(body, L) {
       <p class="center"><button class="big-audio" id="play">▶️</button></p>
       <div class="options">${ex.options.map((o, k) => `<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>`;
     if (ex.type === 'fill') inner = `
-      <p class="ex-q">✍️ Complete: ${esc(ex.before)} <b>___</b> ${esc(ex.after || '')}</p>
+      <p class="ex-q">✍️ Complete: <span lang="nl">${esc(ex.before)} <b>___</b> ${esc(ex.after || '')}</span></p>
       ${ex.hint ? `<p class="muted">💭 dica: ${esc(ex.hint)}</p>` : ''}
-      <p><input class="fill-input" id="fin" autocomplete="off" autocapitalize="off" placeholder="digite em neerlandês...">
+      <p><input class="fill-input" id="fin" lang="nl" autocomplete="off" autocapitalize="off" placeholder="digite em neerlandês...">
       <button class="btn" id="chk">Verificar ✓</button></p>`;
     if (ex.type === 'order') inner = `
       <p class="ex-q">🧱 Monte a frase: <span class="muted">"${esc(ex.pt)}"</span></p>
-      <div class="built" id="built"></div>
+      <div class="built" id="built" lang="nl"></div>
       <div class="chips" id="chips">${shuffle(ex.tokens.map((t, k) => ({ t, k }))).map(o =>
-        `<button class="chip" data-k="${o.k}">${esc(o.t)}</button>`).join('')}</div>
+        `<button class="chip" lang="nl" data-k="${o.k}">${esc(o.t)}</button>`).join('')}</div>
       <button class="btn small" id="undo">↩️ desfazer</button>`;
     if (ex.type === 'match') inner = `
       <p class="ex-q">🔗 Ligue os pares:</p>
       <div class="match-grid">
         <div class="match-col" id="mleft">${shuffle(ex.pairs.map((p, k) => ({ t: p[0], k }))).map(o =>
-          `<button class="mitem" data-k="${o.k}">🇧🇪 ${esc(o.t)}</button>`).join('')}</div>
+          `<button class="mitem" data-k="${o.k}">🇧🇪 <span lang="nl">${esc(o.t)}</span></button>`).join('')}</div>
         <div class="match-col" id="mright">${shuffle(ex.pairs.map((p, k) => ({ t: p[1], k }))).map(o =>
           `<button class="mitem" data-k="${o.k}">🇧🇷 ${esc(o.t)}</button>`).join('')}</div>
       </div>`;
@@ -555,7 +572,7 @@ function runExercises(body, L) {
         $('#fin').classList.add(ok ? 'correct' : 'wrong');
         if (ok) { lock(); feedback(true, ex.explain); }
         else if (firstTry) { firstTry = false; toast('🤏 Tente mais uma vez!'); $('#fin').addEventListener('input', () => $('#fin').classList.remove('wrong'), { once: true }); }
-        else { lock(); feedback(false, ex.explain, ex.answer); }
+        else { lock(); feedback(false, ex.explain, ex.answer, true); }
       };
       $('#chk').addEventListener('click', check);
       $('#fin').addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
@@ -566,17 +583,17 @@ function runExercises(body, L) {
       $('#chips').addEventListener('click', e => {
         const c = e.target.closest('.chip'); if (!c || c.disabled) return;
         c.disabled = true; picked.push(c);
-        $('#built').innerHTML = picked.map(p => `<span class="chip">${p.textContent}</span>`).join('');
+        $('#built').innerHTML = picked.map(p => `<span class="chip" lang="nl">${p.textContent}</span>`).join('');
         if (picked.length === ex.tokens.length) {
           const made = picked.map(p => p.textContent).join(' ');
           const ok = [ex.answer, ...(ex.altAnswers || [])].some(a => norm(made) === norm(a));
           lock();
-          ok ? feedback(true, ex.explain) : feedback(false, ex.explain, ex.answer);
+          ok ? feedback(true, ex.explain) : feedback(false, ex.explain, ex.answer, true);
         }
       });
       $('#undo').addEventListener('click', () => {
         const c = picked.pop(); if (c) c.disabled = false;
-        $('#built').innerHTML = picked.map(p => `<span class="chip">${p.textContent}</span>`).join('');
+        $('#built').innerHTML = picked.map(p => `<span class="chip" lang="nl">${p.textContent}</span>`).join('');
       });
     }
     if (ex.type === 'match') {
@@ -645,7 +662,7 @@ function runFlashcards(body, L, cards) {
       <div class="fc" id="fc"><div class="fc-inner">
         <div class="fc-face">
           ${c.art ? `<span class="pill art-${c.art}">${c.art}</span>` : ''}
-          <span class="fc-word">${esc(c.nl)}</span>
+          <span class="fc-word"${c.nlLang !== false ? ' lang="nl"' : ''}>${esc(c.nl)}</span>
           ${hasTTS ? `<button class="speak-btn" id="say" style="font-size:1.5rem">🔊</button>` : ''}
           <span class="muted">toque para virar 👆</span>
         </div>
@@ -771,7 +788,7 @@ async function renderWoordenboek(app) {
       ${words.length ? `<table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th><th>lição</th></tr>
         ${words.map(v => `<tr>
           <td>${v.art ? `<span class="pill art-${v.art}">${v.art}</span>` : ''}</td>
-          <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn dspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
+          <td class="v-nl" lang="nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn dspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
           <td class="v-split">${esc(v.split || '')}</td>
           <td>${v.emoji || ''} ${esc(v.pt)}</td>
           <td>${v.from ? `<a href="#/les/${v.from}" title="ver lição">${v.fromEmoji || '📖'}</a>` : '📕'}</td></tr>`).join('')}</table>`
@@ -798,7 +815,7 @@ async function renderWoordenboek(app) {
 function vocabRow(v) {
   return `<tr>
     <td>${v.art ? `<span class="pill art-${v.art}">${v.art}</span>` : ''}</td>
-    <td class="v-nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn vspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
+    <td class="v-nl" lang="nl">${esc(v.nl)} ${hasTTS ? `<button class="speak-btn vspeak" data-say="${esc(v.nl)}">🔊</button>` : ''}</td>
     <td class="v-split">${esc(v.split || '')}</td>
     <td>${v.emoji ? v.emoji + ' ' : ''}${esc(clockify(v.pt))}</td></tr>`;
 }
@@ -871,8 +888,8 @@ async function renderKlanken(app) {
   app.innerHTML = `<h1>🔊 Klanken <span class="muted" style="font-size:1rem">o treino de sons</span></h1><div class="loading">⏳...</div>`;
   let K; try { K = await (await fetch('data/klanken.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
   const sc = (o) => `<button class="klank-word" data-say="${esc(o.word)}">
-      <span class="klank-letter">${esc(o.letter)}</span>
-      <span class="klank-ex">${o.emoji || ''} ${esc(o.word)}<small>${esc(o.pt)}</small></span>
+      <span class="klank-letter" lang="nl">${esc(o.letter)}</span>
+      <span class="klank-ex">${o.emoji || ''} <span lang="nl">${esc(o.word)}</span><small>${esc(o.pt)}</small></span>
       ${hasTTS ? '<span class="klank-play">🔊</span>' : ''}</button>`;
   app.innerHTML = `
     <div class="crumb"><a href="#/">🏠 Início</a></div>
@@ -885,8 +902,8 @@ async function renderKlanken(app) {
     <h2 style="margin-top:22px">🔤 Dígrafos e sons especiais</h2>
     <div class="klank-grid">${K.digraphs.map(d => `<div class="card klank-single">
       <button class="klank-word big" data-say="${esc(d.word)}">
-        <span class="klank-letter">${esc(d.letter)}</span>
-        <span class="klank-ex">${d.emoji || ''} ${esc(d.word)}<small>${esc(d.pt)}</small></span>
+        <span class="klank-letter" lang="nl">${esc(d.letter)}</span>
+        <span class="klank-ex">${d.emoji || ''} <span lang="nl">${esc(d.word)}</span><small>${esc(d.pt)}</small></span>
         ${hasTTS ? '<span class="klank-play">🔊</span>' : ''}</button>
       <p class="klank-tip">🗣️ ${esc(d.ptSound || '')}${d.tipPt ? ' · ' + esc(d.tipPt) : ''}</p></div>`).join('')}</div>`;
   app.querySelectorAll('.klank-word').forEach(b => b.addEventListener('click', () => { speak(b.dataset.say); b.classList.add('said'); setTimeout(() => b.classList.remove('said'), 400); }));
@@ -910,7 +927,7 @@ async function renderBelgie(app) {
       ${s.intro ? `<p class="muted">${esc(s.intro)}</p>` : ''}
       <div class="fact-list">${(s.facts || []).map(f => `<div class="fact">
         <span class="fact-emoji">${f.emoji || '•'}</span>
-        <div>${f.nl ? `<b class="v-nl">${esc(f.nl)}</b> ${hasTTS && f.nl ? `<button class="speak-btn bspeak" data-say="${esc(f.nl)}">🔊</button>` : ''}${f.name ? `<b>${esc(f.name)}</b>` : ''}<br>` : ''}
+        <div>${f.nl ? `<b class="v-nl" lang="nl">${esc(f.nl)}</b> ${hasTTS && f.nl ? `<button class="speak-btn bspeak" data-say="${esc(f.nl)}">🔊</button>` : ''}${f.name ? `<b>${esc(f.name)}</b>` : ''}<br>` : ''}
         <span>${esc(f.pt || f.fact || '')}</span></div></div>`).join('')}</div>
       ${(s.vocab && s.vocab.length) ? `<h3 style="margin-top:16px">🧩 Vocabulário</h3>${vocabTableHTML(s.vocab)}` : ''}
     </div>`;
@@ -986,7 +1003,7 @@ function renderMistakes(app) {
         <span class="muted">${m.lessonEmoji || ''} ${esc(m.lessonTitle || '')}</span>
         ${m.count > 1 ? `<span class="rep">🔺 ${m.count}x</span>` : ''}
         <button class="del-mistake" title="Já aprendi" data-key="${esc(m.key)}">✓ aprendi</button></div>
-      <div class="mistake-body"><b class="v-nl">${esc(m.nl || m.answer || '')}</b>
+      <div class="mistake-body"><b class="v-nl"${m.nlLang ? ' lang="nl"' : ''}>${esc(m.nl || m.answer || '')}</b>
         ${hasTTS && (m.nl || m.answer) ? `<button class="speak-btn mspeak" data-say="${esc(m.nl || m.answer)}">🔊</button>` : ''}
         <span class="muted"> — ${esc(clockify(m.pt || m.q || ''))}</span></div></div>`).join('')}</div>`;
   app.querySelectorAll('.mspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
@@ -994,7 +1011,7 @@ function renderMistakes(app) {
   $('#clearAll').addEventListener('click', () => { if (confirm('Limpar toda a lista de dificuldades?')) { S.mistakes = {}; save(); updateMistakeBadge(); renderMistakes(app); } });
   $('#drill').addEventListener('click', () => {
     app.innerHTML = `<div class="crumb"><a href="#/dificuldades">← dificuldades</a></div><h1>🃏 Treino de dificuldades</h1><div id="mfc"></div>`;
-    runFlashcards($('#mfc'), null, list.map(m => ({ nl: m.nl || m.answer, pt: m.pt || m.q, split: '', art: null, emoji: '🎯', key: 'mist|' + m.key })));
+    runFlashcards($('#mfc'), null, list.map(m => ({ nl: m.nl || m.answer, pt: m.pt || m.q, split: '', art: null, emoji: '🎯', key: 'mist|' + m.key, nlLang: m.nlLang !== false })));
   });
 }
 
@@ -1143,7 +1160,7 @@ function playSort(wrap, r, onWin) {
     <div class="drop-buckets">${r.buckets.map(b => `<div class="bucket" data-dropzone data-bucket="${esc(b.id)}">
       <div class="bucket-head">${b.emoji || '📦'} ${esc(b.label)}</div><div class="bucket-body"></div></div>`).join('')}</div>
     <div class="drag-pool">${shuffle(r.items).map((it, i) => `<span class="drag-chip" data-answer="${esc(it.bucket)}" data-i="${i}">
-      ${it.emoji || ''} <b>${esc(it.nl)}</b><small>${esc(it.pt)}</small></span>`).join('')}</div>
+      ${it.emoji || ''} <b lang="nl">${esc(it.nl)}</b><small>${esc(it.pt)}</small></span>`).join('')}</div>
     <p class="game-feedback" id="gfb"></p></div>`;
   wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, zone) => {
     const ok = zone.dataset.bucket === el.dataset.answer;
@@ -1155,8 +1172,8 @@ function playSort(wrap, r, onWin) {
       if (remaining === 0) { $('#gfb').innerHTML = wrong === 0 ? '🌟 Perfeito, sem erros!' : '🎉 Rodada concluída!'; onWin(); }
       return true;
     }
-    wrong++; recordMistake({ lesson: 'jogo:' + (r.title || ''), lessonTitle: r.title, lessonEmoji: '🧩', unit: '', q: el.textContent, nl: el.querySelector('b').textContent, pt: el.querySelector('small').textContent, answer: el.querySelector('b').textContent });
-    $('#gfb').innerHTML = `❌ Tente de novo: <b>${esc(el.querySelector('b').textContent)}</b> não é desse grupo.`;
+    wrong++; recordMistake({ lesson: 'jogo:' + (r.title || ''), lessonTitle: r.title, lessonEmoji: '🧩', unit: '', q: el.textContent, nl: el.querySelector('b').textContent, pt: el.querySelector('small').textContent, answer: el.querySelector('b').textContent, nlLang: true });
+    $('#gfb').innerHTML = `❌ Tente de novo: <b lang="nl">${esc(el.querySelector('b').textContent)}</b> não é desse grupo.`;
     el.classList.add('shake'); setTimeout(() => el.classList.remove('shake'), 400);
     return false;
   }));
@@ -1170,7 +1187,7 @@ function playTimeline(wrap, r, onWin) {
     <h3>${esc(r.title)}</h3><p class="muted">${esc(r.instruction || 'Arraste os eventos para a ordem certa')}</p>
     <div class="timeline-track" data-dropzone></div>
     <div class="drag-pool">${shuffle(r.events).map((e, i) => `<span class="drag-chip wide" data-year="${e.year}" data-i="${i}">
-      ${e.emoji || '📅'} <b>${esc(e.nl)}</b><small>${esc(e.pt)}</small></span>`).join('')}</div>
+      ${e.emoji || '📅'} <b lang="nl">${esc(e.nl)}</b><small>${esc(e.pt)}</small></span>`).join('')}</div>
     <p class="game-feedback" id="gfb"></p></div>`;
   const track = wrap.querySelector('.timeline-track');
   wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, zone) => {
@@ -1185,7 +1202,7 @@ function playTimeline(wrap, r, onWin) {
     el.classList.add('placed');
     placedYears.push(y);
     const isSorted = [...track.children].every((c, i, arr) => i === 0 || +arr[i-1].dataset.year <= +c.dataset.year);
-    if (!isSorted) { recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'📜', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt:'ordem cronológica', answer:el.querySelector('b').textContent }); }
+    if (!isSorted) { recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'📜', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt:'ordem cronológica', answer:el.querySelector('b').textContent, nlLang: true }); }
     $('#gfb').innerHTML = isSorted ? '✅ Ordem certa até agora!' : '🤔 Reveja a ordem: um evento está fora de lugar.';
     if (placedYears.length === order.length) {
       const finalOK = [...track.children].every((c, i, arr) => i === 0 || +arr[i-1].dataset.year <= +c.dataset.year);
@@ -1202,7 +1219,7 @@ function playMatch(wrap, r, onWin) {
   wrap.innerHTML = `<div class="card">
     <h3>${esc(r.title)}</h3><p class="muted">${esc(r.instruction || 'Arraste cada termo para a descrição certa')}</p>
     <div class="match-columns">
-      <div class="drag-pool vertical">${shuffle(r.pairs.map((p, i) => ({ p, i }))).map(o => `<span class="drag-chip wide" data-i="${o.i}">${o.p.emoji || '🎯'} <b>${esc(o.p.nl)}</b></span>`).join('')}</div>
+      <div class="drag-pool vertical">${shuffle(r.pairs.map((p, i) => ({ p, i }))).map(o => `<span class="drag-chip wide" data-i="${o.i}">${o.p.emoji || '🎯'} <b lang="nl">${esc(o.p.nl)}</b></span>`).join('')}</div>
       <div class="drop-targets">${shuffle(r.pairs.map((p, i) => ({ p, i }))).map(o => `<div class="target-desc" data-dropzone data-i="${o.i}">${esc(o.p.pt)}</div>`).join('')}</div>
     </div>
     <p class="game-feedback" id="gfb"></p></div>`;
@@ -1215,7 +1232,7 @@ function playMatch(wrap, r, onWin) {
       if (remaining === 0) { $('#gfb').innerHTML = '🌟 Todos os pares corretos!'; onWin(); }
       return true;
     }
-    recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🎨', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt: zone.textContent, answer: el.querySelector('b').textContent });
+    recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🎨', unit:'', q:el.textContent, nl:el.querySelector('b').textContent, pt: zone.textContent, answer: el.querySelector('b').textContent, nlLang: true });
     $('#gfb').innerHTML = '❌ Não é esse par, tente outra descrição.';
     el.classList.add('shake'); setTimeout(() => el.classList.remove('shake'), 400);
     return false;
@@ -1229,7 +1246,7 @@ function playBuild(wrap, r, onWin) {
   wrap.innerHTML = `<div class="card">
     <h3>🧱 ${esc(r.title)}</h3><p class="muted">tradução: <i>${esc(r.pt)}</i></p>
     <div class="built-sentence" data-dropzone></div>
-    <div class="drag-pool">${shuffle(r.tokens.map((t, i) => ({ t, i }))).map(o => `<span class="drag-chip" data-i="${o.i}">${esc(o.t)}</span>`).join('')}</div>
+    <div class="drag-pool">${shuffle(r.tokens.map((t, i) => ({ t, i }))).map(o => `<span class="drag-chip" lang="nl" data-i="${o.i}">${esc(o.t)}</span>`).join('')}</div>
     <div style="display:flex;gap:8px"><button class="btn small" id="resetB">↩️ desfazer tudo</button></div>
     <p class="game-feedback" id="gfb"></p></div>`;
   const zone = wrap.querySelector('.built-sentence');
@@ -1237,11 +1254,11 @@ function playBuild(wrap, r, onWin) {
     if (placed.length !== r.tokens.length) return;
     const made = [...zone.children].map(c => c.textContent).join(' ');
     if (norm(made) === norm(target)) {
-      $('#gfb').innerHTML = `🌟 Perfeito! "${esc(target)}"${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
+      $('#gfb').innerHTML = `🌟 Perfeito! "<span lang="nl">${esc(target)}</span>"${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
       onWin();
     } else {
-      recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🧱', unit:'', q:r.pt, nl:target, pt:r.pt, answer:target });
-      $('#gfb').innerHTML = `❌ Quase! A ordem certa é: <b>${esc(target)}</b>${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
+      recordMistake({ lesson:'jogo:'+r.title, lessonTitle:r.title, lessonEmoji:'🧱', unit:'', q:r.pt, nl:target, pt:r.pt, answer:target, nlLang: true });
+      $('#gfb').innerHTML = `❌ Quase! A ordem certa é: <b lang="nl">${esc(target)}</b>${r.explain ? '<br><small>💡 ' + esc(r.explain) + '</small>' : ''}`;
     }
   }
   wrap.querySelectorAll('.drag-chip').forEach(chip => makeDraggable(chip, (el, dz) => {
@@ -1261,7 +1278,7 @@ async function dailyWidgetHTML() {
     <div class="daily-head">📅 <b>Hoje · Hoje (${esc(d.date || '')})</b></div>
     <div class="daily-word">
       <span class="daily-em">${d.word.emoji || '🔤'}</span>
-      <div><b class="v-nl">${d.word.art ? `<span class="pill art-${d.word.art}">${d.word.art}</span> ` : ''}${esc(d.word.nl)}</b>
+      <div><b class="v-nl" lang="nl">${d.word.art ? `<span class="pill art-${d.word.art}">${d.word.art}</span> ` : ''}${esc(d.word.nl)}</b>
         ${hasTTS ? `<button class="speak-btn dspeak" data-say="${esc(d.word.nl)}">🔊</button>` : ''}
         <br><small class="muted">${esc(d.word.pt)}${d.word.split ? ' · 🧩 ' + esc(d.word.split) : ''}</small></div>
     </div>
