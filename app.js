@@ -253,9 +253,14 @@ async function lesson(id) {
 
 /* ---------- tts ---------- */
 const hasTTS = 'speechSynthesis' in window;
-function speak(text) {
+let SPEAKING_BTN = null;
+// btn is optional: when passed, it gets a `.speaking` pulse for the duration of playback - real
+// visual confirmation the pronunciation audio is actually running (useful on silent/muted devices,
+// and just makes a text-to-speech button feel like a real instrument instead of a static icon).
+function speak(text, btn) {
   if (!hasTTS) return;
   speechSynthesis.cancel();
+  if (SPEAKING_BTN) { SPEAKING_BTN.classList.remove('speaking'); SPEAKING_BTN = null; }
   const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️]/g,''));
   const voices = speechSynthesis.getVoices();
   const v = voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
@@ -263,6 +268,11 @@ function speak(text) {
   if (v) u.voice = v;
   u.lang = (v && v.lang) || 'nl-NL';
   u.rate = 0.88;
+  if (btn) {
+    btn.classList.add('speaking');
+    SPEAKING_BTN = btn;
+    u.onend = u.onerror = () => { btn.classList.remove('speaking'); if (SPEAKING_BTN === btn) SPEAKING_BTN = null; };
+  }
   speechSynthesis.speak(u);
 }
 if (hasTTS) speechSynthesis.getVoices(); // warm up voice list
@@ -318,7 +328,7 @@ function bindPhraseEvents(root) {
         .forEach(t => t.classList.add('hl'));
     });
   });
-  root.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say); }));
+  root.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say, b); }));
 }
 function legendStrip(phrases) {
   const used = new Set();
@@ -431,7 +441,7 @@ async function renderHome(app) {
   const daily = app.querySelector('.daily-card');
   if (daily) {
     bindPhraseEvents(daily);
-    daily.querySelectorAll('.speak,.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    daily.querySelectorAll('.speak,.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
   }
   pushAds(app);
 }
@@ -484,7 +494,7 @@ function showTab(t, L) {
       ${adSlotHTML('adLesson')}
       <p class="center"><button class="btn primary" id="goPractice">🏋️ Praticar agora →</button></p>`;
     bindPhraseEvents(body);
-    body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
     pushAds(body);
     $('#goPractice').addEventListener('click', () => {
       body.closest('#app').querySelector('[data-t="pr"]').click();
@@ -570,7 +580,7 @@ function runExercises(body, L) {
     body.innerHTML = header() + `<div class="card exwrap">${inner}</div>`;
 
     if (ex.type === 'mc' || ex.type === 'listen') {
-      if (ex.type === 'listen') { const p = $('#play'); p.addEventListener('click', () => speak(ex.nl)); setTimeout(() => speak(ex.nl), 300); }
+      if (ex.type === 'listen') { const p = $('#play'); p.addEventListener('click', () => speak(ex.nl, p)); setTimeout(() => speak(ex.nl, p), 300); }
       body.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
         const ok = +b.dataset.k === ex.answer;
         if (ok) { b.classList.add('correct'); lock(); feedback(true, ex.explain); }
@@ -692,7 +702,7 @@ function runFlashcards(body, L, cards) {
       </div>`;
     const fc = $('#fc');
     fc.addEventListener('click', e => {
-      if (e.target.id === 'say') { e.stopPropagation(); speak(c.nl); return; }
+      if (e.target.id === 'say') { e.stopPropagation(); speak(c.nl, e.target); return; }
       fc.classList.toggle('flip'); $('#grade').hidden = false;
     });
     $('#grade').querySelectorAll('button').forEach(b => b.addEventListener('click', () => {
@@ -821,7 +831,7 @@ async function renderWoordenboek(app) {
           <a class="btn small" target="_blank" rel="noopener" href="https://www.deepl.com/translator#nl/pt/${enc}">🤖 DeepL</a>
           <a class="btn small" target="_blank" rel="noopener" href="https://www.vandale.nl/gratis-woordenboek/nederlands/betekenis/${enc}">📙 Van Dale (NL)</a>
         </p></div>`;
-    out.querySelectorAll('.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    out.querySelectorAll('.dspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
     out.querySelectorAll('.emoji-hit').forEach(b => b.addEventListener('click', () => {
       navigator.clipboard && navigator.clipboard.writeText(b.dataset.e);
       toast(`${b.dataset.e} copiado!`);
@@ -841,7 +851,7 @@ function vocabTableHTML(list) {
   return `<table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th></tr>
     ${list.map(vocabRow).join('')}</table>`;
 }
-function bindVspeak(root) { root.querySelectorAll('.vspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say))); }
+function bindVspeak(root) { root.querySelectorAll('.vspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b))); }
 
 /* ---------- LEVEL selector: click A1 -> all A1 content ---------- */
 async function renderLevel(app, unit) {
@@ -886,7 +896,7 @@ async function renderLevel(app, unit) {
     phr: () => {
       body.innerHTML = legendStrip(allPhrases) + allPhrases.map((p, i) => phraseHTML(p, i)).join('');
       bindPhraseEvents(body);
-      body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say); }));
+      body.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say, b); }));
     },
     voc: () => { body.innerHTML = vocabTableHTML(allVocab); bindVspeak(body); },
     jog: () => {
@@ -924,7 +934,7 @@ async function renderKlanken(app) {
         <span class="klank-ex">${d.emoji || ''} ${esc(d.word)}<small>${esc(d.pt)}</small></span>
         ${hasTTS ? '<span class="klank-play">🔊</span>' : ''}</button>
       <p class="klank-tip">🗣️ ${esc(d.ptSound || '')}${d.tipPt ? ' · ' + esc(d.tipPt) : ''}</p></div>`).join('')}</div>`;
-  app.querySelectorAll('.klank-word').forEach(b => b.addEventListener('click', () => { speak(b.dataset.say); b.classList.add('said'); setTimeout(() => b.classList.remove('said'), 400); }));
+  app.querySelectorAll('.klank-word').forEach(b => b.addEventListener('click', () => { speak(b.dataset.say, b); b.classList.add('said'); setTimeout(() => b.classList.remove('said'), 400); }));
 }
 
 /* ---------- BELGIË: geography, cities, politics, sport, culture, history, fun facts ---------- */
@@ -949,7 +959,7 @@ async function renderBelgie(app) {
         <span>${esc(f.pt || f.fact || '')}</span></div></div>`).join('')}</div>
       ${(s.vocab && s.vocab.length) ? `<h3 style="margin-top:16px">🧩 Vocabulário</h3>${vocabTableHTML(s.vocab)}` : ''}
     </div>`;
-    body.querySelectorAll('.bspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+    body.querySelectorAll('.bspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
     bindVspeak(body);
     body.scrollIntoView({ behavior: 'smooth', block: 'start' });
   }
@@ -1025,7 +1035,7 @@ function renderMistakes(app) {
       <div class="mistake-body"><b class="v-nl">${esc(m.nl || m.answer || '')}</b>
         ${hasTTS && (m.nl || m.answer) ? `<button class="speak-btn mspeak" data-say="${esc(m.nl || m.answer)}">🔊</button>` : ''}
         <span class="muted"> — ${esc(clockify(m.pt || m.q || ''))}</span></div></div>`).join('')}</div>`;
-  app.querySelectorAll('.mspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say)));
+  app.querySelectorAll('.mspeak').forEach(b => b.addEventListener('click', () => speak(b.dataset.say, b)));
   app.querySelectorAll('.del-mistake').forEach(b => b.addEventListener('click', () => { clearMistake(b.dataset.key, 2); renderMistakes(app); }));
   $('#clearAll').addEventListener('click', () => { if (confirm('Limpar toda a lista de dificuldades?')) { S.mistakes = {}; save(); updateMistakeBadge(); renderMistakes(app); } });
   $('#drill').addEventListener('click', () => {
