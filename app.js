@@ -611,6 +611,7 @@ function runExercises(body, L) {
         if (picked.length === ex.tokens.length) {
           const made = picked.map(p => p.textContent).join(' ');
           const ok = [ex.answer, ...(ex.altAnswers || [])].some(a => norm(made) === norm(a));
+          if (!ok) firstTry = false;
           lock();
           ok ? feedback(true, ex.explain) : feedback(false, ex.explain, ex.answer);
         }
