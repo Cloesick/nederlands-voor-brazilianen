@@ -665,7 +665,7 @@ async function updateDueBadge() {
   const b = $('#dueBadge'); b.hidden = n === 0; b.textContent = n;
 }
 function gradeCard(key, grade) { // 0=again 1=hard 2=easy
-  const c = S.srs[key] || { box: 0, due: 0 };
+  const c = S.srs[key] || { box: 1, due: 0 };
   c.box = grade === 0 ? 1 : grade === 1 ? Math.max(1, c.box) : Math.min(5, (c.box || 0) + 1);
   c.due = Date.now() + SRS_DAYS[c.box] * 864e5;
   S.srs[key] = c; save(); updateDueBadge();
