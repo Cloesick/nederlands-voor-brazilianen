@@ -1,6 +1,6 @@
 /* Nederlands! service worker: app-shell cache-first, data network-first-with-fallback.
    Bump CACHE_NAME on any deploy that changes cached files so old clients pick up updates. */
-const CACHE_NAME = 'nederlands-v3';
+const CACHE_NAME = 'nederlands-v4';
 const SHELL = [
   './', './index.html', './styles.css', './app.js', './manifest.json',
   './assets/favicon.svg',

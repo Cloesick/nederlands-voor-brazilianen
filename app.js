@@ -54,9 +54,15 @@ function clockify(text) {
 /* ---------- state ---------- */
 let S = load();
 function load() {
-  try { return Object.assign({ xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'' },
-    JSON.parse(localStorage.getItem(STORE_KEY) || '{}')); }
-  catch { return { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'' }; }
+  // saga: { done:{chapterId:true}, flawless:{chapterId:true} } - the sword-and-saga campaign in #/saga
+  const defaults = { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'',
+    saga:{ done:{}, flawless:{} } };
+  try {
+    const s = Object.assign({}, defaults, JSON.parse(localStorage.getItem(STORE_KEY) || '{}'));
+    s.saga = Object.assign({ done:{}, flawless:{} }, s.saga); // older saves predate the campaign
+    return s;
+  }
+  catch { return defaults; }
 }
 
 /* ---------- premium: device id + entitlement check (see api/premium-status.js) ---------- */
@@ -205,7 +211,12 @@ function pushAds(root) {
 // XP itself never goes negative. Clearing a mistake pays some of it back - more for a verified
 // correct recall in the drill below than for the self-reported "✓ aprendi" shortcut, since actual
 // retrieval practice is the thing that's supposed to fix the gap.
+// MISS_HOOK: the Saga campaign subscribes here to take a heart away. Every wrong drop in every
+// game type already funnels through recordMistake, so this one hook covers sort/match/timeline/build
+// without touching any of the four play* functions.
+let MISS_HOOK = null;
 function recordMistake(m) {
+  if (MISS_HOOK) MISS_HOOK(m);
   const key = m.lesson + '|' + norm(m.q || m.answer || Math.random());
   const prev = S.mistakes[key];
   const count = (prev ? prev.count : 0) + 1;
@@ -360,6 +371,7 @@ window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updat
 
 async function route() {
   const app = $('#app');
+  MISS_HOOK = null; // leaving a Saga chapter must never keep draining its hearts
   const hFull = location.hash.replace(/^#\/?/, '');
   const h = hFull.split('?')[0];
   const qs = new URLSearchParams(hFull.split('?')[1] || '');
@@ -374,12 +386,15 @@ async function route() {
     if (h === 'decks') return renderDecks(app);
     if (h === 'dificuldades') return renderMistakes(app);
     if (h === 'spelletjes') return renderGamesHub(app);
+    if (h === 'saga') return renderSagaHub(app);
     if (h === 'premium') return renderPremium(app, qs);
     if (h === 'maandelijst') return renderMaandOverzicht(app);
     const mm = h.match(/^maandelijst\/([\w-]+)$/);
     if (mm) return renderMaandDetail(app, mm[1]);
     const mg = h.match(/^spelletjes\/([\w-]+)$/);
     if (mg) return renderGameDomain(app, mg[1]);
+    const ms = h.match(/^saga\/([\w-]+)$/);
+    if (ms) return renderSagaChapter(app, ms[1]);
     const mn = h.match(/^nivel\/([A-C][12])$/i);
     if (mn) return renderLevel(app, mn[1].toUpperCase());
     const m = h.match(/^les\/([\w-]+)(\/praticar)?$/);
@@ -418,6 +433,12 @@ async function renderHome(app) {
       `<a class="level-btn" href="#/nivel/${u}" style="background:${UNIT_COLORS[u]}">${u}<small>${UNIT_INFO[u].emoji} ${UNIT_INFO[u].name}</small></a>`).join('')}</div>
   </div>
   ${adSlotHTML('adHome')}
+  <a class="saga-cta" href="#/saga">
+    <span class="saga-cta-em">⚔️</span>
+    <span><b>De Saga van de Lage Landen</b>
+    <small>6 capítulos, 6 séculos: 1302, os geuzen, a raposa Reynaert. Sua patente: ${sagaRank(S.xp).cur.emoji} ${sagaRank(S.xp).cur.nl}</small></span>
+    <span class="saga-cta-go">▶️</span>
+  </a>
   <div class="home-tiles">
     <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
@@ -1090,6 +1111,7 @@ async function renderGamesHub(app) {
     <h1>🧩 Spelletjes <span class="muted" style="font-size:1rem">arraste e solte para aprender</span></h1>
     <p class="muted">Jogos de arrastar-e-soltar em 10 áreas: palavras, frases, política, notícias, esporte,
     geografia, arte, história, biologia e estética. Funciona igual no celular (toque) e no computador (mouse). 👆🖱️</p>
+    <p><a class="btn primary" href="#/saga">⚔️ Ou jogue a campanha: De Saga van de Lage Landen</a></p>
     <div class="game-grid">${GAME_DOMAINS.map(d => `<a class="game-tile" href="#/spelletjes/${d.id}" style="border-color:${d.color}">
       ${d.level ? `<span class="game-lvl" style="background:${d.color}">${d.level}</span>` : ''}
       <span class="game-em" style="background:${d.color}22">${d.emoji}</span><b>${d.label}</b></a>`).join('')}</div>`;
@@ -1111,11 +1133,7 @@ async function renderGameDomain(app, domId) {
   function playRound() {
     const bar = app.querySelector('.progressbar > div'); if (bar) bar.style.width = Math.round(100*idx/rounds.length) + '%';
     const cnt = app.querySelector('.game-progress b'); if (cnt) cnt.textContent = `${idx+1}/${rounds.length}`;
-    const r = rounds[idx];
-    if (dom.type === 'sort' || dom.type === 'sort-vocab') playSort(wrap, r, onWin);
-    else if (dom.type === 'timeline') playTimeline(wrap, r, onWin);
-    else if (dom.type === 'match') playMatch(wrap, r, onWin);
-    else if (dom.type === 'build') playBuild(wrap, r, onWin);
+    playRoundOfType(dom.type, wrap, rounds[idx], onWin);
   }
   function onWin() {
     wonRounds++; addXP(15); recordMistake.lastWin = true;
@@ -1129,6 +1147,15 @@ async function renderGameDomain(app, domId) {
     }, 900);
   }
   playRound();
+}
+
+// Single dispatcher shared by the Spelletjes hub and the Saga campaign, so a new game type
+// only ever has to be wired up in one place.
+function playRoundOfType(type, wrap, r, onWin) {
+  if (type === 'sort' || type === 'sort-vocab') playSort(wrap, r, onWin);
+  else if (type === 'timeline') playTimeline(wrap, r, onWin);
+  else if (type === 'match') playMatch(wrap, r, onWin);
+  else if (type === 'build') playBuild(wrap, r, onWin);
 }
 
 /* ---------- universal pointer-based drag helper ---------- */
@@ -1297,6 +1324,292 @@ function playBuild(wrap, r, onWin) {
     return true;
   }));
   $('#resetB').addEventListener('click', () => { const b = wrap.querySelector('.drag-pool'); [...zone.children].forEach(c => { c.classList.remove('placed'); b.appendChild(c); }); placed = []; $('#gfb').innerHTML = ''; });
+}
+
+/* ============================================================
+   ⚔️ DE SAGA VAN DE LAGE LANDEN — a quest campaign wrapped around
+   the drag-and-drop engine above. Nothing here re-implements a game:
+   every chapter is a playlist of existing rounds (from games-saga.json
+   or from the Spelletjes domains) plus narrative, hearts and a relic.
+   The history is real Low Countries material (1302 → 1898), which is
+   why the fantasy skin doubles as culture content instead of fighting it.
+   ============================================================ */
+const SAGA_RANKS = [
+  { xp: 0,    emoji: '🌾', nl: 'Dorpeling',           pt: 'aldeão' },
+  { xp: 150,  emoji: '🛡️', nl: 'Schildknaap',         pt: 'escudeiro' },
+  { xp: 400,  emoji: '⚔️', nl: 'Ridder',              pt: 'cavaleiro' },
+  { xp: 800,  emoji: '🏹', nl: 'Vrijbuiter',          pt: 'corsário dos geuzen' },
+  { xp: 1400, emoji: '🦁', nl: 'Leeuw van Vlaanderen', pt: 'o Leão de Flandres' },
+  { xp: 2200, emoji: '👑', nl: 'Grootmeester',        pt: 'grão-mestre' },
+];
+function sagaRank(xp) {
+  let cur = SAGA_RANKS[0], next = null;
+  for (const r of SAGA_RANKS) { if (xp >= r.xp) cur = r; else { next = r; break; } }
+  return { cur, next, toNext: next ? next.xp - xp : 0 };
+}
+
+/* which game type each set in data/games-saga.json is played with */
+const SAGA_SETS = { wapens:'sort', burcht:'sort', klankenproef:'sort', helden:'match',
+                    sagen:'timeline', heldenzinnen:'build', spreuken:'match' };
+
+const SAGA_HEARTS = 5;
+
+/* A quest is either `set` (a key of games-saga.json) or `domain` (a Spelletjes domain id).
+   `pick` selects specific rounds by index; `n` takes the first n. */
+const SAGA_CHAPTERS = [
+  {
+    id: 'brugge-1302', level: 'A1', emoji: '🌙', color: '#8D2F2F',
+    title: 'De Brugse Metten',
+    subtitle: 'Brugge, 18 de maio de 1302',
+    lead: `Ainda está escuro. A guarnição francesa dorme dentro das muralhas de Brugge, e nas ruas
+      os tecelões e açougueiros da cidade avançam de porta em porta. A senha é uma frase em neerlandês:
+      <b>“schild ende vriend”</b>. Quem tropeça no <b>sch-</b> ou no <b>-ui-</b> não é da cidade.
+      Sua língua é literalmente a sua arma — e é hoje que ela é testada.
+      <small class="muted">(Historiadores modernos tratam o teste de pronúncia como um acréscimo posterior à
+      história real do levante. A dificuldade dos sons, essa é verdadeira.)</small>`,
+    relic: { emoji: '🗝️', nl: 'De Sleutel van Brugge', pt: 'A Chave de Brugge' },
+    quests: [
+      { emoji: '🗣️', title: 'De proef', pt: 'Passe no teste de pronúncia da madrugada', set: 'klankenproef' },
+      { emoji: '⚔️', title: 'De wapenkamer', pt: 'Arme-se: cada peça no lugar certo', set: 'wapens' },
+      { emoji: '🧱', title: 'Het bevel', pt: 'Dê a ordem de ataque em neerlandês correto', set: 'heldenzinnen', pick: [0, 3] },
+      { emoji: '🦁', title: 'Het jaar 1302', pt: 'Ponha o ano da revolta em ordem', set: 'sagen', pick: [1] },
+    ],
+  },
+  {
+    id: 'elegast', level: 'A2', emoji: '🐎', color: '#2F4858',
+    title: 'Karel ende Elegast',
+    subtitle: 'A cavalgada noturna, séc. XIII',
+    lead: `Um anjo acorda o imperador Carlos Magno com uma ordem absurda: <i>saia e vá roubar</i>.
+      Na floresta escura ele encontra <b>Elegast</b>, o cavaleiro banido que rouba dos poderosos
+      e mesmo assim continua leal. Juntos descobrem que a verdadeira traição está dentro do próprio castelo.
+      É o romance de cavalaria mais antigo escrito em neerlandês — e ele começa, como toda boa missão, à noite.`,
+    relic: { emoji: '🌿', nl: 'Het kruid van Elegast', pt: 'A erva que faz entender os animais' },
+    quests: [
+      { emoji: '🏰', title: 'De burcht', pt: 'Conheça a fortaleza por dentro e por fora', set: 'burcht' },
+      { emoji: '👑', title: 'De nachtelijke rit', pt: 'Quem é quem na cavalgada noturna', set: 'helden', pick: [2] },
+      { emoji: '🧱', title: 'In het donkere woud', pt: 'Monte as frases da floresta', set: 'heldenzinnen', pick: [1, 2] },
+      { emoji: '🔤', title: 'De of het?', pt: 'Nenhum cavaleiro erra o artigo', set: 'wapens', pick: [1] },
+    ],
+  },
+  {
+    id: 'reynaert', level: 'B1', emoji: '🦊', color: '#B5651D',
+    title: 'Van den vos Reynaerde',
+    subtitle: 'A corte do rei Nobel',
+    lead: `O rei Nobel convocou toda a corte para julgar a raposa. Um por um os mensageiros vão até
+      <b>Malpertuus</b> buscá-la — e um por um voltam humilhados, sem pele no focinho, sem dignidade,
+      ou não voltam. Reynaert não vence com espada: vence com a língua. Esta é a arma que você está
+      aprendendo a usar. <i>Wie het laatst lacht, lacht het best.</i>`,
+    relic: { emoji: '🦊', nl: 'De pels van Reynaert', pt: 'A pele da raposa — o troféu que ninguém consegue tomar' },
+    quests: [
+      { emoji: '🏛️', title: 'Het hof', pt: 'Descubra quem é quem na corte animal', set: 'helden', pick: [1] },
+      { emoji: '🧱', title: 'De leugen', pt: 'Construa a mentira perfeita, com os verbos no fim', set: 'heldenzinnen', pick: [4, 7] },
+      { emoji: '🎨', title: 'De schatten', pt: 'Os tesouros da corte: arte dos Países Baixos', domain: 'kunst', n: 1 },
+    ],
+  },
+  {
+    id: 'geuzen', level: 'B2', emoji: '🏴‍☠️', color: '#1B4D3E',
+    title: 'De Geuzen',
+    subtitle: 'Beeldenstorm e mar, 1566–1585',
+    lead: `Chamaram-nos de <i>gueux</i> — mendigos — como insulto, e eles adotaram o nome.
+      Em 1566 as imagens caem das igrejas; em 1572 os <b>Watergeuzen</b> tomam Den Briel num
+      1º de abril que virou trocadilho nacional: <i>“Op 1 april verloor Alva zijn bril”</i>.
+      Em 1585 Antuérpia cai e metade da cidade foge para o norte. A partir daqui, o mapa que
+      você conhece hoje começa a se desenhar.`,
+    relic: { emoji: '👓', nl: 'De bril van Alva', pt: 'Os óculos de Alva — perdidos num 1º de abril' },
+    quests: [
+      { emoji: '🔨', title: 'De opstand', pt: 'Os nomes da revolta', set: 'helden', pick: [3] },
+      { emoji: '📜', title: 'De grote saga', pt: 'Vinte séculos em ordem, de Ambiorix a 1898', set: 'sagen', pick: [0] },
+      { emoji: '🧱', title: 'Voor zonsopgang', pt: 'Ordens de fuga e de cerco', set: 'heldenzinnen', pick: [5, 6] },
+      { emoji: '🗺️', title: 'Het terrein', pt: 'Domine o mapa antes da batalha', domain: 'geografie', n: 1 },
+    ],
+  },
+  {
+    id: 'gouden-eeuw', level: 'C1', emoji: '⚓', color: '#7A5C1E',
+    title: 'De Gouden Eeuw',
+    subtitle: 'Antuérpia, a cidade que imprimia o mundo',
+    lead: `Depois da guerra, o ouro. Antuérpia é o maior porto da Europa, Plantijn imprime em
+      sete línguas, os pintores enchem as igrejas e as guildas mandam na cidade.
+      Um herói agora não é quem saca a espada, é quem sabe negociar, imprimir e governar —
+      e para isso precisa das palavras exatas. <b>Este é o nível em que a língua vira poder.</b>`,
+    relic: { emoji: '🖨️', nl: 'De letter van Plantijn', pt: 'O tipo de chumbo de Plantijn' },
+    quests: [
+      { emoji: '🦁', title: 'De helden', pt: 'Os nomes que a Flandres nunca esqueceu', set: 'helden', pick: [0] },
+      { emoji: '🎨', title: 'De schilders', pt: 'A arte da Idade de Ouro', domain: 'kunst', n: 1 },
+      { emoji: '🏛️', title: 'Het bestuur', pt: 'Quem governa o quê na Bélgica de hoje', domain: 'politiek', n: 1 },
+      { emoji: '🧱', title: 'De koopman', pt: 'Frases do dia a dia, ditas sem hesitar', domain: 'zinnen', n: 2 },
+    ],
+  },
+  {
+    id: 'uilenspiegel', level: 'C2', emoji: '🪶', color: '#4B2E5E',
+    title: 'Tijl Uilenspiegel',
+    subtitle: 'O último capítulo: o espírito que não morre',
+    lead: `<i>“De as van Claes klopt op mijn hart.”</i> — as cinzas do meu pai batem no meu peito.
+      Tijl Uilenspiegel é o malandro que virou o espírito da Flandres: ri de todos, engana os
+      poderosos, e nunca é apanhado. Chegar até aqui significa que você já não traduz mais —
+      você <b>brinca</b> com a língua. Provérbios, duplos sentidos, ironia. A prova final.`,
+    relic: { emoji: '🪶', nl: 'De veer van Uilenspiegel', pt: 'A pena de Uilenspiegel — quem a tem, escreve a própria saga' },
+    quests: [
+      { emoji: '🗝️', title: 'De spreuken', pt: 'Provérbios nascidos do campo de batalha', set: 'spreuken' },
+      { emoji: '🎭', title: 'De uitdrukkingen', pt: 'As expressões que ninguém traduz ao pé da letra', domain: 'idiomen', n: 2 },
+      { emoji: '🎯', title: 'De nuance', pt: 'A diferença fina entre duas palavras quase iguais', domain: 'nuance', n: 1 },
+    ],
+  },
+];
+
+function sagaUnlocked(i) { return i === 0 || !!S.saga.done[SAGA_CHAPTERS[i - 1].id]; }
+
+async function sagaQuestRounds(q) {
+  if (q.domain) {
+    const dom = GAME_DOMAINS.find(d => d.id === q.domain);
+    if (!dom) return [];
+    const rs = await gamesForDomain(dom);
+    return rs.slice(0, q.n || 1).map(r => ({ r, type: dom.type }));
+  }
+  const all = (await gameFile('games-saga.json'))[q.set] || [];
+  const picked = q.pick ? q.pick.map(i => all[i]).filter(Boolean) : all.slice(0, q.n || all.length);
+  return picked.map(r => ({ r, type: SAGA_SETS[q.set] }));
+}
+
+function heartsHTML(left) {
+  return Array.from({ length: SAGA_HEARTS }, (_, i) => i < left ? '❤️' : '🖤').join('');
+}
+
+async function renderSagaHub(app) {
+  const { cur, next, toNext } = sagaRank(S.xp);
+  const relics = SAGA_CHAPTERS.filter(c => S.saga.done[c.id]);
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a></div>
+    <div class="saga-banner">
+      <h1>⚔️ De Saga van de Lage Landen</h1>
+      <p>Seis capítulos, seis séculos, uma língua. Toda batalha aqui se vence com neerlandês —
+      e toda história é real: 1302, os geuzen, a raposa Reynaert, Uilenspiegel.</p>
+      <div class="saga-rank">
+        <span class="saga-rank-em">${cur.emoji}</span>
+        <div><b>${cur.nl}</b> <small>· ${cur.pt}</small><br>
+        <small class="muted">⚡ ${S.xp} XP ${next ? `· faltam <b>${toNext}</b> para ${next.emoji} ${next.nl}` : '· patente máxima 🏆'}</small></div>
+      </div>
+      ${next ? `<div class="progressbar saga-bar"><div style="width:${Math.round(100 * (S.xp - cur.xp) / (next.xp - cur.xp))}%"></div></div>` : ''}
+    </div>
+    <div class="saga-chapters">${SAGA_CHAPTERS.map((c, i) => {
+      const done = !!S.saga.done[c.id], open = sagaUnlocked(i);
+      return `<${open ? 'a' : 'div'} class="saga-chapter${open ? '' : ' locked'}${done ? ' done' : ''}"
+        ${open ? `href="#/saga/${c.id}"` : ''} style="--ch:${c.color}">
+        <span class="saga-ch-em">${open ? c.emoji : '🔒'}</span>
+        <div class="saga-ch-txt">
+          <span class="saga-ch-title"><b>${esc(c.title)}</b> <span class="saga-lvl">${c.level}</span></span>
+          <small class="muted">${esc(c.subtitle)}</small>
+          <small class="saga-quests">${c.quests.length} missões${done ? ` · ✅ conquistado${S.saga.flawless[c.id] ? ' · 🌟 sem um arranhão' : ''}` : (open ? '' : ' · termine o capítulo anterior')}</small>
+        </div>
+        ${done ? `<span class="saga-relic-em" title="${esc(c.relic.pt)}">${c.relic.emoji}</span>` : ''}
+      </${open ? 'a' : 'div'}>`;
+    }).join('')}</div>
+    <div class="card saga-hall">
+      <h3>🏛️ Relikwieënkamer <small class="muted">· a sala das relíquias</small></h3>
+      ${relics.length
+        ? `<div class="relic-grid">${relics.map(c => `<div class="relic"><span>${c.relic.emoji}</span>
+            <b>${esc(c.relic.nl)}</b><small class="muted">${esc(c.relic.pt)}</small></div>`).join('')}</div>`
+        : `<p class="muted">Vazia por enquanto. Cada capítulo terminado deixa uma relíquia aqui. 🗝️</p>`}
+    </div>`;
+}
+
+async function renderSagaChapter(app, id) {
+  const ch = SAGA_CHAPTERS.find(c => c.id === id);
+  if (!ch) return renderSagaHub(app);
+  const i = SAGA_CHAPTERS.indexOf(ch);
+  if (!sagaUnlocked(i)) return renderSagaHub(app);
+
+  app.innerHTML = `<div class="crumb"><a href="#/saga">⚔️ Saga</a></div><div class="loading">⏳...</div>`;
+  // steps: a story card announcing each quest, then that quest's rounds
+  const steps = [];
+  for (const q of ch.quests) {
+    const rounds = await sagaQuestRounds(q);
+    if (!rounds.length) continue; // a domain with no data yet must not dead-end the chapter
+    steps.push({ kind: 'story', q, count: rounds.length });
+    rounds.forEach(x => steps.push({ kind: 'round', q, ...x }));
+  }
+  if (!steps.length) { app.innerHTML = `<div class="crumb"><a href="#/saga">⚔️ Saga</a></div><div class="card">Em breve 🔜</div>`; return; }
+
+  const totalRounds = steps.filter(s => s.kind === 'round').length;
+  let idx = 0, cleared = 0, hearts = SAGA_HEARTS, flawless = true;
+
+  app.innerHTML = `<div class="crumb"><a href="#/saga">⚔️ Saga</a></div>
+    <div class="saga-hud" style="--ch:${ch.color}">
+      <div class="saga-hud-top"><b>${ch.emoji} ${esc(ch.title)}</b>
+        <span class="saga-hearts" id="sagaHearts">${heartsHTML(hearts)}</span></div>
+      <div class="progressbar"><div id="sagaBar" style="width:0%"></div></div>
+      <small class="muted" id="sagaCount">0/${totalRounds}</small>
+    </div>
+    <div class="card saga-story" id="sagaLead" style="--ch:${ch.color}">${ch.lead}
+      <p><button class="btn primary" id="sagaGo">▶️ Começar a saga</button></p></div>
+    <div id="sagaBody" style="--ch:${ch.color}"></div>`;
+  const body = $('#sagaBody');
+
+  // A wrong drop anywhere in any game type costs a heart (see MISS_HOOK in recordMistake).
+  function loseHeart() {
+    flawless = false;
+    hearts--;
+    const h = document.getElementById('sagaHearts');
+    if (h) { h.textContent = heartsHTML(Math.max(0, hearts)); h.classList.add('hit'); setTimeout(() => h.classList.remove('hit'), 400); }
+    if (hearts <= 0) restAtInn();
+  }
+  MISS_HOOK = loseHeart;
+
+  function paint() {
+    const bar = document.getElementById('sagaBar'), cnt = document.getElementById('sagaCount');
+    if (bar) bar.style.width = Math.round(100 * cleared / totalRounds) + '%';
+    if (cnt) cnt.textContent = `${cleared}/${totalRounds}`;
+  }
+  // Running out of hearts never wipes chapter progress - it costs the flawless star and a pause.
+  // A campaign you can lose outright would punish exactly the beginners this is meant to hook.
+  function restAtInn() {
+    hearts = SAGA_HEARTS;
+    const h = document.getElementById('sagaHearts');
+    if (h) h.textContent = heartsHTML(hearts);
+    toast('🏚️ De herberg: corações recuperados');
+  }
+  function step() {
+    const s = steps[idx];
+    if (!s) return finish();
+    if (s.kind === 'story') {
+      body.innerHTML = `<div class="card saga-story quest" style="--ch:${ch.color}">
+        <h3>${s.q.emoji} ${esc(s.q.title)}</h3>
+        <p>${esc(s.q.pt)}</p>
+        <p class="muted"><small>${s.count} rodada(s)</small></p>
+        <p><button class="btn primary" id="sagaNext">⚔️ Aceitar a missão</button></p></div>`;
+      $('#sagaNext').addEventListener('click', () => { idx++; step(); });
+      return;
+    }
+    playRoundOfType(s.type, body, s.r, () => {
+      cleared++; addXP(15); paint();
+      idx++;
+      setTimeout(step, 900);
+    });
+  }
+  function finish() {
+    MISS_HOOK = null;
+    const firstTime = !S.saga.done[ch.id];
+    S.saga.done[ch.id] = true;
+    if (flawless) S.saga.flawless[ch.id] = true;
+    const bonus = (firstTime ? 60 : 20) + (flawless ? 40 : 0);
+    S.xp += bonus; save();
+    touchStreak(); save();
+    const { cur } = sagaRank(S.xp);
+    body.innerHTML = `<div class="card endscreen saga-win" style="--ch:${ch.color}">
+      <div class="big">${ch.relic.emoji}</div>
+      <h2>${esc(ch.relic.nl)}</h2>
+      <p class="muted">${esc(ch.relic.pt)}</p>
+      <p><b>+${bonus} ⚡</b>${flawless ? ' · 🌟 <b>Zonder kleerscheuren</b> (sem um arranhão!)' : ''}</p>
+      <p class="muted">Patente atual: ${cur.emoji} <b>${cur.nl}</b> · ⚡ ${S.xp} XP</p>
+      <p><button class="btn" id="sagaAgain">🔁 Jogar de novo</button>
+      <a class="btn primary" href="#/saga">⚔️ Voltar à saga</a></p></div>`;
+    $('#sagaAgain').addEventListener('click', () => {
+      idx = 0; cleared = 0; hearts = SAGA_HEARTS; flawless = true;
+      const h = document.getElementById('sagaHearts'); if (h) h.textContent = heartsHTML(hearts);
+      MISS_HOOK = loseHeart;
+      paint(); step();
+    });
+  }
+  $('#sagaGo').addEventListener('click', () => { $('#sagaLead').remove(); step(); });
 }
 
 /* ---------- daily word/phrase widget (home) + monthly wordlists ---------- */
