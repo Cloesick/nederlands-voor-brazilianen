@@ -215,6 +215,10 @@ function pushAds(root) {
 // game type already funnels through recordMistake, so this one hook covers sort/match/timeline/build
 // without touching any of the four play* functions.
 let MISS_HOOK = null;
+// Bumped by every route() call. Async renderers capture it and bail if a newer navigation
+// superseded them while they were awaiting data - otherwise a slow render that resolves late
+// can repaint the screen (and re-arm MISS_HOOK) for a chapter the user already left.
+let NAV_TOKEN = 0;
 function recordMistake(m) {
   if (MISS_HOOK) MISS_HOOK(m);
   const key = m.lesson + '|' + norm(m.q || m.answer || Math.random());
@@ -372,6 +376,7 @@ window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updat
 async function route() {
   const app = $('#app');
   MISS_HOOK = null; // leaving a Saga chapter must never keep draining its hearts
+  NAV_TOKEN++;
   const hFull = location.hash.replace(/^#\/?/, '');
   const h = hFull.split('?')[0];
   const qs = new URLSearchParams(hFull.split('?')[1] || '');
@@ -1513,6 +1518,7 @@ async function renderSagaHub(app) {
 }
 
 async function renderSagaChapter(app, id) {
+  const nav = NAV_TOKEN;
   const ch = SAGA_CHAPTERS.find(c => c.id === id);
   if (!ch) return renderSagaHub(app);
   const i = SAGA_CHAPTERS.indexOf(ch);
@@ -1527,6 +1533,7 @@ async function renderSagaChapter(app, id) {
     steps.push({ kind: 'story', q, count: rounds.length });
     rounds.forEach(x => steps.push({ kind: 'round', q, ...x }));
   }
+  if (nav !== NAV_TOKEN) return; // user navigated away while the rounds were loading
   if (!steps.length) { app.innerHTML = `<div class="crumb"><a href="#/saga">⚔️ Saga</a></div><div class="card">Em breve 🔜</div>`; return; }
 
   const totalRounds = steps.filter(s => s.kind === 'round').length;
