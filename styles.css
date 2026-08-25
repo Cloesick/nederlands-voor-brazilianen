@@ -285,6 +285,8 @@ table.vocab tr:nth-child(even) td{background:#F7F2E9}
 .drag-chip.placed{cursor:default}
 .drag-chip.correct-drop{border-color:var(--ok);background:var(--ok-bg);color:var(--ok)}
 .drag-chip.shake{animation:shakeX .4s}
+.drag-chip.kb-selected{outline:3px solid var(--gold);outline-offset:2px;box-shadow:0 0 0 3px #FFF7DF}
+.drag-chip:focus-visible,[data-dropzone]:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
 @keyframes shakeX{0%,100%{transform:translateX(0)}20%{transform:translateX(-6px)}40%{transform:translateX(6px)}60%{transform:translateX(-4px)}80%{transform:translateX(4px)}}
 .drag-ghost-slot{display:inline-block;border:2px dotted var(--line);border-radius:12px;opacity:.5}
 
