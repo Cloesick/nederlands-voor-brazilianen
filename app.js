@@ -359,6 +359,7 @@ window.addEventListener('hashchange', route);
 window.addEventListener('DOMContentLoaded', () => { paintStats(); route(); updateDueBadge(); updateMistakeBadge(); checkPremiumStatus(); initConsent(); initSwitcher(); });
 
 async function route() {
+  kbClearSelection();
   const app = $('#app');
   const hFull = location.hash.replace(/^#\/?/, '');
   const h = hFull.split('?')[0];
@@ -1138,8 +1139,46 @@ async function renderGameDomain(app, domId) {
 // there was previously no way at all to reach it (reported: exercises unfinishable on phone).
 const EDGE_ZONE = 70; // px from top/bottom edge that triggers auto-scroll
 const EDGE_SPEED = 14; // px scrolled per animation frame at max
+// Keyboard fallback for pointer-only drag&drop: select a chip (Enter/Space), then
+// activate a dropzone (Enter/Space) to place it. Single module-level selection
+// since only one chip can be "picked up" at a time, mirroring the pointer drag.
+let kbSelectedChip = null;
+function kbClearSelection() {
+  if (kbSelectedChip) { kbSelectedChip.classList.remove('kb-selected'); kbSelectedChip.setAttribute('aria-pressed', 'false'); }
+  kbSelectedChip = null;
+}
 function makeDraggable(el, onDrop) {
   el.style.touchAction = 'none';
+  el.tabIndex = 0;
+  el.setAttribute('role', 'button');
+  el.setAttribute('aria-pressed', 'false');
+  el.addEventListener('keydown', ev => {
+    if (ev.key !== 'Enter' && ev.key !== ' ') return;
+    if (el.classList.contains('placed')) return;
+    ev.preventDefault();
+    if (kbSelectedChip === el) { kbClearSelection(); return; }
+    kbClearSelection();
+    kbSelectedChip = el;
+    el.classList.add('kb-selected');
+    el.setAttribute('aria-pressed', 'true');
+  });
+  // Bind each dropzone in this round once, whichever chip gets there first.
+  // onDrop closures from different chips of the same round behave identically.
+  const container = el.closest('.card') || el.parentElement;
+  container.querySelectorAll('[data-dropzone]').forEach(zone => {
+    if (zone.dataset.kbBound) return;
+    zone.dataset.kbBound = '1';
+    zone.tabIndex = 0;
+    zone.setAttribute('role', 'button');
+    zone.addEventListener('keydown', ev => {
+      if (ev.key !== 'Enter' && ev.key !== ' ') return;
+      if (!kbSelectedChip) return;
+      ev.preventDefault();
+      const chip = kbSelectedChip;
+      kbClearSelection();
+      onDrop(chip, zone);
+    });
+  });
   el.addEventListener('pointerdown', ev => {
     if (el.classList.contains('placed')) return;
     ev.preventDefault();
