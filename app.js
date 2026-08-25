@@ -656,12 +656,22 @@ function runExercises(body, L) {
 }
 
 /* ---------- flashcards / SRS ---------- */
-function dueCards() {
+// S.srs keys mix several namespaces: lesson vocab (`<lessonId>|<nl>`), the "Dificuldades"
+// mistake deck (`mist|<key>`), standalone decks (`deck-<id>|<nl>`), level review (`lvl-<unit>|<nl>`)
+// and month lists (`maand-<month>|<nl>`). Only lesson-vocab keys are ever surfaced by renderReview(),
+// so dueCards() is scoped to that namespace to keep #dueBadge in sync with what tapping it shows.
+// The other namespaces have their own dedicated due-tracking (mistakeList()/#mistakeBadge, or are
+// simply re-drilled on demand from their own screens).
+async function dueCards() {
   const now = Date.now();
-  return Object.entries(S.srs).filter(([, v]) => v.due <= now).map(([k]) => k);
+  const man = await manifest();
+  const lessonIds = new Set(man.lessons.map(l => l.id));
+  return Object.entries(S.srs)
+    .filter(([k, v]) => v.due <= now && lessonIds.has(k.split('|')[0]))
+    .map(([k]) => k);
 }
 async function updateDueBadge() {
-  const n = dueCards().length;
+  const n = (await dueCards()).length;
   const b = $('#dueBadge'); b.hidden = n === 0; b.textContent = n;
 }
 function gradeCard(key, grade) { // 0=again 1=hard 2=easy
@@ -722,7 +732,7 @@ function runFlashcards(body, L, cards) {
 async function renderReview(app) {
   app.innerHTML = `<h1>🃏 Revisão inteligente</h1><div class="loading">⏳ Buscando cartas...</div>`;
   const man = await manifest();
-  const due = new Set(dueCards());
+  const due = new Set(await dueCards());
   const cards = [];
   for (const l of man.lessons) {
     const hasAny = [...due].some(k => k.startsWith(l.id + '|'));
