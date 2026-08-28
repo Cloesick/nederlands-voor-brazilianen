@@ -228,7 +228,11 @@ function updateMistakeBadge() {
   const n = mistakeList().length, b = document.getElementById('mistakeBadge');
   if (b) { b.hidden = n === 0; b.textContent = n; }
 }
-function save() { localStorage.setItem(STORE_KEY, JSON.stringify(S)); paintStats(); }
+function save() {
+  try { localStorage.setItem(STORE_KEY, JSON.stringify(S)); }
+  catch (e) { console.warn('save failed', e); }
+  paintStats();
+}
 function today() { return new Date().toISOString().slice(0,10); }
 function touchStreak() {
   const t = today();
