@@ -73,8 +73,13 @@ async function checkPremiumStatus() {
   if (!window.NL_CONFIG || !window.NL_CONFIG.PREMIUM_ENABLED) return;
   try {
     const r = await fetch('/api/premium-status?device=' + encodeURIComponent(deviceId()));
+    // Only a definitive answer may change entitlement. A 503 (lookup failed) or a malformed body
+    // must leave the cached value alone - otherwise one Supabase outage silently downgrades a
+    // paying user, and `!!undefined` would quietly read as "not premium".
+    if (!r.ok) return;
     const d = await r.json();
-    if (S.premium !== !!d.premium) { S.premium = !!d.premium; save(); }
+    if (typeof d.premium !== 'boolean') return;
+    if (S.premium !== d.premium) { S.premium = d.premium; save(); }
   } catch { /* offline or api not ready: keep last known state */ }
 }
 function isPremium() { return !!S.premium; }
