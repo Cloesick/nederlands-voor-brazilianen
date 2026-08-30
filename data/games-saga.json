@@ -1,0 +1,241 @@
+{
+  "_bron": "Conteúdo histórico e literário baseado em fontes abertas (Wikipédia NL/PT, DBNL — Digitale Bibliotheek voor de Nederlandse Letteren). Lendas marcadas como lenda no texto.",
+  "wapens": [
+    {
+      "title": "De wapenkamer: aanval, verdediging of rijden?",
+      "instruction": "Arraste cada peça do equipamento do cavaleiro para a sala certa da armaria",
+      "buckets": [
+        { "id": "b1", "label": "Aanvalswapen", "emoji": "⚔️" },
+        { "id": "b2", "label": "Bescherming", "emoji": "🛡️" },
+        { "id": "b3", "label": "Te paard", "emoji": "🐎" }
+      ],
+      "items": [
+        { "nl": "het zwaard", "pt": "a espada — a arma-símbolo do cavaleiro", "emoji": "⚔️", "bucket": "b1" },
+        { "nl": "de speer", "pt": "a lança", "emoji": "🔱", "bucket": "b1" },
+        { "nl": "de goedendag", "pt": "o goedendag — porrete flamengo com ponta de ferro, a arma da milícia em Kortrijk (1302)", "emoji": "🏒", "bucket": "b1" },
+        { "nl": "de dolk", "pt": "a adaga", "emoji": "🗡️", "bucket": "b1" },
+        { "nl": "het schild", "pt": "o escudo", "emoji": "🛡️", "bucket": "b2" },
+        { "nl": "de helm", "pt": "o elmo, o capacete", "emoji": "⛑️", "bucket": "b2" },
+        { "nl": "het harnas", "pt": "a armadura de placas", "emoji": "🥋", "bucket": "b2" },
+        { "nl": "de maliënkolder", "pt": "a cota de malha", "emoji": "🕸️", "bucket": "b2" },
+        { "nl": "het zadel", "pt": "a sela", "emoji": "🐴", "bucket": "b3" },
+        { "nl": "de teugel", "pt": "a rédea", "emoji": "🪢", "bucket": "b3" },
+        { "nl": "de stijgbeugel", "pt": "o estribo", "emoji": "🦶", "bucket": "b3" }
+      ]
+    },
+    {
+      "title": "DE of HET in de wapenkamer?",
+      "instruction": "Toda arma tem artigo. Arraste cada palavra para o artigo certo — errar o artigo entrega o estrangeiro",
+      "buckets": [
+        { "id": "de", "label": "DE", "emoji": "🟧" },
+        { "id": "het", "label": "HET", "emoji": "🟩" }
+      ],
+      "items": [
+        { "nl": "zwaard", "pt": "a espada → HET zwaard", "emoji": "⚔️", "bucket": "het" },
+        { "nl": "schild", "pt": "o escudo → HET schild", "emoji": "🛡️", "bucket": "het" },
+        { "nl": "harnas", "pt": "a armadura → HET harnas", "emoji": "🥋", "bucket": "het" },
+        { "nl": "paard", "pt": "o cavalo → HET paard", "emoji": "🐎", "bucket": "het" },
+        { "nl": "kasteel", "pt": "o castelo → HET kasteel", "emoji": "🏰", "bucket": "het" },
+        { "nl": "helm", "pt": "o elmo → DE helm", "emoji": "⛑️", "bucket": "de" },
+        { "nl": "boog", "pt": "o arco → DE boog", "emoji": "🏹", "bucket": "de" },
+        { "nl": "pijl", "pt": "a flecha → DE pijl", "emoji": "➡️", "bucket": "de" },
+        { "nl": "ridder", "pt": "o cavaleiro → DE ridder", "emoji": "🤺", "bucket": "de" },
+        { "nl": "burcht", "pt": "a fortaleza → DE burcht", "emoji": "🏯", "bucket": "de" },
+        { "nl": "gracht", "pt": "o fosso, o canal → DE gracht", "emoji": "🌊", "bucket": "de" }
+      ]
+    }
+  ],
+  "burcht": [
+    {
+      "title": "Het beleg: de burcht van binnen en van buiten",
+      "instruction": "Arraste cada parte da fortaleza para onde ela fica",
+      "buckets": [
+        { "id": "b1", "label": "Buitenkant", "emoji": "🧱" },
+        { "id": "b2", "label": "Binnenin", "emoji": "🕯️" },
+        { "id": "b3", "label": "Mensen", "emoji": "👥" }
+      ],
+      "items": [
+        { "nl": "de gracht", "pt": "o fosso cheio de água em volta da fortaleza", "emoji": "🌊", "bucket": "b1" },
+        { "nl": "de ophaalbrug", "pt": "a ponte levadiça", "emoji": "🌉", "bucket": "b1" },
+        { "nl": "de poort", "pt": "o portão", "emoji": "🚪", "bucket": "b1" },
+        { "nl": "de kantelen", "pt": "as ameias no alto do muro", "emoji": "🏰", "bucket": "b1" },
+        { "nl": "de toren", "pt": "a torre", "emoji": "🗼", "bucket": "b1" },
+        { "nl": "de kerker", "pt": "a masmorra", "emoji": "⛓️", "bucket": "b2" },
+        { "nl": "de ridderzaal", "pt": "o salão nobre onde o senhor recebia", "emoji": "🕯️", "bucket": "b2" },
+        { "nl": "de wapenkamer", "pt": "a armaria, onde ficam as armas", "emoji": "⚔️", "bucket": "b2" },
+        { "nl": "de heer", "pt": "o senhor feudal", "emoji": "👑", "bucket": "b3" },
+        { "nl": "de schildknaap", "pt": "o escudeiro — o aprendiz de cavaleiro", "emoji": "🛡️", "bucket": "b3" },
+        { "nl": "de smid", "pt": "o ferreiro", "emoji": "🔨", "bucket": "b3" },
+        { "nl": "de wever", "pt": "o tecelão — a profissão de Pieter de Coninck, herói de Brugge", "emoji": "🧵", "bucket": "b3" }
+      ]
+    }
+  ],
+  "klankenproef": [
+    {
+      "title": "⚔️ De proef van 1302: schild ende vriend",
+      "instruction": "Conta a lenda que em Brugge, na madrugada de 18 de maio de 1302, quem não conseguia pronunciar 'schild ende vriend' era morto. Arraste cada palavra para o som que a denuncia. (Historiadores hoje veem o teste de pronúncia como acréscimo posterior à história — mas o treino é real.)",
+      "buckets": [
+        { "id": "b1", "label": "sch- (schild)", "emoji": "🛡️" },
+        { "id": "b2", "label": "ui (huis)", "emoji": "🏠" },
+        { "id": "b3", "label": "g / ch (gracht)", "emoji": "🌊" }
+      ],
+      "items": [
+        { "nl": "schild", "pt": "escudo — s + ch raspado, nunca 'x' de xícara", "emoji": "🛡️", "bucket": "b1" },
+        { "nl": "school", "pt": "escola", "emoji": "🏫", "bucket": "b1" },
+        { "nl": "schoen", "pt": "sapato", "emoji": "👞", "bucket": "b1" },
+        { "nl": "schat", "pt": "tesouro (e também 'querido')", "emoji": "💰", "bucket": "b1" },
+        { "nl": "huis", "pt": "casa — 'ui' não existe em português: comece no 'ö' e deslize", "emoji": "🏠", "bucket": "b2" },
+        { "nl": "buiten", "pt": "fora, do lado de fora", "emoji": "🌳", "bucket": "b2" },
+        { "nl": "kruis", "pt": "cruz", "emoji": "✝️", "bucket": "b2" },
+        { "nl": "muis", "pt": "rato", "emoji": "🐁", "bucket": "b2" },
+        { "nl": "gracht", "pt": "fosso, canal — o 'g' raspado do fundo da garganta", "emoji": "🌊", "bucket": "b3" },
+        { "nl": "goedendag", "pt": "o porrete flamengo (e literalmente 'bom dia')", "emoji": "🏒", "bucket": "b3" },
+        { "nl": "lachen", "pt": "rir", "emoji": "😄", "bucket": "b3" },
+        { "nl": "vlag", "pt": "bandeira", "emoji": "🚩", "bucket": "b3" }
+      ]
+    }
+  ],
+  "helden": [
+    {
+      "title": "De helden van de Lage Landen",
+      "instruction": "Arraste cada nome para a sua lenda",
+      "pairs": [
+        { "nl": "Pieter de Coninck", "pt": "Tecelão de Brugge, um dos líderes populares da revolta de 1302 contra o rei da França", "emoji": "🧵" },
+        { "nl": "Jan Breydel", "pt": "Açougueiro de Brugge, o outro nome da dupla que a tradição pôs à frente da revolta de 1302", "emoji": "🔪" },
+        { "nl": "Robrecht van Bethune", "pt": "O conde de Flandres apelidado 'de Leeuw van Vlaanderen' — o Leão de Flandres", "emoji": "🦁" },
+        { "nl": "Jacob van Artevelde", "pt": "'De Wijze Man van Gent': em 1338 aliou Gent à Inglaterra para salvar o comércio de lã", "emoji": "🐑" },
+        { "nl": "Ambiorix", "pt": "Chefe dos Eburões que destruiu uma legião romana em 54 a.C.; César chamou os belgas de 'os mais bravos'", "emoji": "🗡️" },
+        { "nl": "Hendrik Conscience", "pt": "Escritor de 1838 que 'ensinou seu povo a ler' e transformou 1302 em epopeia nacional", "emoji": "📗" }
+      ]
+    },
+    {
+      "title": "Van den vos Reynaerde: wie is wie aan het hof?",
+      "instruction": "A epopeia animal flamenga do séc. XIII. Arraste cada personagem para o seu papel na corte",
+      "pairs": [
+        { "nl": "Reynaert de vos", "pt": "A raposa trapaceira: mente, escapa e humilha a corte inteira — o anti-herói favorito dos Países Baixos", "emoji": "🦊" },
+        { "nl": "Nobel de leeuw", "pt": "O rei leão que convoca a corte para julgar os crimes da raposa", "emoji": "🦁" },
+        { "nl": "Bruun de beer", "pt": "O urso enviado para prender a raposa — perde a pele do focinho num tronco de mel", "emoji": "🐻" },
+        { "nl": "Tibeert de kater", "pt": "O gato mandado como segundo mensageiro — cai numa armadilha atrás de ratos", "emoji": "🐈" },
+        { "nl": "Cuwaert de haas", "pt": "A lebre ingênua que acredita na raposa e não sobrevive à ingenuidade", "emoji": "🐇" },
+        { "nl": "Malpertuus", "pt": "O covil-fortaleza da raposa, cheio de saídas secretas", "emoji": "🕳️" }
+      ]
+    },
+    {
+      "title": "Karel ende Elegast: de nachtelijke rit",
+      "instruction": "Romance de cavalaria em médio-neerlandês (séc. XIII): um anjo manda o imperador sair para roubar. Arraste cada elemento para o seu significado",
+      "pairs": [
+        { "nl": "Karel de Grote", "pt": "Carlos Magno: o imperador que recebe a ordem sobrenatural de sair roubando à noite", "emoji": "👑" },
+        { "nl": "Elegast", "pt": "O cavaleiro banido, ladrão nobre, que rouba dos ricos e continua leal ao imperador", "emoji": "🌙" },
+        { "nl": "Eggeric van Eggermonde", "pt": "O cunhado traidor que conspira para matar o imperador", "emoji": "🐍" },
+        { "nl": "het kruid", "pt": "A erva mágica que Elegast põe na boca para entender a fala dos animais", "emoji": "🌿" },
+        { "nl": "de haan", "pt": "O galo cujo canto marca o tempo do assalto noturno", "emoji": "🐓" },
+        { "nl": "het godsoordeel", "pt": "O duelo judicial no fim: quem vence tinha razão diante de Deus", "emoji": "⚖️" }
+      ]
+    },
+    {
+      "title": "De Geuzen en Tijl Uilenspiegel",
+      "instruction": "Século XVI: revolta, mar e cinzas. Arraste cada nome para a sua história",
+      "pairs": [
+        { "nl": "de Watergeuzen", "pt": "Os 'mendigos do mar': corsários rebeldes que tomaram Den Briel em 1º de abril de 1572", "emoji": "🏴‍☠️" },
+        { "nl": "de hertog van Alva", "pt": "O governador espanhol do terror — daí o trocadilho 'Op 1 april verloor Alva zijn bril'", "emoji": "👓" },
+        { "nl": "de Beeldenstorm", "pt": "A fúria iconoclasta de 1566: imagens de santos destruídas por toda a Flandres", "emoji": "🔨" },
+        { "nl": "Tijl Uilenspiegel", "pt": "O espírito rebelde da Flandres no romance de Charles De Coster (1867)", "emoji": "🪶" },
+        { "nl": "Lamme Goedzak", "pt": "O companheiro gordo e bonachão de Tijl — o apetite ao lado da revolta", "emoji": "🍖" },
+        { "nl": "Nele", "pt": "A amada de Tijl, o coração de Flandres ao lado do seu espírito", "emoji": "❤️" }
+      ]
+    }
+  ],
+  "sagen": [
+    {
+      "title": "⚔️ De grote saga: zet de eeuwen op een rij",
+      "instruction": "Arraste cada acontecimento para a ordem cronológica certa",
+      "events": [
+        { "year": -54, "nl": "Ambiorix verslaat een Romeins legioen", "pt": "Ambiorix destrói uma legião romana — a resistência dos Eburões", "emoji": "🗡️" },
+        { "year": 1302, "nl": "De Brugse Metten en de Guldensporenslag", "pt": "As Matinas de Bruges (18/5) e a Batalha das Esporas Douradas (11/7): a milícia flamenga derrota a cavalaria francesa", "emoji": "🦁" },
+        { "year": 1338, "nl": "Jacob van Artevelde verbindt Gent met Engeland", "pt": "Gante se alia à Inglaterra pela lã — comércio acima de reis", "emoji": "🐑" },
+        { "year": 1382, "nl": "Slag bij Westrozebeke: Frankrijk haalt de sporen terug", "pt": "A França vence em Westrozebeke e retoma as esporas douradas", "emoji": "💔" },
+        { "year": 1566, "nl": "De Beeldenstorm begint in Steenvoorde", "pt": "Começa a fúria iconoclasta que incendeia os Países Baixos", "emoji": "🔨" },
+        { "year": 1572, "nl": "De Watergeuzen nemen Den Briel in", "pt": "Os 'mendigos do mar' tomam Den Briel: 1º de abril de 1572", "emoji": "🏴‍☠️" },
+        { "year": 1585, "nl": "De val van Antwerpen", "pt": "Antuérpia cai; milhares de protestantes fogem para o norte e o Escalda é fechado", "emoji": "⚓" },
+        { "year": 1830, "nl": "De Belgische Revolutie", "pt": "A revolução belga começa depois de uma ópera em Bruxelas", "emoji": "🇧🇪" },
+        { "year": 1898, "nl": "De Gelijkheidswet", "pt": "Lei da Igualdade: o neerlandês passa a ter valor legal igual ao francês na Bélgica", "emoji": "⚖️" }
+      ]
+    },
+    {
+      "title": "🦁 Het jaar 1302, uur na uur",
+      "instruction": "Um único ano, em ordem. Arraste os momentos de 1302 para a sequência certa (as datas estão no verso da carta)",
+      "events": [
+        { "year": 1, "nl": "Frankrijk bezet Vlaanderen", "pt": "A França ocupa Flandres e prende o conde: o povo perde suas liberdades urbanas", "emoji": "⛓️" },
+        { "year": 2, "nl": "18 mei: de Brugse Metten", "pt": "18 de maio: a madrugada em que Bruges se levanta contra a guarnição francesa", "emoji": "🌙" },
+        { "year": 3, "nl": "De milities verzamelen bij Kortrijk", "pt": "As milícias das cidades se juntam perto de Kortrijk — tecelões e açougueiros, não nobres", "emoji": "🧵" },
+        { "year": 4, "nl": "11 juli: de Guldensporenslag", "pt": "11 de julho: a cavalaria francesa atola nos fossos e é destruída pelos goedendags", "emoji": "⚔️" },
+        { "year": 5, "nl": "De gouden sporen worden opgeraapt", "pt": "As esporas douradas dos cavaleiros mortos são recolhidas e penduradas na igreja de Kortrijk", "emoji": "🥇" },
+        { "year": 6, "nl": "11 juli wordt de feestdag van Vlaanderen", "pt": "Séculos depois, 11 de julho vira o feriado oficial da Comunidade Flamenga", "emoji": "🎉" }
+      ]
+    }
+  ],
+  "heldenzinnen": [
+    {
+      "title": "O cavaleiro saca a espada.",
+      "pt": "O cavaleiro saca a sua espada.",
+      "tokens": ["De", "ridder", "trekt", "zijn", "zwaard"],
+      "explain": "V2 clássica: sujeito (De ridder) em 1º, verbo conjugado (trekt) sempre em 2º lugar."
+    },
+    {
+      "title": "Hoje o rei cavalga pela floresta escura.",
+      "pt": "Hoje o rei cavalga pela floresta escura.",
+      "tokens": ["Vandaag", "rijdt", "de", "koning", "door", "het", "donkere", "woud"],
+      "explain": "Começou com o tempo (Vandaag)? Então o verbo continua em 2º lugar e o sujeito é jogado para depois dele: inversão."
+    },
+    {
+      "title": "Deixei cair meu escudo no fosso.",
+      "pt": "Deixei cair o meu escudo no fosso.",
+      "tokens": ["Ik", "heb", "mijn", "schild", "in", "de", "gracht", "laten", "vallen"],
+      "explain": "Perfeito com dois infinitivos no fim: 'heb ... laten vallen'. Em neerlandês o pelotão de verbos marcha para o fim da frase."
+    },
+    {
+      "title": "Quando o portão abrir, nós atacamos.",
+      "pt": "Quando o portão abrir, nós atacamos.",
+      "tokens": ["Als", "de", "poort", "opengaat", ",", "vallen", "wij", "aan"],
+      "explain": "Oração com 'als' manda o verbo para o fim (opengaat). Aí a oração inteira ocupa a 1ª posição, então a principal inverte: vallen wij aan."
+    },
+    {
+      "title": "A raposa enganou o rei.",
+      "pt": "A raposa enganou o rei.",
+      "tokens": ["De", "vos", "heeft", "de", "koning", "bedrogen"],
+      "explain": "Perfeito: auxiliar (heeft) em 2º lugar, particípio (bedrogen) no fim — a 'pinça' do neerlandês."
+    },
+    {
+      "title": "Vamos deixar a cidade antes do amanhecer.",
+      "pt": "Vamos deixar a cidade antes do nascer do sol.",
+      "tokens": ["Wij", "zullen", "de", "stad", "voor", "zonsopgang", "verlaten"],
+      "explain": "Futuro com 'zullen': o infinitivo (verlaten) vai para o fim, tudo que importa fica espremido no meio."
+    },
+    {
+      "title": "Como chovia, o exército ficou na fortaleza.",
+      "pt": "Como estava chovendo, o exército ficou na fortaleza.",
+      "tokens": ["Omdat", "het", "regende", ",", "bleef", "het", "leger", "in", "de", "burcht"],
+      "explain": "'Omdat' joga o verbo para o fim da subordinada (regende); a principal começa invertida (bleef het leger)."
+    },
+    {
+      "title": "Ninguém sabe onde a raposa se escondeu.",
+      "pt": "Ninguém sabe onde a raposa se escondeu.",
+      "tokens": ["Niemand", "weet", "waar", "de", "vos", "zich", "verstopt", "heeft"],
+      "explain": "Pergunta indireta com 'waar': tudo que vem depois é subordinada, então os verbos (verstopt heeft) se empilham no fim."
+    }
+  ],
+  "spreuken": [
+    {
+      "title": "Spreuken uit de saga",
+      "instruction": "Provérbios que os flamengos ainda usam hoje, nascidos do campo de batalha e da corte. Arraste cada um para o sentido certo",
+      "pairs": [
+        { "nl": "de kat uit de boom kijken", "pt": "Esperar para ver como as coisas se desenrolam antes de agir — a paciência do sitiante", "emoji": "🐈" },
+        { "nl": "iemand om de tuin leiden", "pt": "Enganar alguém, levá-lo para o mato como Reynaert fazia com toda a corte", "emoji": "🦊" },
+        { "nl": "het onderspit delven", "pt": "Levar a pior, ser derrotado — a imagem vem de cavar trincheiras num cerco", "emoji": "⚰️" },
+        { "nl": "in het harnas sterven", "pt": "Morrer trabalhando, morrer em serviço — literalmente 'morrer dentro da armadura'", "emoji": "🥋" },
+        { "nl": "de degens kruisen", "pt": "Medir forças com alguém, entrar em confronto direto — 'cruzar as espadas'", "emoji": "⚔️" },
+        { "nl": "zijn schaapjes op het droge hebben", "pt": "Estar com a vida financeira garantida — as ovelhas já em terra firme, longe da maré", "emoji": "🐑" }
+      ]
+    }
+  ]
+}
