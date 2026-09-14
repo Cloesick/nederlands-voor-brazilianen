@@ -27,7 +27,8 @@
     { "type": "listen", "nl": "frase falada", "options": ["...","..."], "answer": 0, "explain": "..." },
     { "type": "fill",   "before": "Ik", "after": "Sofia.", "answer": "heet", "alt": ["ben"], "hint": "...", "explain": "..." },
     { "type": "order",  "pt": "tradução", "tokens": ["na","ordem","certa"], "answer": "na ordem certa", "altAnswers": ["outra ordem certa"], "explain": "..." },
-    { "type": "match",  "pairs": [["nl","pt"], ["nl","pt"]], "explain": "..." }
+    { "type": "match",  "pairs": [["nl","pt"], ["nl","pt"]], "explain": "..." },
+    { "type": "pronounce", "nl": "frase para pronunciar", "pt": "tradução (opcional)", "explain": "..." }
   ]
 }
 ```
@@ -53,3 +54,5 @@
 **Regra de ouro:** o mesmo conceito recebe o MESMO papel nas duas línguas. É isso que cria o reconhecimento de padrões.
 
 Regras de exercício: `answer` de mc/listen é índice 0-based; em `order`, `tokens` ficam na ordem CERTA e `answer` = tokens unidos por espaço (o app embaralha sozinho); `altAnswers` (opcional) lista outras ordenações igualmente corretas, como em orações subordinadas neerlandesas onde advérbio e objeto podem trocar de posição; todo exercício tem `explain` em PT-BR.
+
+`pronounce` é autoavaliado: mostra `nl` com um botão de referência (TTS), o aluno grava a própria voz via MediaRecorder e ouve a gravação ao lado da referência antes de continuar. Sem backend: o áudio fica só na memória do navegador e é descartado ao sair do exercício. Se o microfone for negado ou indisponível, o exercício degrada graciosamente (mostra só a referência e o botão "Continuar").
