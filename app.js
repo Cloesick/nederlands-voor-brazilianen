@@ -247,6 +247,8 @@ function mistakeList() { return Object.values(S.mistakes).sort((a, b) => b.count
 function updateMistakeBadge() {
   const n = mistakeList().length, b = document.getElementById('mistakeBadge');
   if (b) { b.hidden = n === 0; b.textContent = n; }
+  const a = document.getElementById('mistakeNav');
+  if (a) a.setAttribute('aria-label', n === 0 ? 'Suas dificuldades' : `Suas dificuldades, ${n} pendente${n === 1 ? '' : 's'}`);
 }
 function save() { localStorage.setItem(STORE_KEY, JSON.stringify(S)); paintStats(); }
 function today() { return new Date().toISOString().slice(0,10); }
@@ -694,6 +696,8 @@ function dueCards() {
 async function updateDueBadge() {
   const n = dueCards().length;
   const b = $('#dueBadge'); b.hidden = n === 0; b.textContent = n;
+  const a = $('#revisaoNav');
+  if (a) a.setAttribute('aria-label', n === 0 ? 'Flashcards para revisar' : `Flashcards para revisar, ${n} pendente${n === 1 ? '' : 's'}`);
 }
 function gradeCard(key, grade) { // 0=again 1=hard 2=easy
   const c = S.srs[key] || { box: 0, due: 0 };
