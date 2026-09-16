@@ -578,6 +578,12 @@ function runExercises(body, L) {
     if (ok) { score += firstTry ? 1 : 0.5; addXP(firstTry ? 10 : 4); }
   }
   function lock() { body.querySelectorAll('.opt,.chip,.fill-input,#chk').forEach(x => x.disabled = true); }
+  function revealSpeak(text) {
+    const sb = $('#exSpeak');
+    if (!sb) return;
+    sb.hidden = false;
+    sb.onclick = () => speak(text, sb);
+  }
 
   function show() {
     const ex = exs[i];
@@ -593,13 +599,15 @@ function runExercises(body, L) {
       <p class="ex-q">✍️ Complete: ${esc(ex.before)} <b>___</b> ${esc(ex.after || '')}</p>
       ${ex.hint ? `<p class="muted">💭 dica: ${esc(ex.hint)}</p>` : ''}
       <p><input class="fill-input" id="fin" autocomplete="off" autocapitalize="off" placeholder="digite em neerlandês...">
-      <button class="btn" id="chk">Verificar ✓</button></p>`;
+      <button class="btn" id="chk">Verificar ✓</button>
+      ${hasTTS ? `<button class="speak-btn" id="exSpeak" hidden title="Ouvir">🔊</button>` : ''}</p>`;
     if (ex.type === 'order') inner = `
       <p class="ex-q">🧱 Monte a frase: <span class="muted">"${esc(ex.pt)}"</span></p>
       <div class="built" id="built"></div>
       <div class="chips" id="chips">${shuffle(ex.tokens.map((t, k) => ({ t, k }))).map(o =>
         `<button class="chip" data-k="${o.k}">${esc(o.t)}</button>`).join('')}</div>
-      <button class="btn small" id="undo">↩️ desfazer</button>`;
+      <button class="btn small" id="undo">↩️ desfazer</button>
+      ${hasTTS ? `<button class="speak-btn" id="exSpeak" hidden title="Ouvir">🔊</button>` : ''}`;
     if (ex.type === 'match') inner = `
       <p class="ex-q">🔗 Ligue os pares:</p>
       <div class="match-grid">
@@ -625,9 +633,10 @@ function runExercises(body, L) {
         const val = norm($('#fin').value);
         const ok = [ex.answer, ...(ex.alt || [])].some(a => norm(a) === val);
         $('#fin').classList.add(ok ? 'correct' : 'wrong');
-        if (ok) { lock(); feedback(true, ex.explain); }
+        const said = `${ex.before} ${ex.answer} ${ex.after || ''}`.replace(/\s+/g, ' ').trim();
+        if (ok) { lock(); revealSpeak(said); feedback(true, ex.explain); }
         else if (firstTry) { firstTry = false; toast('🤏 Tente mais uma vez!'); $('#fin').addEventListener('input', () => $('#fin').classList.remove('wrong'), { once: true }); }
-        else { lock(); feedback(false, ex.explain, ex.answer); }
+        else { lock(); revealSpeak(said); feedback(false, ex.explain, ex.answer); }
       };
       $('#chk').addEventListener('click', check);
       $('#fin').addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
@@ -643,6 +652,7 @@ function runExercises(body, L) {
           const made = picked.map(p => p.textContent).join(' ');
           const ok = [ex.answer, ...(ex.altAnswers || [])].some(a => norm(made) === norm(a));
           lock();
+          revealSpeak(ex.answer);
           ok ? feedback(true, ex.explain) : feedback(false, ex.explain, ex.answer);
         }
       });
