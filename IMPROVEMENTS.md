@@ -1,0 +1,39 @@
+# Improvements
+
+Reviewed 2026-09-21. Ordered by value per unit of effort. Items marked **done in this PR**
+are implemented on branch `claude/ci-and-improvements`.
+
+## CI status (last 30 runs + all failures since July)
+
+| Workflow | Status | Cause | Fix |
+|---|---|---|---|
+| Supabase keep-alive | failing on every run since 2026-07-20 (`curl` exit 6) | The `SUPABASE_URL` secret points at project ref `etrkpxutyzwjnxidzojo`, which no longer resolves in DNS (checked 2026-09-21). The project is **deleted**, not paused (a paused project still resolves and answers with an HTTP error). The secrets themselves exist (`SUPABASE_URL`, `SUPABASE_ANON_KEY`). | **Human:** see "Needs a human" below. **Done in this PR:** the workflow now fails with an explicit annotation (missing secret / project not found / key rejected / table missing / paused) instead of a bare `exit code 6`, and it reads secrets via `env:` instead of inlining them in the script. |
+| Claude Autopilot (`issues` event) | fails every time the Course Coach labels an issue `autopilot` | `claude-code-action` refuses runs started by a bot: `Workflow initiated by non-human actor: claude (type: Bot)`. The nightly sweep then implements those issues anyway, so the failure is pure noise. | **Done in this PR:** the labeled-issue job only runs when a human adds the label (`github.event.sender.type != 'Bot'`). Alternative if you want instant implementation of coach issues: add `allowed_bots: "claude"` to that job instead (doubles the PR inflow; see item 1). |
+| Daily word, Autopilot, Course Coach (2026-08-08 to 08-19) | failed, now green | "The job was not started because your account is locked due to a billing issue." Resolved since. | None. |
+| All `anthropics/claude-code-action` workflows | green, with a warning | `actions/checkout@v4` runs on the deprecated Node 20. | **Done in this PR:** bumped to `actions/checkout@v5`. |
+
+### Needs a human (Supabase)
+
+1. Open https://supabase.com/dashboard and check which projects exist. `etrkpxutyzwjnxidzojo` is gone; the older `wvojkskfuvknisxymowy` still resolves (HTTP 401 without a key) but TODO.md says it was written off. Either restore that one or create a new project.
+2. In the chosen project, run `db/entitlements.sql` in the SQL editor.
+3. GitHub: Settings > Secrets and variables > Actions > update `SUPABASE_URL` (`https://<ref>.supabase.co`) and `SUPABASE_ANON_KEY` (Project Settings > API > anon key).
+4. Vercel project env vars: set `SUPABASE_URL` and `SUPABASE_SERVICE_KEY` (the service_role key). They are a separate store from the GitHub secrets.
+5. Actions > "Supabase keep-alive" > Run workflow. It should print `answered HTTP 200`.
+6. Update the MONETIZATION.md step 1 (it still shows the deleted ref as the live URL) and the two TODO.md items.
+
+If Premium stays switched off (`PREMIUM_ENABLED: false` in `config.js`), the alternative is to disable the keep-alive workflow until then: it currently protects a project that does not exist.
+
+## Prioritised list
+
+| # | Improvement | Value | Effort | Where |
+|---|---|---|---|---|
+| 1 | **Drain the autopilot PR backlog.** 16 open PRs, oldest from 2026-07-08 (issue #40 already flags it). Several are real learner-facing bug fixes that have been sitting for 2 months: #24 (SRS: new card graded "Fácil" is scheduled like "De novo"), #25 (Revisão due-badge counts cards that never show), #19 (wrong answers on `order` exercises not recorded), #18 (guard `save()` against `localStorage` failures). #10 looks obsolete (TODO.md says `social.json` was completed on 2026-07-09). Review/merge or close, oldest first, before the autopilot adds more. | High | Low to medium | GitHub PR list |
+| 2 | **Validate course data in CI.** The daily and monthly workflows commit unreviewed JSON straight to `main`, and nothing checked it: one bad file or an out-of-range `answer` breaks the app for everyone. **Done in this PR:** `scripts/validate_data.py` (stdlib only) checks every JSON parses, lesson schema (required keys, `id` = filename, units, word-role codes from `data/SCHEMA.md`, `mc`/`listen` answer indices, `order` answer = tokens joined, `match` pairs, infographic paths exist), that `data/lessons/index.json` is in sync with the lesson files, daily and monthly file shape, and the monthly index. Runs via `.github/workflows/validate-data.yml` on PRs and pushes touching `data/`. All current data passes. Next step: add `python scripts/validate_data.py` to the daily/monthly workflow prompts so Claude validates before pushing. | High | Low | `scripts/validate_data.py`, `.github/workflows/validate-data.yml` |
+| 3 | **Fix the Supabase situation or stop pinging it** (see above). | High (monetization is blocked on it) | Low, but dashboard-only | Supabase + Vercel + GitHub secrets |
+| 4 | **Service worker cached error responses.** `sw.js` network-first branch for `data/*.json` cached every response, including 404/5xx, overwriting the last good copy that is then served as the "offline fallback". **Done in this PR:** only `res.ok` responses are cached; on a non-ok response the cached copy is served if present. | Medium | Tiny | `sw.js` |
+| 5 | **Retire the GitHub Pages copy.** "pages build and deployment" still runs on every push, so the site is live twice. The Pages copy cannot work for Premium: `app.js` calls `/api/premium-status` and `/api/checkout` with absolute paths, which resolve to `cloesick.github.io/api/...` (404). `canonical` already points to Vercel. Disable Pages (Settings > Pages) or replace it with a redirect page, and drop `https://cloesick.github.io` from `ALLOWED_ORIGINS` in `api/checkout.js` afterwards. **Done in this PR:** README now links to the Vercel URL. | Medium | Low | repo settings, `api/checkout.js` |
+| 6 | **Handle lesson fetch failures.** `manifest()`/`lesson(id)` (`app.js` ~265-272) `await fetch(...).json()` without checking `res.ok` or catching, unlike every other loader in the file (which show "Em breve"). A network blip leaves the "Carregando o curso..." spinner forever. Wrap with a retry/"offline" card. | Medium | Low | `app.js` |
+| 7 | **Make the lesson order data-driven.** `build_manifest.py` hardcodes `ORDER`; a new lesson file that is not added there is silently skipped (only a `!! missing` print for the reverse case). Either sort by filename (the ids already sort correctly: `a1-01` ... `c2-03`) or fail loudly on unlisted files. The new validator already catches the resulting index drift in CI. | Medium | Tiny | `build_manifest.py` |
+| 8 | **Stale docs.** README said 18 lessons / 200+ exercises (actual: 37 lessons A1-C2, 496 exercises) and linked to GitHub Pages (**fixed in this PR**). MONETIZATION.md step 1 still presents the deleted Supabase ref as done. TODO.md header says "Atualizado em 2026-07-09" and the "Autônomo" section references issue #3 as queued. `data/SCHEMA.md` lists units `A1 | A2 | B1 | B2 | C1` but C2 lessons exist. | Low | Tiny | `MONETIZATION.md`, `TODO.md`, `data/SCHEMA.md` |
+| 9 | **Automatic SW cache bump.** `CACHE_NAME = 'nederlands-v4'` must be bumped by hand on every shell change (comment in `sw.js`); in practice the shell (`app.js`, 100 KB) is cache-first, so returning users run stale code until someone remembers. Stale-while-revalidate already refreshes the cache in the background, so the gap is one visit, but a missed bump after a breaking data-schema change can pair new data with old code. Consider network-first for `app.js`/`index.html`, or stamping `CACHE_NAME` from the commit SHA in a Vercel build command. | Low to medium | Low | `sw.js`, `vercel.json` |
+| 10 | **Scheduled-failure alerting.** The keep-alive was broken for 9 weeks unnoticed (TODO.md says so). A failing scheduled workflow only shows in the Actions tab. Cheap fix: a final `if: failure()` step in scheduled workflows that opens/updates a GitHub issue (with `issues: write`), so it lands in the same inbox as the coach reports. | Medium | Low | `.github/workflows/*.yml` |

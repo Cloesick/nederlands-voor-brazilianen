@@ -2,7 +2,7 @@
 
 Curso web completo e gratuito de **neerlandês (flamengo)** para falantes de **português do Brasil**, no estilo Babbel: lições curtas, exercícios interativos, flashcards com repetição espaçada e áudio.
 
-**➡️ Estude agora: https://cloesick.github.io/nederlands-voor-brazilianen/**
+**➡️ Estude agora: https://nederlands-voor-brazilianen.vercel.app/**
 
 📋 Pendências e próximos passos: [TODO.md](TODO.md) · 🚀 Plano de lançamento: [ROLLOUT.md](ROLLOUT.md) · Lojas de app: [STORES.md](STORES.md) · Monetização: [MONETIZATION.md](MONETIZATION.md)
 
@@ -18,8 +18,8 @@ A palavra interrogativa é sempre roxa e itálica, o verbo sempre coral e negrit
 
 | | |
 |---|---|
-| 📖 **18 lições** | A1 → C1, da apresentação ao flamengo de rua (tussentaal) |
-| 🏋️ **200+ exercícios** | múltipla escolha, ouvir 🎧, completar ✍️, montar frases 🧱, ligar pares 🔗 |
+| 📖 **37 lições** | A1 → C2, da apresentação ao flamengo de rua (tussentaal) e ao humor dialetal |
+| 🏋️ **490+ exercícios** | múltipla escolha, ouvir 🎧, completar ✍️, montar frases 🧱, ligar pares 🔗 |
 | 🃏 **Flashcards SRS** | repetição espaçada estilo Leitner, salva no navegador |
 | 🧩 **Vocabulário decomposto** | toda palavra composta quebrada peça por peça (ziekenhuis = zieken *doentes* + huis *casa*) |
 | 📊 **Infográficos** | mapa de sons, árvore DE/HET, relógio "half drie", regra V2, a pinça, escada CEFR |
@@ -63,8 +63,9 @@ Vanilla JS + HTML + CSS, zero dependências, zero build. Os dados das lições s
 ## ✏️ Como criar/editar uma lição
 
 1. Copie um JSON de `data/lessons/` e edite (schema documentado em [`data/SCHEMA.md`](data/SCHEMA.md)).
-2. Rode `python build_manifest.py` para atualizar o índice.
-3. Abra `index.html` num servidor local (`python -m http.server`) e teste.
+2. Rode `python build_manifest.py` para atualizar o índice (lição nova: adicione o id em `ORDER` nesse arquivo antes).
+3. Rode `python scripts/validate_data.py` (o mesmo check roda no CI em todo PR/push que mexe em `data/`).
+4. Abra `index.html` num servidor local (`python -m http.server`) e teste.
 
 ## 🇧🇪 Notas de conteúdo
 

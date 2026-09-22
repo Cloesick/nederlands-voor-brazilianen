@@ -1,0 +1,27 @@
+name: Validate course data
+
+# Catches broken lesson/daily/monthly JSON before (PRs) or right after (the
+# daily and monthly workflows commit straight to main) it reaches learners.
+# Standard-library Python only: no install step, runs in a few seconds.
+
+on:
+  push:
+    branches: [main]
+    paths: ["data/**", "scripts/validate_data.py", "build_manifest.py", "*.json"]
+  pull_request:
+    paths: ["data/**", "scripts/validate_data.py", "build_manifest.py", "*.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Validate data files
+        run: python scripts/validate_data.py
