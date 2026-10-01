@@ -58,7 +58,7 @@
     },
     {
       "nl": [{"t":"Dat","r":"pron"},{"t":"is","r":"verb"},{"t":"twee","r":"num"},{"t":"euro","r":"noun"},{"t":"vijftig","r":"num"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":".","r":"punc"}],
-      "pt": [{"t":"São","r":"verb"},{"t":"dois","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"São","r":"verb"},{"t":"dois","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":",","r":"punc"},{"t":"aqui","r":"x"},{"t":"está","r":"x"},{"t":".","r":"punc"}],
       "lit": "isso é dois euro cinquenta, aqui está",
       "note": "Parte 2. Preço sem \"e\": twee euro vijftig = € 2,50. E alstublieft aqui = \"aqui está\", muito belga. 🥖"
     },
