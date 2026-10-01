@@ -211,6 +211,18 @@
       "type": "match",
       "pairs": [["het huis", "a casa"], ["de tuin", "o jardim"], ["het boek", "o livro"], ["de school", "a escola"], ["de wijn", "o vinho"], ["de trein", "o trem"]],
       "explain": "Cada palavra treina um som: huis e tuin (ui), boek (oe = u), school (sch), wijn (ij) e trein (ei), que soam igual!"
+    },
+    {
+      "type": "pronounce",
+      "nl": "Acht grachten bij het huis van de scheve schilder.",
+      "pt": "Oito canais perto da casa do pintor torto.",
+      "explain": "A frase-treino da lição: acht e grachten têm o som de garganta (rr carioca), sch em scheve e schilder é s + garganta, e huis tem o ui (\"âü\"). Grave e compare com a referência!"
+    },
+    {
+      "type": "pronounce",
+      "nl": "De man kijkt naar de maan in de tuin.",
+      "pt": "O homem olha para a lua no jardim.",
+      "explain": "Treine o par mínimo man/maan (vogal simples vs. dobrada) junto com o ui de tuin. Ouça a referência, grave sua voz e compare os dois sons."
     }
   ]
 }
