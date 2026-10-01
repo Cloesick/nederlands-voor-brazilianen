@@ -176,7 +176,7 @@
     },
     {
       "type": "fill",
-      "before": "Eén boek, twee",
+      "before": "Één boek, twee",
       "after": ".",
       "answer": "boeken",
       "alt": [],
