@@ -1,0 +1,211 @@
+{
+  "month": "2026-10",
+  "theme": "Herfst · Outono",
+  "emoji": "🍂",
+  "intro": "Em outubro o outono chega de verdade na Flandres: as folhas caem, chove mais e, no último domingo do mês, os relógios voltam para o horário de inverno. Vocabulário para falar do tempo e da estação.",
+  "cards": [
+    {
+      "nl": "de herfst",
+      "art": "de",
+      "split": "",
+      "pt": "o outono",
+      "emoji": "🍂"
+    },
+    {
+      "nl": "het blad",
+      "art": "het",
+      "split": "",
+      "pt": "a folha",
+      "emoji": "🍁"
+    },
+    {
+      "nl": "de paddenstoel",
+      "art": "de",
+      "split": "padden (sapos) + stoel (cadeira)",
+      "pt": "o cogumelo",
+      "emoji": "🍄"
+    },
+    {
+      "nl": "de storm",
+      "art": "de",
+      "split": "",
+      "pt": "a tempestade",
+      "emoji": "🌪️"
+    },
+    {
+      "nl": "de wind",
+      "art": "de",
+      "split": "",
+      "pt": "o vento",
+      "emoji": "💨"
+    },
+    {
+      "nl": "de regen",
+      "art": "de",
+      "split": "",
+      "pt": "a chuva",
+      "emoji": "🌧️"
+    },
+    {
+      "nl": "de mist",
+      "art": "de",
+      "split": "",
+      "pt": "a neblina",
+      "emoji": "🌫️"
+    },
+    {
+      "nl": "de paraplu",
+      "art": "de",
+      "split": "",
+      "pt": "o guarda-chuva",
+      "emoji": "☂️"
+    },
+    {
+      "nl": "de regenjas",
+      "art": "de",
+      "split": "regen (chuva) + jas (casaco)",
+      "pt": "a capa de chuva",
+      "emoji": "🧥"
+    },
+    {
+      "nl": "de laars",
+      "art": "de",
+      "split": "",
+      "pt": "a bota",
+      "emoji": "🥾"
+    },
+    {
+      "nl": "de sjaal",
+      "art": "de",
+      "split": "",
+      "pt": "o cachecol",
+      "emoji": "🧣"
+    },
+    {
+      "nl": "de muts",
+      "art": "de",
+      "split": "",
+      "pt": "o gorro",
+      "emoji": "🧢"
+    },
+    {
+      "nl": "de pompoen",
+      "art": "de",
+      "split": "",
+      "pt": "a abóbora",
+      "emoji": "🎃"
+    },
+    {
+      "nl": "de kastanje",
+      "art": "de",
+      "split": "",
+      "pt": "a castanha",
+      "emoji": "🌰"
+    },
+    {
+      "nl": "de appel",
+      "art": "de",
+      "split": "",
+      "pt": "a maçã",
+      "emoji": "🍎"
+    },
+    {
+      "nl": "de soep",
+      "art": "de",
+      "split": "",
+      "pt": "a sopa",
+      "emoji": "🍲"
+    },
+    {
+      "nl": "de verwarming",
+      "art": "de",
+      "split": "",
+      "pt": "o aquecimento",
+      "emoji": "♨️"
+    },
+    {
+      "nl": "de kachel",
+      "art": "de",
+      "split": "",
+      "pt": "o aquecedor, a lareira",
+      "emoji": "🔥"
+    },
+    {
+      "nl": "de deken",
+      "art": "de",
+      "split": "",
+      "pt": "o cobertor",
+      "emoji": "🛏️"
+    },
+    {
+      "nl": "de zomertijd",
+      "art": "de",
+      "split": "zomer (verão) + tijd (hora)",
+      "pt": "o horário de verão",
+      "emoji": "⏰"
+    },
+    {
+      "nl": "de wintertijd",
+      "art": "de",
+      "split": "winter (inverno) + tijd (hora)",
+      "pt": "o horário de inverno",
+      "emoji": "🕑"
+    },
+    {
+      "nl": "de oogst",
+      "art": "de",
+      "split": "",
+      "pt": "a colheita",
+      "emoji": "🌾"
+    },
+    {
+      "nl": "de vogeltrek",
+      "art": "de",
+      "split": "vogel (pássaro) + trek (migração)",
+      "pt": "a migração das aves",
+      "emoji": "🦆"
+    },
+    {
+      "nl": "de eekhoorn",
+      "art": "de",
+      "split": "",
+      "pt": "o esquilo",
+      "emoji": "🐿️"
+    },
+    {
+      "nl": "het weer",
+      "art": "het",
+      "split": "",
+      "pt": "o tempo (clima)",
+      "emoji": "🌦️"
+    },
+    {
+      "nl": "koud",
+      "art": null,
+      "split": "",
+      "pt": "frio",
+      "emoji": "🥶"
+    },
+    {
+      "nl": "harken",
+      "art": null,
+      "split": "",
+      "pt": "rastelar",
+      "emoji": "🧹"
+    },
+    {
+      "nl": "vallen",
+      "art": null,
+      "split": "",
+      "pt": "cair",
+      "emoji": "⬇️"
+    },
+    {
+      "nl": "verkleuren",
+      "art": null,
+      "split": "ver (mudar) + kleur (cor) + en",
+      "pt": "mudar de cor",
+      "emoji": "🎨"
+    }
+  ]
+}
