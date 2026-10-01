@@ -75,7 +75,7 @@
       "note": "Mogen (poder, com permissão) é mais educado que kunnen aqui: pede espaço, não apenas capacidade. Boa alternativa quando o salário travou."
     },
     {
-      "nl": [{"t":"Als","r":"conj"},{"t":"ik","r":"pron"},{"t":"het","r":"pron"},{"t":"goed","r":"adv"},{"t":"samenvat","r":"verb"},{"t":",","r":"punc"},{"t":"komen","r":"verb"},{"t":"we","r":"pron"},{"t":"overeen","r":"part"},{"t":"dat","r":"conj"},{"t":"u","r":"pron"},{"t":"op","r":"num"},{"t":"1","r":"num"},{"t":"september","r":"noun"},{"t":"start","r":"verb"},{"t":".","r":"punc"}],
+      "nl": [{"t":"Als","r":"conj"},{"t":"ik","r":"pron"},{"t":"het","r":"pron"},{"t":"goed","r":"adv"},{"t":"samenvat","r":"verb"},{"t":",","r":"punc"},{"t":"komen","r":"verb"},{"t":"we","r":"pron"},{"t":"overeen","r":"part"},{"t":"dat","r":"conj"},{"t":"u","r":"pron"},{"t":"op","r":"prep"},{"t":"1","r":"num"},{"t":"september","r":"noun"},{"t":"start","r":"verb"},{"t":".","r":"punc"}],
       "pt": [{"t":"Se","r":"conj"},{"t":"eu","r":"pron"},{"t":"resumir","r":"verb"},{"t":"bem","r":"adv"},{"t":",","r":"punc"},{"t":"ficamos","r":"verb"},{"t":"de","r":"prep"},{"t":"acordo","r":"noun"},{"t":"em","r":"prep"},{"t":"que","r":"conj"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"começa","r":"verb"},{"t":"em","r":"prep"},{"t":"1º","r":"num"},{"t":"de","r":"prep"},{"t":"setembro","r":"noun"},{"t":".","r":"punc"}],
       "lit": "se eu isso bem resumo, vêm nós de-acordo que o-senhor em 1 setembro começa",
       "note": "overeenkomen (chegar a um acordo) é separável: komen...overeen. Fórmula de fechamento formal, usada para confirmar em voz alta antes de encerrar."
