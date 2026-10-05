@@ -1,31 +1,76 @@
 {
   "date": "2026-10-05",
   "word": {
-    "nl": "het pintje",
-    "art": "het",
-    "split": "pint (caneca) + je (diminutivo)",
-    "pt": "copo pequeno de cerveja de chope, o mais comum na Bélgica",
-    "emoji": "🍺"
+    "nl": "de fietsenstalling",
+    "art": "de",
+    "split": "fietsen (bicicletas) + stalling (guarda, estacionamento)",
+    "pt": "bicicletário, local para guardar bicicletas",
+    "emoji": "🚲"
   },
   "phrase": {
     "nl": [
-      {"t": "Sorry", "r": "x"},
-      {"t": ",", "r": "punc"},
-      {"t": "ik", "r": "pron"},
-      {"t": "heb", "r": "verb"},
-      {"t": "het", "r": "pron"},
-      {"t": "niet", "r": "neg"},
-      {"t": "begrepen", "r": "verb"},
-      {"t": ".", "r": "punc"}
+      {
+        "t": "Sorry",
+        "r": "x"
+      },
+      {
+        "t": ",",
+        "r": "punc"
+      },
+      {
+        "t": "ik",
+        "r": "pron"
+      },
+      {
+        "t": "heb",
+        "r": "verb"
+      },
+      {
+        "t": "het",
+        "r": "pron"
+      },
+      {
+        "t": "niet",
+        "r": "neg"
+      },
+      {
+        "t": "begrepen",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
     "pt": [
-      {"t": "Desculpe", "r": "x"},
-      {"t": ",", "r": "punc"},
-      {"t": "eu", "r": "pron"},
-      {"t": "não", "r": "neg"},
-      {"t": "entendi", "r": "verb"},
-      {"t": "isso", "r": "pron"},
-      {"t": ".", "r": "punc"}
+      {
+        "t": "Desculpe",
+        "r": "x"
+      },
+      {
+        "t": ",",
+        "r": "punc"
+      },
+      {
+        "t": "eu",
+        "r": "pron"
+      },
+      {
+        "t": "não",
+        "r": "neg"
+      },
+      {
+        "t": "entendi",
+        "r": "verb"
+      },
+      {
+        "t": "isso",
+        "r": "pron"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
     "lit": "sorry, ik(eu) heb(tenho) het(isso) niet(não) begrepen(entendido)",
     "note": "O passado falado usa 'hebben' + particípio: 'ik heb begrepen'. O particípio vai para o fim da frase, depois do 'niet'. Útil para pedir que repitam: 'Kan u dat herhalen?'"
