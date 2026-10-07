@@ -1,0 +1,1107 @@
+{
+  "id": "a1-09-dagroutine-beroepen",
+  "unit": "A1",
+  "title": "Rotina e profissões · Dagroutine en beroepen",
+  "emoji": "⏰",
+  "teaching": [
+    {
+      "emoji": "⏰",
+      "title": "A rotina do dia: om + hora",
+      "html": "<p>Para dizer a que horas você faz algo, use <b>om + número + uur</b>. 🕐</p><table class=\"vocab\"><tr><th>neerlandês</th><th>português</th></tr><tr><td>Ik sta om zeven uur op.</td><td><small>Eu levanto às sete horas.</small></td></tr><tr><td>Ik begin om negen uur.</td><td><small>Eu começo às nove horas.</small></td></tr><tr><td>Om vijf uur ga ik naar huis.</td><td><small>Às cinco horas eu vou para casa.</small></td></tr></table><p>⚠️ <b>half één = 12h30</b>. O neerlandês conta a meia hora <i>antes</i> da hora seguinte, o inverso do que a gente espera.</p>"
+    },
+    {
+      "emoji": "🧩",
+      "title": "Prévia: verbos separáveis (opstaan)",
+      "html": "<p>Alguns verbos têm um prefixo que se solta e vai pro <b>final da frase</b>:</p><p><b>opstaan</b> → <b>Ik sta ... op.</b> 🧩</p><p>O verbo (<i>sta</i>) fica na 2ª posição, como sempre, e o <b>op</b> viaja até o fim. Por ora, decore a frase pronta \"Ik sta om zeven uur op\". A regra completa vem no B1, na lição dos verbos separáveis.</p>"
+    },
+    {
+      "emoji": "💼",
+      "title": "Profissões e o trabalho: ik werk als...",
+      "html": "<p>Para falar da profissão: <b>Ik werk als + profissão</b>, sem artigo. 💼</p><ul><li><b>Ik werk als verpleegster.</b> <small>(Trabalho como enfermeira.)</small></li><li><b>Ik werk als kok.</b> <small>(Trabalho como cozinheiro.)</small></li><li><b>Ik ben zelfstandige.</b> <small>(Sou autônoma.)</small></li></ul><p>🇧🇪 Na Flandres, cumprimente os colegas com <b>\"Goeiemorgen!\"</b> de manhã. Você vai ouvir <i>ge</i> e <i>gij</i> no lugar de <i>je</i> e <i>jij</i> na fala, mas isso é só pra entender: ao falar, use <b>je/jij</b>.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [
+        {
+          "t": "Goeiemorgen",
+          "r": "x"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "sta",
+          "r": "verb"
+        },
+        {
+          "t": "om",
+          "r": "prep"
+        },
+        {
+          "t": "zeven",
+          "r": "num"
+        },
+        {
+          "t": "uur",
+          "r": "noun"
+        },
+        {
+          "t": "op",
+          "r": "part"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Bom",
+          "r": "x"
+        },
+        {
+          "t": "dia",
+          "r": "x"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "levanto",
+          "r": "verb"
+        },
+        {
+          "t": "às",
+          "r": "prep"
+        },
+        {
+          "t": "sete",
+          "r": "num"
+        },
+        {
+          "t": "horas",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "bom-dia, eu estou às sete hora para-cima",
+      "note": "\"Goeiemorgen\" é a forma flamenga de dizer bom dia. O verbo opstaan (levantar) se parte: sta ... op, e o \"op\" vai pro fim da frase."
+    },
+    {
+      "nl": [
+        {
+          "t": "Hoe",
+          "r": "qw"
+        },
+        {
+          "t": "laat",
+          "r": "qw"
+        },
+        {
+          "t": "begint",
+          "r": "verb"
+        },
+        {
+          "t": "je",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "A",
+          "r": "qw"
+        },
+        {
+          "t": "que",
+          "r": "qw"
+        },
+        {
+          "t": "horas",
+          "r": "qw"
+        },
+        {
+          "t": "começa",
+          "r": "verb"
+        },
+        {
+          "t": "o",
+          "r": "art"
+        },
+        {
+          "t": "seu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "lit": "como tarde começa teu trabalho",
+      "note": "\"Hoe laat\" = a que horas. Pergunta de ouro pra qualquer rotina."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "begin",
+          "r": "verb"
+        },
+        {
+          "t": "om",
+          "r": "prep"
+        },
+        {
+          "t": "negen",
+          "r": "num"
+        },
+        {
+          "t": "uur",
+          "r": "noun"
+        },
+        {
+          "t": "met",
+          "r": "prep"
+        },
+        {
+          "t": "werken",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "começo",
+          "r": "verb"
+        },
+        {
+          "t": "às",
+          "r": "prep"
+        },
+        {
+          "t": "nove",
+          "r": "num"
+        },
+        {
+          "t": "horas",
+          "r": "noun"
+        },
+        {
+          "t": "a",
+          "r": "prep"
+        },
+        {
+          "t": "trabalhar",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu começo às nove hora com trabalhar",
+      "note": "Para dizer a hora de um evento, use sempre \"om\" + número + \"uur\"."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": "van",
+          "r": "prep"
+        },
+        {
+          "t": "negen",
+          "r": "num"
+        },
+        {
+          "t": "tot",
+          "r": "prep"
+        },
+        {
+          "t": "vijf",
+          "r": "num"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "das",
+          "r": "prep"
+        },
+        {
+          "t": "nove",
+          "r": "num"
+        },
+        {
+          "t": "às",
+          "r": "prep"
+        },
+        {
+          "t": "cinco",
+          "r": "num"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu trabalho de nove até cinco",
+      "note": "van ... tot = de ... até, o molde do horário de trabalho."
+    },
+    {
+      "nl": [
+        {
+          "t": "Om",
+          "r": "prep"
+        },
+        {
+          "t": "half",
+          "r": "num"
+        },
+        {
+          "t": "één",
+          "r": "num"
+        },
+        {
+          "t": "eet",
+          "r": "verb"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "een",
+          "r": "art"
+        },
+        {
+          "t": "broodje",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Às",
+          "r": "prep"
+        },
+        {
+          "t": "doze",
+          "r": "num"
+        },
+        {
+          "t": "e",
+          "r": "conj"
+        },
+        {
+          "t": "meia",
+          "r": "num"
+        },
+        {
+          "t": "como",
+          "r": "verb"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "um",
+          "r": "art"
+        },
+        {
+          "t": "sanduíche",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "às meio um como eu um sanduíche",
+      "note": "Atenção: \"half één\" é 12h30, ou seja, meia hora ANTES de uma hora. Na Bélgica o almoço é muitas vezes só um broodje. Regra V2: com \"Om half één\" na frente, o verbo vem logo depois e o sujeito vai pra trás."
+    },
+    {
+      "nl": [
+        {
+          "t": "Mijn",
+          "r": "pron"
+        },
+        {
+          "t": "collega's",
+          "r": "noun"
+        },
+        {
+          "t": "zijn",
+          "r": "verb"
+        },
+        {
+          "t": "heel",
+          "r": "adv"
+        },
+        {
+          "t": "aardig",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Meus",
+          "r": "pron"
+        },
+        {
+          "t": "colegas",
+          "r": "noun"
+        },
+        {
+          "t": "são",
+          "r": "verb"
+        },
+        {
+          "t": "muito",
+          "r": "adv"
+        },
+        {
+          "t": "simpáticos",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "meus colegas são muito amáveis",
+      "note": "\"collega's\" leva apóstrofo no plural, como \"hobby's\". Elogiar os colegas é bem-visto no cafezinho."
+    },
+    {
+      "nl": [
+        {
+          "t": "Om",
+          "r": "prep"
+        },
+        {
+          "t": "vijf",
+          "r": "num"
+        },
+        {
+          "t": "uur",
+          "r": "noun"
+        },
+        {
+          "t": "ga",
+          "r": "verb"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "naar",
+          "r": "prep"
+        },
+        {
+          "t": "huis",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Às",
+          "r": "prep"
+        },
+        {
+          "t": "cinco",
+          "r": "num"
+        },
+        {
+          "t": "horas",
+          "r": "noun"
+        },
+        {
+          "t": "vou",
+          "r": "verb"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "para",
+          "r": "prep"
+        },
+        {
+          "t": "casa",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "às cinco hora vou eu para casa",
+      "note": "\"naar huis\" = para casa (sem artigo). Note o verbo de novo em 2ª posição."
+    },
+    {
+      "nl": [
+        {
+          "t": "'s",
+          "r": "adv"
+        },
+        {
+          "t": "avonds",
+          "r": "adv"
+        },
+        {
+          "t": "kook",
+          "r": "verb"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "voor",
+          "r": "prep"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "familie",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "À",
+          "r": "adv"
+        },
+        {
+          "t": "noite",
+          "r": "adv"
+        },
+        {
+          "t": "cozinho",
+          "r": "verb"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "para",
+          "r": "prep"
+        },
+        {
+          "t": "a",
+          "r": "art"
+        },
+        {
+          "t": "família",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "de-noite cozinho eu para a família",
+      "note": "\"'s avonds\" = à noite, de noite, como hábito. Compare com \"vanavond\" (esta noite)."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "ga",
+          "r": "verb"
+        },
+        {
+          "t": "om",
+          "r": "prep"
+        },
+        {
+          "t": "elf",
+          "r": "num"
+        },
+        {
+          "t": "uur",
+          "r": "noun"
+        },
+        {
+          "t": "slapen",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "vou",
+          "r": "verb"
+        },
+        {
+          "t": "dormir",
+          "r": "verb"
+        },
+        {
+          "t": "às",
+          "r": "prep"
+        },
+        {
+          "t": "onze",
+          "r": "num"
+        },
+        {
+          "t": "horas",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu vou às onze hora dormir",
+      "note": "\"gaan + infinitivo\" funciona como o nosso \"ir + infinitivo\", e o infinitivo fica no fim da frase."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": "als",
+          "r": "prep"
+        },
+        {
+          "t": "verpleegster",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "como",
+          "r": "prep"
+        },
+        {
+          "t": "enfermeira",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu trabalho como enfermeira",
+      "note": "\"werken als\" = trabalhar como (profissão). Não use artigo depois de \"als\"."
+    },
+    {
+      "nl": [
+        {
+          "t": "Wat",
+          "r": "qw"
+        },
+        {
+          "t": "voor",
+          "r": "prep"
+        },
+        {
+          "t": "werk",
+          "r": "noun"
+        },
+        {
+          "t": "doe",
+          "r": "verb"
+        },
+        {
+          "t": "je",
+          "r": "pron"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Que",
+          "r": "qw"
+        },
+        {
+          "t": "tipo",
+          "r": "noun"
+        },
+        {
+          "t": "de",
+          "r": "prep"
+        },
+        {
+          "t": "trabalho",
+          "r": "noun"
+        },
+        {
+          "t": "você",
+          "r": "pron"
+        },
+        {
+          "t": "faz",
+          "r": "verb"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "lit": "que tipo-de trabalho faz você",
+      "note": "A pergunta padrão sobre profissão. Na Flandres você também ouve \"ge\" no lugar de \"je\" na fala (\"Wat werk doe ge?\"), mas aprenda primeiro o \"je\"."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": "vandaag",
+          "r": "adv"
+        },
+        {
+          "t": "thuis",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "hoje",
+          "r": "adv"
+        },
+        {
+          "t": "em",
+          "r": "adv"
+        },
+        {
+          "t": "casa",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu trabalho hoje em-casa",
+      "note": "\"thuis\" = em casa (onde você está), \"naar huis\" = para casa (movimento). Muito útil para o home office."
+    }
+  ],
+  "vocab": [
+    {
+      "nl": "opstaan",
+      "art": null,
+      "split": "op (para cima) + staan (ficar de pé)",
+      "pt": "levantar-se",
+      "emoji": "⏰"
+    },
+    {
+      "nl": "het ontbijt",
+      "art": "het",
+      "split": "ont (desfazer) + bijt (mordida, de bijten)",
+      "pt": "o café da manhã",
+      "emoji": "🥐"
+    },
+    {
+      "nl": "het avondeten",
+      "art": "het",
+      "split": "avond (noite) + eten (comida)",
+      "pt": "o jantar",
+      "emoji": "🍝"
+    },
+    {
+      "nl": "slapen",
+      "art": null,
+      "split": null,
+      "pt": "dormir",
+      "emoji": "😴"
+    },
+    {
+      "nl": "werken",
+      "art": null,
+      "split": null,
+      "pt": "trabalhar",
+      "emoji": "💼"
+    },
+    {
+      "nl": "thuiswerken",
+      "art": null,
+      "split": "thuis (em casa) + werken (trabalhar)",
+      "pt": "trabalhar em casa",
+      "emoji": "🏡"
+    },
+    {
+      "nl": "het kantoor",
+      "art": "het",
+      "split": null,
+      "pt": "o escritório",
+      "emoji": "🏢"
+    },
+    {
+      "nl": "de collega",
+      "art": "de",
+      "split": null,
+      "pt": "o colega de trabalho",
+      "emoji": "🤝"
+    },
+    {
+      "nl": "de baas",
+      "art": "de",
+      "split": null,
+      "pt": "o chefe",
+      "emoji": "👔"
+    },
+    {
+      "nl": "de vergadering",
+      "art": "de",
+      "split": "vergader(en) (reunir) + ing (sufixo -ção)",
+      "pt": "a reunião",
+      "emoji": "🗓️"
+    },
+    {
+      "nl": "de pauze",
+      "art": "de",
+      "split": null,
+      "pt": "a pausa, o intervalo",
+      "emoji": "☕"
+    },
+    {
+      "nl": "de leraar",
+      "art": "de",
+      "split": null,
+      "pt": "o professor",
+      "emoji": "👩‍🏫"
+    },
+    {
+      "nl": "de verpleegster",
+      "art": "de",
+      "split": null,
+      "pt": "a enfermeira",
+      "emoji": "🩺"
+    },
+    {
+      "nl": "de ingenieur",
+      "art": "de",
+      "split": null,
+      "pt": "o engenheiro",
+      "emoji": "🛠️"
+    },
+    {
+      "nl": "de kok",
+      "art": "de",
+      "split": null,
+      "pt": "o cozinheiro",
+      "emoji": "👨‍🍳"
+    },
+    {
+      "nl": "de zelfstandige",
+      "art": "de",
+      "split": null,
+      "pt": "o autônomo",
+      "emoji": "🧾"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Em \"Ik sta om zeven uur op\", onde fica o prefixo \"op\"? ⏰",
+      "options": [
+        "No fim da frase",
+        "Colado ao verbo: ik opsta",
+        "Antes de \"om\"",
+        "Depois de \"ik\""
+      ],
+      "answer": 0,
+      "explain": "opstaan é um verbo separável: sta fica na 2ª posição e o prefixo op vai pro final da frase. Você vai aprofundar isso no B1."
+    },
+    {
+      "type": "mc",
+      "q": "Como se diz \"Eu trabalho como enfermeira\"? 🩺",
+      "options": [
+        "Ik werk als verpleegster",
+        "Ik werk van verpleegster",
+        "Ik ben werk verpleegster",
+        "Ik werk voor verpleegster"
+      ],
+      "answer": 0,
+      "explain": "werken als + profissão, sem artigo. \"van\" é pra horário (van negen tot vijf)."
+    },
+    {
+      "type": "listen",
+      "nl": "Goeiemorgen, ik begin om negen uur.",
+      "options": [
+        "Bom dia, começo às nove horas",
+        "Boa noite, termino às nove horas",
+        "Bom dia, acordo às sete horas"
+      ],
+      "answer": 0,
+      "explain": "Goeiemorgen = bom dia (flamengo), begin = começo, om negen uur = às nove horas."
+    },
+    {
+      "type": "listen",
+      "nl": "Om vijf uur ga ik naar huis.",
+      "options": [
+        "Às cinco horas volto ao trabalho",
+        "Às cinco horas vou para casa",
+        "Às seis horas vou para casa"
+      ],
+      "answer": 1,
+      "explain": "naar huis = para casa. Com \"Om vijf uur\" na frente, o verbo ga vem logo em seguida."
+    },
+    {
+      "type": "fill",
+      "before": "Ik werk",
+      "after": "verpleegster.",
+      "answer": "als",
+      "hint": "\"como\" (profissão)",
+      "explain": "werken als + profissão: Ik werk als verpleegster, Ik werk als kok."
+    },
+    {
+      "type": "fill",
+      "before": "Ik sta om zeven uur",
+      "after": ".",
+      "answer": "op",
+      "hint": "prefixo separável de opstaan",
+      "explain": "O prefixo op de opstaan vai pro fim da frase: Ik sta om zeven uur op."
+    },
+    {
+      "type": "fill",
+      "before": "Om half één",
+      "after": "ik een broodje.",
+      "answer": "eet",
+      "hint": "verbo \"comer\" conjugado com ik",
+      "explain": "V2: com \"Om half één\" na frente, o verbo eet vem em 2º lugar e o sujeito ik fica depois dele."
+    },
+    {
+      "type": "order",
+      "pt": "Às cinco horas eu vou para casa.",
+      "tokens": [
+        "Om",
+        "vijf",
+        "uur",
+        "ga",
+        "ik",
+        "naar",
+        "huis"
+      ],
+      "answer": "Om vijf uur ga ik naar huis",
+      "explain": "Com o horário no início, o verbo ga vem em 2º lugar e o sujeito ik logo depois (V2)."
+    },
+    {
+      "type": "order",
+      "pt": "Eu trabalho das nove às cinco.",
+      "tokens": [
+        "Ik",
+        "werk",
+        "van",
+        "negen",
+        "tot",
+        "vijf"
+      ],
+      "answer": "Ik werk van negen tot vijf",
+      "explain": "van ... tot = de ... até. O molde do horário de trabalho."
+    },
+    {
+      "type": "order",
+      "pt": "Eu levanto às sete horas.",
+      "tokens": [
+        "Ik",
+        "sta",
+        "om",
+        "zeven",
+        "uur",
+        "op"
+      ],
+      "answer": "Ik sta om zeven uur op",
+      "altAnswers": [
+        "Om zeven uur sta ik op"
+      ],
+      "explain": "O prefixo op fica sempre no final. Com \"Om zeven uur\" na frente, vira Om zeven uur sta ik op (V2)."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "de leraar",
+          "o professor"
+        ],
+        [
+          "de verpleegster",
+          "a enfermeira"
+        ],
+        [
+          "de ingenieur",
+          "o engenheiro"
+        ],
+        [
+          "de kok",
+          "o cozinheiro"
+        ],
+        [
+          "de zelfstandige",
+          "o autônomo"
+        ]
+      ],
+      "explain": "Profissões básicas. Todas levam \"de\"."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "Hoe laat begint je werk?",
+          "A que horas começa seu trabalho?"
+        ],
+        [
+          "Ik werk thuis.",
+          "Eu trabalho em casa."
+        ],
+        [
+          "Ik werk als kok.",
+          "Eu trabalho como cozinheiro."
+        ],
+        [
+          "Goeiemorgen!",
+          "Bom dia!"
+        ]
+      ],
+      "explain": "Frases essenciais da rotina e do trabalho."
+    },
+    {
+      "type": "mc",
+      "q": "Que horas são em \"half één\"? 🕧",
+      "options": [
+        "12h30",
+        "13h30",
+        "11h30"
+      ],
+      "answer": 0,
+      "explain": "Em neerlandês, \"half\" conta a meia hora ANTES da hora seguinte: half één = meia hora antes de uma = 12h30."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik werk vandaag thuis.",
+      "options": [
+        "Hoje eu trabalho em casa",
+        "Hoje eu fico em casa",
+        "Amanhã eu trabalho em casa"
+      ],
+      "answer": 0,
+      "explain": "vandaag = hoje, thuis = em casa. Werk thuis é o home office."
+    }
+  ]
+}
