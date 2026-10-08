@@ -1,0 +1,22 @@
+{
+  "title": "Onde estou? Teste de nível",
+  "intro": "10 perguntas rápidas, do mais fácil ao mais difícil. Não vale pesquisar: é só para achar o melhor ponto de partida.",
+  "start": {
+    "A1": { "lesson": "a1-01-kennismaken", "text": "Comece do zero, com calma. Você vai construir a base com as primeiras frases." },
+    "A2": { "lesson": "a2-01-v2-vragen", "text": "Você já domina o básico. Vale começar pela ordem das palavras e pelas perguntas." },
+    "B1": { "lesson": "b1-01-bijzinnen", "text": "Você já se vira bem. Agora é hora das orações subordinadas e de situações do dia a dia na Bélgica." },
+    "B2": { "lesson": "b2-01-solliciteren", "text": "Seu nível é avançado. Comece pelo neerlandês profissional e formal." }
+  },
+  "questions": [
+    { "level": "A1", "q": "Como se diz \"Meu nome é Sofia\"?", "options": ["Ik heet Sofia.", "Ik ben heten Sofia.", "Mijn heet Sofia.", "Ik hebt Sofia."], "answer": 0 },
+    { "level": "A1", "q": "Qual é o artigo certo: ___ huis (a casa)?", "options": ["de", "het", "een de", "dat"], "answer": 1 },
+    { "level": "A1", "q": "O que significa \"Goeiemorgen, hoe gaat het?\"", "options": ["Boa noite, onde você mora?", "Bom dia, tudo bem?", "Até logo, quanto custa?", "Bom dia, que horas são?"], "answer": 1 },
+    { "level": "A2", "q": "Qual frase está na ordem certa?", "options": ["Morgen ik ga naar de markt.", "Morgen ga ik naar de markt.", "Morgen ik naar de markt ga.", "Ik morgen naar de markt ga."], "answer": 1 },
+    { "level": "A2", "q": "Complete: \"Gisteren ___ ik een boek gelezen.\"", "options": ["ben", "heb", "word", "zal"], "answer": 1 },
+    { "level": "A2", "q": "Você quer a conta no restaurante. O que diz?", "options": ["Mag ik de rekening, alstublieft?", "Mag ik de kaart, alstublieft?", "Waar is de wc?", "Ik wil graag een tafel."], "answer": 0 },
+    { "level": "B1", "q": "Complete: \"Ik weet niet of hij morgen ___.\"", "options": ["komt", "kom", "gekomen", "komen hij"], "answer": 0 },
+    { "level": "B1", "q": "Qual frase usa corretamente o verbo separável?", "options": ["Ik opbel hem morgen.", "Ik bel hem morgen op.", "Ik hem morgen opbel.", "Ik bel op hem morgen."], "answer": 1 },
+    { "level": "B2", "q": "Qual frase é a mais formal, de uma carta de candidatura?", "options": ["Ik zou graag op gesprek komen.", "Ik wil nu een gesprek.", "Geef mij die job.", "Ik kom gewoon eens langs."], "answer": 0 },
+    { "level": "B2", "q": "Complete: \"Had ik dat geweten, ___ ik anders gehandeld.\"", "options": ["zou", "zal", "wil", "kan"], "answer": 0 }
+  ]
+}
