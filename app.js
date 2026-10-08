@@ -387,6 +387,7 @@ async function route() {
   const qs = new URLSearchParams(hFull.split('?')[1] || '');
   try {
     if (h === '' || h === '/') return renderHome(app);
+    if (h === 'nivelamento') return renderPlacement(app);
     if (h === 'legenda') return renderLegend(app);
     if (h === 'revisao') return renderReview(app);
     if (h === 'woordenboek') return renderWoordenboek(app);
@@ -437,7 +438,8 @@ async function renderHome(app) {
     para B1. Fonte: <a href="https://www.integratie-inburgering.be/nl/inburgeringstraject" target="_blank" rel="noopener">integratie-inburgering.be</a>.
     Vale conferir a página oficial antes de qualquer decisão real.</small></p>
     ${dailyHTML}
-    <p><a class="btn small" href="#/maandelijst">🗓️ Woordenlijst do mês</a></p>
+    <p><a class="btn small" href="#/nivelamento">🧭 Onde estou? Teste de nível</a>
+    <a class="btn small" href="#/maandelijst">🗓️ Woordenlijst do mês</a></p>
     <p class="muted" style="margin:.6em 0 .2em"><b>👉 Escolha um nível</b> para ver TUDO dele (lições, frases e vocabulário):</p>
     <div class="level-picker">${['A1','A2','B1','B2','C1','C2'].map(u =>
       `<a class="level-btn" href="#/nivel/${u}" style="background:${UNIT_COLORS[u]}">${u}<small>${UNIT_INFO[u].emoji} ${UNIT_INFO[u].name}</small></a>`).join('')}</div>
@@ -940,6 +942,50 @@ async function renderLevel(app, unit) {
     b.classList.add('active'); tabs[b.dataset.t]();
   }));
   tabs.les();
+}
+
+/* ---------- NIVELAMENTO: 10-question placement quiz, result only stored as S.placement ---------- */
+async function renderPlacement(app) {
+  app.innerHTML = `<div class="loading">⏳...</div>`;
+  let P; try { P = await (await fetch('data/placement.json')).json(); } catch { app.innerHTML = '<div class="card">Em breve 🔜</div>'; return; }
+  const qs = P.questions;
+  let i = 0, score = 0;
+  const ask = () => {
+    const q = qs[i];
+    app.innerHTML = `
+      <div class="crumb"><a href="#/">🏠 Início</a></div>
+      <h1>🧭 ${esc(P.title)}</h1>
+      <div class="card">
+        <div class="ex-progress"><span>${i + 1}/${qs.length}</span>
+          <div class="progressbar"><div style="width:${Math.round(i / qs.length * 100)}%"></div></div></div>
+        <h2 class="ex-q" id="pq" tabindex="-1">${esc(q.q)}</h2>
+        <div class="options" role="group" aria-labelledby="pq">${q.options.map((o, k) =>
+          `<button class="opt" data-k="${k}">${esc(o)}</button>`).join('')}</div>
+      </div>
+      ${i === 0 ? `<p class="muted">${esc(P.intro)}</p>` : ''}`;
+    app.querySelectorAll('.opt').forEach(b => b.addEventListener('click', () => {
+      if (+b.dataset.k === q.answer) score++;
+      if (++i < qs.length) { ask(); const h = $('#pq'); if (h) h.focus(); } else finish();
+    }));
+  };
+  const finish = () => {
+    const level = score <= 3 ? 'A1' : score <= 6 ? 'A2' : score <= 8 ? 'B1' : 'B2';
+    const st = P.start[level];
+    S.placement = { level, lesson: st.lesson, score, total: qs.length };
+    save();
+    app.innerHTML = `
+      <div class="crumb"><a href="#/">🏠 Início</a></div>
+      <h1>🧭 Seu ponto de partida: ${level}</h1>
+      <div class="card">
+        <p>Você acertou <b>${score}</b> de ${qs.length}.</p>
+        <p>${esc(st.text)}</p>
+        <p><a class="btn primary" href="#/les/${esc(st.lesson)}">▶️ Abrir a lição recomendada</a>
+        <a class="btn" href="#/nivel/${level}">Ver todo o nível ${level}</a></p>
+        <p><button class="btn small" id="pRetry">🔁 Refazer o teste</button></p>
+      </div>`;
+    $('#pRetry').addEventListener('click', () => { i = 0; score = 0; ask(); });
+  };
+  ask();
 }
 
 /* ---------- KLANKEN: native sound trainer (long vs short, digraphs) ---------- */
