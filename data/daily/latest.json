@@ -9,25 +9,59 @@
   },
   "phrase": {
     "nl": [
-      {"t":"Kunt","r":"verb"},
-      {"t":"u","r":"pron"},
-      {"t":"dat","r":"pron"},
-      {"t":"herhalen","r":"verb"},
-      {"t":",","r":"punc"},
-      {"t":"alstublieft","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "moet",
+        "r": "verb"
+      },
+      {
+        "t": "nog",
+        "r": "adv"
+      },
+      {
+        "t": "boodschappen",
+        "r": "noun"
+      },
+      {
+        "t": "doen",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
     "pt": [
-      {"t":"O","r":"pron"},
-      {"t":"senhor","r":"pron"},
-      {"t":"pode","r":"verb"},
-      {"t":"repetir","r":"verb"},
-      {"t":"isso","r":"pron"},
-      {"t":",","r":"punc"},
-      {"t":"por favor","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "preciso",
+        "r": "verb"
+      },
+      {
+        "t": "ainda",
+        "r": "adv"
+      },
+      {
+        "t": "fazer",
+        "r": "verb"
+      },
+      {
+        "t": "compras",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
-    "lit": "kunt(pode) u(o senhor) dat(isso) herhalen(repetir) alstublieft(por favor)",
-    "note": "Na Flandres, 'u' é a forma educada com desconhecidos. Com amigos, diga 'Kun je dat herhalen?'. O verbo 'herhalen' vai para o fim da frase."
+    "lit": "ik(eu) moet(preciso) nog(ainda) boodschappen(compras) doen(fazer)",
+    "note": "Em neerlandês diz-se 'boodschappen doen' (fazer compras de mercado). O verbo 'doen' vai para o fim da frase. Na Bélgica, 'boodschappen' são as compras do dia a dia, não de roupas.",
+    "emoji": "🛒"
   }
 }
