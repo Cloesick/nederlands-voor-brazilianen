@@ -1,31 +1,37 @@
 {
-  "date": "2026-10-10",
+  "date": "2026-10-11",
   "word": {
-    "nl": "het frietkot",
+    "nl": "het pintje",
     "art": "het",
-    "split": "friet (batata frita) + kot (barraca)",
-    "pt": "barraquinha de batata frita",
-    "emoji": "🍟"
+    "split": "pint (copo de cerveja) + je (diminutivo)",
+    "pt": "chopinho, a cerveja pequena servida no bar",
+    "emoji": "🍺"
   },
   "phrase": {
     "nl": [
-      {"t": "Mag", "r": "verb"},
-      {"t": "ik", "r": "pron"},
+      {"t": "Ik", "r": "pron"},
+      {"t": "kom", "r": "verb"},
+      {"t": "met", "r": "prep"},
       {"t": "de", "r": "art"},
-      {"t": "rekening", "r": "noun"},
-      {"t": "alstublieft", "r": "adv"},
-      {"t": "?", "r": "punc"}
+      {"t": "fiets", "r": "noun"},
+      {"t": "naar", "r": "prep"},
+      {"t": "mijn", "r": "pron"},
+      {"t": "werk", "r": "noun"},
+      {"t": ".", "r": "punc"}
     ],
     "pt": [
-      {"t": "Posso", "r": "verb"},
-      {"t": "pedir", "r": "verb"},
-      {"t": "a", "r": "art"},
-      {"t": "conta", "r": "noun"},
-      {"t": "por favor", "r": "adv"},
-      {"t": "?", "r": "punc"}
+      {"t": "Eu", "r": "pron"},
+      {"t": "vou", "r": "verb"},
+      {"t": "de", "r": "prep"},
+      {"t": "bicicleta", "r": "noun"},
+      {"t": "para", "r": "prep"},
+      {"t": "o", "r": "art"},
+      {"t": "meu", "r": "pron"},
+      {"t": "trabalho", "r": "noun"},
+      {"t": ".", "r": "punc"}
     ],
-    "lit": "mag(posso) ik(eu) de(a) rekening(conta) alstublieft(por favor)",
-    "note": "Em restaurantes belgas a conta não vem sozinha: você precisa pedi-la. 'Mag ik' é a forma educada de pedir algo. Em contexto mais informal, também se ouve 'Mag ik betalen?'.",
-    "emoji": "🧾"
+    "lit": "eu venho com a bicicleta para meu trabalho",
+    "note": "Em holandês se diz 'met de fiets' (com a bicicleta), e não 'de bicicleta'. Na Flandres, muita gente vai trabalhar pedalando.",
+    "emoji": "🚲"
   }
 }
