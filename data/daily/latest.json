@@ -1,91 +1,34 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "word": {
-    "nl": "de winkelkar",
+    "nl": "de bakkerij",
     "art": "de",
-    "split": "winkel (loja) + kar (carrinho)",
-    "pt": "carrinho de compras",
-    "emoji": "🛒"
+    "split": "bakker (padeiro) + ij (lugar)",
+    "pt": "padaria",
+    "emoji": "🥖"
   },
   "phrase": {
     "nl": [
-      {
-        "t": "Ik",
-        "r": "pron"
-      },
-      {
-        "t": "kom",
-        "r": "verb"
-      },
-      {
-        "t": "met",
-        "r": "prep"
-      },
-      {
-        "t": "de",
-        "r": "art"
-      },
-      {
-        "t": "fiets",
-        "r": "noun"
-      },
-      {
-        "t": "naar",
-        "r": "prep"
-      },
-      {
-        "t": "mijn",
-        "r": "pron"
-      },
-      {
-        "t": "werk",
-        "r": "noun"
-      },
-      {
-        "t": ".",
-        "r": "punc"
-      }
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"herhalen","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {
-        "t": "Eu",
-        "r": "pron"
-      },
-      {
-        "t": "vou",
-        "r": "verb"
-      },
-      {
-        "t": "de",
-        "r": "prep"
-      },
-      {
-        "t": "bicicleta",
-        "r": "noun"
-      },
-      {
-        "t": "para",
-        "r": "prep"
-      },
-      {
-        "t": "o",
-        "r": "art"
-      },
-      {
-        "t": "meu",
-        "r": "pron"
-      },
-      {
-        "t": "trabalho",
-        "r": "noun"
-      },
-      {
-        "t": ".",
-        "r": "punc"
-      }
+      {"t":"O","r":"art"},
+      {"t":"senhor","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":",","r":"punc"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "eu venho com a bicicleta para meu trabalho",
-    "note": "Em holandês se diz 'met de fiets' (com a bicicleta), e não 'de bicicleta'. Na Flandres, muita gente vai trabalhar pedalando.",
-    "emoji": "🚲"
+    "lit": "pode o senhor isso repetir, por favor",
+    "note": "O verbo vai para o fim da frase: 'dat herhalen'. 'U' é a forma educada, muito usada em lojas e repartições na Flandres.",
+    "emoji": "🗣️"
   }
 }

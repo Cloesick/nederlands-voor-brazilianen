@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-12",
+  "word": {
+    "nl": "de bakkerij",
+    "art": "de",
+    "split": "bakker (padeiro) + ij (lugar)",
+    "pt": "padaria",
+    "emoji": "🥖"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"herhalen","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"O","r":"art"},
+      {"t":"senhor","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":",","r":"punc"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "pode o senhor isso repetir, por favor",
+    "note": "O verbo vai para o fim da frase: 'dat herhalen'. 'U' é a forma educada, muito usada em lojas e repartições na Flandres.",
+    "emoji": "🗣️"
+  }
+}
