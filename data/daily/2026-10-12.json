@@ -9,26 +9,59 @@
   },
   "phrase": {
     "nl": [
-      {"t":"Kunt","r":"verb"},
-      {"t":"u","r":"pron"},
-      {"t":"dat","r":"pron"},
-      {"t":"herhalen","r":"verb"},
-      {"t":",","r":"punc"},
-      {"t":"alstublieft","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Is",
+        "r": "verb"
+      },
+      {
+        "t": "dit",
+        "r": "pron"
+      },
+      {
+        "t": "brood",
+        "r": "noun"
+      },
+      {
+        "t": "nog",
+        "r": "adv"
+      },
+      {
+        "t": "vers",
+        "r": "adj"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
     ],
     "pt": [
-      {"t":"O","r":"art"},
-      {"t":"senhor","r":"pron"},
-      {"t":"poderia","r":"verb"},
-      {"t":"repetir","r":"verb"},
-      {"t":"isso","r":"pron"},
-      {"t":",","r":"punc"},
-      {"t":"por favor","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Este",
+        "r": "pron"
+      },
+      {
+        "t": "pão",
+        "r": "noun"
+      },
+      {
+        "t": "ainda",
+        "r": "adv"
+      },
+      {
+        "t": "está",
+        "r": "verb"
+      },
+      {
+        "t": "fresco",
+        "r": "adj"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
     ],
-    "lit": "pode o senhor isso repetir, por favor",
-    "note": "O verbo vai para o fim da frase: 'dat herhalen'. 'U' é a forma educada, muito usada em lojas e repartições na Flandres.",
-    "emoji": "🗣️"
+    "lit": "é este pão ainda fresco",
+    "note": "Em perguntas de sim ou não, o verbo vem em primeiro lugar: 'Is dit brood...?'. O holandês usa 'zijn' (ser), onde o português usa 'estar'. 'Brood' é 'het': het brood, dit brood.",
+    "emoji": "🍞"
   }
 }
