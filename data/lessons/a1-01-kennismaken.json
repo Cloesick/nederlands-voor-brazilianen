@@ -220,6 +220,11 @@
         ["de geboortedatum", "a data de nascimento"]
       ],
       "explain": "Todas são palavras de formulário e de conversa de portão: voor (antes) + naam, achter (atrás) + naam, buur (vizinho) + vrouw (mulher), woon (morar) + plaats (lugar), geboorte (nascimento) + datum (data)."
+    },
+    {
+      "type": "dictee",
+      "nl": "Waar kom je vandaan?",
+      "explain": "Dictee: Waar kom je vandaan? = De onde você é? Ouça com atenção o \"aa\" longo de waar e o \"oo\" de kom."
     }
   ]
 }

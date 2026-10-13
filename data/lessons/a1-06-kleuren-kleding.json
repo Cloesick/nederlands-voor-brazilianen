@@ -118,6 +118,11 @@
     { "type": "order", "pt": "Eu tenho um casaco vermelho.", "tokens": ["Ik", "heb", "een", "rode", "jas"], "answer": "Ik heb een rode jas", "explain": "Ordem NL: sujeito, verbo, artigo, adjetivo (com -e, porque jas é \"de\"), substantivo." },
     { "type": "order", "pt": "Você tem isto em azul?", "tokens": ["Heeft", "u", "dit", "in", "het", "blauw"], "answer": "Heeft u dit in het blauw", "explain": "Pergunta sim/não: o verbo heeft abre a frase. in het blauw é a expressão fixa \"na cor azul\"." },
     { "type": "match", "pairs": [["rood", "vermelho"], ["groen", "verde"], ["blauw", "azul"], ["geel", "amarelo"], ["zwart", "preto"]], "explain": "As cinco cores mais usadas no dia a dia. Todas ficam sem -e quando estão sozinhas, fora de uma frase." },
-    { "type": "match", "pairs": [["de broek", "a calça"], ["het hemd", "a camisa"], ["de jas", "o casaco"], ["de schoenen", "os sapatos"]], "explain": "Três das quatro peças são palavras \"de\"; só het hemd é \"het\". Por isso hemd é a exceção na regra do -e." }
+    { "type": "match", "pairs": [["de broek", "a calça"], ["het hemd", "a camisa"], ["de jas", "o casaco"], ["de schoenen", "os sapatos"]], "explain": "Três das quatro peças são palavras \"de\"; só het hemd é \"het\". Por isso hemd é a exceção na regra do -e." },
+    {
+      "type": "dictee",
+      "nl": "De schoenen zijn zwart.",
+      "explain": "Schoenen = sapatos. O \"sch\" e o \"oe\" são armadilhas de grafia; zwart começa com zw."
+    }
   ]
 }

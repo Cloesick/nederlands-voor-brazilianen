@@ -125,6 +125,11 @@
     { "type": "order", "pt": "Eu não tenho carro.", "tokens": ["Ik", "heb", "geen", "auto"], "answer": "Ik heb geen auto", "explain": "geen fica sempre colado ANTES do substantivo que ele nega: geen auto. Nunca vai para o fim da frase como o niet." },
     { "type": "order", "pt": "Onde você mora?", "tokens": ["Waar", "woon", "je"], "answer": "Waar woon je", "explain": "Regra V2: depois da palavra interrogativa vem o VERBO e só então o sujeito: Waar + woon + je. E na inversão o -t desaparece." },
     { "type": "match", "pairs": [["de slaapkamer", "o quarto de dormir"], ["de badkamer", "o banheiro"], ["de woonkamer", "a sala de estar"], ["de keuken", "a cozinha"], ["de tuin", "o jardim"]], "explain": "Três dos cinco são LEGO com kamer: slaap+kamer, bad+kamer, woon+kamer. Keuken e tuin são peças únicas, sem quebra." },
-    { "type": "match", "pairs": [["de man", "o marido"], ["de vrouw", "a esposa"], ["de zoon", "o filho"], ["de dochter", "a filha"]], "explain": "man e vrouw fazem serviço duplo: homem/marido e mulher/esposa. O contexto resolve: mijn man = meu marido." }
+    { "type": "match", "pairs": [["de man", "o marido"], ["de vrouw", "a esposa"], ["de zoon", "o filho"], ["de dochter", "a filha"]], "explain": "man e vrouw fazem serviço duplo: homem/marido e mulher/esposa. O contexto resolve: mijn man = meu marido." },
+    {
+      "type": "dictee",
+      "nl": "Ik heb een zoon en een dochter.",
+      "explain": "Dochter tem o \"ch\" gutural. Zoon tem \"oo\" longo e começa com z, que soa como \"z\" suave."
+    }
   ]
 }
