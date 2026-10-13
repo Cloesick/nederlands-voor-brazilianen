@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "word": {
+    "nl": "de paraplu",
+    "art": "de",
+    "split": "para (contra) + plu (chuva, do francês pluie)",
+    "pt": "guarda-chuva",
+    "emoji": "🌂"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "heb",
+        "r": "verb"
+      },
+      {
+        "t": "zin",
+        "r": "noun"
+      },
+      {
+        "t": "in",
+        "r": "prep"
+      },
+      {
+        "t": "een",
+        "r": "art"
+      },
+      {
+        "t": "koffie",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "tenho",
+        "r": "verb"
+      },
+      {
+        "t": "vontade",
+        "r": "noun"
+      },
+      {
+        "t": "de",
+        "r": "prep"
+      },
+      {
+        "t": "um",
+        "r": "art"
+      },
+      {
+        "t": "café",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "eu tenho vontade em um café",
+    "note": "'Zin hebben in' + substantivo é a forma comum de dizer que você está com vontade de algo: 'Ik heb zin in friet.' Para um verbo, use 'zin hebben om te': 'Ik heb zin om te wandelen.'",
+    "emoji": "☕"
+  }
+}

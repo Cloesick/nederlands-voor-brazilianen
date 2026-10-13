@@ -1,67 +1,75 @@
 {
-  "date": "2026-10-12",
+  "date": "2026-10-13",
   "word": {
-    "nl": "de bakkerij",
+    "nl": "de paraplu",
     "art": "de",
-    "split": "bakker (padeiro) + ij (lugar)",
-    "pt": "padaria",
-    "emoji": "🥖"
+    "split": "para (contra) + plu (chuva, do francês pluie)",
+    "pt": "guarda-chuva",
+    "emoji": "🌂"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Is",
-        "r": "verb"
-      },
-      {
-        "t": "dit",
+        "t": "Ik",
         "r": "pron"
       },
       {
-        "t": "brood",
+        "t": "heb",
+        "r": "verb"
+      },
+      {
+        "t": "zin",
         "r": "noun"
       },
       {
-        "t": "nog",
-        "r": "adv"
+        "t": "in",
+        "r": "prep"
       },
       {
-        "t": "vers",
-        "r": "adj"
+        "t": "een",
+        "r": "art"
       },
       {
-        "t": "?",
+        "t": "koffie",
+        "r": "noun"
+      },
+      {
+        "t": ".",
         "r": "punc"
       }
     ],
     "pt": [
       {
-        "t": "Este",
+        "t": "Eu",
         "r": "pron"
       },
       {
-        "t": "pão",
-        "r": "noun"
-      },
-      {
-        "t": "ainda",
-        "r": "adv"
-      },
-      {
-        "t": "está",
+        "t": "tenho",
         "r": "verb"
       },
       {
-        "t": "fresco",
-        "r": "adj"
+        "t": "vontade",
+        "r": "noun"
       },
       {
-        "t": "?",
+        "t": "de",
+        "r": "prep"
+      },
+      {
+        "t": "um",
+        "r": "art"
+      },
+      {
+        "t": "café",
+        "r": "noun"
+      },
+      {
+        "t": ".",
         "r": "punc"
       }
     ],
-    "lit": "é este pão ainda fresco",
-    "note": "Em perguntas de sim ou não, o verbo vem em primeiro lugar: 'Is dit brood...?'. O holandês usa 'zijn' (ser), onde o português usa 'estar'. 'Brood' é 'het': het brood, dit brood.",
-    "emoji": "🍞"
+    "lit": "eu tenho vontade em um café",
+    "note": "'Zin hebben in' + substantivo é a forma comum de dizer que você está com vontade de algo: 'Ik heb zin in friet.' Para um verbo, use 'zin hebben om te': 'Ik heb zin om te wandelen.'",
+    "emoji": "☕"
   }
 }
