@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "word": {
-    "nl": "de paraplu",
+    "nl": "de loonfiche",
     "art": "de",
-    "split": "para (contra) + plu (chuva, do francês pluie)",
-    "pt": "guarda-chuva",
-    "emoji": "🌂"
+    "split": "loon (salário) + fiche (do francês, ficha)",
+    "pt": "holerite",
+    "emoji": "🧾"
   },
   "phrase": {
     "nl": [
@@ -14,24 +14,32 @@
         "r": "pron"
       },
       {
-        "t": "heb",
+        "t": "ben",
         "r": "verb"
       },
       {
-        "t": "zin",
-        "r": "noun"
+        "t": "laat",
+        "r": "adj"
       },
       {
-        "t": "in",
-        "r": "prep"
+        "t": "omdat",
+        "r": "conj"
       },
       {
-        "t": "een",
+        "t": "de",
         "r": "art"
       },
       {
-        "t": "koffie",
+        "t": "trein",
         "r": "noun"
+      },
+      {
+        "t": "vertraging",
+        "r": "noun"
+      },
+      {
+        "t": "had",
+        "r": "verb"
       },
       {
         "t": ".",
@@ -44,23 +52,31 @@
         "r": "pron"
       },
       {
-        "t": "tenho",
+        "t": "estou",
         "r": "verb"
       },
       {
-        "t": "vontade",
-        "r": "noun"
+        "t": "atrasado",
+        "r": "adj"
       },
       {
-        "t": "de",
-        "r": "prep"
+        "t": "porque",
+        "r": "conj"
       },
       {
-        "t": "um",
+        "t": "o",
         "r": "art"
       },
       {
-        "t": "café",
+        "t": "trem",
+        "r": "noun"
+      },
+      {
+        "t": "teve",
+        "r": "verb"
+      },
+      {
+        "t": "atraso",
         "r": "noun"
       },
       {
@@ -68,8 +84,8 @@
         "r": "punc"
       }
     ],
-    "lit": "eu tenho vontade em um café",
-    "note": "'Zin hebben in' + substantivo é a forma comum de dizer que você está com vontade de algo: 'Ik heb zin in friet.' Para um verbo, use 'zin hebben om te': 'Ik heb zin om te wandelen.'",
-    "emoji": "☕"
+    "lit": "eu estou tarde porque o trem atraso tinha",
+    "note": "Depois de 'omdat' (porque) o verbo conjugado vai para o FIM da oração: 'omdat de trein vertraging had'. Em português o verbo fica no meio: 'porque o trem teve atraso'.",
+    "emoji": "🚆"
   }
 }

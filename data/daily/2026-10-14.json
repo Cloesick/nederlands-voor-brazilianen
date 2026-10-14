@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-14",
+  "word": {
+    "nl": "de loonfiche",
+    "art": "de",
+    "split": "loon (salário) + fiche (do francês, ficha)",
+    "pt": "holerite",
+    "emoji": "🧾"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "ben",
+        "r": "verb"
+      },
+      {
+        "t": "laat",
+        "r": "adj"
+      },
+      {
+        "t": "omdat",
+        "r": "conj"
+      },
+      {
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "trein",
+        "r": "noun"
+      },
+      {
+        "t": "vertraging",
+        "r": "noun"
+      },
+      {
+        "t": "had",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "estou",
+        "r": "verb"
+      },
+      {
+        "t": "atrasado",
+        "r": "adj"
+      },
+      {
+        "t": "porque",
+        "r": "conj"
+      },
+      {
+        "t": "o",
+        "r": "art"
+      },
+      {
+        "t": "trem",
+        "r": "noun"
+      },
+      {
+        "t": "teve",
+        "r": "verb"
+      },
+      {
+        "t": "atraso",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "eu estou tarde porque o trem atraso tinha",
+    "note": "Depois de 'omdat' (porque) o verbo conjugado vai para o FIM da oração: 'omdat de trein vertraging had'. Em português o verbo fica no meio: 'porque o trem teve atraso'.",
+    "emoji": "🚆"
+  }
+}
