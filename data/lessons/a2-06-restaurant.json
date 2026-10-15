@@ -34,7 +34,7 @@
     },
     {
       "nl": [{"t":"Goedenavond","r":"x"},{"t":",","r":"punc"},{"t":"hebt","r":"verb"},{"t":"u","r":"pron"},{"t":"gereserveerd","r":"verb"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"Boa","r":"adj"},{"t":"noite","r":"noun"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"senhor","r":"noun"},{"t":"tem","r":"verb"},{"t":"reserva","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Boa","r":"adj"},{"t":"noite","r":"noun"},{"t":",","r":"punc"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"tem","r":"verb"},{"t":"reserva","r":"noun"},{"t":"?","r":"punc"}],
       "lit": "boa-noite, tem o senhor reservado?",
       "note": "Pergunta sim/não do garçom (Ober): o verbo auxiliar hebt abre a frase e o particípio gereserveerd fecha, a pinça clássica."
     },
@@ -52,7 +52,7 @@
     },
     {
       "nl": [{"t":"Wat","r":"qw"},{"t":"wilt","r":"verb"},{"t":"u","r":"pron"},{"t":"als","r":"prep"},{"t":"voorgerecht","r":"noun"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"O que","r":"qw"},{"t":"quer","r":"verb"},{"t":"o","r":"art"},{"t":"senhor","r":"noun"},{"t":"como","r":"prep"},{"t":"entrada","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O que","r":"qw"},{"t":"quer","r":"verb"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"como","r":"prep"},{"t":"entrada","r":"noun"},{"t":"?","r":"punc"}],
       "lit": "o que quer o senhor como voorgerecht?",
       "note": "als aqui significa 'como' (função), não 'se'. voorgerecht = voor (antes) + gerecht (prato): o prato de antes."
     },
@@ -64,7 +64,7 @@
     },
     {
       "nl": [{"t":"En","r":"conj"},{"t":"wat","r":"qw"},{"t":"wilt","r":"verb"},{"t":"u","r":"pron"},{"t":"als","r":"prep"},{"t":"hoofdgerecht","r":"noun"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"E","r":"conj"},{"t":"o que","r":"qw"},{"t":"quer","r":"verb"},{"t":"o","r":"art"},{"t":"senhor","r":"noun"},{"t":"como","r":"prep"},{"t":"prato","r":"noun"},{"t":"principal","r":"adj"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"E","r":"conj"},{"t":"o que","r":"qw"},{"t":"quer","r":"verb"},{"t":"o","r":"art"},{"t":"senhor","r":"pron"},{"t":"como","r":"prep"},{"t":"prato","r":"noun"},{"t":"principal","r":"adj"},{"t":"?","r":"punc"}],
       "lit": "e o que quer o senhor como hoofdgerecht?",
       "note": "hoofdgerecht = hoofd (cabeça/principal) + gerecht (prato): o prato 'da cabeça' da refeição."
     },

@@ -83,7 +83,7 @@
     },
     {
       "nl": [{"t":"Heeft","r":"verb"},{"t":"u","r":"pron"},{"t":"dit","r":"pron"},{"t":"ook","r":"adv"},{"t":"in","r":"prep"},{"t":"het","r":"art"},{"t":"zwart","r":"noun"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"O","r":"art"},{"t":"senhor","r":"noun"},{"t":"tem","r":"verb"},{"t":"isto","r":"pron"},{"t":"também","r":"adv"},{"t":"em","r":"prep"},{"t":"preto","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"senhor","r":"pron"},{"t":"tem","r":"verb"},{"t":"isto","r":"pron"},{"t":"também","r":"adv"},{"t":"em","r":"prep"},{"t":"preto","r":"noun"},{"t":"?","r":"punc"}],
       "lit": "tem o senhor isto também em preto?",
       "note": "in het + cor = expressão fixa da loja. Aqui a cor funciona como substantivo, por isso o artigo het aparece, mesmo com zwart."
     }
