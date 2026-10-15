@@ -4,6 +4,12 @@ name: Supabase keep-alive
 # (this is exactly what happened to a sibling project — 90+ days paused
 # became unrecoverable). This makes one harmless read every few days so
 # the entitlements project never goes quiet, at zero cost.
+#
+# Failure modes are reported explicitly (see TODO.md for the current status):
+#   - secret missing          -> set SUPABASE_URL / SUPABASE_ANON_KEY in repo secrets
+#   - host does not resolve   -> the project ref in SUPABASE_URL is deleted or mistyped
+#                                (a PAUSED project still resolves and returns an HTTP error)
+#   - HTTP error              -> key wrong, project paused, or `entitlements` table missing
 
 on:
   schedule:
@@ -15,8 +21,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ping Supabase REST API
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
         run: |
-          curl -sf -o /dev/null -w "HTTP %{http_code}\n" \
-            "${{ secrets.SUPABASE_URL }}/rest/v1/entitlements?select=device_id&limit=1" \
-            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}" \
-            -H "Authorization: Bearer ${{ secrets.SUPABASE_ANON_KEY }}"
+          set -u
+          if [ -z "$SUPABASE_URL" ] || [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "::error title=Supabase secret missing::SUPABASE_URL and/or SUPABASE_ANON_KEY is not set in the repository's Actions secrets."
+            exit 1
+          fi
+          # Tolerate the usual copy-paste variants: trailing slash, whitespace, or a bare project ref.
+          url="$(printf '%s' "$SUPABASE_URL" | tr -d '[:space:]')"
+          url="${url%/}"
+          case "$url" in
+            http://*|https://*) ;;
+            *.supabase.co) url="https://$url" ;;
+            *) url="https://$url.supabase.co" ;;
+          esac
+          host="${url#*://}"; host="${host%%/*}"
+          ref="${host%%.*}"
+
+          if ! getent hosts "$host" > /dev/null; then
+            echo "::error title=Supabase project not found::The host for project ref '$ref' does not resolve in DNS. The project was deleted (a paused project still resolves). Create/restore the project in the Supabase dashboard, apply db/entitlements.sql, then update the SUPABASE_URL secret here AND in Vercel (see TODO.md)."
+            exit 1
+          fi
+
+          code=$(curl -s -o /dev/null -w '%{http_code}' --max-time 30 \
+            "$url/rest/v1/entitlements?select=device_id&limit=1" \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY") && rc=0 || rc=$?
+          echo "Supabase project '$ref' answered HTTP $code"
+          case "$code" in
+            2*) exit 0 ;;
+            401|403) msg="the anon key was rejected; update SUPABASE_ANON_KEY" ;;
+            404) msg="the 'entitlements' table is missing; apply db/entitlements.sql" ;;
+            000) msg="no HTTP response (curl exit $rc; 6 = host does not resolve, 28 = timeout)" ;;
+            *) msg="the project may be paused; restore it in the Supabase dashboard" ;;
+          esac
+          echo "::error title=Supabase ping failed (HTTP $code)::Project '$ref': $msg."
+          exit 1
