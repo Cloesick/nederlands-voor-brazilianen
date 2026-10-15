@@ -1,45 +1,29 @@
 {
-  "date": "2026-10-14",
+  "date": "2026-10-15",
   "word": {
-    "nl": "de loonfiche",
-    "art": "de",
-    "split": "loon (salário) + fiche (do francês, ficha)",
-    "pt": "holerite",
-    "emoji": "🧾"
+    "nl": "het containerpark",
+    "art": "het",
+    "split": "container (contêiner) + park (parque)",
+    "pt": "ecoponto (centro de descarte e reciclagem)",
+    "emoji": "♻️"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Ik",
+        "t": "Morgen",
+        "r": "adv"
+      },
+      {
+        "t": "wordt",
+        "r": "verb"
+      },
+      {
+        "t": "het",
         "r": "pron"
       },
       {
-        "t": "ben",
-        "r": "verb"
-      },
-      {
-        "t": "laat",
+        "t": "zonnig",
         "r": "adj"
-      },
-      {
-        "t": "omdat",
-        "r": "conj"
-      },
-      {
-        "t": "de",
-        "r": "art"
-      },
-      {
-        "t": "trein",
-        "r": "noun"
-      },
-      {
-        "t": "vertraging",
-        "r": "noun"
-      },
-      {
-        "t": "had",
-        "r": "verb"
       },
       {
         "t": ".",
@@ -48,44 +32,24 @@
     ],
     "pt": [
       {
-        "t": "Eu",
-        "r": "pron"
+        "t": "Amanhã",
+        "r": "adv"
       },
       {
-        "t": "estou",
+        "t": "vai ficar",
         "r": "verb"
       },
       {
-        "t": "atrasado",
+        "t": "ensolarado",
         "r": "adj"
-      },
-      {
-        "t": "porque",
-        "r": "conj"
-      },
-      {
-        "t": "o",
-        "r": "art"
-      },
-      {
-        "t": "trem",
-        "r": "noun"
-      },
-      {
-        "t": "teve",
-        "r": "verb"
-      },
-      {
-        "t": "atraso",
-        "r": "noun"
       },
       {
         "t": ".",
         "r": "punc"
       }
     ],
-    "lit": "eu estou tarde porque o trem atraso tinha",
-    "note": "Depois de 'omdat' (porque) o verbo conjugado vai para o FIM da oração: 'omdat de trein vertraging had'. Em português o verbo fica no meio: 'porque o trem teve atraso'.",
-    "emoji": "🚆"
+    "lit": "amanhã fica (torna-se) isso ensolarado",
+    "note": "Com 'morgen' no início, o verbo continua na 2ª posição e o sujeito vai para depois: 'Morgen wordt het zonnig'. O 'het' é um sujeito vazio, como em 'het regent'. Em português simplesmente omitimos: 'Amanhã vai ficar ensolarado'.",
+    "emoji": "☀️"
   }
 }

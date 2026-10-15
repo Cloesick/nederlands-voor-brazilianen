@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-15",
+  "word": {
+    "nl": "het containerpark",
+    "art": "het",
+    "split": "container (contêiner) + park (parque)",
+    "pt": "ecoponto (centro de descarte e reciclagem)",
+    "emoji": "♻️"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Morgen",
+        "r": "adv"
+      },
+      {
+        "t": "wordt",
+        "r": "verb"
+      },
+      {
+        "t": "het",
+        "r": "pron"
+      },
+      {
+        "t": "zonnig",
+        "r": "adj"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Amanhã",
+        "r": "adv"
+      },
+      {
+        "t": "vai ficar",
+        "r": "verb"
+      },
+      {
+        "t": "ensolarado",
+        "r": "adj"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "amanhã fica (torna-se) isso ensolarado",
+    "note": "Com 'morgen' no início, o verbo continua na 2ª posição e o sujeito vai para depois: 'Morgen wordt het zonnig'. O 'het' é um sujeito vazio, como em 'het regent'. Em português simplesmente omitimos: 'Amanhã vai ficar ensolarado'.",
+    "emoji": "☀️"
+  }
+}
