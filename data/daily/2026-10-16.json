@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-16",
+  "word": {
+    "nl": "de buurman",
+    "art": "de",
+    "split": "buur (vizinho) + man (homem)",
+    "pt": "vizinho (homem que mora ao lado)",
+    "emoji": "🏘️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"woon","r":"verb"},
+      {"t":"al","r":"adv"},
+      {"t":"drie","r":"num"},
+      {"t":"jaar","r":"noun"},
+      {"t":"in","r":"prep"},
+      {"t":"Gent","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"moro","r":"verb"},
+      {"t":"em","r":"prep"},
+      {"t":"Gent","r":"noun"},
+      {"t":"há","r":"adv"},
+      {"t":"três","r":"num"},
+      {"t":"anos","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "eu moro já três anos em Gent",
+    "note": "Para algo que começou no passado e continua, o holandês usa o presente com 'al': 'Ik woon al drie jaar in Gent'. Não se usa o passado composto como o 'tenho morado' do português. Depois do sujeito e do verbo, o tempo ('al drie jaar') vem antes do lugar ('in Gent').",
+    "emoji": "🏠"
+  }
+}
