@@ -211,6 +211,11 @@
       "type": "match",
       "pairs": [["het huis", "a casa"], ["de tuin", "o jardim"], ["het boek", "o livro"], ["de school", "a escola"], ["de wijn", "o vinho"], ["de trein", "o trem"]],
       "explain": "Cada palavra treina um som: huis e tuin (ui), boek (oe = u), school (sch), wijn (ij) e trein (ei), que soam igual!"
+    },
+    {
+      "type": "dictee",
+      "nl": "Het boek is goed.",
+      "explain": "Em boek e goed o \"oe\" soa como o \"u\" português, mas escreve-se oe. Em het, o e é curto."
     }
   ]
 }
