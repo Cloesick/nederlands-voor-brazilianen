@@ -1,35 +1,32 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "word": {
-    "nl": "de buurman",
+    "nl": "de fietsenstalling",
     "art": "de",
-    "split": "buur (vizinho) + man (homem)",
-    "pt": "vizinho (homem que mora ao lado)",
-    "emoji": "🏘️"
+    "split": "fiets (bicicleta) + en + stalling (guarda, abrigo)",
+    "pt": "bicicletário",
+    "emoji": "🚲"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"woon","r":"verb"},
-      {"t":"al","r":"adv"},
-      {"t":"drie","r":"num"},
-      {"t":"jaar","r":"noun"},
-      {"t":"in","r":"prep"},
-      {"t":"Gent","r":"noun"},
-      {"t":".","r":"punc"}
+      {"t":"Weet","r":"verb"},
+      {"t":"je","r":"pron"},
+      {"t":"waar","r":"qw"},
+      {"t":"het","r":"art"},
+      {"t":"station","r":"noun"},
+      {"t":"is","r":"verb"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"moro","r":"verb"},
-      {"t":"em","r":"prep"},
-      {"t":"Gent","r":"noun"},
-      {"t":"há","r":"adv"},
-      {"t":"três","r":"num"},
-      {"t":"anos","r":"noun"},
-      {"t":".","r":"punc"}
+      {"t":"Você","r":"pron"},
+      {"t":"sabe","r":"verb"},
+      {"t":"onde","r":"qw"},
+      {"t":"fica","r":"verb"},
+      {"t":"a","r":"art"},
+      {"t":"estação","r":"noun"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "eu moro já três anos em Gent",
-    "note": "Para algo que começou no passado e continua, o holandês usa o presente com 'al': 'Ik woon al drie jaar in Gent'. Não se usa o passado composto como o 'tenho morado' do português. Depois do sujeito e do verbo, o tempo ('al drie jaar') vem antes do lugar ('in Gent').",
-    "emoji": "🏠"
+    "lit": "sabes tu onde a estação está",
+    "note": "Depois de 'waar' começa uma oração subordinada, e nela o verbo vai para o fim: 'waar het station is', e não 'waar is het station'. Em português o verbo fica no meio ('onde fica a estação'). Em perguntas diretas o verbo vem antes: 'Waar is het station?'."
   }
 }

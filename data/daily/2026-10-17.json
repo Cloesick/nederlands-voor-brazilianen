@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "word": {
+    "nl": "de fietsenstalling",
+    "art": "de",
+    "split": "fiets (bicicleta) + en + stalling (guarda, abrigo)",
+    "pt": "bicicletário",
+    "emoji": "🚲"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Weet","r":"verb"},
+      {"t":"je","r":"pron"},
+      {"t":"waar","r":"qw"},
+      {"t":"het","r":"art"},
+      {"t":"station","r":"noun"},
+      {"t":"is","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Você","r":"pron"},
+      {"t":"sabe","r":"verb"},
+      {"t":"onde","r":"qw"},
+      {"t":"fica","r":"verb"},
+      {"t":"a","r":"art"},
+      {"t":"estação","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "sabes tu onde a estação está",
+    "note": "Depois de 'waar' começa uma oração subordinada, e nela o verbo vai para o fim: 'waar het station is', e não 'waar is het station'. Em português o verbo fica no meio ('onde fica a estação'). Em perguntas diretas o verbo vem antes: 'Waar is het station?'."
+  }
+}
