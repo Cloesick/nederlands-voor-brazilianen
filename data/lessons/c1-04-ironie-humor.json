@@ -40,7 +40,7 @@
     },
     {
       "nl": [{"t":"Dat","r":"pron"},{"t":"meen","r":"verb"},{"t":"je","r":"pron"},{"t":"niet","r":"neg"},{"t":"!","r":"punc"}],
-      "pt": [{"t":"Não","r":"neg"},{"t":"pode","r":"verb"},{"t":"ser","r":"verb"},{"t":"sério","r":"adj"},{"t":"!","r":"punc"}],
+      "pt": [{"t":"Você","r":"pron"},{"t":"não","r":"neg"},{"t":"está","r":"verb"},{"t":"falando","r":"verb"},{"t":"sério","r":"adj"},{"t":"!","r":"punc"}],
       "lit": "isso quer-dizer você não",
       "note": "Reação de dúvida/surpresa divertida a uma piada ou ironia. Literalmente 'você não quer dizer isso', usado como 'você tá de brincadeira!'."
     },
