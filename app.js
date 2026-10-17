@@ -277,16 +277,38 @@ let SPEAKING_BTN = null;
 // btn is optional: when passed, it gets a `.speaking` pulse for the duration of playback - real
 // visual confirmation the pronunciation audio is actually running (useful on silent/muted devices,
 // and just makes a text-to-speech button feel like a real instrument instead of a static icon).
+let NO_VOICE_TOLD = false;
+function noVoiceToast() {
+  if (NO_VOICE_TOLD) return;
+  NO_VOICE_TOLD = true;
+  toast('Seu aparelho não tem voz em neerlandês. Instale uma em Configurações > Idioma > Texto para fala.', 6000);
+}
+// Prefers nl-BE, then any nl voice. Never returns a non-Dutch voice.
+function dutchVoice() {
+  const voices = speechSynthesis.getVoices();
+  return voices.find(v => /^nl[-_]BE$/i.test(v.lang)) || voices.find(v => /^nl([-_]|$)/i.test(v.lang)) || null;
+}
 function speak(text, btn) {
-  if (!hasTTS) return;
+  if (!hasTTS) { noVoiceToast(); return; }
   speechSynthesis.cancel();
   if (SPEAKING_BTN) { SPEAKING_BTN.classList.remove('speaking'); SPEAKING_BTN = null; }
+  const v = dutchVoice();
+  if (!v) {
+    // The voice list may still be loading: wait for voiceschanged once, then decide.
+    if (speechSynthesis.getVoices().length) { noVoiceToast(); return; }
+    let done = false;
+    const retry = () => {
+      if (done) return; done = true;
+      speechSynthesis.removeEventListener('voiceschanged', retry);
+      dutchVoice() ? speak(text, btn) : noVoiceToast();
+    };
+    speechSynthesis.addEventListener('voiceschanged', retry);
+    setTimeout(retry, 1500);
+    return;
+  }
   const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️]/g,''));
-  const voices = speechSynthesis.getVoices();
-  const v = voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
-        || voices.find(v => /^nl/i.test(v.lang));
-  if (v) u.voice = v;
-  u.lang = (v && v.lang) || 'nl-NL';
+  u.voice = v;
+  u.lang = v.lang;
   u.rate = 0.88;
   if (btn) {
     btn.classList.add('speaking');
@@ -305,9 +327,9 @@ function norm(s) {
     .replace(/[.!?,;:]+$/,'').normalize('NFD').replace(/[̀-ͯ]/g,'');
 }
 function shuffle(a) { a = a.slice(); for (let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
-function toast(msg) {
+function toast(msg, ms = 1800) {
   const t = $('#toast'); t.textContent = msg; t.hidden = false;
-  clearTimeout(t._h); t._h = setTimeout(() => t.hidden = true, 1800);
+  clearTimeout(t._h); t._h = setTimeout(() => t.hidden = true, ms);
 }
 function paintStats() {
   $('#xpStat').textContent = S.xp;
