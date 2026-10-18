@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-18",
+  "word": {
+    "nl": "het stopcontact",
+    "art": "het",
+    "split": "stop (plugue, de stoppen) + contact (contato)",
+    "pt": "tomada",
+    "emoji": "🔌"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"wil","r":"verb"},
+      {"t":"graag","r":"adv"},
+      {"t":"een","r":"art"},
+      {"t":"afspraak","r":"noun"},
+      {"t":"maken","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"queria","r":"verb"},
+      {"t":"muito","r":"adv"},
+      {"t":"marcar","r":"verb"},
+      {"t":"um","r":"art"},
+      {"t":"horário","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "eu quero com prazer um compromisso fazer",
+    "note": "'Graag' suaviza o pedido e soa educado, como o 'queria' em português. O segundo verbo vai para o fim da frase: 'een afspraak maken'. Em Flandres se diz 'een afspraak maken' para consultas, médico, prefeitura e cabeleireiro."
+  }
+}
