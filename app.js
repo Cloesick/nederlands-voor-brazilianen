@@ -56,10 +56,11 @@ let S = load();
 function load() {
   // saga: { done:{chapterId:true}, flawless:{chapterId:true} } - the sword-and-saga campaign in #/saga
   const defaults = { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'',
-    saga:{ done:{}, flawless:{} } };
+    saga:{ done:{}, flawless:{} }, shadow:{ saved:[] } };
   try {
     const s = Object.assign({}, defaults, JSON.parse(localStorage.getItem(STORE_KEY) || '{}'));
     s.saga = Object.assign({ done:{}, flawless:{} }, s.saga); // older saves predate the campaign
+    s.shadow = Object.assign({ saved:[] }, s.shadow);         // older saves predate "Repita comigo"
     return s;
   }
   catch { return defaults; }
@@ -277,16 +278,22 @@ let SPEAKING_BTN = null;
 // btn is optional: when passed, it gets a `.speaking` pulse for the duration of playback - real
 // visual confirmation the pronunciation audio is actually running (useful on silent/muted devices,
 // and just makes a text-to-speech button feel like a real instrument instead of a static icon).
-function speak(text, btn) {
+// pick the best available voice for a language: 'nl' (prefer Flemish nl-BE) or 'pt' (prefer pt-BR)
+function pickVoice(lang) {
+  const voices = speechSynthesis.getVoices();
+  if (lang === 'pt')
+    return voices.find(v => /^pt-BR/i.test(v.lang)) || voices.find(v => /^pt/i.test(v.lang)) || null;
+  return voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
+      || voices.find(v => /^nl/i.test(v.lang)) || null;
+}
+function speak(text, btn, lang) {
   if (!hasTTS) return;
   speechSynthesis.cancel();
   if (SPEAKING_BTN) { SPEAKING_BTN.classList.remove('speaking'); SPEAKING_BTN = null; }
-  const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️]/g,''));
-  const voices = speechSynthesis.getVoices();
-  const v = voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
-        || voices.find(v => /^nl/i.test(v.lang));
+  const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️🎙️]/g,''));
+  const v = pickVoice(lang || 'nl');
   if (v) u.voice = v;
-  u.lang = (v && v.lang) || 'nl-NL';
+  u.lang = (v && v.lang) || (lang === 'pt' ? 'pt-BR' : 'nl-NL');
   u.rate = 0.88;
   if (btn) {
     btn.classList.add('speaking');
@@ -295,6 +302,25 @@ function speak(text, btn) {
   }
   speechSynthesis.speak(u);
 }
+// speak one phrase and resolve when it finishes (with a length-based safety timeout, since some
+// browsers drop onend) - used by the "Repita comigo" shadowing player to chain PT -> NL -> NL -> your turn.
+function sayOnce(text, lang) {
+  return new Promise(res => {
+    if (!hasTTS) { setTimeout(res, 700); return; }
+    speechSynthesis.cancel();
+    const clean = String(text).replace(/[🔊▶️🎙️]/g,'');
+    const u = new SpeechSynthesisUtterance(clean);
+    const v = pickVoice(lang || 'nl');
+    if (v) u.voice = v;
+    u.lang = (v && v.lang) || (lang === 'pt' ? 'pt-BR' : 'nl-NL');
+    u.rate = 0.9;
+    let done = false; const fin = () => { if (done) return; done = true; res(); };
+    u.onend = fin; u.onerror = fin;
+    setTimeout(fin, Math.max(1400, clean.length * 90) + 700); // safety net
+    speechSynthesis.speak(u);
+  });
+}
+const wait = ms => new Promise(r => setTimeout(r, ms));
 if (hasTTS) speechSynthesis.getVoices(); // warm up voice list
 
 /* ---------- utils ---------- */
@@ -391,6 +417,7 @@ async function route() {
     if (h === 'revisao') return renderReview(app);
     if (h === 'woordenboek') return renderWoordenboek(app);
     if (h === 'klanken') return renderKlanken(app);
+    if (h === 'herhaal') return renderShadow(app);
     if (h === 'belgie') return renderBelgie(app);
     if (h === 'muziek') return renderMuziek(app);
     if (h === 'decks') return renderDecks(app);
@@ -452,6 +479,7 @@ async function renderHome(app) {
   <div class="home-tiles">
     <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
+    <a class="home-tile" href="#/herhaal">🎙️<b>Repita comigo</b><small>ouça e repita · sua lista</small></a>
     <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
     <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
     <a class="home-tile" href="#/muziek">🎵<b>Vlaamse muziek</b><small>Clouseau e outros</small></a>
@@ -524,6 +552,148 @@ function chainsHTML(L) {
       <div class="chain-head">${ch.emoji || '🎵'} <b>${esc(ch.title || '')}</b>${ch.pt ? ` <small class="muted">· ${esc(ch.pt)}</small>` : ''}</div>
       ${(ch.lines || []).map(line).join('<span class="chain-arrow">↓</span>')}
     </div>`).join('');
+}
+
+/* ============================================================
+   "Repita comigo" (shadowing): 🇧🇷 PT → 🇧🇪 NL ×2 → 🎙️ sua vez.
+   Every sentence is savable into a persistent custom list (localStorage).
+   ============================================================ */
+let SHADOW_SEED = null;
+async function shadowSeed() {
+  if (!SHADOW_SEED) SHADOW_SEED = await (await fetch('data/shadow.json')).json();
+  return SHADOW_SEED;
+}
+function shadowKey(it) { return (it.nl || '').toLowerCase().trim(); }
+function shadowIsSaved(it) { return S.shadow.saved.some(s => shadowKey(s) === shadowKey(it)); }
+function shadowSave(it) {
+  if (shadowIsSaved(it)) return false;
+  S.shadow.saved.push({ pt: it.pt, nl: it.nl, emoji: it.emoji || '⭐', ts: Date.now() });
+  save(); toast('⭐ Salvo na sua lista!'); return true;
+}
+function shadowRemove(key) {
+  S.shadow.saved = S.shadow.saved.filter(s => shadowKey(s) !== key);
+  save();
+}
+
+// one trainer card
+function shadowCardHTML(it, idx, saved) {
+  const isSaved = saved || shadowIsSaved(it);
+  return `<div class="shadow-card" data-i="${idx}">
+    <div class="sh-lines">
+      <div class="sh-pt">🇧🇷 <span class="sh-txt">${esc(it.pt)}</span>
+        ${hasTTS ? `<button class="speak-btn speak-pt" title="Ouvir em português">🔊</button>` : ''}</div>
+      <div class="sh-nl">🇧🇪 <span class="sh-txt">${esc(it.nl)}</span>
+        ${hasTTS ? `<button class="speak-btn speak-nl" title="Ouvir em neerlandês">🔊</button>` : ''}</div>
+    </div>
+    <div class="sh-status" aria-live="polite"></div>
+    <div class="sh-actions">
+      <button class="btn primary sh-train">▶️ Treinar</button>
+      <button class="btn small sh-save ${isSaved ? 'is-saved' : ''}" ${isSaved ? 'disabled' : ''}>${isSaved ? '✅ Salvo' : '➕ Salvar'}</button>
+    </div>
+  </div>`;
+}
+
+// the PT → NL → NL → your-turn sequence, animated inside one card
+async function runShadow(card, it) {
+  if (card._running) return; card._running = true;
+  const status = card.querySelector('.sh-status');
+  const btn = card.querySelector('.sh-train');
+  const set = (t, cls) => { status.className = 'sh-status show ' + (cls || ''); status.innerHTML = t; };
+  card.classList.add('running'); btn.disabled = true;
+  set('🇧🇷 Ouça em português…', 'pt'); await sayOnce(it.pt, 'pt'); await wait(220);
+  set('🇧🇪 Neerlandês — 1ª vez…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(220);
+  set('🇧🇪 Neerlandês — 2ª vez…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(180);
+  // your turn: visible window with a shrinking bar, roughly the length of the Dutch phrase
+  const dur = Math.max(2600, it.nl.length * 110);
+  set(`🎙️ <b>Sua vez!</b> Repita em voz alta:<br><span class="sh-echo">${esc(it.nl)}</span>
+    <div class="sh-bar"><i></i></div>`, 'your-turn');
+  const bar = status.querySelector('.sh-bar > i');
+  if (bar) { bar.style.transition = `width ${dur}ms linear`; requestAnimationFrame(() => bar.style.width = '0%'); }
+  await wait(dur);
+  set('✅ <b>Boa!</b> Repita de novo 🔁 ou salve ⭐.', 'done');
+  card.classList.remove('running'); btn.disabled = false; btn.innerHTML = '🔁 De novo';
+  card._running = false;
+}
+
+function bindShadowCard(card, it, onSaved) {
+  card.querySelector('.sh-train').addEventListener('click', () => runShadow(card, it));
+  const pt = card.querySelector('.speak-pt'); if (pt) pt.addEventListener('click', () => speak(it.pt, pt, 'pt'));
+  const nl = card.querySelector('.speak-nl'); if (nl) nl.addEventListener('click', () => speak(it.nl, nl, 'nl'));
+  const sv = card.querySelector('.sh-save');
+  if (sv && !sv.disabled) sv.addEventListener('click', () => {
+    if (shadowSave(it)) { sv.textContent = '✅ Salvo'; sv.classList.add('is-saved'); sv.disabled = true; onSaved && onSaved(); }
+  });
+}
+
+async function renderShadow(app) {
+  const data = await shadowSeed();
+  const themes = data.themes || [{ name: 'Frases', emoji: '🗣️', sentences: data.sentences || [] }];
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a> › 🎙️ Repita comigo</div>
+    <div class="hero">
+      <h1>🎙️ Repita comigo <small class="muted">· shadowing</small></h1>
+      <p>Treine a fala em 3 passos: 🇧🇷 ouça em português → 🇧🇪 ouça em neerlandês <b>2×</b> → 🎙️ <b>repita você</b>.
+      Salve as frases que quiser ⭐ para montar a <b>sua lista</b>.</p>
+      ${!hasTTS ? '<p class="muted">⚠️ Seu aparelho não tem voz instalada — o texto aparece, mas sem áudio.</p>' : ''}
+    </div>
+    <div class="tabs" id="shTabs">
+      <button class="tab active" data-t="browse">📚 Frases</button>
+      <button class="tab" data-t="mine">⭐ Minha lista <span class="due-badge" id="shCount" ${S.shadow.saved.length ? '' : 'hidden'}>${S.shadow.saved.length}</span></button>
+    </div>
+    <div id="shBody"></div>`;
+
+  const body = $('#shBody');
+  const paintCount = () => { const b = $('#shCount'); if (b) { b.textContent = S.shadow.saved.length; b.hidden = !S.shadow.saved.length; } };
+
+  function showBrowse() {
+    body.innerHTML = themes.map((th, ti) => `
+      <h2 style="margin-top:20px">${th.emoji || '🗣️'} ${esc(th.name)}</h2>
+      ${th.sentences.map((it, si) => shadowCardHTML(it, ti * 1000 + si)).join('')}`).join('');
+    const flat = []; themes.forEach(th => th.sentences.forEach(it => flat.push(it)));
+    body.querySelectorAll('.shadow-card').forEach((card, k) => bindShadowCard(card, flat[k], paintCount));
+  }
+
+  function showMine() {
+    if (!S.shadow.saved.length) {
+      body.innerHTML = `<div class="card center">⭐ Sua lista está vazia.<br><small class="muted">Abra 📚 Frases e toque em <b>➕ Salvar</b> para montar seu treino.</small></div>`;
+    } else {
+      body.innerHTML = `
+        <p class="center"><button class="btn primary" id="trainAll">▶️ Treinar tudo (${S.shadow.saved.length})</button></p>
+        ${S.shadow.saved.map((it, i) => `<div class="mine-row">
+          ${shadowCardHTML(it, i, true)}
+          <button class="btn small sh-del" data-key="${esc(shadowKey(it))}" title="Remover">❌</button></div>`).join('')}
+        <div class="card" style="margin-top:18px">
+          <h3>➕ Adicionar a sua própria frase</h3>
+          <p><input class="fill-input" id="newPt" placeholder="🇧🇷 frase em português" autocomplete="off"></p>
+          <p><input class="fill-input" id="newNl" placeholder="🇧🇪 tradução em neerlandês" autocomplete="off"></p>
+          <button class="btn" id="addMine">➕ Salvar na lista</button>
+        </div>`;
+      const saved = S.shadow.saved.slice();
+      body.querySelectorAll('.mine-row').forEach((row, k) => {
+        bindShadowCard(row.querySelector('.shadow-card'), saved[k], paintCount);
+        row.querySelector('.sh-del').addEventListener('click', () => { shadowRemove(row.querySelector('.sh-del').dataset.key); paintCount(); showMine(); });
+      });
+      $('#trainAll').addEventListener('click', async () => {
+        for (const card of body.querySelectorAll('.mine-row .shadow-card')) {
+          const it = saved[[...body.querySelectorAll('.mine-row .shadow-card')].indexOf(card)];
+          await runShadow(card, it); await wait(400);
+        }
+      });
+      const add = $('#addMine');
+      add.addEventListener('click', () => {
+        const pt = $('#newPt').value.trim(), nl = $('#newNl').value.trim();
+        if (!pt || !nl) { toast('✍️ Preencha as duas línguas.'); return; }
+        shadowSave({ pt, nl, emoji: '⭐' }); paintCount(); showMine();
+      });
+    }
+  }
+
+  $('#shTabs').querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+    $('#shTabs').querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    b.dataset.t === 'mine' ? showMine() : showBrowse();
+  }));
+  showBrowse();
 }
 
 function showTab(t, L) {
