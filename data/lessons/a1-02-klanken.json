@@ -3,6 +3,47 @@
   "unit": "A1",
   "title": "Os sons do neerlandês · Klanken",
   "emoji": "🔊",
+  "chains": [
+    {
+      "title": "Huis met de tuin",
+      "emoji": "🏡",
+      "pt": "cadeia com os sons longos desta lição",
+      "lines": [
+        {
+          "l": "Huis",
+          "le": "🏠",
+          "p": "met",
+          "r": "tuin",
+          "re": "🌳",
+          "art": "de"
+        },
+        {
+          "l": "Tuin",
+          "le": "🌳",
+          "p": "bij",
+          "r": "school",
+          "re": "🏫",
+          "art": "de"
+        },
+        {
+          "l": "School",
+          "le": "🏫",
+          "p": "in",
+          "r": "straat",
+          "re": "🛣️",
+          "art": "de"
+        },
+        {
+          "l": "Straat",
+          "le": "🛣️",
+          "p": "naar",
+          "r": "trein",
+          "re": "🚆",
+          "art": "de"
+        }
+      ]
+    }
+  ],
   "infographic": "assets/infographics/klankenkaart.svg",
   "teaching": [
     {
@@ -28,150 +69,944 @@
   ],
   "phrases": [
     {
-      "nl": [{"t":"Het","r":"art"},{"t":"boek","r":"noun"},{"t":"is","r":"verb"},{"t":"goed","r":"adj"},{"t":".","r":"punc"}],
-      "pt": [{"t":"O","r":"art"},{"t":"livro","r":"noun"},{"t":"é","r":"verb"},{"t":"bom","r":"adj"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Het",
+          "r": "art"
+        },
+        {
+          "t": "boek",
+          "r": "noun"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "goed",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "livro",
+          "r": "noun"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "bom",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "Dois sons em uma frase: oe soa u (\"buk\") e o d final de goed soa T (\"rrut\") 📚"
     },
     {
-      "nl": [{"t":"De","r":"art"},{"t":"man","r":"noun"},{"t":"kijkt","r":"verb"},{"t":"naar","r":"prep"},{"t":"de","r":"art"},{"t":"maan","r":"noun"},{"t":".","r":"punc"}],
-      "pt": [{"t":"O","r":"art"},{"t":"homem","r":"noun"},{"t":"olha","r":"verb"},{"t":"para","r":"prep"},{"t":"a","r":"art"},{"t":"lua","r":"noun"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "man",
+          "r": "noun"
+        },
+        {
+          "t": "kijkt",
+          "r": "verb"
+        },
+        {
+          "t": "naar",
+          "r": "prep"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "maan",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "homem",
+          "r": "noun"
+        },
+        {
+          "t": "olha",
+          "r": "verb"
+        },
+        {
+          "t": "para",
+          "r": "prep"
+        },
+        {
+          "t": "a",
+          "r": "art"
+        },
+        {
+          "t": "lua",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "Par mínimo clássico: man (a curto) vs maan (aa longo). Vogal dobrada = som longo! 🌙"
     },
     {
-      "nl": [{"t":"De","r":"art"},{"t":"school","r":"noun"},{"t":"is","r":"verb"},{"t":"niet","r":"neg"},{"t":"ver","r":"adv"},{"t":".","r":"punc"}],
-      "pt": [{"t":"A","r":"art"},{"t":"escola","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"longe","r":"adv"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "school",
+          "r": "noun"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": "ver",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "A",
+          "r": "art"
+        },
+        {
+          "t": "escola",
+          "r": "noun"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "longe",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "lit": "a escola é não longe",
       "note": "school = \"s-rrôl\", sem e antes do s! E repare: niet vem DEPOIS do verbo, ao contrário do não 🏫"
     },
     {
-      "nl": [{"t":"Ik","r":"pron"},{"t":"woon","r":"verb"},{"t":"in","r":"prep"},{"t":"een","r":"art"},{"t":"huis","r":"noun"},{"t":"met","r":"prep"},{"t":"een","r":"art"},{"t":"tuin","r":"noun"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Eu","r":"pron"},{"t":"moro","r":"verb"},{"t":"em","r":"prep"},{"t":"uma","r":"art"},{"t":"casa","r":"noun"},{"t":"com","r":"prep"},{"t":"um","r":"art"},{"t":"jardim","r":"noun"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "woon",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "een",
+          "r": "art"
+        },
+        {
+          "t": "huis",
+          "r": "noun"
+        },
+        {
+          "t": "met",
+          "r": "prep"
+        },
+        {
+          "t": "een",
+          "r": "art"
+        },
+        {
+          "t": "tuin",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "moro",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "uma",
+          "r": "art"
+        },
+        {
+          "t": "casa",
+          "r": "noun"
+        },
+        {
+          "t": "com",
+          "r": "prep"
+        },
+        {
+          "t": "um",
+          "r": "art"
+        },
+        {
+          "t": "jardim",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "O som ui duas vezes: huis e tuin. Comece em \"á\" e deslize para \"ü\": \"âü\" 🏠🌷"
     },
     {
-      "nl": [{"t":"Dag","r":"x"},{"t":"!","r":"punc"},{"t":"Een","r":"art"},{"t":"tas","r":"noun"},{"t":"koffie","r":"noun"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Oi","r":"x"},{"t":"!","r":"punc"},{"t":"Uma","r":"art"},{"t":"xícara","r":"noun"},{"t":"de","r":"prep"},{"t":"café","r":"noun"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Dag",
+          "r": "x"
+        },
+        {
+          "t": "!",
+          "r": "punc"
+        },
+        {
+          "t": "Een",
+          "r": "art"
+        },
+        {
+          "t": "tas",
+          "r": "noun"
+        },
+        {
+          "t": "koffie",
+          "r": "noun"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "alstublieft",
+          "r": "x"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Oi",
+          "r": "x"
+        },
+        {
+          "t": "!",
+          "r": "punc"
+        },
+        {
+          "t": "Uma",
+          "r": "art"
+        },
+        {
+          "t": "xícara",
+          "r": "noun"
+        },
+        {
+          "t": "de",
+          "r": "prep"
+        },
+        {
+          "t": "café",
+          "r": "noun"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "por",
+          "r": "x"
+        },
+        {
+          "t": "favor",
+          "r": "x"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "💬 No café (1/4): na Flandres, \"een tas koffie\" = uma xícara de café. Alstublieft = por favor formal ☕"
     },
     {
-      "nl": [{"t":"Iets","r":"pron"},{"t":"erbij","r":"adv"},{"t":"?","r":"punc"},{"t":"Een","r":"art"},{"t":"koekje","r":"noun"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"Algo","r":"pron"},{"t":"mais","r":"adv"},{"t":"?","r":"punc"},{"t":"Um","r":"art"},{"t":"biscoitinho","r":"noun"},{"t":"?","r":"punc"}],
+      "nl": [
+        {
+          "t": "Iets",
+          "r": "pron"
+        },
+        {
+          "t": "erbij",
+          "r": "adv"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        },
+        {
+          "t": "Een",
+          "r": "art"
+        },
+        {
+          "t": "koekje",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Algo",
+          "r": "pron"
+        },
+        {
+          "t": "mais",
+          "r": "adv"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        },
+        {
+          "t": "Um",
+          "r": "art"
+        },
+        {
+          "t": "biscoitinho",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
       "note": "💬 No café (2/4): koekje = koek + je. O -je é o -inho belga! E oe soa u: \"KUK-iâ\" 🍪"
     },
     {
-      "nl": [{"t":"Ja","r":"x"},{"t":",","r":"punc"},{"t":"graag","r":"adv"},{"t":".","r":"punc"},{"t":"Hoeveel","r":"qw"},{"t":"is","r":"verb"},{"t":"het","r":"pron"},{"t":"?","r":"punc"}],
-      "pt": [{"t":"Sim","r":"x"},{"t":",","r":"punc"},{"t":"por","r":"adv"},{"t":"favor","r":"adv"},{"t":".","r":"punc"},{"t":"Quanto","r":"qw"},{"t":"é","r":"verb"},{"t":"?","r":"punc"}],
+      "nl": [
+        {
+          "t": "Ja",
+          "r": "x"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "graag",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        },
+        {
+          "t": "Hoeveel",
+          "r": "qw"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "het",
+          "r": "pron"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Sim",
+          "r": "x"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "por",
+          "r": "adv"
+        },
+        {
+          "t": "favor",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        },
+        {
+          "t": "Quanto",
+          "r": "qw"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
       "lit": "sim, com prazer. quanto é isso?",
       "note": "💬 No café (3/4): graag tem DOIS g de garganta: \"rrrâârr\". Os belgas usam graag o tempo todo 😄"
     },
     {
-      "nl": [{"t":"Vier","r":"num"},{"t":"euro","r":"noun"},{"t":"vijftig","r":"num"},{"t":",","r":"punc"},{"t":"alstublieft","r":"x"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Quatro","r":"num"},{"t":"euros","r":"noun"},{"t":"e","r":"conj"},{"t":"cinquenta","r":"num"},{"t":",","r":"punc"},{"t":"por","r":"x"},{"t":"favor","r":"x"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Vier",
+          "r": "num"
+        },
+        {
+          "t": "euro",
+          "r": "noun"
+        },
+        {
+          "t": "vijftig",
+          "r": "num"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "alstublieft",
+          "r": "x"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Quatro",
+          "r": "num"
+        },
+        {
+          "t": "euros",
+          "r": "noun"
+        },
+        {
+          "t": "e",
+          "r": "conj"
+        },
+        {
+          "t": "cinquenta",
+          "r": "num"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "por",
+          "r": "x"
+        },
+        {
+          "t": "favor",
+          "r": "x"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "💬 No café (4/4): vijftig tem o ij de lei: \"FEIF-terr\". São 4,50 euros, pague com Wero ou cartão 💳"
     },
     {
-      "nl": [{"t":"De","r":"art"},{"t":"wijn","r":"noun"},{"t":"is","r":"verb"},{"t":"niet","r":"neg"},{"t":"duur","r":"adj"},{"t":".","r":"punc"}],
-      "pt": [{"t":"O","r":"art"},{"t":"vinho","r":"noun"},{"t":"não","r":"neg"},{"t":"é","r":"verb"},{"t":"caro","r":"adj"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "wijn",
+          "r": "noun"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": "duur",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "vinho",
+          "r": "noun"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "caro",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "lit": "o vinho é não caro",
       "note": "wijn = \"uein\" (ij de lei) e duur = \"dür\" (i com bico de u). Duas vogais novas em 4 palavras 🍷"
     },
     {
-      "nl": [{"t":"Het","r":"pron"},{"t":"is","r":"verb"},{"t":"koud","r":"adj"},{"t":"in","r":"prep"},{"t":"november","r":"noun"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Está","r":"verb"},{"t":"frio","r":"adj"},{"t":"em","r":"prep"},{"t":"novembro","r":"noun"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Het",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "koud",
+          "r": "adj"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "november",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Está",
+          "r": "verb"
+        },
+        {
+          "t": "frio",
+          "r": "adj"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "novembro",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "lit": "isso é frio em novembro",
       "note": "koud = \"káut\": ou soa au de mau, e o d final soa T (armadilha 2!) 🥶"
     },
     {
-      "nl": [{"t":"Wij","r":"pron"},{"t":"wonen","r":"verb"},{"t":"in","r":"prep"},{"t":"Antwerpen","r":"noun"},{"t":".","r":"punc"}],
-      "pt": [{"t":"Nós","r":"pron"},{"t":"moramos","r":"verb"},{"t":"em","r":"prep"},{"t":"Antuérpia","r":"noun"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "Wij",
+          "r": "pron"
+        },
+        {
+          "t": "wonen",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Antwerpen",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Nós",
+          "r": "pron"
+        },
+        {
+          "t": "moramos",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Antuérpia",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "note": "O w flamengo: lábio nos dentes, sem vibrar. E o acento na 1ª sílaba: ANT-wer-pen 🇧🇪"
     },
     {
-      "nl": [{"t":"De","r":"art"},{"t":"bus","r":"noun"},{"t":"naar","r":"prep"},{"t":"Gent","r":"noun"},{"t":"is","r":"verb"},{"t":"al","r":"adv"},{"t":"weg","r":"adv"},{"t":".","r":"punc"}],
-      "pt": [{"t":"O","r":"art"},{"t":"ônibus","r":"noun"},{"t":"para","r":"prep"},{"t":"Gante","r":"noun"},{"t":"já","r":"adv"},{"t":"foi","r":"verb"},{"t":".","r":"punc"}],
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "bus",
+          "r": "noun"
+        },
+        {
+          "t": "naar",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "al",
+          "r": "adv"
+        },
+        {
+          "t": "weg",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "ônibus",
+          "r": "noun"
+        },
+        {
+          "t": "para",
+          "r": "prep"
+        },
+        {
+          "t": "Gante",
+          "r": "noun"
+        },
+        {
+          "t": "já",
+          "r": "adv"
+        },
+        {
+          "t": "foi",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
       "lit": "o ônibus para Gante é já embora",
       "note": "bus = \"bis\" com bico de u, e o G de Gent é o rr carioca: \"RRent\" 🚌"
     }
   ],
   "vocab": [
-    { "nl": "het huis", "art": "het", "pt": "a casa", "emoji": "🏠" },
-    { "nl": "de tuin", "art": "de", "pt": "o jardim", "emoji": "🌷" },
-    { "nl": "de deur", "art": "de", "pt": "a porta", "emoji": "🚪" },
-    { "nl": "de keuken", "art": "de", "pt": "a cozinha", "emoji": "🍳" },
-    { "nl": "het boek", "art": "het", "pt": "o livro", "emoji": "📚" },
-    { "nl": "de school", "art": "de", "pt": "a escola", "emoji": "🏫" },
-    { "nl": "de straat", "art": "de", "pt": "a rua", "emoji": "🛣️" },
-    { "nl": "de trein", "art": "de", "pt": "o trem", "emoji": "🚆" },
-    { "nl": "de wijn", "art": "de", "pt": "o vinho", "emoji": "🍷" },
-    { "nl": "het ijs", "art": "het", "pt": "o sorvete, o gelo", "emoji": "🍦" },
-    { "nl": "de muur", "art": "de", "pt": "a parede", "emoji": "🧱" },
-    { "nl": "het water", "art": "het", "pt": "a água", "emoji": "💧" },
-    { "nl": "de maan", "art": "de", "pt": "a lua", "emoji": "🌙" },
-    { "nl": "goed", "art": null, "pt": "bom, bem", "emoji": "👍" },
-    { "nl": "het ziekenhuis", "art": "het", "split": "zieken (doentes) + huis (casa)", "pt": "o hospital", "emoji": "🏥" },
-    { "nl": "het koekje", "art": "het", "split": "koek (biscoito) + je (diminutivo = -inho)", "pt": "o biscoitinho", "emoji": "🍪" }
+    {
+      "nl": "het huis",
+      "art": "het",
+      "pt": "a casa",
+      "emoji": "🏠"
+    },
+    {
+      "nl": "de tuin",
+      "art": "de",
+      "pt": "o jardim",
+      "emoji": "🌷"
+    },
+    {
+      "nl": "de deur",
+      "art": "de",
+      "pt": "a porta",
+      "emoji": "🚪"
+    },
+    {
+      "nl": "de keuken",
+      "art": "de",
+      "pt": "a cozinha",
+      "emoji": "🍳"
+    },
+    {
+      "nl": "het boek",
+      "art": "het",
+      "pt": "o livro",
+      "emoji": "📚"
+    },
+    {
+      "nl": "de school",
+      "art": "de",
+      "pt": "a escola",
+      "emoji": "🏫"
+    },
+    {
+      "nl": "de straat",
+      "art": "de",
+      "pt": "a rua",
+      "emoji": "🛣️"
+    },
+    {
+      "nl": "de trein",
+      "art": "de",
+      "pt": "o trem",
+      "emoji": "🚆"
+    },
+    {
+      "nl": "de wijn",
+      "art": "de",
+      "pt": "o vinho",
+      "emoji": "🍷"
+    },
+    {
+      "nl": "het ijs",
+      "art": "het",
+      "pt": "o sorvete, o gelo",
+      "emoji": "🍦"
+    },
+    {
+      "nl": "de muur",
+      "art": "de",
+      "pt": "a parede",
+      "emoji": "🧱"
+    },
+    {
+      "nl": "het water",
+      "art": "het",
+      "pt": "a água",
+      "emoji": "💧"
+    },
+    {
+      "nl": "de maan",
+      "art": "de",
+      "pt": "a lua",
+      "emoji": "🌙"
+    },
+    {
+      "nl": "goed",
+      "art": null,
+      "pt": "bom, bem",
+      "emoji": "👍"
+    },
+    {
+      "nl": "het ziekenhuis",
+      "art": "het",
+      "split": "zieken (doentes) + huis (casa)",
+      "pt": "o hospital",
+      "emoji": "🏥"
+    },
+    {
+      "nl": "het koekje",
+      "art": "het",
+      "split": "koek (biscoito) + je (diminutivo = -inho)",
+      "pt": "o biscoitinho",
+      "emoji": "🍪"
+    }
   ],
   "exercises": [
     {
       "type": "mc",
       "q": "Como se pronuncia o G de \"goed\" na Flandres? 🗣️",
-      "options": ["Como o g de \"gato\"", "Como o j de \"janela\"", "Como o rr carioca de \"carro\", em versão suave", "Fica mudo"],
+      "options": [
+        "Como o g de \"gato\"",
+        "Como o j de \"janela\"",
+        "Como o rr carioca de \"carro\", em versão suave",
+        "Fica mudo"
+      ],
       "answer": 2,
       "explain": "O g/ch neerlandês é o som de garganta, quase igual ao rr carioca. Na Flandres usa-se a \"zachte g\", mais leve que na Holanda. Goed soa \"rrut\"."
     },
     {
       "type": "listen",
       "nl": "Het boek is goed.",
-      "options": ["O bolo é bom.", "O livro é bom.", "O livro é grande."],
+      "options": [
+        "O bolo é bom.",
+        "O livro é bom.",
+        "O livro é grande."
+      ],
       "answer": 1,
       "explain": "boek soa \"buk\" porque oe = u. E goed termina em som de T: consoante final sempre fica surda."
     },
     {
       "type": "listen",
       "nl": "De man kijkt naar de maan.",
-      "options": ["O homem olha para o mapa.", "A lua olha para o homem.", "O homem olha para a lua."],
+      "options": [
+        "O homem olha para o mapa.",
+        "A lua olha para o homem.",
+        "O homem olha para a lua."
+      ],
       "answer": 2,
       "explain": "Par mínimo: man (a curto) = homem, maan (aa longo) = lua. Vogal dobrada = som longo. A ordem diz quem olha: de man é o sujeito."
     },
     {
       "type": "mc",
       "q": "Qual par de letras tem exatamente o MESMO som? 👂",
-      "options": ["oe e eu", "ij e ei", "u e ui", "aa e a"],
+      "options": [
+        "oe e eu",
+        "ij e ei",
+        "u e ui",
+        "aa e a"
+      ],
       "answer": 1,
       "explain": "ij e ei soam ambos como o \"ei\" de lei: wijn e trein rimam! Só a escrita muda. Os outros pares são sons diferentes."
     },
     {
       "type": "listen",
       "nl": "Ik woon in een huis met een tuin.",
-      "options": ["Eu trabalho em uma casa com uma porta.", "Eu moro em uma casa com um jardim.", "Eu moro em um apartamento com garagem."],
+      "options": [
+        "Eu trabalho em uma casa com uma porta.",
+        "Eu moro em uma casa com um jardim.",
+        "Eu moro em um apartamento com garagem."
+      ],
       "answer": 1,
       "explain": "huis = casa e tuin = jardim, os dois com o som ui: comece em \"á\" e deslize para \"ü\", lábios arredondados."
     },
     {
       "type": "mc",
       "q": "Como um brasileiro deve ler \"straat\" (rua)? 🚧",
-      "options": ["\"es-traat\", com e de apoio", "\"xtraat\", com som de x", "\"s-traat\", começando direto no s", "\"strát\", com a curto"],
+      "options": [
+        "\"es-traat\", com e de apoio",
+        "\"xtraat\", com som de x",
+        "\"s-traat\", começando direto no s",
+        "\"strát\", com a curto"
+      ],
       "answer": 2,
       "explain": "Armadilha número 1: nada de \"e\" antes do s! E aa dobrado = a longo. O reflexo de dizer \"estraat\" entrega o sotaque brasileiro na hora."
     },
     {
       "type": "listen",
       "nl": "De school is niet ver.",
-      "options": ["A escola não é grande.", "A rua não é longe.", "A escola não é longe."],
+      "options": [
+        "A escola não é grande.",
+        "A rua não é longe.",
+        "A escola não é longe."
+      ],
       "answer": 2,
       "explain": "school = \"s-rrôl\": s + som de garganta, sem e de apoio. E niet = não, ver = longe."
     },
     {
       "type": "mc",
       "q": "O que acontece com o D no fim de \"goed\"? 🔚",
-      "options": ["Fica mudo", "Soa como T", "Soa como D normal", "Vira R"],
+      "options": [
+        "Fica mudo",
+        "Soa como T",
+        "Soa como D normal",
+        "Vira R"
+      ],
       "answer": 1,
       "explain": "Armadilha número 2: toda consoante final fica surda. goed termina em som de T (\"rrut\") e web termina em som de P."
     },
     {
       "type": "listen",
       "nl": "De wijn is niet duur.",
-      "options": ["O trem não é caro.", "O vinho não é caro.", "O vinho não é bom."],
+      "options": [
+        "O trem não é caro.",
+        "O vinho não é caro.",
+        "O vinho não é bom."
+      ],
       "answer": 1,
       "explain": "wijn = vinho, com ij de lei. duur = caro, com uu: diga \"i\" com bico de u. trein seria trem, mas você ouviu wijn."
     },
@@ -196,20 +1031,55 @@
     {
       "type": "listen",
       "nl": "Vier euro vijftig, alstublieft.",
-      "options": ["Quatro euros e quinze, por favor.", "Cinco euros e quarenta, por favor.", "Quatro euros e cinquenta, por favor."],
+      "options": [
+        "Quatro euros e quinze, por favor.",
+        "Cinco euros e quarenta, por favor.",
+        "Quatro euros e cinquenta, por favor."
+      ],
       "answer": 2,
       "explain": "vier = 4 e vijftig = 50 (centavos, aqui). vijftien seria 15. O ij soa \"ei\" de lei: \"FEIF-terr\"."
     },
     {
       "type": "order",
       "pt": "O vinho não é caro.",
-      "tokens": ["De", "wijn", "is", "niet", "duur"],
+      "tokens": [
+        "De",
+        "wijn",
+        "is",
+        "niet",
+        "duur"
+      ],
       "answer": "De wijn is niet duur",
       "explain": "Em neerlandês o niet vem DEPOIS do verbo: de wijn is niet duur, literalmente \"o vinho é não caro\"."
     },
     {
       "type": "match",
-      "pairs": [["het huis", "a casa"], ["de tuin", "o jardim"], ["het boek", "o livro"], ["de school", "a escola"], ["de wijn", "o vinho"], ["de trein", "o trem"]],
+      "pairs": [
+        [
+          "het huis",
+          "a casa"
+        ],
+        [
+          "de tuin",
+          "o jardim"
+        ],
+        [
+          "het boek",
+          "o livro"
+        ],
+        [
+          "de school",
+          "a escola"
+        ],
+        [
+          "de wijn",
+          "o vinho"
+        ],
+        [
+          "de trein",
+          "o trem"
+        ]
+      ],
       "explain": "Cada palavra treina um som: huis e tuin (ui), boek (oe = u), school (sch), wijn (ij) e trein (ei), que soam igual!"
     }
   ]

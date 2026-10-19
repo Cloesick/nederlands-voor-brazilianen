@@ -505,6 +505,27 @@ async function renderLesson(app, id, practice) {
   showTab(tab, L);
 }
 
+/* ---------- woordketting: the emoji word-chain song (Kam in de zak method) ---------- */
+// each line's last word opens the next; every word carries a fixed emoji so the learner
+// memorizes by picture, not by translation. Additive: lessons without L.chains render nothing.
+function chainsHTML(L) {
+  if (!Array.isArray(L.chains) || !L.chains.length) return '';
+  const line = ln => {
+    const say = [ln.l, ln.p, ln.art || '', ln.r].join(' ').replace(/\s+/g, ' ').trim();
+    return `<div class="chainline">
+      <span class="cw"><span class="ce">${ln.le || ''}</span>${esc(ln.l)}</span>
+      <span class="cp">${esc(ln.p || '')}</span>
+      <span class="cw carry">${ln.art ? `<i class="cart">${esc(ln.art)}</i> ` : ''}<span class="ce">${ln.re || ''}</span>${esc(ln.r)}</span>
+      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(say)}" title="Ouvir a linha">🔊</button>` : ''}
+    </div>`;
+  };
+  return `<h2 style="margin-top:22px">🎵 Woordketting <small class="muted" style="font-size:.85rem">(a última palavra vira a primeira da próxima linha 🔗)</small></h2>` +
+    L.chains.map(ch => `<div class="chain">
+      <div class="chain-head">${ch.emoji || '🎵'} <b>${esc(ch.title || '')}</b>${ch.pt ? ` <small class="muted">· ${esc(ch.pt)}</small>` : ''}</div>
+      ${(ch.lines || []).map(line).join('<span class="chain-arrow">↓</span>')}
+    </div>`).join('');
+}
+
 function showTab(t, L) {
   const body = $('#tabBody');
   if (t === 'ap') {
@@ -514,6 +535,7 @@ function showTab(t, L) {
       <h2 style="margin-top:22px">🎨 Frases-ponte <small class="muted" style="font-size:.85rem">(toque numa palavra para ver o par dela!)</small></h2>
       ${legendStrip(L.phrases)}
       ${L.phrases.map((p, i) => phraseHTML(p, i)).join('')}
+      ${chainsHTML(L)}
       <h2 style="margin-top:22px">🧩 Vocabulário com quebra de palavras</h2>
       <table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th></tr>
       ${L.vocab.map(v => `<tr>
