@@ -1,32 +1,33 @@
 {
-  "date": "2026-10-18",
+  "date": "2026-10-19",
   "word": {
-    "nl": "het stopcontact",
-    "art": "het",
-    "split": "stop (plugue, de stoppen) + contact (contato)",
-    "pt": "tomada",
-    "emoji": "🔌"
+    "nl": "de vergadering",
+    "art": "de",
+    "split": "ver (prefixo) + gadering (reunião de pessoas, de gaderen: juntar)",
+    "pt": "reunião (de trabalho)",
+    "emoji": "👥"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"wil","r":"verb"},
-      {"t":"graag","r":"adv"},
-      {"t":"een","r":"art"},
-      {"t":"afspraak","r":"noun"},
-      {"t":"maken","r":"verb"},
+      {"t":"Als","r":"conj"},
+      {"t":"het","r":"pron"},
+      {"t":"regent","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"blijf","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"thuis","r":"adv"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"queria","r":"verb"},
-      {"t":"muito","r":"adv"},
-      {"t":"marcar","r":"verb"},
-      {"t":"um","r":"art"},
-      {"t":"horário","r":"noun"},
+      {"t":"Se","r":"conj"},
+      {"t":"chover","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"eu","r":"pron"},
+      {"t":"fico","r":"verb"},
+      {"t":"em casa","r":"adv"},
       {"t":".","r":"punc"}
     ],
-    "lit": "eu quero com prazer um compromisso fazer",
-    "note": "'Graag' suaviza o pedido e soa educado, como o 'queria' em português. O segundo verbo vai para o fim da frase: 'een afspraak maken'. Em Flandres se diz 'een afspraak maken' para consultas, médico, prefeitura e cabeleireiro."
+    "lit": "se (o) chove, fico eu em casa",
+    "note": "Depois de uma oração com 'als', o verbo da frase principal vem logo em seguida: 'blijf ik', não 'ik blijf'. Em Flandres chove bastante, então essa frase é muito útil."
   }
 }
