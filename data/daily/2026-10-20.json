@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-20",
+  "word": {
+    "nl": "de gemeente",
+    "art": "de",
+    "split": "ge (prefixo coletivo) + meente (comunidade)",
+    "pt": "prefeitura / município (onde você se registra e pega documentos)",
+    "emoji": "🏛️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"herhalen","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"O senhor","r":"pron"},
+      {"t":"pode","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":",","r":"punc"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "pode o senhor isso repetir, por favor?",
+    "note": "O verbo conjugado vem primeiro na pergunta e o infinitivo 'herhalen' vai para o fim da frase. Com 'je' (informal) fica 'Kun je dat herhalen?'. Muito útil quando alguém fala rápido ou em dialeto flamengo."
+  }
+}

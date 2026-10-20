@@ -1,33 +1,32 @@
 {
-  "date": "2026-10-19",
+  "date": "2026-10-20",
   "word": {
-    "nl": "de vergadering",
+    "nl": "de gemeente",
     "art": "de",
-    "split": "ver (prefixo) + gadering (reunião de pessoas, de gaderen: juntar)",
-    "pt": "reunião (de trabalho)",
-    "emoji": "👥"
+    "split": "ge (prefixo coletivo) + meente (comunidade)",
+    "pt": "prefeitura / município (onde você se registra e pega documentos)",
+    "emoji": "🏛️"
   },
   "phrase": {
     "nl": [
-      {"t":"Als","r":"conj"},
-      {"t":"het","r":"pron"},
-      {"t":"regent","r":"verb"},
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"herhalen","r":"verb"},
       {"t":",","r":"punc"},
-      {"t":"blijf","r":"verb"},
-      {"t":"ik","r":"pron"},
-      {"t":"thuis","r":"adv"},
-      {"t":".","r":"punc"}
+      {"t":"alstublieft","r":"adv"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Se","r":"conj"},
-      {"t":"chover","r":"verb"},
+      {"t":"O senhor","r":"pron"},
+      {"t":"pode","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
       {"t":",","r":"punc"},
-      {"t":"eu","r":"pron"},
-      {"t":"fico","r":"verb"},
-      {"t":"em casa","r":"adv"},
-      {"t":".","r":"punc"}
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "se (o) chove, fico eu em casa",
-    "note": "Depois de uma oração com 'als', o verbo da frase principal vem logo em seguida: 'blijf ik', não 'ik blijf'. Em Flandres chove bastante, então essa frase é muito útil."
+    "lit": "pode o senhor isso repetir, por favor?",
+    "note": "O verbo conjugado vem primeiro na pergunta e o infinitivo 'herhalen' vai para o fim da frase. Com 'je' (informal) fica 'Kun je dat herhalen?'. Muito útil quando alguém fala rápido ou em dialeto flamengo."
   }
 }
