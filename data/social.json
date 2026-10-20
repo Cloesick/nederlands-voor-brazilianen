@@ -856,5 +856,25 @@
    "url": "https://www.instagram.com/explore/search/keyword/?q=vlaamse%20uitdrukkingen",
    "src": "Instagram · busca"
   }
+ ],
+ "a2-09-imperfectum": [
+  {
+   "icon": "🎬",
+   "label": "Aulas de imperfectum: busca 'imperfectum Nederlands leren'",
+   "url": "https://www.youtube.com/results?search_query=imperfectum+nederlands+leren",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Professores explicando o imperfectum em vídeos curtos",
+   "url": "https://www.tiktok.com/search?q=imperfectum%20nederlands%20leren",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts com dicas de gramática holandesa da comunidade que aprende",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsegrammatica",
+   "src": "Instagram · #nederlandsegrammatica"
+  }
  ]
 }

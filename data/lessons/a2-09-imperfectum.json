@@ -1,0 +1,850 @@
+{
+ "id": "a2-09-imperfectum",
+ "unit": "A2",
+ "title": "O passado das histórias: imperfectum · Onvoltooid verleden tijd",
+ "emoji": "📖",
+ "teaching": [
+  {
+   "emoji": "📖",
+   "title": "O passado das histórias: imperfectum",
+   "html": "<p>O <b>imperfectum</b> (também chamado <i>onvoltooid verleden tijd</i>) é um passado de <b>uma palavra só</b>, sem pinça: <b>Ik werkte</b> = eu trabalhei / eu trabalhava.</p><p>Para os regulares, pegue o radical e junte <b>-te</b> (singular) ou <b>-ten</b> (plural), ou <b>-de / -den</b>:</p><table class=\"vocab\"><tr><th>infinitivo</th><th>ik / hij</th><th>wij / zij</th></tr><tr><td>werken (trabalhar)</td><td><b>werkte</b></td><td><b>werkten</b></td></tr><tr><td>wonen (morar)</td><td><b>woonde</b></td><td><b>woonden</b></td></tr><tr><td>fietsen (pedalar)</td><td><b>fietste</b></td><td><b>fietsten</b></td></tr><tr><td>bellen (ligar)</td><td><b>belde</b></td><td><b>belden</b></td></tr></table><p><small>👍 Boa notícia: não existe <b>ge-</b> aqui e a forma é igual para ik, je, hij e zij/ze no singular.</small></p>"
+  },
+  {
+   "emoji": "⛵",
+   "title": "'t kofschip de novo: -te ou -de?",
+   "html": "<p>A regra é a mesma do perfectum. Olhe a <b>última letra do radical</b>: se ela está em <b>'T KOFSCHIP</b> (t, k, f, s, ch, p), use <b>-te</b>. Senão, <b>-de</b>.</p><ul><li>werk → k no navio ⛵ → <b>werkte</b></li><li>fiets → s no navio ⛵ → <b>fietste</b></li><li>woon → n fora do navio 🌊 → <b>woonde</b></li><li>leer → r fora do navio 🌊 → <b>leerde</b></li></ul><p><small>🧠 Dica: se você sabe o particípio, você sabe o imperfectum. gewerkt (-t) → werkte. gewoond (-d) → woonde.</small></p>"
+  },
+  {
+   "emoji": "⭐",
+   "title": "Os irregulares que você vai ouvir o tempo todo",
+   "html": "<p>Os verbos mais frequentes são irregulares e valem ouro. Singular e plural costumam mudar:</p><table class=\"vocab\"><tr><th>infinitivo</th><th>ik / hij</th><th>wij / zij</th><th>português</th></tr><tr><td>zijn</td><td><b>was</b></td><td><b>waren</b></td><td>ser/estar → era, estava</td></tr><tr><td>hebben</td><td><b>had</b></td><td><b>hadden</b></td><td>ter → tinha</td></tr><tr><td>gaan</td><td><b>ging</b></td><td><b>gingen</b></td><td>ir → ia, foi</td></tr><tr><td>komen</td><td><b>kwam</b></td><td><b>kwamen</b></td><td>vir → veio</td></tr><tr><td>kunnen</td><td><b>kon</b></td><td><b>konden</b></td><td>poder → podia, pôde</td></tr><tr><td>willen</td><td><b>wilde</b></td><td><b>wilden</b></td><td>querer → queria</td></tr><tr><td>moeten</td><td><b>moest</b></td><td><b>moesten</b></td><td>ter que → tinha que</td></tr></table><p><small>🗣️ Na Flandres, no dia a dia, ouve-se muito <b>wou</b> (= wilde): <i>Ik wou naar huis.</i> Entenda, mas escreva <b>wilde</b>.</small></p>"
+  },
+  {
+   "emoji": "⚖️",
+   "title": "Imperfectum ou perfectum? E na Flandres?",
+   "html": "<p>As duas formas se traduzem quase igual para o português, mas o uso muda:</p><ul><li>📚 <b>Imperfectum</b>: histórias, notícias, textos escritos, descrições do passado (<i>Het was mooi weer.</i> = O tempo estava bonito) e <b>sempre</b> com <b>was/had/kon/wilde/moest</b>, mesmo na conversa.</li><li>🗣️ <b>Perfectum</b>: fatos concluídos na conversa (<i>Ik ben gisteren naar Gent gegaan.</i>).</li></ul><p>Na fala flamenga, os verbos de ação costumam ir para o perfectum, mas <b>was, had, kon, wilde, moest</b> ficam no imperfectum: <i>Ik had geen tijd</i> (e não <i>Ik heb geen tijd gehad</i>).</p><p><small>⚠️ Atenção: com <b>Toen</b> (quando, no passado) o verbo vai para o fim da oração subordinada: <i>Toen ik klein <b>was</b>, speelde ik buiten.</i></small></p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "werkte",
+     "r": "verb"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "trabalhei",
+     "r": "verb"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu trabalhei ontem em Gent",
+   "note": "Regular com 'k' no kofschip: werk + te. Um verbo só, sem pinça."
+  },
+  {
+   "nl": [
+    {
+     "t": "Wij",
+     "r": "pron"
+    },
+    {
+     "t": "woonden",
+     "r": "verb"
+    },
+    {
+     "t": "vroeger",
+     "r": "adv"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "Antwerpen",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Nós",
+     "r": "pron"
+    },
+    {
+     "t": "morávamos",
+     "r": "verb"
+    },
+    {
+     "t": "antigamente",
+     "r": "adv"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "Antuérpia",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "nós moramos antigamente em Antuérpia",
+   "note": "Plural: woon + den. O imperfectum descreve situações que duravam."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het",
+     "r": "art"
+    },
+    {
+     "t": "weer",
+     "r": "noun"
+    },
+    {
+     "t": "was",
+     "r": "verb"
+    },
+    {
+     "t": "mooi",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": "estava",
+     "r": "verb"
+    },
+    {
+     "t": "bonito",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "o tempo era bonito",
+   "note": "was é o imperfectum de zijn. Ótimo para descrever cenários."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "had",
+     "r": "verb"
+    },
+    {
+     "t": "geen",
+     "r": "neg"
+    },
+    {
+     "t": "tijd",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "tinha",
+     "r": "verb"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu tinha nenhum tempo",
+   "note": "had, mesmo na conversa, quase sempre no imperfectum (e não perfectum)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Gisteren",
+     "r": "adv"
+    },
+    {
+     "t": "ging",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "naar",
+     "r": "prep"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "markt",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Ontem",
+     "r": "adv"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "fui",
+     "r": "verb"
+    },
+    {
+     "t": "para",
+     "r": "prep"
+    },
+    {
+     "t": "o",
+     "r": "art"
+    },
+    {
+     "t": "mercado",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "ontem ia eu para o mercado",
+   "note": "V2: depois de Gisteren o verbo ging fica em 2º e o sujeito vem depois."
+  },
+  {
+   "nl": [
+    {
+     "t": "Zij",
+     "r": "pron"
+    },
+    {
+     "t": "kwam",
+     "r": "verb"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Ela",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "veio",
+     "r": "verb"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "ela veio ontem não",
+   "note": "niet fica depois do advérbio de tempo; em português o não vem antes do verbo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "kon",
+     "r": "verb"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "komen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "pude",
+     "r": "verb"
+    },
+    {
+     "t": "vir",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu podia não vir",
+   "note": "Modal no imperfectum + infinitivo no fim da frase."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ze",
+     "r": "pron"
+    },
+    {
+     "t": "wilden",
+     "r": "verb"
+    },
+    {
+     "t": "naar",
+     "r": "prep"
+    },
+    {
+     "t": "huis",
+     "r": "noun"
+    },
+    {
+     "t": "gaan",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eles",
+     "r": "pron"
+    },
+    {
+     "t": "queriam",
+     "r": "verb"
+    },
+    {
+     "t": "ir",
+     "r": "verb"
+    },
+    {
+     "t": "para",
+     "r": "prep"
+    },
+    {
+     "t": "casa",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eles queriam para casa ir",
+   "note": "wilden (plural) + infinitivo gaan no fim. Em português o infinitivo vem logo depois."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "moest",
+     "r": "verb"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": "werken",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "tive",
+     "r": "verb"
+    },
+    {
+     "t": "que",
+     "r": "conj"
+    },
+    {
+     "t": "trabalhar",
+     "r": "verb"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu devia ontem trabalhar",
+   "note": "moeten no passado: moest. O infinitivo werken vai para o fim."
+  },
+  {
+   "nl": [
+    {
+     "t": "Toen",
+     "r": "conj"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "klein",
+     "r": "adj"
+    },
+    {
+     "t": "was",
+     "r": "verb"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "speelde",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "buiten",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Quando",
+     "r": "conj"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "era",
+     "r": "verb"
+    },
+    {
+     "t": "pequeno",
+     "r": "adj"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "brincava",
+     "r": "verb"
+    },
+    {
+     "t": "lá fora",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "quando eu pequeno era, brincava eu fora",
+   "note": "Na oração com Toen, was vai para o fim; na principal, o verbo vem antes do sujeito (V2)."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "was / waren",
+   "art": null,
+   "split": "imperfectum de zijn (ser, estar)",
+   "pt": "era, estava / eram, estavam",
+   "emoji": "🕰️"
+  },
+  {
+   "nl": "had / hadden",
+   "art": null,
+   "split": "imperfectum de hebben (ter)",
+   "pt": "tinha / tinham",
+   "emoji": "🎒"
+  },
+  {
+   "nl": "ging / gingen",
+   "art": null,
+   "split": "imperfectum de gaan (ir)",
+   "pt": "ia, foi / iam, foram",
+   "emoji": "🚶"
+  },
+  {
+   "nl": "kwam / kwamen",
+   "art": null,
+   "split": "imperfectum de komen (vir)",
+   "pt": "veio / vieram",
+   "emoji": "🚪"
+  },
+  {
+   "nl": "kon / konden",
+   "art": null,
+   "split": "imperfectum de kunnen (poder)",
+   "pt": "podia, pôde / podiam",
+   "emoji": "💪"
+  },
+  {
+   "nl": "wilde / wilden",
+   "art": null,
+   "split": "imperfectum de willen (querer)",
+   "pt": "queria / queriam",
+   "emoji": "💭"
+  },
+  {
+   "nl": "moest / moesten",
+   "art": null,
+   "split": "imperfectum de moeten (ter que)",
+   "pt": "tinha que / tinham que",
+   "emoji": "📌"
+  },
+  {
+   "nl": "werkte",
+   "art": null,
+   "split": "werk (trabalhar) + -te ('t kofschip)",
+   "pt": "trabalhei, trabalhava",
+   "emoji": "💼"
+  },
+  {
+   "nl": "woonde",
+   "art": null,
+   "split": "woon (morar) + -de",
+   "pt": "morei, morava",
+   "emoji": "🏠"
+  },
+  {
+   "nl": "vroeger",
+   "art": null,
+   "split": "vroeg (cedo) + -er (mais)",
+   "pt": "antigamente",
+   "emoji": "⏳"
+  },
+  {
+   "nl": "toen",
+   "art": null,
+   "split": "conjunção e advérbio do passado",
+   "pt": "quando, então",
+   "emoji": "⌛"
+  },
+  {
+   "nl": "het verhaal",
+   "art": "het",
+   "split": "ver- + haal (contar)",
+   "pt": "a história, o relato",
+   "emoji": "📖"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual é o imperfectum de werken (trabalhar), singular? 💼",
+   "options": [
+    "werkte",
+    "werkde",
+    "gewerkt",
+    "werkten"
+   ],
+   "answer": 0,
+   "explain": "O radical werk termina em k, que está no 't kofschip, então o final é -te: werkte. Sem ge- no imperfectum."
+  },
+  {
+   "type": "mc",
+   "q": "Qual é o imperfectum de wonen (morar), com ik? 🏠",
+   "options": [
+    "woonde",
+    "woonte",
+    "gewoond",
+    "woonden"
+   ],
+   "answer": 0,
+   "explain": "O radical woon termina em n, fora do 't kofschip, então o final é -de: woonde. Com wij, seria woonden."
+  },
+  {
+   "type": "mc",
+   "q": "Wij ___ gisteren in Gent. (estávamos) Qual forma? 🕰️",
+   "options": [
+    "waren",
+    "was",
+    "zijn",
+    "wezen"
+   ],
+   "answer": 0,
+   "explain": "Imperfectum de zijn: ik was, mas wij waren (plural). Ex.: Wij waren gisteren in Gent."
+  },
+  {
+   "type": "mc",
+   "q": "Qual frase está correta? ⚖️",
+   "options": [
+    "Ik had geen tijd.",
+    "Ik heb geen tijd gehad.",
+    "Ik hebde geen tijd.",
+    "Ik had gehad geen tijd."
+   ],
+   "answer": 0,
+   "explain": "Com had, was, kon, wilde e moest, a fala flamenga fica no imperfectum. Ik had geen tijd é a forma natural."
+  },
+  {
+   "type": "listen",
+   "nl": "Het weer was gisteren mooi.",
+   "options": [
+    "O tempo estava bonito ontem.",
+    "O tempo vai estar bonito amanhã.",
+    "Eu estava em casa ontem."
+   ],
+   "answer": 0,
+   "explain": "was é o imperfectum de zijn, e gisteren é ontem. Het weer = o tempo."
+  },
+  {
+   "type": "listen",
+   "nl": "Zij kwam gisteren niet.",
+   "options": [
+    "Ela não veio ontem.",
+    "Ela não vem amanhã.",
+    "Ela veio ontem."
+   ],
+   "answer": 0,
+   "explain": "kwam é o imperfectum de komen (vir) e niet nega a frase. Gisteren = ontem."
+  },
+  {
+   "type": "listen",
+   "nl": "Wij gingen naar huis.",
+   "options": [
+    "Nós fomos para casa.",
+    "Nós vamos para casa.",
+    "Nós ficamos em casa."
+   ],
+   "answer": 0,
+   "explain": "gingen é o plural de ging, imperfectum de gaan (ir). Naar huis = para casa."
+  },
+  {
+   "type": "fill",
+   "before": "Ik",
+   "after": "gisteren in Gent.",
+   "answer": "werkte",
+   "alt": [],
+   "hint": "trabalhar, imperfectum",
+   "explain": "werken: radical werk, k no 't kofschip, então -te: werkte."
+  },
+  {
+   "type": "fill",
+   "before": "Vroeger",
+   "after": "wij in Antwerpen.",
+   "answer": "woonden",
+   "alt": [],
+   "hint": "morar, plural",
+   "explain": "Plural de woonde é woonden. Depois de Vroeger, o verbo fica em 2º lugar e o sujeito wij vem depois."
+  },
+  {
+   "type": "fill",
+   "before": "Hij",
+   "after": "niet komen.",
+   "answer": "kon",
+   "alt": [],
+   "hint": "poder, imperfectum",
+   "explain": "kunnen no imperfectum singular é kon (e konden no plural). O infinitivo komen vai para o fim."
+  },
+  {
+   "type": "fill",
+   "before": "Toen ik klein",
+   "after": ", speelde ik buiten.",
+   "answer": "was",
+   "alt": [],
+   "hint": "zijn, imperfectum",
+   "explain": "Depois de Toen o verbo vai para o fim da oração subordinada: Toen ik klein was. Na principal, speelde vem antes do sujeito ik."
+  },
+  {
+   "type": "order",
+   "pt": "Ontem eu fui para o mercado.",
+   "tokens": [
+    "Gisteren",
+    "ging",
+    "ik",
+    "naar",
+    "de",
+    "markt"
+   ],
+   "answer": "Gisteren ging ik naar de markt",
+   "explain": "Começou com Gisteren? O verbo ging continua em 2º lugar (V2) e o sujeito ik vem depois."
+  },
+  {
+   "type": "order",
+   "pt": "Eu tinha que trabalhar ontem.",
+   "tokens": [
+    "Ik",
+    "moest",
+    "gisteren",
+    "werken"
+   ],
+   "answer": "Ik moest gisteren werken",
+   "altAnswers": [
+    "Gisteren moest ik werken"
+   ],
+   "explain": "O modal moest fica em 2º lugar e o infinitivo werken vai para o fim da frase."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "was",
+     "era, estava"
+    ],
+    [
+     "had",
+     "tinha"
+    ],
+    [
+     "ging",
+     "ia, foi"
+    ],
+    [
+     "kwam",
+     "veio"
+    ],
+    [
+     "kon",
+     "podia"
+    ],
+    [
+     "wilde",
+     "queria"
+    ]
+   ],
+   "explain": "Os irregulares mais frequentes no singular. Decore a dupla infinitivo + imperfectum, como em português ser/era."
+  }
+ ]
+}
