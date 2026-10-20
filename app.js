@@ -357,9 +357,13 @@ function tokHTML(tokens, phraseId, side) {
 }
 function phraseHTML(ph, idx) {
   const nl = ph.nl.map(t => t.t).join(' ').replace(/ ([?.!,])/g, '$1');
+  const pt = ph.pt.map(t => t.t).join(' ').replace(/ ([?.!,])/g, '$1');
+  const saved = (S.shadow && S.shadow.saved || []).some(s => (s.nl || '').toLowerCase().trim() === nl.toLowerCase().trim());
   return `<div class="phrase" data-idx="${idx}">
     <div class="row"><span class="flag">🇧🇪</span><span>${tokHTML(ph.nl, idx, 'nl')}</span>
-      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(nl)}" title="Ouvir">🔊</button>` : ''}</div>
+      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(nl)}" title="Ouvir">🔊</button>` : ''}
+      <button class="speak-btn add-shadow ${saved ? 'is-saved' : ''}" data-nl="${esc(nl)}" data-pt="${esc(pt)}"
+        title="Treinar no 🎙️ Repita comigo" ${saved ? 'disabled' : ''}>${saved ? '✅' : '➕🎙️'}</button></div>
     <div class="row"><span class="flag">🇧🇷</span><span>${tokHTML(ph.pt, idx, 'pt')}</span></div>
     ${ph.lit ? `<div class="lit">🔍 literal: ${esc(clockify(ph.lit))}</div>` : ''}
     ${ph.note ? `<div class="note">💡 ${esc(clockify(ph.note))}</div>` : ''}
@@ -375,6 +379,12 @@ function bindPhraseEvents(root) {
     });
   });
   root.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say, b); }));
+  root.querySelectorAll('.add-shadow').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    if (shadowSave({ pt: b.dataset.pt, nl: b.dataset.nl, emoji: '🗣️' })) {
+      b.textContent = '✅'; b.classList.add('is-saved'); b.disabled = true;
+    }
+  }));
 }
 function legendStrip(phrases) {
   const used = new Set();
@@ -418,6 +428,7 @@ async function route() {
     if (h === 'woordenboek') return renderWoordenboek(app);
     if (h === 'klanken') return renderKlanken(app);
     if (h === 'herhaal') return renderShadow(app);
+    if (h === 'klankparen') return renderMinimalPairs(app);
     if (h === 'belgie') return renderBelgie(app);
     if (h === 'muziek') return renderMuziek(app);
     if (h === 'decks') return renderDecks(app);
@@ -480,6 +491,7 @@ async function renderHome(app) {
     <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
     <a class="home-tile" href="#/herhaal">🎙️<b>Repita comigo</b><small>ouça e repita · sua lista</small></a>
+    <a class="home-tile" href="#/klankparen">👂<b>Klankparen</b><small>treino de ouvido · pares mínimos</small></a>
     <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
     <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
     <a class="home-tile" href="#/muziek">🎵<b>Vlaamse muziek</b><small>Clouseau e outros</small></a>
@@ -588,9 +600,49 @@ function shadowCardHTML(it, idx, saved) {
     <div class="sh-status" aria-live="polite"></div>
     <div class="sh-actions">
       <button class="btn primary sh-train">▶️ Treinar</button>
+      ${CAN_RECORD ? `<button class="btn small sh-rec" title="Grave sua voz e compare">🎙️ Gravar</button>
+      <button class="btn small sh-cmp" title="Ouça: neerlandês + sua gravação" hidden>🔁 Comparar</button>` : ''}
       <button class="btn small sh-save ${isSaved ? 'is-saved' : ''}" ${isSaved ? 'disabled' : ''}>${isSaved ? '✅ Salvo' : '➕ Salvar'}</button>
     </div>
   </div>`;
+}
+
+/* record-and-compare: capture the learner's voice and play it back against the Dutch TTS.
+   Pure client-side (MediaRecorder); nothing leaves the device, no upload. */
+const CAN_RECORD = typeof MediaRecorder !== 'undefined' &&
+  !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+function bindRecorder(card, it) {
+  const recBtn = card.querySelector('.sh-rec'), cmpBtn = card.querySelector('.sh-cmp');
+  if (!recBtn) return;
+  let rec = null, chunks = [], url = null, recording = false;
+  recBtn.addEventListener('click', async () => {
+    if (recording) { rec && rec.state !== 'inactive' && rec.stop(); return; }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      rec = new MediaRecorder(stream); chunks = [];
+      rec.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+      rec.onstop = () => {
+        stream.getTracks().forEach(t => t.stop());
+        if (url) URL.revokeObjectURL(url);
+        url = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType || 'audio/webm' }));
+        card._recUrl = url;
+        recBtn.innerHTML = '🎙️ Gravar'; recBtn.classList.remove('recording');
+        cmpBtn.hidden = false; recording = false;
+        toast('🎧 Gravado! Toque em 🔁 Comparar.');
+      };
+      rec.start(); recording = true;
+      recBtn.innerHTML = '⏹️ Parar'; recBtn.classList.add('recording');
+      toast('🔴 Gravando… fale agora!');
+    } catch { toast('🎙️ Sem acesso ao microfone.'); }
+  });
+  cmpBtn && cmpBtn.addEventListener('click', async () => {
+    if (!card._recUrl) return;
+    cmpBtn.disabled = true;
+    await sayOnce(it.nl, 'nl'); await wait(250);
+    const a = new Audio(card._recUrl);
+    a.onended = a.onerror = () => { cmpBtn.disabled = false; };
+    a.play().catch(() => { cmpBtn.disabled = false; });
+  });
 }
 
 // the PT → NL → NL → your-turn sequence, animated inside one card
@@ -623,6 +675,7 @@ function bindShadowCard(card, it, onSaved) {
   if (sv && !sv.disabled) sv.addEventListener('click', () => {
     if (shadowSave(it)) { sv.textContent = '✅ Salvo'; sv.classList.add('is-saved'); sv.disabled = true; onSaved && onSaved(); }
   });
+  bindRecorder(card, it);
 }
 
 async function renderShadow(app) {
@@ -694,6 +747,72 @@ async function renderShadow(app) {
     b.dataset.t === 'mine' ? showMine() : showBrowse();
   }));
   showBrowse();
+}
+
+/* ============================================================
+   Minimal-pairs ear trainer (#/klankparen): hear one word of a pair,
+   pick which you heard. Targets the exact sounds PT-BR speakers confuse:
+   short vs long vowels, and the g/ch (carioca rr).
+   ============================================================ */
+let KLANKPAREN = null;
+async function minimalPairsData() {
+  if (!KLANKPAREN) KLANKPAREN = await (await fetch('data/klankparen.json')).json();
+  return KLANKPAREN;
+}
+async function renderMinimalPairs(app) {
+  const data = await minimalPairsData();
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a> › 👂 Klankparen</div>
+    <div class="hero">
+      <h1>👂 Klankparen <small class="muted">· pares mínimos</small></h1>
+      <p>${esc(data.intro)}</p>
+      ${!hasTTS ? '<p class="muted">⚠️ Seu aparelho não tem voz neerlandesa — este treino precisa de áudio.</p>' : ''}
+    </div>
+    <div class="kp-groups">${data.groups.map((g, gi) =>
+      `<button class="kp-group" data-g="${gi}">${g.emoji || '🔊'} ${esc(g.name)}<small>${g.pairs.length} pares</small></button>`).join('')}</div>
+    <div id="kpBody"></div>`;
+  const body = $('#kpBody');
+  app.querySelectorAll('.kp-group').forEach(b => b.addEventListener('click', () => {
+    app.querySelectorAll('.kp-group').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    runPairs(body, data.groups[+b.dataset.g]);
+  }));
+}
+function runPairs(body, group) {
+  const pairs = shuffle(group.pairs); let i = 0, score = 0;
+  function show() {
+    const p = pairs[i];
+    const target = Math.random() < 0.5 ? 'a' : 'b'; // which word is actually spoken
+    const say = p[target];
+    const opt = (k) => `<button class="kp-opt" data-k="${k}">
+      <span class="kp-em">${p[k + 'e'] || '🔊'}</span><b>${esc(p[k])}</b><small>${esc(p[k + 'pt'] || '')}</small></button>`;
+    body.innerHTML = `<div class="card kp-card">
+      <div class="kp-head"><b>${group.emoji} ${esc(group.name)}</b><span>${i + 1}/${pairs.length} · ⚡${score}</span></div>
+      <p class="center"><button class="big-audio" id="kpPlay">▶️</button><br><small class="muted">toque para ouvir de novo 🔊</small></p>
+      <div class="kp-opts">${opt('a')}${opt('b')}</div></div>`;
+    const play = () => speak(say, $('#kpPlay'), 'nl');
+    $('#kpPlay').addEventListener('click', play);
+    setTimeout(play, 350);
+    body.querySelectorAll('.kp-opt').forEach(b => b.addEventListener('click', () => {
+      const ok = b.dataset.k === target;
+      body.querySelectorAll('.kp-opt').forEach(x => x.disabled = true);
+      body.querySelector(`.kp-opt[data-k="${target}"]`).classList.add('correct');
+      if (ok) { b.classList.add('correct'); score++; addXP(6); }
+      else { b.classList.add('wrong'); recordMistake({ lesson:'klankparen', lessonTitle:'Klankparen', lessonEmoji:'👂', unit:'A1', type:'listen', q:'Ouça: '+say, nl:say, pt:p[target+'pt']||'', answer:say }); }
+      const nav = document.createElement('div'); nav.className = 'ex-nav center';
+      nav.innerHTML = `<p class="feedback ${ok?'ok':'bad'}">${ok?'✅ Juist! ':'❌ Era: '}<b>${esc(say)}</b> ${p[target+'e']||''}</p>
+        <button class="btn primary" id="kpNext">${i+1<pairs.length?'Continuar →':'🏁 Ver resultado'}</button>`;
+      body.querySelector('.kp-card').appendChild(nav);
+      $('#kpNext').addEventListener('click', () => { i++; i<pairs.length ? show() : done(); });
+    }));
+  }
+  function done() {
+    body.innerHTML = `<div class="card endscreen center"><div class="big">${score===pairs.length?'🏆':'👂'}</div>
+      <h2>${score}/${pairs.length} certos!</h2>
+      <p><button class="btn primary" id="kpAgain">🔁 De novo</button></p></div>`;
+    $('#kpAgain').addEventListener('click', () => { i=0; score=0; runPairs(body, group); });
+  }
+  show();
 }
 
 function showTab(t, L) {
