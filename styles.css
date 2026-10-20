@@ -504,3 +504,13 @@ a.saga-chapter:hover{transform:translateX(3px)}
 .kp-opt.correct{border-color:var(--ok);background:var(--ok-bg)}
 .kp-opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
 .kp-opt:disabled{cursor:default}
+
+/* ---------- pronunciation verification (Verificar 2×) ---------- */
+.sh-verify{border-color:var(--nl);color:var(--nl);background:var(--nl-bg)}
+.sh-status.mid{background:#FFF4E0;color:#8A5A10;border:2px solid var(--gold)}
+.sh-listening{margin-top:6px;font-weight:700;color:var(--bad);animation:recpulse 1s infinite}
+.sh-marks{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.sh-marks .wm{border-radius:8px;padding:2px 8px;font-weight:700;font-size:.9rem;border:1.5px solid}
+.sh-marks .wm.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok)}
+.sh-marks .wm.no{color:var(--bad);background:var(--bad-bg);border-color:var(--bad)}
+.sh-redo{margin-top:8px}

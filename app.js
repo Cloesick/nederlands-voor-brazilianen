@@ -600,6 +600,7 @@ function shadowCardHTML(it, idx, saved) {
     <div class="sh-status" aria-live="polite"></div>
     <div class="sh-actions">
       <button class="btn primary sh-train">▶️ Treinar</button>
+      ${CAN_RECOGNIZE ? `<button class="btn small sh-verify" title="Repita 2× e verifique a pronúncia">🎤 Verificar (2×)</button>` : ''}
       ${CAN_RECORD ? `<button class="btn small sh-rec" title="Grave sua voz e compare">🎙️ Gravar</button>
       <button class="btn small sh-cmp" title="Ouça: neerlandês + sua gravação" hidden>🔁 Comparar</button>` : ''}
       <button class="btn small sh-save ${isSaved ? 'is-saved' : ''}" ${isSaved ? 'disabled' : ''}>${isSaved ? '✅ Salvo' : '➕ Salvar'}</button>
@@ -611,6 +612,49 @@ function shadowCardHTML(it, idx, saved) {
    Pure client-side (MediaRecorder); nothing leaves the device, no upload. */
 const CAN_RECORD = typeof MediaRecorder !== 'undefined' &&
   !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+
+/* ---------- pronunciation verification (Web Speech API, transcript-based) ----------
+   HONEST SCOPE: this is transcript matching, not phoneme scoring. The browser recognizer
+   (Chrome/Android; partial iOS; absent in Firefox) tells us what Dutch WORDS it heard; we
+   compare them to the target. A good proxy for "understandable", not a lab-grade accent score.
+   True phoneme assessment needs a paid cloud API - deliberately not used here. */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+const CAN_RECOGNIZE = !!SR;
+// recognize one utterance in Dutch; resolves {transcript, confidence} or {transcript:'',error}
+function recognizeOnce(lang) {
+  return new Promise(res => {
+    if (!CAN_RECOGNIZE) { res({ transcript: '', error: 'unsupported' }); return; }
+    let r; try { r = new SR(); } catch { res({ transcript: '', error: 'init' }); return; }
+    r.lang = lang || 'nl-BE'; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+    let done = false; const fin = o => { if (done) return; done = true; try { r.stop(); } catch {} res(o); };
+    r.onresult = e => {
+      let best = '', conf = 0;
+      for (const alt of e.results[0]) if ((alt.confidence || 0) >= conf || !best) { best = alt.transcript; conf = alt.confidence || 0; }
+      fin({ transcript: best, confidence: conf });
+    };
+    r.onerror = e => fin({ transcript: '', error: e.error || 'error' });
+    r.onend = () => fin({ transcript: '', error: 'nomatch' });
+    try { r.start(); } catch { fin({ transcript: '', error: 'start' }); }
+    setTimeout(() => fin({ transcript: '', error: 'timeout' }), 8000); // safety
+  });
+}
+// word-level score of a heard transcript vs the target phrase; returns {pct, marks:[{w,ok}]}
+function scoreTranscript(target, heard) {
+  const words = w => norm(w).split(' ').filter(Boolean);
+  const tgt = words(target), pool = words(heard);
+  let hit = 0; const used = new Array(pool.length).fill(false);
+  const marks = tgt.map(w => {
+    const k = pool.findIndex((p, i) => !used[i] && p === w);
+    if (k >= 0) { used[k] = true; hit++; return { w, ok: true }; }
+    return { w, ok: false };
+  });
+  return { pct: tgt.length ? Math.round(100 * hit / tgt.length) : 0, marks };
+}
+function scoreBadge(pct) {
+  if (pct >= 80) return { emoji: '✅', label: 'Muito bom!', cls: 'ok' };
+  if (pct >= 50) return { emoji: '👍', label: 'Quase lá', cls: 'mid' };
+  return { emoji: '🔁', label: 'Tente de novo', cls: 'bad' };
+}
 function bindRecorder(card, it) {
   const recBtn = card.querySelector('.sh-rec'), cmpBtn = card.querySelector('.sh-cmp');
   if (!recBtn) return;
@@ -676,6 +720,44 @@ function bindShadowCard(card, it, onSaved) {
     if (shadowSave(it)) { sv.textContent = '✅ Salvo'; sv.classList.add('is-saved'); sv.disabled = true; onSaved && onSaved(); }
   });
   bindRecorder(card, it);
+  bindVerify(card, it);
+}
+
+// "Verificar (2×)": hear the phrase, repeat it twice; each attempt is recognized and scored,
+// we keep the best. Word-level ✅/❌ shows exactly which words came through.
+function bindVerify(card, it) {
+  const btn = card.querySelector('.sh-verify'); if (!btn) return;
+  const status = card.querySelector('.sh-status');
+  const set = (html, cls) => { status.className = 'sh-status show ' + (cls || ''); status.innerHTML = html; };
+  async function attempt(n) {
+    set(`🎤 <b>Tentativa ${n}/2</b> — fale agora:<br><span class="sh-echo">${esc(it.nl)}</span>
+      <div class="sh-listening">🔴 ouvindo…</div>`, 'your-turn');
+    const { transcript, error } = await recognizeOnce('nl-BE');
+    if (error && !transcript) return { pct: -1, error, marks: [] };
+    return Object.assign(scoreTranscript(it.nl, transcript), { heard: transcript });
+  }
+  btn.addEventListener('click', async () => {
+    if (card._verifying) return; card._verifying = true; btn.disabled = true;
+    set('🔊 Ouça o modelo…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(250);
+    const r1 = await attempt(1); await wait(500);
+    const r2 = await attempt(2);
+    card._verifying = false; btn.disabled = false;
+    const valid = [r1, r2].filter(r => r.pct >= 0);
+    if (!valid.length) {
+      set('🎤 Não consegui ouvir — fale mais perto do microfone e tente de novo. 🔁', 'bad');
+      return;
+    }
+    const best = valid.sort((a, b) => b.pct - a.pct)[0];
+    const bdg = scoreBadge(best.pct);
+    const marksHTML = best.marks.map(m => `<span class="wm ${m.ok ? 'ok' : 'no'}">${m.ok ? '✅' : '❌'} ${esc(m.w)}</span>`).join(' ');
+    set(`${bdg.emoji} <b>${bdg.label}</b> — ${best.pct}% das palavras<br>
+      <div class="sh-marks">${marksHTML}</div>
+      ${best.heard ? `<small class="muted">ouvi: "${esc(best.heard)}"</small>` : ''}
+      <div class="sh-redo"><button class="btn small sh-again">🔁 Repetir</button></div>`, bdg.cls);
+    const again = status.querySelector('.sh-again');
+    again && again.addEventListener('click', () => btn.click());
+    if (best.pct < 50) recordMistake({ lesson:'herhaal', lessonTitle:'Repita comigo', lessonEmoji:'🎙️', unit:'A1', type:'listen', q:'Pronuncie: '+it.pt, nl:it.nl, pt:it.pt, answer:it.nl });
+  });
 }
 
 async function renderShadow(app) {
@@ -687,6 +769,7 @@ async function renderShadow(app) {
       <h1>🎙️ Repita comigo <small class="muted">· shadowing</small></h1>
       <p>Treine a fala em 3 passos: 🇧🇷 ouça em português → 🇧🇪 ouça em neerlandês <b>2×</b> → 🎙️ <b>repita você</b>.
       Salve as frases que quiser ⭐ para montar a <b>sua lista</b>.</p>
+      ${CAN_RECOGNIZE ? '<p class="muted">🎤 <b>Verificar (2×)</b>: repita a frase duas vezes e o app confere quais palavras saíram certas (fica com a melhor tentativa). Precisa de internet e permissão do microfone.</p>' : ''}
       ${!hasTTS ? '<p class="muted">⚠️ Seu aparelho não tem voz instalada — o texto aparece, mas sem áudio.</p>' : ''}
     </div>
     <div class="tabs" id="shTabs">
