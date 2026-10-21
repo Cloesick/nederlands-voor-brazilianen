@@ -1,0 +1,1145 @@
+{
+ "id": "a2-10-vergelijken",
+ "unit": "A2",
+ "title": "Comparar coisas · Vergelijken",
+ "emoji": "⚖️",
+ "teaching": [
+  {
+   "emoji": "📏",
+   "title": "-er e -st: o básico da comparação",
+   "html": "<p>Em português você troca a palavra: <i>mais</i> barato, <i>o mais</i> barato. Em neerlandês a maioria dos adjetivos ganha uma terminação: <b>-er</b> para comparar e <b>-st</b> para o superlativo.</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th></tr><tr><td>goedkoop · <b>goedkoper</b> · <b>goedkoopst</b></td><td>barato · mais barato · o mais barato</td></tr><tr><td>snel · <b>sneller</b> · <b>snelst</b></td><td>rápido · mais rápido · o mais rápido</td></tr><tr><td>groot · <b>groter</b> · <b>grootst</b></td><td>grande · maior · o maior</td></tr><tr><td>mooi · <b>mooier</b> · <b>mooist</b></td><td>bonito · mais bonito · o mais bonito</td></tr></table><ul><li>Vogal dupla em sílaba aberta perde uma letra: <b>groot → groter</b>, <b>laag → lager</b>.</li><li>Adjetivo que termina em <b>-r</b> ganha <b>-der</b>: <b>duur → duurder</b>, <b>ver → verder</b>.</li><li>Para palavras longas ou particípios use <b>meer</b> e <b>meest</b>: <b>meer ontspannen</b>, <b>het meest interessant</b>.</li></ul><p><small>💡 <b>meer</b> também compara quantidade: <i>Ik heb meer tijd</i> (tenho mais tempo).</small></p>"
+  },
+  {
+   "emoji": "🔀",
+   "title": "Os irregulares que você vai ouvir todo dia",
+   "html": "<p>Como em português (<i>bom, melhor, o melhor</i>), alguns adjetivos mudam de forma. Decore estes, eles aparecem em qualquer conversa:</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th></tr><tr><td>goed · <b>beter</b> · <b>best</b></td><td>bom · melhor · o melhor</td></tr><tr><td>veel · <b>meer</b> · <b>meest</b></td><td>muito · mais · o mais</td></tr><tr><td>weinig · <b>minder</b> · <b>minst</b></td><td>pouco · menos · o menos</td></tr><tr><td>graag · <b>liever</b> · <b>het liefst</b></td><td>com gosto · de preferência · acima de tudo</td></tr></table><p><small>🍟 <b>graag → liever → het liefst</b> é a forma neerlandesa de dizer \"prefiro\": <i>Ik drink liever thee dan koffie</i>. Não existe um verbo \"preferir\" tão usado quanto em português.</small></p>"
+  },
+  {
+   "emoji": "⚖️",
+   "title": "dan, als e even … als: três jeitos de comparar",
+   "html": "<p>Aqui mora a pegadinha: o português usa <i>do que</i> e <i>quanto/como</i>, o neerlandês separa assim:</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th></tr><tr><td>Gent is kleiner <b>dan</b> Brussel.</td><td>Gante é menor <b>do que</b> Bruxelas. (desigual)</td></tr><tr><td>Hij is <b>even</b> groot <b>als</b> zijn vader.</td><td>Ele é <b>tão</b> alto <b>quanto</b> seu pai. (igual)</td></tr><tr><td>Het is <b>net zo</b> mooi <b>als</b> gisteren.</td><td>Está <b>tão</b> bonito <b>quanto</b> ontem. (igual)</td></tr></table><ul><li><b>Comparativo + dan</b> (desigualdade): groter dan, duurder dan, meer dan.</li><li><b>even / net zo + adjetivo + als</b> (igualdade).</li></ul><p><small>⚠️ Na fala flamenga você ouve \"groter als\", mas na escrita e em provas o certo é <b>dan</b>. Memorize: <b>dan</b> = \"do que\", <b>als</b> = \"quanto/como\".</small></p>"
+  },
+  {
+   "emoji": "🏠",
+   "title": "O -e extra antes do substantivo",
+   "html": "<p>Quando o adjetivo vem antes do substantivo ele ganha <b>-e</b>, e isso vale também para o comparativo e o superlativo. Depois do verbo <b>zijn</b> ele fica sem -e.</p><table class=\"vocab\"><tr><th>🇧🇪 Nederlands</th><th>🇧🇷 Português</th></tr><tr><td>Deze woning is <b>groter</b>.</td><td>Esta casa é maior. (depois de zijn, sem -e)</td></tr><tr><td>een <b>grotere</b> woning</td><td>uma casa maior</td></tr><tr><td>de <b>grootste</b> woning</td><td>a maior casa</td></tr><tr><td>een <b>groter</b> huis</td><td>uma casa maior (het-woord indefinido: sem -e)</td></tr><tr><td>het <b>grotere</b> huis</td><td>a casa maior (com het/de: -e)</td></tr></table><p><small>💡 O superlativo antes do substantivo termina sempre em <b>-ste</b>: de goedkoopste winkel, de beste bakker.</small></p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Deze",
+     "r": "pron"
+    },
+    {
+     "t": "woning",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "groter",
+     "r": "adj"
+    },
+    {
+     "t": "dan",
+     "r": "conj"
+    },
+    {
+     "t": "mijn",
+     "r": "pron"
+    },
+    {
+     "t": "appartement",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Esta",
+     "r": "pron"
+    },
+    {
+     "t": "casa",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "maior",
+     "r": "adj"
+    },
+    {
+     "t": "do que",
+     "r": "conj"
+    },
+    {
+     "t": "o meu",
+     "r": "pron"
+    },
+    {
+     "t": "apartamento",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "esta casa é maior do que meu apartamento",
+   "note": "Comparativo = adjetivo + er, e a segunda parte vem depois de dan. O português faz o mesmo com 'do que'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Brussel",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "duurder",
+     "r": "adj"
+    },
+    {
+     "t": "dan",
+     "r": "conj"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Bruxelas",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "mais cara",
+     "r": "adj"
+    },
+    {
+     "t": "do que",
+     "r": "conj"
+    },
+    {
+     "t": "Gante",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "Bruxelas é caro-er do que Gante",
+   "note": "duur termina em -r, por isso ganha -der: duurder. Um token em neerlandês corresponde a 'mais + adjetivo' em português."
+  },
+  {
+   "nl": [
+    {
+     "t": "Dit",
+     "r": "pron"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "beste",
+     "r": "adj"
+    },
+    {
+     "t": "bakker",
+     "r": "noun"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Esta",
+     "r": "pron"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "a",
+     "r": "art"
+    },
+    {
+     "t": "melhor",
+     "r": "adj"
+    },
+    {
+     "t": "padaria",
+     "r": "noun"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "Gante",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "isto é a melhor padeiro em Gante",
+   "note": "goed → beter → best é irregular. Antes de um substantivo o superlativo leva -e: de beste bakker. E bakker também é a própria padaria."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "drink",
+     "r": "verb"
+    },
+    {
+     "t": "liever",
+     "r": "adv"
+    },
+    {
+     "t": "thee",
+     "r": "noun"
+    },
+    {
+     "t": "dan",
+     "r": "conj"
+    },
+    {
+     "t": "koffie",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "prefiro beber",
+     "r": "verb"
+    },
+    {
+     "t": "chá",
+     "r": "noun"
+    },
+    {
+     "t": "do que",
+     "r": "conj"
+    },
+    {
+     "t": "café",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu bebo mais-com-gosto chá do que café",
+   "note": "liever (graag → liever → het liefst) é o 'prefiro' do dia a dia: não precisa de um verbo especial, basta o verbo comum + liever."
+  },
+  {
+   "nl": [
+    {
+     "t": "Hij",
+     "r": "pron"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "even",
+     "r": "adv"
+    },
+    {
+     "t": "groot",
+     "r": "adj"
+    },
+    {
+     "t": "als",
+     "r": "conj"
+    },
+    {
+     "t": "zijn",
+     "r": "pron"
+    },
+    {
+     "t": "vader",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Ele",
+     "r": "pron"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "tão",
+     "r": "adv"
+    },
+    {
+     "t": "alto",
+     "r": "adj"
+    },
+    {
+     "t": "quanto",
+     "r": "conj"
+    },
+    {
+     "t": "seu",
+     "r": "pron"
+    },
+    {
+     "t": "pai",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "ele é igual grande como seu pai",
+   "note": "Igualdade: even + adjetivo SEM -er + als. Para pessoas, groot significa 'alto'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het",
+     "r": "art"
+    },
+    {
+     "t": "weer",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "vandaag",
+     "r": "adv"
+    },
+    {
+     "t": "net zo",
+     "r": "adv"
+    },
+    {
+     "t": "mooi",
+     "r": "adj"
+    },
+    {
+     "t": "als",
+     "r": "conj"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": "está",
+     "r": "verb"
+    },
+    {
+     "t": "hoje",
+     "r": "adv"
+    },
+    {
+     "t": "tão",
+     "r": "adv"
+    },
+    {
+     "t": "bonito",
+     "r": "adj"
+    },
+    {
+     "t": "quanto",
+     "r": "conj"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "o tempo é hoje exatamente-assim bonito como ontem",
+   "note": "net zo … als é o primo informal de even … als: o significado é o mesmo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "heb",
+     "r": "verb"
+    },
+    {
+     "t": "meer",
+     "r": "adv"
+    },
+    {
+     "t": "tijd",
+     "r": "noun"
+    },
+    {
+     "t": "dan",
+     "r": "conj"
+    },
+    {
+     "t": "jij",
+     "r": "pron"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "tenho",
+     "r": "verb"
+    },
+    {
+     "t": "mais",
+     "r": "adv"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": "do que",
+     "r": "conj"
+    },
+    {
+     "t": "você",
+     "r": "pron"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu tenho mais tempo do que tu",
+   "note": "meer compara quantidades (tempo, dinheiro, gente) e continua usando dan."
+  },
+  {
+   "nl": [
+    {
+     "t": "Dit",
+     "r": "pron"
+    },
+    {
+     "t": "boek",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "meest",
+     "r": "adv"
+    },
+    {
+     "t": "interessant",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Este",
+     "r": "pron"
+    },
+    {
+     "t": "livro",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "o",
+     "r": "art"
+    },
+    {
+     "t": "mais",
+     "r": "adv"
+    },
+    {
+     "t": "interessante",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "este livro é o mais interessante",
+   "note": "Com adjetivos longos o neerlandês usa meer/meest, exatamente como o português usa mais/o mais. Depois de zijn, sem -e."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "zoek",
+     "r": "verb"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "grotere",
+     "r": "adj"
+    },
+    {
+     "t": "woning",
+     "r": "noun"
+    },
+    {
+     "t": "met",
+     "r": "prep"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "grote",
+     "r": "adj"
+    },
+    {
+     "t": "tuin",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "procuro",
+     "r": "verb"
+    },
+    {
+     "t": "uma",
+     "r": "art"
+    },
+    {
+     "t": "casa",
+     "r": "noun"
+    },
+    {
+     "t": "maior",
+     "r": "adj"
+    },
+    {
+     "t": "com",
+     "r": "prep"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "jardim",
+     "r": "noun"
+    },
+    {
+     "t": "grande",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu procuro uma maior casa com um grande jardim",
+   "note": "Adjetivo ANTES do substantivo: o comparativo ganha -e (grotere) e o normal também (grote). Em português o adjetivo vem depois."
+  },
+  {
+   "nl": [
+    {
+     "t": "Mijn",
+     "r": "pron"
+    },
+    {
+     "t": "Nederlands",
+     "r": "noun"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "elke dag",
+     "r": "adv"
+    },
+    {
+     "t": "beter",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Meu",
+     "r": "pron"
+    },
+    {
+     "t": "neerlandês",
+     "r": "noun"
+    },
+    {
+     "t": "fica",
+     "r": "verb"
+    },
+    {
+     "t": "a cada dia",
+     "r": "adv"
+    },
+    {
+     "t": "melhor",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "meu neerlandês torna-se cada dia melhor",
+   "note": "worden + comparativo = 'ficar mais …'. O comparativo vem sem -e porque está depois do verbo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het liefst",
+     "r": "adv"
+    },
+    {
+     "t": "eet",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "friet",
+     "r": "noun"
+    },
+    {
+     "t": "met",
+     "r": "prep"
+    },
+    {
+     "t": "mayonaise",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Acima de tudo",
+     "r": "adv"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "como",
+     "r": "verb"
+    },
+    {
+     "t": "batata frita",
+     "r": "noun"
+    },
+    {
+     "t": "com",
+     "r": "prep"
+    },
+    {
+     "t": "maionese",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "o mais-com-gosto como eu batata frita com maionese",
+   "note": "het liefst é o superlativo de graag e abre a frase, então o verbo vem logo depois (V2): Het liefst eet ik …"
+  },
+  {
+   "nl": [
+    {
+     "t": "Er",
+     "r": "x"
+    },
+    {
+     "t": "zijn",
+     "r": "verb"
+    },
+    {
+     "t": "minder",
+     "r": "adv"
+    },
+    {
+     "t": "mensen",
+     "r": "noun"
+    },
+    {
+     "t": "dan",
+     "r": "conj"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Há",
+     "r": "verb"
+    },
+    {
+     "t": "menos",
+     "r": "adv"
+    },
+    {
+     "t": "gente",
+     "r": "noun"
+    },
+    {
+     "t": "do que",
+     "r": "conj"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "há menos pessoas do que ontem",
+   "note": "weinig → minder → minst. Er zijn é o 'há' do neerlandês e não tem token correspondente em português."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "goedkoop",
+   "art": null,
+   "split": null,
+   "pt": "barato (goedkoper, goedkoopst)",
+   "emoji": "💸"
+  },
+  {
+   "nl": "duur",
+   "art": null,
+   "split": null,
+   "pt": "caro (duurder, duurst)",
+   "emoji": "💎"
+  },
+  {
+   "nl": "groot",
+   "art": null,
+   "split": null,
+   "pt": "grande; para pessoas, alto (groter, grootst)",
+   "emoji": "🐘"
+  },
+  {
+   "nl": "klein",
+   "art": null,
+   "split": null,
+   "pt": "pequeno (kleiner, kleinst)",
+   "emoji": "🐭"
+  },
+  {
+   "nl": "snel",
+   "art": null,
+   "split": null,
+   "pt": "rápido (sneller, snelst)",
+   "emoji": "⚡"
+  },
+  {
+   "nl": "dichtbij",
+   "art": null,
+   "split": "dicht (perto) + bij (junto)",
+   "pt": "perto (dichterbij, het dichtstbij)",
+   "emoji": "📍"
+  },
+  {
+   "nl": "ver",
+   "art": null,
+   "split": null,
+   "pt": "longe (verder, verst)",
+   "emoji": "🛣️"
+  },
+  {
+   "nl": "gezellig",
+   "art": null,
+   "split": "ge + zel (companheiro) + ig",
+   "pt": "aconchegante, agradável (gezelliger, gezelligst)",
+   "emoji": "🕯️"
+  },
+  {
+   "nl": "rustig",
+   "art": null,
+   "split": "rust (descanso) + ig",
+   "pt": "calmo, tranquilo (rustiger, rustigst)",
+   "emoji": "🌿"
+  },
+  {
+   "nl": "beter",
+   "art": null,
+   "split": null,
+   "pt": "melhor (de goed)",
+   "emoji": "👍"
+  },
+  {
+   "nl": "meer",
+   "art": null,
+   "split": null,
+   "pt": "mais (de veel)",
+   "emoji": "➕"
+  },
+  {
+   "nl": "minder",
+   "art": null,
+   "split": null,
+   "pt": "menos (de weinig)",
+   "emoji": "➖"
+  },
+  {
+   "nl": "liever",
+   "art": null,
+   "split": null,
+   "pt": "de preferência (de graag); prefiro",
+   "emoji": "💛"
+  },
+  {
+   "nl": "de woning",
+   "art": "de",
+   "split": null,
+   "pt": "casa, moradia, imóvel",
+   "emoji": "🏠"
+  },
+  {
+   "nl": "de huur",
+   "art": "de",
+   "split": null,
+   "pt": "aluguel",
+   "emoji": "🔑"
+  },
+  {
+   "nl": "de buurt",
+   "art": "de",
+   "split": null,
+   "pt": "bairro, vizinhança",
+   "emoji": "🏘️"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual é o comparativo de 'snel' (rápido)? ⚡",
+   "options": [
+    "snelder",
+    "sneller",
+    "meer snel",
+    "snelst"
+   ],
+   "answer": 1,
+   "explain": "A maioria dos adjetivos curtos simplesmente ganha -er: snel → sneller. snelst é o superlativo."
+  },
+  {
+   "type": "mc",
+   "q": "Gent is kleiner ___ Brussel. Qual palavra completa a frase? 🏙️",
+   "options": [
+    "als",
+    "dan",
+    "even",
+    "meer"
+   ],
+   "answer": 1,
+   "explain": "Desigualdade (kleiner, groter, duurder) pede dan = 'do que'. als é reservado para a igualdade com even / net zo."
+  },
+  {
+   "type": "mc",
+   "q": "Qual é o comparativo de 'goed' (bom)? 👍",
+   "options": [
+    "gooder",
+    "meer goed",
+    "beter",
+    "best"
+   ],
+   "answer": 2,
+   "explain": "goed é irregular: goed → beter → best. Como em português: bom, melhor, o melhor."
+  },
+  {
+   "type": "mc",
+   "q": "Qual frase está correta? 🏠",
+   "options": [
+    "Ik zoek een groter woning.",
+    "Ik zoek een grotere woning.",
+    "Ik zoek een grootere woning.",
+    "Ik zoek een meer groot woning."
+   ],
+   "answer": 1,
+   "explain": "Antes do substantivo o comparativo ganha -e: grotere woning. Em groot → groter a vogal dupla perde uma letra. Como o adjetivo vem antes do substantivo, o -e extra aparece: grotere."
+  },
+  {
+   "type": "fill",
+   "before": "Gent is kleiner",
+   "after": "Brussel.",
+   "answer": "dan",
+   "alt": [],
+   "hint": "do que",
+   "explain": "Comparativo (kleiner) + dan. Esta é a pegadinha do português 'do que'."
+  },
+  {
+   "type": "fill",
+   "before": "Deze pizza is goed, maar die is nog",
+   "after": "!",
+   "answer": "beter",
+   "alt": [],
+   "hint": "melhor",
+   "explain": "goed é irregular: beter. Dizer 'gooder' seria o erro clássico de quem aplica a regra do -er."
+  },
+  {
+   "type": "fill",
+   "before": "Hij is even oud",
+   "after": "ik.",
+   "answer": "als",
+   "alt": [],
+   "hint": "quanto",
+   "explain": "Igualdade: even + adjetivo + als. Aqui NÃO se usa dan."
+  },
+  {
+   "type": "listen",
+   "nl": "Ik drink liever thee dan koffie.",
+   "options": [
+    "Eu prefiro chá do que café.",
+    "Eu bebo mais café do que chá.",
+    "Eu gosto tanto de chá quanto de café."
+   ],
+   "answer": 0,
+   "explain": "liever = 'de preferência', e dan separa as duas opções. É o jeito natural de dizer 'prefiro' em neerlandês."
+  },
+  {
+   "type": "listen",
+   "nl": "Dit is de goedkoopste winkel van de stad.",
+   "options": [
+    "Esta é a loja mais cara da cidade.",
+    "Esta é a loja mais barata da cidade.",
+    "Esta loja é mais barata do que a outra."
+   ],
+   "answer": 1,
+   "explain": "goedkoopste = o mais barato (goedkoop + -ste, com -e porque vem antes do substantivo). duur seria 'caro'."
+  },
+  {
+   "type": "order",
+   "pt": "Esta casa é maior do que o meu apartamento.",
+   "tokens": [
+    "Deze",
+    "woning",
+    "is",
+    "groter",
+    "dan",
+    "mijn",
+    "appartement"
+   ],
+   "answer": "Deze woning is groter dan mijn appartement",
+   "explain": "Sujeito + is + comparativo (sem -e depois de zijn) + dan + segundo termo."
+  },
+  {
+   "type": "order",
+   "pt": "Eu procuro uma casa maior com um jardim grande.",
+   "tokens": [
+    "Ik",
+    "zoek",
+    "een",
+    "grotere",
+    "woning",
+    "met",
+    "een",
+    "grote",
+    "tuin"
+   ],
+   "answer": "Ik zoek een grotere woning met een grote tuin",
+   "explain": "Os dois adjetivos vêm antes do substantivo e por isso levam -e: grotere e grote. Em português o adjetivo fica depois."
+  },
+  {
+   "type": "order",
+   "pt": "O tempo hoje está tão bonito quanto ontem.",
+   "tokens": [
+    "Het",
+    "weer",
+    "is",
+    "vandaag",
+    "net",
+    "zo",
+    "mooi",
+    "als",
+    "gisteren"
+   ],
+   "answer": "Het weer is vandaag net zo mooi als gisteren",
+   "altAnswers": [
+    "Vandaag is het weer net zo mooi als gisteren"
+   ],
+   "explain": "net zo + adjetivo + als expressa igualdade. O adjetivo mooi não muda."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "goed",
+     "beter"
+    ],
+    [
+     "veel",
+     "meer"
+    ],
+    [
+     "weinig",
+     "minder"
+    ],
+    [
+     "graag",
+     "liever"
+    ],
+    [
+     "groot",
+     "groter"
+    ],
+    [
+     "duur",
+     "duurder"
+    ]
+   ],
+   "explain": "Os quatro primeiros são irregulares e valem ouro: goed → beter, veel → meer, weinig → minder, graag → liever. Já groter e duurder seguem a regra com pequenos ajustes de grafia."
+  },
+  {
+   "type": "mc",
+   "q": "Que frase o seu amigo flamengo diz se ele AMA batata frita com maionese? 🍟",
+   "options": [
+    "Het liefst eet ik friet met mayonaise.",
+    "Meer eet ik friet met mayonaise.",
+    "Ik eet friet even mayonaise.",
+    "Beter eet ik friet met mayonaise."
+   ],
+   "answer": 0,
+   "explain": "Het liefst = 'acima de tudo' (o superlativo de graag). Como abre a frase, o verbo vem logo depois: eet ik."
+  }
+ ]
+}
