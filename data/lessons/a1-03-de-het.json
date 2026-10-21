@@ -208,6 +208,11 @@
       "options": ["het, acerta 3 em 4", "een, sempre funciona", "tanto faz, é 50/50", "de, acerta 3 em 4"],
       "answer": 3,
       "explain": "Cerca de 75% das palavras são de. Na dúvida, chute de, mas anote sempre o artigo junto de cada palavra nova que aprender."
+    },
+    {
+      "type": "dictee",
+      "nl": "Het huis is groot.",
+      "explain": "Huis é het-woord: het huis. O \"ui\" é um som típico do neerlandês; o \"oo\" de groot é longo."
     }
   ]
 }

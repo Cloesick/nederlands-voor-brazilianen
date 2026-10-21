@@ -189,6 +189,11 @@
       "options": ["O céu está totalmente limpo hoje, sol à vista", "O céu está totalmente nublado hoje, nenhum sol à vista", "Vai nevar hoje, sem sol"],
       "answer": 1,
       "explain": "helemaal bewolkt = totalmente nublado; geen zonnetje te zien = nenhum solzinho à vista. hemel = céu."
+    },
+    {
+      "type": "dictee",
+      "nl": "Het regent alweer.",
+      "explain": "Het regent alweer = já está chovendo de novo. Alweer termina em \"eer\" (e longo)."
     }
   ]
 }

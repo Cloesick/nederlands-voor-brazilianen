@@ -214,6 +214,11 @@
       "answer": "morgen",
       "hint": "hoje, ontem, ...?",
       "explain": "vandaag = hoje, morgen = amanhã, gisteren = ontem. Se hoje é maandag, amanhã é dinsdag. 📆"
+    },
+    {
+      "type": "dictee",
+      "nl": "Het is twee uur.",
+      "explain": "Twee uur = duas horas. Cuidado com a grafia: twee tem dois e, uur tem dois u."
     }
   ]
 }

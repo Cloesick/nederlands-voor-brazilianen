@@ -542,6 +542,7 @@ function mistakeFromEx(ex, L) {
   if (ex.type === 'mc')     return { ...base, q: ex.q, nl: ex.options[ex.answer], pt: ex.q, answer: ex.options[ex.answer] };
   if (ex.type === 'listen') return { ...base, q: 'Ouça: ' + ex.nl, nl: ex.nl, pt: ex.options[ex.answer], answer: ex.nl };
   if (ex.type === 'fill')   return { ...base, q: `${ex.before} ___ ${ex.after || ''}`, nl: ex.answer, pt: ex.hint || '', answer: ex.answer };
+  if (ex.type === 'dictee') return { ...base, q: 'Ditado: ouça e escreva', nl: ex.nl, pt: ex.pt || '', answer: ex.nl };
   if (ex.type === 'order')  return { ...base, q: ex.pt, nl: ex.answer, pt: ex.pt, answer: ex.answer };
   if (ex.type === 'match')  return { ...base, q: 'Pares: ' + ex.pairs.map(p => p[0]).join(', '), nl: ex.pairs.map(p => p[0]).join(' · '), pt: ex.pairs.map(p => p[1]).join(' · '), answer: ex.pairs.map(p => p[0] + '=' + p[1]).join(', ') };
   return { ...base, q: '(exercício)', nl: '', pt: '', answer: '' };
@@ -594,6 +595,12 @@ function runExercises(body, L) {
       ${ex.hint ? `<p class="muted">💭 dica: ${esc(ex.hint)}</p>` : ''}
       <p><input class="fill-input" id="fin" autocomplete="off" autocapitalize="off" placeholder="digite em neerlandês...">
       <button class="btn" id="chk">Verificar ✓</button></p>`;
+    if (ex.type === 'dictee') inner = `
+      <p class="ex-q">🎧 Ditado: ouça e escreva o que ouviu</p>
+      <p class="center"><button class="big-audio" id="play" aria-label="Ouvir de novo">▶️</button></p>
+      <p><input class="fill-input" id="fin" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Escreva a frase em neerlandês" placeholder="digite o que você ouviu...">
+      <button class="btn" id="chk">Verificar ✓</button></p>
+      <p class="sr-only" id="dres" aria-live="polite"></p>`;
     if (ex.type === 'order') inner = `
       <p class="ex-q">🧱 Monte a frase: <span class="muted">"${esc(ex.pt)}"</span></p>
       <div class="built" id="built"></div>
@@ -628,6 +635,21 @@ function runExercises(body, L) {
         if (ok) { lock(); feedback(true, ex.explain); }
         else if (firstTry) { firstTry = false; toast('🤏 Tente mais uma vez!'); $('#fin').addEventListener('input', () => $('#fin').classList.remove('wrong'), { once: true }); }
         else { lock(); feedback(false, ex.explain, ex.answer); }
+      };
+      $('#chk').addEventListener('click', check);
+      $('#fin').addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
+      $('#fin').focus();
+    }
+    if (ex.type === 'dictee') {
+      const p = $('#play'); p.addEventListener('click', () => speak(ex.nl, p)); setTimeout(() => speak(ex.nl, p), 300);
+      const check = () => {
+        const val = norm($('#fin').value);
+        if (!val) return;
+        const ok = [ex.nl, ...(ex.alt || [])].some(a => norm(a) === val);
+        $('#fin').classList.add(ok ? 'correct' : 'wrong');
+        if (ok) { $('#dres').textContent = 'Certo!'; lock(); feedback(true, ex.explain); }
+        else if (firstTry) { firstTry = false; $('#dres').textContent = 'Ainda não. Tente mais uma vez.'; toast('🤏 Tente mais uma vez!'); $('#fin').addEventListener('input', () => $('#fin').classList.remove('wrong'), { once: true }); }
+        else { $('#dres').textContent = 'Errado. Resposta: ' + ex.nl; lock(); feedback(false, ex.explain, ex.nl); }
       };
       $('#chk').addEventListener('click', check);
       $('#fin').addEventListener('keydown', e => { if (e.key === 'Enter') check(); });
