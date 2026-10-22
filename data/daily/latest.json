@@ -1,29 +1,33 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "word": {
-    "nl": "het onthaal",
-    "art": "het",
-    "split": "ont (início) + haal (de halen, buscar/receber)",
-    "pt": "recepção (balcão de atendimento de empresas, hospitais e escolas)",
-    "emoji": "🛎️"
+    "nl": "de boterham",
+    "art": "de",
+    "split": "boter (manteiga) + ham (pedaço, mordida)",
+    "pt": "sanduíche de pão de forma (a refeição fria típica do almoço belga)",
+    "emoji": "🥪"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"heb","r":"verb"},
-      {"t":"mijn","r":"pron"},
-      {"t":"sleutels","r":"noun"},
-      {"t":"verloren","r":"verb"},
-      {"t":".","r":"punc"}
+      {"t":"Kan","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"hier","r":"adv"},
+      {"t":"met","r":"prep"},
+      {"t":"de","r":"art"},
+      {"t":"kaart","r":"noun"},
+      {"t":"betalen","r":"verb"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"perdi","r":"verb"},
-      {"t":"minhas","r":"pron"},
-      {"t":"chaves","r":"noun"},
-      {"t":".","r":"punc"}
+      {"t":"Posso","r":"verb"},
+      {"t":"pagar","r":"verb"},
+      {"t":"aqui","r":"adv"},
+      {"t":"com","r":"prep"},
+      {"t":"o","r":"art"},
+      {"t":"cartão","r":"noun"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "eu tenho minhas chaves perdido",
-    "note": "O pretérito perfeito em holandês usa 'hebben' + particípio no fim da frase (heb ... verloren). É a forma normal de falar do passado no dia a dia, no lugar do pretérito simples. Dica: no 'onthaal' você pode usar essa frase para pedir ajuda."
+    "lit": "posso eu aqui com o cartão pagar",
+    "note": "Com verbo modal (kunnen, moeten, willen), o verbo principal vai para o fim da frase no infinitivo: Kan ik ... betalen. Na Bélgica, 'met de kaart' é o jeito comum de dizer que quer pagar com cartão (Bancontact)."
   }
 }

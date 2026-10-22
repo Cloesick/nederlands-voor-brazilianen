@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-22",
+  "word": {
+    "nl": "de boterham",
+    "art": "de",
+    "split": "boter (manteiga) + ham (pedaço, mordida)",
+    "pt": "sanduíche de pão de forma (a refeição fria típica do almoço belga)",
+    "emoji": "🥪"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kan","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"hier","r":"adv"},
+      {"t":"met","r":"prep"},
+      {"t":"de","r":"art"},
+      {"t":"kaart","r":"noun"},
+      {"t":"betalen","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Posso","r":"verb"},
+      {"t":"pagar","r":"verb"},
+      {"t":"aqui","r":"adv"},
+      {"t":"com","r":"prep"},
+      {"t":"o","r":"art"},
+      {"t":"cartão","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "posso eu aqui com o cartão pagar",
+    "note": "Com verbo modal (kunnen, moeten, willen), o verbo principal vai para o fim da frase no infinitivo: Kan ik ... betalen. Na Bélgica, 'met de kaart' é o jeito comum de dizer que quer pagar com cartão (Bancontact)."
+  }
+}
