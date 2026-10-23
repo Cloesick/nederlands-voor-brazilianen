@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-23",
+  "word": {
+    "nl": "de huisarts",
+    "art": "de",
+    "split": "huis (casa) + arts (médico)",
+    "pt": "médico de família, clínico geral",
+    "emoji": "🩺"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Vandaag","r":"adv"},
+      {"t":"ga","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"naar","r":"prep"},
+      {"t":"de","r":"art"},
+      {"t":"markt","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Hoje","r":"adv"},
+      {"t":"eu","r":"pron"},
+      {"t":"vou","r":"verb"},
+      {"t":"ao","r":"prep"},
+      {"t":"mercado","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "hoje vou eu ao mercado",
+    "note": "Em holandês o verbo conjugado fica sempre na segunda posição. Se você começa a frase com 'vandaag', o verbo vem logo depois e o sujeito passa para depois dele: Vandaag ga ik, e não 'Vandaag ik ga'."
+  }
+}
