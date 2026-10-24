@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-24",
+  "word": {
+    "nl": "de zetel",
+    "art": "de",
+    "split": "zetel (assento, lugar para sentar)",
+    "pt": "sofá, poltrona",
+    "emoji": "🛋️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Wanneer","r":"qw"},
+      {"t":"begint","r":"verb"},
+      {"t":"de","r":"art"},
+      {"t":"film","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Quando","r":"qw"},
+      {"t":"começa","r":"verb"},
+      {"t":"o","r":"art"},
+      {"t":"filme","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "quando começa o filme",
+    "note": "Em perguntas com palavra interrogativa, o verbo vem logo depois dela: Wanneer begint de film? Na Bélgica, 'zetel' é o termo comum para sofá, enquanto 'de bank' soa mais holandês (da Holanda)."
+  }
+}
