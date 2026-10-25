@@ -1,28 +1,31 @@
 {
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "word": {
-    "nl": "de zetel",
+    "nl": "de rotonde",
     "art": "de",
-    "split": "zetel (assento, lugar para sentar)",
-    "pt": "sofá, poltrona",
-    "emoji": "🛋️"
+    "split": "rotonde (rotatória)",
+    "pt": "rotatória",
+    "emoji": "🔄"
   },
   "phrase": {
     "nl": [
-      {"t":"Wanneer","r":"qw"},
-      {"t":"begint","r":"verb"},
-      {"t":"de","r":"art"},
-      {"t":"film","r":"noun"},
+      {"t":"Mag","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"even","r":"adv"},
+      {"t":"iets","r":"pron"},
+      {"t":"vragen","r":"verb"},
       {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Quando","r":"qw"},
-      {"t":"começa","r":"verb"},
-      {"t":"o","r":"art"},
-      {"t":"filme","r":"noun"},
+      {"t":"Posso","r":"verb"},
+      {"t":"te","r":"pron"},
+      {"t":"perguntar","r":"verb"},
+      {"t":"uma","r":"pron"},
+      {"t":"coisa","r":"noun"},
+      {"t":"rapidinho","r":"adv"},
       {"t":"?","r":"punc"}
     ],
-    "lit": "quando começa o filme",
-    "note": "Em perguntas com palavra interrogativa, o verbo vem logo depois dela: Wanneer begint de film? Na Bélgica, 'zetel' é o termo comum para sofá, enquanto 'de bank' soa mais holandês (da Holanda)."
+    "lit": "pode eu um momento algo perguntar",
+    "note": "Em perguntas sim/não o verbo vem em primeiro lugar: Mag ik...? O verbo no infinitivo (vragen) vai para o fim da frase. 'Even' suaviza o pedido, como o nosso 'rapidinho'."
   }
 }
