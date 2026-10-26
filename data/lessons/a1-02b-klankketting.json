@@ -1,0 +1,243 @@
+{
+  "id": "a1-02b-klankketting",
+  "unit": "A1",
+  "title": "Kam in de zak · Klankketting",
+  "emoji": "🪮",
+  "teaching": [
+    {
+      "emoji": "🔗",
+      "title": "🔗 A ketting: a última palavra puxa a próxima",
+      "html": "<p>Esta lição usa o método clássico flamengo da <b>woordketting</b> (cadeia de palavras): a <b>última palavra de uma linha vira a primeira da seguinte</b>.</p><p><i>Kam in de <b>zak</b> 👝 → <b>Zak</b> in de <b>jas</b> 🧥 → <b>Jas</b> van de man 🧑...</i></p><p>Por que funciona? São todas palavras <b>curtas (CVC)</b> — consoante-vogal-consoante — perfeitas para treinar os sons do neerlandês sem travar: <b>man, pet, jas, put, hek, tas, bos, rug, bus</b>. Cante a cadeia em voz alta e os sons entram sozinhos. 🎵</p><p>💡 Cada palavra tem um <b>ícone fixo</b> nesta lição. O mesmo emoji = a mesma palavra, sempre. É assim que você decora sem traduzir. ✅</p>"
+    },
+    {
+      "emoji": "🧩",
+      "title": "🧩 de of het? decore junto com a palavra",
+      "html": "<p>Todo substantivo é <b>de-woord</b> ou <b>het-woord</b> (os dois = \"o/a\"). Não há regra perfeita — você decora o artigo <b>colado</b> na palavra. Mas tem atalhos:</p><table class=\"vocab\"><tr><th>regra</th><th>exemplo</th></tr><tr><td>➕ diminutivo <b>-je</b> → sempre <b>het</b></td><td>het huisje 🏠, het zakje 👝</td></tr><tr><td>➕ plural → sempre <b>de</b></td><td>de mannen 🧑, de bussen 🚌</td></tr><tr><td>➕ na dúvida, chute <b>de</b></td><td>~75% são de-woorden</td></tr></table><p>Nesta cadeia convivem os dois: <b>de</b> man, <b>de</b> bus, <b>de</b> zak... mas <b>het</b> hek 🚧 e <b>het</b> bos 🌲. ❌ <i>de hek</i> → ✅ <i>het hek</i>.</p>"
+    },
+    {
+      "emoji": "🔄",
+      "title": "🔄 O verbo muda — e some o -t na inversão!",
+      "html": "<p>No presente: radical puro para <b>ik</b>, radical + <b>-t</b> para <b>jij/hij</b>, infinitivo para o plural.</p><ul><li>Ik <b>sta</b> 🧍 · jij <b>staat</b> · wij <b>staan</b></li><li>Ik <b>draag</b> 🎒 · hij <b>draagt</b> · wij <b>dragen</b></li></ul><p><b>A pegadinha 🪤:</b> quando <b>jij</b> vem <u>depois</u> do verbo (pergunta/inversão), o <b>-t cai</b>:</p><ul><li>✅ Jij <b>staat</b> bij het hek. &nbsp;→&nbsp; ✅ <b>Sta</b> jij bij het hek? &nbsp;(❌ <i>Staat jij?</i>)</li><li>✅ Jij <b>hebt</b> een pet. &nbsp;→&nbsp; ✅ <b>Heb</b> jij een pet? &nbsp;(❌ <i>Hebt jij?</i>)</li></ul><p>Com <b>u</b> (formal) é sempre <b>bent/hebt</b>: ✅ U <b>bent</b> een man.</p>"
+    },
+    {
+      "emoji": "🎭",
+      "title": "🎭 Seu teclado de ícones (decore de uma vez)",
+      "html": "<p>Toda esta lição usa os mesmos ícones. Guarde este \"teclado\" 🎹:</p><table class=\"vocab\"><tr><th>preposições 📍</th><th>verbos ⚙️</th><th>sinais</th></tr><tr><td>📍 bij (perto de)<br>📦 in (dentro de)<br>🔛 op (em cima de)<br>🔗 van (de/do)<br>🤝 met (com)</td><td>🟰 is / ben / bent (ser/estar)<br>🤲 heeft / heb (ter)<br>🎒 draagt (usar/carregar)<br>🧍 staat (está em pé)<br>🪑 zit (está sentado)</td><td>✅ certo<br>➕ junta / forma<br>❌ errado<br>❓ pergunta</td></tr></table><p>Sempre que vir ❌ é a forma <b>errada</b>; ✅ e ➕ marcam o <b>certo</b> e o que se <b>combina</b>. 🎯</p>"
+    }
+  ],
+  "chains": [
+    {
+      "title": "Kam in de zak",
+      "emoji": "🎵",
+      "pt": "a cantiga original da cadeia",
+      "lines": [
+        { "l": "Kam", "le": "🪮", "p": "in", "r": "zak", "re": "👝", "art": "de" },
+        { "l": "Zak", "le": "👝", "p": "in", "r": "jas", "re": "🧥", "art": "de" },
+        { "l": "Jas", "le": "🧥", "p": "van", "r": "man", "re": "🧑", "art": "de" },
+        { "l": "Man", "le": "🧑", "p": "met", "r": "pet", "re": "🧢", "art": "de" }
+      ]
+    },
+    {
+      "title": "Pen in de tas",
+      "emoji": "🎒",
+      "lines": [
+        { "l": "Pen", "le": "🖊️", "p": "in", "r": "tas", "re": "🎒", "art": "de" },
+        { "l": "Tas", "le": "🎒", "p": "op", "r": "rug", "re": "🔙", "art": "de" },
+        { "l": "Rug", "le": "🔙", "p": "van", "r": "man", "re": "🧑", "art": "de" },
+        { "l": "Man", "le": "🧑", "p": "bij", "r": "put", "re": "🪣", "art": "de" }
+      ]
+    },
+    {
+      "title": "Rok van de zus",
+      "emoji": "👗",
+      "lines": [
+        { "l": "Rok", "le": "👗", "p": "van", "r": "zus", "re": "👧", "art": "de" },
+        { "l": "Zus", "le": "👧", "p": "in", "r": "bus", "re": "🚌", "art": "de" },
+        { "l": "Bus", "le": "🚌", "p": "bij", "r": "hek", "re": "🚧", "art": "het" },
+        { "l": "Hek", "le": "🚧", "p": "in", "r": "bos", "re": "🌲", "art": "het" }
+      ]
+    },
+    {
+      "title": "Kat in huis",
+      "emoji": "🐱",
+      "pt": "cadeia nova (inventada) — mesmo truque",
+      "lines": [
+        { "l": "Kat", "le": "🐱", "p": "in", "r": "mand", "re": "🧺", "art": "de" },
+        { "l": "Mand", "le": "🧺", "p": "bij", "r": "deur", "re": "🚪", "art": "de" },
+        { "l": "Deur", "le": "🚪", "p": "van", "r": "huis", "re": "🏠", "art": "het" },
+        { "l": "Huis", "le": "🏠", "p": "in", "r": "bos", "re": "🌲", "art": "het" }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"man","r":"noun"},{"t":"is","r":"verb"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"put","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"homem","r":"noun"},{"t":"está","r":"verb"},{"t":"perto","r":"prep"},{"t":"do","r":"prep"},{"t":"poço","r":"noun"},{"t":".","r":"punc"}],
+      "note": "bij 📍 = perto de / junto a. A última palavra, put 🪣, começa a próxima linha da cantiga. 🔗"
+    },
+    {
+      "nl": [{"t":"Hij","r":"pron"},{"t":"draagt","r":"verb"},{"t":"een","r":"art"},{"t":"pet","r":"noun"},{"t":"en","r":"conj"},{"t":"een","r":"art"},{"t":"jas","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"Ele","r":"pron"},{"t":"usa","r":"verb"},{"t":"um","r":"art"},{"t":"boné","r":"noun"},{"t":"e","r":"conj"},{"t":"um","r":"art"},{"t":"casaco","r":"noun"},{"t":".","r":"punc"}],
+      "note": "draagt 🎒 serve para 'usar roupa' E 'carregar'. 🧢 pet = boné · 🧥 jas = casaco."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"man","r":"noun"},{"t":"heeft","r":"verb"},{"t":"een","r":"art"},{"t":"tas","r":"noun"},{"t":"op","r":"prep"},{"t":"zijn","r":"pron"},{"t":"rug","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"homem","r":"noun"},{"t":"tem","r":"verb"},{"t":"uma","r":"art"},{"t":"mochila","r":"noun"},{"t":"nas","r":"prep"},{"t":"costas","r":"noun"},{"t":".","r":"punc"}],
+      "note": "op 🔛 = em cima de. heeft 🤲 = tem (hij/zij). 🎒 tas nas 🔙 costas (rug)."
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"bus","r":"noun"},{"t":"staat","r":"verb"},{"t":"bij","r":"prep"},{"t":"het","r":"art"},{"t":"hek","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"ônibus","r":"noun"},{"t":"está","r":"verb"},{"t":"perto","r":"prep"},{"t":"do","r":"prep"},{"t":"portão","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o ônibus está-em-pé perto do portão",
+      "note": "staat 🧍 = está (parado). Em neerlandês objetos 'ficam em pé': de bus staat, de fles staat. 🚌🚧 het hek!"
+    },
+    {
+      "nl": [{"t":"Waar","r":"qw"},{"t":"is","r":"verb"},{"t":"het","r":"art"},{"t":"hek","r":"noun"},{"t":"?","r":"punc"}],
+      "pt": [{"t":"Onde","r":"qw"},{"t":"está","r":"verb"},{"t":"o","r":"art"},{"t":"portão","r":"noun"},{"t":"?","r":"punc"}],
+      "note": "Pergunta com palavra interrogativa: Waar (onde) ❓ abre, is fica na posição 2. 🚧"
+    },
+    {
+      "nl": [{"t":"Het","r":"art"},{"t":"hek","r":"noun"},{"t":"is","r":"verb"},{"t":"in","r":"prep"},{"t":"het","r":"art"},{"t":"bos","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"portão","r":"noun"},{"t":"está","r":"verb"},{"t":"no","r":"prep"},{"t":"bosque","r":"noun"},{"t":".","r":"punc"}],
+      "note": "in 📦 = dentro de. Dois het-woorden juntos: ✅ het hek, het bos 🌲. (❌ de hek)"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"kat","r":"noun"},{"t":"zit","r":"verb"},{"t":"op","r":"prep"},{"t":"de","r":"art"},{"t":"bank","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"gato","r":"noun"},{"t":"está","r":"verb"},{"t":"no","r":"prep"},{"t":"sofá","r":"noun"},{"t":".","r":"punc"}],
+      "lit": "o gato senta no sofá",
+      "note": "zit 🪑 = está sentado. 🪤 bank = sofá (não é só 'banco'!). 🐱🛋️"
+    },
+    {
+      "nl": [{"t":"De","r":"art"},{"t":"hond","r":"noun"},{"t":"is","r":"verb"},{"t":"bij","r":"prep"},{"t":"de","r":"art"},{"t":"deur","r":"noun"},{"t":".","r":"punc"}],
+      "pt": [{"t":"O","r":"art"},{"t":"cachorro","r":"noun"},{"t":"está","r":"verb"},{"t":"perto","r":"prep"},{"t":"da","r":"prep"},{"t":"porta","r":"noun"},{"t":".","r":"punc"}],
+      "note": "🐕 hond perto da 🚪 deur. bij 📍 de deur = perto/junto da porta."
+    }
+  ],
+  "vocab": [
+    { "nl": "de man", "art": "de", "split": null, "pt": "o homem", "emoji": "🧑" },
+    { "nl": "de vrouw", "art": "de", "split": null, "pt": "a mulher", "emoji": "👩" },
+    { "nl": "de zus", "art": "de", "split": null, "pt": "a irmã", "emoji": "👧" },
+    { "nl": "de pet", "art": "de", "split": null, "pt": "o boné", "emoji": "🧢" },
+    { "nl": "de jas", "art": "de", "split": null, "pt": "o casaco", "emoji": "🧥" },
+    { "nl": "de rok", "art": "de", "split": null, "pt": "a saia", "emoji": "👗" },
+    { "nl": "de put", "art": "de", "split": null, "pt": "o poço", "emoji": "🪣" },
+    { "nl": "het hek", "art": "het", "split": null, "pt": "o portão / a cerca", "emoji": "🚧" },
+    { "nl": "het bos", "art": "het", "split": null, "pt": "o bosque / a floresta", "emoji": "🌲" },
+    { "nl": "de tas", "art": "de", "split": null, "pt": "a bolsa / a mochila", "emoji": "🎒" },
+    { "nl": "de zak", "art": "de", "split": null, "pt": "o bolso / o saco", "emoji": "👝" },
+    { "nl": "de kam", "art": "de", "split": null, "pt": "o pente", "emoji": "🪮" },
+    { "nl": "de pen", "art": "de", "split": null, "pt": "a caneta", "emoji": "🖊️" },
+    { "nl": "de rug", "art": "de", "split": null, "pt": "as costas", "emoji": "🔙" },
+    { "nl": "de bus", "art": "de", "split": null, "pt": "o ônibus", "emoji": "🚌" },
+    { "nl": "de kat", "art": "de", "split": null, "pt": "o gato", "emoji": "🐱" },
+    { "nl": "de hond", "art": "de", "split": null, "pt": "o cachorro", "emoji": "🐕" },
+    { "nl": "de vis", "art": "de", "split": null, "pt": "o peixe", "emoji": "🐟" },
+    { "nl": "het huis", "art": "het", "split": null, "pt": "a casa", "emoji": "🏠" },
+    { "nl": "de deur", "art": "de", "split": null, "pt": "a porta", "emoji": "🚪" },
+    { "nl": "de bank", "art": "de", "split": null, "pt": "o sofá (também: banco)", "emoji": "🛋️" },
+    { "nl": "de mand", "art": "de", "split": null, "pt": "o cesto", "emoji": "🧺" },
+    { "nl": "het brood", "art": "het", "split": null, "pt": "o pão", "emoji": "🍞" },
+    { "nl": "de kaas", "art": "de", "split": null, "pt": "o queijo", "emoji": "🧀" },
+    { "nl": "de hoed", "art": "de", "split": null, "pt": "o chapéu", "emoji": "👒" },
+    { "nl": "de bril", "art": "de", "split": null, "pt": "os óculos", "emoji": "👓" },
+    { "nl": "de neus", "art": "de", "split": null, "pt": "o nariz", "emoji": "👃" }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "🪤 Inversão! Complete: \"___ jij bij het hek?\" (Você está perto do portão?)",
+      "options": ["Sta", "Staat", "Staan", "Stat"],
+      "answer": 0,
+      "explain": "✅ Sta jij...? Quando jij vem DEPOIS do verbo, o -t cai. ❌ 'Staat jij' mantém o -t (errado na inversão). ❌ staan é plural, ❌ stat não existe."
+    },
+    {
+      "type": "mc",
+      "q": "Qual está certo? 🎒 Karel ___ een tas. (Karel carrega uma bolsa.)",
+      "options": ["draag", "draagt", "dragen", "draagst"],
+      "answer": 1,
+      "explain": "✅ Karel draagt (hij/zij → radical + -t). ❌ draag é só para 'ik'. ❌ dragen é o plural. ❌ draagst não existe em neerlandês padrão."
+    },
+    {
+      "type": "mc",
+      "q": "🎩 Formal: \"U ___ een man.\" (O senhor é um homem.)",
+      "options": ["ben", "is", "bent", "zijn"],
+      "answer": 2,
+      "explain": "✅ U bent. Com 'u' (formal) usa-se bent/hebt. ❌ ben é só para 'ik'. ❌ is é para hij/zij/het. ❌ zijn é o plural/infinitivo."
+    },
+    {
+      "type": "mc",
+      "q": "de of het? Qual está certo? 🚧🌲",
+      "options": ["de hek, de bos", "het hek, het bos", "de hek, het bos", "het hek, de bos"],
+      "answer": 1,
+      "explain": "✅ het hek e het bos — ambos são het-woorden. ❌ 'de hek' e ❌ 'de bos' estão errados. Decore o artigo colado na palavra! 🧩"
+    },
+    {
+      "type": "listen",
+      "nl": "De man is bij de put.",
+      "options": ["O homem está perto do poço.", "O homem está dentro do poço.", "O homem tem um poço.", "O homem vai ao poço."],
+      "answer": 0,
+      "explain": "✅ bij 📍 = perto de / junto a (não 'dentro de' 📦 in, nem 'ter' 🤲 heeft). De man is bij de put = o homem está junto ao poço. 🪣"
+    },
+    {
+      "type": "listen",
+      "nl": "De kat zit op de bank.",
+      "options": ["O gato está no sofá.", "O gato está embaixo do banco.", "O gato dorme na cama.", "O gato corre no bosque."],
+      "answer": 0,
+      "explain": "✅ zit 🪑 = está sentado; op 🔛 = em cima de; bank = sofá. 🐱🛋️ Cuidado: bank também pode ser 'banco', mas aqui o gato está no sofá."
+    },
+    {
+      "type": "fill",
+      "before": "Het hek is",
+      "after": "het bos.",
+      "answer": "in",
+      "alt": [],
+      "hint": "dentro de 📦",
+      "explain": "✅ in 📦 = dentro de: Het hek is in het bos. Compare: bij 📍 (perto), op 🔛 (em cima). O portão está DENTRO do bosque. 🌲"
+    },
+    {
+      "type": "fill",
+      "before": "De man heeft een tas",
+      "after": "zijn rug.",
+      "answer": "op",
+      "alt": [],
+      "hint": "em cima de / n- 🔛",
+      "explain": "✅ op 🔛 = em cima de: een tas op zijn rug = uma mochila nas costas. 🎒🔙 (bij seria 'perto das costas' — estranho!)"
+    },
+    {
+      "type": "order",
+      "pt": "O ônibus está perto do portão.",
+      "tokens": ["De", "bus", "staat", "bij", "het", "hek"],
+      "answer": "De bus staat bij het hek",
+      "explain": "✅ Sujeito (De bus) + verbo na posição 2 (staat 🧍) + bij 📍 het hek. O verbo sempre no 2º lugar! 🚌🚧"
+    },
+    {
+      "type": "order",
+      "pt": "Ele usa um boné e um casaco.",
+      "tokens": ["Hij", "draagt", "een", "pet", "en", "een", "jas"],
+      "answer": "Hij draagt een pet en een jas",
+      "explain": "✅ Hij draagt 🎒 (verbo na posição 2) een pet 🧢 en een jas 🧥. en = e (conjunção 🌉)."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["de kam", "🪮 o pente"],
+        ["de zak", "👝 o bolso"],
+        ["het hek", "🚧 o portão"],
+        ["de rug", "🔙 as costas"],
+        ["de bus", "🚌 o ônibus"]
+      ],
+      "explain": "Os ícones da cadeia: 🪮 kam → 👝 zak → ... Ligue cada palavra ao seu emoji fixo. O mesmo emoji = a mesma palavra, sempre. ✅"
+    },
+    {
+      "type": "match",
+      "pairs": [
+        ["bij 📍", "perto de"],
+        ["in 📦", "dentro de"],
+        ["op 🔛", "em cima de"],
+        ["van 🔗", "de / do"],
+        ["met 🤝", "com"]
+      ],
+      "explain": "O teclado de preposições. Cada uma tem seu ícone: 📍 bij, 📦 in, 🔛 op, 🔗 van, 🤝 met. Decore o par emoji ↔ sentido. ✅"
+    }
+  ]
+}
