@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-26",
+  "word": {
+    "nl": "het frietkot",
+    "art": "het",
+    "split": "friet (batata frita) + kot (barraquinha)",
+    "pt": "barraquinha de batata frita",
+    "emoji": "🍟"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"moet","r":"verb"},
+      {"t":"morgen","r":"adv"},
+      {"t":"vroeg","r":"adv"},
+      {"t":"opstaan","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"preciso","r":"verb"},
+      {"t":"acordar","r":"verb"},
+      {"t":"cedo","r":"adv"},
+      {"t":"amanhã","r":"adv"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "eu devo amanhã cedo levantar",
+    "note": "Com um verbo modal (moeten), o segundo verbo vai no infinitivo para o fim da frase: Ik moet ... opstaan. Em neerlandês, tempo (morgen) vem antes de modo (vroeg)."
+  }
+}
