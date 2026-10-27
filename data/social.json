@@ -856,5 +856,37 @@
    "url": "https://www.instagram.com/explore/search/keyword/?q=vlaamse%20uitdrukkingen",
    "src": "Instagram · busca"
   }
+ ],
+ "a2-09-ontkenning-er": [
+  {
+   "icon": "🎬",
+   "label": "Aulas sobre niet vs geen: busca 'niet of geen nederlands uitleg'",
+   "url": "https://www.youtube.com/results?search_query=niet+of+geen+nederlands+uitleg",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎬",
+   "label": "Aulas sobre o pequeno 'er': busca 'het woord er nederlands uitleg'",
+   "url": "https://www.youtube.com/results?search_query=het+woord+er+nederlands+uitleg",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "📚",
+   "label": "Lições gratuitas de holandês, com explicações de gramática passo a passo",
+   "url": "https://www.learndutch.org/",
+   "src": "learndutch.org · Bart de Pau"
+  },
+  {
+   "icon": "🎵",
+   "label": "Vídeos curtos sobre niet e geen",
+   "url": "https://www.tiktok.com/search?q=niet%20of%20geen%20nederlands",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts e reels com dicas de gramática holandesa da comunidade que aprende",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsegrammatica",
+   "src": "Instagram · #nederlandsegrammatica"
+  }
  ]
 }
