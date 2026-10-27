@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-27",
+  "word": {
+    "nl": "de halte",
+    "art": "de",
+    "split": "halte (parada)",
+    "pt": "ponto de ônibus ou de bonde",
+    "emoji": "🚏"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Zou","r":"verb"},
+      {"t":"je","r":"pron"},
+      {"t":"me","r":"pron"},
+      {"t":"kunnen","r":"verb"},
+      {"t":"helpen","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Você","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"me","r":"pron"},
+      {"t":"ajudar","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "você-condicional me poder ajudar",
+    "note": "Zou + kunnen deixa o pedido bem educado, como o condicional 'poderia'. Na Flandres, 'je' é comum entre conhecidos; com desconhecidos mais velhos use 'u': Zou u mij kunnen helpen?"
+  }
+}
