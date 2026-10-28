@@ -1,0 +1,1062 @@
+{
+ "id": "b2-07-passief",
+ "unit": "B2",
+ "title": "A voz passiva · Het passief",
+ "emoji": "🧾",
+ "teaching": [
+  {
+   "emoji": "🔄",
+   "title": "🔄 Wordt + particípio: quando a ação importa mais que o autor",
+   "html": "<p>Em PT você forma o passivo com <i>ser</i> + particípio (\"o pedido <b>é tratado</b>\"). Em NL o auxiliar é <b>worden</b>, e o particípio vai para o <b>final</b>.</p><table class=\"vocab\"><tr><th>🇧🇪 NL</th><th>🇧🇷 PT</th></tr><tr><td><b>De aanvraag wordt behandeld.</b></td><td>O pedido é tratado.</td></tr><tr><td><b>De aanvraag werd behandeld.</b></td><td>O pedido foi tratado.</td></tr><tr><td><b>De aanvraag wordt door de gemeente behandeld.</b></td><td>O pedido é tratado pela prefeitura.</td></tr></table><p>💡 O autor, quando aparece, entra com <b>door</b> (por). Em jornais e cartas oficiais da Bélgica, o texto \"werd geschat\" ou \"werd afgesloten\" é a norma: o foco está no fato, não em quem o fez. Lembra do <i>werd geschat</i> da lição de reclamações? Era exatamente isto.</p>"
+  },
+  {
+   "emoji": "🔒",
+   "title": "🔒 Wordt ou is? Processo contra resultado",
+   "html": "<p>Aqui o PT engana: \"a porta <b>está fechada</b>\" e \"a porta <b>é fechada</b>\" são coisas diferentes, mas muita gente traduz ambas como <i>is gesloten</i>.</p><ul><li>⚙️ <b>De deur wordt gesloten.</b> = alguém está fechando a porta agora (processo).</li><li>🕰️ <b>De deur werd gesloten.</b> = alguém a fechou (fato passado).</li><li>🔒 <b>De deur is gesloten.</b> = ela já está fechada (resultado, estado).</li></ul><p>⚠️ Regra prática: se você pode acrescentar <i>al</i> (já) ou <i>nog</i> (ainda), use <b>zijn</b>: \"Het formulier is al ingevuld.\" Se há uma ação em curso ou uma data no passado, use <b>worden</b>.</p>"
+  },
+  {
+   "emoji": "🫥",
+   "title": "🫥 Sem sujeito: men e er wordt",
+   "html": "<p>Quando ninguém em particular age, NL tem duas saídas que lembram o \"se\" do PT (<i>espera-se, trabalha-se</i>):</p><ul><li>👥 <b>Men verwacht veel regen.</b> = Espera-se muita chuva. Ativo, mas com sujeito indefinido. Mais escrito que falado.</li><li>🚧 <b>Er wordt hard gewerkt.</b> = Trabalha-se duro. Passivo impessoal: o <b>er</b> ocupa o lugar do sujeito, e a frase pode ficar só com a atividade.</li></ul><p>📌 Com <b>er wordt</b> funcionam até verbos sem objeto (werken, dansen, praten). No passado: <b>Er werd lang gediscussieerd.</b> Se algo abrir a frase (gisteren), o er vem logo depois do verbo: <b>Gisteren werd er gedanst.</b></p>"
+  },
+  {
+   "emoji": "🔚",
+   "title": "🔚 A pinça nas orações subordinadas",
+   "html": "<p>Depois de <b>dat, omdat, als</b> o verbo conjugado vai para o fim. No passivo, isso forma um bloco de dois verbos, e as duas ordens são corretas: <b>wordt afgesloten</b> ou <b>afgesloten wordt</b>. Na Flandres você ouve muito a segunda.</p><p>🇧🇪 <b>Ik weet dat de straat morgen wordt afgesloten.</b><br>🇧🇷 Eu sei que a rua será fechada amanhã.</p><p>💶 Exemplo do dia a dia: <b>De betaling wordt via Wero verwerkt.</b> Você vai ler isso em apps de banco, avisos da gemeente e anúncios de <i>wegenwerken</i> (obras). Com <b>door</b> você diz quem faz, e sem ele só o fato permanece.</p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "De",
+     "r": "art"
+    },
+    {
+     "t": "aanvraag",
+     "r": "noun"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "door",
+     "r": "prep"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "gemeente",
+     "r": "noun"
+    },
+    {
+     "t": "behandeld",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "pedido",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "tratado",
+     "r": "verb"
+    },
+    {
+     "t": "pela",
+     "r": "prep"
+    },
+    {
+     "t": "prefeitura",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "o pedido torna-se por a comuna tratado",
+   "note": "Passivo presente: wordt + particípio no FIM. O agente vem com door (por). Na Bélgica, a gemeente é a 'prefeitura' que cuida de quase todo papel."
+  },
+  {
+   "nl": [
+    {
+     "t": "Uw",
+     "r": "pron"
+    },
+    {
+     "t": "dossier",
+     "r": "noun"
+    },
+    {
+     "t": "werd",
+     "r": "verb"
+    },
+    {
+     "t": "gisteren",
+     "r": "adv"
+    },
+    {
+     "t": "afgesloten",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Seu",
+     "r": "pron"
+    },
+    {
+     "t": "processo",
+     "r": "noun"
+    },
+    {
+     "t": "foi",
+     "r": "verb"
+    },
+    {
+     "t": "encerrado",
+     "r": "verb"
+    },
+    {
+     "t": "ontem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "seu dossiê tornou-se ontem fechado",
+   "note": "Passivo passado: werd/werden + particípio. É o tempo clássico de jornal e de carta oficial."
+  },
+  {
+   "nl": [
+    {
+     "t": "De",
+     "r": "art"
+    },
+    {
+     "t": "brug",
+     "r": "noun"
+    },
+    {
+     "t": "werd",
+     "r": "verb"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "1998",
+     "r": "num"
+    },
+    {
+     "t": "gebouwd",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "A",
+     "r": "art"
+    },
+    {
+     "t": "ponte",
+     "r": "noun"
+    },
+    {
+     "t": "foi",
+     "r": "verb"
+    },
+    {
+     "t": "construída",
+     "r": "verb"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "1998",
+     "r": "num"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Werd + particípio narra um fato passado sem dizer quem fez. Em PT usamos 'foi + particípio'."
+  },
+  {
+   "nl": [
+    {
+     "t": "De",
+     "r": "art"
+    },
+    {
+     "t": "deur",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "gesloten",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "A",
+     "r": "art"
+    },
+    {
+     "t": "porta",
+     "r": "noun"
+    },
+    {
+     "t": "está",
+     "r": "verb"
+    },
+    {
+     "t": "fechada",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "a porta é fechada",
+   "note": "Cuidado: is + particípio descreve o ESTADO final (resultado), não a ação. Em PT: 'está fechada', não 'é fechada'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het",
+     "r": "art"
+    },
+    {
+     "t": "formulier",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "al",
+     "r": "adv"
+    },
+    {
+     "t": "ingevuld",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "formulário",
+     "r": "noun"
+    },
+    {
+     "t": "já",
+     "r": "adv"
+    },
+    {
+     "t": "está",
+     "r": "verb"
+    },
+    {
+     "t": "preenchido",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Is ingevuld = já está pronto. Wordt ingevuld = alguém está preenchendo agora. Um verbo só muda o foco: processo ou resultado."
+  },
+  {
+   "nl": [
+    {
+     "t": "Men",
+     "r": "pron"
+    },
+    {
+     "t": "verwacht",
+     "r": "verb"
+    },
+    {
+     "t": "veel",
+     "r": "adj"
+    },
+    {
+     "t": "regen",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Espera",
+     "r": "verb"
+    },
+    {
+     "t": "-se",
+     "r": "pron"
+    },
+    {
+     "t": "muita",
+     "r": "adj"
+    },
+    {
+     "t": "chuva",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "se espera muita chuva",
+   "note": "Men = 'se' indeterminado: ninguém em particular. Mais comum na escrita e em notícias; combina com o 'Espera-se' do PT."
+  },
+  {
+   "nl": [
+    {
+     "t": "Er",
+     "r": "pron"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "hard",
+     "r": "adv"
+    },
+    {
+     "t": "gewerkt",
+     "r": "verb"
+    },
+    {
+     "t": "aan",
+     "r": "prep"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "weg",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Trabalha",
+     "r": "verb"
+    },
+    {
+     "t": "-se",
+     "r": "pron"
+    },
+    {
+     "t": "duro",
+     "r": "adv"
+    },
+    {
+     "t": "na",
+     "r": "prep"
+    },
+    {
+     "t": "estrada",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "há torna-se duro trabalhado na estrada",
+   "note": "'Er wordt + particípio' é o passivo impessoal: não há sujeito, só a atividade. O er é obrigatório quando nada abre a frase."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het",
+     "r": "art"
+    },
+    {
+     "t": "pakje",
+     "r": "noun"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "geleverd",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "A",
+     "r": "art"
+    },
+    {
+     "t": "encomenda",
+     "r": "noun"
+    },
+    {
+     "t": "será",
+     "r": "verb"
+    },
+    {
+     "t": "entregue",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Wordt + particípio também cobre o futuro próximo, com um advérbio de tempo como morgen."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "werd",
+     "r": "verb"
+    },
+    {
+     "t": "door",
+     "r": "prep"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "dokter",
+     "r": "noun"
+    },
+    {
+     "t": "gebeld",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "fui",
+     "r": "verb"
+    },
+    {
+     "t": "chamado",
+     "r": "verb"
+    },
+    {
+     "t": "pelo",
+     "r": "prep"
+    },
+    {
+     "t": "médico",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Uma pessoa também pode ser o sujeito do passivo. Em PT dizemos 'o médico me ligou'; em NL o passivo soa natural e neutro."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "weet",
+     "r": "verb"
+    },
+    {
+     "t": "dat",
+     "r": "conj"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "straat",
+     "r": "noun"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "afgesloten",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "sei",
+     "r": "verb"
+    },
+    {
+     "t": "que",
+     "r": "conj"
+    },
+    {
+     "t": "a",
+     "r": "art"
+    },
+    {
+     "t": "rua",
+     "r": "noun"
+    },
+    {
+     "t": "será",
+     "r": "verb"
+    },
+    {
+     "t": "fechada",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Na oração subordinada o bloco 'wordt afgesloten' vai inteiro para o FIM, com o verbo conjugado por último (a pinça)."
+  },
+  {
+   "nl": [
+    {
+     "t": "De",
+     "r": "art"
+    },
+    {
+     "t": "betaling",
+     "r": "noun"
+    },
+    {
+     "t": "wordt",
+     "r": "verb"
+    },
+    {
+     "t": "via",
+     "r": "prep"
+    },
+    {
+     "t": "Wero",
+     "r": "noun"
+    },
+    {
+     "t": "verwerkt",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "pagamento",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "processado",
+     "r": "verb"
+    },
+    {
+     "t": "via",
+     "r": "prep"
+    },
+    {
+     "t": "Wero",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Contexto bancário típico: o app Wero processa o pagamento. Veja também a lição sobre banco (b2-02)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Er",
+     "r": "pron"
+    },
+    {
+     "t": "werd",
+     "r": "verb"
+    },
+    {
+     "t": "lang",
+     "r": "adv"
+    },
+    {
+     "t": "gediscussieerd",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Discutiu",
+     "r": "verb"
+    },
+    {
+     "t": "-se",
+     "r": "pron"
+    },
+    {
+     "t": "por",
+     "r": "prep"
+    },
+    {
+     "t": "muito",
+     "r": "adj"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "Passivo impessoal no passado. Verbos sem objeto (werken, dansen, discussiëren) só formam passivo assim, com er."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "de aanvraag",
+   "art": "de",
+   "split": "aan (para) + vraag (pedido)",
+   "pt": "o pedido, o requerimento",
+   "emoji": "📝"
+  },
+  {
+   "nl": "het dossier",
+   "art": "het",
+   "split": null,
+   "pt": "o processo, o dossiê",
+   "emoji": "🗂️"
+  },
+  {
+   "nl": "het loket",
+   "art": "het",
+   "split": null,
+   "pt": "o guichê",
+   "emoji": "🏢"
+  },
+  {
+   "nl": "het formulier",
+   "art": "het",
+   "split": null,
+   "pt": "o formulário",
+   "emoji": "📄"
+  },
+  {
+   "nl": "de gemeente",
+   "art": "de",
+   "split": null,
+   "pt": "a prefeitura, o município",
+   "emoji": "🏛️"
+  },
+  {
+   "nl": "de vergunning",
+   "art": "de",
+   "split": "ver (prefixo) + gunnen (conceder)",
+   "pt": "a licença, o alvará",
+   "emoji": "✅"
+  },
+  {
+   "nl": "afsluiten",
+   "art": null,
+   "split": "af (fora, fechado) + sluiten (fechar)",
+   "pt": "fechar, interromper",
+   "emoji": "🚧"
+  },
+  {
+   "nl": "behandelen",
+   "art": null,
+   "split": "be (prefixo) + handelen (agir)",
+   "pt": "tratar, dar andamento",
+   "emoji": "🛠️"
+  },
+  {
+   "nl": "leveren",
+   "art": null,
+   "split": null,
+   "pt": "entregar, fornecer",
+   "emoji": "📦"
+  },
+  {
+   "nl": "invullen",
+   "art": null,
+   "split": "in (dentro) + vullen (encher)",
+   "pt": "preencher",
+   "emoji": "✍️"
+  },
+  {
+   "nl": "uitstellen",
+   "art": null,
+   "split": "uit (para fora) + stellen (colocar)",
+   "pt": "adiar",
+   "emoji": "⏳"
+  },
+  {
+   "nl": "verwerken",
+   "art": null,
+   "split": "ver (prefixo) + werken (trabalhar)",
+   "pt": "processar",
+   "emoji": "⚙️"
+  },
+  {
+   "nl": "de bewoner",
+   "art": "de",
+   "split": "bewonen (habitar) + -er",
+   "pt": "o morador",
+   "emoji": "🏘️"
+  },
+  {
+   "nl": "de wegenwerken",
+   "art": "de",
+   "split": "wegen (estradas) + werken (obras)",
+   "pt": "as obras na estrada",
+   "emoji": "🚧"
+  },
+  {
+   "nl": "volgens",
+   "art": null,
+   "split": null,
+   "pt": "segundo",
+   "emoji": "🗣️"
+  },
+  {
+   "nl": "de maatregel",
+   "art": "de",
+   "split": "maat (medida) + regel (regra)",
+   "pt": "a medida, a providência",
+   "emoji": "📋"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual frase é um passivo presente, 'o pedido é tratado'? 🤔",
+   "options": [
+    "De aanvraag behandelt de gemeente.",
+    "De aanvraag wordt behandeld.",
+    "De aanvraag is behandelen.",
+    "De aanvraag werd behandelen."
+   ],
+   "answer": 1,
+   "explain": "Passivo presente = wordt + particípio (behandeld). A opção 1 é ativa, e as outras usam o infinitivo, que nunca aparece no passivo. ✅"
+  },
+  {
+   "type": "mc",
+   "q": "A porta já está fechada (o resultado, sem falar de quem fechou). Qual frase NL diz isso? 🚪",
+   "options": [
+    "De deur wordt gesloten.",
+    "De deur werd gesloten.",
+    "De deur is gesloten.",
+    "De deur sluit."
+   ],
+   "answer": 2,
+   "explain": "Is + particípio descreve o estado final. Wordt gesloten seria a ação em andamento ('está sendo fechada') e werd gesloten, um fato do passado. 🔒"
+  },
+  {
+   "type": "listen",
+   "nl": "De aanvraag wordt door de gemeente behandeld.",
+   "options": [
+    "O pedido é tratado pela prefeitura.",
+    "A prefeitura trata o pedido de manhã.",
+    "O pedido foi recusado pela prefeitura."
+   ],
+   "answer": 0,
+   "explain": "Wordt ... behandeld = é tratado, door de gemeente = pela prefeitura. Nada de recusa nem horário. 🏛️"
+  },
+  {
+   "type": "fill",
+   "before": "De brug",
+   "after": "in 1998 gebouwd.",
+   "answer": "werd",
+   "alt": [],
+   "hint": "passado 🕰️",
+   "explain": "Com o ano 1998 a frase está no passado, então: werd + gebouwd. Wordt gebouwd seria 'está sendo construída'."
+  },
+  {
+   "type": "fill",
+   "before": "Het pakje",
+   "after": "morgen geleverd.",
+   "answer": "wordt",
+   "alt": [],
+   "hint": "presente/futuro próximo 📦",
+   "explain": "Morgen pede wordt + particípio: em NL o presente do passivo cobre o futuro próximo. 'Werd' seria passado."
+  },
+  {
+   "type": "fill",
+   "before": "Het formulier is al",
+   "after": "",
+   "answer": "ingevuld",
+   "alt": [],
+   "hint": "particípio de invullen ✍️",
+   "explain": "Invullen é separável: in + gevuld = ingevuld, com o -ge- no meio. Is ingevuld = já está preenchido."
+  },
+  {
+   "type": "fill",
+   "before": "Gisteren",
+   "after": "er lang gediscussieerd.",
+   "answer": "werd",
+   "alt": [],
+   "hint": "passado 🕰️",
+   "explain": "Gisteren marca o passado, logo werd. Note a ordem: o verbo vem em segundo lugar (V2) e o er logo depois."
+  },
+  {
+   "type": "order",
+   "pt": "O pedido é tratado pela prefeitura.",
+   "tokens": [
+    "De",
+    "aanvraag",
+    "wordt",
+    "door",
+    "de",
+    "gemeente",
+    "behandeld"
+   ],
+   "answer": "De aanvraag wordt door de gemeente behandeld",
+   "explain": "Sujeito + wordt + agente com door + particípio no FIM. Em PT o particípio fica colado ao 'é', em NL ele viaja até o fim. 🔚"
+  },
+  {
+   "type": "order",
+   "pt": "Eu sei que a rua será fechada amanhã.",
+   "tokens": [
+    "Ik",
+    "weet",
+    "dat",
+    "de",
+    "straat",
+    "morgen",
+    "wordt",
+    "afgesloten"
+   ],
+   "answer": "Ik weet dat de straat morgen wordt afgesloten",
+   "altAnswers": [
+    "Ik weet dat morgen de straat wordt afgesloten",
+    "Ik weet dat de straat morgen afgesloten wordt",
+    "Ik weet dat morgen de straat afgesloten wordt"
+   ],
+   "explain": "Depois de dat, o grupo verbal fecha a oração. Aqui usamos 'wordt afgesloten', mas 'afgesloten wordt' também é correto (e comum na Flandres). 🔚"
+  },
+  {
+   "type": "order",
+   "pt": "Trabalha-se duro na estrada.",
+   "tokens": [
+    "Er",
+    "wordt",
+    "hard",
+    "gewerkt",
+    "aan",
+    "de",
+    "weg"
+   ],
+   "answer": "Er wordt hard gewerkt aan de weg",
+   "explain": "Passivo impessoal: er + wordt + advérbio + particípio. Sem er, a frase fica sem sujeito e soa errada. 🚧"
+  },
+  {
+   "type": "order",
+   "pt": "Seu processo foi encerrado ontem.",
+   "tokens": [
+    "Uw",
+    "dossier",
+    "werd",
+    "gisteren",
+    "afgesloten"
+   ],
+   "answer": "Uw dossier werd gisteren afgesloten",
+   "explain": "Werd + particípio no fim, com o advérbio gisteren antes dele. Afsluiten é separável: af + gesloten = afgesloten. 📁"
+  },
+  {
+   "type": "mc",
+   "q": "'Men sluit het loket om vijf uur.' Qual é a versão passiva? 🏢",
+   "options": [
+    "Het loket wordt om vijf uur gesloten.",
+    "Het loket is om vijf uur sluiten.",
+    "Men wordt het loket gesloten.",
+    "Het loket sluit men om vijf uur wordt."
+   ],
+   "answer": 0,
+   "explain": "Men + ativo vira sujeito + wordt + particípio. O objeto (het loket) passa a ser o sujeito, e men desaparece. ✂️"
+  },
+  {
+   "type": "listen",
+   "nl": "Men verwacht veel regen.",
+   "options": [
+    "Espera-se muita chuva.",
+    "Ele espera muito dinheiro.",
+    "Chove muito aqui."
+   ],
+   "answer": 0,
+   "explain": "Men = 'se' indeterminado e verwachten = esperar, prever. Veel regen = muita chuva. ☔"
+  },
+  {
+   "type": "mc",
+   "q": "Na frase 'Het huis is verkocht', o que a gente entende? 🏠",
+   "options": [
+    "A casa está vendida (já é resultado).",
+    "A casa está sendo vendida agora.",
+    "Alguém vai vender a casa amanhã.",
+    "A casa foi comprada por mim."
+   ],
+   "answer": 0,
+   "explain": "Is + particípio = estado resultante. Para 'está sendo vendida' você diria: het huis wordt verkocht. 🔑"
+  },
+  {
+   "type": "listen",
+   "nl": "De betaling wordt via Wero verwerkt.",
+   "options": [
+    "O pagamento é processado via Wero.",
+    "O pagamento foi cancelado no Wero.",
+    "Eu pago o aluguel com Wero."
+   ],
+   "answer": 0,
+   "explain": "Wordt ... verwerkt = é processado, via Wero = pelo app Wero. Verwerken é um verbo inseparável (ver-), por isso o particípio não leva -ge-. 💳"
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "de aanvraag",
+     "o pedido"
+    ],
+    [
+     "het loket",
+     "o guichê"
+    ],
+    [
+     "afsluiten",
+     "fechar, interromper"
+    ],
+    [
+     "uitstellen",
+     "adiar"
+    ],
+    [
+     "de maatregel",
+     "a medida"
+    ]
+   ],
+   "explain": "Vocabulário típico de textos oficiais e de notícias, onde o passivo aparece o tempo todo: aanvraag, loket, afsluiten, uitstellen, maatregel. 📰"
+  }
+ ]
+}
