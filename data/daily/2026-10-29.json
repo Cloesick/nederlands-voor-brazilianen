@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "word": {
+    "nl": "de loonfiche",
+    "art": "de",
+    "split": "loon (salário) + fiche (ficha, comprovante)",
+    "pt": "contracheque, holerite",
+    "emoji": "💶"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Mijn","r":"pron"},
+      {"t":"trein","r":"noun"},
+      {"t":"is","r":"verb"},
+      {"t":"vertraagd","r":"adj"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Meu","r":"pron"},
+      {"t":"trem","r":"noun"},
+      {"t":"está","r":"verb"},
+      {"t":"atrasado","r":"adj"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "meu trem é atrasado",
+    "note": "Na Bélgica o trem (NMBS) atrasa com frequência, então esta frase é muito útil. Em neerlandês usa-se 'zijn' (ser) com 'vertraagd', enquanto em português usamos 'estar'."
+  }
+}

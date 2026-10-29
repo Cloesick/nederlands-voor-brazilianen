@@ -1,30 +1,28 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "word": {
-    "nl": "de kermis",
+    "nl": "de loonfiche",
     "art": "de",
-    "split": "kerk (igreja) + mis (missa)",
-    "pt": "feira de diversões, parque itinerante com festa popular",
-    "emoji": "🎡"
+    "split": "loon (salário) + fiche (ficha, comprovante)",
+    "pt": "contracheque, holerite",
+    "emoji": "💶"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"heb","r":"verb"},
-      {"t":"geen","r":"neg"},
-      {"t":"tijd","r":"noun"},
-      {"t":"vandaag","r":"adv"},
+      {"t":"Mijn","r":"pron"},
+      {"t":"trein","r":"noun"},
+      {"t":"is","r":"verb"},
+      {"t":"vertraagd","r":"adj"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"não","r":"neg"},
-      {"t":"tenho","r":"verb"},
-      {"t":"tempo","r":"noun"},
-      {"t":"hoje","r":"adv"},
+      {"t":"Meu","r":"pron"},
+      {"t":"trem","r":"noun"},
+      {"t":"está","r":"verb"},
+      {"t":"atrasado","r":"adj"},
       {"t":".","r":"punc"}
     ],
-    "lit": "eu tenho nenhum tempo hoje",
-    "note": "Em neerlandês, 'geen' nega um substantivo sem artigo (geen tijd), enquanto 'niet' nega verbos e adjetivos. Em português, é sempre 'não' antes do verbo."
+    "lit": "meu trem é atrasado",
+    "note": "Na Bélgica o trem (NMBS) atrasa com frequência, então esta frase é muito útil. Em neerlandês usa-se 'zijn' (ser) com 'vertraagd', enquanto em português usamos 'estar'."
   }
 }
