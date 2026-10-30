@@ -1,28 +1,30 @@
 {
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "word": {
-    "nl": "de loonfiche",
+    "nl": "de mist",
     "art": "de",
-    "split": "loon (salário) + fiche (ficha, comprovante)",
-    "pt": "contracheque, holerite",
-    "emoji": "💶"
+    "split": "mist (névoa, neblina)",
+    "pt": "névoa, neblina",
+    "emoji": "🌫️"
   },
   "phrase": {
     "nl": [
-      {"t":"Mijn","r":"pron"},
-      {"t":"trein","r":"noun"},
-      {"t":"is","r":"verb"},
-      {"t":"vertraagd","r":"adj"},
+      {"t":"Ik","r":"pron"},
+      {"t":"heb","r":"verb"},
+      {"t":"zin","r":"noun"},
+      {"t":"in","r":"prep"},
+      {"t":"friet","r":"noun"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Meu","r":"pron"},
-      {"t":"trem","r":"noun"},
-      {"t":"está","r":"verb"},
-      {"t":"atrasado","r":"adj"},
+      {"t":"Eu","r":"pron"},
+      {"t":"tenho","r":"verb"},
+      {"t":"vontade","r":"noun"},
+      {"t":"de","r":"prep"},
+      {"t":"batata frita","r":"noun"},
       {"t":".","r":"punc"}
     ],
-    "lit": "meu trem é atrasado",
-    "note": "Na Bélgica o trem (NMBS) atrasa com frequência, então esta frase é muito útil. Em neerlandês usa-se 'zijn' (ser) com 'vertraagd', enquanto em português usamos 'estar'."
+    "lit": "eu tenho vontade em batata frita",
+    "note": "A expressão 'zin hebben in' + algo significa estar com vontade de algo. Em português usamos 'de', mas em neerlandês a preposição é 'in'. Também funciona com verbos: 'Ik heb zin om te gaan.'"
   }
 }

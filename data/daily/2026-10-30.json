@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "word": {
+    "nl": "de mist",
+    "art": "de",
+    "split": "mist (névoa, neblina)",
+    "pt": "névoa, neblina",
+    "emoji": "🌫️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"heb","r":"verb"},
+      {"t":"zin","r":"noun"},
+      {"t":"in","r":"prep"},
+      {"t":"friet","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"tenho","r":"verb"},
+      {"t":"vontade","r":"noun"},
+      {"t":"de","r":"prep"},
+      {"t":"batata frita","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "eu tenho vontade em batata frita",
+    "note": "A expressão 'zin hebben in' + algo significa estar com vontade de algo. Em português usamos 'de', mas em neerlandês a preposição é 'in'. Também funciona com verbos: 'Ik heb zin om te gaan.'"
+  }
+}
