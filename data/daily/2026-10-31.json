@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-31",
+  "word": {
+    "nl": "de brievenbus",
+    "art": "de",
+    "split": "brieven (cartas) + bus (caixa, tubo)",
+    "pt": "caixa de correio",
+    "emoji": "📮"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"De","r":"art"},
+      {"t":"rekening","r":"noun"},
+      {"t":",","r":"punc"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"A","r":"art"},
+      {"t":"conta","r":"noun"},
+      {"t":",","r":"punc"},
+      {"t":"por favor","r":"adv"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "a conta, se lhe apraz",
+    "note": "No restaurante belga, a conta se pede com 'De rekening, alstublieft.' Com amigos, use 'alsjeblieft'. 'Alstublieft' é a forma educada (u) e também significa 'aqui está' ao entregar algo."
+  }
+}
