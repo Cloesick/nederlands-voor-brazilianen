@@ -1,0 +1,218 @@
+{
+  "month": "2026-11",
+  "theme": "Allerheiligen en Sint-Maarten · Finados e São Martinho",
+  "emoji": "🕯️",
+  "intro": "Em novembro a Bélgica faz uma pausa para lembrar dos mortos em Allerheiligen e no Armistício, e as crianças saem com lanternas no dia de Sint-Maarten, enquanto os dias ficam frios e escuros.",
+  "cards": [
+    {
+      "nl": "Allerheiligen",
+      "art": null,
+      "split": "alle (todos) + heiligen (santos)",
+      "pt": "Dia de Todos os Santos (1º de novembro, feriado na Bélgica)",
+      "emoji": "🕯️"
+    },
+    {
+      "nl": "Allerzielen",
+      "art": null,
+      "split": "aller (de todos) + zielen (almas)",
+      "pt": "Dia de Finados (2 de novembro)",
+      "emoji": "🪦"
+    },
+    {
+      "nl": "de chrysant",
+      "art": "de",
+      "split": "",
+      "pt": "o crisântemo, flor levada aos túmulos",
+      "emoji": "🌼"
+    },
+    {
+      "nl": "het kerkhof",
+      "art": "het",
+      "split": "kerk (igreja) + hof (pátio)",
+      "pt": "o cemitério",
+      "emoji": "⛪"
+    },
+    {
+      "nl": "het graf",
+      "art": "het",
+      "split": "",
+      "pt": "o túmulo",
+      "emoji": "🪦"
+    },
+    {
+      "nl": "de kaars",
+      "art": "de",
+      "split": "",
+      "pt": "a vela",
+      "emoji": "🕯️"
+    },
+    {
+      "nl": "herdenken",
+      "art": null,
+      "split": "",
+      "pt": "lembrar, homenagear",
+      "emoji": "🕊️"
+    },
+    {
+      "nl": "de wapenstilstand",
+      "art": "de",
+      "split": "wapen (arma) + stilstand (parada)",
+      "pt": "o armistício (11 de novembro)",
+      "emoji": "🕊️"
+    },
+    {
+      "nl": "de klaproos",
+      "art": "de",
+      "split": "",
+      "pt": "a papoula, símbolo da memória",
+      "emoji": "🌺"
+    },
+    {
+      "nl": "de feestdag",
+      "art": "de",
+      "split": "feest (festa) + dag (dia)",
+      "pt": "o feriado",
+      "emoji": "📅"
+    },
+    {
+      "nl": "Sint-Maarten",
+      "art": null,
+      "split": "",
+      "pt": "São Martinho (11 de novembro)",
+      "emoji": "🎅"
+    },
+    {
+      "nl": "de lampion",
+      "art": "de",
+      "split": "",
+      "pt": "a lanterna de papel",
+      "emoji": "🏮"
+    },
+    {
+      "nl": "het liedje",
+      "art": "het",
+      "split": "lied (canção) + -je (diminutivo)",
+      "pt": "a musiquinha",
+      "emoji": "🎶"
+    },
+    {
+      "nl": "zingen",
+      "art": null,
+      "split": "",
+      "pt": "cantar",
+      "emoji": "🎤"
+    },
+    {
+      "nl": "het snoep",
+      "art": "het",
+      "split": "",
+      "pt": "os doces",
+      "emoji": "🍬"
+    },
+    {
+      "nl": "de mandarijn",
+      "art": "de",
+      "split": "",
+      "pt": "a tangerina",
+      "emoji": "🍊"
+    },
+    {
+      "nl": "de koek",
+      "art": "de",
+      "split": "",
+      "pt": "o biscoito, o bolo",
+      "emoji": "🍪"
+    },
+    {
+      "nl": "aanbellen",
+      "art": null,
+      "split": "aan (em) + bellen (tocar)",
+      "pt": "tocar a campainha",
+      "emoji": "🔔"
+    },
+    {
+      "nl": "de mist",
+      "art": "de",
+      "split": "",
+      "pt": "a neblina",
+      "emoji": "🌫️"
+    },
+    {
+      "nl": "de regen",
+      "art": "de",
+      "split": "",
+      "pt": "a chuva",
+      "emoji": "🌧️"
+    },
+    {
+      "nl": "de paraplu",
+      "art": "de",
+      "split": "",
+      "pt": "o guarda-chuva",
+      "emoji": "☂️"
+    },
+    {
+      "nl": "de laars",
+      "art": "de",
+      "split": "",
+      "pt": "a bota",
+      "emoji": "🥾"
+    },
+    {
+      "nl": "de sjaal",
+      "art": "de",
+      "split": "",
+      "pt": "o cachecol",
+      "emoji": "🧣"
+    },
+    {
+      "nl": "de handschoen",
+      "art": "de",
+      "split": "hand (mão) + schoen (sapato)",
+      "pt": "a luva",
+      "emoji": "🧤"
+    },
+    {
+      "nl": "de muts",
+      "art": "de",
+      "split": "",
+      "pt": "o gorro",
+      "emoji": "🧢"
+    },
+    {
+      "nl": "de kachel",
+      "art": "de",
+      "split": "",
+      "pt": "o aquecedor",
+      "emoji": "🔥"
+    },
+    {
+      "nl": "de soep",
+      "art": "de",
+      "split": "",
+      "pt": "a sopa",
+      "emoji": "🍲"
+    },
+    {
+      "nl": "donker",
+      "art": null,
+      "split": "",
+      "pt": "escuro",
+      "emoji": "🌑"
+    },
+    {
+      "nl": "koud",
+      "art": null,
+      "split": "",
+      "pt": "frio",
+      "emoji": "🥶"
+    },
+    {
+      "nl": "verwarmen",
+      "art": null,
+      "split": "ver- (prefixo) + warm (quente) + -en",
+      "pt": "aquecer",
+      "emoji": "♨️"
+    }
+  ]
+}
