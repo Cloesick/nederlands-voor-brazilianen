@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-01",
+  "word": {
+    "nl": "de wasmachine",
+    "art": "de",
+    "split": "was (roupa suja, lavagem) + machine (máquina)",
+    "pt": "máquina de lavar roupa",
+    "emoji": "🧺"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Hoe","r":"qw"},
+      {"t":"laat","r":"noun"},
+      {"t":"sluit","r":"verb"},
+      {"t":"de","r":"art"},
+      {"t":"winkel","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"A que","r":"qw"},
+      {"t":"horas","r":"noun"},
+      {"t":"fecha","r":"verb"},
+      {"t":"a","r":"art"},
+      {"t":"loja","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "como tarde fecha a loja?",
+    "note": "Para perguntar as horas de um evento, o holandês usa 'Hoe laat...?' (literalmente 'como tarde'). Em português dizemos 'A que horas'. O verbo vai na segunda posição: 'sluit' logo depois de 'Hoe laat'."
+  }
+}

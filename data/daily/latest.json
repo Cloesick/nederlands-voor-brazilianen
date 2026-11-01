@@ -1,28 +1,30 @@
 {
-  "date": "2026-10-31",
+  "date": "2026-11-01",
   "word": {
-    "nl": "de brievenbus",
+    "nl": "de wasmachine",
     "art": "de",
-    "split": "brieven (cartas) + bus (caixa, tubo)",
-    "pt": "caixa de correio",
-    "emoji": "📮"
+    "split": "was (roupa suja, lavagem) + machine (máquina)",
+    "pt": "máquina de lavar roupa",
+    "emoji": "🧺"
   },
   "phrase": {
     "nl": [
-      {"t":"De","r":"art"},
-      {"t":"rekening","r":"noun"},
-      {"t":",","r":"punc"},
-      {"t":"alstublieft","r":"adv"},
-      {"t":".","r":"punc"}
+      {"t":"Hoe","r":"qw"},
+      {"t":"laat","r":"noun"},
+      {"t":"sluit","r":"verb"},
+      {"t":"de","r":"art"},
+      {"t":"winkel","r":"noun"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"A","r":"art"},
-      {"t":"conta","r":"noun"},
-      {"t":",","r":"punc"},
-      {"t":"por favor","r":"adv"},
-      {"t":".","r":"punc"}
+      {"t":"A que","r":"qw"},
+      {"t":"horas","r":"noun"},
+      {"t":"fecha","r":"verb"},
+      {"t":"a","r":"art"},
+      {"t":"loja","r":"noun"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "a conta, se lhe apraz",
-    "note": "No restaurante belga, a conta se pede com 'De rekening, alstublieft.' Com amigos, use 'alsjeblieft'. 'Alstublieft' é a forma educada (u) e também significa 'aqui está' ao entregar algo."
+    "lit": "como tarde fecha a loja?",
+    "note": "Para perguntar as horas de um evento, o holandês usa 'Hoe laat...?' (literalmente 'como tarde'). Em português dizemos 'A que horas'. O verbo vai na segunda posição: 'sluit' logo depois de 'Hoe laat'."
   }
 }
