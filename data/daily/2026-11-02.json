@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-02",
+  "word": {
+    "nl": "het stopcontact",
+    "art": "het",
+    "split": "stop (plugue, tampa) + contact (contato)",
+    "pt": "tomada elétrica",
+    "emoji": "🔌"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"woon","r":"verb"},
+      {"t":"al","r":"adv"},
+      {"t":"twee","r":"num"},
+      {"t":"jaar","r":"noun"},
+      {"t":"in","r":"prep"},
+      {"t":"Gent","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"moro","r":"verb"},
+      {"t":"há","r":"adv"},
+      {"t":"dois","r":"num"},
+      {"t":"anos","r":"noun"},
+      {"t":"em","r":"prep"},
+      {"t":"Gent","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "eu moro já dois anos em Gent.",
+    "note": "O holandês usa o presente com 'al' para ações que começaram no passado e continuam: 'Ik woon al twee jaar...' (não existe o 'estou morando há'). Note que 'jaar' fica no singular depois de números."
+  }
+}
