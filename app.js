@@ -304,6 +304,10 @@ function norm(s) {
   return String(s || '').toLowerCase().trim().replace(/\s+/g,' ')
     .replace(/[.!?,;:]+$/,'').normalize('NFD').replace(/[̀-ͯ]/g,'');
 }
+// like norm() but keeps diacritics: used to tell exact matches from accent-lenient ones
+function normExact(s) {
+  return String(s || '').toLowerCase().trim().replace(/\s+/g,' ').replace(/[.!?,;:]+$/,'').normalize('NFC');
+}
 function shuffle(a) { a = a.slice(); for (let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; }
 function toast(msg) {
   const t = $('#toast'); t.textContent = msg; t.hidden = false;
@@ -564,10 +568,11 @@ function runExercises(body, L) {
     firstTry = true;
     i < exs.length ? show() : end();
   }
-  function feedback(ok, explain, answerText) {
+  function feedback(ok, explain, answerText, accentHint) {
     const el = document.createElement('div');
     el.className = 'feedback ' + (ok ? 'ok' : 'bad');
     el.innerHTML = (ok ? '✅ Juist! (Certo!)' : `❌ Quase! Resposta: <b>${esc(answerText || '')}</b>`) +
+      (ok && accentHint ? `<small>✓ Quase perfeito — a grafia correta é: <b>${esc(accentHint)}</b></small>` : '') +
       (explain ? `<small>💡 ${esc(explain)}</small>` : '');
     body.querySelector('.exwrap').appendChild(el);
     const nav = document.createElement('div');
@@ -623,9 +628,14 @@ function runExercises(body, L) {
     if (ex.type === 'fill') {
       const check = () => {
         const val = norm($('#fin').value);
-        const ok = [ex.answer, ...(ex.alt || [])].some(a => norm(a) === val);
+        const accepted = [ex.answer, ...(ex.alt || [])];
+        const match = accepted.find(a => norm(a) === val);
+        const ok = match !== undefined;
         $('#fin').classList.add(ok ? 'correct' : 'wrong');
-        if (ok) { lock(); feedback(true, ex.explain); }
+        if (ok) {
+          const exact = accepted.some(a => normExact(a) === normExact($('#fin').value));
+          lock(); feedback(true, ex.explain, null, exact ? null : match);
+        }
         else if (firstTry) { firstTry = false; toast('🤏 Tente mais uma vez!'); $('#fin').addEventListener('input', () => $('#fin').classList.remove('wrong'), { once: true }); }
         else { lock(); feedback(false, ex.explain, ex.answer); }
       };
