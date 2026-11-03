@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-03",
+  "word": {
+    "nl": "de fietsenstalling",
+    "art": "de",
+    "split": "fietsen (bicicletas) + stalling (guarda, estacionamento)",
+    "pt": "bicicletário",
+    "emoji": "🚲"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Het","r":"pron"},
+      {"t":"regent","r":"verb"},
+      {"t":"pijpenstelen","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Está","r":"verb"},
+      {"t":"chovendo","r":"verb"},
+      {"t":"canivetes","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "chove cabos de cachimbo.",
+    "note": "Expressão típica da Bélgica para chuva muito forte, parecida com 'chovendo canivete' ou 'chuva de lascar'. Em holandês, 'het' é sujeito vazio nos verbos de clima: 'Het regent'."
+  }
+}

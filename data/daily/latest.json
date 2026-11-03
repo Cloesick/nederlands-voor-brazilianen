@@ -1,34 +1,26 @@
 {
-  "date": "2026-11-02",
+  "date": "2026-11-03",
   "word": {
-    "nl": "het stopcontact",
-    "art": "het",
-    "split": "stop (plugue, tampa) + contact (contato)",
-    "pt": "tomada elétrica",
-    "emoji": "🔌"
+    "nl": "de fietsenstalling",
+    "art": "de",
+    "split": "fietsen (bicicletas) + stalling (guarda, estacionamento)",
+    "pt": "bicicletário",
+    "emoji": "🚲"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"woon","r":"verb"},
-      {"t":"al","r":"adv"},
-      {"t":"twee","r":"num"},
-      {"t":"jaar","r":"noun"},
-      {"t":"in","r":"prep"},
-      {"t":"Gent","r":"noun"},
+      {"t":"Het","r":"pron"},
+      {"t":"regent","r":"verb"},
+      {"t":"pijpenstelen","r":"noun"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"moro","r":"verb"},
-      {"t":"há","r":"adv"},
-      {"t":"dois","r":"num"},
-      {"t":"anos","r":"noun"},
-      {"t":"em","r":"prep"},
-      {"t":"Gent","r":"noun"},
+      {"t":"Está","r":"verb"},
+      {"t":"chovendo","r":"verb"},
+      {"t":"canivetes","r":"noun"},
       {"t":".","r":"punc"}
     ],
-    "lit": "eu moro já dois anos em Gent.",
-    "note": "O holandês usa o presente com 'al' para ações que começaram no passado e continuam: 'Ik woon al twee jaar...' (não existe o 'estou morando há'). Note que 'jaar' fica no singular depois de números."
+    "lit": "chove cabos de cachimbo.",
+    "note": "Expressão típica da Bélgica para chuva muito forte, parecida com 'chovendo canivete' ou 'chuva de lascar'. Em holandês, 'het' é sujeito vazio nos verbos de clima: 'Het regent'."
   }
 }
