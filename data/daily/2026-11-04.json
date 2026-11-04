@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "word": {
+    "nl": "het containerpark",
+    "art": "het",
+    "split": "container (contêiner) + park (parque)",
+    "pt": "ecoponto (centro municipal de descarte de lixo e entulho)",
+    "emoji": "♻️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"heb","r":"verb"},
+      {"t":"de","r":"art"},
+      {"t":"bus","r":"noun"},
+      {"t":"gemist","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"perdi","r":"verb"},
+      {"t":"o","r":"art"},
+      {"t":"ônibus","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Eu tenho o ônibus perdido.",
+    "note": "O passado composto holandês usa 'hebben' + particípio no fim da frase: 'Ik heb ... gemist'. Na Bélgica, 'de bus' é o ônibus urbano ou intermunicipal."
+  }
+}

@@ -1,26 +1,29 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "word": {
-    "nl": "de fietsenstalling",
-    "art": "de",
-    "split": "fietsen (bicicletas) + stalling (guarda, estacionamento)",
-    "pt": "bicicletário",
-    "emoji": "🚲"
+    "nl": "het containerpark",
+    "art": "het",
+    "split": "container (contêiner) + park (parque)",
+    "pt": "ecoponto (centro municipal de descarte de lixo e entulho)",
+    "emoji": "♻️"
   },
   "phrase": {
     "nl": [
-      {"t":"Het","r":"pron"},
-      {"t":"regent","r":"verb"},
-      {"t":"pijpenstelen","r":"noun"},
+      {"t":"Ik","r":"pron"},
+      {"t":"heb","r":"verb"},
+      {"t":"de","r":"art"},
+      {"t":"bus","r":"noun"},
+      {"t":"gemist","r":"verb"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Está","r":"verb"},
-      {"t":"chovendo","r":"verb"},
-      {"t":"canivetes","r":"noun"},
+      {"t":"Eu","r":"pron"},
+      {"t":"perdi","r":"verb"},
+      {"t":"o","r":"art"},
+      {"t":"ônibus","r":"noun"},
       {"t":".","r":"punc"}
     ],
-    "lit": "chove cabos de cachimbo.",
-    "note": "Expressão típica da Bélgica para chuva muito forte, parecida com 'chovendo canivete' ou 'chuva de lascar'. Em holandês, 'het' é sujeito vazio nos verbos de clima: 'Het regent'."
+    "lit": "Eu tenho o ônibus perdido.",
+    "note": "O passado composto holandês usa 'hebben' + particípio no fim da frase: 'Ik heb ... gemist'. Na Bélgica, 'de bus' é o ônibus urbano ou intermunicipal."
   }
 }
