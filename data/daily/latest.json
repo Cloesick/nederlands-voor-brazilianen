@@ -1,29 +1,30 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "word": {
-    "nl": "het containerpark",
+    "nl": "het ziekenfonds",
     "art": "het",
-    "split": "container (contêiner) + park (parque)",
-    "pt": "ecoponto (centro municipal de descarte de lixo e entulho)",
-    "emoji": "♻️"
+    "split": "zieken (doentes) + fonds (fundo)",
+    "pt": "mutualidade (plano de saúde público obrigatório na Bélgica)",
+    "emoji": "🏥"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"heb","r":"verb"},
-      {"t":"de","r":"art"},
-      {"t":"bus","r":"noun"},
-      {"t":"gemist","r":"verb"},
-      {"t":".","r":"punc"}
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"herhalen","r":"verb"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"perdi","r":"verb"},
-      {"t":"o","r":"art"},
-      {"t":"ônibus","r":"noun"},
-      {"t":".","r":"punc"}
+      {"t":"O senhor","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "Eu tenho o ônibus perdido.",
-    "note": "O passado composto holandês usa 'hebben' + particípio no fim da frase: 'Ik heb ... gemist'. Na Bélgica, 'de bus' é o ônibus urbano ou intermunicipal."
+    "lit": "Pode o senhor isso por favor repetir?",
+    "note": "Com verbo modal (kunnen), o outro verbo vai para o fim da frase no infinitivo: 'Kunt u ... herhalen?'. 'U' é a forma educada de 'você', muito usada na Bélgica com desconhecidos."
   }
 }

@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-05",
+  "word": {
+    "nl": "het ziekenfonds",
+    "art": "het",
+    "split": "zieken (doentes) + fonds (fundo)",
+    "pt": "mutualidade (plano de saúde público obrigatório na Bélgica)",
+    "emoji": "🏥"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"herhalen","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"O senhor","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "Pode o senhor isso por favor repetir?",
+    "note": "Com verbo modal (kunnen), o outro verbo vai para o fim da frase no infinitivo: 'Kunt u ... herhalen?'. 'U' é a forma educada de 'você', muito usada na Bélgica com desconhecidos."
+  }
+}
