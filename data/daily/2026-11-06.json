@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-06",
+  "word": {
+    "nl": "de gemeente",
+    "art": "de",
+    "split": "ge (junto) + meente (comunidade)",
+    "pt": "prefeitura / município (onde você se registra ao morar na Bélgica)",
+    "emoji": "🏛️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"zou","r":"verb"},
+      {"t":"graag","r":"adv"},
+      {"t":"een","r":"art"},
+      {"t":"afspraak","r":"noun"},
+      {"t":"maken","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"gostaria","r":"verb"},
+      {"t":"de","r":"x"},
+      {"t":"marcar","r":"verb"},
+      {"t":"um","r":"art"},
+      {"t":"horário","r":"noun"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Eu iria com gosto um horário marcar.",
+    "note": "'Zou graag' é a forma educada de pedir algo (como 'gostaria de'). O outro verbo vai para o fim da frase no infinitivo: 'maken'. Útil na gemeente, no médico ou no cabeleireiro."
+  }
+}

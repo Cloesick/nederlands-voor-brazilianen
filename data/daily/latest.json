@@ -1,30 +1,32 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "word": {
-    "nl": "het ziekenfonds",
-    "art": "het",
-    "split": "zieken (doentes) + fonds (fundo)",
-    "pt": "mutualidade (plano de saúde público obrigatório na Bélgica)",
-    "emoji": "🏥"
+    "nl": "de gemeente",
+    "art": "de",
+    "split": "ge (junto) + meente (comunidade)",
+    "pt": "prefeitura / município (onde você se registra ao morar na Bélgica)",
+    "emoji": "🏛️"
   },
   "phrase": {
     "nl": [
-      {"t":"Kunt","r":"verb"},
-      {"t":"u","r":"pron"},
-      {"t":"dat","r":"pron"},
-      {"t":"alstublieft","r":"adv"},
-      {"t":"herhalen","r":"verb"},
-      {"t":"?","r":"punc"}
+      {"t":"Ik","r":"pron"},
+      {"t":"zou","r":"verb"},
+      {"t":"graag","r":"adv"},
+      {"t":"een","r":"art"},
+      {"t":"afspraak","r":"noun"},
+      {"t":"maken","r":"verb"},
+      {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"O senhor","r":"pron"},
-      {"t":"poderia","r":"verb"},
-      {"t":"repetir","r":"verb"},
-      {"t":"isso","r":"pron"},
-      {"t":"por favor","r":"adv"},
-      {"t":"?","r":"punc"}
+      {"t":"Eu","r":"pron"},
+      {"t":"gostaria","r":"verb"},
+      {"t":"de","r":"x"},
+      {"t":"marcar","r":"verb"},
+      {"t":"um","r":"art"},
+      {"t":"horário","r":"noun"},
+      {"t":".","r":"punc"}
     ],
-    "lit": "Pode o senhor isso por favor repetir?",
-    "note": "Com verbo modal (kunnen), o outro verbo vai para o fim da frase no infinitivo: 'Kunt u ... herhalen?'. 'U' é a forma educada de 'você', muito usada na Bélgica com desconhecidos."
+    "lit": "Eu iria com gosto um horário marcar.",
+    "note": "'Zou graag' é a forma educada de pedir algo (como 'gostaria de'). O outro verbo vai para o fim da frase no infinitivo: 'maken'. Útil na gemeente, no médico ou no cabeleireiro."
   }
 }
