@@ -211,6 +211,18 @@
       "type": "match",
       "pairs": [["het huis", "a casa"], ["de tuin", "o jardim"], ["het boek", "o livro"], ["de school", "a escola"], ["de wijn", "o vinho"], ["de trein", "o trem"]],
       "explain": "Cada palavra treina um som: huis e tuin (ui), boek (oe = u), school (sch), wijn (ij) e trein (ei), que soam igual!"
+    },
+    {
+      "type": "pronounce",
+      "nl": "Het boek is goed.",
+      "pt": "O livro é bom.",
+      "explain": "Lembre: oe = u (buk) e o g flamengo é suave, de garganta. Compare com a referência."
+    },
+    {
+      "type": "pronounce",
+      "nl": "Goedemorgen!",
+      "pt": "Bom dia!",
+      "explain": "Goed começa com o g suave de garganta e oe soa como u. Ouça de novo e repita."
     }
   ]
 }

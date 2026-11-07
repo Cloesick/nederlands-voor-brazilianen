@@ -544,6 +544,7 @@ function mistakeFromEx(ex, L) {
   if (ex.type === 'fill')   return { ...base, q: `${ex.before} ___ ${ex.after || ''}`, nl: ex.answer, pt: ex.hint || '', answer: ex.answer };
   if (ex.type === 'order')  return { ...base, q: ex.pt, nl: ex.answer, pt: ex.pt, answer: ex.answer };
   if (ex.type === 'match')  return { ...base, q: 'Pares: ' + ex.pairs.map(p => p[0]).join(', '), nl: ex.pairs.map(p => p[0]).join(' · '), pt: ex.pairs.map(p => p[1]).join(' · '), answer: ex.pairs.map(p => p[0] + '=' + p[1]).join(', ') };
+  if (ex.type === 'pronounce') return { ...base, q: 'Pronuncie: ' + ex.nl, nl: ex.nl, pt: ex.pt || '', answer: ex.nl };
   return { ...base, q: '(exercício)', nl: '', pt: '', answer: '' };
 }
 
@@ -608,6 +609,14 @@ function runExercises(body, L) {
         <div class="match-col" id="mright">${shuffle(ex.pairs.map((p, k) => ({ t: p[1], k }))).map(o =>
           `<button class="mitem" data-k="${o.k}">🇧🇷 ${esc(o.t)}</button>`).join('')}</div>
       </div>`;
+    if (ex.type === 'pronounce') inner = `
+      <p class="ex-q">🎤 Pronuncie em voz alta:</p>
+      <p class="center"><b class="lang-nl" lang="nl">${esc(ex.nl)}</b>${ex.pt ? `<br><span class="muted">${esc(ex.pt)}</span>` : ''}</p>
+      <p class="center"><button class="btn" id="pRef">🔊 Ouvir referência</button>
+      <button class="btn" id="pRec">⏺️ Gravar</button></p>
+      <p class="center muted" id="pMsg"></p>
+      <div class="center" id="pOut"></div>
+      <div class="ex-nav"><button class="btn primary" id="pDone" hidden>Continuar →</button></div>`;
     body.innerHTML = header() + `<div class="card exwrap">${inner}</div>`;
 
     if (ex.type === 'mc' || ex.type === 'listen') {
@@ -619,6 +628,39 @@ function runExercises(body, L) {
           else { lock(); body.querySelector(`.opt[data-k="${ex.answer}"]`).classList.add('correct');
             feedback(false, ex.explain, ex.options[ex.answer]); } }
       }));
+    }
+    if (ex.type === 'pronounce') {
+      const ref = $('#pRef'), rec = $('#pRec'), msg = $('#pMsg'), out = $('#pOut'), done = $('#pDone');
+      ref.addEventListener('click', () => hasTTS ? speak(ex.nl, ref) : (msg.textContent = 'Seu navegador não tem voz em neerlandês.'));
+      const finish = () => { done.hidden = false; };
+      done.addEventListener('click', () => {
+        if (out._url) URL.revokeObjectURL(out._url);
+        addXP(6); score += 1; // self-assessed: no right/wrong, just practice
+        firstTry = true; next();
+      });
+      const canRec = navigator.mediaDevices && navigator.mediaDevices.getUserMedia && window.MediaRecorder;
+      if (!canRec) { rec.disabled = true; msg.textContent = 'Gravação não suportada neste navegador. Repita em voz alta e continue.'; finish(); }
+      let mr = null;
+      rec.addEventListener('click', async () => {
+        if (mr && mr.state === 'recording') { mr.stop(); return; }
+        try {
+          const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          const chunks = [];
+          mr = new MediaRecorder(stream);
+          mr.ondataavailable = e => chunks.push(e.data);
+          mr.onstop = () => {
+            stream.getTracks().forEach(t => t.stop());
+            rec.textContent = '🔁 Gravar de novo'; msg.textContent = 'Compare sua gravação com a referência 👇';
+            if (out._url) URL.revokeObjectURL(out._url);
+            out._url = URL.createObjectURL(new Blob(chunks, { type: mr.mimeType || 'audio/webm' }));
+            out.innerHTML = `<audio controls src="${out._url}"></audio>`;
+            finish();
+          };
+          mr.start(); rec.textContent = '⏹️ Parar'; msg.textContent = '🔴 Gravando...';
+        } catch (err) {
+          msg.textContent = 'Microfone indisponível ou negado. Repita em voz alta e continue.'; rec.disabled = true; finish();
+        }
+      });
     }
     if (ex.type === 'fill') {
       const check = () => {

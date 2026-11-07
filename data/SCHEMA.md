@@ -27,7 +27,8 @@
     { "type": "listen", "nl": "frase falada", "options": ["...","..."], "answer": 0, "explain": "..." },
     { "type": "fill",   "before": "Ik", "after": "Sofia.", "answer": "heet", "alt": ["ben"], "hint": "...", "explain": "..." },
     { "type": "order",  "pt": "tradução", "tokens": ["na","ordem","certa"], "answer": "na ordem certa", "altAnswers": ["outra ordem certa"], "explain": "..." },
-    { "type": "match",  "pairs": [["nl","pt"], ["nl","pt"]], "explain": "..." }
+    { "type": "match",  "pairs": [["nl","pt"], ["nl","pt"]], "explain": "..." },
+    { "type": "pronounce", "nl": "frase a pronunciar", "pt": "tradução (opcional)", "explain": "..." }
   ]
 }
 ```
@@ -51,5 +52,7 @@
 | `punc` / `x` | pontuação / outro | sem estilo |
 
 **Regra de ouro:** o mesmo conceito recebe o MESMO papel nas duas línguas. É isso que cria o reconhecimento de padrões.
+
+`pronounce` (opcional): o aluno ouve a referência (TTS), grava a própria voz com MediaRecorder e compara; o áudio fica só na memória, sem backend, e não há certo/errado (autoavaliação, +6 XP). Se o microfone for negado ou não existir, o exercício continua sem gravação.
 
 Regras de exercício: `answer` de mc/listen é índice 0-based; em `order`, `tokens` ficam na ordem CERTA e `answer` = tokens unidos por espaço (o app embaralha sozinho); `altAnswers` (opcional) lista outras ordenações igualmente corretas, como em orações subordinadas neerlandesas onde advérbio e objeto podem trocar de posição; todo exercício tem `explain` em PT-BR.
