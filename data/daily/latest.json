@@ -1,32 +1,28 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "word": {
-    "nl": "de gemeente",
+    "nl": "de vergadering",
     "art": "de",
-    "split": "ge (junto) + meente (comunidade)",
-    "pt": "prefeitura / município (onde você se registra ao morar na Bélgica)",
-    "emoji": "🏛️"
+    "split": "ver (intensivo) + gadering (reunião de pessoas)",
+    "pt": "reunião (de trabalho)",
+    "emoji": "👥"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"zou","r":"verb"},
-      {"t":"graag","r":"adv"},
-      {"t":"een","r":"art"},
-      {"t":"afspraak","r":"noun"},
-      {"t":"maken","r":"verb"},
+      {"t":"Dat","r":"pron"},
+      {"t":"is","r":"verb"},
+      {"t":"niet","r":"neg"},
+      {"t":"erg","r":"adj"},
       {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"gostaria","r":"verb"},
-      {"t":"de","r":"x"},
-      {"t":"marcar","r":"verb"},
-      {"t":"um","r":"art"},
-      {"t":"horário","r":"noun"},
+      {"t":"Isso","r":"pron"},
+      {"t":"não","r":"neg"},
+      {"t":"é","r":"verb"},
+      {"t":"grave","r":"adj"},
       {"t":".","r":"punc"}
     ],
-    "lit": "Eu iria com gosto um horário marcar.",
-    "note": "'Zou graag' é a forma educada de pedir algo (como 'gostaria de'). O outro verbo vai para o fim da frase no infinitivo: 'maken'. Útil na gemeente, no médico ou no cabeleireiro."
+    "lit": "Isso é não grave.",
+    "note": "Em neerlandês o 'niet' vem depois do verbo: 'is niet'. 'Erg' significa grave ou ruim. Ótimo para responder quando alguém pede desculpas: 'Dat is niet erg!' 😊"
   }
 }
