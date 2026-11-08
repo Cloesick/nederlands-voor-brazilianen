@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-08",
+  "word": {
+    "nl": "de boterham",
+    "art": "de",
+    "split": "boter (manteiga) + ham (pedaço, bocado)",
+    "pt": "sanduíche de pão de forma (fatia de pão com recheio)",
+    "emoji": "🥪"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Het","r":"pron"},
+      {"t":"is","r":"verb"},
+      {"t":"hier","r":"adv"},
+      {"t":"gezellig","r":"adj"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Isso","r":"pron"},
+      {"t":"é","r":"verb"},
+      {"t":"aqui","r":"adv"},
+      {"t":"aconchegante","r":"adj"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Isso é aqui aconchegante.",
+    "note": "'Gezellig' quase não tem tradução: é aconchegante, agradável e acolhedor ao mesmo tempo. Os flamengos usam muito para elogiar um café, uma casa ou uma noite entre amigos. 🕯️"
+  }
+}

@@ -1,28 +1,28 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "word": {
-    "nl": "de vergadering",
+    "nl": "de boterham",
     "art": "de",
-    "split": "ver (intensivo) + gadering (reunião de pessoas)",
-    "pt": "reunião (de trabalho)",
-    "emoji": "👥"
+    "split": "boter (manteiga) + ham (pedaço, bocado)",
+    "pt": "sanduíche de pão de forma (fatia de pão com recheio)",
+    "emoji": "🥪"
   },
   "phrase": {
     "nl": [
-      {"t":"Dat","r":"pron"},
+      {"t":"Het","r":"pron"},
       {"t":"is","r":"verb"},
-      {"t":"niet","r":"neg"},
-      {"t":"erg","r":"adj"},
+      {"t":"hier","r":"adv"},
+      {"t":"gezellig","r":"adj"},
       {"t":".","r":"punc"}
     ],
     "pt": [
       {"t":"Isso","r":"pron"},
-      {"t":"não","r":"neg"},
       {"t":"é","r":"verb"},
-      {"t":"grave","r":"adj"},
+      {"t":"aqui","r":"adv"},
+      {"t":"aconchegante","r":"adj"},
       {"t":".","r":"punc"}
     ],
-    "lit": "Isso é não grave.",
-    "note": "Em neerlandês o 'niet' vem depois do verbo: 'is niet'. 'Erg' significa grave ou ruim. Ótimo para responder quando alguém pede desculpas: 'Dat is niet erg!' 😊"
+    "lit": "Isso é aqui aconchegante.",
+    "note": "'Gezellig' quase não tem tradução: é aconchegante, agradável e acolhedor ao mesmo tempo. Os flamengos usam muito para elogiar um café, uma casa ou uma noite entre amigos. 🕯️"
   }
 }
