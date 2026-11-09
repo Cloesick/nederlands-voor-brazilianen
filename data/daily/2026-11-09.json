@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-09",
+  "word": {
+    "nl": "de snelweg",
+    "art": "de",
+    "split": "snel (rápido) + weg (estrada)",
+    "pt": "rodovia, autoestrada",
+    "emoji": "🛣️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"begrijp","r":"verb"},
+      {"t":"het","r":"pron"},
+      {"t":"niet","r":"neg"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"não","r":"neg"},
+      {"t":"entendo","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Eu entendo isso não.",
+    "note": "Em neerlandês a negação 'niet' vem no fim da frase, depois do objeto: 'Ik begrijp het niet'. Em português ela vem antes do verbo. 🤔"
+  }
+}
