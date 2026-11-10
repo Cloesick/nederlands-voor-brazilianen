@@ -1,0 +1,1076 @@
+{
+ "id": "a2-10-wederkerend",
+ "unit": "A2",
+ "title": "Verbos reflexivos · Wederkerende werkwoorden",
+ "emoji": "🔁",
+ "teaching": [
+  {
+   "emoji": "🔁",
+   "title": "Os pronomes reflexivos: me, je, zich, ons",
+   "html": "<p>Em português dizemos <b>eu me lavo</b>, <b>ele se lava</b>. Em neerlandês a ideia é a mesma, mas o pronome reflexivo só muda na 1ª e 2ª pessoa:</p><table class=\"vocab\"><tr><th>pessoa</th><th>reflexivo</th><th>exemplo</th></tr><tr><td>ik (eu)</td><td><b>me</b></td><td>Ik was me.</td></tr><tr><td>jij / je (você)</td><td><b>je</b></td><td>Jij wast je.</td></tr><tr><td>u (o senhor, a senhora)</td><td><b>zich</b></td><td>U wast zich.</td></tr><tr><td>hij / zij / het (ele, ela)</td><td><b>zich</b></td><td>Hij wast zich.</td></tr><tr><td>wij / we (nós)</td><td><b>ons</b></td><td>Wij wassen ons.</td></tr><tr><td>jullie (vocês)</td><td><b>je</b> ou <b>jullie</b></td><td>Jullie wassen je.</td></tr><tr><td>zij / ze (eles)</td><td><b>zich</b></td><td>Ze wassen zich.</td></tr></table><p><small>🗣️ Para dar ênfase existem as formas <b>mezelf, jezelf, zichzelf</b> (eu mesmo, você mesmo): <i>Ik was mezelf.</i> No dia a dia o simples <b>me</b> basta.</small></p>"
+  },
+  {
+   "emoji": "🧼",
+   "title": "Verbos que são reflexivos em neerlandês",
+   "html": "<p>Cada verbo reflexivo aparece no dicionário com <b>zich</b>. Os mais úteis:</p><ul><li><b>zich wassen</b>: lavar-se 🧼</li><li><b>zich aankleden</b>: vestir-se 👕 (separável: <i>Ik kleed me aan</i>)</li><li><b>zich herinneren</b>: lembrar-se 🧠</li><li><b>zich vergissen</b>: enganar-se 🤷 (<i>Ik heb me vergist</i>)</li><li><b>zich amuseren</b>: divertir-se 🎉</li><li><b>zich haasten</b>: apressar-se 🏃</li></ul><p><b>Ordem das palavras (V2):</b> o verbo conjugado é sempre o 2º elemento e o reflexivo vem logo depois do sujeito: <b>Ik was me.</b> <b>Na het ontbijt kleed ik me aan.</b> Nas perguntas: <b>Herinner je je de naam?</b> No perfectum: <b>Ik heb me vergist.</b></p>"
+  },
+  {
+   "emoji": "🚫",
+   "title": "Reflexivo em português, mas NÃO em neerlandês",
+   "html": "<p>Aqui o brasileiro erra mais: muitos verbos que no português levam <b>se</b> não levam nenhum reflexivo em neerlandês.</p><table class=\"vocab\"><tr><th>português</th><th>neerlandês (sem zich!)</th></tr><tr><td>eu me levanto</td><td><b>Ik sta op.</b></td></tr><tr><td>eu acordo</td><td><b>Ik word wakker.</b></td></tr><tr><td>eu me sento</td><td><b>Ik ga zitten.</b></td></tr><tr><td>eu me zango</td><td><b>Ik word boos.</b></td></tr><tr><td>eu me mudo</td><td><b>Ik verhuis.</b></td></tr><tr><td>eu tomo banho</td><td><b>Ik neem een douche.</b></td></tr></table><p><small>💡 Regra prática: na dúvida, não ponha reflexivo. Só use me/je/zich/ons com os verbos que você aprendeu como <b>zich + verbo</b>.</small></p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "was",
+     "r": "verb"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "elke",
+     "r": "adj"
+    },
+    {
+     "t": "ochtend",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "lavo",
+     "r": "verb"
+    },
+    {
+     "t": "toda",
+     "r": "adj"
+    },
+    {
+     "t": "manhã",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu lavo me cada manhã",
+   "note": "O pronome reflexivo (me) fica logo depois do verbo: ik was me. Em português ele vem antes (me lavo)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Jij",
+     "r": "pron"
+    },
+    {
+     "t": "kleedt",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "snel",
+     "r": "adv"
+    },
+    {
+     "t": "aan",
+     "r": "part"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "se",
+     "r": "pron"
+    },
+    {
+     "t": "veste",
+     "r": "verb"
+    },
+    {
+     "t": "rápido",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "você veste você rápido aan",
+   "note": "aankleden é separável: aan vai para o fim da frase, e o reflexivo fica logo depois do verbo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Hij",
+     "r": "pron"
+    },
+    {
+     "t": "herinnert",
+     "r": "verb"
+    },
+    {
+     "t": "zich",
+     "r": "pron"
+    },
+    {
+     "t": "die",
+     "r": "adj"
+    },
+    {
+     "t": "dag",
+     "r": "noun"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Ele",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "se",
+     "r": "pron"
+    },
+    {
+     "t": "lembra",
+     "r": "verb"
+    },
+    {
+     "t": "daquele",
+     "r": "adj"
+    },
+    {
+     "t": "dia",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "ele lembra se aquele dia não",
+   "note": "Na terceira pessoa (hij, zij, u, ze) o reflexivo é sempre zich."
+  },
+  {
+   "nl": [
+    {
+     "t": "Wij",
+     "r": "pron"
+    },
+    {
+     "t": "amuseren",
+     "r": "verb"
+    },
+    {
+     "t": "ons",
+     "r": "pron"
+    },
+    {
+     "t": "op",
+     "r": "prep"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "feest",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Nós",
+     "r": "pron"
+    },
+    {
+     "t": "nos",
+     "r": "pron"
+    },
+    {
+     "t": "divertimos",
+     "r": "verb"
+    },
+    {
+     "t": "na",
+     "r": "prep"
+    },
+    {
+     "t": "festa",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "nós divertimos nos na festa",
+   "note": "Só na 1ª e 2ª pessoa o reflexivo muda: me, je, ons. Em todo o resto é zich."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "sta",
+     "r": "verb"
+    },
+    {
+     "t": "om",
+     "r": "prep"
+    },
+    {
+     "t": "zeven",
+     "r": "num"
+    },
+    {
+     "t": "uur",
+     "r": "noun"
+    },
+    {
+     "t": "op",
+     "r": "part"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "levanto",
+     "r": "verb"
+    },
+    {
+     "t": "às",
+     "r": "prep"
+    },
+    {
+     "t": "sete",
+     "r": "num"
+    },
+    {
+     "t": "horas",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu fico de pé às sete horas op",
+   "note": "Cuidado: opstaan NÃO é reflexivo em neerlandês. Nada de 'ik sta me op'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "word",
+     "r": "verb"
+    },
+    {
+     "t": "laat",
+     "r": "adv"
+    },
+    {
+     "t": "wakker",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "acordo",
+     "r": "verb"
+    },
+    {
+     "t": "tarde",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu torno tarde acordado",
+   "note": "wakker worden (acordar) também não leva reflexivo: literalmente 'ficar acordado'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Sorry",
+     "r": "x"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "heb",
+     "r": "verb"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "vergist",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Desculpe",
+     "r": "x"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "enganei",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "desculpe, eu tenho me enganado",
+   "note": "No perfectum o reflexivo fica logo depois do auxiliar (heb me) e o particípio fecha a frase."
+  },
+  {
+   "nl": [
+    {
+     "t": "Herinner",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "naam",
+     "r": "noun"
+    },
+    {
+     "t": "nog",
+     "r": "adv"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "ainda",
+     "r": "adv"
+    },
+    {
+     "t": "se",
+     "r": "pron"
+    },
+    {
+     "t": "lembra",
+     "r": "verb"
+    },
+    {
+     "t": "do",
+     "r": "art"
+    },
+    {
+     "t": "nome",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "lembra você você o nome ainda",
+   "note": "Na pergunta o verbo vem primeiro, depois o sujeito (je) e depois o reflexivo (je): 'Herinner je je...'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "voel",
+     "r": "verb"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "goed",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "sinto",
+     "r": "verb"
+    },
+    {
+     "t": "bem",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu sinto me não bem",
+   "note": "zich voelen é reflexivo, como em português. A negação niet vem depois do reflexivo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ze",
+     "r": "pron"
+    },
+    {
+     "t": "haasten",
+     "r": "verb"
+    },
+    {
+     "t": "zich",
+     "r": "pron"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eles",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "se",
+     "r": "pron"
+    },
+    {
+     "t": "apressam",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eles apressam se não",
+   "note": "Com o plural ze/zij o reflexivo é zich, igual a hij e zij no singular."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "neem",
+     "r": "verb"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "douche",
+     "r": "noun"
+    },
+    {
+     "t": "voor",
+     "r": "prep"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "werk",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "tomo",
+     "r": "verb"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "banho",
+     "r": "noun"
+    },
+    {
+     "t": "antes",
+     "r": "prep"
+    },
+    {
+     "t": "do",
+     "r": "art"
+    },
+    {
+     "t": "trabalho",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu tomo uma ducha antes do trabalho",
+   "note": "Neerlandês prefere 'tomar uma ducha' (een douche nemen) a um verbo reflexivo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Na",
+     "r": "prep"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "ontbijt",
+     "r": "noun"
+    },
+    {
+     "t": "kleed",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "aan",
+     "r": "part"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Depois",
+     "r": "prep"
+    },
+    {
+     "t": "do",
+     "r": "art"
+    },
+    {
+     "t": "café-da-manhã",
+     "r": "noun"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "visto",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "depois o café da manhã visto eu me aan",
+   "note": "V2: o verbo vem em 2º lugar, então o sujeito ik passa para depois dele. O reflexivo vem logo depois do sujeito."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "zich wassen",
+   "art": null,
+   "split": "zich (se) + wassen (lavar)",
+   "pt": "lavar-se",
+   "emoji": "🧼"
+  },
+  {
+   "nl": "zich aankleden",
+   "art": null,
+   "split": "zich (se) + aan (sobre) + kleden (vestir); separável: ik kleed me aan",
+   "pt": "vestir-se",
+   "emoji": "👕"
+  },
+  {
+   "nl": "zich herinneren",
+   "art": null,
+   "split": "zich (se) + her- (de novo) + inneren (trazer à mente)",
+   "pt": "lembrar-se",
+   "emoji": "🧠"
+  },
+  {
+   "nl": "zich vergissen",
+   "art": null,
+   "split": "zich (se) + vergissen (errar)",
+   "pt": "enganar-se",
+   "emoji": "🤷"
+  },
+  {
+   "nl": "zich amuseren",
+   "art": null,
+   "split": "zich (se) + amuseren (divertir, do francês)",
+   "pt": "divertir-se",
+   "emoji": "🎉"
+  },
+  {
+   "nl": "zich haasten",
+   "art": null,
+   "split": "zich (se) + haasten (apressar)",
+   "pt": "apressar-se",
+   "emoji": "🏃"
+  },
+  {
+   "nl": "zich scheren",
+   "art": null,
+   "split": "zich (se) + scheren (raspar)",
+   "pt": "barbear-se",
+   "emoji": "🪒"
+  },
+  {
+   "nl": "zich ontspannen",
+   "art": null,
+   "split": "zich (se) + ontspannen (soltar a tensão)",
+   "pt": "relaxar",
+   "emoji": "🧘"
+  },
+  {
+   "nl": "zich voelen",
+   "art": null,
+   "split": "zich (se) + voelen (sentir)",
+   "pt": "sentir-se",
+   "emoji": "💭"
+  },
+  {
+   "nl": "zich ergeren",
+   "art": null,
+   "split": "zich (se) + ergeren (irritar)",
+   "pt": "irritar-se",
+   "emoji": "😠"
+  },
+  {
+   "nl": "zich verslapen",
+   "art": null,
+   "split": "zich (se) + ver- + slapen (dormir)",
+   "pt": "perder a hora dormindo",
+   "emoji": "😴"
+  },
+  {
+   "nl": "opstaan",
+   "art": null,
+   "split": "op (para cima) + staan (ficar de pé); NÃO reflexivo",
+   "pt": "levantar-se",
+   "emoji": "🛏️"
+  },
+  {
+   "nl": "wakker worden",
+   "art": null,
+   "split": "wakker (acordado) + worden (tornar-se); NÃO reflexivo",
+   "pt": "acordar",
+   "emoji": "⏰"
+  },
+  {
+   "nl": "de douche",
+   "art": "de",
+   "split": "douche (do francês)",
+   "pt": "o chuveiro, a ducha",
+   "emoji": "🚿"
+  },
+  {
+   "nl": "het ontbijt",
+   "art": "het",
+   "split": "ont- (desfazer) + bijt (mordida): quebrar o jejum",
+   "pt": "o café da manhã",
+   "emoji": "🥐"
+  },
+  {
+   "nl": "de ochtend",
+   "art": "de",
+   "split": "ochtend",
+   "pt": "a manhã",
+   "emoji": "🌅"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual pronome reflexivo completa: Wij amuseren ___ op het feest?",
+   "options": [
+    "ons",
+    "zich",
+    "je"
+   ],
+   "answer": 0,
+   "explain": "Com wij o reflexivo é ons: wij amuseren ons."
+  },
+  {
+   "type": "mc",
+   "q": "Qual pronome reflexivo completa: Zij (ela) wast ___?",
+   "options": [
+    "zich",
+    "je",
+    "me"
+   ],
+   "answer": 0,
+   "explain": "Na 3ª pessoa (hij, zij, u, ze) o reflexivo é sempre zich."
+  },
+  {
+   "type": "mc",
+   "q": "Como se diz 'Eu acordo cedo'?",
+   "options": [
+    "Ik word vroeg wakker.",
+    "Ik word me vroeg wakker.",
+    "Ik wek me vroeg."
+   ],
+   "answer": 0,
+   "explain": "wakker worden não é reflexivo em neerlandês, ao contrário do 'me' português."
+  },
+  {
+   "type": "mc",
+   "q": "Qual destes verbos NÃO é reflexivo em neerlandês?",
+   "options": [
+    "opstaan",
+    "zich wassen",
+    "zich herinneren"
+   ],
+   "answer": 0,
+   "explain": "Em português 'levantar-se' é reflexivo, mas opstaan não leva zich/me: ik sta op."
+  },
+  {
+   "type": "mc",
+   "q": "Qual é a frase certa para 'Depois do café da manhã eu me visto'?",
+   "options": [
+    "Na het ontbijt kleed ik me aan.",
+    "Na het ontbijt ik kleed me aan.",
+    "Na het ontbijt kleed me ik aan."
+   ],
+   "answer": 0,
+   "explain": "V2: verbo em 2º lugar (kleed), sujeito depois (ik), reflexivo logo em seguida (me) e aan no fim."
+  },
+  {
+   "type": "listen",
+   "nl": "Ik was me elke ochtend.",
+   "options": [
+    "Eu me lavo toda manhã.",
+    "Eu lavo o carro toda manhã.",
+    "Eu me visto toda manhã."
+   ],
+   "answer": 0,
+   "explain": "was me = me lavo (wassen). Ouça o pronome me logo depois do verbo."
+  },
+  {
+   "type": "listen",
+   "nl": "Hij herinnert zich die dag niet.",
+   "options": [
+    "Ele não se lembra daquele dia.",
+    "Ele não gosta daquele dia.",
+    "Ele não se levanta naquele dia."
+   ],
+   "answer": 0,
+   "explain": "zich herinneren = lembrar-se. Com hij o reflexivo é zich."
+  },
+  {
+   "type": "listen",
+   "nl": "Sorry, ik heb me vergist.",
+   "options": [
+    "Desculpe, eu me enganei.",
+    "Desculpe, eu me perdi.",
+    "Desculpe, eu me diverti."
+   ],
+   "answer": 0,
+   "explain": "zich vergissen = enganar-se. No perfectum: heb me vergist."
+  },
+  {
+   "type": "fill",
+   "before": "Wij amuseren",
+   "after": "op het feest.",
+   "answer": "ons",
+   "alt": [],
+   "hint": "nós (reflexivo)",
+   "explain": "Com wij o reflexivo é ons: wij amuseren ons."
+  },
+  {
+   "type": "fill",
+   "before": "Jij kleedt",
+   "after": "snel aan.",
+   "answer": "je",
+   "alt": [],
+   "hint": "você (reflexivo)",
+   "explain": "Com jij o reflexivo é je: jij kleedt je aan."
+  },
+  {
+   "type": "fill",
+   "before": "Hij herinnert",
+   "after": "die dag niet.",
+   "answer": "zich",
+   "alt": [],
+   "hint": "ele (reflexivo)",
+   "explain": "Com hij o reflexivo é zich: hij herinnert zich."
+  },
+  {
+   "type": "fill",
+   "before": "Ik sta om zeven uur",
+   "after": ".",
+   "answer": "op",
+   "alt": [],
+   "hint": "levantar-se (separável)",
+   "explain": "opstaan é separável e não reflexivo: ik sta ... op. Aqui falta a partícula op, não um pronome."
+  },
+  {
+   "type": "order",
+   "pt": "Eu me lavo toda manhã.",
+   "tokens": [
+    "Ik",
+    "was",
+    "me",
+    "elke",
+    "ochtend"
+   ],
+   "answer": "Ik was me elke ochtend",
+   "explain": "Verbo na posição 2, reflexivo logo depois e o tempo no fim."
+  },
+  {
+   "type": "order",
+   "pt": "Depois do café da manhã eu me visto.",
+   "tokens": [
+    "Na",
+    "het",
+    "ontbijt",
+    "kleed",
+    "ik",
+    "me",
+    "aan"
+   ],
+   "answer": "Na het ontbijt kleed ik me aan",
+   "explain": "V2: Na het ontbijt abre a frase, então o verbo vem logo depois e o sujeito ik vai para depois dele. aan fecha a frase."
+  },
+  {
+   "type": "order",
+   "pt": "Ele não se lembra daquele dia.",
+   "tokens": [
+    "Hij",
+    "herinnert",
+    "zich",
+    "die",
+    "dag",
+    "niet"
+   ],
+   "answer": "Hij herinnert zich die dag niet",
+   "explain": "O reflexivo zich vem logo depois do verbo, e niet fecha a frase."
+  },
+  {
+   "type": "order",
+   "pt": "Desculpe, eu me enganei.",
+   "tokens": [
+    "Sorry",
+    "ik",
+    "heb",
+    "me",
+    "vergist"
+   ],
+   "answer": "Sorry ik heb me vergist",
+   "explain": "Perfectum: heb na posição 2, me logo depois do sujeito/auxiliar e vergist no fim."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "zich wassen",
+     "lavar-se"
+    ],
+    [
+     "zich aankleden",
+     "vestir-se"
+    ],
+    [
+     "zich herinneren",
+     "lembrar-se"
+    ],
+    [
+     "zich vergissen",
+     "enganar-se"
+    ],
+    [
+     "zich amuseren",
+     "divertir-se"
+    ]
+   ],
+   "explain": "Estes verbos têm o zich como parte do verbo, como lavar-se e lembrar-se em português."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "opstaan",
+     "levantar-se"
+    ],
+    [
+     "wakker worden",
+     "acordar"
+    ],
+    [
+     "zich haasten",
+     "apressar-se"
+    ],
+    [
+     "zich verslapen",
+     "perder a hora dormindo"
+    ]
+   ],
+   "explain": "Atenção: opstaan e wakker worden são traduzidos com verbos reflexivos em português, mas em neerlandês não levam zich."
+  }
+ ]
+}
