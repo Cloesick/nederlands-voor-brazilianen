@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-10",
+  "word": {
+    "nl": "het pintje",
+    "art": "het",
+    "split": "pint (caneca) + je (diminutivo)",
+    "pt": "chope, cerveja pequena (a cerveja do dia a dia na Bélgica)",
+    "emoji": "🍺"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"moet","r":"verb"},
+      {"t":"morgen","r":"adv"},
+      {"t":"vroeg","r":"adv"},
+      {"t":"opstaan","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"preciso","r":"verb"},
+      {"t":"amanhã","r":"adv"},
+      {"t":"cedo","r":"adv"},
+      {"t":"acordar","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Eu devo amanhã cedo levantar.",
+    "note": "Com verbos modais (moeten, kunnen, willen), o segundo verbo vai para o fim da frase, no infinitivo: 'Ik moet ... opstaan'. ⏰"
+  }
+}
