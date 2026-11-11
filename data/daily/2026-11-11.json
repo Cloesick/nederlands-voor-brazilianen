@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-11",
+  "word": {
+    "nl": "de zetel",
+    "art": "de",
+    "split": "zetel (assento, sofá)",
+    "pt": "sofá (na Flandres, 'zetel' é o sofá; na Holanda dizem 'bank')",
+    "emoji": "🛋️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Mag","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"u","r":"pron"},
+      {"t":"iets","r":"pron"},
+      {"t":"vragen","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Posso","r":"verb"},
+      {"t":"lhe","r":"pron"},
+      {"t":"perguntar","r":"verb"},
+      {"t":"uma coisa","r":"pron"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "Posso eu o senhor algo perguntar?",
+    "note": "'Mag ik' (posso) inverte o verbo e o sujeito na pergunta, e 'vragen' vai para o fim. 'U' é a forma educada de 'você' na Flandres. 🙋"
+  }
+}

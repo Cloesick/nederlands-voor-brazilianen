@@ -1,30 +1,29 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "word": {
-    "nl": "het pintje",
-    "art": "het",
-    "split": "pint (caneca) + je (diminutivo)",
-    "pt": "chope, cerveja pequena (a cerveja do dia a dia na Bélgica)",
-    "emoji": "🍺"
+    "nl": "de zetel",
+    "art": "de",
+    "split": "zetel (assento, sofá)",
+    "pt": "sofá (na Flandres, 'zetel' é o sofá; na Holanda dizem 'bank')",
+    "emoji": "🛋️"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"moet","r":"verb"},
-      {"t":"morgen","r":"adv"},
-      {"t":"vroeg","r":"adv"},
-      {"t":"opstaan","r":"verb"},
-      {"t":".","r":"punc"}
+      {"t":"Mag","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"u","r":"pron"},
+      {"t":"iets","r":"pron"},
+      {"t":"vragen","r":"verb"},
+      {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"preciso","r":"verb"},
-      {"t":"amanhã","r":"adv"},
-      {"t":"cedo","r":"adv"},
-      {"t":"acordar","r":"verb"},
-      {"t":".","r":"punc"}
+      {"t":"Posso","r":"verb"},
+      {"t":"lhe","r":"pron"},
+      {"t":"perguntar","r":"verb"},
+      {"t":"uma coisa","r":"pron"},
+      {"t":"?","r":"punc"}
     ],
-    "lit": "Eu devo amanhã cedo levantar.",
-    "note": "Com verbos modais (moeten, kunnen, willen), o segundo verbo vai para o fim da frase, no infinitivo: 'Ik moet ... opstaan'. ⏰"
+    "lit": "Posso eu o senhor algo perguntar?",
+    "note": "'Mag ik' (posso) inverte o verbo e o sujeito na pergunta, e 'vragen' vai para o fim. 'U' é a forma educada de 'você' na Flandres. 🙋"
   }
 }
