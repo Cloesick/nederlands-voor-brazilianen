@@ -1,0 +1,1265 @@
+{
+  "id": "b1-08-betrekkelijk",
+  "unit": "B1",
+  "title": "Pronomes relativos e om...te · Betrekkelijke bijzinnen",
+  "emoji": "🧲",
+  "teaching": [
+    {
+      "emoji": "🎯",
+      "title": "die ou dat? O artigo da palavra decide",
+      "html": "<p>Em português o relativo é quase sempre <b>que</b>. Em neerlandês você precisa olhar a palavra que vem antes (o <i>antecedente</i>):</p><table class=\"vocab\"><tr><th>antecedente</th><th>relativo</th><th>exemplo</th></tr><tr><td>palavra <b>de</b> (singular)</td><td><b>die</b></td><td>de man <b>die</b> daar staat</td></tr><tr><td>palavra <b>het</b> (singular)</td><td><b>dat</b></td><td>het huis <b>dat</b> ik koop</td></tr><tr><td><b>qualquer plural</b></td><td><b>die</b></td><td>de kinderen <b>die</b> spelen</td></tr></table><p>E o verbo? Igual ao que você viu em <i>bijzinnen</i>: a relativa é uma subordinada, então o verbo conjugado vai para o <b>FIM</b>: <i>het huis dat ik koop</i> ✅, não <i>het huis dat koop ik</i> ❌.</p><p>💡 Dica: se você já memoriza o artigo junto com cada palavra nova (de buurman, het cadeau), a escolha de die/dat sai de graça.</p>"
+    },
+    {
+      "emoji": "🔗",
+      "title": "wat, waar- + preposição e wie",
+      "html": "<p><b>wat</b> substitui <b>dat</b> quando não há um substantivo claro: depois de <b>alles</b>, <b>iets</b>, <b>niets</b>, depois de superlativo (<i>het beste wat je kunt doen</i>) e quando se refere a uma oração inteira.</p><p>Para <b>coisas + preposição</b>, o neerlandês usa <b>waar-</b> colado à preposição:</p><table class=\"vocab\"><tr><th>forma</th><th>em português</th></tr><tr><td><b>waarmee</b></td><td>com o qual / com que</td></tr><tr><td><b>waarover</b></td><td>sobre o qual</td></tr><tr><td><b>waarop</b></td><td>no qual / em que</td></tr><tr><td><b>waarvoor</b></td><td>para o qual</td></tr><tr><td><b>waarvan</b></td><td>do qual (e o nosso 'cujo' costuma virar waarvan)</td></tr></table><p>Para <b>pessoas</b> use <b>preposição + wie</b>: <i>de collega met wie ik werk</i> (o colega com quem eu trabalho).</p><p>💡 O português tem o contraste que/o qual/cujo; o neerlandês tem uma lógica mais mecânica: artigo (die/dat), wat, waar+prep, prep+wie.</p>"
+    },
+    {
+      "emoji": "🎯",
+      "title": "om ... te + infinitivo: finalidade",
+      "html": "<p><b>om ... te + infinitivo</b> equivale a <b>para + infinitivo</b>: <i>Ik ga naar de winkel om brood te kopen</i> (Vou à loja para comprar pão).</p><p>A regra do fim vale de novo: tudo o que complementa o verbo fica <b>entre om e te</b>, e o infinitivo fecha a frase. Com verbo separável, o <b>te</b> entra no meio: <i>op te staan</i>, <i>mee te nemen</i>.</p><table class=\"vocab\"><tr><th>🇧🇷</th><th>🇧🇪</th></tr><tr><td>para comprar pão</td><td>om brood te kopen</td></tr><tr><td>para ficar seco</td><td>om droog te blijven</td></tr><tr><td>para levantar cedo</td><td>om vroeg op te staan</td></tr></table><p>💡 Não confunda com <b>omdat</b> (porque, com verbo conjugado): <i>omdat ik brood nodig heb</i> vs <i>om brood te kopen</i>.</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [
+        {
+          "t": "Dit",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "man",
+          "r": "noun"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "die",
+          "r": "pron"
+        },
+        {
+          "t": "naast",
+          "r": "prep"
+        },
+        {
+          "t": "mij",
+          "r": "pron"
+        },
+        {
+          "t": "woont",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Este",
+          "r": "pron"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "o",
+          "r": "art"
+        },
+        {
+          "t": "homem",
+          "r": "noun"
+        },
+        {
+          "t": "que",
+          "r": "pron"
+        },
+        {
+          "t": "mora",
+          "r": "verb"
+        },
+        {
+          "t": "ao lado de",
+          "r": "prep"
+        },
+        {
+          "t": "mim",
+          "r": "pron"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "este é o homem, que ao-lado-de mim mora",
+      "note": "Man is een de-woord, dus die. O verbo (woont) vai para o FIM da oração relativa."
+    },
+    {
+      "nl": [
+        {
+          "t": "Het",
+          "r": "art"
+        },
+        {
+          "t": "huis",
+          "r": "noun"
+        },
+        {
+          "t": "dat",
+          "r": "pron"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "koop",
+          "r": "verb"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "groot",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "A",
+          "r": "art"
+        },
+        {
+          "t": "casa",
+          "r": "noun"
+        },
+        {
+          "t": "que",
+          "r": "pron"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "compro",
+          "r": "verb"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "grande",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "a casa que eu compro, é grande",
+      "note": "Huis é palavra het, então dat. Em português é sempre 'que'; em neerlandês o artigo decide."
+    },
+    {
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "kinderen",
+          "r": "noun"
+        },
+        {
+          "t": "die",
+          "r": "pron"
+        },
+        {
+          "t": "buiten",
+          "r": "adv"
+        },
+        {
+          "t": "spelen",
+          "r": "verb"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "zijn",
+          "r": "verb"
+        },
+        {
+          "t": "mijn",
+          "r": "pron"
+        },
+        {
+          "t": "neefjes",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "As",
+          "r": "art"
+        },
+        {
+          "t": "crianças",
+          "r": "noun"
+        },
+        {
+          "t": "que",
+          "r": "pron"
+        },
+        {
+          "t": "brincam",
+          "r": "verb"
+        },
+        {
+          "t": "lá fora",
+          "r": "adv"
+        },
+        {
+          "t": "são",
+          "r": "verb"
+        },
+        {
+          "t": "meus",
+          "r": "pron"
+        },
+        {
+          "t": "sobrinhos",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "as crianças que fora brincam, são meus sobrinhos",
+      "note": "Plural é sempre die, mesmo com palavras het (het kind, mas de kinderen die)."
+    },
+    {
+      "nl": [
+        {
+          "t": "Alles",
+          "r": "pron"
+        },
+        {
+          "t": "wat",
+          "r": "pron"
+        },
+        {
+          "t": "hij",
+          "r": "pron"
+        },
+        {
+          "t": "zegt",
+          "r": "verb"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "waar",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Tudo",
+          "r": "pron"
+        },
+        {
+          "t": "o que",
+          "r": "pron"
+        },
+        {
+          "t": "ele",
+          "r": "pron"
+        },
+        {
+          "t": "diz",
+          "r": "verb"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "verdadeiro",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "tudo o-que ele diz, é verdadeiro",
+      "note": "Depois de alles, iets, niets usa-se wat, nunca dat."
+    },
+    {
+      "nl": [
+        {
+          "t": "Dit",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "iets",
+          "r": "pron"
+        },
+        {
+          "t": "wat",
+          "r": "pron"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "nooit",
+          "r": "adv"
+        },
+        {
+          "t": "vergeet",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Isto",
+          "r": "pron"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "algo",
+          "r": "pron"
+        },
+        {
+          "t": "que",
+          "r": "pron"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "nunca",
+          "r": "adv"
+        },
+        {
+          "t": "esqueço",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "isto é algo que eu nunca esqueço",
+      "note": "iets + wat: o verbo conjugado (vergeet) fecha a oração."
+    },
+    {
+      "nl": [
+        {
+          "t": "Dit",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "bril",
+          "r": "noun"
+        },
+        {
+          "t": "waarmee",
+          "r": "pron"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "lees",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Estes",
+          "r": "pron"
+        },
+        {
+          "t": "são",
+          "r": "verb"
+        },
+        {
+          "t": "os",
+          "r": "art"
+        },
+        {
+          "t": "óculos",
+          "r": "noun"
+        },
+        {
+          "t": "com os quais",
+          "r": "pron"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "leio",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "estes são os óculos com-os-quais eu leio",
+      "note": "waar + mee = com o qual. A preposição gruda no waar- e não fica no fim."
+    },
+    {
+      "nl": [
+        {
+          "t": "Het",
+          "r": "art"
+        },
+        {
+          "t": "onderwerp",
+          "r": "noun"
+        },
+        {
+          "t": "waarover",
+          "r": "pron"
+        },
+        {
+          "t": "we",
+          "r": "pron"
+        },
+        {
+          "t": "praten",
+          "r": "verb"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "belangrijk",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "assunto",
+          "r": "noun"
+        },
+        {
+          "t": "sobre o qual",
+          "r": "pron"
+        },
+        {
+          "t": "nós",
+          "r": "pron"
+        },
+        {
+          "t": "falamos",
+          "r": "verb"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "importante",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "o assunto sobre-o-qual nós falamos, é importante",
+      "note": "waar + over = sobre o qual. Outros: waarop, waarvoor, waarvan, waarmee."
+    },
+    {
+      "nl": [
+        {
+          "t": "De",
+          "r": "art"
+        },
+        {
+          "t": "collega",
+          "r": "noun"
+        },
+        {
+          "t": "met",
+          "r": "prep"
+        },
+        {
+          "t": "wie",
+          "r": "pron"
+        },
+        {
+          "t": "ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "heel",
+          "r": "adv"
+        },
+        {
+          "t": "vriendelijk",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "O",
+          "r": "art"
+        },
+        {
+          "t": "colega",
+          "r": "noun"
+        },
+        {
+          "t": "com",
+          "r": "prep"
+        },
+        {
+          "t": "quem",
+          "r": "pron"
+        },
+        {
+          "t": "eu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "muito",
+          "r": "adv"
+        },
+        {
+          "t": "simpático",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "o colega com quem eu trabalho, é muito simpático",
+      "note": "Com pessoas, prefere-se preposição + wie: met wie, voor wie, van wie."
+    },
+    {
+      "nl": [
+        {
+          "t": "Het",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "het",
+          "r": "art"
+        },
+        {
+          "t": "beste",
+          "r": "adj"
+        },
+        {
+          "t": "wat",
+          "r": "pron"
+        },
+        {
+          "t": "je",
+          "r": "pron"
+        },
+        {
+          "t": "kunt",
+          "r": "verb"
+        },
+        {
+          "t": "doen",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "É",
+          "r": "verb"
+        },
+        {
+          "t": "o",
+          "r": "art"
+        },
+        {
+          "t": "melhor",
+          "r": "adj"
+        },
+        {
+          "t": "que",
+          "r": "pron"
+        },
+        {
+          "t": "você",
+          "r": "pron"
+        },
+        {
+          "t": "pode",
+          "r": "verb"
+        },
+        {
+          "t": "fazer",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "é o melhor que você pode fazer",
+      "note": "Depois de superlativo neutro (het beste, het mooiste) também vem wat."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "ga",
+          "r": "verb"
+        },
+        {
+          "t": "naar",
+          "r": "prep"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "winkel",
+          "r": "noun"
+        },
+        {
+          "t": "om",
+          "r": "conj"
+        },
+        {
+          "t": "brood",
+          "r": "noun"
+        },
+        {
+          "t": "te",
+          "r": "x"
+        },
+        {
+          "t": "kopen",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "vou",
+          "r": "verb"
+        },
+        {
+          "t": "à",
+          "r": "prep"
+        },
+        {
+          "t": "loja",
+          "r": "noun"
+        },
+        {
+          "t": "para",
+          "r": "conj"
+        },
+        {
+          "t": "comprar",
+          "r": "verb"
+        },
+        {
+          "t": "pão",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu vou à loja para pão comprar",
+      "note": "om ... te + infinitivo = para + infinitivo. O infinitivo vai para o fim."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "probeer",
+          "r": "verb"
+        },
+        {
+          "t": "vroeg",
+          "r": "adv"
+        },
+        {
+          "t": "op",
+          "r": "part"
+        },
+        {
+          "t": "te",
+          "r": "x"
+        },
+        {
+          "t": "staan",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "tento",
+          "r": "verb"
+        },
+        {
+          "t": "levantar",
+          "r": "verb"
+        },
+        {
+          "t": "cedo",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tento cedo levantar",
+      "note": "Com verbo separável, o te entra no meio: op + te + staan."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "heb",
+          "r": "verb"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": "tijd",
+          "r": "noun"
+        },
+        {
+          "t": "om",
+          "r": "conj"
+        },
+        {
+          "t": "naar",
+          "r": "prep"
+        },
+        {
+          "t": "de",
+          "r": "art"
+        },
+        {
+          "t": "markt",
+          "r": "noun"
+        },
+        {
+          "t": "te",
+          "r": "x"
+        },
+        {
+          "t": "gaan",
+          "r": "verb"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "tenho",
+          "r": "verb"
+        },
+        {
+          "t": "tempo",
+          "r": "noun"
+        },
+        {
+          "t": "para",
+          "r": "conj"
+        },
+        {
+          "t": "ir",
+          "r": "verb"
+        },
+        {
+          "t": "ao",
+          "r": "prep"
+        },
+        {
+          "t": "mercado",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tenho nenhum tempo para ao mercado ir",
+      "note": "Tudo o que complementa o infinitivo fica entre om e te."
+    }
+  ],
+  "vocab": [
+    {
+      "nl": "het onderwerp",
+      "art": "het",
+      "split": "onder (sob) + werp (lançar)",
+      "pt": "assunto, tema",
+      "emoji": "📌"
+    },
+    {
+      "nl": "de buurman",
+      "art": "de",
+      "split": "buur (vizinho) + man (homem)",
+      "pt": "vizinho",
+      "emoji": "🏘️"
+    },
+    {
+      "nl": "het voorbeeld",
+      "art": "het",
+      "split": "voor (diante) + beeld (imagem)",
+      "pt": "exemplo",
+      "emoji": "💡"
+    },
+    {
+      "nl": "de uitleg",
+      "art": "de",
+      "split": "uit (para fora) + leg (pôr)",
+      "pt": "explicação",
+      "emoji": "🗣️"
+    },
+    {
+      "nl": "de vergadering",
+      "art": "de",
+      "split": "ver + gader (juntar) + ing",
+      "pt": "reunião",
+      "emoji": "🧑‍💼"
+    },
+    {
+      "nl": "de verjaardag",
+      "art": "de",
+      "split": "ver + jaar (ano) + dag (dia)",
+      "pt": "aniversário",
+      "emoji": "🎂"
+    },
+    {
+      "nl": "de paraplu",
+      "art": "de",
+      "split": "para (contra) + plu (chuva)",
+      "pt": "guarda-chuva",
+      "emoji": "☂️"
+    },
+    {
+      "nl": "het huisdier",
+      "art": "het",
+      "split": "huis (casa) + dier (animal)",
+      "pt": "animal de estimação",
+      "emoji": "🐶"
+    },
+    {
+      "nl": "de boekhandel",
+      "art": "de",
+      "split": "boek (livro) + handel (comércio)",
+      "pt": "livraria",
+      "emoji": "📚"
+    },
+    {
+      "nl": "de wekker",
+      "art": "de",
+      "split": "wek (acordar) + er",
+      "pt": "despertador",
+      "emoji": "⏰"
+    },
+    {
+      "nl": "de bril",
+      "art": "de",
+      "split": "bril (óculos, uma palavra só)",
+      "pt": "óculos",
+      "emoji": "👓"
+    },
+    {
+      "nl": "het cadeau",
+      "art": "het",
+      "split": "cadeau (do francês, presente)",
+      "pt": "presente",
+      "emoji": "🎁"
+    },
+    {
+      "nl": "de fiets",
+      "art": "de",
+      "split": "fiets (bicicleta, sem partes)",
+      "pt": "bicicleta",
+      "emoji": "🚲"
+    },
+    {
+      "nl": "de bakker",
+      "art": "de",
+      "split": "bak (assar) + er (quem faz)",
+      "pt": "padeiro, padaria",
+      "emoji": "🥖"
+    },
+    {
+      "nl": "het doel",
+      "art": "het",
+      "split": "doel (alvo, objetivo)",
+      "pt": "objetivo, meta",
+      "emoji": "🎯"
+    },
+    {
+      "nl": "de collega",
+      "art": "de",
+      "split": "col (com) + lega (do latim legare, delegar)",
+      "pt": "colega de trabalho",
+      "emoji": "🤝"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Qual pronome relativo acompanha 'het huis' (a casa)? 🏠",
+      "options": [
+        "die",
+        "dat",
+        "wat",
+        "wie"
+      ],
+      "answer": 1,
+      "explain": "huis é palavra het no singular, então: het huis dat. Com palavras de (e com qualquer plural) usa-se die."
+    },
+    {
+      "type": "mc",
+      "q": "Depois de 'alles', 'iets' e 'niets', qual pronome relativo se usa? 🤔",
+      "options": [
+        "wat",
+        "die",
+        "dat",
+        "wie"
+      ],
+      "answer": 0,
+      "explain": "Alles/iets/niets + wat: 'alles wat ik weet' (tudo o que eu sei). Também vale para het beste wat e para oração inteira."
+    },
+    {
+      "type": "order",
+      "pt": "Este é o vizinho que mora ao lado de nós.",
+      "tokens": [
+        "Dit",
+        "is",
+        "de",
+        "buurman",
+        "die",
+        "naast",
+        "ons",
+        "woont."
+      ],
+      "answer": "Dit is de buurman die naast ons woont.",
+      "explain": "buurman é de-woord, então die. O verbo conjugado (woont) fecha a oração relativa."
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase está correta? ✅",
+      "options": [
+        "Dit is het boek dat ik lees nu.",
+        "Dit is het boek dat ik nu lees.",
+        "Dit is het boek dat lees ik nu.",
+        "Dit is het boek die ik nu lees."
+      ],
+      "answer": 1,
+      "explain": "Na relativa o verbo vai para o fim: dat ik nu lees. E boek é het-woord, então dat (não die)."
+    },
+    {
+      "type": "order",
+      "pt": "Eu procuro o presente que eu comprei.",
+      "tokens": [
+        "Ik",
+        "zoek",
+        "het",
+        "cadeau",
+        "dat",
+        "ik",
+        "gekocht",
+        "heb."
+      ],
+      "answer": "Ik zoek het cadeau dat ik gekocht heb.",
+      "altAnswers": [
+        "Ik zoek het cadeau dat ik heb gekocht."
+      ],
+      "explain": "Cadeau é het-woord: dat. No fim, particípio e auxiliar: gekocht heb. Em Flamengo também se diz 'heb gekocht'."
+    },
+    {
+      "type": "fill",
+      "before": "Het cadeau",
+      "after": "ik kreeg, is mooi.",
+      "answer": "dat",
+      "hint": "het-woord singular",
+      "explain": "cadeau é het-woord: het cadeau dat ik kreeg (o presente que eu ganhei)."
+    },
+    {
+      "type": "fill",
+      "before": "Niets",
+      "after": "hij zegt, is waar.",
+      "answer": "wat",
+      "hint": "depois de niets",
+      "explain": "Depois de niets (e alles, iets) vem wat: niets wat hij zegt."
+    },
+    {
+      "type": "order",
+      "pt": "Estes são os óculos com os quais eu leio.",
+      "tokens": [
+        "Dit",
+        "is",
+        "de",
+        "bril",
+        "waarmee",
+        "ik",
+        "lees."
+      ],
+      "answer": "Dit is de bril waarmee ik lees.",
+      "explain": "waar + mee = waarmee, a preposição gruda no waar-. De bril = os óculos (em neerlandês é singular)."
+    },
+    {
+      "type": "mc",
+      "q": "Como dizer 'o colega com quem eu trabalho'? 👥",
+      "options": [
+        "de collega waarmee ik werk",
+        "de collega met wie ik werk",
+        "de collega met wat ik werk",
+        "de collega wie ik met werk"
+      ],
+      "answer": 1,
+      "explain": "Com pessoas: preposição + wie (met wie). Com coisas: waar + preposição (waarmee)."
+    },
+    {
+      "type": "fill",
+      "before": "Dat is het onderwerp",
+      "after": "we praten.",
+      "answer": "waarover",
+      "hint": "waar + over",
+      "explain": "waar + over = waarover (sobre o qual): het onderwerp waarover we praten."
+    },
+    {
+      "type": "order",
+      "pt": "Eu levo um guarda-chuva para ficar seco.",
+      "tokens": [
+        "Ik",
+        "neem",
+        "een",
+        "paraplu",
+        "om",
+        "droog",
+        "te",
+        "blijven."
+      ],
+      "answer": "Ik neem een paraplu om droog te blijven.",
+      "explain": "om + complementos + te + infinitivo no fim: om droog te blijven."
+    },
+    {
+      "type": "listen",
+      "nl": "De man die daar staat, is mijn buurman.",
+      "options": [
+        "O homem que está lá é meu vizinho.",
+        "O homem que está lá é meu colega.",
+        "A mulher que mora lá é minha vizinha.",
+        "O vizinho que eu procuro está lá."
+      ],
+      "answer": 0,
+      "explain": "man é de-woord: die. Buurman = vizinho (buur + man)."
+    },
+    {
+      "type": "fill",
+      "before": "Ik ga naar de bakker",
+      "after": "brood te kopen.",
+      "answer": "om",
+      "hint": "para + infinitivo",
+      "explain": "'om ... te' expressa finalidade, como 'para + infinitivo': om brood te kopen."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik zet de wekker om vroeg op te staan.",
+      "options": [
+        "Eu programo o despertador para levantar cedo.",
+        "Eu desligo o despertador porque acordei cedo.",
+        "Eu compro um despertador para o vizinho.",
+        "Eu acordo cedo porque o despertador toca."
+      ],
+      "answer": 0,
+      "explain": "Verbo separável: op te staan (o te entra entre a partícula e o verbo). Zet de wekker = programar o despertador."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "het huis dat",
+          "a casa que"
+        ],
+        [
+          "de man die",
+          "o homem que"
+        ],
+        [
+          "alles wat",
+          "tudo o que"
+        ],
+        [
+          "waarmee",
+          "com o qual"
+        ],
+        [
+          "met wie",
+          "com quem"
+        ],
+        [
+          "om ... te",
+          "para + infinitivo"
+        ]
+      ],
+      "explain": "Resumo: de/plural = die, het = dat, alles/iets/niets = wat, coisas + preposição = waar-, pessoas + preposição = prep + wie."
+    }
+  ]
+}
