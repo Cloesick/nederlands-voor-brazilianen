@@ -25,6 +25,9 @@ self.addEventListener('fetch', e => {
   if (url.pathname.includes('/data/')) {
     e.respondWith(
       fetch(e.request).then(res => {
+        // Only cache good responses: caching a 404/5xx would overwrite the last good copy
+        // and then be served as the "offline fallback".
+        if (!res.ok) return caches.match(e.request).then(cached => cached || res);
         const copy = res.clone();
         caches.open(CACHE_NAME).then(c => c.put(e.request, copy));
         return res;

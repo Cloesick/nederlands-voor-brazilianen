@@ -13,7 +13,14 @@ on:
 
 jobs:
   implement-labeled-issue:
-    if: github.event_name == 'issues' && github.event.label.name == 'autopilot'
+    # Only when a HUMAN adds the label. Issues labeled by the Course Coach (claude[bot])
+    # are left to the nightly sweep below: claude-code-action refuses bot-initiated runs
+    # ("Workflow initiated by non-human actor"), so this job used to fail on every
+    # coach-filed issue while the sweep implemented them anyway.
+    if: >-
+      github.event_name == 'issues' &&
+      github.event.label.name == 'autopilot' &&
+      github.event.sender.type != 'Bot'
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,7 +30,7 @@ jobs:
       actions: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
@@ -60,7 +67,7 @@ jobs:
       actions: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 1
 
