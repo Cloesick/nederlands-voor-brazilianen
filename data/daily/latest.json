@@ -1,29 +1,31 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "word": {
-    "nl": "de zetel",
-    "art": "de",
-    "split": "zetel (assento, sofá)",
-    "pt": "sofá (na Flandres, 'zetel' é o sofá; na Holanda dizem 'bank')",
-    "emoji": "🛋️"
+    "nl": "het kot",
+    "art": "het",
+    "split": "kot (quartinho, cubículo)",
+    "pt": "quarto de estudante alugado perto da universidade (muito usado na Flandres: 'op kot zitten')",
+    "emoji": "🏠"
   },
   "phrase": {
     "nl": [
-      {"t":"Mag","r":"verb"},
+      {"t":"Kan","r":"verb"},
       {"t":"ik","r":"pron"},
-      {"t":"u","r":"pron"},
-      {"t":"iets","r":"pron"},
-      {"t":"vragen","r":"verb"},
+      {"t":"met","r":"prep"},
+      {"t":"de","r":"art"},
+      {"t":"kaart","r":"noun"},
+      {"t":"betalen","r":"verb"},
       {"t":"?","r":"punc"}
     ],
     "pt": [
       {"t":"Posso","r":"verb"},
-      {"t":"lhe","r":"pron"},
-      {"t":"perguntar","r":"verb"},
-      {"t":"uma coisa","r":"pron"},
+      {"t":"pagar","r":"verb"},
+      {"t":"com","r":"prep"},
+      {"t":"o","r":"art"},
+      {"t":"cartão","r":"noun"},
       {"t":"?","r":"punc"}
     ],
-    "lit": "Posso eu o senhor algo perguntar?",
-    "note": "'Mag ik' (posso) inverte o verbo e o sujeito na pergunta, e 'vragen' vai para o fim. 'U' é a forma educada de 'você' na Flandres. 🙋"
+    "lit": "Posso eu com o cartão pagar?",
+    "note": "O verbo no infinitivo ('betalen') vai para o fim da frase. Na Bélgica, 'kaart' costuma ser o cartão Bancontact. 💳"
   }
 }

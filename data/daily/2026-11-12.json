@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-12",
+  "word": {
+    "nl": "het kot",
+    "art": "het",
+    "split": "kot (quartinho, cubículo)",
+    "pt": "quarto de estudante alugado perto da universidade (muito usado na Flandres: 'op kot zitten')",
+    "emoji": "🏠"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kan","r":"verb"},
+      {"t":"ik","r":"pron"},
+      {"t":"met","r":"prep"},
+      {"t":"de","r":"art"},
+      {"t":"kaart","r":"noun"},
+      {"t":"betalen","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Posso","r":"verb"},
+      {"t":"pagar","r":"verb"},
+      {"t":"com","r":"prep"},
+      {"t":"o","r":"art"},
+      {"t":"cartão","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "Posso eu com o cartão pagar?",
+    "note": "O verbo no infinitivo ('betalen') vai para o fim da frase. Na Bélgica, 'kaart' costuma ser o cartão Bancontact. 💳"
+  }
+}
