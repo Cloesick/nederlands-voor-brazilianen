@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-13",
+  "word": {
+    "nl": "de collega",
+    "art": "de",
+    "split": "collega (colega de trabalho)",
+    "pt": "colega de trabalho",
+    "emoji": "🧑‍💼"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Wat","r":"qw"},
+      {"t":"betekent","r":"verb"},
+      {"t":"dat","r":"pron"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"O que","r":"qw"},
+      {"t":"isso","r":"pron"},
+      {"t":"significa","r":"verb"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "O que significa isso?",
+    "note": "Ótima frase para quando você ouve uma palavra nova no trabalho ou na rua. Em neerlandês o verbo vem logo depois da palavra interrogativa. 🤔"
+  }
+}

@@ -1,31 +1,26 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "word": {
-    "nl": "het kot",
-    "art": "het",
-    "split": "kot (quartinho, cubículo)",
-    "pt": "quarto de estudante alugado perto da universidade (muito usado na Flandres: 'op kot zitten')",
-    "emoji": "🏠"
+    "nl": "de collega",
+    "art": "de",
+    "split": "collega (colega de trabalho)",
+    "pt": "colega de trabalho",
+    "emoji": "🧑‍💼"
   },
   "phrase": {
     "nl": [
-      {"t":"Kan","r":"verb"},
-      {"t":"ik","r":"pron"},
-      {"t":"met","r":"prep"},
-      {"t":"de","r":"art"},
-      {"t":"kaart","r":"noun"},
-      {"t":"betalen","r":"verb"},
+      {"t":"Wat","r":"qw"},
+      {"t":"betekent","r":"verb"},
+      {"t":"dat","r":"pron"},
       {"t":"?","r":"punc"}
     ],
     "pt": [
-      {"t":"Posso","r":"verb"},
-      {"t":"pagar","r":"verb"},
-      {"t":"com","r":"prep"},
-      {"t":"o","r":"art"},
-      {"t":"cartão","r":"noun"},
+      {"t":"O que","r":"qw"},
+      {"t":"isso","r":"pron"},
+      {"t":"significa","r":"verb"},
       {"t":"?","r":"punc"}
     ],
-    "lit": "Posso eu com o cartão pagar?",
-    "note": "O verbo no infinitivo ('betalen') vai para o fim da frase. Na Bélgica, 'kaart' costuma ser o cartão Bancontact. 💳"
+    "lit": "O que significa isso?",
+    "note": "Ótima frase para quando você ouve uma palavra nova no trabalho ou na rua. Em neerlandês o verbo vem logo depois da palavra interrogativa. 🤔"
   }
 }
