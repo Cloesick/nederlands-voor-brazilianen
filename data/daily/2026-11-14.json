@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-14",
+  "word": {
+    "nl": "het weerbericht",
+    "art": "het",
+    "split": "weer (tempo) + bericht (notícia)",
+    "pt": "previsão do tempo",
+    "emoji": "🌦️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Waar","r":"qw"},
+      {"t":"is","r":"verb"},
+      {"t":"het","r":"art"},
+      {"t":"station","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Onde","r":"qw"},
+      {"t":"fica","r":"verb"},
+      {"t":"a","r":"art"},
+      {"t":"estação","r":"noun"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "Onde é a estação?",
+    "note": "Em neerlandês usa-se o verbo 'zijn' (ser/estar) para localizar coisas, enquanto em português usamos 'ficar'. Note que 'station' é uma palavra neutra: het station. 🚉"
+  }
+}
