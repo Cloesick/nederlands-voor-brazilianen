@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-15",
+  "word": {
+    "nl": "de bakker",
+    "art": "de",
+    "split": "bak (assar) + -er (quem faz)",
+    "pt": "padeiro / padaria",
+    "emoji": "🥖"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Ik","r":"pron"},
+      {"t":"wil","r":"verb"},
+      {"t":"graag","r":"adv"},
+      {"t":"twee","r":"num"},
+      {"t":"broodjes","r":"noun"},
+      {"t":"kopen","r":"verb"},
+      {"t":".","r":"punc"}
+    ],
+    "pt": [
+      {"t":"Eu","r":"pron"},
+      {"t":"queria","r":"verb"},
+      {"t":"comprar","r":"verb"},
+      {"t":"dois","r":"num"},
+      {"t":"pãezinhos","r":"noun"},
+      {"t":"por favor","r":"adv"},
+      {"t":".","r":"punc"}
+    ],
+    "lit": "Eu quero com prazer dois pãezinhos comprar.",
+    "note": "Em neerlandês o verbo 'kopen' vai para o fim da frase. 'Graag' suaviza o pedido, como o nosso 'queria'. Na Bélgica, 'de bakker' é também a padaria onde se compram 'broodjes'. 🥐"
+  }
+}

@@ -1,28 +1,32 @@
 {
-  "date": "2026-11-14",
+  "date": "2026-11-15",
   "word": {
-    "nl": "het weerbericht",
-    "art": "het",
-    "split": "weer (tempo) + bericht (notícia)",
-    "pt": "previsão do tempo",
-    "emoji": "🌦️"
+    "nl": "de bakker",
+    "art": "de",
+    "split": "bak (assar) + -er (quem faz)",
+    "pt": "padeiro / padaria",
+    "emoji": "🥖"
   },
   "phrase": {
     "nl": [
-      {"t":"Waar","r":"qw"},
-      {"t":"is","r":"verb"},
-      {"t":"het","r":"art"},
-      {"t":"station","r":"noun"},
-      {"t":"?","r":"punc"}
+      {"t":"Ik","r":"pron"},
+      {"t":"wil","r":"verb"},
+      {"t":"graag","r":"adv"},
+      {"t":"twee","r":"num"},
+      {"t":"broodjes","r":"noun"},
+      {"t":"kopen","r":"verb"},
+      {"t":".","r":"punc"}
     ],
     "pt": [
-      {"t":"Onde","r":"qw"},
-      {"t":"fica","r":"verb"},
-      {"t":"a","r":"art"},
-      {"t":"estação","r":"noun"},
-      {"t":"?","r":"punc"}
+      {"t":"Eu","r":"pron"},
+      {"t":"queria","r":"verb"},
+      {"t":"comprar","r":"verb"},
+      {"t":"dois","r":"num"},
+      {"t":"pãezinhos","r":"noun"},
+      {"t":"por favor","r":"adv"},
+      {"t":".","r":"punc"}
     ],
-    "lit": "Onde é a estação?",
-    "note": "Em neerlandês usa-se o verbo 'zijn' (ser/estar) para localizar coisas, enquanto em português usamos 'ficar'. Note que 'station' é uma palavra neutra: het station. 🚉"
+    "lit": "Eu quero com prazer dois pãezinhos comprar.",
+    "note": "Em neerlandês o verbo 'kopen' vai para o fim da frase. 'Graag' suaviza o pedido, como o nosso 'queria'. Na Bélgica, 'de bakker' é também a padaria onde se compram 'broodjes'. 🥐"
   }
 }
