@@ -7,7 +7,7 @@
     {
       "emoji": "🗺️",
       "title": "🗺️ Um mapinha de sabores dialetais",
-      "html": "<p>A Flandres tem dialetos fortes que sobrevivem ao lado do padrão. Você não precisa falá-los, mas reconhecer algumas palavras te salva de cara feia numa conversa de família. 🧭 No C2, o objetivo é EXPOSIÇÃO: identificar a origem e traduzir para o padrão, nunca produzir o dialeto ativamente.</p><table class=\"vocab\"><tr><th>dialeto</th><th>palavra</th><th>padrão (AN)</th><th>português</th></tr><tr><td>West-Vlaams 🌊</td><td>joeng</td><td>jongen</td><td>rapaz, cara</td></tr><tr><td>West-Vlaams 🌊</td><td>klekke</td><td>vallen</td><td>cair</td></tr><tr><td>Antwerps 🏙️</td><td>toet</td><td>gezicht / mond</td><td>rosto / boca</td></tr><tr><td>Antwerps 🏙️</td><td>zeiver(en)</td><td>onzin (uitkramen)</td><td>bobagem, encher linguiça</td></tr><tr><td>Limburgs ⛰️</td><td>gaw</td><td>snel</td><td>rápido</td></tr><tr><td>Limburgs ⛰️</td><td>sjiek</td><td>chic, leuk</td><td>chique, legal</td></tr></table><p><small>🎯 Regra de ouro: dialeto se ENTENDE, padrão se FALA. Ninguém espera que um estrangeiro imite o Antwerps.</small></p>"
+      "html": "<p>A Flandres tem dialetos fortes que sobrevivem ao lado do padrão. Você não precisa falá-los, mas reconhecer algumas palavras te salva de cara feia numa conversa de família. 🧭 No C2, o objetivo é EXPOSIÇÃO: identificar a origem e traduzir para o padrão, nunca produzir o dialeto ativamente.</p><table class=\"vocab\"><tr><th>dialeto</th><th>palavra</th><th>padrão (AN)</th><th>português</th></tr><tr><td>West-Vlaams 🌊</td><td>joeng</td><td>jongen</td><td>rapaz, cara</td></tr><tr><td>West-Vlaams 🌊</td><td>klekke</td><td>vallen</td><td>cair</td></tr><tr><td>Antwerps 🏙️</td><td>toet</td><td>gezicht / mond</td><td>rosto / boca</td></tr><tr><td>Antwerps 🏙️</td><td>zeiver(en)</td><td>onzin (uitkramen)</td><td>bobagem, encher linguiça</td></tr><tr><td>Limburgs ⛰️</td><td>gaw</td><td>snel</td><td>rápido</td></tr><tr><td>Limburgs ⛰️</td><td>sjiek</td><td>chique</td><td>chique, elegante</td></tr></table><p><small>🎯 Regra de ouro: dialeto se ENTENDE, padrão se FALA. Ninguém espera que um estrangeiro imite o Antwerps.</small></p>"
     },
     {
       "emoji": "😏",
@@ -83,9 +83,9 @@
       "note": "Autodepreciação como abertura: diminui o próprio peso antes de discordar, coreografia social típica da Flandres."
     },
     {
-      "nl": [{"t":"In","r":"prep"},{"t":"Limburg","r":"noun"},{"t":"zeggen","r":"verb"},{"t":"ze","r":"pron"},{"t":"soms","r":"adv"},{"t":"\"sjiek\"","r":"x"},{"t":"in","r":"prep"},{"t":"plaats","r":"noun"},{"t":"van","r":"prep"},{"t":"\"leuk\"","r":"x"},{"t":".","r":"punc"}],
-      "pt": [{"t":"No","r":"prep"},{"t":"Limburgo","r":"noun"},{"t":"às","r":"prep"},{"t":"vezes","r":"noun"},{"t":"dizem","r":"verb"},{"t":"\"sjiek\"","r":"x"},{"t":"no","r":"prep"},{"t":"lugar","r":"noun"},{"t":"de","r":"prep"},{"t":"\"leuk\"","r":"x"},{"t":".","r":"punc"}],
-      "note": "Sjiek (Limburgs) = legal, chique. Note a semelhança sonora com 'chic' do francês/inglês."
+      "nl": [{"t":"In","r":"prep"},{"t":"Limburg","r":"noun"},{"t":"zeggen","r":"verb"},{"t":"ze","r":"pron"},{"t":"soms","r":"adv"},{"t":"\"sjiek\"","r":"x"},{"t":"in","r":"prep"},{"t":"plaats","r":"noun"},{"t":"van","r":"prep"},{"t":"\"chique\"","r":"x"},{"t":".","r":"punc"}],
+      "pt": [{"t":"No","r":"prep"},{"t":"Limburgo","r":"noun"},{"t":"às","r":"prep"},{"t":"vezes","r":"noun"},{"t":"dizem","r":"verb"},{"t":"\"sjiek\"","r":"x"},{"t":"no","r":"prep"},{"t":"lugar","r":"noun"},{"t":"de","r":"prep"},{"t":"\"chique\"","r":"x"},{"t":".","r":"punc"}],
+      "note": "Sjiek (Limburgs) = chique, elegante. Note a semelhança sonora com 'chic' do francês/inglês."
     },
     {
       "nl": [{"t":"Belgen","r":"noun"},{"t":"maken","r":"verb"},{"t":"graag","r":"adv"},{"t":"grappen","r":"noun"},{"t":"over","r":"prep"},{"t":"zichzelf","r":"pron"},{"t":"voor","r":"prep"},{"t":"iemand","r":"pron"},{"t":"anders","r":"adj"},{"t":"het","r":"pron"},{"t":"doet","r":"verb"},{"t":".","r":"punc"}],
@@ -99,7 +99,7 @@
     { "nl": "de toet", "art": "de", "split": "dialeto Antwerps", "pt": "rosto / boca (gíria de Antuérpia)", "emoji": "😮" },
     { "nl": "zeiveren", "art": null, "split": "zeiver (baba, bobagem) + en (verbo)", "pt": "falar bobagem, encher linguiça (Antwerps, mas espalhado)", "emoji": "🗯️" },
     { "nl": "gaw", "art": null, "split": "Limburgs de snel", "pt": "rápido (dialeto do Limburgo)", "emoji": "⚡" },
-    { "nl": "sjiek", "art": null, "split": "do francês 'chic', via Limburgs", "pt": "chique, legal (dialeto do Limburgo)", "emoji": "✨" },
+    { "nl": "sjiek", "art": null, "split": "do francês 'chic', via Limburgs", "pt": "chique, elegante (dialeto do Limburgo)", "emoji": "✨" },
     { "nl": "de ironie", "art": "de", "pt": "a ironia (dizer o oposto do que se sente, tom plano)", "emoji": "😏" },
     { "nl": "het understatement", "art": "het", "pt": "elogio ou crítica disfarçados de comentário morno", "emoji": "🫤" },
     { "nl": "niet slecht, hè", "art": null, "split": "niet (não) + slecht (ruim) + hè (né)", "pt": "nada mal, né (elogio disfarçado)", "emoji": "👍" },
@@ -178,10 +178,10 @@
       "type": "fill",
       "before": "In Limburg zeggen ze soms \"sjiek\" in plaats van \"",
       "after": "\".",
-      "answer": "leuk",
+      "answer": "chique",
       "alt": [],
-      "hint": "legal, no padrão",
-      "explain": "Sjiek é a versão Limburgs de leuk (legal, divertido) no padrão."
+      "hint": "elegante, no padrão",
+      "explain": "Sjiek é a versão Limburgs de chique (elegante) no padrão."
     },
     {
       "type": "order",
@@ -199,7 +199,7 @@
     },
     {
       "type": "match",
-      "pairs": [["joeng", "rapaz (West-Vlaams)"], ["zeiveren", "falar bobagem (Antwerps)"], ["sjiek", "legal (Limburgs)"], ["gaw", "rápido (Limburgs)"], ["de toet", "rosto/boca (Antwerps)"], ["klekken", "cair (West-Vlaams)"]],
+      "pairs": [["joeng", "rapaz (West-Vlaams)"], ["zeiveren", "falar bobagem (Antwerps)"], ["sjiek", "chique/elegante (Limburgs)"], ["gaw", "rápido (Limburgs)"], ["de toet", "rosto/boca (Antwerps)"], ["klekken", "cair (West-Vlaams)"]],
       "explain": "Cada dialeto tem seu próprio vocabulário regional; o objetivo C2 é reconhecer a origem e o equivalente padrão, não confundir os três."
     },
     {
