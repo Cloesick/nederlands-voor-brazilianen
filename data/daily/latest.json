@@ -1,29 +1,70 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "word": {
-    "nl": "de kassabon",
-    "art": "de",
-    "split": "kassa (caixa) + bon (comprovante)",
-    "pt": "recibo / cupom da compra",
-    "emoji": "🧾"
+    "nl": "het stopcontact",
+    "art": "het",
+    "split": "stop (plugue) + contact (contato)",
+    "pt": "tomada",
+    "emoji": "🔌"
   },
   "phrase": {
     "nl": [
-      {"t":"Ik","r":"pron"},
-      {"t":"heb","r":"verb"},
-      {"t":"mijn","r":"pron"},
-      {"t":"sleutels","r":"noun"},
-      {"t":"verloren","r":"verb"},
-      {"t":".","r":"punc"}
+      {
+        "t": "Heb",
+        "r": "verb"
+      },
+      {
+        "t": "je",
+        "r": "pron"
+      },
+      {
+        "t": "zin",
+        "r": "noun"
+      },
+      {
+        "t": "om",
+        "r": "prep"
+      },
+      {
+        "t": "iets",
+        "r": "pron"
+      },
+      {
+        "t": "te",
+        "r": "part"
+      },
+      {
+        "t": "drinken",
+        "r": "verb"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
     ],
     "pt": [
-      {"t":"Eu","r":"pron"},
-      {"t":"perdi","r":"verb"},
-      {"t":"minhas","r":"pron"},
-      {"t":"chaves","r":"noun"},
-      {"t":".","r":"punc"}
+      {
+        "t": "Você",
+        "r": "pron"
+      },
+      {
+        "t": "quer",
+        "r": "verb"
+      },
+      {
+        "t": "tomar",
+        "r": "verb"
+      },
+      {
+        "t": "algo",
+        "r": "pron"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
     ],
-    "lit": "Eu tenho minhas chaves perdido.",
-    "note": "O passado composto usa 'hebben' + particípio no fim da frase: 'heb ... verloren'. Em Flandres, guarde a 'kassabon' para trocar ou devolver produtos. 🔑"
+    "lit": "Tem você vontade de algo beber?",
+    "note": "'Zin hebben om te...' significa ter vontade de fazer algo e é o convite casual por excelência: 'Heb je zin om iets te drinken?' vira 'Quer tomar algo?'. 🍻"
   }
 }
