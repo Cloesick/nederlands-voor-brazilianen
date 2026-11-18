@@ -1,0 +1,1157 @@
+{
+ "id": "b1-08-conditionalis",
+ "unit": "B1",
+ "title": "Pedidos, conselhos e hipóteses · Zou en zouden",
+ "emoji": "🎩",
+ "teaching": [
+  {
+   "emoji": "🎩",
+   "title": "Zou / zouden: o condicional neerlandês",
+   "html": "<p>O neerlandês tem um \"-ria\" próprio: <b>zou</b> (singular) e <b>zouden</b> (plural). Como em português <i>gosta<b>ria</b></i>, <i>fa<b>ria</b></i>, <i>pode<b>ria</b></i>, ele serve para pedir com cortesia, aconselhar e imaginar situações.</p><table class=\"vocab\"><tr><th>Pessoa</th><th>Forma</th></tr><tr><td>ik / jij, je / u / hij, zij, het</td><td><b>zou</b></td></tr><tr><td>wij, we / jullie / zij (eles)</td><td><b>zouden</b></td></tr></table><p>🦀 <b>Zou</b> ocupa a posição 2 e empurra o verbo principal, no infinitivo, para o fim da frase: <i>Ik <b>zou</b> graag een koffie <b>willen</b>.</i> <small>(Eu gostaria de um café.)</small></p>"
+  },
+  {
+   "emoji": "🙏",
+   "title": "Pedidos educados e conselhos",
+   "html": "<p>Quanto mais degraus, mais educado:</p><table class=\"vocab\"><tr><th>NL</th><th>PT</th></tr><tr><td>Kan je me helpen?</td><td>Você pode me ajudar? (direto)</td></tr><tr><td>Zou je me kunnen helpen?</td><td>Você poderia me ajudar? (educado)</td></tr><tr><td>Zou u me willen helpen?</td><td>O senhor poderia me ajudar? (formal)</td></tr></table><p>💡 Para <b>aconselhar</b>: <i>Je zou beter wat rusten.</i> <small>(Seria melhor você descansar um pouco.)</small> ou <i>Als ik jou was, zou ik het niet doen.</i> <small>(Se eu fosse você, eu não faria isso.)</small></p><p>🤷 Para dizer <b>pode ser</b>: <i>Dat zou kunnen.</i></p>"
+  },
+  {
+   "emoji": "🌈",
+   "title": "Hipóteses: als + imperfectum, zou + infinitivo",
+   "html": "<p>Em português usamos o subjuntivo (<i>se eu tivesse</i>). Em neerlandês, a primeira parte usa o <b>imperfectum</b> e a segunda usa <b>zou</b> + infinitivo:</p><p>🌈 <b>Als ik meer tijd <u>had</u>, <u>zou</u> ik vaker sporten.</b><br><small>(Se eu tivesse mais tempo, eu me exercitaria mais.)</small></p><p>⚠️ Depois da vírgula, o verbo vem antes do sujeito: <i>zou ik</i>. E evite <i>Als ik zou hebben...</i>: na parte do \"se\", use o imperfectum (had, was).</p><p>⏪ Bônus: <b>zou</b> também é o futuro do passado: <i>Hij zei dat hij zou komen.</i> <small>(Ele disse que viria.)</small></p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Zou",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "kunnen",
+     "r": "verb"
+    },
+    {
+     "t": "helpen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "poderia",
+     "r": "verb"
+    },
+    {
+     "t": "me",
+     "r": "pron"
+    },
+    {
+     "t": "ajudar",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "seria você me poder ajudar?",
+   "note": "zou + kunnen é o pedido educado padrão: em vez de \"Kan je...\", você diz \"Zou je...kunnen\". Zou na posição 1 da pergunta, os infinitivos no fim. 🦀"
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "graag",
+     "r": "adv"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "koffie",
+     "r": "noun"
+    },
+    {
+     "t": "willen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "gostaria",
+     "r": "verb"
+    },
+    {
+     "t": "de",
+     "r": "prep"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "café",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu seria gostosamente um café querer",
+   "note": "zou graag + willen = gostaria de. Em cafés belgas é uma das frases mais ouvidas. ☕"
+  },
+  {
+   "nl": [
+    {
+     "t": "Zou",
+     "r": "verb"
+    },
+    {
+     "t": "u",
+     "r": "pron"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "raam",
+     "r": "noun"
+    },
+    {
+     "t": "willen",
+     "r": "verb"
+    },
+    {
+     "t": "sluiten",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "senhor",
+     "r": "pron"
+    },
+    {
+     "t": "poderia",
+     "r": "verb"
+    },
+    {
+     "t": "fechar",
+     "r": "verb"
+    },
+    {
+     "t": "a",
+     "r": "art"
+    },
+    {
+     "t": "janela",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "seria o senhor a janela querer fechar?",
+   "note": "Com u (formal), o pedido fica ainda mais polido: zou u...willen + infinitivo. 🪟"
+  },
+  {
+   "nl": [
+    {
+     "t": "Zou",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "dat",
+     "r": "pron"
+    },
+    {
+     "t": "kunnen",
+     "r": "verb"
+    },
+    {
+     "t": "herhalen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "poderia",
+     "r": "verb"
+    },
+    {
+     "t": "repetir",
+     "r": "verb"
+    },
+    {
+     "t": "isso",
+     "r": "pron"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "seria você isso poder repetir?",
+   "note": "O objeto dat fica entre zou je e os infinitivos: o bloco verbal vai para o fim. 🔁"
+  },
+  {
+   "nl": [
+    {
+     "t": "Je",
+     "r": "pron"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "beter",
+     "r": "adv"
+    },
+    {
+     "t": "wat",
+     "r": "adv"
+    },
+    {
+     "t": "rusten",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Seria",
+     "r": "verb"
+    },
+    {
+     "t": "melhor",
+     "r": "adv"
+    },
+    {
+     "t": "você",
+     "r": "pron"
+    },
+    {
+     "t": "descansar",
+     "r": "verb"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "pouco",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "tu serias melhor um pouco descansar",
+   "note": "Conselho suave com zou + beter: você sugere sem mandar. 💤"
+  },
+  {
+   "nl": [
+    {
+     "t": "Als",
+     "r": "conj"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "meer",
+     "r": "adv"
+    },
+    {
+     "t": "tijd",
+     "r": "noun"
+    },
+    {
+     "t": "had",
+     "r": "verb"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "vaker",
+     "r": "adv"
+    },
+    {
+     "t": "sporten",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Se",
+     "r": "conj"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "tivesse",
+     "r": "verb"
+    },
+    {
+     "t": "mais",
+     "r": "adv"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "me exercitaria",
+     "r": "verb"
+    },
+    {
+     "t": "mais",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "se eu mais tempo tinha, seria eu mais-vezes esportar",
+   "note": "Hipótese: als + imperfectum (had) na primeira parte, zou + infinitivo na segunda. Depois da vírgula, zou vem ANTES do sujeito (inversão). 🔄"
+  },
+  {
+   "nl": [
+    {
+     "t": "Als",
+     "r": "conj"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "mooi",
+     "r": "adj"
+    },
+    {
+     "t": "weer",
+     "r": "noun"
+    },
+    {
+     "t": "was",
+     "r": "verb"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "zouden",
+     "r": "verb"
+    },
+    {
+     "t": "we",
+     "r": "pron"
+    },
+    {
+     "t": "gaan",
+     "r": "verb"
+    },
+    {
+     "t": "wandelen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Se",
+     "r": "conj"
+    },
+    {
+     "t": "o",
+     "r": "art"
+    },
+    {
+     "t": "tempo",
+     "r": "noun"
+    },
+    {
+     "t": "estivesse",
+     "r": "verb"
+    },
+    {
+     "t": "bonito",
+     "r": "adj"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "nós",
+     "r": "pron"
+    },
+    {
+     "t": "iríamos",
+     "r": "verb"
+    },
+    {
+     "t": "caminhar",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "se o bom tempo era, seriam nós ir caminhar",
+   "note": "Com we (plural), usa-se zouden. O imperfectum (was) aparece só na parte do \"se\". 🌤️"
+  },
+  {
+   "nl": [
+    {
+     "t": "Wat",
+     "r": "qw"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "jij",
+     "r": "pron"
+    },
+    {
+     "t": "doen",
+     "r": "verb"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "mijn",
+     "r": "pron"
+    },
+    {
+     "t": "plaats",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O que",
+     "r": "qw"
+    },
+    {
+     "t": "você",
+     "r": "pron"
+    },
+    {
+     "t": "faria",
+     "r": "verb"
+    },
+    {
+     "t": "no",
+     "r": "prep"
+    },
+    {
+     "t": "meu",
+     "r": "pron"
+    },
+    {
+     "t": "lugar",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "o quê seria tu fazer em meu lugar?",
+   "note": "Palavra interrogativa + zou: Wat zou jij doen? Ótimo para pedir conselho. 🤔"
+  },
+  {
+   "nl": [
+    {
+     "t": "Dat",
+     "r": "pron"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "kunnen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Isso",
+     "r": "pron"
+    },
+    {
+     "t": "poderia",
+     "r": "verb"
+    },
+    {
+     "t": "ser",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "isso seria poder",
+   "note": "Dat zou kunnen = \"pode ser\", uma possibilidade sem se comprometer. 🤷"
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "dat",
+     "r": "pron"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "doen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "faria",
+     "r": "verb"
+    },
+    {
+     "t": "isso",
+     "r": "pron"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu seria isso não fazer",
+   "note": "Conselho direto: niet vem depois de dat e antes do infinitivo final. Em português o \"não\" vem antes do verbo. 🚫"
+  },
+  {
+   "nl": [
+    {
+     "t": "Als",
+     "r": "conj"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "jou",
+     "r": "pron"
+    },
+    {
+     "t": "was",
+     "r": "verb"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "het",
+     "r": "pron"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "doen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Se",
+     "r": "conj"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "fosse",
+     "r": "verb"
+    },
+    {
+     "t": "você",
+     "r": "pron"
+    },
+    {
+     "t": ",",
+     "r": "punc"
+    },
+    {
+     "t": "eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "faria",
+     "r": "verb"
+    },
+    {
+     "t": "isso",
+     "r": "pron"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "se eu tu era, seria eu isso não fazer",
+   "note": "Fórmula pronta de conselho: Als ik jou was, zou ik... O neerlandês usa was (imperfectum), não um subjuntivo. 💡"
+  },
+  {
+   "nl": [
+    {
+     "t": "Hij",
+     "r": "pron"
+    },
+    {
+     "t": "zei",
+     "r": "verb"
+    },
+    {
+     "t": "dat",
+     "r": "conj"
+    },
+    {
+     "t": "hij",
+     "r": "pron"
+    },
+    {
+     "t": "zou",
+     "r": "verb"
+    },
+    {
+     "t": "komen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Ele",
+     "r": "pron"
+    },
+    {
+     "t": "disse",
+     "r": "verb"
+    },
+    {
+     "t": "que",
+     "r": "conj"
+    },
+    {
+     "t": "ele",
+     "r": "pron"
+    },
+    {
+     "t": "viria",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "ele disse que ele seria vir",
+   "note": "Zou também é o futuro do passado: o que alguém disse que ia fazer. Em português: viria. ⏪"
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "het advies",
+   "art": "het",
+   "split": "advies = conselho, da mesma família de \"aviso\"",
+   "pt": "conselho",
+   "emoji": "💡"
+  },
+  {
+   "nl": "het verzoek",
+   "art": "het",
+   "split": "ver (fora) + zoek (busca)",
+   "pt": "pedido formal",
+   "emoji": "📨"
+  },
+  {
+   "nl": "de uitnodiging",
+   "art": "de",
+   "split": "uit (para fora) + nodiging (convite)",
+   "pt": "convite",
+   "emoji": "💌"
+  },
+  {
+   "nl": "de hypothese",
+   "art": "de",
+   "split": "palavra internacional, como em português",
+   "pt": "hipótese",
+   "emoji": "🧪"
+  },
+  {
+   "nl": "de voorwaarde",
+   "art": "de",
+   "split": "voor (antes) + waarde (valor)",
+   "pt": "condição",
+   "emoji": "📋"
+  },
+  {
+   "nl": "de spijt",
+   "art": "de",
+   "split": "da família de spijten (arrepender-se)",
+   "pt": "arrependimento",
+   "emoji": "😔"
+  },
+  {
+   "nl": "de kans",
+   "art": "de",
+   "split": "palavra curta, sem divisão",
+   "pt": "chance, oportunidade",
+   "emoji": "🍀"
+  },
+  {
+   "nl": "de droom",
+   "art": "de",
+   "split": "parente do inglês dream",
+   "pt": "sonho",
+   "emoji": "💭"
+  },
+  {
+   "nl": "aanraden",
+   "art": null,
+   "split": "aan (em) + raden (aconselhar)",
+   "pt": "aconselhar, recomendar",
+   "emoji": "🗣️"
+  },
+  {
+   "nl": "voorstellen",
+   "art": null,
+   "split": "voor (diante) + stellen (colocar)",
+   "pt": "propor, sugerir",
+   "emoji": "🙋"
+  },
+  {
+   "nl": "vaker",
+   "art": null,
+   "split": "vaak (muitas vezes) + -er (mais)",
+   "pt": "com mais frequência",
+   "emoji": "🔁"
+  },
+  {
+   "nl": "beter",
+   "art": null,
+   "split": "comparativo de goed",
+   "pt": "melhor",
+   "emoji": "👍"
+  },
+  {
+   "nl": "misschien",
+   "art": null,
+   "split": "mis + schien, de schijnen (parecer)",
+   "pt": "talvez",
+   "emoji": "🤷"
+  },
+  {
+   "nl": "eventueel",
+   "art": null,
+   "split": "parece \"eventual\", mas é \"se for o caso\"",
+   "pt": "eventualmente, se for o caso",
+   "emoji": "❓"
+  },
+  {
+   "nl": "desnoods",
+   "art": null,
+   "split": "desnood (necessidade) + -s",
+   "pt": "se for preciso, na pior das hipóteses",
+   "emoji": "🆘"
+  },
+  {
+   "nl": "rijk",
+   "art": null,
+   "split": "adjetivo curto",
+   "pt": "rico",
+   "emoji": "💰"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual é a forma certa de pedir ajuda com educação? 🙏",
+   "options": [
+    "Zou je me kunnen helpen?",
+    "Je zou me helpen kunnen?",
+    "Zou je kunnen me helpen?",
+    "Je me zou kunnen helpen?"
+   ],
+   "answer": 0,
+   "explain": "Zou abre a pergunta, depois vêm o sujeito, o objeto me e os dois infinitivos no fim: kunnen helpen."
+  },
+  {
+   "type": "mc",
+   "q": "Como se diz \"Eles gostariam de um café\"? ☕",
+   "options": [
+    "Zij zouden graag een koffie willen.",
+    "Zij zou graag een koffie willen.",
+    "Zij zouden graag een koffie wil.",
+    "Zij zullen graag een koffie willen."
+   ],
+   "answer": 0,
+   "explain": "Com zij (eles), usa-se a forma plural zouden, e o verbo principal fica no infinitivo: willen."
+  },
+  {
+   "type": "mc",
+   "q": "Qual frase forma uma hipótese correta? 🌈",
+   "options": [
+    "Als ik rijk was, zou ik minder werken.",
+    "Als ik rijk zou zijn, zou ik minder werken.",
+    "Als ik rijk ben, zou ik minder werken.",
+    "Als ik rijk was, was ik minder werken."
+   ],
+   "answer": 0,
+   "explain": "Hipótese: als + imperfectum (was) na primeira parte e zou + infinitivo na segunda. Evite zou nas duas partes."
+  },
+  {
+   "type": "mc",
+   "q": "O que significa \"Dat zou kunnen\"? 🤷",
+   "options": [
+    "Pode ser.",
+    "Isso é impossível.",
+    "Eu consigo fazer isso.",
+    "Isso já aconteceu."
+   ],
+   "answer": 0,
+   "explain": "zou kunnen expressa possibilidade: pode ser, talvez."
+  },
+  {
+   "type": "mc",
+   "q": "Qual versão é a mais educada? 🎩",
+   "options": [
+    "Zou u me willen helpen?",
+    "Kan je me helpen?",
+    "Help me!",
+    "Je moet me helpen."
+   ],
+   "answer": 0,
+   "explain": "Zou u...willen é o degrau mais alto de cortesia: condicional + formal u + willen."
+  },
+  {
+   "type": "listen",
+   "nl": "Zou je even kunnen wachten?",
+   "options": [
+    "Você poderia esperar um instante?",
+    "Você já esperou muito tempo?",
+    "Você vai esperar amanhã?"
+   ],
+   "answer": 0,
+   "explain": "zou je...kunnen = você poderia; even = um instante."
+  },
+  {
+   "type": "listen",
+   "nl": "Als ik jou was, zou ik het niet doen.",
+   "options": [
+    "Se eu fosse você, eu não faria isso.",
+    "Se eu te visse, eu não faria isso.",
+    "Quando eu era você, eu não fiz isso."
+   ],
+   "answer": 0,
+   "explain": "Als ik jou was é a fórmula de conselho: se eu fosse você."
+  },
+  {
+   "type": "listen",
+   "nl": "Hij zei dat hij zou komen.",
+   "options": [
+    "Ele disse que viria.",
+    "Ele disse que veio.",
+    "Ele diz que vem."
+   ],
+   "answer": 0,
+   "explain": "zou komen = viria (futuro do passado, depois de um verbo no passado como zei)."
+  },
+  {
+   "type": "fill",
+   "before": "Ik",
+   "after": "graag een glas water willen.",
+   "answer": "zou",
+   "alt": [],
+   "hint": "forma de zou para ik",
+   "explain": "Ik zou graag + infinitivo (willen) = eu gostaria de. Para ik, a forma é zou."
+  },
+  {
+   "type": "fill",
+   "before": "Wij",
+   "after": "graag naar het strand gaan.",
+   "answer": "zouden",
+   "alt": [],
+   "hint": "plural de zou",
+   "explain": "Com wij (nós), usa-se a forma plural zouden."
+  },
+  {
+   "type": "fill",
+   "before": "Als ik meer tijd",
+   "after": ", zou ik vaker sporten.",
+   "answer": "had",
+   "alt": [],
+   "hint": "imperfectum de hebben",
+   "explain": "Na parte do \"se\" usa-se o imperfectum (had). Depois da vírgula vem zou ik (inversão)."
+  },
+  {
+   "type": "fill",
+   "before": "Als ik jou",
+   "after": ", zou ik het niet doen.",
+   "answer": "was",
+   "alt": [],
+   "hint": "imperfectum de zijn",
+   "explain": "Fórmula fixa de conselho: Als ik jou was, zou ik..."
+  },
+  {
+   "type": "fill",
+   "before": "Je zou",
+   "after": "wat rusten.",
+   "answer": "beter",
+   "alt": [],
+   "hint": "melhor",
+   "explain": "Je zou beter + infinitivo é um conselho suave."
+  },
+  {
+   "type": "order",
+   "pt": "Você poderia repetir isso?",
+   "tokens": [
+    "Zou",
+    "je",
+    "dat",
+    "kunnen",
+    "herhalen",
+    "?"
+   ],
+   "answer": "Zou je dat kunnen herhalen ?",
+   "explain": "Zou abre a pergunta e os dois infinitivos (kunnen herhalen) fecham a frase."
+  },
+  {
+   "type": "order",
+   "pt": "Eu gostaria de um café.",
+   "tokens": [
+    "Ik",
+    "zou",
+    "graag",
+    "een",
+    "koffie",
+    "willen",
+    "."
+   ],
+   "answer": "Ik zou graag een koffie willen .",
+   "explain": "Zou fica na posição 2, graag logo depois, e willen vai para o fim."
+  },
+  {
+   "type": "order",
+   "pt": "Se eu tivesse mais tempo, eu me exercitaria mais.",
+   "tokens": [
+    "Als",
+    "ik",
+    "meer",
+    "tijd",
+    "had",
+    ",",
+    "zou",
+    "ik",
+    "vaker",
+    "sporten",
+    "."
+   ],
+   "answer": "Als ik meer tijd had , zou ik vaker sporten .",
+   "explain": "Primeira parte com imperfectum (had); depois da vírgula, zou vem antes do sujeito: zou ik."
+  },
+  {
+   "type": "order",
+   "pt": "O que você faria no meu lugar?",
+   "tokens": [
+    "Wat",
+    "zou",
+    "jij",
+    "doen",
+    "in",
+    "mijn",
+    "plaats",
+    "?"
+   ],
+   "answer": "Wat zou jij doen in mijn plaats ?",
+   "explain": "Palavra interrogativa na posição 1, zou na posição 2, doen no fim do bloco verbal."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "het advies",
+     "conselho"
+    ],
+    [
+     "het verzoek",
+     "pedido formal"
+    ],
+    [
+     "de uitnodiging",
+     "convite"
+    ],
+    [
+     "de spijt",
+     "arrependimento"
+    ],
+    [
+     "de voorwaarde",
+     "condição"
+    ],
+    [
+     "desnoods",
+     "se for preciso"
+    ]
+   ],
+   "explain": "Vocabulário para pedidos, conselhos e hipóteses: tudo o que aparece junto com zou."
+  }
+ ]
+}
