@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-18",
+  "word": {
+    "nl": "het fietspad",
+    "art": "het",
+    "split": "fiets (bicicleta) + pad (caminho)",
+    "pt": "ciclovia",
+    "emoji": "🚲"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Het",
+        "r": "pron"
+      },
+      {
+        "t": "regent",
+        "r": "verb"
+      },
+      {
+        "t": "al",
+        "r": "adv"
+      },
+      {
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "hele",
+        "r": "adj"
+      },
+      {
+        "t": "dag",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Está",
+        "r": "verb"
+      },
+      {
+        "t": "chovendo",
+        "r": "verb"
+      },
+      {
+        "t": "o",
+        "r": "art"
+      },
+      {
+        "t": "dia",
+        "r": "noun"
+      },
+      {
+        "t": "inteiro",
+        "r": "adj"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Isso chove já o dia todo.",
+    "note": "Em holandês o 'het' de 'Het regent' é um sujeito vazio, como o 'it' do inglês. Em português não precisamos dele. E o 'al' indica que a chuva já dura há tempo. Muito útil na Flandres! 🌧️"
+  }
+}
