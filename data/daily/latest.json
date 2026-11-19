@@ -1,37 +1,45 @@
 {
-  "date": "2026-11-18",
+  "date": "2026-11-19",
   "word": {
-    "nl": "het fietspad",
-    "art": "het",
-    "split": "fiets (bicicleta) + pad (caminho)",
-    "pt": "ciclovia",
-    "emoji": "🚲"
+    "nl": "de brievenbus",
+    "art": "de",
+    "split": "brieven (cartas) + bus (caixa)",
+    "pt": "caixa de correio",
+    "emoji": "📬"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Het",
+        "t": "Ik",
         "r": "pron"
       },
       {
-        "t": "regent",
+        "t": "ben",
         "r": "verb"
       },
       {
-        "t": "al",
-        "r": "adv"
+        "t": "laat",
+        "r": "adj"
+      },
+      {
+        "t": "omdat",
+        "r": "conj"
       },
       {
         "t": "de",
         "r": "art"
       },
       {
-        "t": "hele",
-        "r": "adj"
+        "t": "trein",
+        "r": "noun"
       },
       {
-        "t": "dag",
+        "t": "vertraging",
         "r": "noun"
+      },
+      {
+        "t": "had",
+        "r": "verb"
       },
       {
         "t": ".",
@@ -40,31 +48,39 @@
     ],
     "pt": [
       {
-        "t": "Está",
+        "t": "Estou",
         "r": "verb"
       },
       {
-        "t": "chovendo",
-        "r": "verb"
+        "t": "atrasado",
+        "r": "adj"
+      },
+      {
+        "t": "porque",
+        "r": "conj"
       },
       {
         "t": "o",
         "r": "art"
       },
       {
-        "t": "dia",
+        "t": "trem",
         "r": "noun"
       },
       {
-        "t": "inteiro",
-        "r": "adj"
+        "t": "teve",
+        "r": "verb"
+      },
+      {
+        "t": "atraso",
+        "r": "noun"
       },
       {
         "t": ".",
         "r": "punc"
       }
     ],
-    "lit": "Isso chove já o dia todo.",
-    "note": "Em holandês o 'het' de 'Het regent' é um sujeito vazio, como o 'it' do inglês. Em português não precisamos dele. E o 'al' indica que a chuva já dura há tempo. Muito útil na Flandres! 🌧️"
+    "lit": "Eu sou tarde porque o trem atraso teve.",
+    "note": "Depois de 'omdat' o verbo vai para o fim da frase: 'omdat de trein vertraging had'. Em português a ordem não muda. Na Bélgica o atraso de trens (NMBS) é um assunto bem comum! 🚆"
   }
 }

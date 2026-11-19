@@ -1,0 +1,86 @@
+{
+  "date": "2026-11-19",
+  "word": {
+    "nl": "de brievenbus",
+    "art": "de",
+    "split": "brieven (cartas) + bus (caixa)",
+    "pt": "caixa de correio",
+    "emoji": "📬"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "ben",
+        "r": "verb"
+      },
+      {
+        "t": "laat",
+        "r": "adj"
+      },
+      {
+        "t": "omdat",
+        "r": "conj"
+      },
+      {
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "trein",
+        "r": "noun"
+      },
+      {
+        "t": "vertraging",
+        "r": "noun"
+      },
+      {
+        "t": "had",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Estou",
+        "r": "verb"
+      },
+      {
+        "t": "atrasado",
+        "r": "adj"
+      },
+      {
+        "t": "porque",
+        "r": "conj"
+      },
+      {
+        "t": "o",
+        "r": "art"
+      },
+      {
+        "t": "trem",
+        "r": "noun"
+      },
+      {
+        "t": "teve",
+        "r": "verb"
+      },
+      {
+        "t": "atraso",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Eu sou tarde porque o trem atraso teve.",
+    "note": "Depois de 'omdat' o verbo vai para o fim da frase: 'omdat de trein vertraging had'. Em português a ordem não muda. Na Bélgica o atraso de trens (NMBS) é um assunto bem comum! 🚆"
+  }
+}
