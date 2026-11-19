@@ -1,0 +1,1026 @@
+{
+ "id": "a1-10-bezittelijk-verkleinwoord",
+ "unit": "A1",
+ "title": "Meu, seu, nosso e o -je · Bezittelijk en verkleinwoord",
+ "emoji": "🏡",
+ "teaching": [
+  {
+   "emoji": "🙋",
+   "title": "Os possessivos: mijn, jouw, zijn, haar...",
+   "html": "<p>Em neerlandês o possessivo fica <b>antes</b> do substantivo e quase nunca muda de forma. Não tem \"o meu / a minha\" nem masculino e feminino de quem possui, só o dono conta: <b>zijn</b> = dele, <b>haar</b> = dela.</p><table class=\"vocab\"><tr><th>neerlandês</th><th>português</th></tr><tr><td><b>mijn</b> (m'n) zus</td><td><small>minha irmã</small></td></tr><tr><td><b>jouw</b> (je) zus</td><td><small>sua irmã (informal)</small></td></tr><tr><td><b>uw</b> zus</td><td><small>a irmã do senhor/da senhora (formal)</small></td></tr><tr><td><b>zijn</b> zus</td><td><small>a irmã dele</small></td></tr><tr><td><b>haar</b> zus</td><td><small>a irmã dela</small></td></tr><tr><td><b>ons / onze</b> zus</td><td><small>nossa irmã</small></td></tr><tr><td><b>jullie</b> zus</td><td><small>a irmã de vocês</small></td></tr><tr><td><b>hun</b> zus</td><td><small>a irmã deles/delas</small></td></tr></table><p>💡 Na fala, <b>je</b> é a forma curta de <b>jouw</b> e é a mais usada. Use <b>jouw</b> só para dar ênfase (\"jouw fiets, niet de mijne\"). Para pessoas que você trata de <i>u</i>, use <b>uw</b>.</p><p>⚠️ <b>zijn</b> também é o verbo ser/estar. O contexto resolve: <i>zijn broer</i> (o irmão dele), <i>ze zijn thuis</i> (eles estão em casa).</p>"
+  },
+  {
+   "emoji": "👫",
+   "title": "ons ou onze? Depende do artigo",
+   "html": "<p>Só o possessivo da 1ª pessoa do plural muda de forma, e a regra é a dos artigos que você já conhece:</p><ul><li><b>ons</b> + het-woord no singular: <b>ons huis</b>, <b>ons kind</b></li><li><b>onze</b> + de-woord no singular: <b>onze kamer</b>, <b>onze kat</b></li><li><b>onze</b> + qualquer plural: <b>onze kinderen</b>, <b>onze huizen</b></li></ul><p>Já <b>jullie</b> e <b>hun</b> não mudam nunca. Cuidado para não confundir <b>hun</b> (posse: <i>hun auto</i>) com <b>ze/zij</b> (sujeito: <i>ze rijden</i>).</p><p>💬 Na Flandres você vai ouvir <i>ons mama</i> ou <i>ons Marie</i> na fala do dia a dia, com ons até para pessoas. É tussentaal: entenda, mas prefira <b>onze moeder</b> ao escrever e ao falar com gente nova.</p>"
+  },
+  {
+   "emoji": "🍺",
+   "title": "O diminutivo -je (e a mudança de de para het)",
+   "html": "<p>O português faz <b>casa, casinha</b> e <b>cerveja, cervejinha</b> com <b>-inho/-inha</b>. O neerlandês faz o mesmo com <b>-je</b>, e os flamengos adoram: <b>een koffietje</b>, <b>een pintje</b>, <b>een momentje</b>. Além de \"pequeno\", o -je dá carinho ou simpatia.</p><table class=\"vocab\"><tr><th>termina em...</th><th>sufixo</th><th>exemplo</th></tr><tr><td>maioria das consoantes</td><td><b>-je</b></td><td><small>huis, huisje · boek, boekje</small></td></tr><tr><td>vogal longa + l, n, r, w ou sílaba átona</td><td><b>-tje</b></td><td><small>bier, biertje · deur, deurtje · koffie, koffietje · tafel, tafeltje</small></td></tr><tr><td>vogal curta tônica + consoante</td><td><b>-etje</b> (dobra a consoante)</td><td><small>man, mannetje · pen, pennetje · bal, balletje</small></td></tr><tr><td>-m depois de vogal longa ou ditongo</td><td><b>-pje</b></td><td><small>boom, boompje · bloem, bloempje</small></td></tr></table><p>🔁 <b>Regra de ouro:</b> todo diminutivo é <b>het</b>, mesmo que a palavra original seja <i>de</i>: <b>de man</b> vira <b>het mannetje</b>. Isso não existe em português, onde casa continua feminino em casinha. O plural é em -s: <b>huisjes</b>, <b>biertjes</b>.</p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Mijn",
+     "r": "pron"
+    },
+    {
+     "t": "naam",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "Sofia",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Meu",
+     "r": "pron"
+    },
+    {
+     "t": "nome",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "Sofia",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "meu nome é Sofia",
+   "note": "mijn é o possessivo da 1ª pessoa: não muda nunca, seja o substantivo de ou het."
+  },
+  {
+   "nl": [
+    {
+     "t": "Jouw",
+     "r": "pron"
+    },
+    {
+     "t": "zus",
+     "r": "noun"
+    },
+    {
+     "t": "woont",
+     "r": "verb"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Sua",
+     "r": "pron"
+    },
+    {
+     "t": "irmã",
+     "r": "noun"
+    },
+    {
+     "t": "mora",
+     "r": "verb"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "jouw irmã mora em Gent",
+   "note": "jouw é a forma informal e enfática; no dia a dia usa-se a forma curta je."
+  },
+  {
+   "nl": [
+    {
+     "t": "Is",
+     "r": "verb"
+    },
+    {
+     "t": "dit",
+     "r": "pron"
+    },
+    {
+     "t": "jouw",
+     "r": "pron"
+    },
+    {
+     "t": "fiets",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "É",
+     "r": "verb"
+    },
+    {
+     "t": "esta",
+     "r": "pron"
+    },
+    {
+     "t": "sua",
+     "r": "pron"
+    },
+    {
+     "t": "bicicleta",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "note": "O possessivo vem sempre antes do substantivo, igual ao português (sua bicicleta)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Zijn",
+     "r": "pron"
+    },
+    {
+     "t": "broer",
+     "r": "noun"
+    },
+    {
+     "t": "heeft",
+     "r": "verb"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "auto",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "irmão",
+     "r": "noun"
+    },
+    {
+     "t": "dele",
+     "r": "pron"
+    },
+    {
+     "t": "tem",
+     "r": "verb"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "carro",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "dele irmão tem um carro",
+   "note": "zijn = dele. O português põe o possessivo depois (o irmão dele), o neerlandês põe antes."
+  },
+  {
+   "nl": [
+    {
+     "t": "Haar",
+     "r": "pron"
+    },
+    {
+     "t": "man",
+     "r": "noun"
+    },
+    {
+     "t": "werkt",
+     "r": "verb"
+    },
+    {
+     "t": "in",
+     "r": "prep"
+    },
+    {
+     "t": "Brussel",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O",
+     "r": "art"
+    },
+    {
+     "t": "marido",
+     "r": "noun"
+    },
+    {
+     "t": "dela",
+     "r": "pron"
+    },
+    {
+     "t": "trabalha",
+     "r": "verb"
+    },
+    {
+     "t": "em",
+     "r": "prep"
+    },
+    {
+     "t": "Bruxelas",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "dela homem trabalha em Bruxelas",
+   "note": "man = homem e também marido. haar = dela."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ons",
+     "r": "pron"
+    },
+    {
+     "t": "huis",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "klein",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Nossa",
+     "r": "pron"
+    },
+    {
+     "t": "casa",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "pequena",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "huis é um het-woord no singular, por isso ons (sem -e)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Onze",
+     "r": "pron"
+    },
+    {
+     "t": "kamer",
+     "r": "noun"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "groot",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Nosso",
+     "r": "pron"
+    },
+    {
+     "t": "quarto",
+     "r": "noun"
+    },
+    {
+     "t": "é",
+     "r": "verb"
+    },
+    {
+     "t": "grande",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "kamer é um de-woord, por isso onze. Onze também vale para todo plural: onze kinderen."
+  },
+  {
+   "nl": [
+    {
+     "t": "Waar",
+     "r": "qw"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "jullie",
+     "r": "pron"
+    },
+    {
+     "t": "auto",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Onde",
+     "r": "qw"
+    },
+    {
+     "t": "está",
+     "r": "verb"
+    },
+    {
+     "t": "o",
+     "r": "art"
+    },
+    {
+     "t": "carro",
+     "r": "noun"
+    },
+    {
+     "t": "de vocês",
+     "r": "pron"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "onde está vocês carro?",
+   "note": "jullie = de vocês, e nunca muda de forma."
+  },
+  {
+   "nl": [
+    {
+     "t": "Hun",
+     "r": "pron"
+    },
+    {
+     "t": "kinderen",
+     "r": "noun"
+    },
+    {
+     "t": "spelen",
+     "r": "verb"
+    },
+    {
+     "t": "buiten",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Os",
+     "r": "art"
+    },
+    {
+     "t": "filhos",
+     "r": "noun"
+    },
+    {
+     "t": "deles",
+     "r": "pron"
+    },
+    {
+     "t": "brincam",
+     "r": "verb"
+    },
+    {
+     "t": "lá fora",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "note": "hun = deles/delas. Cuidado: hun é posse (hun huis); ze/zij é o sujeito (ze spelen)."
+  },
+  {
+   "nl": [
+    {
+     "t": "Mag",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "pen",
+     "r": "noun"
+    },
+    {
+     "t": "lenen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Posso",
+     "r": "verb"
+    },
+    {
+     "t": "emprestar",
+     "r": "verb"
+    },
+    {
+     "t": "a",
+     "r": "art"
+    },
+    {
+     "t": "sua",
+     "r": "pron"
+    },
+    {
+     "t": "caneta",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "posso eu tua caneta emprestar?",
+   "note": "je é a forma curta e átona de jouw: a mais comum na fala."
+  },
+  {
+   "nl": [
+    {
+     "t": "Het",
+     "r": "pron"
+    },
+    {
+     "t": "is",
+     "r": "verb"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "mooi",
+     "r": "adj"
+    },
+    {
+     "t": "huisje",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "É",
+     "r": "verb"
+    },
+    {
+     "t": "uma",
+     "r": "art"
+    },
+    {
+     "t": "casinha",
+     "r": "noun"
+    },
+    {
+     "t": "bonita",
+     "r": "adj"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "é uma bonita casinha",
+   "note": "huisje = huis + -je. O diminutivo é sempre het-woord, mas o artigo een continua igual."
+  },
+  {
+   "nl": [
+    {
+     "t": "Wil",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "biertje",
+     "r": "noun"
+    },
+    {
+     "t": "of",
+     "r": "conj"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "koffietje",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Quer",
+     "r": "verb"
+    },
+    {
+     "t": "uma",
+     "r": "art"
+    },
+    {
+     "t": "cervejinha",
+     "r": "noun"
+    },
+    {
+     "t": "ou",
+     "r": "conj"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "cafezinho",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "note": "Na Flandres, pedir \"een pintje\" ou \"een koffietje\" é o normal: o -je deixa tudo mais simpático."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "mijn",
+   "art": null,
+   "split": null,
+   "pt": "meu / minha",
+   "emoji": "🙋"
+  },
+  {
+   "nl": "jouw / je",
+   "art": null,
+   "split": null,
+   "pt": "teu, seu / sua (informal)",
+   "emoji": "👉"
+  },
+  {
+   "nl": "uw",
+   "art": null,
+   "split": null,
+   "pt": "o seu / a sua (formal, para 'u')",
+   "emoji": "🎩"
+  },
+  {
+   "nl": "zijn",
+   "art": null,
+   "split": null,
+   "pt": "dele (também: ser/estar)",
+   "emoji": "👨"
+  },
+  {
+   "nl": "haar",
+   "art": null,
+   "split": null,
+   "pt": "dela",
+   "emoji": "👩"
+  },
+  {
+   "nl": "ons / onze",
+   "art": null,
+   "split": null,
+   "pt": "nosso / nossa",
+   "emoji": "👫"
+  },
+  {
+   "nl": "jullie",
+   "art": null,
+   "split": null,
+   "pt": "de vocês",
+   "emoji": "👥"
+  },
+  {
+   "nl": "hun",
+   "art": null,
+   "split": null,
+   "pt": "deles / delas",
+   "emoji": "👪"
+  },
+  {
+   "nl": "de zus",
+   "art": "de",
+   "split": "zus (irmã)",
+   "pt": "a irmã",
+   "emoji": "👭"
+  },
+  {
+   "nl": "de broer",
+   "art": "de",
+   "split": null,
+   "pt": "o irmão",
+   "emoji": "👬"
+  },
+  {
+   "nl": "de fiets",
+   "art": "de",
+   "split": null,
+   "pt": "a bicicleta",
+   "emoji": "🚲"
+  },
+  {
+   "nl": "het huisje",
+   "art": "het",
+   "split": "huis (casa) + je (-inho)",
+   "pt": "a casinha",
+   "emoji": "🏡"
+  },
+  {
+   "nl": "het biertje",
+   "art": "het",
+   "split": "bier (cerveja) + tje (-inho)",
+   "pt": "a cervejinha, o copo de cerveja",
+   "emoji": "🍺"
+  },
+  {
+   "nl": "het koffietje",
+   "art": "het",
+   "split": "koffie (café) + tje (-inho)",
+   "pt": "o cafezinho",
+   "emoji": "☕"
+  },
+  {
+   "nl": "het boekje",
+   "art": "het",
+   "split": "boek (livro) + je (-inho)",
+   "pt": "o livrinho, a cadernetinha",
+   "emoji": "📖"
+  },
+  {
+   "nl": "het momentje",
+   "art": "het",
+   "split": "moment + je (-inho)",
+   "pt": "um momentinho",
+   "emoji": "⏳"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Qual palavra significa \"dela\"?",
+   "options": [
+    "zijn",
+    "hun",
+    "haar",
+    "ons"
+   ],
+   "answer": 2,
+   "explain": "haar = dela. zijn = dele, hun = deles/delas, ons = nosso."
+  },
+  {
+   "type": "mc",
+   "q": "Como se diz \"nossa casa\" (het huis)?",
+   "options": [
+    "onze huis",
+    "ons huis",
+    "ons huize",
+    "onze huizen"
+   ],
+   "answer": 1,
+   "explain": "huis é het-woord no singular, então ons. Onze só aparece com de-woorden (onze kamer) e com plurais (onze huizen)."
+  },
+  {
+   "type": "mc",
+   "q": "Qual é o diminutivo de \"de man\"?",
+   "options": [
+    "het manje",
+    "het mantje",
+    "de mannetje",
+    "het mannetje"
+   ],
+   "answer": 3,
+   "explain": "Depois de vogal curta + consoante, dobra-se a consoante e entra -etje: man, mannetje. E o artigo vira het."
+  },
+  {
+   "type": "mc",
+   "q": "O que acontece com o artigo quando se faz um diminutivo com -je?",
+   "options": [
+    "Nada, continua de",
+    "Vira sempre het",
+    "Vira een",
+    "Desaparece"
+   ],
+   "answer": 1,
+   "explain": "Todo diminutivo é het-woord: de man, het mannetje; de koffie, het koffietje."
+  },
+  {
+   "type": "mc",
+   "q": "Qual é o diminutivo de \"de bloem\" (a flor)?",
+   "options": [
+    "het bloemje",
+    "het bloempje",
+    "het bloemtje",
+    "het bloemetje"
+   ],
+   "answer": 1,
+   "explain": "Depois de -m precedido de vogal longa ou ditongo, usa-se -pje: bloem, bloempje; boom, boompje."
+  },
+  {
+   "type": "listen",
+   "nl": "Onze kamer is groot.",
+   "options": [
+    "Nosso quarto é grande.",
+    "Nosso quarto é pequeno.",
+    "Seu quarto é grande."
+   ],
+   "answer": 0,
+   "explain": "onze kamer = nosso quarto. groot = grande."
+  },
+  {
+   "type": "listen",
+   "nl": "Wil je een biertje?",
+   "options": [
+    "Quer uma cerveja grande?",
+    "Você tem uma cerveja?",
+    "Quer uma cervejinha?"
+   ],
+   "answer": 2,
+   "explain": "biertje é o diminutivo de bier, bem comum na Flandres."
+  },
+  {
+   "type": "listen",
+   "nl": "Haar broer heeft een fiets.",
+   "options": [
+    "O irmão dela tem uma bicicleta.",
+    "O irmão dele tem uma bicicleta.",
+    "A irmã dela tem uma bicicleta."
+   ],
+   "answer": 0,
+   "explain": "haar = dela, broer = irmão, fiets = bicicleta."
+  },
+  {
+   "type": "fill",
+   "before": "Jan woont hier. Dat is",
+   "after": "huis.",
+   "answer": "zijn",
+   "hint": "dele",
+   "explain": "zijn = dele. Jan é homem, então zijn huis."
+  },
+  {
+   "type": "fill",
+   "before": "Wij hebben een kat. Dat is",
+   "after": "kat.",
+   "answer": "onze",
+   "hint": "nossa (de kat é de-woord)",
+   "explain": "kat é de-woord, então onze kat (ons seria só para het-woorden no singular)."
+  },
+  {
+   "type": "fill",
+   "before": "Zij hebben twee kinderen. Dat zijn",
+   "after": "kinderen.",
+   "answer": "hun",
+   "hint": "deles",
+   "explain": "hun = deles/delas. Ze é o sujeito (ze hebben), hun é a posse."
+  },
+  {
+   "type": "fill",
+   "before": "Een klein huis is een",
+   "after": "(diminutivo)",
+   "answer": "huisje",
+   "hint": "diminutivo de het huis",
+   "explain": "huis + je = huisje. Depois de -s basta acrescentar -je."
+  },
+  {
+   "type": "fill",
+   "before": "Ik zoek",
+   "after": "pen.",
+   "answer": "mijn",
+   "alt": [
+    "m'n"
+   ],
+   "hint": "minha",
+   "explain": "mijn pen = minha caneta. Na escrita informal também se vê a forma curta m'n."
+  },
+  {
+   "type": "order",
+   "pt": "A casa deles é grande.",
+   "tokens": [
+    "Hun",
+    "huis",
+    "is",
+    "groot"
+   ],
+   "answer": "Hun huis is groot",
+   "explain": "hun = deles. O possessivo vem antes do substantivo."
+  },
+  {
+   "type": "order",
+   "pt": "Onde está o carro de vocês?",
+   "tokens": [
+    "Waar",
+    "is",
+    "jullie",
+    "auto"
+   ],
+   "answer": "Waar is jullie auto",
+   "explain": "jullie = de vocês e fica antes do substantivo. A pergunta com waar leva o verbo em 2º lugar."
+  },
+  {
+   "type": "order",
+   "pt": "Posso emprestar a sua caneta?",
+   "tokens": [
+    "Mag",
+    "ik",
+    "je",
+    "pen",
+    "lenen"
+   ],
+   "answer": "Mag ik je pen lenen",
+   "explain": "Pergunta sim/não: o verbo mag abre a frase, e o infinitivo lenen vai para o fim."
+  },
+  {
+   "type": "order",
+   "pt": "Ela tem uma casinha bonita.",
+   "tokens": [
+    "Zij",
+    "heeft",
+    "een",
+    "mooi",
+    "huisje"
+   ],
+   "answer": "Zij heeft een mooi huisje",
+   "explain": "huisje = diminutivo de huis. O adjetivo mooi vem antes do substantivo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "mijn",
+     "meu"
+    ],
+    [
+     "zijn",
+     "dele"
+    ],
+    [
+     "haar",
+     "dela"
+    ],
+    [
+     "ons / onze",
+     "nosso"
+    ],
+    [
+     "hun",
+     "deles"
+    ],
+    [
+     "jullie",
+     "de vocês"
+    ]
+   ],
+   "explain": "Possessivos: todos ficam antes do substantivo; só ons/onze muda de forma (het-woord singular = ons)."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "het huisje",
+     "a casinha"
+    ],
+    [
+     "het biertje",
+     "a cervejinha"
+    ],
+    [
+     "het koffietje",
+     "o cafezinho"
+    ],
+    [
+     "het boekje",
+     "o livrinho"
+    ],
+    [
+     "het momentje",
+     "o momentinho"
+    ]
+   ],
+   "explain": "O -je/-tje dos diminutivos corresponde ao nosso -inho, mas aqui o artigo sempre vira het."
+  }
+ ]
+}
