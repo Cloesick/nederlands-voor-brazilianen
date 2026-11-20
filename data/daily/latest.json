@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "word": {
-    "nl": "de brievenbus",
+    "nl": "de winkelwagen",
     "art": "de",
-    "split": "brieven (cartas) + bus (caixa)",
-    "pt": "caixa de correio",
-    "emoji": "📬"
+    "split": "winkel (loja) + wagen (carrinho)",
+    "pt": "carrinho de compras",
+    "emoji": "🛒"
   },
   "phrase": {
     "nl": [
@@ -14,32 +14,28 @@
         "r": "pron"
       },
       {
-        "t": "ben",
+        "t": "woon",
         "r": "verb"
       },
       {
-        "t": "laat",
-        "r": "adj"
+        "t": "sinds",
+        "r": "prep"
       },
       {
-        "t": "omdat",
-        "r": "conj"
+        "t": "twee",
+        "r": "num"
       },
       {
-        "t": "de",
-        "r": "art"
-      },
-      {
-        "t": "trein",
+        "t": "jaar",
         "r": "noun"
       },
       {
-        "t": "vertraging",
-        "r": "noun"
+        "t": "in",
+        "r": "prep"
       },
       {
-        "t": "had",
-        "r": "verb"
+        "t": "Gent",
+        "r": "noun"
       },
       {
         "t": ".",
@@ -48,31 +44,27 @@
     ],
     "pt": [
       {
-        "t": "Estou",
+        "t": "Moro",
         "r": "verb"
       },
       {
-        "t": "atrasado",
-        "r": "adj"
+        "t": "há",
+        "r": "prep"
       },
       {
-        "t": "porque",
-        "r": "conj"
+        "t": "dois",
+        "r": "num"
       },
       {
-        "t": "o",
-        "r": "art"
-      },
-      {
-        "t": "trem",
+        "t": "anos",
         "r": "noun"
       },
       {
-        "t": "teve",
-        "r": "verb"
+        "t": "em",
+        "r": "prep"
       },
       {
-        "t": "atraso",
+        "t": "Gent",
         "r": "noun"
       },
       {
@@ -80,7 +72,7 @@
         "r": "punc"
       }
     ],
-    "lit": "Eu sou tarde porque o trem atraso teve.",
-    "note": "Depois de 'omdat' o verbo vai para o fim da frase: 'omdat de trein vertraging had'. Em português a ordem não muda. Na Bélgica o atraso de trens (NMBS) é um assunto bem comum! 🚆"
+    "lit": "Eu moro desde dois anos em Gent.",
+    "note": "Em holandês, para algo que começou no passado e continua, usa-se o presente com 'sinds': 'Ik woon sinds twee jaar...'. Em português dizemos 'moro há dois anos', também no presente. Não use o passado! 🏠"
   }
 }

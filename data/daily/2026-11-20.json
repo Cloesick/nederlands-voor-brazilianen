@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-20",
+  "word": {
+    "nl": "de winkelwagen",
+    "art": "de",
+    "split": "winkel (loja) + wagen (carrinho)",
+    "pt": "carrinho de compras",
+    "emoji": "🛒"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "woon",
+        "r": "verb"
+      },
+      {
+        "t": "sinds",
+        "r": "prep"
+      },
+      {
+        "t": "twee",
+        "r": "num"
+      },
+      {
+        "t": "jaar",
+        "r": "noun"
+      },
+      {
+        "t": "in",
+        "r": "prep"
+      },
+      {
+        "t": "Gent",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Moro",
+        "r": "verb"
+      },
+      {
+        "t": "há",
+        "r": "prep"
+      },
+      {
+        "t": "dois",
+        "r": "num"
+      },
+      {
+        "t": "anos",
+        "r": "noun"
+      },
+      {
+        "t": "em",
+        "r": "prep"
+      },
+      {
+        "t": "Gent",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Eu moro desde dois anos em Gent.",
+    "note": "Em holandês, para algo que começou no passado e continua, usa-se o presente com 'sinds': 'Ik woon sinds twee jaar...'. Em português dizemos 'moro há dois anos', também no presente. Não use o passado! 🏠"
+  }
+}
