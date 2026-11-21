@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-21",
+  "word": {
+    "nl": "de paraplu",
+    "art": "de",
+    "split": "para (contra) + plu (chuva)",
+    "pt": "guarda-chuva",
+    "emoji": "☂️"
+  },
+  "phrase": {
+    "nl": [
+      {"t":"Kunt","r":"verb"},
+      {"t":"u","r":"pron"},
+      {"t":"dat","r":"pron"},
+      {"t":"herhalen","r":"verb"},
+      {"t":",","r":"punc"},
+      {"t":"alstublieft","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "pt": [
+      {"t":"O","r":"art"},
+      {"t":"senhor","r":"pron"},
+      {"t":"poderia","r":"verb"},
+      {"t":"repetir","r":"verb"},
+      {"t":"isso","r":"pron"},
+      {"t":",","r":"punc"},
+      {"t":"por favor","r":"adv"},
+      {"t":"?","r":"punc"}
+    ],
+    "lit": "Pode o senhor isso repetir, por favor?",
+    "note": "Em holandês o verbo modal 'kunt' vem na frente na pergunta e o infinitivo 'herhalen' vai para o fim da frase. Com 'u' (formal) é educado com atendentes e desconhecidos; entre amigos use 'Kun je dat herhalen?'. 🗣️"
+  }
+}
