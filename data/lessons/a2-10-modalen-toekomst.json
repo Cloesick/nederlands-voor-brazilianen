@@ -1,0 +1,1095 @@
+{
+ "id": "a2-10-modalen-toekomst",
+ "unit": "A2",
+ "title": "Futuro e verbos modais · Toekomst en modalen",
+ "emoji": "🔮",
+ "teaching": [
+  {
+   "emoji": "🚀",
+   "title": "O futuro com gaan",
+   "html": "<p>No dia a dia, o belga quase não usa um \"tempo futuro\" próprio. Ele usa <b>gaan + infinitivo</b>, exatamente como o nosso <i>ir + infinitivo</i>.</p><p><b>Ik ga morgen werken.</b> = Eu vou trabalhar amanhã. 💼</p><p><small>🧩 A pinça: <b>gaan</b> fica na posição 2 e o infinitivo vai para o <b>fim</b>. Tudo o mais fica no meio.</small></p><p><small>⏰ Muitas vezes o presente simples basta quando há uma palavra de tempo: <i>Ik werk morgen.</i></small></p>"
+  },
+  {
+   "emoji": "🤝",
+   "title": "Zullen: promessas e ofertas",
+   "html": "<p><b>zullen</b> é o verbo de quem promete ou oferece ajuda.</p><ul><li><b>Ik zal je bellen.</b> = Eu te ligo (pode deixar). 📞</li><li><b>Zal ik de deur openen?</b> = Quer que eu abra a porta? 🚪</li><li><b>Zullen we gaan?</b> = Vamos? 🚶</li></ul><p><small>🗣️ Conjugação: ik zal, jij zal/zult, hij zal, wij zullen. Na Flandres, <b>Zal ik...?</b> é a forma gentil de se oferecer.</small></p>"
+  },
+  {
+   "emoji": "🛠️",
+   "title": "Kunnen, moeten, mogen, willen",
+   "html": "<p>Os quatro modais mais úteis. Todos seguem a mesma regra: <b>modal na posição 2 + infinitivo no fim</b>.</p><table class=\"vocab\"><tr><th>verbo</th><th>sentido</th><th>exemplo</th></tr><tr><td>kunnen</td><td>poder (conseguir)</td><td>Ik <b>kan</b> zwemmen.</td></tr><tr><td>moeten</td><td>ter que</td><td>Ik <b>moet</b> werken.</td></tr><tr><td>mogen</td><td>ter permissão</td><td>Je <b>mag</b> hier parkeren.</td></tr><tr><td>willen</td><td>querer</td><td>Ik <b>wil</b> slapen.</td></tr></table><p><small>⚠️ Com ik, jij e hij os modais não levam -t: <i>ik kan, hij kan, ik wil, hij wil</i>. Para negar, o <b>niet</b> vem antes do infinitivo final.</small></p>"
+  }
+ ],
+ "phrases": [
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "ga",
+     "r": "verb"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "naar",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "vou",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": "a",
+     "r": "prep"
+    },
+    {
+     "t": "Gent",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu vou amanhã para Gent",
+   "note": "gaan é o nosso 'ir' de planos: ga/gaat na posição 2 e o verbo principal (aqui só o destino) fecha a frase."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "ga",
+     "r": "verb"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "werken",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "vou",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": "trabalhar",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu vou amanhã trabalhar",
+   "note": "Igualzinho ao português: ir + infinitivo. O infinitivo vai para o FIM da frase."
+  },
+  {
+   "nl": [
+    {
+     "t": "We",
+     "r": "pron"
+    },
+    {
+     "t": "gaan",
+     "r": "verb"
+    },
+    {
+     "t": "dit",
+     "r": "pron"
+    },
+    {
+     "t": "weekend",
+     "r": "noun"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "film",
+     "r": "noun"
+    },
+    {
+     "t": "kijken",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Nós",
+     "r": "pron"
+    },
+    {
+     "t": "vamos",
+     "r": "verb"
+    },
+    {
+     "t": "neste",
+     "r": "pron"
+    },
+    {
+     "t": "fim de semana",
+     "r": "noun"
+    },
+    {
+     "t": "ver",
+     "r": "verb"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "filme",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "nós vamos este fim de semana um filme ver",
+   "note": "Tudo o que completa o verbo fica no meio; o infinitivo (kijken) fecha a pinça."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ga",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "naar",
+     "r": "prep"
+    },
+    {
+     "t": "het",
+     "r": "art"
+    },
+    {
+     "t": "werk",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "vai",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": "ao",
+     "r": "prep"
+    },
+    {
+     "t": "trabalho",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "vai você amanhã ao trabalho",
+   "note": "Pergunta sim/não: o verbo conjugado vem primeiro e o sujeito logo depois."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "zal",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "bellen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "vou",
+     "r": "verb"
+    },
+    {
+     "t": "te",
+     "r": "pron"
+    },
+    {
+     "t": "ligar",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu vou te amanhã ligar",
+   "note": "zullen expressa promessa: 'pode deixar, eu ligo'. Mais firme que gaan."
+  },
+  {
+   "nl": [
+    {
+     "t": "Zal",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "deur",
+     "r": "noun"
+    },
+    {
+     "t": "openen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Devo",
+     "r": "verb"
+    },
+    {
+     "t": "abrir",
+     "r": "verb"
+    },
+    {
+     "t": "a",
+     "r": "art"
+    },
+    {
+     "t": "porta",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "devo eu a porta abrir",
+   "note": "Zal ik...? é a oferta de ajuda mais típica na Flandres. Resposta fácil: Ja, graag!"
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "kan",
+     "r": "verb"
+    },
+    {
+     "t": "morgen",
+     "r": "adv"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "komen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "posso",
+     "r": "verb"
+    },
+    {
+     "t": "vir",
+     "r": "verb"
+    },
+    {
+     "t": "amanhã",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu posso amanhã não vir",
+   "note": "kunnen = poder (capacidade ou possibilidade). niet vem antes do infinitivo final."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "moet",
+     "r": "verb"
+    },
+    {
+     "t": "vandaag",
+     "r": "adv"
+    },
+    {
+     "t": "mijn",
+     "r": "pron"
+    },
+    {
+     "t": "huur",
+     "r": "noun"
+    },
+    {
+     "t": "betalen",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "preciso",
+     "r": "verb"
+    },
+    {
+     "t": "pagar",
+     "r": "verb"
+    },
+    {
+     "t": "hoje",
+     "r": "adv"
+    },
+    {
+     "t": "o meu",
+     "r": "pron"
+    },
+    {
+     "t": "aluguel",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu devo hoje meu aluguel pagar",
+   "note": "moeten = ter que. Dica: pague pelo Wero, é instantâneo."
+  },
+  {
+   "nl": [
+    {
+     "t": "Je",
+     "r": "pron"
+    },
+    {
+     "t": "mag",
+     "r": "verb"
+    },
+    {
+     "t": "hier",
+     "r": "adv"
+    },
+    {
+     "t": "niet",
+     "r": "neg"
+    },
+    {
+     "t": "parkeren",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Você",
+     "r": "pron"
+    },
+    {
+     "t": "não",
+     "r": "neg"
+    },
+    {
+     "t": "pode",
+     "r": "verb"
+    },
+    {
+     "t": "estacionar",
+     "r": "verb"
+    },
+    {
+     "t": "aqui",
+     "r": "adv"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "você pode aqui não estacionar",
+   "note": "mogen = ter permissão. Cuidado: kunnen é 'conseguir', mogen é 'ser permitido'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Mag",
+     "r": "verb"
+    },
+    {
+     "t": "ik",
+     "r": "pron"
+    },
+    {
+     "t": "even",
+     "r": "adv"
+    },
+    {
+     "t": "binnenkomen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Posso",
+     "r": "verb"
+    },
+    {
+     "t": "entrar",
+     "r": "verb"
+    },
+    {
+     "t": "um instante",
+     "r": "adv"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "posso eu um instante entrar",
+   "note": "Mag ik...? é o pedido educado de permissão, como 'posso...?'."
+  },
+  {
+   "nl": [
+    {
+     "t": "Ik",
+     "r": "pron"
+    },
+    {
+     "t": "wil",
+     "r": "verb"
+    },
+    {
+     "t": "een",
+     "r": "art"
+    },
+    {
+     "t": "koffie",
+     "r": "noun"
+    },
+    {
+     "t": "drinken",
+     "r": "verb"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "Eu",
+     "r": "pron"
+    },
+    {
+     "t": "quero",
+     "r": "verb"
+    },
+    {
+     "t": "tomar",
+     "r": "verb"
+    },
+    {
+     "t": "um",
+     "r": "art"
+    },
+    {
+     "t": "café",
+     "r": "noun"
+    },
+    {
+     "t": ".",
+     "r": "punc"
+    }
+   ],
+   "lit": "eu quero um café beber",
+   "note": "willen = querer. Para soar mais gentil no balcão, use wil graag ou zou graag willen."
+  },
+  {
+   "nl": [
+    {
+     "t": "Wat",
+     "r": "qw"
+    },
+    {
+     "t": "ga",
+     "r": "verb"
+    },
+    {
+     "t": "je",
+     "r": "pron"
+    },
+    {
+     "t": "na",
+     "r": "prep"
+    },
+    {
+     "t": "de",
+     "r": "art"
+    },
+    {
+     "t": "les",
+     "r": "noun"
+    },
+    {
+     "t": "doen",
+     "r": "verb"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "pt": [
+    {
+     "t": "O que",
+     "r": "qw"
+    },
+    {
+     "t": "você",
+     "r": "pron"
+    },
+    {
+     "t": "vai",
+     "r": "verb"
+    },
+    {
+     "t": "fazer",
+     "r": "verb"
+    },
+    {
+     "t": "depois",
+     "r": "prep"
+    },
+    {
+     "t": "da",
+     "r": "art"
+    },
+    {
+     "t": "aula",
+     "r": "noun"
+    },
+    {
+     "t": "?",
+     "r": "punc"
+    }
+   ],
+   "lit": "o que vai você depois da aula fazer",
+   "note": "Palavra interrogativa em 1º, gaan em 2º, infinitivo no fim: a pinça também aparece em perguntas."
+  }
+ ],
+ "vocab": [
+  {
+   "nl": "gaan",
+   "art": null,
+   "split": "gaan (ir; auxiliar do futuro próximo)",
+   "pt": "ir",
+   "emoji": "🚶"
+  },
+  {
+   "nl": "zullen",
+   "art": null,
+   "split": "zullen (auxiliar de promessa e oferta)",
+   "pt": "dever / vou (promessa)",
+   "emoji": "🤝"
+  },
+  {
+   "nl": "kunnen",
+   "art": null,
+   "split": "kunnen (poder, ser capaz)",
+   "pt": "poder",
+   "emoji": "💪"
+  },
+  {
+   "nl": "moeten",
+   "art": null,
+   "split": "moeten (ter que)",
+   "pt": "ter que / precisar",
+   "emoji": "📌"
+  },
+  {
+   "nl": "mogen",
+   "art": null,
+   "split": "mogen (ter permissão)",
+   "pt": "poder (ser permitido)",
+   "emoji": "✅"
+  },
+  {
+   "nl": "willen",
+   "art": null,
+   "split": "willen (querer)",
+   "pt": "querer",
+   "emoji": "💭"
+  },
+  {
+   "nl": "morgen",
+   "art": null,
+   "split": "morgen (amanhã)",
+   "pt": "amanhã",
+   "emoji": "🌅"
+  },
+  {
+   "nl": "volgende week",
+   "art": null,
+   "split": "volgende (próximo) + week (semana)",
+   "pt": "semana que vem",
+   "emoji": "📆"
+  },
+  {
+   "nl": "binnenkort",
+   "art": null,
+   "split": "binnen (dentro de) + kort (curto)",
+   "pt": "em breve",
+   "emoji": "⏳"
+  },
+  {
+   "nl": "misschien",
+   "art": null,
+   "split": "mis (talvez) + schien (parecer)",
+   "pt": "talvez",
+   "emoji": "🤔"
+  },
+  {
+   "nl": "de afspraak",
+   "art": "de",
+   "split": "af (fechado) + spraak (fala)",
+   "pt": "compromisso / consulta",
+   "emoji": "📅"
+  },
+  {
+   "nl": "het plan",
+   "art": "het",
+   "split": "plan (plano)",
+   "pt": "plano",
+   "emoji": "🗺️"
+  },
+  {
+   "nl": "de belofte",
+   "art": "de",
+   "split": "be- + lofte (promessa)",
+   "pt": "promessa",
+   "emoji": "🤞"
+  },
+  {
+   "nl": "parkeren",
+   "art": null,
+   "split": "parkeren (estacionar)",
+   "pt": "estacionar",
+   "emoji": "🅿️"
+  },
+  {
+   "nl": "verhuizen",
+   "art": null,
+   "split": "ver- (mudar) + huizen (casas)",
+   "pt": "mudar de casa",
+   "emoji": "📦"
+  },
+  {
+   "nl": "het weekend",
+   "art": "het",
+   "split": "week + end",
+   "pt": "fim de semana",
+   "emoji": "🎉"
+  }
+ ],
+ "exercises": [
+  {
+   "type": "mc",
+   "q": "Como se diz 'Eu vou trabalhar amanhã'? 🗓️",
+   "options": [
+    "Ik ga morgen werken.",
+    "Ik werken morgen ga.",
+    "Ik zal werk morgen.",
+    "Ik ga werken morgen is."
+   ],
+   "answer": 0,
+   "explain": "gaan na posição 2 e o infinitivo werken no fim: Ik ga morgen werken."
+  },
+  {
+   "type": "mc",
+   "q": "Qual verbo expressa PROMESSA ou oferta de ajuda? 🤝",
+   "options": [
+    "zullen",
+    "mogen",
+    "moeten",
+    "willen"
+   ],
+   "answer": 0,
+   "explain": "zullen é o verbo da promessa e da oferta: Ik zal je helpen / Zal ik je helpen?"
+  },
+  {
+   "type": "mc",
+   "q": "'Je mag hier niet parkeren' significa... 🅿️",
+   "options": [
+    "Você não tem permissão de estacionar aqui.",
+    "Você não consegue estacionar aqui.",
+    "Você não quer estacionar aqui.",
+    "Você não precisa estacionar aqui."
+   ],
+   "answer": 0,
+   "explain": "mogen = permissão. Você vê isso em placas na rua."
+  },
+  {
+   "type": "mc",
+   "q": "Qual verbo usar para 'ter que pagar'? 💶",
+   "options": [
+    "moeten",
+    "mogen",
+    "kunnen",
+    "zullen"
+   ],
+   "answer": 0,
+   "explain": "moeten = obrigação: Ik moet betalen."
+  },
+  {
+   "type": "mc",
+   "q": "Onde vai o infinitivo numa frase com verbo modal? 🧩",
+   "options": [
+    "No fim da frase",
+    "Logo depois do modal",
+    "No começo",
+    "Depois do sujeito"
+   ],
+   "answer": 0,
+   "explain": "A pinça: o modal fica na posição 2 e o infinitivo vai para o fim."
+  },
+  {
+   "type": "listen",
+   "nl": "Ik ga volgende week verhuizen.",
+   "options": [
+    "Eu vou me mudar semana que vem.",
+    "Eu me mudei semana passada.",
+    "Eu quero me mudar hoje."
+   ],
+   "answer": 0,
+   "explain": "volgende week = semana que vem e ga ... verhuizen = vou mudar de casa."
+  },
+  {
+   "type": "listen",
+   "nl": "Zal ik je helpen?",
+   "options": [
+    "Quer que eu te ajude?",
+    "Você me ajuda?",
+    "Eu te ajudei ontem."
+   ],
+   "answer": 0,
+   "explain": "Zal ik...? oferece ajuda. Resposta típica: Ja, graag!"
+  },
+  {
+   "type": "listen",
+   "nl": "Wij kunnen morgen niet komen.",
+   "options": [
+    "Nós não podemos vir amanhã.",
+    "Nós não queremos vir hoje.",
+    "Nós viemos ontem."
+   ],
+   "answer": 0,
+   "explain": "kunnen = podemos, morgen = amanhã e niet antes do infinitivo komen."
+  },
+  {
+   "type": "listen",
+   "nl": "Mag ik even binnenkomen?",
+   "options": [
+    "Posso entrar um instante?",
+    "Posso sair agora?",
+    "Você quer entrar?"
+   ],
+   "answer": 0,
+   "explain": "Mag ik...? é pedido de permissão. even suaviza: 'só um instantinho'."
+  },
+  {
+   "type": "fill",
+   "before": "Ik",
+   "after": "morgen naar de dokter gaan.",
+   "answer": "ga",
+   "hint": "gaan com ik",
+   "explain": "Com ik, gaan perde o -n: ik ga."
+  },
+  {
+   "type": "fill",
+   "before": "Wij",
+   "after": "een film kijken.",
+   "answer": "gaan",
+   "alt": [
+    "zullen"
+   ],
+   "hint": "gaan com wij",
+   "explain": "No plural, gaan fica igual ao infinitivo: wij gaan. (zullen também seria possível como intenção firme.)"
+  },
+  {
+   "type": "fill",
+   "before": "Je",
+   "after": "hier niet roken.",
+   "answer": "mag",
+   "alt": [
+    "moet",
+    "kan"
+   ],
+   "hint": "permissão (mogen)",
+   "explain": "Placa de proibição: Je mag hier niet roken. (moet/kan também formam frases gramaticais, mas com outro sentido.)"
+  },
+  {
+   "type": "fill",
+   "before": "Ik",
+   "after": "mijn huur betalen, het is de eerste van de maand.",
+   "answer": "moet",
+   "hint": "obrigação",
+   "explain": "moeten com ik: ik moet. Pague com o Wero."
+  },
+  {
+   "type": "fill",
+   "before": "Ik",
+   "after": "niet komen, ik ben ziek.",
+   "answer": "kan",
+   "hint": "possibilidade",
+   "explain": "kunnen com ik: ik kan (sem -t)."
+  },
+  {
+   "type": "order",
+   "pt": "Eu vou ver um filme amanhã.",
+   "tokens": [
+    "Ik",
+    "ga",
+    "morgen",
+    "een",
+    "film",
+    "kijken"
+   ],
+   "answer": "Ik ga morgen een film kijken",
+   "explain": "gaan na posição 2, infinitivo kijken no fim."
+  },
+  {
+   "type": "order",
+   "pt": "Amanhã eu vou trabalhar.",
+   "tokens": [
+    "Morgen",
+    "ga",
+    "ik",
+    "werken"
+   ],
+   "answer": "Morgen ga ik werken",
+   "explain": "Começou com Morgen? O verbo continua em 2º lugar (V2), então o sujeito ik vem depois de ga."
+  },
+  {
+   "type": "order",
+   "pt": "Eu preciso pagar o aluguel hoje.",
+   "tokens": [
+    "Ik",
+    "moet",
+    "vandaag",
+    "mijn",
+    "huur",
+    "betalen"
+   ],
+   "answer": "Ik moet vandaag mijn huur betalen",
+   "altAnswers": [
+    "Ik moet mijn huur vandaag betalen"
+   ],
+   "explain": "moet na posição 2 e betalen no fim; vandaag e o objeto ficam dentro da pinça."
+  },
+  {
+   "type": "order",
+   "pt": "Você não pode estacionar aqui.",
+   "tokens": [
+    "Je",
+    "mag",
+    "hier",
+    "niet",
+    "parkeren"
+   ],
+   "answer": "Je mag hier niet parkeren",
+   "altAnswers": [
+    "Je mag niet hier parkeren"
+   ],
+   "explain": "Modal na posição 2, niet e hier no meio, infinitivo no fim."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "gaan",
+     "ir (plano)"
+    ],
+    [
+     "zullen",
+     "promessa / oferta"
+    ],
+    [
+     "kunnen",
+     "poder (capacidade)"
+    ],
+    [
+     "moeten",
+     "ter que"
+    ],
+    [
+     "mogen",
+     "ter permissão"
+    ],
+    [
+     "willen",
+     "querer"
+    ]
+   ],
+   "explain": "Seis verbos, seis ideias: decore-os como um kit. Todos pedem o infinitivo no fim da frase."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "morgen",
+     "amanhã"
+    ],
+    [
+     "volgende week",
+     "semana que vem"
+    ],
+    [
+     "binnenkort",
+     "em breve"
+    ],
+    [
+     "misschien",
+     "talvez"
+    ]
+   ],
+   "explain": "Palavras de tempo que aparecem com planos e futuro."
+  }
+ ]
+}
