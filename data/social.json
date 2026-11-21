@@ -856,5 +856,37 @@
    "url": "https://www.instagram.com/explore/search/keyword/?q=vlaamse%20uitdrukkingen",
    "src": "Instagram · busca"
   }
+ ],
+ "b1-08-betrekkelijk": [
+  {
+   "icon": "▶️",
+   "label": "Canal do Bart de Pau: aulas de #dutchgrammar, procure por betrekkelijk voornaamwoord (die/dat)",
+   "url": "https://www.youtube.com/c/learndutchorg",
+   "src": "YouTube · Learn Dutch with Bart de Pau"
+  },
+  {
+   "icon": "▶️",
+   "label": "Busca de aulas sobre die vs dat (betrekkelijk voornaamwoord)",
+   "url": "https://www.youtube.com/results?search_query=betrekkelijk+voornaamwoord+die+dat+uitleg",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "▶️",
+   "label": "Busca de aulas sobre om te + infinitief",
+   "url": "https://www.youtube.com/results?search_query=om+te+infinitief+uitleg+Nederlands",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Dicas rápidas de criadores sobre die vs dat",
+   "url": "https://www.tiktok.com/search?q=dutch%20die%20dat%20relative%20pronoun",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Carrosséis de gramática holandesa, procure por relative clauses",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23dutchgrammar",
+   "src": "Instagram · #dutchgrammar"
+  }
  ]
 }
