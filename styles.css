@@ -448,3 +448,69 @@ a.saga-chapter:hover{transform:translateX(3px)}
   .saga-hud{top:48px}
   .saga-banner h1{font-size:1.4rem}
 }
+
+/* ---------- woordketting: emoji word-chain song ---------- */
+.chain{background:#fff;border:2px solid var(--ink);border-radius:14px;padding:12px 16px;margin:12px 0}
+.chain-head{font-size:1.05rem;margin-bottom:8px;border-bottom:1.5px dashed var(--line);padding-bottom:6px}
+.chainline{display:flex;align-items:center;gap:8px;flex-wrap:wrap;padding:3px 0}
+.chainline .cw{display:inline-flex;align-items:center;gap:5px;font-weight:700;color:var(--nl);
+  background:var(--nl-bg);border:1.5px solid var(--nl);border-radius:10px;padding:3px 9px}
+.chainline .cw.carry{color:#8A6A10;background:#FFF9EC;border-color:var(--gold)}
+.chainline .ce{font-size:1.15rem;line-height:1}
+.chainline .cart{font-style:normal;font-weight:800;opacity:.65;font-size:.82rem}
+.chainline .cp{color:var(--pt);font-weight:700;font-size:.9rem}
+.chain-arrow{display:block;color:var(--gold);font-weight:900;line-height:1;margin:-2px 0 -2px 14px;opacity:.75}
+
+/* ---------- "Repita comigo" shadowing trainer ---------- */
+.shadow-card{background:#fff;border:2px solid var(--ink);border-radius:14px;padding:12px 16px;margin:12px 0}
+.shadow-card.running{border-color:var(--gold);box-shadow:0 0 0 3px #FBEFC9}
+.sh-lines{display:flex;flex-direction:column;gap:4px}
+.sh-pt{color:var(--pt);font-weight:600}
+.sh-nl{color:var(--nl);font-weight:700;font-size:1.08rem}
+.sh-pt .sh-txt,.sh-nl .sh-txt{margin:0 4px}
+.sh-status{display:none;margin:8px 0 2px;font-weight:700;border-radius:10px;padding:8px 12px}
+.sh-status.show{display:block}
+.sh-status.pt{background:var(--pt-bg);color:var(--pt)}
+.sh-status.nl{background:var(--nl-bg);color:var(--nl)}
+.sh-status.your-turn{background:#FFF9EC;color:#8A6A10;border:2px solid var(--gold);text-align:center}
+.sh-status.done{background:var(--ok-bg);color:var(--ok)}
+.sh-echo{display:inline-block;font-size:1.2rem;margin:4px 0 8px}
+.sh-bar{height:8px;background:#EFE1B6;border-radius:99px;overflow:hidden}
+.sh-bar>i{display:block;height:100%;width:100%;background:var(--gold);border-radius:99px}
+.sh-actions{display:flex;gap:8px;margin-top:10px;flex-wrap:wrap}
+.sh-save.is-saved{border-color:var(--ok);color:var(--ok);background:var(--ok-bg)}
+.mine-row{display:flex;align-items:flex-start;gap:8px}
+.mine-row .shadow-card{flex:1;min-width:0}
+.sh-del{align-self:center;border-color:var(--bad);color:var(--bad)}
+
+/* ---------- record-and-compare + add-to-shadow ---------- */
+.sh-rec.recording{border-color:var(--bad);color:var(--bad);background:var(--bad-bg);animation:recpulse 1s infinite}
+@keyframes recpulse{0%,100%{opacity:1}50%{opacity:.55}}
+.add-shadow{border-color:var(--gold);color:#8A6A10;background:#FFF9EC;font-size:.82rem}
+.add-shadow.is-saved{border-color:var(--ok);color:var(--ok);background:var(--ok-bg)}
+
+/* ---------- minimal-pairs ear trainer (klankparen) ---------- */
+.kp-groups{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.kp-group{border:2px solid var(--ink);background:#fff;border-radius:12px;padding:8px 12px;cursor:pointer;
+  font-weight:700;display:flex;flex-direction:column;align-items:flex-start;line-height:1.2}
+.kp-group small{color:var(--soft);font-weight:400}
+.kp-group.active{background:var(--nl-bg);border-color:var(--nl);color:var(--nl)}
+.kp-card .kp-head{display:flex;justify-content:space-between;align-items:center;color:var(--soft);font-size:.9rem;margin-bottom:6px}
+.kp-opts{display:flex;gap:12px;margin-top:10px}
+.kp-opt{flex:1;border:2px solid var(--ink);background:#fff;border-radius:14px;padding:14px 8px;cursor:pointer;
+  display:flex;flex-direction:column;align-items:center;gap:3px;font-size:1.1rem}
+.kp-opt .kp-em{font-size:1.8rem;line-height:1}
+.kp-opt small{color:var(--soft);font-size:.78rem;font-weight:400}
+.kp-opt.correct{border-color:var(--ok);background:var(--ok-bg)}
+.kp-opt.wrong{border-color:var(--bad);background:var(--bad-bg)}
+.kp-opt:disabled{cursor:default}
+
+/* ---------- pronunciation verification (Verificar 2×) ---------- */
+.sh-verify{border-color:var(--nl);color:var(--nl);background:var(--nl-bg)}
+.sh-status.mid{background:#FFF4E0;color:#8A5A10;border:2px solid var(--gold)}
+.sh-listening{margin-top:6px;font-weight:700;color:var(--bad);animation:recpulse 1s infinite}
+.sh-marks{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.sh-marks .wm{border-radius:8px;padding:2px 8px;font-weight:700;font-size:.9rem;border:1.5px solid}
+.sh-marks .wm.ok{color:var(--ok);background:var(--ok-bg);border-color:var(--ok)}
+.sh-marks .wm.no{color:var(--bad);background:var(--bad-bg);border-color:var(--bad)}
+.sh-redo{margin-top:8px}

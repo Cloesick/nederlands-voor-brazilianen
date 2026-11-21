@@ -1,0 +1,55 @@
+{
+  "intro": "Pares mínimos: duas palavras que mudam de sentido por UM som. Treine o ouvido nos sons que mais confundem brasileiros — vogal curta vs longa, e o g/ch.",
+  "groups": [
+    {
+      "name": "Vogal curta × longa (a / aa)",
+      "emoji": "🅰️",
+      "pairs": [
+        { "a": "man", "ae": "👨", "apt": "homem", "b": "maan", "be": "🌙", "bpt": "lua" },
+        { "a": "ram", "ae": "🐏", "apt": "carneiro", "b": "raam", "be": "🪟", "bpt": "janela" },
+        { "a": "tak", "ae": "🌿", "apt": "galho", "b": "taak", "be": "📋", "bpt": "tarefa" },
+        { "a": "zal", "ae": "⏭️", "apt": "irá (vai)", "b": "zaal", "be": "🏟️", "bpt": "salão" }
+      ]
+    },
+    {
+      "name": "Vogal curta × longa (o / oo, u / uu)",
+      "emoji": "🅾️",
+      "pairs": [
+        { "a": "bos", "ae": "🌲", "apt": "bosque", "b": "boos", "be": "😠", "bpt": "bravo" },
+        { "a": "pot", "ae": "🍯", "apt": "pote", "b": "poot", "be": "🐾", "bpt": "pata" },
+        { "a": "bom", "ae": "💣", "apt": "bomba", "b": "boom", "be": "🌳", "bpt": "árvore" },
+        { "a": "mus", "ae": "🐦", "apt": "pardal", "b": "muur", "be": "🧱", "bpt": "muro" }
+      ]
+    },
+    {
+      "name": "Vogal curta × longa (i / ie, e / ee)",
+      "emoji": "🇮",
+      "pairs": [
+        { "a": "pit", "ae": "🫒", "apt": "caroço", "b": "piet", "be": "🧑", "bpt": "Piet (nome)" },
+        { "a": "vis", "ae": "🐟", "apt": "peixe", "b": "vies", "be": "🤢", "bpt": "nojento" },
+        { "a": "ben", "ae": "🙋", "apt": "(eu) sou", "b": "been", "be": "🦵", "bpt": "perna" },
+        { "a": "wel", "ae": "✔️", "apt": "sim (mesmo)", "b": "weel", "be": "🛞", "bpt": "roda (dial.)" }
+      ]
+    },
+    {
+      "name": "O som g/ch (o rr carioca)",
+      "emoji": "🗣️",
+      "pairs": [
+        { "a": "goed", "ae": "👍", "apt": "bom", "b": "boed", "be": "❌", "bpt": "(não é palavra)" },
+        { "a": "lach", "ae": "😄", "apt": "riso", "b": "lak", "be": "💅", "bpt": "verniz" },
+        { "a": "acht", "ae": "8️⃣", "apt": "oito", "b": "akt", "be": "🎭", "bpt": "ato" },
+        { "a": "dag", "ae": "👋", "apt": "dia/tchau", "b": "dak", "be": "🏠", "bpt": "telhado" }
+      ]
+    },
+    {
+      "name": "Ditongos (ui / ij / ou)",
+      "emoji": "🌀",
+      "pairs": [
+        { "a": "huis", "ae": "🏠", "apt": "casa", "b": "heis", "be": "❌", "bpt": "(não é palavra)" },
+        { "a": "wijn", "ae": "🍷", "apt": "vinho", "b": "ween", "be": "😢", "bpt": "chorar (dial.)" },
+        { "a": "koud", "ae": "🥶", "apt": "frio", "b": "kou", "be": "🤧", "bpt": "resfriado" },
+        { "a": "trui", "ae": "🧶", "apt": "suéter", "b": "trouw", "be": "💍", "bpt": "casamento/fiel" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "themes": [
+    {
+      "name": "Kennismaken · Se apresentar",
+      "emoji": "👋",
+      "sentences": [
+        { "pt": "Olá, meu nome é Sofia.", "nl": "Hallo, ik heet Sofia.", "emoji": "👋" },
+        { "pt": "Prazer em conhecer você.", "nl": "Aangenaam kennis te maken.", "emoji": "🤝" },
+        { "pt": "Venho do Brasil, mas moro na Bélgica.", "nl": "Ik kom uit Brazilië, maar ik woon in België.", "emoji": "🇧🇷" },
+        { "pt": "Ainda não falo bem neerlandês.", "nl": "Ik spreek nog niet goed Nederlands.", "emoji": "😊" },
+        { "pt": "O senhor fala inglês?", "nl": "Spreekt u Engels?", "emoji": "🗣️" }
+      ]
+    },
+    {
+      "name": "In de winkel · Na loja",
+      "emoji": "🛒",
+      "sentences": [
+        { "pt": "Quanto custa isto?", "nl": "Hoeveel kost dit?", "emoji": "💶" },
+        { "pt": "Eu queria um pão, por favor.", "nl": "Ik wil graag een brood, alstublieft.", "emoji": "🍞" },
+        { "pt": "Posso pagar com cartão?", "nl": "Kan ik met de kaart betalen?", "emoji": "💳" },
+        { "pt": "É só isso, obrigado.", "nl": "Dat is alles, dank u.", "emoji": "🛍️" },
+        { "pt": "Tem uma sacolinha?", "nl": "Heeft u een zakje?", "emoji": "👜" }
+      ]
+    },
+    {
+      "name": "De weg vragen · Direções",
+      "emoji": "🧭",
+      "sentences": [
+        { "pt": "Com licença, onde fica a estação?", "nl": "Pardon, waar is het station?", "emoji": "🚉" },
+        { "pt": "Vire à esquerda e depois siga em frente.", "nl": "Ga links en dan rechtdoor.", "emoji": "↩️" },
+        { "pt": "É longe daqui?", "nl": "Is het ver van hier?", "emoji": "📏" },
+        { "pt": "Estou procurando a farmácia.", "nl": "Ik zoek de apotheek.", "emoji": "💊" },
+        { "pt": "O senhor pode me ajudar, por favor?", "nl": "Kunt u mij helpen, alstublieft?", "emoji": "🙋" }
+      ]
+    },
+    {
+      "name": "Eten & drinken · Comer e beber",
+      "emoji": "🍽️",
+      "sentences": [
+        { "pt": "Uma mesa para dois, por favor.", "nl": "Een tafel voor twee, alstublieft.", "emoji": "🍽️" },
+        { "pt": "O cardápio, por favor.", "nl": "De menukaart, alstublieft.", "emoji": "📋" },
+        { "pt": "Eu queria um café.", "nl": "Ik wil graag een koffie.", "emoji": "☕" },
+        { "pt": "Está uma delícia!", "nl": "Het is lekker!", "emoji": "😋" },
+        { "pt": "A conta, por favor.", "nl": "De rekening, alstublieft.", "emoji": "🧾" }
+      ]
+    },
+    {
+      "name": "Salva-vidas · Frases de emergência",
+      "emoji": "🆘",
+      "sentences": [
+        { "pt": "Pode repetir, por favor?", "nl": "Kunt u dat herhalen, alstublieft?", "emoji": "🔁" },
+        { "pt": "Pode falar mais devagar?", "nl": "Kunt u trager spreken?", "emoji": "🐢" },
+        { "pt": "Eu não entendo.", "nl": "Ik begrijp het niet.", "emoji": "🤷" },
+        { "pt": "O que isso significa?", "nl": "Wat betekent dat?", "emoji": "❓" },
+        { "pt": "Como se diz isso em neerlandês?", "nl": "Hoe zeg je dat in het Nederlands?", "emoji": "💬" }
+      ]
+    }
+  ]
+}

@@ -56,10 +56,11 @@ let S = load();
 function load() {
   // saga: { done:{chapterId:true}, flawless:{chapterId:true} } - the sword-and-saga campaign in #/saga
   const defaults = { xp:0, streak:{last:'',count:0}, lessons:{}, srs:{}, mistakes:{}, premium:false, deviceId:'',
-    saga:{ done:{}, flawless:{} } };
+    saga:{ done:{}, flawless:{} }, shadow:{ saved:[] } };
   try {
     const s = Object.assign({}, defaults, JSON.parse(localStorage.getItem(STORE_KEY) || '{}'));
     s.saga = Object.assign({ done:{}, flawless:{} }, s.saga); // older saves predate the campaign
+    s.shadow = Object.assign({ saved:[] }, s.shadow);         // older saves predate "Repita comigo"
     return s;
   }
   catch { return defaults; }
@@ -277,16 +278,22 @@ let SPEAKING_BTN = null;
 // btn is optional: when passed, it gets a `.speaking` pulse for the duration of playback - real
 // visual confirmation the pronunciation audio is actually running (useful on silent/muted devices,
 // and just makes a text-to-speech button feel like a real instrument instead of a static icon).
-function speak(text, btn) {
+// pick the best available voice for a language: 'nl' (prefer Flemish nl-BE) or 'pt' (prefer pt-BR)
+function pickVoice(lang) {
+  const voices = speechSynthesis.getVoices();
+  if (lang === 'pt')
+    return voices.find(v => /^pt-BR/i.test(v.lang)) || voices.find(v => /^pt/i.test(v.lang)) || null;
+  return voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
+      || voices.find(v => /^nl/i.test(v.lang)) || null;
+}
+function speak(text, btn, lang) {
   if (!hasTTS) return;
   speechSynthesis.cancel();
   if (SPEAKING_BTN) { SPEAKING_BTN.classList.remove('speaking'); SPEAKING_BTN = null; }
-  const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️]/g,''));
-  const voices = speechSynthesis.getVoices();
-  const v = voices.find(v => /^nl(-BE)?/i.test(v.lang) && /BE|Belg/i.test(v.lang + v.name))
-        || voices.find(v => /^nl/i.test(v.lang));
+  const u = new SpeechSynthesisUtterance(text.replace(/[🔊▶️🎙️]/g,''));
+  const v = pickVoice(lang || 'nl');
   if (v) u.voice = v;
-  u.lang = (v && v.lang) || 'nl-NL';
+  u.lang = (v && v.lang) || (lang === 'pt' ? 'pt-BR' : 'nl-NL');
   u.rate = 0.88;
   if (btn) {
     btn.classList.add('speaking');
@@ -295,6 +302,25 @@ function speak(text, btn) {
   }
   speechSynthesis.speak(u);
 }
+// speak one phrase and resolve when it finishes (with a length-based safety timeout, since some
+// browsers drop onend) - used by the "Repita comigo" shadowing player to chain PT -> NL -> NL -> your turn.
+function sayOnce(text, lang) {
+  return new Promise(res => {
+    if (!hasTTS) { setTimeout(res, 700); return; }
+    speechSynthesis.cancel();
+    const clean = String(text).replace(/[🔊▶️🎙️]/g,'');
+    const u = new SpeechSynthesisUtterance(clean);
+    const v = pickVoice(lang || 'nl');
+    if (v) u.voice = v;
+    u.lang = (v && v.lang) || (lang === 'pt' ? 'pt-BR' : 'nl-NL');
+    u.rate = 0.9;
+    let done = false; const fin = () => { if (done) return; done = true; res(); };
+    u.onend = fin; u.onerror = fin;
+    setTimeout(fin, Math.max(1400, clean.length * 90) + 700); // safety net
+    speechSynthesis.speak(u);
+  });
+}
+const wait = ms => new Promise(r => setTimeout(r, ms));
 if (hasTTS) speechSynthesis.getVoices(); // warm up voice list
 
 /* ---------- utils ---------- */
@@ -331,9 +357,13 @@ function tokHTML(tokens, phraseId, side) {
 }
 function phraseHTML(ph, idx) {
   const nl = ph.nl.map(t => t.t).join(' ').replace(/ ([?.!,])/g, '$1');
+  const pt = ph.pt.map(t => t.t).join(' ').replace(/ ([?.!,])/g, '$1');
+  const saved = (S.shadow && S.shadow.saved || []).some(s => (s.nl || '').toLowerCase().trim() === nl.toLowerCase().trim());
   return `<div class="phrase" data-idx="${idx}">
     <div class="row"><span class="flag">🇧🇪</span><span>${tokHTML(ph.nl, idx, 'nl')}</span>
-      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(nl)}" title="Ouvir">🔊</button>` : ''}</div>
+      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(nl)}" title="Ouvir">🔊</button>` : ''}
+      <button class="speak-btn add-shadow ${saved ? 'is-saved' : ''}" data-nl="${esc(nl)}" data-pt="${esc(pt)}"
+        title="Treinar no 🎙️ Repita comigo" ${saved ? 'disabled' : ''}>${saved ? '✅' : '➕🎙️'}</button></div>
     <div class="row"><span class="flag">🇧🇷</span><span>${tokHTML(ph.pt, idx, 'pt')}</span></div>
     ${ph.lit ? `<div class="lit">🔍 literal: ${esc(clockify(ph.lit))}</div>` : ''}
     ${ph.note ? `<div class="note">💡 ${esc(clockify(ph.note))}</div>` : ''}
@@ -349,6 +379,12 @@ function bindPhraseEvents(root) {
     });
   });
   root.querySelectorAll('.speak').forEach(b => b.addEventListener('click', e => { e.stopPropagation(); speak(b.dataset.say, b); }));
+  root.querySelectorAll('.add-shadow').forEach(b => b.addEventListener('click', e => {
+    e.stopPropagation();
+    if (shadowSave({ pt: b.dataset.pt, nl: b.dataset.nl, emoji: '🗣️' })) {
+      b.textContent = '✅'; b.classList.add('is-saved'); b.disabled = true;
+    }
+  }));
 }
 function legendStrip(phrases) {
   const used = new Set();
@@ -391,6 +427,8 @@ async function route() {
     if (h === 'revisao') return renderReview(app);
     if (h === 'woordenboek') return renderWoordenboek(app);
     if (h === 'klanken') return renderKlanken(app);
+    if (h === 'herhaal') return renderShadow(app);
+    if (h === 'klankparen') return renderMinimalPairs(app);
     if (h === 'belgie') return renderBelgie(app);
     if (h === 'muziek') return renderMuziek(app);
     if (h === 'decks') return renderDecks(app);
@@ -452,6 +490,8 @@ async function renderHome(app) {
   <div class="home-tiles">
     <a class="home-tile" href="#/spelletjes">🧩<b>Spelletjes</b><small>arrastar e soltar</small></a>
     <a class="home-tile" href="#/klanken">🔊<b>Klanken</b><small>treino de sons</small></a>
+    <a class="home-tile" href="#/herhaal">🎙️<b>Repita comigo</b><small>ouça e repita · sua lista</small></a>
+    <a class="home-tile" href="#/klankparen">👂<b>Klankparen</b><small>treino de ouvido · pares mínimos</small></a>
     <a class="home-tile" href="#/decks">🃏<b>Baralhos</b><small>flashcards por tema</small></a>
     <a class="home-tile" href="#/belgie">🇧🇪<b>Ontdek België</b><small>país, cultura, história</small></a>
     <a class="home-tile" href="#/muziek">🎵<b>Vlaamse muziek</b><small>Clouseau e outros</small></a>
@@ -505,6 +545,359 @@ async function renderLesson(app, id, practice) {
   showTab(tab, L);
 }
 
+/* ---------- woordketting: the emoji word-chain song (Kam in de zak method) ---------- */
+// each line's last word opens the next; every word carries a fixed emoji so the learner
+// memorizes by picture, not by translation. Additive: lessons without L.chains render nothing.
+function chainsHTML(L) {
+  if (!Array.isArray(L.chains) || !L.chains.length) return '';
+  const line = ln => {
+    const say = [ln.l, ln.p, ln.art || '', ln.r].join(' ').replace(/\s+/g, ' ').trim();
+    return `<div class="chainline">
+      <span class="cw"><span class="ce">${ln.le || ''}</span>${esc(ln.l)}</span>
+      <span class="cp">${esc(ln.p || '')}</span>
+      <span class="cw carry">${ln.art ? `<i class="cart">${esc(ln.art)}</i> ` : ''}<span class="ce">${ln.re || ''}</span>${esc(ln.r)}</span>
+      ${hasTTS ? `<button class="speak-btn speak" data-say="${esc(say)}" title="Ouvir a linha">🔊</button>` : ''}
+    </div>`;
+  };
+  return `<h2 style="margin-top:22px">🎵 Woordketting <small class="muted" style="font-size:.85rem">(a última palavra vira a primeira da próxima linha 🔗)</small></h2>` +
+    L.chains.map(ch => `<div class="chain">
+      <div class="chain-head">${ch.emoji || '🎵'} <b>${esc(ch.title || '')}</b>${ch.pt ? ` <small class="muted">· ${esc(ch.pt)}</small>` : ''}</div>
+      ${(ch.lines || []).map(line).join('<span class="chain-arrow">↓</span>')}
+    </div>`).join('');
+}
+
+/* ============================================================
+   "Repita comigo" (shadowing): 🇧🇷 PT → 🇧🇪 NL ×2 → 🎙️ sua vez.
+   Every sentence is savable into a persistent custom list (localStorage).
+   ============================================================ */
+let SHADOW_SEED = null;
+async function shadowSeed() {
+  if (!SHADOW_SEED) SHADOW_SEED = await (await fetch('data/shadow.json')).json();
+  return SHADOW_SEED;
+}
+function shadowKey(it) { return (it.nl || '').toLowerCase().trim(); }
+function shadowIsSaved(it) { return S.shadow.saved.some(s => shadowKey(s) === shadowKey(it)); }
+function shadowSave(it) {
+  if (shadowIsSaved(it)) return false;
+  S.shadow.saved.push({ pt: it.pt, nl: it.nl, emoji: it.emoji || '⭐', ts: Date.now() });
+  save(); toast('⭐ Salvo na sua lista!'); return true;
+}
+function shadowRemove(key) {
+  S.shadow.saved = S.shadow.saved.filter(s => shadowKey(s) !== key);
+  save();
+}
+
+// one trainer card
+function shadowCardHTML(it, idx, saved) {
+  const isSaved = saved || shadowIsSaved(it);
+  return `<div class="shadow-card" data-i="${idx}">
+    <div class="sh-lines">
+      <div class="sh-pt">🇧🇷 <span class="sh-txt">${esc(it.pt)}</span>
+        ${hasTTS ? `<button class="speak-btn speak-pt" title="Ouvir em português">🔊</button>` : ''}</div>
+      <div class="sh-nl">🇧🇪 <span class="sh-txt">${esc(it.nl)}</span>
+        ${hasTTS ? `<button class="speak-btn speak-nl" title="Ouvir em neerlandês">🔊</button>` : ''}</div>
+    </div>
+    <div class="sh-status" aria-live="polite"></div>
+    <div class="sh-actions">
+      <button class="btn primary sh-train">▶️ Treinar</button>
+      ${CAN_RECOGNIZE ? `<button class="btn small sh-verify" title="Repita 2× e verifique a pronúncia">🎤 Verificar (2×)</button>` : ''}
+      ${CAN_RECORD ? `<button class="btn small sh-rec" title="Grave sua voz e compare">🎙️ Gravar</button>
+      <button class="btn small sh-cmp" title="Ouça: neerlandês + sua gravação" hidden>🔁 Comparar</button>` : ''}
+      <button class="btn small sh-save ${isSaved ? 'is-saved' : ''}" ${isSaved ? 'disabled' : ''}>${isSaved ? '✅ Salvo' : '➕ Salvar'}</button>
+    </div>
+  </div>`;
+}
+
+/* record-and-compare: capture the learner's voice and play it back against the Dutch TTS.
+   Pure client-side (MediaRecorder); nothing leaves the device, no upload. */
+const CAN_RECORD = typeof MediaRecorder !== 'undefined' &&
+  !!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia);
+
+/* ---------- pronunciation verification (Web Speech API, transcript-based) ----------
+   HONEST SCOPE: this is transcript matching, not phoneme scoring. The browser recognizer
+   (Chrome/Android; partial iOS; absent in Firefox) tells us what Dutch WORDS it heard; we
+   compare them to the target. A good proxy for "understandable", not a lab-grade accent score.
+   True phoneme assessment needs a paid cloud API - deliberately not used here. */
+const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+const CAN_RECOGNIZE = !!SR;
+// recognize one utterance in Dutch; resolves {transcript, confidence} or {transcript:'',error}
+function recognizeOnce(lang) {
+  return new Promise(res => {
+    if (!CAN_RECOGNIZE) { res({ transcript: '', error: 'unsupported' }); return; }
+    let r; try { r = new SR(); } catch { res({ transcript: '', error: 'init' }); return; }
+    r.lang = lang || 'nl-BE'; r.interimResults = false; r.maxAlternatives = 3; r.continuous = false;
+    let done = false; const fin = o => { if (done) return; done = true; try { r.stop(); } catch {} res(o); };
+    r.onresult = e => {
+      let best = '', conf = 0;
+      for (const alt of e.results[0]) if ((alt.confidence || 0) >= conf || !best) { best = alt.transcript; conf = alt.confidence || 0; }
+      fin({ transcript: best, confidence: conf });
+    };
+    r.onerror = e => fin({ transcript: '', error: e.error || 'error' });
+    r.onend = () => fin({ transcript: '', error: 'nomatch' });
+    try { r.start(); } catch { fin({ transcript: '', error: 'start' }); }
+    setTimeout(() => fin({ transcript: '', error: 'timeout' }), 8000); // safety
+  });
+}
+// word-level score of a heard transcript vs the target phrase; returns {pct, marks:[{w,ok}]}
+function scoreTranscript(target, heard) {
+  const words = w => norm(w).split(' ').filter(Boolean);
+  const tgt = words(target), pool = words(heard);
+  let hit = 0; const used = new Array(pool.length).fill(false);
+  const marks = tgt.map(w => {
+    const k = pool.findIndex((p, i) => !used[i] && p === w);
+    if (k >= 0) { used[k] = true; hit++; return { w, ok: true }; }
+    return { w, ok: false };
+  });
+  return { pct: tgt.length ? Math.round(100 * hit / tgt.length) : 0, marks };
+}
+function scoreBadge(pct) {
+  if (pct >= 80) return { emoji: '✅', label: 'Muito bom!', cls: 'ok' };
+  if (pct >= 50) return { emoji: '👍', label: 'Quase lá', cls: 'mid' };
+  return { emoji: '🔁', label: 'Tente de novo', cls: 'bad' };
+}
+function bindRecorder(card, it) {
+  const recBtn = card.querySelector('.sh-rec'), cmpBtn = card.querySelector('.sh-cmp');
+  if (!recBtn) return;
+  let rec = null, chunks = [], url = null, recording = false;
+  recBtn.addEventListener('click', async () => {
+    if (recording) { rec && rec.state !== 'inactive' && rec.stop(); return; }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      rec = new MediaRecorder(stream); chunks = [];
+      rec.ondataavailable = e => { if (e.data.size) chunks.push(e.data); };
+      rec.onstop = () => {
+        stream.getTracks().forEach(t => t.stop());
+        if (url) URL.revokeObjectURL(url);
+        url = URL.createObjectURL(new Blob(chunks, { type: rec.mimeType || 'audio/webm' }));
+        card._recUrl = url;
+        recBtn.innerHTML = '🎙️ Gravar'; recBtn.classList.remove('recording');
+        cmpBtn.hidden = false; recording = false;
+        toast('🎧 Gravado! Toque em 🔁 Comparar.');
+      };
+      rec.start(); recording = true;
+      recBtn.innerHTML = '⏹️ Parar'; recBtn.classList.add('recording');
+      toast('🔴 Gravando… fale agora!');
+    } catch { toast('🎙️ Sem acesso ao microfone.'); }
+  });
+  cmpBtn && cmpBtn.addEventListener('click', async () => {
+    if (!card._recUrl) return;
+    cmpBtn.disabled = true;
+    await sayOnce(it.nl, 'nl'); await wait(250);
+    const a = new Audio(card._recUrl);
+    a.onended = a.onerror = () => { cmpBtn.disabled = false; };
+    a.play().catch(() => { cmpBtn.disabled = false; });
+  });
+}
+
+// the PT → NL → NL → your-turn sequence, animated inside one card
+async function runShadow(card, it) {
+  if (card._running) return; card._running = true;
+  const status = card.querySelector('.sh-status');
+  const btn = card.querySelector('.sh-train');
+  const set = (t, cls) => { status.className = 'sh-status show ' + (cls || ''); status.innerHTML = t; };
+  card.classList.add('running'); btn.disabled = true;
+  set('🇧🇷 Ouça em português…', 'pt'); await sayOnce(it.pt, 'pt'); await wait(220);
+  set('🇧🇪 Neerlandês — 1ª vez…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(220);
+  set('🇧🇪 Neerlandês — 2ª vez…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(180);
+  // your turn: visible window with a shrinking bar, roughly the length of the Dutch phrase
+  const dur = Math.max(2600, it.nl.length * 110);
+  set(`🎙️ <b>Sua vez!</b> Repita em voz alta:<br><span class="sh-echo">${esc(it.nl)}</span>
+    <div class="sh-bar"><i></i></div>`, 'your-turn');
+  const bar = status.querySelector('.sh-bar > i');
+  if (bar) { bar.style.transition = `width ${dur}ms linear`; requestAnimationFrame(() => bar.style.width = '0%'); }
+  await wait(dur);
+  set('✅ <b>Boa!</b> Repita de novo 🔁 ou salve ⭐.', 'done');
+  card.classList.remove('running'); btn.disabled = false; btn.innerHTML = '🔁 De novo';
+  card._running = false;
+}
+
+function bindShadowCard(card, it, onSaved) {
+  card.querySelector('.sh-train').addEventListener('click', () => runShadow(card, it));
+  const pt = card.querySelector('.speak-pt'); if (pt) pt.addEventListener('click', () => speak(it.pt, pt, 'pt'));
+  const nl = card.querySelector('.speak-nl'); if (nl) nl.addEventListener('click', () => speak(it.nl, nl, 'nl'));
+  const sv = card.querySelector('.sh-save');
+  if (sv && !sv.disabled) sv.addEventListener('click', () => {
+    if (shadowSave(it)) { sv.textContent = '✅ Salvo'; sv.classList.add('is-saved'); sv.disabled = true; onSaved && onSaved(); }
+  });
+  bindRecorder(card, it);
+  bindVerify(card, it);
+}
+
+// "Verificar (2×)": hear the phrase, repeat it twice; each attempt is recognized and scored,
+// we keep the best. Word-level ✅/❌ shows exactly which words came through.
+function bindVerify(card, it) {
+  const btn = card.querySelector('.sh-verify'); if (!btn) return;
+  const status = card.querySelector('.sh-status');
+  const set = (html, cls) => { status.className = 'sh-status show ' + (cls || ''); status.innerHTML = html; };
+  async function attempt(n) {
+    set(`🎤 <b>Tentativa ${n}/2</b> — fale agora:<br><span class="sh-echo">${esc(it.nl)}</span>
+      <div class="sh-listening">🔴 ouvindo…</div>`, 'your-turn');
+    const { transcript, error } = await recognizeOnce('nl-BE');
+    if (error && !transcript) return { pct: -1, error, marks: [] };
+    return Object.assign(scoreTranscript(it.nl, transcript), { heard: transcript });
+  }
+  btn.addEventListener('click', async () => {
+    if (card._verifying) return; card._verifying = true; btn.disabled = true;
+    set('🔊 Ouça o modelo…', 'nl'); await sayOnce(it.nl, 'nl'); await wait(250);
+    const r1 = await attempt(1); await wait(500);
+    const r2 = await attempt(2);
+    card._verifying = false; btn.disabled = false;
+    const valid = [r1, r2].filter(r => r.pct >= 0);
+    if (!valid.length) {
+      set('🎤 Não consegui ouvir — fale mais perto do microfone e tente de novo. 🔁', 'bad');
+      return;
+    }
+    const best = valid.sort((a, b) => b.pct - a.pct)[0];
+    const bdg = scoreBadge(best.pct);
+    const marksHTML = best.marks.map(m => `<span class="wm ${m.ok ? 'ok' : 'no'}">${m.ok ? '✅' : '❌'} ${esc(m.w)}</span>`).join(' ');
+    set(`${bdg.emoji} <b>${bdg.label}</b> — ${best.pct}% das palavras<br>
+      <div class="sh-marks">${marksHTML}</div>
+      ${best.heard ? `<small class="muted">ouvi: "${esc(best.heard)}"</small>` : ''}
+      <div class="sh-redo"><button class="btn small sh-again">🔁 Repetir</button></div>`, bdg.cls);
+    const again = status.querySelector('.sh-again');
+    again && again.addEventListener('click', () => btn.click());
+    if (best.pct < 50) recordMistake({ lesson:'herhaal', lessonTitle:'Repita comigo', lessonEmoji:'🎙️', unit:'A1', type:'listen', q:'Pronuncie: '+it.pt, nl:it.nl, pt:it.pt, answer:it.nl });
+  });
+}
+
+async function renderShadow(app) {
+  const data = await shadowSeed();
+  const themes = data.themes || [{ name: 'Frases', emoji: '🗣️', sentences: data.sentences || [] }];
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a> › 🎙️ Repita comigo</div>
+    <div class="hero">
+      <h1>🎙️ Repita comigo <small class="muted">· shadowing</small></h1>
+      <p>Treine a fala em 3 passos: 🇧🇷 ouça em português → 🇧🇪 ouça em neerlandês <b>2×</b> → 🎙️ <b>repita você</b>.
+      Salve as frases que quiser ⭐ para montar a <b>sua lista</b>.</p>
+      ${CAN_RECOGNIZE ? '<p class="muted">🎤 <b>Verificar (2×)</b>: repita a frase duas vezes e o app confere quais palavras saíram certas (fica com a melhor tentativa). Precisa de internet e permissão do microfone.</p>' : ''}
+      ${!hasTTS ? '<p class="muted">⚠️ Seu aparelho não tem voz instalada — o texto aparece, mas sem áudio.</p>' : ''}
+    </div>
+    <div class="tabs" id="shTabs">
+      <button class="tab active" data-t="browse">📚 Frases</button>
+      <button class="tab" data-t="mine">⭐ Minha lista <span class="due-badge" id="shCount" ${S.shadow.saved.length ? '' : 'hidden'}>${S.shadow.saved.length}</span></button>
+    </div>
+    <div id="shBody"></div>`;
+
+  const body = $('#shBody');
+  const paintCount = () => { const b = $('#shCount'); if (b) { b.textContent = S.shadow.saved.length; b.hidden = !S.shadow.saved.length; } };
+
+  function showBrowse() {
+    body.innerHTML = themes.map((th, ti) => `
+      <h2 style="margin-top:20px">${th.emoji || '🗣️'} ${esc(th.name)}</h2>
+      ${th.sentences.map((it, si) => shadowCardHTML(it, ti * 1000 + si)).join('')}`).join('');
+    const flat = []; themes.forEach(th => th.sentences.forEach(it => flat.push(it)));
+    body.querySelectorAll('.shadow-card').forEach((card, k) => bindShadowCard(card, flat[k], paintCount));
+  }
+
+  function showMine() {
+    if (!S.shadow.saved.length) {
+      body.innerHTML = `<div class="card center">⭐ Sua lista está vazia.<br><small class="muted">Abra 📚 Frases e toque em <b>➕ Salvar</b> para montar seu treino.</small></div>`;
+    } else {
+      body.innerHTML = `
+        <p class="center"><button class="btn primary" id="trainAll">▶️ Treinar tudo (${S.shadow.saved.length})</button></p>
+        ${S.shadow.saved.map((it, i) => `<div class="mine-row">
+          ${shadowCardHTML(it, i, true)}
+          <button class="btn small sh-del" data-key="${esc(shadowKey(it))}" title="Remover">❌</button></div>`).join('')}
+        <div class="card" style="margin-top:18px">
+          <h3>➕ Adicionar a sua própria frase</h3>
+          <p><input class="fill-input" id="newPt" placeholder="🇧🇷 frase em português" autocomplete="off"></p>
+          <p><input class="fill-input" id="newNl" placeholder="🇧🇪 tradução em neerlandês" autocomplete="off"></p>
+          <button class="btn" id="addMine">➕ Salvar na lista</button>
+        </div>`;
+      const saved = S.shadow.saved.slice();
+      body.querySelectorAll('.mine-row').forEach((row, k) => {
+        bindShadowCard(row.querySelector('.shadow-card'), saved[k], paintCount);
+        row.querySelector('.sh-del').addEventListener('click', () => { shadowRemove(row.querySelector('.sh-del').dataset.key); paintCount(); showMine(); });
+      });
+      $('#trainAll').addEventListener('click', async () => {
+        for (const card of body.querySelectorAll('.mine-row .shadow-card')) {
+          const it = saved[[...body.querySelectorAll('.mine-row .shadow-card')].indexOf(card)];
+          await runShadow(card, it); await wait(400);
+        }
+      });
+      const add = $('#addMine');
+      add.addEventListener('click', () => {
+        const pt = $('#newPt').value.trim(), nl = $('#newNl').value.trim();
+        if (!pt || !nl) { toast('✍️ Preencha as duas línguas.'); return; }
+        shadowSave({ pt, nl, emoji: '⭐' }); paintCount(); showMine();
+      });
+    }
+  }
+
+  $('#shTabs').querySelectorAll('.tab').forEach(b => b.addEventListener('click', () => {
+    $('#shTabs').querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    b.dataset.t === 'mine' ? showMine() : showBrowse();
+  }));
+  showBrowse();
+}
+
+/* ============================================================
+   Minimal-pairs ear trainer (#/klankparen): hear one word of a pair,
+   pick which you heard. Targets the exact sounds PT-BR speakers confuse:
+   short vs long vowels, and the g/ch (carioca rr).
+   ============================================================ */
+let KLANKPAREN = null;
+async function minimalPairsData() {
+  if (!KLANKPAREN) KLANKPAREN = await (await fetch('data/klankparen.json')).json();
+  return KLANKPAREN;
+}
+async function renderMinimalPairs(app) {
+  const data = await minimalPairsData();
+  app.innerHTML = `
+    <div class="crumb"><a href="#/">🏠 Início</a> › 👂 Klankparen</div>
+    <div class="hero">
+      <h1>👂 Klankparen <small class="muted">· pares mínimos</small></h1>
+      <p>${esc(data.intro)}</p>
+      ${!hasTTS ? '<p class="muted">⚠️ Seu aparelho não tem voz neerlandesa — este treino precisa de áudio.</p>' : ''}
+    </div>
+    <div class="kp-groups">${data.groups.map((g, gi) =>
+      `<button class="kp-group" data-g="${gi}">${g.emoji || '🔊'} ${esc(g.name)}<small>${g.pairs.length} pares</small></button>`).join('')}</div>
+    <div id="kpBody"></div>`;
+  const body = $('#kpBody');
+  app.querySelectorAll('.kp-group').forEach(b => b.addEventListener('click', () => {
+    app.querySelectorAll('.kp-group').forEach(x => x.classList.remove('active'));
+    b.classList.add('active');
+    runPairs(body, data.groups[+b.dataset.g]);
+  }));
+}
+function runPairs(body, group) {
+  const pairs = shuffle(group.pairs); let i = 0, score = 0;
+  function show() {
+    const p = pairs[i];
+    const target = Math.random() < 0.5 ? 'a' : 'b'; // which word is actually spoken
+    const say = p[target];
+    const opt = (k) => `<button class="kp-opt" data-k="${k}">
+      <span class="kp-em">${p[k + 'e'] || '🔊'}</span><b>${esc(p[k])}</b><small>${esc(p[k + 'pt'] || '')}</small></button>`;
+    body.innerHTML = `<div class="card kp-card">
+      <div class="kp-head"><b>${group.emoji} ${esc(group.name)}</b><span>${i + 1}/${pairs.length} · ⚡${score}</span></div>
+      <p class="center"><button class="big-audio" id="kpPlay">▶️</button><br><small class="muted">toque para ouvir de novo 🔊</small></p>
+      <div class="kp-opts">${opt('a')}${opt('b')}</div></div>`;
+    const play = () => speak(say, $('#kpPlay'), 'nl');
+    $('#kpPlay').addEventListener('click', play);
+    setTimeout(play, 350);
+    body.querySelectorAll('.kp-opt').forEach(b => b.addEventListener('click', () => {
+      const ok = b.dataset.k === target;
+      body.querySelectorAll('.kp-opt').forEach(x => x.disabled = true);
+      body.querySelector(`.kp-opt[data-k="${target}"]`).classList.add('correct');
+      if (ok) { b.classList.add('correct'); score++; addXP(6); }
+      else { b.classList.add('wrong'); recordMistake({ lesson:'klankparen', lessonTitle:'Klankparen', lessonEmoji:'👂', unit:'A1', type:'listen', q:'Ouça: '+say, nl:say, pt:p[target+'pt']||'', answer:say }); }
+      const nav = document.createElement('div'); nav.className = 'ex-nav center';
+      nav.innerHTML = `<p class="feedback ${ok?'ok':'bad'}">${ok?'✅ Juist! ':'❌ Era: '}<b>${esc(say)}</b> ${p[target+'e']||''}</p>
+        <button class="btn primary" id="kpNext">${i+1<pairs.length?'Continuar →':'🏁 Ver resultado'}</button>`;
+      body.querySelector('.kp-card').appendChild(nav);
+      $('#kpNext').addEventListener('click', () => { i++; i<pairs.length ? show() : done(); });
+    }));
+  }
+  function done() {
+    body.innerHTML = `<div class="card endscreen center"><div class="big">${score===pairs.length?'🏆':'👂'}</div>
+      <h2>${score}/${pairs.length} certos!</h2>
+      <p><button class="btn primary" id="kpAgain">🔁 De novo</button></p></div>`;
+    $('#kpAgain').addEventListener('click', () => { i=0; score=0; runPairs(body, group); });
+  }
+  show();
+}
+
 function showTab(t, L) {
   const body = $('#tabBody');
   if (t === 'ap') {
@@ -514,6 +907,7 @@ function showTab(t, L) {
       <h2 style="margin-top:22px">🎨 Frases-ponte <small class="muted" style="font-size:.85rem">(toque numa palavra para ver o par dela!)</small></h2>
       ${legendStrip(L.phrases)}
       ${L.phrases.map((p, i) => phraseHTML(p, i)).join('')}
+      ${chainsHTML(L)}
       <h2 style="margin-top:22px">🧩 Vocabulário com quebra de palavras</h2>
       <table class="vocab"><tr><th></th><th>palavra</th><th>quebra 🧩</th><th>português</th></tr>
       ${L.vocab.map(v => `<tr>

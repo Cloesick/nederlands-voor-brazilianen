@@ -18,6 +18,17 @@
       "note": "insight do padrão (opcional)"
     }
   ],
+  "chains": [                          // 🎵 opcional — woordketting (cadeia de palavras, método "Kam in de zak")
+    {
+      "title": "Kam in de zak",        // nome da cantiga
+      "emoji": "🎵",                   // ícone da cadeia
+      "pt": "glosa curta (opcional)",
+      "lines": [                       // cada linha: a palavra DIREITA (r) abre a próxima linha
+        { "l": "Kam", "le": "🪮", "p": "in", "r": "zak", "re": "👝", "art": "de" }
+        // l/le = palavra+emoji à esquerda · p = preposição · r/re = palavra+emoji à direita · art = de|het (opcional)
+      ]
+    }
+  ],
   "vocab": [
     { "nl": "de afspraak", "art": "de", "split": "af (fechado) + spraak (fala)",
       "pt": "compromisso", "emoji": "📅" }
