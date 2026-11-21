@@ -856,5 +856,319 @@
    "url": "https://www.instagram.com/explore/search/keyword/?q=vlaamse%20uitdrukkingen",
    "src": "Instagram · busca"
   }
+ ],
+ "b1-05-auto-verkeer": [
+  {
+   "icon": "▶️",
+   "label": "Regras de trânsito, segurança e campanhas oficiais na Bélgica, em holandês",
+   "url": "https://www.vias.be",
+   "src": "vias.be · Vias institute"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre a carteira de motorista belga e o código de trânsito, em holandês",
+   "url": "https://www.youtube.com/results?search_query=rijbewijs+halen+belgi%C3%AB+verkeersregels",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Criadores falando de trânsito, multas e autoescola na Bélgica",
+   "url": "https://www.tiktok.com/search?q=rijbewijs%20belgie",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts da comunidade que aprende holandês, com vocabulário do dia a dia",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23learndutch",
+   "src": "Instagram · #learndutch"
+  }
+ ],
+ "b1-06-welzijn": [
+  {
+   "icon": "▶️",
+   "label": "Informação confiável sobre saúde e bem-estar em holandês claro",
+   "url": "https://www.gezondheidenwetenschap.be",
+   "src": "gezondheidenwetenschap.be"
+  },
+  {
+   "icon": "▶️",
+   "label": "Portal flamengo de saúde e cuidados, para praticar leitura",
+   "url": "https://www.zorg-en-gezondheid.be",
+   "src": "zorg-en-gezondheid.be"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre stress, burn-out e saúde mental, em holandês",
+   "url": "https://www.youtube.com/results?search_query=mentale+gezondheid+stress+burn-out+uitleg",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Vídeos curtos sobre bem-estar mental em holandês",
+   "url": "https://www.tiktok.com/search?q=mentale%20gezondheid",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts em holandês sobre bem-estar e aprendizado da língua",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsleren",
+   "src": "Instagram · #nederlandsleren"
+  }
+ ],
+ "b1-07-uitjes-cultuur": [
+  {
+   "icon": "▶️",
+   "label": "Ideias de passeios, museus e eventos na Flandres",
+   "url": "https://www.visitflanders.com/nl",
+   "src": "visitflanders.com"
+  },
+  {
+   "icon": "▶️",
+   "label": "Programação de filmes, séries e cultura da VRT para ouvir holandês de verdade",
+   "url": "https://www.vrt.be/vrtmax/",
+   "src": "VRT MAX"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos de passeios e museus na Bélgica, em holandês",
+   "url": "https://www.youtube.com/results?search_query=uitstap+museum+vlaanderen",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Dicas de passeios e cultura na Flandres em vídeos curtos",
+   "url": "https://www.tiktok.com/search?q=uitstap%20vlaanderen",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts de quem aprende holandês, com frases para sair e passear",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23learndutch",
+   "src": "Instagram · #learndutch"
+  }
+ ],
+ "b2-04-debatteren": [
+  {
+   "icon": "🎬",
+   "label": "Debates e discussões em holandês para ouvir como se defende uma opinião",
+   "url": "https://www.youtube.com/results?search_query=debat+nederlands+meningen+geven",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎬",
+   "label": "Aulas sobre expressões para concordar, discordar e argumentar",
+   "url": "https://www.youtube.com/results?search_query=nederlands+leren+mening+geven+argumenteren",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "▶️",
+   "label": "Notícias e debates da VRT NWS para acompanhar argumentos reais",
+   "url": "https://www.vrt.be/vrtnws/nl/",
+   "src": "VRT NWS"
+  },
+  {
+   "icon": "🎵",
+   "label": "Trechos curtos de debates e opiniões em holandês",
+   "url": "https://www.tiktok.com/search?q=debat%20nederlands",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts da comunidade que aprende holandês",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsleren",
+   "src": "Instagram · #nederlandsleren"
+  }
+ ],
+ "b2-05-vastgoed": [
+  {
+   "icon": "▶️",
+   "label": "Anúncios de imóveis na Bélgica para ler vocabulário real de compra e aluguel",
+   "url": "https://www.immoweb.be",
+   "src": "immoweb.be"
+  },
+  {
+   "icon": "▶️",
+   "label": "Informações oficiais sobre moradia na Flandres",
+   "url": "https://www.vlaanderen.be/uw-overheid",
+   "src": "vlaanderen.be"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre como comprar uma casa na Bélgica, em holandês",
+   "url": "https://www.youtube.com/results?search_query=huis+kopen+belgi%C3%AB+stappenplan",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Dicas curtas sobre compra de imóvel e financiamento na Bélgica",
+   "url": "https://www.tiktok.com/search?q=huis%20kopen%20belgie",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts em holandês sobre moradia e aprendizado da língua",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23learndutch",
+   "src": "Instagram · #learndutch"
+  }
+ ],
+ "b2-06-technologie": [
+  {
+   "icon": "▶️",
+   "label": "Guias e testes de tecnologia e consumo, em holandês",
+   "url": "https://www.test-aankoop.be",
+   "src": "test-aankoop.be"
+  },
+  {
+   "icon": "▶️",
+   "label": "Notícias de tecnologia e sociedade da VRT NWS",
+   "url": "https://www.vrt.be/vrtnws/nl/",
+   "src": "VRT NWS"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre redes sociais, privacidade e tecnologia, em holandês",
+   "url": "https://www.youtube.com/results?search_query=sociale+media+technologie+uitleg+nederlands",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Vídeos curtos de tecnologia e redes sociais em holandês",
+   "url": "https://www.tiktok.com/search?q=technologie%20nederlands",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts de quem aprende holandês",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsleren",
+   "src": "Instagram · #nederlandsleren"
+  }
+ ],
+ "c1-02-nieuws-politiek": [
+  {
+   "icon": "▶️",
+   "label": "Telejornal e notícias da Bélgica em holandês, com vídeos e textos",
+   "url": "https://www.vrt.be/vrtnws/nl/",
+   "src": "VRT NWS"
+  },
+  {
+   "icon": "▶️",
+   "label": "Site da Câmara dos Representantes belga, para vocabulário político oficial",
+   "url": "https://www.dekamer.be",
+   "src": "dekamer.be"
+  },
+  {
+   "icon": "🎬",
+   "label": "Reportagens e análises políticas em holandês",
+   "url": "https://www.youtube.com/results?search_query=nieuws+politiek+belgi%C3%AB+analyse",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Notícias curtas em holandês",
+   "url": "https://www.tiktok.com/search?q=nieuws%20vrt",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts da comunidade que aprende holandês",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23learndutch",
+   "src": "Instagram · #learndutch"
+  }
+ ],
+ "c1-03-onderhandelen": [
+  {
+   "icon": "▶️",
+   "label": "Vagas, direitos e orientação profissional na Flandres",
+   "url": "https://www.vdab.be",
+   "src": "vdab.be"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre negociação salarial e de contratos, em holandês",
+   "url": "https://www.youtube.com/results?search_query=onderhandelen+loon+tips+nederlands",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre técnicas de negociação profissional",
+   "url": "https://www.youtube.com/results?search_query=onderhandelen+techniek+zakelijk",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎵",
+   "label": "Dicas curtas de negociação no trabalho em holandês",
+   "url": "https://www.tiktok.com/search?q=onderhandelen%20werk",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts em holandês sobre carreira e aprendizado da língua",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsleren",
+   "src": "Instagram · #nederlandsleren"
+  }
+ ],
+ "c1-04-ironie-humor": [
+  {
+   "icon": "🎬",
+   "label": "Humor flamengo e holandês para treinar a percepção de ironia",
+   "url": "https://www.youtube.com/results?search_query=vlaamse+humor+sketch",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎬",
+   "label": "Explicações sobre ironia e sarcasmo no holandês",
+   "url": "https://www.youtube.com/results?search_query=ironie+sarcasme+nederlands+uitleg",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "▶️",
+   "label": "Programas de humor e comédia no VRT MAX",
+   "url": "https://www.vrt.be/vrtmax/",
+   "src": "VRT MAX"
+  },
+  {
+   "icon": "🎵",
+   "label": "Vídeos curtos de humor flamengo",
+   "url": "https://www.tiktok.com/search?q=vlaamse%20humor",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts de humor e curiosidades do holandês",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23learndutch",
+   "src": "Instagram · #learndutch"
+  }
+ ],
+ "c1-05-presentaties": [
+  {
+   "icon": "🎬",
+   "label": "Vídeos sobre como fazer uma apresentação convincente, em holandês",
+   "url": "https://www.youtube.com/results?search_query=presentatie+geven+tips+nederlands",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "🎬",
+   "label": "Exemplos de discursos e palestras formais em holandês",
+   "url": "https://www.youtube.com/results?search_query=toespraak+voorbeeld+nederlands",
+   "src": "YouTube · busca"
+  },
+  {
+   "icon": "▶️",
+   "label": "Notícias da VRT NWS para ouvir registro formal falado",
+   "url": "https://www.vrt.be/vrtnws/nl/",
+   "src": "VRT NWS"
+  },
+  {
+   "icon": "🎵",
+   "label": "Dicas curtas de apresentação e fala em público em holandês",
+   "url": "https://www.tiktok.com/search?q=presentatie%20tips",
+   "src": "TikTok · busca"
+  },
+  {
+   "icon": "📸",
+   "label": "Posts da comunidade que aprende holandês",
+   "url": "https://www.instagram.com/explore/search/keyword/?q=%23nederlandsleren",
+   "src": "Instagram · #nederlandsleren"
+  }
  ]
 }
