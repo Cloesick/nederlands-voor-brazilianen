@@ -1,0 +1,990 @@
+{
+  "id": "a2-09-ontkenning-er",
+  "unit": "A2",
+  "title": "Negação e o 'er' · Niet, geen en er",
+  "emoji": "🚫",
+  "teaching": [
+    {
+      "emoji": "🚫",
+      "title": "Geen ou niet? A pergunta de um segundo",
+      "html": "<p>Em português dizemos <i>não</i> para tudo: <i>não tenho carro</i>, <i>não é caro</i>. Em neerlandês existem <b>duas</b> negações, e você escolhe olhando para o que vem depois:</p><ul><li><b>geen</b> nega um <b>substantivo sem artigo ou com een</b> (\"um/nenhum\"). Ik heb <b>een</b> auto → Ik heb <b>geen</b> auto. 🚗</li><li><b>niet</b> nega todo o resto: verbo, adjetivo, lugar, e substantivos com de/het/mijn.</li></ul><table class=\"vocab\"><tr><th>afirmativa</th><th>negativa</th><th>por quê</th></tr><tr><td>Ik heb een fiets.</td><td>Ik heb <b>geen</b> fiets.</td><td>een → geen</td></tr><tr><td>Ik heb tijd.</td><td>Ik heb <b>geen</b> tijd.</td><td>sem artigo → geen</td></tr><tr><td>Ik heb de fiets.</td><td>Ik heb de fiets <b>niet</b>.</td><td>de → niet</td></tr><tr><td>Dat is duur.</td><td>Dat is <b>niet</b> duur.</td><td>adjetivo → niet</td></tr></table><p><small>❌ Erro clássico de brasileiro: <i>Ik heb niet tijd</i>. ✅ <i>Ik heb geen tijd.</i> Nunca \"niet een\" nem \"geen een\".</small></p>"
+    },
+    {
+      "emoji": "📍",
+      "title": "Onde fica o niet?",
+      "html": "<p>O <b>niet</b> é um pouco como o nosso \"não\", só que ele <b>não vem antes do verbo</b>. Regra prática para a frase simples:</p><ul><li>Frase curta, só verbo: <b>niet</b> vai para o <b>fim</b>. <i>Ik werk vandaag <b>niet</b>.</i> 💼</li><li>Com objeto definido (het, de, mijn, nomes): <b>niet</b> vem <b>depois</b> do objeto. <i>Ik begrijp het <b>niet</b>.</i></li><li>Com adjetivo, lugar ou partes finais (particípio, infinitivo): <b>niet</b> vem <b>antes</b> deles. <i>Hij is <b>niet</b> thuis.</i> / <i>Ik heb de bus <b>niet</b> genomen.</i></li></ul><p>Para contrastar (\"não em A, mas em B\"), coloque o <b>niet</b> logo antes do que você nega: <b>Ik woon niet in Gent, maar in Brussel.</b></p><p><small>🧠 Dica: pense em <b>niet</b> como um adesivo que cola na palavra que você quer negar ou no fim da frase.</small></p>"
+    },
+    {
+      "emoji": "📌",
+      "title": "Het woordje 'er' (lugar e existência)",
+      "html": "<p>O <b>er</b> não existe em português, e por isso é um dos maiores tropeços. Ele tem duas funções de \"lugar\":</p><ul><li><b>Lá</b> (algo já mencionado): <i>Ik woon <b>er</b> al drie jaar.</i> = Moro lá há três anos. <i>Ik ga <b>er</b> morgen naartoe.</i> = Vou lá amanhã.</li><li><b>Existência</b> (\"há/existe\"): <i>Er is geen melk meer.</i> = Não há mais leite. 🥛 Aqui o er é só um \"empurrãozinho\" e não se traduz.</li></ul><p><small>🔁 Se o lugar já foi dito, o er substitui ele: <i>Woon je in Gent? Ja, ik woon er al lang.</i></small></p>"
+    },
+    {
+      "emoji": "🔢",
+      "title": "'Er' de quantidade: Ik heb er twee",
+      "html": "<p>Quando a pergunta é sobre <b>quantidade</b> e o substantivo já é conhecido, o neerlandês não repete a palavra. Ele a troca por <b>er</b> e deixa só o número:</p><table class=\"vocab\"><tr><th>pergunta</th><th>resposta</th><th>português</th></tr><tr><td>Heb je broers?</td><td>Ja, ik heb <b>er</b> twee.</td><td>Tenho dois (deles).</td></tr><tr><td>Heb je kinderen?</td><td>Nee, ik heb <b>er</b> geen.</td><td>Não tenho nenhum.</td></tr><tr><td>Hoeveel tassen koffie?</td><td>Ik drink <b>er</b> drie.</td><td>Bebo três.</td></tr></table><p>O <b>er</b> fica <b>cedo</b> na frase, logo depois do verbo (e do sujeito): <i>Ik heb er gisteren twee gekocht.</i></p><p><small>🇧🇷 Em português o \"deles\" costuma sumir; em neerlandês o <b>er</b> é obrigatório.</small></p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "heb",
+          "r": "verb"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": "tijd",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "tenho",
+          "r": "verb"
+        },
+        {
+          "t": "tempo",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tenho nenhum tempo",
+      "note": "geen + substantivo sem artigo. Em português o 'não' vai antes do verbo, em neerlandês ele vira geen e gruda no substantivo."
+    },
+    {
+      "nl": [
+        {
+          "t": "Hij",
+          "r": "pron"
+        },
+        {
+          "t": "heeft",
+          "r": "verb"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": "auto",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Ele",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "tem",
+          "r": "verb"
+        },
+        {
+          "t": "carro",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "ele tem nenhum carro",
+      "note": "Een auto → geen auto. Nada de 'niet een'."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "heb",
+          "r": "verb"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": "honger",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "tenho",
+          "r": "verb"
+        },
+        {
+          "t": "fome",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tenho nenhuma fome"
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": "vandaag",
+          "r": "adv"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "hoje",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu trabalho hoje não",
+      "note": "Frase curta: niet vai para o fim."
+    },
+    {
+      "nl": [
+        {
+          "t": "Dat",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": "duur",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Isso",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "é",
+          "r": "verb"
+        },
+        {
+          "t": "caro",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "isso é não caro",
+      "note": "Niet antes do adjetivo."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "begrijp",
+          "r": "verb"
+        },
+        {
+          "t": "het",
+          "r": "pron"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "entendo",
+          "r": "verb"
+        },
+        {
+          "t": "isso",
+          "r": "pron"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu entendo isso não",
+      "note": "Objeto definido (het): niet vem depois dele."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "woon",
+          "r": "verb"
+        },
+        {
+          "t": "niet",
+          "r": "neg"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "maar",
+          "r": "conj"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Brussel",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "moro",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": ",",
+          "r": "punc"
+        },
+        {
+          "t": "mas",
+          "r": "conj"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Bruxelas",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu moro não em Gent, mas em Bruxelas",
+      "note": "Contraste: niet logo antes do que se nega."
+    },
+    {
+      "nl": [
+        {
+          "t": "Er",
+          "r": "x"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": "melk",
+          "r": "noun"
+        },
+        {
+          "t": "meer",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Não",
+          "r": "neg"
+        },
+        {
+          "t": "há",
+          "r": "verb"
+        },
+        {
+          "t": "mais",
+          "r": "adv"
+        },
+        {
+          "t": "leite",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "há nenhum leite mais",
+      "note": "Er existencial: empurrãozinho que não se traduz."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "woon",
+          "r": "verb"
+        },
+        {
+          "t": "er",
+          "r": "adv"
+        },
+        {
+          "t": "al",
+          "r": "adv"
+        },
+        {
+          "t": "drie",
+          "r": "num"
+        },
+        {
+          "t": "jaar",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "moro",
+          "r": "verb"
+        },
+        {
+          "t": "lá",
+          "r": "adv"
+        },
+        {
+          "t": "há",
+          "r": "prep"
+        },
+        {
+          "t": "três",
+          "r": "num"
+        },
+        {
+          "t": "anos",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu moro lá já três anos",
+      "note": "Er de lugar = lá."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "ga",
+          "r": "verb"
+        },
+        {
+          "t": "er",
+          "r": "adv"
+        },
+        {
+          "t": "morgen",
+          "r": "adv"
+        },
+        {
+          "t": "naartoe",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "vou",
+          "r": "verb"
+        },
+        {
+          "t": "lá",
+          "r": "adv"
+        },
+        {
+          "t": "amanhã",
+          "r": "adv"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu vou lá amanhã para",
+      "note": "Naartoe completa o er: 'para lá'."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "heb",
+          "r": "verb"
+        },
+        {
+          "t": "er",
+          "r": "pron"
+        },
+        {
+          "t": "twee",
+          "r": "num"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "tenho",
+          "r": "verb"
+        },
+        {
+          "t": "dois",
+          "r": "num"
+        },
+        {
+          "t": "deles",
+          "r": "pron"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tenho deles dois",
+      "note": "Er de quantidade: o substantivo some, o número fica."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "heb",
+          "r": "verb"
+        },
+        {
+          "t": "er",
+          "r": "pron"
+        },
+        {
+          "t": "geen",
+          "r": "neg"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "não",
+          "r": "neg"
+        },
+        {
+          "t": "tenho",
+          "r": "verb"
+        },
+        {
+          "t": "nenhum",
+          "r": "neg"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu tenho deles nenhum",
+      "note": "Geen também pode ficar sozinho depois do er."
+    }
+  ],
+  "vocab": [
+    {
+      "nl": "de tijd",
+      "art": "de",
+      "split": "tijd (tempo)",
+      "pt": "tempo",
+      "emoji": "⏳"
+    },
+    {
+      "nl": "de honger",
+      "art": "de",
+      "split": "honger (fome)",
+      "pt": "fome",
+      "emoji": "🍽️"
+    },
+    {
+      "nl": "de dorst",
+      "art": "de",
+      "split": "dorst (sede)",
+      "pt": "sede",
+      "emoji": "🥤"
+    },
+    {
+      "nl": "de melk",
+      "art": "de",
+      "split": "melk (leite)",
+      "pt": "leite",
+      "emoji": "🥛"
+    },
+    {
+      "nl": "de auto",
+      "art": "de",
+      "split": "auto (carro)",
+      "pt": "carro",
+      "emoji": "🚗"
+    },
+    {
+      "nl": "de fiets",
+      "art": "de",
+      "split": "fiets (bicicleta)",
+      "pt": "bicicleta",
+      "emoji": "🚲"
+    },
+    {
+      "nl": "de broer",
+      "art": "de",
+      "split": "broer (irmão)",
+      "pt": "irmão",
+      "emoji": "👦"
+    },
+    {
+      "nl": "de zus",
+      "art": "de",
+      "split": "zus (irmã)",
+      "pt": "irmã",
+      "emoji": "👧"
+    },
+    {
+      "nl": "het kind",
+      "art": "het",
+      "split": "kind (criança); plural: kinderen",
+      "pt": "filho, criança",
+      "emoji": "🧒"
+    },
+    {
+      "nl": "de gsm",
+      "art": "de",
+      "split": "gsm (celular na Flandres)",
+      "pt": "celular",
+      "emoji": "📱"
+    },
+    {
+      "nl": "thuis",
+      "art": null,
+      "split": "thuis (em casa)",
+      "pt": "em casa",
+      "emoji": "🏠"
+    },
+    {
+      "nl": "nooit",
+      "art": null,
+      "split": "nooit (nunca)",
+      "pt": "nunca",
+      "emoji": "🚷"
+    },
+    {
+      "nl": "meer",
+      "art": null,
+      "split": "meer (mais)",
+      "pt": "mais",
+      "emoji": "➕"
+    },
+    {
+      "nl": "al",
+      "art": null,
+      "split": "al (já)",
+      "pt": "já",
+      "emoji": "✅"
+    },
+    {
+      "nl": "naartoe",
+      "art": null,
+      "split": "naar (para) + toe (em direção)",
+      "pt": "para lá, em direção a",
+      "emoji": "➡️"
+    },
+    {
+      "nl": "begrijpen",
+      "art": null,
+      "split": "be- + grijpen (agarrar)",
+      "pt": "entender",
+      "emoji": "💡"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Ik heb ___ tijd. Qual negação? ⏳",
+      "options": [
+        "geen",
+        "niet",
+        "nee",
+        "non"
+      ],
+      "answer": 0,
+      "explain": "Tijd aqui vem sem artigo, então a negação é geen: Ik heb geen tijd. Niet só entra com de/het/mijn, verbos e adjetivos."
+    },
+    {
+      "type": "mc",
+      "q": "Hij is ___ thuis. Qual negação? 🏠",
+      "options": [
+        "niet",
+        "geen",
+        "nee",
+        "non"
+      ],
+      "answer": 0,
+      "explain": "Thuis é um lugar (advérbio), não um substantivo com een. Então: Hij is niet thuis."
+    },
+    {
+      "type": "mc",
+      "q": "Heb je een fiets? Qual é a resposta negativa correta? 🚲",
+      "options": [
+        "Nee, ik heb geen fiets.",
+        "Nee, ik heb niet fiets.",
+        "Nee, ik heb niet een fiets.",
+        "Nee, ik niet heb fiets."
+      ],
+      "answer": 0,
+      "explain": "Een fiets vira geen fiets. Nada de niet fiets nem niet een fiets, e o verbo continua na posição 2."
+    },
+    {
+      "type": "mc",
+      "q": "Heb je broers? Ja, ik heb ___ twee. 👦",
+      "options": [
+        "er",
+        "het",
+        "hem",
+        "zij"
+      ],
+      "answer": 0,
+      "explain": "Quando o substantivo (broers) já é conhecido, o er assume o lugar dele: Ik heb er twee = Tenho dois (deles)."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb geen honger.",
+      "options": [
+        "Eu não tenho fome.",
+        "Eu tenho muita fome.",
+        "Eu não tenho tempo."
+      ],
+      "answer": 0,
+      "explain": "geen honger = nenhuma fome. Honger é fome e tijd é tempo, cuidado para não confundir."
+    },
+    {
+      "type": "listen",
+      "nl": "Ik heb er twee.",
+      "options": [
+        "Eu tenho dois (deles).",
+        "Eu não tenho nenhum.",
+        "Eu tenho três."
+      ],
+      "answer": 0,
+      "explain": "er = os que já foram mencionados, twee = dois. Se fosse nenhum, ouviríamos er geen."
+    },
+    {
+      "type": "listen",
+      "nl": "Er is geen melk meer.",
+      "options": [
+        "Não há mais leite.",
+        "Ainda há leite.",
+        "Não há mais pão."
+      ],
+      "answer": 0,
+      "explain": "Er is = há, geen melk = nenhum leite, meer = mais. O er existencial não se traduz."
+    },
+    {
+      "type": "fill",
+      "before": "Wij hebben",
+      "after": "auto.",
+      "answer": "geen",
+      "alt": [],
+      "hint": "não temos carro (substantivo sem artigo)",
+      "explain": "Auto sem artigo pede geen: Wij hebben geen auto."
+    },
+    {
+      "type": "fill",
+      "before": "Ik begrijp het",
+      "after": ".",
+      "answer": "niet",
+      "alt": [],
+      "hint": "não entendo isso",
+      "explain": "Het é um objeto definido, então o niet vem depois dele: Ik begrijp het niet."
+    },
+    {
+      "type": "fill",
+      "before": "Heb je broers of zussen? Ja, ik heb",
+      "after": "drie.",
+      "answer": "er",
+      "alt": [],
+      "hint": "a palavrinha de quantidade",
+      "explain": "Ik heb er drie: o er substitui broers of zussen e o número fica no fim."
+    },
+    {
+      "type": "fill",
+      "before": "Ik woon in Gent en mijn ouders wonen",
+      "after": "ook.",
+      "answer": "er",
+      "alt": [],
+      "hint": "lá",
+      "explain": "Er de lugar substitui in Gent: Mijn ouders wonen er ook = Meus pais também moram lá."
+    },
+    {
+      "type": "order",
+      "pt": "Eu não tenho tempo.",
+      "tokens": [
+        "Ik",
+        "heb",
+        "geen",
+        "tijd"
+      ],
+      "answer": "Ik heb geen tijd",
+      "explain": "Geen gruda no substantivo (tijd) e o verbo heb fica na posição 2."
+    },
+    {
+      "type": "order",
+      "pt": "Ele não trabalha hoje.",
+      "tokens": [
+        "Hij",
+        "werkt",
+        "vandaag",
+        "niet"
+      ],
+      "answer": "Hij werkt vandaag niet",
+      "altAnswers": [
+        "Hij werkt niet vandaag"
+      ],
+      "explain": "Frase curta: niet no fim. Com contraste (niet vandaag, maar morgen) ele também pode vir antes de vandaag."
+    },
+    {
+      "type": "order",
+      "pt": "Eu comprei dois (deles).",
+      "tokens": [
+        "Ik",
+        "heb",
+        "er",
+        "twee",
+        "gekocht"
+      ],
+      "answer": "Ik heb er twee gekocht",
+      "explain": "O er fica logo depois do verbo e o particípio gekocht fecha a pinça no fim."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "Ik heb geen tijd.",
+          "Eu não tenho tempo."
+        ],
+        [
+          "Ik heb er twee.",
+          "Eu tenho dois (deles)."
+        ],
+        [
+          "Hij is niet thuis.",
+          "Ele não está em casa."
+        ],
+        [
+          "Er is geen melk.",
+          "Não há leite."
+        ]
+      ],
+      "explain": "Quatro frases-chave: geen + substantivo, er de quantidade, niet com lugar e o er existencial."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "de honger",
+          "a fome"
+        ],
+        [
+          "de tijd",
+          "o tempo"
+        ],
+        [
+          "thuis",
+          "em casa"
+        ],
+        [
+          "de melk",
+          "o leite"
+        ],
+        [
+          "al",
+          "já"
+        ]
+      ],
+      "explain": "Vocabulário da lição. Lembre: honger e dorst (fome e sede) pedem geen quando você NÃO tem."
+    }
+  ]
+}
