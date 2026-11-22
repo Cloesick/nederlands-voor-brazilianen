@@ -1,33 +1,82 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "word": {
-    "nl": "de paraplu",
+    "nl": "de vergadering",
     "art": "de",
-    "split": "para (contra) + plu (chuva)",
-    "pt": "guarda-chuva",
-    "emoji": "☂️"
+    "split": "ver (junto) + gadering (reunir)",
+    "pt": "reunião",
+    "emoji": "🧑‍💼"
   },
   "phrase": {
     "nl": [
-      {"t":"Kunt","r":"verb"},
-      {"t":"u","r":"pron"},
-      {"t":"dat","r":"pron"},
-      {"t":"herhalen","r":"verb"},
-      {"t":",","r":"punc"},
-      {"t":"alstublieft","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "heb",
+        "r": "verb"
+      },
+      {
+        "t": "een",
+        "r": "art"
+      },
+      {
+        "t": "afspraak",
+        "r": "noun"
+      },
+      {
+        "t": "bij",
+        "r": "prep"
+      },
+      {
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "dokter",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
     "pt": [
-      {"t":"O","r":"art"},
-      {"t":"senhor","r":"pron"},
-      {"t":"poderia","r":"verb"},
-      {"t":"repetir","r":"verb"},
-      {"t":"isso","r":"pron"},
-      {"t":",","r":"punc"},
-      {"t":"por favor","r":"adv"},
-      {"t":"?","r":"punc"}
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "tenho",
+        "r": "verb"
+      },
+      {
+        "t": "uma",
+        "r": "art"
+      },
+      {
+        "t": "consulta",
+        "r": "noun"
+      },
+      {
+        "t": "com",
+        "r": "prep"
+      },
+      {
+        "t": "o",
+        "r": "art"
+      },
+      {
+        "t": "médico",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
     ],
-    "lit": "Pode o senhor isso repetir, por favor?",
-    "note": "Em holandês o verbo modal 'kunt' vem na frente na pergunta e o infinitivo 'herhalen' vai para o fim da frase. Com 'u' (formal) é educado com atendentes e desconhecidos; entre amigos use 'Kun je dat herhalen?'. 🗣️"
+    "lit": "Eu tenho um compromisso na o médico.",
+    "note": "'Afspraak' é qualquer compromisso marcado (médico, reunião, encontro). Em holandês se diz 'bij de dokter' (junto ao médico), não 'com'. 🩺"
   }
 }
