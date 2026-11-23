@@ -1,0 +1,74 @@
+{
+  "date": "2026-11-23",
+  "word": {
+    "nl": "de apotheek",
+    "art": "de",
+    "split": "apo (longe) + theek (guarda)",
+    "pt": "farmácia",
+    "emoji": "💊"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Mag",
+        "r": "verb"
+      },
+      {
+        "t": "ik",
+        "r": "pron"
+      },
+      {
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "rekening",
+        "r": "noun"
+      },
+      {
+        "t": ",",
+        "r": "punc"
+      },
+      {
+        "t": "alstublieft",
+        "r": "adv"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Posso",
+        "r": "verb"
+      },
+      {
+        "t": "pedir",
+        "r": "verb"
+      },
+      {
+        "t": "a",
+        "r": "art"
+      },
+      {
+        "t": "conta",
+        "r": "noun"
+      },
+      {
+        "t": ",",
+        "r": "punc"
+      },
+      {
+        "t": "por favor",
+        "r": "adv"
+      },
+      {
+        "t": "?",
+        "r": "punc"
+      }
+    ],
+    "lit": "Posso eu a conta, por favor?",
+    "note": "Em restaurantes na Flandres, você precisa pedir a conta: o garçom raramente a traz sozinho. 'Mag ik' (posso) é a forma educada de pedir algo. 🧾"
+  }
+}

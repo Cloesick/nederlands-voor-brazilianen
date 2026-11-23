@@ -1,82 +1,74 @@
 {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "word": {
-    "nl": "de vergadering",
+    "nl": "de apotheek",
     "art": "de",
-    "split": "ver (junto) + gadering (reunir)",
-    "pt": "reunião",
-    "emoji": "🧑‍💼"
+    "split": "apo (longe) + theek (guarda)",
+    "pt": "farmácia",
+    "emoji": "💊"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Ik",
-        "r": "pron"
-      },
-      {
-        "t": "heb",
+        "t": "Mag",
         "r": "verb"
       },
       {
-        "t": "een",
-        "r": "art"
-      },
-      {
-        "t": "afspraak",
-        "r": "noun"
-      },
-      {
-        "t": "bij",
-        "r": "prep"
+        "t": "ik",
+        "r": "pron"
       },
       {
         "t": "de",
         "r": "art"
       },
       {
-        "t": "dokter",
+        "t": "rekening",
         "r": "noun"
       },
       {
-        "t": ".",
+        "t": ",",
+        "r": "punc"
+      },
+      {
+        "t": "alstublieft",
+        "r": "adv"
+      },
+      {
+        "t": "?",
         "r": "punc"
       }
     ],
     "pt": [
       {
-        "t": "Eu",
-        "r": "pron"
-      },
-      {
-        "t": "tenho",
+        "t": "Posso",
         "r": "verb"
       },
       {
-        "t": "uma",
+        "t": "pedir",
+        "r": "verb"
+      },
+      {
+        "t": "a",
         "r": "art"
       },
       {
-        "t": "consulta",
+        "t": "conta",
         "r": "noun"
       },
       {
-        "t": "com",
-        "r": "prep"
+        "t": ",",
+        "r": "punc"
       },
       {
-        "t": "o",
-        "r": "art"
+        "t": "por favor",
+        "r": "adv"
       },
       {
-        "t": "médico",
-        "r": "noun"
-      },
-      {
-        "t": ".",
+        "t": "?",
         "r": "punc"
       }
     ],
-    "lit": "Eu tenho um compromisso na o médico.",
-    "note": "'Afspraak' é qualquer compromisso marcado (médico, reunião, encontro). Em holandês se diz 'bij de dokter' (junto ao médico), não 'com'. 🩺"
+    "lit": "Posso eu a conta, por favor?",
+    "note": "Em restaurantes na Flandres, você precisa pedir a conta: o garçom raramente a traz sozinho. 'Mag ik' (posso) é a forma educada de pedir algo. 🧾"
   }
 }
