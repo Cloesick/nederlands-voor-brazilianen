@@ -1,0 +1,826 @@
+{
+  "id": "a1-11-werkwoorden",
+  "unit": "A1",
+  "title": "Verbos no presente · Werkwoorden (ik werk, hij werkt, wij werken)",
+  "emoji": "🔤",
+  "teaching": [
+    {
+      "emoji": "🌱",
+      "title": "A raiz do verbo (stam) e as terminações",
+      "html": "<p>Em português cada pessoa tem uma terminação diferente (eu trabalho, você trabalha, nós trabalhamos...). Em neerlandês é <b>muito mais simples</b>: só existem duas formas no presente. 🎉</p><p><b>Passo 1:</b> pegue o infinitivo e tire o <b>-en</b>. Isso é a <b>stam</b> (raiz): <i>werken → werk</i>, <i>wonen → woon</i>.</p><table class=\"vocab\"><tr><th>pessoa</th><th>werken</th><th>português</th></tr><tr><td>ik</td><td><b>werk</b></td><td><small>eu trabalho</small></td></tr><tr><td>jij / je</td><td><b>werkt</b></td><td><small>você trabalha</small></td></tr><tr><td>hij / zij / het</td><td><b>werkt</b></td><td><small>ele / ela trabalha</small></td></tr><tr><td>wij / we</td><td><b>werken</b></td><td><small>nós trabalhamos</small></td></tr><tr><td>jullie</td><td><b>werken</b></td><td><small>vocês trabalham</small></td></tr><tr><td>zij (eles)</td><td><b>werken</b></td><td><small>eles trabalham</small></td></tr></table><p>Resumo: <b>ik = raiz</b>, <b>jij/hij/zij/het = raiz + t</b>, <b>wij/jullie/zij (plural) = infinitivo (raiz + en)</b>. 🧠</p><p>Atenção à ortografia: <i>wonen → woon</i> (a vogal longa ganha o 2º o) e <i>leren → leer</i>. Mas o plural volta a ser <i>wonen</i>, <i>leren</i>.</p>"
+    },
+    {
+      "emoji": "🔄",
+      "title": "Inversão: o -t some em \"Werk jij?\"",
+      "html": "<p>Para perguntar sem palavra interrogativa, o verbo vai para o início e o sujeito vem depois. Quando o sujeito é <b>jij</b> ou <b>je</b>, o <b>-t desaparece</b>:</p><table class=\"vocab\"><tr><th>afirmação</th><th>pergunta</th></tr><tr><td>Jij werkt vandaag.</td><td><b>Werk jij</b> vandaag? <small>(Você trabalha hoje?)</small></td></tr><tr><td>Je woont in Gent.</td><td><b>Woon je</b> in Gent? <small>(Você mora em Gent?)</small></td></tr></table><p>⚠️ Isso vale só para <b>jij/je</b>. Com hij, zij e het o -t fica: <i>Werkt hij?</i> (Ele trabalha?). Em Flandres, <i>je</i> e <i>jij</i> são o tratamento normal entre colegas e amigos. 🇧🇪</p><p>💡 Pense assim: em <i>Werk jij?</i> você ouve o \"jij\", então o -t seria um eco desnecessário.</p>"
+    },
+    {
+      "emoji": "⚡",
+      "title": "Os dois irregulares: zijn e hebben",
+      "html": "<p>Os verbos mais usados do idioma fogem da regra. Decore as formas, são a base de tudo:</p><table class=\"vocab\"><tr><th>pessoa</th><th>zijn (ser/estar)</th><th>hebben (ter)</th></tr><tr><td>ik</td><td><b>ben</b></td><td><b>heb</b></td></tr><tr><td>jij / je</td><td><b>bent</b></td><td><b>hebt</b></td></tr><tr><td>hij / zij / het</td><td><b>is</b></td><td><b>heeft</b></td></tr><tr><td>wij / jullie / zij</td><td><b>zijn</b></td><td><b>hebben</b></td></tr></table><p>Na inversão: <i>Ben je moe?</i> (Você está cansado?) e <i>Heb je honger?</i> (Você está com fome?), sem -t. ✅</p><p>🇧🇷 Diferença útil: o neerlandês usa <b>zijn</b> para ser e estar (<i>Ik ben moe</i> = estou cansado), e <b>hebben</b> para fome e sede (<i>Ik heb honger</i> = tenho fome).</p>"
+    }
+  ],
+  "phrases": [
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "werk",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "trabalho",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "lit": "eu trabalho em Gent",
+      "note": "Ik: raiz do verbo, sem terminação."
+    },
+    {
+      "nl": [
+        {
+          "t": "Jij",
+          "r": "pron"
+        },
+        {
+          "t": "werkt",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Brussel",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Você",
+          "r": "pron"
+        },
+        {
+          "t": "trabalha",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Bruxelas",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "note": "jij/hij/zij/het: raiz + t."
+    },
+    {
+      "nl": [
+        {
+          "t": "Hij",
+          "r": "pron"
+        },
+        {
+          "t": "woont",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Leuven",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Ele",
+          "r": "pron"
+        },
+        {
+          "t": "mora",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Leuven",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ]
+    },
+    {
+      "nl": [
+        {
+          "t": "Wij",
+          "r": "pron"
+        },
+        {
+          "t": "wonen",
+          "r": "verb"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Antwerpen",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Nós",
+          "r": "pron"
+        },
+        {
+          "t": "moramos",
+          "r": "verb"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Antuérpia",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "note": "wij/jullie/zij (plural): infinitivo, raiz + en."
+    },
+    {
+      "nl": [
+        {
+          "t": "Jullie",
+          "r": "pron"
+        },
+        {
+          "t": "spelen",
+          "r": "verb"
+        },
+        {
+          "t": "voetbal",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Vocês",
+          "r": "pron"
+        },
+        {
+          "t": "jogam",
+          "r": "verb"
+        },
+        {
+          "t": "futebol",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ]
+    },
+    {
+      "nl": [
+        {
+          "t": "Werk",
+          "r": "verb"
+        },
+        {
+          "t": "jij",
+          "r": "pron"
+        },
+        {
+          "t": "vandaag",
+          "r": "adv"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Trabalha",
+          "r": "verb"
+        },
+        {
+          "t": "você",
+          "r": "pron"
+        },
+        {
+          "t": "hoje",
+          "r": "adv"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "lit": "trabalha você hoje?",
+      "note": "Na inversão o t de jij some: Jij werkt, mas Werk jij?"
+    },
+    {
+      "nl": [
+        {
+          "t": "Woon",
+          "r": "verb"
+        },
+        {
+          "t": "je",
+          "r": "pron"
+        },
+        {
+          "t": "in",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Mora",
+          "r": "verb"
+        },
+        {
+          "t": "você",
+          "r": "pron"
+        },
+        {
+          "t": "em",
+          "r": "prep"
+        },
+        {
+          "t": "Gent",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "note": "Com je/jij depois do verbo, nunca -t."
+    },
+    {
+      "nl": [
+        {
+          "t": "Ik",
+          "r": "pron"
+        },
+        {
+          "t": "ben",
+          "r": "verb"
+        },
+        {
+          "t": "Sofia",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eu",
+          "r": "pron"
+        },
+        {
+          "t": "sou",
+          "r": "verb"
+        },
+        {
+          "t": "Sofia",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "note": "zijn é irregular: ik ben, jij bent, hij is, wij zijn."
+    },
+    {
+      "nl": [
+        {
+          "t": "Hij",
+          "r": "pron"
+        },
+        {
+          "t": "is",
+          "r": "verb"
+        },
+        {
+          "t": "moe",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Ele",
+          "r": "pron"
+        },
+        {
+          "t": "está",
+          "r": "verb"
+        },
+        {
+          "t": "cansado",
+          "r": "adj"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ]
+    },
+    {
+      "nl": [
+        {
+          "t": "Wij",
+          "r": "pron"
+        },
+        {
+          "t": "hebben",
+          "r": "verb"
+        },
+        {
+          "t": "een",
+          "r": "art"
+        },
+        {
+          "t": "hond",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Nós",
+          "r": "pron"
+        },
+        {
+          "t": "temos",
+          "r": "verb"
+        },
+        {
+          "t": "um",
+          "r": "art"
+        },
+        {
+          "t": "cachorro",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "note": "hebben: ik heb, jij hebt, hij heeft, wij hebben."
+    },
+    {
+      "nl": [
+        {
+          "t": "Heb",
+          "r": "verb"
+        },
+        {
+          "t": "je",
+          "r": "pron"
+        },
+        {
+          "t": "honger",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Tem",
+          "r": "verb"
+        },
+        {
+          "t": "você",
+          "r": "pron"
+        },
+        {
+          "t": "fome",
+          "r": "noun"
+        },
+        {
+          "t": "?",
+          "r": "punc"
+        }
+      ],
+      "lit": "tem você fome?",
+      "note": "Inversão: Heb je? (sem t). Mas Jij hebt."
+    },
+    {
+      "nl": [
+        {
+          "t": "Zij",
+          "r": "pron"
+        },
+        {
+          "t": "koken",
+          "r": "verb"
+        },
+        {
+          "t": "elke",
+          "r": "adj"
+        },
+        {
+          "t": "dag",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ],
+      "pt": [
+        {
+          "t": "Eles",
+          "r": "pron"
+        },
+        {
+          "t": "cozinham",
+          "r": "verb"
+        },
+        {
+          "t": "todo",
+          "r": "adj"
+        },
+        {
+          "t": "dia",
+          "r": "noun"
+        },
+        {
+          "t": ".",
+          "r": "punc"
+        }
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "nl": "werken",
+      "art": null,
+      "split": null,
+      "pt": "trabalhar",
+      "emoji": "💼"
+    },
+    {
+      "nl": "wonen",
+      "art": null,
+      "split": null,
+      "pt": "morar",
+      "emoji": "🏠"
+    },
+    {
+      "nl": "spelen",
+      "art": null,
+      "split": null,
+      "pt": "jogar, brincar, tocar",
+      "emoji": "⚽"
+    },
+    {
+      "nl": "koken",
+      "art": null,
+      "split": null,
+      "pt": "cozinhar",
+      "emoji": "🍳"
+    },
+    {
+      "nl": "leren",
+      "art": null,
+      "split": null,
+      "pt": "aprender, estudar",
+      "emoji": "📖"
+    },
+    {
+      "nl": "fietsen",
+      "art": null,
+      "split": null,
+      "pt": "andar de bicicleta",
+      "emoji": "🚲"
+    },
+    {
+      "nl": "kopen",
+      "art": null,
+      "split": null,
+      "pt": "comprar",
+      "emoji": "🛍️"
+    },
+    {
+      "nl": "praten",
+      "art": null,
+      "split": null,
+      "pt": "conversar",
+      "emoji": "💬"
+    },
+    {
+      "nl": "de stam",
+      "art": "de",
+      "split": null,
+      "pt": "a raiz do verbo (stam)",
+      "emoji": "🌱"
+    },
+    {
+      "nl": "de uitgang",
+      "art": "de",
+      "split": null,
+      "pt": "a terminação",
+      "emoji": "🔚"
+    },
+    {
+      "nl": "zijn",
+      "art": null,
+      "split": null,
+      "pt": "ser, estar",
+      "emoji": "🙋"
+    },
+    {
+      "nl": "hebben",
+      "art": null,
+      "split": null,
+      "pt": "ter",
+      "emoji": "🤲"
+    },
+    {
+      "nl": "vandaag",
+      "art": null,
+      "split": null,
+      "pt": "hoje",
+      "emoji": "📅"
+    },
+    {
+      "nl": "elke dag",
+      "art": null,
+      "split": null,
+      "pt": "todo dia",
+      "emoji": "🔁"
+    },
+    {
+      "nl": "de honger",
+      "art": "de",
+      "split": null,
+      "pt": "a fome",
+      "emoji": "🍽️"
+    },
+    {
+      "nl": "moe",
+      "art": null,
+      "split": null,
+      "pt": "cansado",
+      "emoji": "😴"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "mc",
+      "q": "Como se forma a raiz (stam) de \"werken\"? 🌱",
+      "options": [
+        "werkt",
+        "werk",
+        "werke",
+        "gewerk"
+      ],
+      "answer": 1,
+      "explain": "Tire o -en do infinitivo: werken → werk. É a forma usada com ik."
+    },
+    {
+      "type": "mc",
+      "q": "Qual é a forma correta? \"Hij ... in Brussel.\" (wonen) 🏠",
+      "options": [
+        "woon",
+        "woont",
+        "wonen",
+        "woonen"
+      ],
+      "answer": 1,
+      "explain": "Com hij/zij/het: raiz + t. woon + t = woont."
+    },
+    {
+      "type": "mc",
+      "q": "Qual frase está correta? 🔄",
+      "options": [
+        "Werkt jij vandaag?",
+        "Werk jij vandaag?",
+        "Werken jij vandaag?",
+        "Werke jij vandaag?"
+      ],
+      "answer": 1,
+      "explain": "Na inversão com jij/je o -t some: Werk jij vandaag?"
+    },
+    {
+      "type": "listen",
+      "nl": "Wij wonen in Antwerpen.",
+      "options": [
+        "Eu moro em Antuérpia",
+        "Nós moramos em Antuérpia",
+        "Ele mora em Antuérpia"
+      ],
+      "answer": 1,
+      "explain": "wij + wonen (terminação -en) = nós moramos."
+    },
+    {
+      "type": "listen",
+      "nl": "Hij heeft honger.",
+      "options": [
+        "Ele está com fome",
+        "Ele está cansado",
+        "Você está com fome"
+      ],
+      "answer": 0,
+      "explain": "hij heeft = ele tem. Em neerlandês \"ter fome\" é usado como em português: honger hebben."
+    },
+    {
+      "type": "listen",
+      "nl": "Ben je moe?",
+      "options": [
+        "Você está cansado?",
+        "Eu estou cansado?",
+        "Ele está cansado?"
+      ],
+      "answer": 0,
+      "explain": "Inversão de je bent: Ben je...? Sem -t, porque je vem depois do verbo."
+    },
+    {
+      "type": "fill",
+      "before": "Ik",
+      "after": "in Gent. (wonen)",
+      "answer": "woon",
+      "hint": "raiz de wonen, com ik",
+      "explain": "Com ik usamos só a raiz: woon (a vogal longa ganha o 2º o)."
+    },
+    {
+      "type": "fill",
+      "before": "Jij",
+      "after": "elke dag. (werken)",
+      "answer": "werkt",
+      "hint": "raiz + t",
+      "explain": "Com jij na afirmação: raiz + t = werkt."
+    },
+    {
+      "type": "fill",
+      "before": "",
+      "after": "jij vandaag? (werken)",
+      "answer": "Werk",
+      "alt": [
+        "werk"
+      ],
+      "hint": "inversão, sem t",
+      "explain": "Na pergunta com jij o -t some: Werk jij vandaag?"
+    },
+    {
+      "type": "fill",
+      "before": "Wij",
+      "after": "een hond. (hebben)",
+      "answer": "hebben",
+      "hint": "plural = infinitivo",
+      "explain": "Com wij: hebben, igual ao infinitivo."
+    },
+    {
+      "type": "fill",
+      "before": "Hij",
+      "after": "moe. (zijn)",
+      "answer": "is",
+      "hint": "irregular",
+      "explain": "hij is. zijn é irregular: ben, bent, is, zijn."
+    },
+    {
+      "type": "order",
+      "pt": "Você mora em Gent?",
+      "tokens": [
+        "Woon",
+        "je",
+        "in",
+        "Gent"
+      ],
+      "answer": "Woon je in Gent",
+      "explain": "Inversão: verbo primeiro, depois je, sem -t."
+    },
+    {
+      "type": "order",
+      "pt": "Nós temos um cachorro.",
+      "tokens": [
+        "Wij",
+        "hebben",
+        "een",
+        "hond"
+      ],
+      "answer": "Wij hebben een hond",
+      "explain": "wij hebben: plural usa a forma do infinitivo."
+    },
+    {
+      "type": "match",
+      "pairs": [
+        [
+          "werken",
+          "trabalhar"
+        ],
+        [
+          "wonen",
+          "morar"
+        ],
+        [
+          "koken",
+          "cozinhar"
+        ],
+        [
+          "kopen",
+          "comprar"
+        ],
+        [
+          "fietsen",
+          "andar de bicicleta"
+        ]
+      ],
+      "explain": "Cinco verbos regulares para conjugar com a regra da raiz: werk, woon, kook, koop, fiets."
+    }
+  ]
+}
