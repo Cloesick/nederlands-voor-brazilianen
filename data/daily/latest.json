@@ -1,74 +1,66 @@
 {
-  "date": "2026-11-23",
+  "date": "2026-11-24",
   "word": {
-    "nl": "de apotheek",
+    "nl": "de bushalte",
     "art": "de",
-    "split": "apo (longe) + theek (guarda)",
-    "pt": "farmácia",
-    "emoji": "💊"
+    "split": "bus (ônibus) + halte (parada)",
+    "pt": "ponto de ônibus",
+    "emoji": "🚏"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Mag",
-        "r": "verb"
-      },
-      {
-        "t": "ik",
+        "t": "Ik",
         "r": "pron"
       },
       {
-        "t": "de",
-        "r": "art"
+        "t": "heb",
+        "r": "verb"
       },
       {
-        "t": "rekening",
-        "r": "noun"
-      },
-      {
-        "t": ",",
-        "r": "punc"
-      },
-      {
-        "t": "alstublieft",
+        "t": "vandaag",
         "r": "adv"
       },
       {
-        "t": "?",
+        "t": "geen",
+        "r": "neg"
+      },
+      {
+        "t": "tijd",
+        "r": "noun"
+      },
+      {
+        "t": ".",
         "r": "punc"
       }
     ],
     "pt": [
       {
-        "t": "Posso",
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "não",
+        "r": "neg"
+      },
+      {
+        "t": "tenho",
         "r": "verb"
       },
       {
-        "t": "pedir",
-        "r": "verb"
-      },
-      {
-        "t": "a",
-        "r": "art"
-      },
-      {
-        "t": "conta",
+        "t": "tempo",
         "r": "noun"
       },
       {
-        "t": ",",
-        "r": "punc"
-      },
-      {
-        "t": "por favor",
+        "t": "hoje",
         "r": "adv"
       },
       {
-        "t": "?",
+        "t": ".",
         "r": "punc"
       }
     ],
-    "lit": "Posso eu a conta, por favor?",
-    "note": "Em restaurantes na Flandres, você precisa pedir a conta: o garçom raramente a traz sozinho. 'Mag ik' (posso) é a forma educada de pedir algo. 🧾"
+    "lit": "Eu tenho hoje nenhum tempo.",
+    "note": "Em holandês a negação com substantivo usa 'geen' (nenhum/nem um), não 'niet': 'geen tijd', 'geen probleem'. ⏰"
   }
 }
