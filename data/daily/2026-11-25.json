@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-25",
+  "word": {
+    "nl": "de frigo",
+    "art": "de",
+    "split": "frigo (abreviação de frigorífico)",
+    "pt": "geladeira",
+    "emoji": "🧊"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "moet",
+        "r": "verb"
+      },
+      {
+        "t": "morgen",
+        "r": "adv"
+      },
+      {
+        "t": "vroeg",
+        "r": "adv"
+      },
+      {
+        "t": "opstaan",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "preciso",
+        "r": "verb"
+      },
+      {
+        "t": "acordar",
+        "r": "verb"
+      },
+      {
+        "t": "cedo",
+        "r": "adv"
+      },
+      {
+        "t": "amanhã",
+        "r": "adv"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Eu devo amanhã cedo levantar.",
+    "note": "O verbo separável 'opstaan' (op + staan) fica no infinitivo no fim da frase quando há um verbo modal como 'moeten'. ⏰"
+  }
+}

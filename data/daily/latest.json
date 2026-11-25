@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-24",
+  "date": "2026-11-25",
   "word": {
-    "nl": "de bushalte",
+    "nl": "de frigo",
     "art": "de",
-    "split": "bus (ônibus) + halte (parada)",
-    "pt": "ponto de ônibus",
-    "emoji": "🚏"
+    "split": "frigo (abreviação de frigorífico)",
+    "pt": "geladeira",
+    "emoji": "🧊"
   },
   "phrase": {
     "nl": [
@@ -14,20 +14,20 @@
         "r": "pron"
       },
       {
-        "t": "heb",
+        "t": "moet",
         "r": "verb"
       },
       {
-        "t": "vandaag",
+        "t": "morgen",
         "r": "adv"
       },
       {
-        "t": "geen",
-        "r": "neg"
+        "t": "vroeg",
+        "r": "adv"
       },
       {
-        "t": "tijd",
-        "r": "noun"
+        "t": "opstaan",
+        "r": "verb"
       },
       {
         "t": ".",
@@ -40,19 +40,19 @@
         "r": "pron"
       },
       {
-        "t": "não",
-        "r": "neg"
-      },
-      {
-        "t": "tenho",
+        "t": "preciso",
         "r": "verb"
       },
       {
-        "t": "tempo",
-        "r": "noun"
+        "t": "acordar",
+        "r": "verb"
       },
       {
-        "t": "hoje",
+        "t": "cedo",
+        "r": "adv"
+      },
+      {
+        "t": "amanhã",
         "r": "adv"
       },
       {
@@ -60,7 +60,7 @@
         "r": "punc"
       }
     ],
-    "lit": "Eu tenho hoje nenhum tempo.",
-    "note": "Em holandês a negação com substantivo usa 'geen' (nenhum/nem um), não 'niet': 'geen tijd', 'geen probleem'. ⏰"
+    "lit": "Eu devo amanhã cedo levantar.",
+    "note": "O verbo separável 'opstaan' (op + staan) fica no infinitivo no fim da frase quando há um verbo modal como 'moeten'. ⏰"
   }
 }
