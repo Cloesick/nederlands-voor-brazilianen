@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-25",
+  "date": "2026-11-26",
   "word": {
-    "nl": "de frigo",
+    "nl": "de zetel",
     "art": "de",
-    "split": "frigo (abreviação de frigorífico)",
-    "pt": "geladeira",
-    "emoji": "🧊"
+    "split": "zetel (sofá, em flamengo)",
+    "pt": "sofá",
+    "emoji": "🛋️"
   },
   "phrase": {
     "nl": [
@@ -14,19 +14,27 @@
         "r": "pron"
       },
       {
-        "t": "moet",
+        "t": "weet",
         "r": "verb"
       },
       {
-        "t": "morgen",
+        "t": "niet",
+        "r": "neg"
+      },
+      {
+        "t": "of",
+        "r": "conj"
+      },
+      {
+        "t": "hij",
+        "r": "pron"
+      },
+      {
+        "t": "vandaag",
         "r": "adv"
       },
       {
-        "t": "vroeg",
-        "r": "adv"
-      },
-      {
-        "t": "opstaan",
+        "t": "komt",
         "r": "verb"
       },
       {
@@ -40,19 +48,27 @@
         "r": "pron"
       },
       {
-        "t": "preciso",
+        "t": "não",
+        "r": "neg"
+      },
+      {
+        "t": "sei",
         "r": "verb"
       },
       {
-        "t": "acordar",
+        "t": "se",
+        "r": "conj"
+      },
+      {
+        "t": "ele",
+        "r": "pron"
+      },
+      {
+        "t": "vem",
         "r": "verb"
       },
       {
-        "t": "cedo",
-        "r": "adv"
-      },
-      {
-        "t": "amanhã",
+        "t": "hoje",
         "r": "adv"
       },
       {
@@ -60,7 +76,7 @@
         "r": "punc"
       }
     ],
-    "lit": "Eu devo amanhã cedo levantar.",
-    "note": "O verbo separável 'opstaan' (op + staan) fica no infinitivo no fim da frase quando há um verbo modal como 'moeten'. ⏰"
+    "lit": "Eu sei não se ele hoje vem.",
+    "note": "Depois de 'of' (se), o verbo vai para o fim da oração: 'of hij vandaag komt'. Na Bélgica, 'zetel' é o sofá do dia a dia. 🛋️"
   }
 }

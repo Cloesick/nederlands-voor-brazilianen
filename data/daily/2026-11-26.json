@@ -1,0 +1,82 @@
+{
+  "date": "2026-11-26",
+  "word": {
+    "nl": "de zetel",
+    "art": "de",
+    "split": "zetel (sofá, em flamengo)",
+    "pt": "sofá",
+    "emoji": "🛋️"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "weet",
+        "r": "verb"
+      },
+      {
+        "t": "niet",
+        "r": "neg"
+      },
+      {
+        "t": "of",
+        "r": "conj"
+      },
+      {
+        "t": "hij",
+        "r": "pron"
+      },
+      {
+        "t": "vandaag",
+        "r": "adv"
+      },
+      {
+        "t": "komt",
+        "r": "verb"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "não",
+        "r": "neg"
+      },
+      {
+        "t": "sei",
+        "r": "verb"
+      },
+      {
+        "t": "se",
+        "r": "conj"
+      },
+      {
+        "t": "ele",
+        "r": "pron"
+      },
+      {
+        "t": "vem",
+        "r": "verb"
+      },
+      {
+        "t": "hoje",
+        "r": "adv"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Eu sei não se ele hoje vem.",
+    "note": "Depois de 'of' (se), o verbo vai para o fim da oração: 'of hij vandaag komt'. Na Bélgica, 'zetel' é o sofá do dia a dia. 🛋️"
+  }
+}
