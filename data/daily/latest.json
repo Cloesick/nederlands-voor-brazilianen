@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "word": {
-    "nl": "de zetel",
+    "nl": "de loonfiche",
     "art": "de",
-    "split": "zetel (sofá, em flamengo)",
-    "pt": "sofá",
-    "emoji": "🛋️"
+    "split": "loon (salário) + fiche (ficha, comprovante)",
+    "pt": "holerite, contracheque",
+    "emoji": "💶"
   },
   "phrase": {
     "nl": [
@@ -14,28 +14,20 @@
         "r": "pron"
       },
       {
-        "t": "weet",
+        "t": "ben",
         "r": "verb"
       },
       {
-        "t": "niet",
-        "r": "neg"
+        "t": "allergisch",
+        "r": "adj"
       },
       {
-        "t": "of",
-        "r": "conj"
+        "t": "voor",
+        "r": "prep"
       },
       {
-        "t": "hij",
-        "r": "pron"
-      },
-      {
-        "t": "vandaag",
-        "r": "adv"
-      },
-      {
-        "t": "komt",
-        "r": "verb"
+        "t": "noten",
+        "r": "noun"
       },
       {
         "t": ".",
@@ -48,35 +40,27 @@
         "r": "pron"
       },
       {
-        "t": "não",
-        "r": "neg"
-      },
-      {
-        "t": "sei",
+        "t": "sou",
         "r": "verb"
       },
       {
-        "t": "se",
-        "r": "conj"
+        "t": "alérgico",
+        "r": "adj"
       },
       {
-        "t": "ele",
-        "r": "pron"
+        "t": "a",
+        "r": "prep"
       },
       {
-        "t": "vem",
-        "r": "verb"
-      },
-      {
-        "t": "hoje",
-        "r": "adv"
+        "t": "nozes",
+        "r": "noun"
       },
       {
         "t": ".",
         "r": "punc"
       }
     ],
-    "lit": "Eu sei não se ele hoje vem.",
-    "note": "Depois de 'of' (se), o verbo vai para o fim da oração: 'of hij vandaag komt'. Na Bélgica, 'zetel' é o sofá do dia a dia. 🛋️"
+    "lit": "Eu sou alérgico para nozes.",
+    "note": "Na Flandres se diz 'allergisch voor' (literalmente 'para'), não 'a'. Se for mulher, em português: 'alérgica'. 🥜"
   }
 }

@@ -1,0 +1,66 @@
+{
+  "date": "2026-11-27",
+  "word": {
+    "nl": "de loonfiche",
+    "art": "de",
+    "split": "loon (salário) + fiche (ficha, comprovante)",
+    "pt": "holerite, contracheque",
+    "emoji": "💶"
+  },
+  "phrase": {
+    "nl": [
+      {
+        "t": "Ik",
+        "r": "pron"
+      },
+      {
+        "t": "ben",
+        "r": "verb"
+      },
+      {
+        "t": "allergisch",
+        "r": "adj"
+      },
+      {
+        "t": "voor",
+        "r": "prep"
+      },
+      {
+        "t": "noten",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "pt": [
+      {
+        "t": "Eu",
+        "r": "pron"
+      },
+      {
+        "t": "sou",
+        "r": "verb"
+      },
+      {
+        "t": "alérgico",
+        "r": "adj"
+      },
+      {
+        "t": "a",
+        "r": "prep"
+      },
+      {
+        "t": "nozes",
+        "r": "noun"
+      },
+      {
+        "t": ".",
+        "r": "punc"
+      }
+    ],
+    "lit": "Eu sou alérgico para nozes.",
+    "note": "Na Flandres se diz 'allergisch voor' (literalmente 'para'), não 'a'. Se for mulher, em português: 'alérgica'. 🥜"
+  }
+}
