@@ -1,36 +1,40 @@
 {
-  "date": "2026-11-27",
+  "date": "2026-11-28",
   "word": {
-    "nl": "de loonfiche",
+    "nl": "de boterham",
     "art": "de",
-    "split": "loon (salário) + fiche (ficha, comprovante)",
-    "pt": "holerite, contracheque",
-    "emoji": "💶"
+    "split": "boter (manteiga) + ham (presunto)",
+    "pt": "sanduíche de pão de forma, pão com recheio",
+    "emoji": "🥪"
   },
   "phrase": {
     "nl": [
       {
-        "t": "Ik",
-        "r": "pron"
-      },
-      {
-        "t": "ben",
+        "t": "Kan",
         "r": "verb"
       },
       {
-        "t": "allergisch",
-        "r": "adj"
+        "t": "ik",
+        "r": "pron"
       },
       {
-        "t": "voor",
+        "t": "met",
         "r": "prep"
       },
       {
-        "t": "noten",
+        "t": "de",
+        "r": "art"
+      },
+      {
+        "t": "kaart",
         "r": "noun"
       },
       {
-        "t": ".",
+        "t": "betalen",
+        "r": "verb"
+      },
+      {
+        "t": "?",
         "r": "punc"
       }
     ],
@@ -40,27 +44,31 @@
         "r": "pron"
       },
       {
-        "t": "sou",
+        "t": "posso",
         "r": "verb"
       },
       {
-        "t": "alérgico",
-        "r": "adj"
+        "t": "pagar",
+        "r": "verb"
       },
       {
-        "t": "a",
+        "t": "com",
         "r": "prep"
       },
       {
-        "t": "nozes",
+        "t": "o",
+        "r": "art"
+      },
+      {
+        "t": "cartão",
         "r": "noun"
       },
       {
-        "t": ".",
+        "t": "?",
         "r": "punc"
       }
     ],
-    "lit": "Eu sou alérgico para nozes.",
-    "note": "Na Flandres se diz 'allergisch voor' (literalmente 'para'), não 'a'. Se for mulher, em português: 'alérgica'. 🥜"
+    "lit": "Posso eu com o cartão pagar?",
+    "note": "Na Flandres quase todo lugar aceita cartão, mas muitas lojas pedem 'Bancontact' (cartão de débito). Em 'betalen' o verbo vai para o final da frase. 💳"
   }
 }
